@@ -1,0 +1,21 @@
+{
+  "episode_id": "EP001",
+  "content_type": "feature_intro",
+  "title": "",
+  "hook": "",
+  "core_message": "",
+  "characters": [],
+  "environment": "",
+  "target_duration_sec": 25,
+  "scenes": [],
+  "status": {
+    "script": "pending",
+    "images": "pending",
+    "video": "pending",
+    "voice": "pending",
+    "lipsync": "pending",
+    "edit": "pending",
+    "color": "pending",
+    "qc": "pending"
+  }
+}

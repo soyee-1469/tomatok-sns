@@ -1,0 +1,24 @@
+{
+  "scene_id": "EP001_SC01",
+  "characters": [],
+  "environment": "MAIN_LIVINGROOM",
+  "shot_type": "MASTER_35MM",
+  "action": "",
+  "emotion": "",
+  "dialogue": "",
+  "speaker": "",
+  "duration_sec": 3.5,
+  "character_references": [],
+  "environment_reference": "",
+  "anchor_image": "",
+  "voice_file": "",
+  "video_file": "",
+  "lipsync_file": "",
+  "status": {
+    "anchor_image": "pending",
+    "voice": "pending",
+    "video": "pending",
+    "lipsync": "pending",
+    "qc": "pending"
+  }
+}

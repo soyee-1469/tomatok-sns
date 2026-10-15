@@ -1,0 +1,29 @@
+# 이미지는 아이맥에만 둔다. GitHub에 올리지 않는다.
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.heic
+*.heif
+*.tif
+*.tiff
+*.bmp
+*.avif
+*.ico
+*.psd
+*.raw
+*.svg
+
+# dependencies, secrets, OS temp, cache
+node_modules/
+.next/
+.env
+.env.local
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+.cache/
+*.log

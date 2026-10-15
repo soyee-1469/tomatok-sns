@@ -1,0 +1,21 @@
+{
+  "id": "EP01",
+  "type": "SITCOM",
+  "title": "가족 단톡방",
+  "status": "IMAGE_GENERATION",
+  "lastCompleted": "STORYBOARD_APPROVED",
+  "nextTask": "Generate EP01 still images",
+  "publishDate": null,
+  "platforms": ["Instagram Reels", "YouTube Shorts"],
+  "updatedBy": "Cursor",
+  "updatedAt": "2026-10-15T13:26:03+09:00",
+  "assets": {
+    "script": true,
+    "storyboard": true,
+    "characterReference": true,
+    "locationReference": false,
+    "stills": false,
+    "video": false,
+    "final": false
+  }
+}

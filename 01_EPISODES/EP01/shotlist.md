@@ -1,0 +1,17 @@
+# EP01 SHOTLIST
+
+STATUS: IMAGE_GENERATION
+
+| CUT ID | Shot | Character | Location | UI | Status |
+|---|---|---|---|---|---|
+| EP01_ST01 | MASTER TWO SHOT | F/M | CAFE_A | - | TODO |
+| EP01_ST02 | MALE MEDIUM | M | CAFE_A | KR FAMILY ROOM | TODO |
+| EP01_ST03 | TWO SHOT | F/M | CAFE_A | - | TODO |
+| EP01_ST04 | MALE REACTION / PHONE | M | CAFE_A | VN→KR TRANSLATION | TODO |
+| EP01_ST05 | TWO SHOT END | F/M | CAFE_A | JOIN ALERT | TODO |
+
+스틸 파일명은 생성 후 바꾸지 않는다. 예: `EP01_ST01.png`
+
+영상: `EP01_ST01_VIDEO_v01.mp4`
+
+최종: `EP01_INSTAGRAM_REELS_FINAL.mp4`, `EP01_YOUTUBE_SHORTS_FINAL.mp4`
