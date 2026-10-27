@@ -86,6 +86,8 @@ FEATURE001: scheduled
 4. `git commit`
 5. `git push`
 
+Claude Code 세션은 종료 시 `.claude/hooks/session_end_autocommit.sh`가 문서 파일(md, json, txt, html, css, js, csv, tsv, yml)만 자동으로 커밋하고 푸시한다(2026-10-27 설정). 영상, PDF, 압축 파일은 자동 커밋에서 제외되므로 올릴 일이 있으면 LFS 필요 여부를 먼저 보고한다. 의미 있는 작업 단위는 자동 커밋을 기다리지 말고 위 형식의 커밋 메시지로 직접 커밋한다.
+
 ## 미디어
 
 2026-10-15 기준 저장소는 약 352KB이고 이미지·영상 바이너리가 없다. Git LFS는 필요하지 않다. 이미지 결과물은 `.gitignore`로 제외하고 아이맥에만 둔다. 대용량 영상 파일을 올리게 되면 삭제하지 말고 LFS 필요 여부만 먼저 보고한다.
