@@ -1,5 +1,7 @@
 # EP01 SCRIPT
 
+> SUPERSEDED 2026-10-27: 제작 기준은 *_v05.md 파일이다. 이 파일은 참고용으로 보존.
+
 STATUS: SCRIPT_APPROVED
 
 ## ST01

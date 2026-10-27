@@ -19,7 +19,7 @@ CAST VERSION: v8 (2026-10-27 확정, ChatGPT 생성, 호감형 3차)
 - 눈썹: 자연스러운 굵기, 진한 편
 - 피부톤: 따뜻한 골드 톤, 건강한 윤기, 광대 위 옅은 주근깨
 - 점: 왼쪽 눈 아래 작은 검은 점 (식별 포인트)
-- 헤어 길이: 긴 흑발, 낮게 느슨히 묶은 포니테일, 얼굴 옆 잔머리
+- 헤어 길이: 긴 흑발, 낮게 단정히 묶은 포니테일. 잔머리 거의 없음, 매끈하게 빗은 머리 (2026-10-27 사용자 피드백: 부스스함 금지)
 - 헤어 컬러: 검정
 - 체형: 슬림, 균형 잡힌 비율
 - 키 비율: 165cm 인상, 다리 긴 비율(7.5등신)
@@ -55,7 +55,7 @@ CAST VERSION: v8 (2026-10-27 확정, ChatGPT 생성, 호감형 3차)
 
 ## IDENTITY LOCK (프롬프트에 그대로 붙여 넣는 영어 원문)
 ```text
-a 27-year-old Vietnamese woman: soft round face with gentle cheeks and a small chin, low nose bridge with a slightly rounded tip, full lips with a natural rosy color, hooded single-lidded eyes that look bright and kind with slightly downturned outer corners, warm golden skin with a healthy glow and a few faint freckles on the cheekbones, a small dark mole under the left eye, long black hair in a loose low ponytail with a few face-framing strands, thin gold wire-frame round glasses, small gold hoop earrings. Outfit: ivory chunky knit cardigan over a white t-shirt, straight mid-blue jeans, white low-top canvas sneakers. Not a model, not an idol; natural, slightly asymmetric face, real skin texture.
+a 27-year-old Vietnamese woman: soft round face with gentle cheeks and a small chin, low nose bridge with a slightly rounded tip, full lips with a natural rosy color, hooded single-lidded eyes that look bright and kind with slightly downturned outer corners, warm golden skin with a healthy glow and a few faint freckles on the cheekbones, a small dark mole under the left eye, long black hair brushed smooth into a neat low ponytail, no frizz, no flyaways, at most one or two soft strands by the ear, thin gold wire-frame round glasses, small gold hoop earrings. Outfit: ivory chunky knit cardigan over a white t-shirt, straight mid-blue jeans, white low-top canvas sneakers. Not a model, not an idol; natural, slightly asymmetric face, real skin texture.
 ```
 
 ## 이미지 슬롯

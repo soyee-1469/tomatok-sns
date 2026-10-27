@@ -1,5 +1,7 @@
 # EP01 STORYBOARD
 
+> SUPERSEDED 2026-10-27: 제작 기준은 *_v05.md 파일이다. 이 파일은 참고용으로 보존.
+
 STATUS: STORYBOARD_APPROVED
 
 5컷. 장소는 CAFE_A. 인물은 FEMALE_LEAD_01, MALE_LEAD_01.
