@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-10-29T07:28:01.469132Z",
+    "display_name": "Kling v3.0",
+    "id": "d4345080-0f80-41be-a021-a2437b9680a9",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 3,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "53377cae-64a6-4ba0-9737-44c23eeca000",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/53377cae-64a6-4ba0-9737-44c23eeca000_resize.jpg"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "SCENE CONTEXT\nContinue exactly from the start image: close-up of the woman (a 27-year-old Vietnamese woman: soft round face, low nose bridge, full lips, hooded single-lidded eyes, warm golden skin with faint freckles, a small dark mole under the left eye, long black hair in a neat low ponytail, thin gold wire-frame round glasses, small gold hoop earrings, ivory chunky knit cardigan over a white t-shirt. Not a model; natural, slightly asymmetric face, real skin texture.) in a bright cafe by a window. An iced americano in a clear plastic cup with one black straw stands on the marble table in front of her, her right hand resting next to it. She looks slightly to the right of the camera at the man sitting beside her (off screen). The man's face is never shown.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nA friend at the next table films on a smartphone held vertically, eye level, 70mm look, tight close-up. Very light handheld breathing of 1 to 2 cm, no zoom, no pan. Modern phone video: clean, natural colors, no over-sharpening, no film grain.\n\nACTION\n0.0s to 0.7s: her cheerful smile fades into a sheepish, embarrassed look; she picks up the iced americano with her right hand and brings the black straw to her lips. 0.7s to 3.0s: she sips slowly through the straw, cheeks drawn in a little, eyes sliding away from him to the side and then back, an awkward embarrassed half-smile around the straw; she keeps holding the cup and keeps sipping until the end.\n\nPERFORMANCE\nSilent acting. She does not speak at all. Her mouth is on the straw the whole time after 0.7s.\n\nPOSITIVE LOCKS\nFace, hair, glasses and clothes stay exactly as in the start image; face must not change; the small mole stays only under her left eye, no other marks appear. Eyes natural, no look at the camera. No subtitles, no on-screen text. Absolutely no music, no musical tones. One cup, one black straw.\n\nDIALOGUE\nNone. Nobody speaks. No words in any language, no humming. Only a soft sipping sound and quiet cafe ambience.",
+      "reference_elements": [],
+      "sound": "on",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_072801_d4345080-0f80-41be-a021-a2437b9680a9.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_072801_d4345080-0f80-41be-a021-a2437b9680a9_thumbnail.webp"
+  }
+]
+--stderr--

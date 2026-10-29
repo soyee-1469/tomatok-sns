@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-10-29T08:14:51.067371Z",
+  "display_name": "Kling v3.0",
+  "id": "029a7166-3707-4864-ac44-1b65c61eb0aa",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+   "aspect_ratio": "9:16",
+   "cfg_scale": 0.5,
+   "duration": 5,
+   "enhance_prompt": false,
+   "height": 1280,
+   "kling_element_ids": [],
+   "kling_elements": [],
+   "medias": [
+    {
+     "data": {
+      "id": "ed681e31-1f05-42f6-bee1-7a55bf2803b3",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/ed681e31-1f05-42f6-bee1-7a55bf2803b3.png"
+     },
+     "role": "start_image"
+    }
+   ],
+   "mode": "std",
+   "multi_prompt": [],
+   "multi_shot_mode": "custom",
+   "multi_shots": false,
+   "prompt": "SCENE CONTEXT\nContinue exactly from the start image: close-up of the man (navy crew-neck knit over a white t-shirt collar, black square glasses, short two-block hair with a side-swept fringe) in a bright cafe, green wall, window and plants softly out of focus behind him. He holds a white smartphone low in the frame, screen toward his face, already looking down at it.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nA friend at the next table films on a smartphone held vertically, eye level, 70mm look, tight close-up. Very light handheld breathing of 1 to 2 cm, no zoom, no pan. Modern phone video: clean, natural colors, no over-sharpening, no film grain.\n\nACTION\n0.0s to 0.5s: he keeps looking at the phone screen in his hands, expression flat.\n0.5s to 3.6s: he lifts his eyes from the phone toward the woman beside him (off screen to the left, not toward the camera) and asks his question, flustered, eyebrows up, a small disbelieving head shake; his head barely moves otherwise.\n3.6s to 5.0s: he holds the look toward her, waiting for the answer, mouth slightly open, then glances back down at the phone.\n\nPERFORMANCE\nHe speaks only Korean. Small expression changes, realistic stillness, deadpan sitcom timing, no exaggerated acting, no look at the camera.\n\nAUDIO\nQuiet cafe ambience only. No notification sounds, no vibration, absolutely no music.\n\nPOSITIVE LOCKS\nSame face, glasses and clothes through the whole take. His hair stays exactly as in the start image: neat short two-block cut, side-swept fringe, no stray strands, nothing sticking up, no hair movement. Only one phone in frame, held low, screen toward him. Same cafe background. No subtitles, no on-screen text.\n\nDIALOGUE\nThe man says in natural native Korean, flustered, as a question: \"질문 제일 많이 하신 분이 어머님 아니셨어?\" He says only this one Korean line and nothing else; no other words in any language. Natural delivery, visible lip-sync, mouth movements match every word, eyes steady, hair stays neat and still. No subtitles, no on-screen text.",
+   "reference_elements": [],
+   "sound": "on",
+   "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_081451_029a7166-3707-4864-ac44-1b65c61eb0aa.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_081451_029a7166-3707-4864-ac44-1b65c61eb0aa_thumbnail.webp"
+ }
+]

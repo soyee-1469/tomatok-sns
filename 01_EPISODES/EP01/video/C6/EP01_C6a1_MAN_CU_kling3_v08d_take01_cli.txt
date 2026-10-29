@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-10-29T08:56:52.820161Z",
+    "display_name": "Kling v3.0",
+    "id": "d7596e94-1ec8-4715-b4cd-d7bba8ea5a0c",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 3,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "ed681e31-1f05-42f6-bee1-7a55bf2803b3",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/ed681e31-1f05-42f6-bee1-7a55bf2803b3.png"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "SCENE CONTEXT\nContinue exactly from the start image: close-up of the man (navy crew-neck knit over a white t-shirt collar, black square glasses, short two-block hair with a side-swept fringe) in a bright cafe, green wall, window and plants softly out of focus behind him. He holds a white smartphone low in the frame, screen toward his face, already looking down at it.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nA friend at the next table films on a smartphone held vertically, eye level, 70mm look, tight close-up. Very light handheld breathing of 1 to 2 cm, no zoom, no pan. Modern phone video: clean, natural colors, no over-sharpening, no film grain.\n\nACTION\n0.0s to 0.5s: he looks down at the phone, calm; a soft chime.\n0.5s to 2.3s: his eyes go wide and his eyebrows shoot up, mouth dropping open a little in flustered disbelief, and he says his line while still staring at the phone, voice soft, dazed and bewildered, rising at the end, a tiny head shake.\n2.3s to 3.0s: he keeps the wide-eyed flustered look at the screen, eyebrows still raised, lips parted. Not serious, not angry, not frowning: startled and flustered, light sitcom reaction.\n\nPERFORMANCE\nHe speaks only Korean. Flustered and startled, never grim or stern; no frown. Small expression changes, realistic stillness, deadpan sitcom timing, no exaggerated acting, no look at the camera.\n\nAUDIO\nQuiet cafe ambience, one soft short phone notification chime at the very start. No music, no vibration.\n\nPOSITIVE LOCKS\nSame face, glasses and clothes through the whole take. His hair stays exactly as in the start image: neat short two-block cut, side-swept fringe, no stray strands, nothing sticking up, no hair movement. Only one phone in frame, held low, screen toward him. Same cafe background. No subtitles, no on-screen text.\n\nDIALOGUE\nThe man says in natural native Korean, dazed and bewildered, trailing off and then lifting the pitch at the very end like a puzzled question: \"누가… 또 들어오시네?\" Soft, slow, slightly spaced-out delivery; NOT annoyed, NOT irritated, no sigh, no sharp tone, no frown. He says only this one Korean line and nothing else; no other words in any language. Natural delivery, visible lip-sync, mouth movements match every word, eyes steady on the phone, hair stays neat and still. No subtitles, no on-screen text.",
+      "reference_elements": [],
+      "sound": "on",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_085652_d7596e94-1ec8-4715-b4cd-d7bba8ea5a0c.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_085652_d7596e94-1ec8-4715-b4cd-d7bba8ea5a0c_thumbnail.webp"
+  }
+]
+--stderr--

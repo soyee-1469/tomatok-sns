@@ -1,0 +1,24 @@
+[
+  {
+    "created_at": "2026-10-29T07:12:22.915268Z",
+    "display_name": "Nano Banana Pro",
+    "id": "fbcc2bc5-8e86-427b-a942-226a6ba29c68",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_071222_fbcc2bc5-8e86-427b-a942-226a6ba29c68_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "1:1",
+      "batch_size": 1,
+      "height": 1024,
+      "input_image": null,
+      "input_images": [],
+      "prompt": "Realistic candid smartphone profile photo for a messenger app, square, natural daylight, real skin texture, not a model, no text, no watermark, no logo. A Vietnamese woman in her late 50s, aunt, hair in a low bun, gentle smile, light cardigan, sitting at a family dinner table with dishes, a bit of a flash glare, home photo.",
+      "resolution": "1k",
+      "surface": null,
+      "width": 1024
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_071222_fbcc2bc5-8e86-427b-a942-226a6ba29c68.png",
+    "status": "completed"
+  }
+]
+--stderr--

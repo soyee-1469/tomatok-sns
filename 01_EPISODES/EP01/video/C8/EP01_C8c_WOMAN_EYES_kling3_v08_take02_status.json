@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-10-29T07:48:54.586221Z",
+  "display_name": "Kling v3.0",
+  "id": "6c88172e-cce4-405e-ae2f-284a92e23611",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+   "aspect_ratio": "9:16",
+   "cfg_scale": 0.5,
+   "duration": 3,
+   "enhance_prompt": false,
+   "height": 1280,
+   "kling_element_ids": [],
+   "kling_elements": [],
+   "medias": [
+    {
+     "data": {
+      "id": "cd0b7682-903c-40a5-93ef-90df864a70e1",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/cd0b7682-903c-40a5-93ef-90df864a70e1_resize.jpg"
+     },
+     "role": "start_image"
+    }
+   ],
+   "mode": "std",
+   "multi_prompt": [],
+   "multi_shot_mode": "custom",
+   "multi_shots": false,
+   "prompt": "SCENE CONTEXT\nContinue exactly from the start image: tight close-up of the woman's face centered on her eyes behind thin gold wire-frame round glasses (27-year-old Vietnamese woman, hooded single-lidded eyes, faint freckles, a small dark mole under the left eye, black hair). Bright cafe by a window, soft out-of-focus greenery behind. She is looking slightly to the right of the camera at the man beside her (off screen), sheepish.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nLocked-off tight close-up, 70mm look, very light handheld breathing of 1 cm, no zoom, no pan. Modern phone video: clean, natural colors, no over-sharpening, no film grain.\n\nACTION\n0.0s to 0.7s: she holds the sheepish little smile, eyes on him. 0.7s to 1.8s: a slow, deliberate eye-roll: her eyes drift up and away to the side, eyebrows lifting, the smile tightening into an awkward, embarrassed press of the lips. 1.8s to 3.0s: one slow blink, then her eyes stay looking away to the side, avoiding him, cheeks slightly flushed; she holds that embarrassed look until the end.\n\nPERFORMANCE\nSilent acting. She does not speak at all, no words in any language, no humming, no laugh. Only quiet cafe ambience.\n\nPOSITIVE LOCKS\nFace, glasses, hair stay exactly as in the start image; face must not change; the small mole stays only under her left eye, no other marks appear. No look at the camera. No subtitles, no on-screen text. Absolutely no music, no musical tones.\n\nDIALOGUE\nNone.",
+   "reference_elements": [],
+   "sound": "on",
+   "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_074854_6c88172e-cce4-405e-ae2f-284a92e23611.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_074854_6c88172e-cce4-405e-ae2f-284a92e23611_thumbnail.webp"
+ }
+]

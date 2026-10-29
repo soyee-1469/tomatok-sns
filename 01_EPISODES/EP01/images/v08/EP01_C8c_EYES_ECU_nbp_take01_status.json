@@ -1,0 +1,29 @@
+[
+ {
+  "created_at": "2026-10-29T07:41:59.863317Z",
+  "display_name": "Nano Banana Pro",
+  "id": "41585dcc-0118-487b-bb54-576dcc1c5212",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_074159_41585dcc-0118-487b-bb54-576dcc1c5212_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "cdcbc223-cfa2-4a7f-8b6c-1874f36a0252",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/cdcbc223-cfa2-4a7f-8b6c-1874f36a0252.jpg"
+    }
+   ],
+   "prompt": "Extreme close-up of the SAME woman as in the reference image, identical face: tight vertical 9:16 framing from her mid-forehead down to just under the tip of her nose, so her two eyes behind the thin gold wire-frame round glasses fill the frame width. Hooded single-lidded eyes, slightly downturned outer corners, faint freckles on the cheekbones, the small dark mole under her left eye, a few soft black hair strands at the edge. She glances slightly to the right of the camera, sheepish and embarrassed, eyebrows a little raised. Same bright cafe by a window, soft out-of-focus greenery behind, same natural daylight. Modern phone video still, 70mm look, shallow depth of field, clean natural colors, real skin texture, no text.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_074159_41585dcc-0118-487b-bb54-576dcc1c5212.png",
+  "status": "completed"
+ }
+]

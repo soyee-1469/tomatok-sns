@@ -1,0 +1,23 @@
+[
+ {
+  "created_at": "2026-10-29T07:14:01.943748Z",
+  "display_name": "Nano Banana Pro",
+  "id": "dfe7dd23-4a3b-4e2a-a708-f4f92f9d7446",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_071401_dfe7dd23-4a3b-4e2a-a708-f4f92f9d7446_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "1:1",
+   "batch_size": 1,
+   "height": 1024,
+   "input_image": null,
+   "input_images": [],
+   "prompt": "Realistic candid smartphone profile photo for a messenger app, square, natural daylight, real skin texture, not a model, no text, no watermark, no logo. A Vietnamese man in his early 50s, uncle, tanned, short grey-flecked hair, polo shirt, raising a glass of beer at an outdoor restaurant at night, grinning, string lights behind.",
+   "resolution": "1k",
+   "surface": null,
+   "width": 1024
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_071401_dfe7dd23-4a3b-4e2a-a708-f4f92f9d7446.png",
+  "status": "completed"
+ }
+]

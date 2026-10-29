@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-10-29T08:38:47.830514Z",
+    "display_name": "Kling v3.0",
+    "id": "f619ddce-1b89-4b9f-afb7-e37c1ba2d113",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 3,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "a58df66b-3f87-4013-99bb-4cfe2d0493eb",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/a58df66b-3f87-4013-99bb-4cfe2d0493eb_resize.jpg"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "SCENE CONTEXT\nContinue exactly from the start image: tight close-up of the man (a 29-year-old Korean man: soft oval face with a gentle rounded jaw, small bright single-lidded eyes that crease kindly when he smiles, thick straight dark eyebrows, neat short two-block haircut with a natural side-swept fringe, clean-shaven with clear healthy skin, black square acetate glasses, a small dimple on the left cheek, slightly prominent ears. Outfit: navy crew-neck knit sweater with a white t-shirt collar showing, beige straight chino trousers, white leather sneakers. Not a model, not an idol; natural, slightly asymmetric face, real skin texture.) in a bright cafe, mint-green wall, window and plants softly out of focus. He holds a white smartphone low in the frame, screen toward his face, looking down at it; the back of the phone is never visible. The man's phone is a plain white smartphone in a clear case with no logo and no brand mark; its screen is a plain bright blank white screen.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nA friend at the next table films on a smartphone held vertically, eye level, 70mm look, tight close-up. Very light handheld breathing of 1 to 2 cm, no zoom, no pan. Modern phone video: clean, natural colors, no over-sharpening, no film grain.\n\nACTION\n0.0s to 0.5s: he looks down at the phone, calm.\n0.5s to 2.4s: his eyes go wide and his eyebrows shoot up in genuine surprise, mouth dropping open a little, and he says his line with a surprised, half-amused tone while still looking at the phone; a small disbelieving head shake.\n2.4s to 3.0s: he keeps the wide-eyed surprised look at the phone, eyebrows still raised, the corner of his mouth twitching into a bewildered half-smile. Not serious, not angry: surprised and a bit amused.\n\nPERFORMANCE\nHe speaks only Korean. Surprised, light, sitcom reaction, not grim. He speaks natural native Korean, low and dry, increasingly flustered; he speaks only Korean.\n\nPOSITIVE LOCKS\nFaces, hair, glasses and clothes stay exactly as in the start image through the whole take; faces must not change; his face has no moles or marks anywhere. Hair stays neat, nothing sticking up. Eyes steady with natural blinks only, no darting or rolling eyes, no look at the camera. No subtitles, no on-screen text. Absolutely no music, no musical tones. No vibration sounds; notifications are soft short chimes.\n\nDIALOGUE\nThe man says in Korean while looking down at the phone, bewildered: \"응… 가족이 엄청 많네.\" Natural delivery, visible lip-sync, mouth movements match every word.",
+      "reference_elements": [],
+      "sound": "on",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_083847_f619ddce-1b89-4b9f-afb7-e37c1ba2d113.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_083847_f619ddce-1b89-4b9f-afb7-e37c1ba2d113_thumbnail.webp"
+  }
+]
+--stderr--
