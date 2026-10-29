@@ -1,0 +1,126 @@
+{
+ "picks": [
+  [
+   "N0",
+   "/Users/ymy/project/sns/01_EPISODES/EP01/video/N0/EP01_N0_TWOSHOT_FOUR_kling3_v06_take06.mp4",
+   3.0,
+   0
+  ],
+  [
+   "N1",
+   "/Users/ymy/project/sns/01_EPISODES/EP01/video/N1/EP01_N1_WOMAN_CU_INVITE_kling3_v07_take06.mp4",
+   3.0,
+   0
+  ],
+  [
+   "C0",
+   "/Users/ymy/project/sns/01_EPISODES/EP01/video/comp/EP01_C0_INSERT_lock.mp4",
+   2.0,
+   1
+  ],
+  [
+   "C1a",
+   "/Users/ymy/project/sns/01_EPISODES/EP01/video/C1a/EP01_C1a_WOMAN_CU_kling3_v08_take01.mp4",
+   2.4,
+   0
+  ],
+  [
+   "C1b",
+   "/Users/ymy/project/sns/01_EPISODES/EP01/video/C1b/EP01_C1b_MAN_CU_kling3_v08_take01.mp4",
+   3.0,
+   0
+  ],
+  [
+   "C2",
+   "/Users/ymy/project/sns/01_EPISODES/EP01/video/C2/EP01_C2_OTS_PHONE_kling3_v05_take02.mp4",
+   3.4,
+   0
+  ],
+  [
+   "C2i",
+   "/Users/ymy/project/sns/01_EPISODES/EP01/video/comp/EP01_C2_INSERT_join.mp4",
+   2.0,
+   1
+  ],
+  [
+   "C5a",
+   "/Users/ymy/project/sns/01_EPISODES/EP01/video/comp/EP01_C5a_INSERT_send.mp4",
+   3.0,
+   1
+  ],
+  [
+   "C5b",
+   "/Users/ymy/project/sns/01_EPISODES/EP01/video/C5/EP01_C5b_MAN_CU_kling3_v07_take02.mp4",
+   3.0,
+   0
+  ],
+  [
+   "C4",
+   "/Users/ymy/project/sns/01_EPISODES/EP01/video/comp/EP01_C4_INSERT_flood.mp4",
+   5.0,
+   1
+  ],
+  [
+   "C3a",
+   "/Users/ymy/project/sns/01_EPISODES/EP01/video/C3/EP01_C3a_MAN_CU_kling3_v05_take04.mp4",
+   3.0,
+   0
+  ],
+  [
+   "C3b",
+   "/Users/ymy/project/sns/01_EPISODES/EP01/video/C3/EP01_C3b_WOMAN_CU_kling3_v07_take03.mp4",
+   3.0,
+   0
+  ],
+  [
+   "C6a",
+   "/Users/ymy/project/sns/01_EPISODES/EP01/video/C6/EP01_C6a_TWOSHOT_MOM_kling3_v07_take02.mp4",
+   4.8,
+   0
+  ],
+  [
+   "C6b",
+   "/Users/ymy/project/sns/01_EPISODES/EP01/video/C6/EP01_C6b_MAN_CU_kling3_v07_take03.mp4",
+   3.0,
+   0
+  ],
+  [
+   "C6c",
+   "/Users/ymy/project/sns/01_EPISODES/EP01/video/C6/EP01_C6c_WOMAN_CU_kling3_v08_take04.mp4",
+   3.0,
+   0
+  ],
+  [
+   "C7",
+   "/Users/ymy/project/sns/01_EPISODES/EP01/video/C7/EP01_C7_MAN_LINE_kling3_v05_take04.mp4",
+   4.0,
+   0
+  ],
+  [
+   "C8",
+   "/Users/ymy/project/sns/01_EPISODES/EP01/video/C8/EP01_C8_WOMAN_CU_END_kling3_v08_take01.mp4",
+   3.0,
+   0
+  ]
+ ],
+ "starts": {
+  "N0": 0,
+  "N1": 3.0,
+  "C0": 6.0,
+  "C1a": 8.0,
+  "C1b": 10.4,
+  "C2": 13.4,
+  "C2i": 16.8,
+  "C5a": 18.8,
+  "C5b": 21.8,
+  "C4": 24.8,
+  "C3a": 29.8,
+  "C3b": 32.8,
+  "C6a": 35.8,
+  "C6b": 40.599999999999994,
+  "C6c": 43.599999999999994,
+  "C7": 46.599999999999994,
+  "C8": 50.599999999999994
+ },
+ "total": 53.599999999999994
+}

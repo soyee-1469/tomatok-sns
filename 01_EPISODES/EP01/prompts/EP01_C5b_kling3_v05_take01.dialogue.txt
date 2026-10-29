@@ -1,0 +1,2 @@
+The man says in Korean: "…더 빨라졌는데?"
+(여 OS "그 말 하면 더 물어봐." → TTS)

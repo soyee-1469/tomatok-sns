@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-29T02:14:04.962084Z",
+  "display_name": "Kling v3.0",
+  "id": "97af4eb1-2011-4c35-9d7d-8cf37d45cd4d",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+    "aspect_ratio": "9:16",
+    "cfg_scale": 0.5,
+    "duration": 5,
+    "enhance_prompt": false,
+    "height": 1280,
+    "kling_element_ids": [],
+    "kling_elements": [],
+    "medias": [
+      {
+        "data": {
+          "id": "b8926441-ab08-40a7-aa71-d08cb0212b69",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/b8926441-ab08-40a7-aa71-d08cb0212b69.png"
+        },
+        "role": "start_image"
+      }
+    ],
+    "mode": "std",
+    "multi_prompt": [],
+    "multi_shot_mode": "custom",
+    "multi_shots": false,
+    "prompt": "SCENE CONTEXT\nContinue exactly from the start image: over-the-shoulder shot from behind the woman (ivory chunky knit cardigan, dark low ponytail, small gold hoop earring, out of focus in the left foreground) across a round marble cafe table onto the man (navy crew-neck knit, black square glasses, short two-block hair). He holds a white smartphone in his right hand in front of his chest; the phone's back faces the camera and its screen faces him. His left hand rests on the table. Two iced coffees on the table, bright window and green plants behind him.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nA friend at the next table films on a smartphone held vertically, leaning slightly behind the woman's shoulder, eye level, 50mm look. Light natural handheld sway of 2 to 4 cm, a short focus hunt from her shoulder to his face at the start, then focus stays on him. No zoom. Modern phone video: clean, natural colors, no over-sharpening, no film grain.\n\nACTION\n0.0s to 1.5s: the man stares at the phone, his eyes flick up and down the screen twice as if the list keeps growing, his mouth slightly open.\n1.5s to 3.0s: still looking at the phone, he speaks the line slowly, eyebrows rising a little, then glances up at her over the top of the phone for half a second.\n3.0s to 5.0s: he looks back down at the phone and tilts it a few degrees toward her so part of the screen comes into view; the screen is a plain bright blank screen. The woman stays still, only her head tilts slightly as she answers off screen. He keeps staring at the screen, a small confused frown.\n\nPERFORMANCE\nSmall expression changes, realistic stillness, deadpan sitcom timing, no exaggerated acting, no look at the camera.\n\nAUDIO\nQuiet cafe ambience, two or three soft short phone notification chimes while he looks at the screen. No music.\n\nPOSITIVE LOCKS\nHe keeps the same face, hair, glasses and clothes through the whole take. The woman stays in the left foreground with her back to the camera, her face is never shown. Only one phone in frame, held in his right hand; the phone screen is a plain bright blank screen whenever it is visible. Same table, cups and cafe background. No subtitles, no on-screen text.\n\nDIALOGUE\nThe man says in Korean: \"근데 계속 사람이 늘고 있는데?\" Natural delivery, mouth movements match the words, no subtitles, no on-screen text.",
+    "reference_elements": [],
+    "sound": "on",
+    "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_021404_97af4eb1-2011-4c35-9d7d-8cf37d45cd4d.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_021404_97af4eb1-2011-4c35-9d7d-8cf37d45cd4d_thumbnail.webp"
+}

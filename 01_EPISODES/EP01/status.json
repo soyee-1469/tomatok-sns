@@ -2,25 +2,26 @@
   "id": "EP01",
   "type": "SITCOM",
   "title": "가족 단톡방",
-  "status": "DIALOGUE_REVIEW",
-  "lastCompleted": "STILLS_DRAFT_v05 (C1-C7)",
-  "nextTask": "User reviews v05 script + stills page; decide seating continuity (side-by-side vs across); then render phone UI from chat_v05.md and run C1 test clip (Seedance vs Kling)",
+  "status": "PICTURE_LOCK",
+  "lastCompleted": "Picture lock v12g (2026-10-29): std takes, C1 take06+take03 voice, C8 ending",
+  "nextTask": "Phone-UI composite (C0, N0, C2, C5a, C4, C6a), OS TTS 4+2 lines, subtitles EN big/KR small, title card, BGM",
   "publishDate": null,
   "platforms": [
     "Instagram Reels",
     "YouTube Shorts"
   ],
   "updatedBy": "Claude Code",
-  "updatedAt": "2026-10-27T18:29:34+09:00",
+  "updatedAt": "2026-10-29T14:43:28+09:00",
   "assets": {
     "script": true,
     "storyboard": false,
     "characterReference": true,
     "locationReference": true,
     "stills": "draft",
-    "video": false,
-    "final": false
+    "video": "picture lock",
+    "final": false,
+    "ui": "rendered"
   },
   "castVersion": "v8",
-  "scriptVersion": "v05"
+  "scriptVersion": "v08"
 }

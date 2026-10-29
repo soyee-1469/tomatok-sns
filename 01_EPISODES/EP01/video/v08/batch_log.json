@@ -1,0 +1,421 @@
+[
+ {
+  "cut": "N0",
+  "dur": 3,
+  "img": "images/C6/EP01_C6_TWOSHOT_MOM_v05_take01.png",
+  "prompt": "prompts/v08/EP01_N0_v08.txt",
+  "take": 1,
+  "state": "done",
+  "id": "f9242f20-4862-4b99-9aa4-d3652310c3e9",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/N0/EP01_N0_v08_pro_take01.mp4"
+ },
+ {
+  "cut": "N0",
+  "dur": 3,
+  "img": "images/C6/EP01_C6_TWOSHOT_MOM_v05_take01.png",
+  "prompt": "prompts/v08/EP01_N0_v08.txt",
+  "take": 2,
+  "state": "done",
+  "id": "a9cb1a78-a176-47bf-9ed6-5bbf0368c3f2",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/N0/EP01_N0_v08_pro_take02.mp4"
+ },
+ {
+  "cut": "N0",
+  "dur": 3,
+  "img": "images/C6/EP01_C6_TWOSHOT_MOM_v05_take01.png",
+  "prompt": "prompts/v08/EP01_N0_v08.txt",
+  "take": 3,
+  "state": "done",
+  "id": "be86a402-8eae-4575-a5b0-4e2ab56825c0",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/N0/EP01_N0_v08_pro_take03.mp4"
+ },
+ {
+  "cut": "N1",
+  "dur": 3,
+  "img": "images/v08/EP01_WOMAN_CU_FRONT_v08_nbp_take01.png",
+  "prompt": "prompts/v08/EP01_N1_v08.txt",
+  "take": 1,
+  "state": "done",
+  "id": "9ab7b504-7d1a-47c3-90e7-87649617d3f6",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/N1/EP01_N1_v08_pro_take01.mp4"
+ },
+ {
+  "cut": "N1",
+  "dur": 3,
+  "img": "images/v08/EP01_WOMAN_CU_FRONT_v08_nbp_take01.png",
+  "prompt": "prompts/v08/EP01_N1_v08.txt",
+  "take": 2,
+  "state": "done",
+  "id": "6492601c-75d6-450a-bc78-b1556a2880bd",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/N1/EP01_N1_v08_pro_take02.mp4"
+ },
+ {
+  "cut": "N1",
+  "dur": 3,
+  "img": "images/v08/EP01_WOMAN_CU_FRONT_v08_nbp_take01.png",
+  "prompt": "prompts/v08/EP01_N1_v08.txt",
+  "take": 3,
+  "state": "done",
+  "id": "50657bac-8e64-41c3-a7bb-3a1dce062955",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/N1/EP01_N1_v08_pro_take03.mp4"
+ },
+ {
+  "cut": "C0",
+  "dur": 3,
+  "img": null,
+  "prompt": "prompts/v08/EP01_C0_v08.txt",
+  "take": 1,
+  "state": "done",
+  "id": "a53373fd-d4ed-4a3e-9f0a-adccf54ededf",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C0/EP01_C0_v08_pro_take01.mp4"
+ },
+ {
+  "cut": "C0",
+  "dur": 3,
+  "img": null,
+  "prompt": "prompts/v08/EP01_C0_v08.txt",
+  "take": 2,
+  "state": "done",
+  "id": "16e57fd0-0034-4b45-bbb2-a07cb3333eca",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C0/EP01_C0_v08_pro_take02.mp4"
+ },
+ {
+  "cut": "C0",
+  "dur": 3,
+  "img": null,
+  "prompt": "prompts/v08/EP01_C0_v08.txt",
+  "take": 3,
+  "state": "done",
+  "id": "e2ca0cfc-46b0-498c-bb51-d2e9437cb6ca",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C0/EP01_C0_v08_pro_take03.mp4"
+ },
+ {
+  "cut": "C1",
+  "dur": 5,
+  "img": "images/v08/EP01_C1_TWOSHOT_v08_nbp_take02.png",
+  "prompt": "prompts/v08/EP01_C1_v08.txt",
+  "take": 1,
+  "state": "done",
+  "id": "ac2e28ab-a926-468d-a479-d848fc7b520d",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C1/EP01_C1_v08_pro_take01.mp4"
+ },
+ {
+  "cut": "C1",
+  "dur": 5,
+  "img": "images/v08/EP01_C1_TWOSHOT_v08_nbp_take02.png",
+  "prompt": "prompts/v08/EP01_C1_v08.txt",
+  "take": 2,
+  "state": "done",
+  "id": "68c83fea-f95e-4015-a871-a0ee98ed5ecc",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C1/EP01_C1_v08_pro_take02.mp4"
+ },
+ {
+  "cut": "C1",
+  "dur": 5,
+  "img": "images/v08/EP01_C1_TWOSHOT_v08_nbp_take02.png",
+  "prompt": "prompts/v08/EP01_C1_v08.txt",
+  "take": 3,
+  "state": "done",
+  "id": "295ae878-eefa-41c5-8660-c18d45bce801",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C1/EP01_C1_v08_pro_take03.mp4"
+ },
+ {
+  "cut": "C2",
+  "dur": 5,
+  "img": "images/C2/EP01_C2_OTS_PHONE_v05_take02.png",
+  "prompt": "prompts/v08/EP01_C2_v08.txt",
+  "take": 1,
+  "state": "done",
+  "id": "3ae394c6-0e43-4051-b33b-d3b74c82675a",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C2/EP01_C2_v08_pro_take01.mp4"
+ },
+ {
+  "cut": "C2",
+  "dur": 5,
+  "img": "images/C2/EP01_C2_OTS_PHONE_v05_take02.png",
+  "prompt": "prompts/v08/EP01_C2_v08.txt",
+  "take": 2,
+  "state": "done",
+  "id": "fc82a160-b7a5-4147-bee0-97ed56ec7202",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C2/EP01_C2_v08_pro_take02.mp4"
+ },
+ {
+  "cut": "C2",
+  "dur": 5,
+  "img": "images/C2/EP01_C2_OTS_PHONE_v05_take02.png",
+  "prompt": "prompts/v08/EP01_C2_v08.txt",
+  "take": 3,
+  "state": "done",
+  "id": "75768482-654b-43d1-88c6-e4e71fcdfa6b",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C2/EP01_C2_v08_pro_take03.mp4"
+ },
+ {
+  "cut": "C4",
+  "dur": 5,
+  "img": "images/v08/EP01_C4_HANDS_PHONE_v08_nbp_take01.png",
+  "prompt": "prompts/v08/EP01_C4_v08.txt",
+  "take": 1,
+  "state": "done",
+  "id": "70abfe8c-d9bd-4d28-9a93-fca30c15f23e",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C4/EP01_C4_v08_pro_take01.mp4"
+ },
+ {
+  "cut": "C4",
+  "dur": 5,
+  "img": "images/v08/EP01_C4_HANDS_PHONE_v08_nbp_take01.png",
+  "prompt": "prompts/v08/EP01_C4_v08.txt",
+  "take": 2,
+  "state": "done",
+  "id": "747be97c-884d-4a25-943c-e7a324b8660a",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C4/EP01_C4_v08_pro_take02.mp4"
+ },
+ {
+  "cut": "C4",
+  "dur": 5,
+  "img": "images/v08/EP01_C4_HANDS_PHONE_v08_nbp_take01.png",
+  "prompt": "prompts/v08/EP01_C4_v08.txt",
+  "take": 3,
+  "state": "failed",
+  "err": "Command failed: /Users/ymy/project/ai-creative-studio/node_modules/.bin/higgsfield generate create kling3_0 --prompt SCENE CONTEXT\nContinue exactly from the start image: top-down insert over a round marble cafe table. The man's two hands (navy knit sleeves, white t-shirt cuff) hold a plain white sma"
+ },
+ {
+  "cut": "C5a",
+  "dur": 3,
+  "img": "images/C5/EP01_C5a_WOMAN_PHONE_v05_take01.png",
+  "prompt": "prompts/v08/EP01_C5a_v08.txt",
+  "take": 1,
+  "state": "done",
+  "id": "8c7587fd-a4ef-4c8b-819f-773c5e0754f7",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C5a/EP01_C5a_v08_pro_take01.mp4"
+ },
+ {
+  "cut": "C5a",
+  "dur": 3,
+  "img": "images/C5/EP01_C5a_WOMAN_PHONE_v05_take01.png",
+  "prompt": "prompts/v08/EP01_C5a_v08.txt",
+  "take": 2,
+  "state": "done",
+  "id": "75b1d8f3-bd3e-4773-98aa-9b5815d858cc",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C5a/EP01_C5a_v08_pro_take02.mp4"
+ },
+ {
+  "cut": "C5a",
+  "dur": 3,
+  "img": "images/C5/EP01_C5a_WOMAN_PHONE_v05_take01.png",
+  "prompt": "prompts/v08/EP01_C5a_v08.txt",
+  "take": 3,
+  "state": "done",
+  "id": "fd4ae177-e516-4a20-9320-2ee9983393f4",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C5a/EP01_C5a_v08_pro_take03.mp4"
+ },
+ {
+  "cut": "C5b",
+  "dur": 3,
+  "img": "images/C7/EP01_C7_MAN_FREEZE_v05_take01.png",
+  "prompt": "prompts/v08/EP01_C5b_v08.txt",
+  "take": 1,
+  "state": "done",
+  "id": "ecd8f999-08d9-4712-9fce-9985b6aca5f7",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C5b/EP01_C5b_v08_pro_take01.mp4"
+ },
+ {
+  "cut": "C5b",
+  "dur": 3,
+  "img": "images/C7/EP01_C7_MAN_FREEZE_v05_take01.png",
+  "prompt": "prompts/v08/EP01_C5b_v08.txt",
+  "take": 2,
+  "state": "done",
+  "id": "177c5da5-86c9-41f5-a9f2-748a8cc07318",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C5b/EP01_C5b_v08_pro_take02.mp4"
+ },
+ {
+  "cut": "C5b",
+  "dur": 3,
+  "img": "images/C7/EP01_C7_MAN_FREEZE_v05_take01.png",
+  "prompt": "prompts/v08/EP01_C5b_v08.txt",
+  "take": 3,
+  "state": "done",
+  "id": "e6fb803e-aba4-4624-9f67-ddc27400ce88",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C5b/EP01_C5b_v08_pro_take03.mp4"
+ },
+ {
+  "cut": "C3a",
+  "dur": 3,
+  "img": "images/v08/EP01_C3a_MAN_CU_v08_nbp_take01.png",
+  "prompt": "prompts/v08/EP01_C3a_v08.txt",
+  "take": 1,
+  "state": "done",
+  "id": "e1d48982-cbf4-42b0-b752-80cb77c5f826",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C3a/EP01_C3a_v08_pro_take01.mp4"
+ },
+ {
+  "cut": "C3a",
+  "dur": 3,
+  "img": "images/v08/EP01_C3a_MAN_CU_v08_nbp_take01.png",
+  "prompt": "prompts/v08/EP01_C3a_v08.txt",
+  "take": 2,
+  "state": "done",
+  "id": "997fb9ee-dadf-4c1e-8733-6e9619e8aab8",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C3a/EP01_C3a_v08_pro_take02.mp4"
+ },
+ {
+  "cut": "C3a",
+  "dur": 3,
+  "img": "images/v08/EP01_C3a_MAN_CU_v08_nbp_take01.png",
+  "prompt": "prompts/v08/EP01_C3a_v08.txt",
+  "take": 3,
+  "state": "done",
+  "id": "8a503020-e4b4-4d08-9b9e-cd784213f118",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C3a/EP01_C3a_v08_pro_take03.mp4"
+ },
+ {
+  "cut": "C3b",
+  "dur": 3,
+  "img": "images/v08/EP01_WOMAN_CU_FRONT_v08_nbp_take01.png",
+  "prompt": "prompts/v08/EP01_C3b_v08.txt",
+  "take": 1,
+  "state": "done",
+  "id": "196ca397-77ce-4501-9270-553d51115192",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C3b/EP01_C3b_v08_pro_take01.mp4"
+ },
+ {
+  "cut": "C3b",
+  "dur": 3,
+  "img": "images/v08/EP01_WOMAN_CU_FRONT_v08_nbp_take01.png",
+  "prompt": "prompts/v08/EP01_C3b_v08.txt",
+  "take": 2,
+  "state": "done",
+  "id": "71086f30-a279-4c48-9180-1b1c2244847c",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C3b/EP01_C3b_v08_pro_take02.mp4"
+ },
+ {
+  "cut": "C3b",
+  "dur": 3,
+  "img": "images/v08/EP01_WOMAN_CU_FRONT_v08_nbp_take01.png",
+  "prompt": "prompts/v08/EP01_C3b_v08.txt",
+  "take": 3,
+  "state": "done",
+  "id": "8501bd90-5f90-4b49-bd46-dd2cd91b0936",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C3b/EP01_C3b_v08_pro_take03.mp4"
+ },
+ {
+  "cut": "C6a",
+  "dur": 5,
+  "img": "images/C6/EP01_C6_TWOSHOT_MOM_v05_take01.png",
+  "prompt": "prompts/v08/EP01_C6a_v08.txt",
+  "take": 1,
+  "state": "done",
+  "id": "8d5f8fe1-4b20-40fe-93f8-e30375c4b81e",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C6a/EP01_C6a_v08_pro_take01.mp4"
+ },
+ {
+  "cut": "C6a",
+  "dur": 5,
+  "img": "images/C6/EP01_C6_TWOSHOT_MOM_v05_take01.png",
+  "prompt": "prompts/v08/EP01_C6a_v08.txt",
+  "take": 2,
+  "state": "done",
+  "id": "10dab1e1-0eb9-4193-88d9-2027f737b7b0",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C6a/EP01_C6a_v08_pro_take02.mp4"
+ },
+ {
+  "cut": "C6a",
+  "dur": 5,
+  "img": "images/C6/EP01_C6_TWOSHOT_MOM_v05_take01.png",
+  "prompt": "prompts/v08/EP01_C6a_v08.txt",
+  "take": 3,
+  "state": "done",
+  "id": "bbc33ec0-86ab-42e3-9800-2576db63b642",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C6a/EP01_C6a_v08_pro_take03.mp4"
+ },
+ {
+  "cut": "C6b",
+  "dur": 3,
+  "img": "images/C7/EP01_C7_MAN_FREEZE_v05_take01.png",
+  "prompt": "prompts/v08/EP01_C6b_v08.txt",
+  "take": 1,
+  "state": "done",
+  "id": "c782bdec-de8d-49da-a430-dca4e74dd056",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C6b/EP01_C6b_v08_pro_take01.mp4"
+ },
+ {
+  "cut": "C6b",
+  "dur": 3,
+  "img": "images/C7/EP01_C7_MAN_FREEZE_v05_take01.png",
+  "prompt": "prompts/v08/EP01_C6b_v08.txt",
+  "take": 2,
+  "state": "done",
+  "id": "ad237148-dfb8-4eee-97fc-8fb75226d056",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C6b/EP01_C6b_v08_pro_take02.mp4"
+ },
+ {
+  "cut": "C6b",
+  "dur": 3,
+  "img": "images/C7/EP01_C7_MAN_FREEZE_v05_take01.png",
+  "prompt": "prompts/v08/EP01_C6b_v08.txt",
+  "take": 3,
+  "state": "done",
+  "id": "4f324e66-94a0-49ef-a2ca-c69aadf5e2ad",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C6b/EP01_C6b_v08_pro_take03.mp4"
+ },
+ {
+  "cut": "C6c",
+  "dur": 3,
+  "img": "images/v08/EP01_WOMAN_CU_FRONT_v08_nbp_take01.png",
+  "prompt": "prompts/v08/EP01_C6c_v08.txt",
+  "take": 1,
+  "state": "done",
+  "id": "28141784-d5cc-4c6e-8cfa-4d9f8c1ce6f6",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C6c/EP01_C6c_v08_pro_take01.mp4"
+ },
+ {
+  "cut": "C6c",
+  "dur": 3,
+  "img": "images/v08/EP01_WOMAN_CU_FRONT_v08_nbp_take01.png",
+  "prompt": "prompts/v08/EP01_C6c_v08.txt",
+  "take": 2,
+  "state": "done",
+  "id": "26b837f5-f83b-478e-94b5-92d184fad1e2",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C6c/EP01_C6c_v08_pro_take02.mp4"
+ },
+ {
+  "cut": "C6c",
+  "dur": 3,
+  "img": "images/v08/EP01_WOMAN_CU_FRONT_v08_nbp_take01.png",
+  "prompt": "prompts/v08/EP01_C6c_v08.txt",
+  "take": 3,
+  "state": "done",
+  "id": "9f626462-1e00-4ba4-b903-54682d0d9df7",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C6c/EP01_C6c_v08_pro_take03.mp4"
+ },
+ {
+  "cut": "C7",
+  "dur": 4,
+  "img": "images/C7/EP01_C7_MAN_FREEZE_v05_take01.png",
+  "prompt": "prompts/v08/EP01_C7_v08.txt",
+  "take": 1,
+  "state": "done",
+  "id": "c2e943ad-8221-4cd1-b6c0-a594fd0ed50b",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C7/EP01_C7_v08_pro_take01.mp4"
+ },
+ {
+  "cut": "C7",
+  "dur": 4,
+  "img": "images/C7/EP01_C7_MAN_FREEZE_v05_take01.png",
+  "prompt": "prompts/v08/EP01_C7_v08.txt",
+  "take": 2,
+  "state": "done",
+  "id": "08ad7f54-e7f7-45e8-b0b8-239a2f53071f",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C7/EP01_C7_v08_pro_take02.mp4"
+ },
+ {
+  "cut": "C7",
+  "dur": 4,
+  "img": "images/C7/EP01_C7_MAN_FREEZE_v05_take01.png",
+  "prompt": "prompts/v08/EP01_C7_v08.txt",
+  "take": 3,
+  "state": "done",
+  "id": "12e746e2-9550-47d4-bbcf-e16d56d15489",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01/video/v08/C7/EP01_C7_v08_pro_take03.mp4"
+ }
+]

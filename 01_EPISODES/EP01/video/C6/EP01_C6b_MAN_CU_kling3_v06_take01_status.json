@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-29T02:18:58.787514Z",
+  "display_name": "Kling v3.0",
+  "id": "0d619b51-3fba-40e3-adba-3b7a390e4228",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+    "aspect_ratio": "9:16",
+    "cfg_scale": 0.5,
+    "duration": 3,
+    "enhance_prompt": false,
+    "height": 1280,
+    "kling_element_ids": [],
+    "kling_elements": [],
+    "medias": [
+      {
+        "data": {
+          "id": "d7cf9c32-3184-4af3-b3df-9063df62868f",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/d7cf9c32-3184-4af3-b3df-9063df62868f.png"
+        },
+        "role": "start_image"
+      }
+    ],
+    "mode": "std",
+    "multi_prompt": [],
+    "multi_shot_mode": "custom",
+    "multi_shots": false,
+    "prompt": "SCENE CONTEXT\nContinue exactly from the start image: close-up of the man (navy crew-neck knit over a white t-shirt collar, black square glasses, short two-block hair with a side-swept fringe) in a bright cafe, green wall, window and plants softly out of focus behind him. He holds a white smartphone low in the frame, screen toward his face, already looking down at it.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nA friend at the next table films on a smartphone held vertically, eye level, 70mm look, tight close-up. Very light handheld breathing of 1 to 2 cm, no zoom, no pan. Modern phone video: clean, natural colors, no over-sharpening, no film grain.\n\nACTION\n0.0s to 0.5s: he keeps looking at the phone screen in his hands, expression flat.\n0.5s to 2.3s: he lifts his eyes from the phone toward the woman beside him (off screen to the left) and asks the line, eyebrows up, genuinely puzzled.\n2.3s to 3.0s: he holds the look toward her, waiting, mouth slightly open.\n\nPERFORMANCE\nSmall expression changes, realistic stillness, deadpan sitcom timing, no exaggerated acting, no look at the camera.\n\nAUDIO\nQuiet cafe ambience, one soft short phone notification chime near the end. No music, no vibration.\n\nPOSITIVE LOCKS\nSame face, hair, glasses and clothes through the whole take. Only one phone in frame, held low, screen toward him. Same cafe background. No subtitles, no on-screen text.\n\nDIALOGUE\nThe man says in Korean, puzzled: \"엄마가 지금 들어와?\" Natural delivery, mouth movements match the words, no subtitles, no on-screen text.",
+    "reference_elements": [],
+    "sound": "on",
+    "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_021858_0d619b51-3fba-40e3-adba-3b7a390e4228.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_021858_0d619b51-3fba-40e3-adba-3b7a390e4228_thumbnail.webp"
+}

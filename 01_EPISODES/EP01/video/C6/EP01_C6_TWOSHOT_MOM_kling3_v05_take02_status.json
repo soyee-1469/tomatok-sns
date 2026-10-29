@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-29T01:39:11.721162Z",
+  "display_name": "Kling v3.0",
+  "id": "79aa410f-7756-4234-bf50-09752383bece",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+    "aspect_ratio": "9:16",
+    "cfg_scale": 0.5,
+    "duration": 5,
+    "enhance_prompt": false,
+    "height": 1280,
+    "kling_element_ids": [],
+    "kling_elements": [],
+    "medias": [
+      {
+        "data": {
+          "id": "4a411085-be51-4d90-96d9-aa9109c04a3b",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/4a411085-be51-4d90-96d9-aa9109c04a3b.png"
+        },
+        "role": "start_image"
+      }
+    ],
+    "mode": "std",
+    "multi_prompt": [],
+    "multi_shot_mode": "custom",
+    "multi_shots": false,
+    "prompt": "SCENE CONTEXT\nContinue exactly from the start image: two-shot in a bright cafe by a window, round marble table. The woman sits on the left (ivory chunky knit cardigan over a white t-shirt, thin gold round glasses, neat low ponytail, small gold hoop earrings, a small dark mole under the left eye) leaning toward the man with her right hand near her chin. The man sits on the right (navy crew-neck knit, black square glasses, short two-block hair) holding up a white smartphone in his right hand; the phone's back faces the camera and the screen faces him. Both are looking at his phone. Iced americano on the left, iced latte on the right.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nA friend at the next table films on a smartphone held vertically, eye level, 50mm look, two-shot. Light natural handheld sway of 2 to 4 cm, no zoom, no pan. Modern phone video: clean, natural colors, no over-sharpening, no film grain.\n\nACTION\n0.0s to 1.0s: a soft chime; both keep their eyes on his phone. He says his first short line flatly without looking up.\n1.0s to 2.2s: she leans in a little closer to the screen, her eyes widen slightly and she says her line, the only moment she looks genuinely caught off guard, her hand dropping from her chin.\n2.2s to 3.5s: he turns his head toward her and asks his line, eyebrows up, the phone still held up.\n3.5s to 5.0s: she sits back slowly, looks at him and answers her last line matter-of-factly with a tiny shrug; he turns back to the phone and freezes.\n\nPERFORMANCE\nSmall expression changes, realistic stillness, deadpan sitcom timing, no exaggerated acting, no look at the camera. The woman speaks Korean with a soft Vietnamese accent, slightly non-native pronunciation, young female voice. The man speaks natural native Korean.\n\nAUDIO\nQuiet cafe ambience, one soft phone notification chime at the start, then a faint phone vibration buzz at the very end. No music.\n\nPOSITIVE LOCKS\nBoth keep the same faces, hair, glasses and clothes through the whole take. She stays on the left, he stays on the right, same seating, same cafe background. Only one phone in frame, held in his right hand, its back toward the camera. No subtitles, no on-screen text.\n\nDIALOGUE\nThe man says in Korean: \"또 들어왔어.\" Then the woman says in Korean with a soft Vietnamese accent: \"…어? 우리 엄마~\" Then the man says in Korean: \"엄마가 지금 들어와?\" Then the woman says in Korean with a soft Vietnamese accent: \"그동안은 다 이모였어.\" Natural conversational delivery, mouth movements match the words, no subtitles, no on-screen text.",
+    "reference_elements": [],
+    "sound": "on",
+    "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_013911_79aa410f-7756-4234-bf50-09752383bece.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_013911_79aa410f-7756-4234-bf50-09752383bece_thumbnail.webp"
+}

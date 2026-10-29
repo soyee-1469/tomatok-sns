@@ -40,3 +40,6 @@ LOCATION_ID: HOME_A
 - ANGLE_LEFT_45.png
 - ANGLE_RIGHT_45.png
 - TABLE_TWO_SHOT.png
+
+## 생성 기록
+- 2026-10-29 Nano Banana Pro(힉스필드 CLI, 무제한 기간, 0크레딧)로 `sheets/` 5장 생성: MASTER_WIDE → 이를 참조로 ANGLE_FRONT / ANGLE_LEFT_45 / ANGLE_RIGHT_45 / TABLE_TWO_SHOT. 콘택트시트 `sheets/HOME_A_sheet_contact.png`. 사용자 승인 전.

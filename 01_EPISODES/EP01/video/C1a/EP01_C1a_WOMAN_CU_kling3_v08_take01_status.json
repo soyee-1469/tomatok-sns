@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-29T06:18:54.372375Z",
+  "display_name": "Kling v3.0",
+  "id": "b3d4332f-ba94-448b-8808-d60af00d4861",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+    "aspect_ratio": "9:16",
+    "cfg_scale": 0.5,
+    "duration": 3,
+    "enhance_prompt": false,
+    "height": 1280,
+    "kling_element_ids": [],
+    "kling_elements": [],
+    "medias": [
+      {
+        "data": {
+          "id": "669c6ead-4f7d-4a8e-92d8-f60995a24ce3",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/669c6ead-4f7d-4a8e-92d8-f60995a24ce3_resize.jpg"
+        },
+        "role": "start_image"
+      }
+    ],
+    "mode": "std",
+    "multi_prompt": [],
+    "multi_shot_mode": "custom",
+    "multi_shots": false,
+    "prompt": "SCENE CONTEXT\nContinue exactly from the start image: close-up of the woman (a 27-year-old Vietnamese woman: soft round face with gentle cheeks and a small chin, low nose bridge with a slightly rounded tip, full lips with a natural rosy color, hooded single-lidded eyes that look bright and kind with slightly downturned outer corners, warm golden skin with a healthy glow and a few faint freckles on the cheekbones, a small dark mole under the left eye, long black hair brushed smooth into a neat low ponytail, no frizz, no flyaways, at most one or two soft strands by the ear, thin gold wire-frame round glasses, small gold hoop earrings. Outfit: ivory chunky knit cardigan over a white t-shirt, straight mid-blue jeans, white low-top canvas sneakers. Not a model, not an idol; natural, slightly asymmetric face, real skin texture.) in a bright cafe by a window, plants and city view softly out of focus behind her, her right hand on the marble table near an iced americano. She looks slightly to the right of the camera at the man sitting beside her (off screen). The man's face is never shown.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nA friend at the next table films on a smartphone held vertically, eye level, 70mm look, tight close-up. Very light handheld breathing of 1 to 2 cm, no zoom, no pan. Modern phone video: clean, natural colors, no over-sharpening, no film grain.\n\nACTION\n0.0s to 0.5s: she looks at him with a bright teasing smile. 0.5s to 1.6s: she asks the short question, lips moving visibly, eyes steady on him, a small tilt of the head. 1.6s to 3.0s: she holds the teasing smile, eyes on him, waiting; one natural blink.\n\nPERFORMANCE\nShe speaks Korean with a soft Vietnamese accent in a bright, light, playful tone with upbeat energy; she speaks only Korean.\n\nPOSITIVE LOCKS\nFaces, hair, glasses and clothes stay exactly as in the start image through the whole take; faces must not change. Hair stays neat, nothing sticking up. Eyes steady with natural blinks only, no darting or rolling eyes, no look at the camera. No subtitles, no on-screen text. Absolutely no music, no musical tones. No vibration sounds; notifications are soft short chimes.\n\nDIALOGUE\nThe woman says in Korean with a soft Vietnamese accent, bright and playful: \"들어갔어?\" Natural delivery, visible lip-sync, mouth movements match every word.",
+    "reference_elements": [],
+    "sound": "on",
+    "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_061854_b3d4332f-ba94-448b-8808-d60af00d4861.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_061854_b3d4332f-ba94-448b-8808-d60af00d4861_thumbnail.webp"
+}

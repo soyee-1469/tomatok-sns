@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-10-29T01:11:33.913246Z",
+  "display_name": "Kling v3.0",
+  "id": "d06abd68-75e2-45e9-b4bc-971fe0274475",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+    "aspect_ratio": "9:16",
+    "cfg_scale": 0.5,
+    "duration": 3,
+    "enhance_prompt": false,
+    "height": 1280,
+    "kling_element_ids": [],
+    "kling_elements": [],
+    "medias": [],
+    "mode": "std",
+    "multi_prompt": [],
+    "multi_shot_mode": "custom",
+    "multi_shots": false,
+    "prompt": "SCENE CONTEXT\nInsert shot in a bright cafe by a window. A white smartphone with a clear case lies face up on a round white marble table, slightly turned. Its screen is a plain bright blank white screen with nothing drawn on it. Next to it an iced latte in a clear plastic cup with a black straw; soft sunlight and leaf shadows on the marble; a navy knit sleeve and the edge of an ivory knit sleeve out of focus at the top of the frame; green plants far behind. No people in focus.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nA friend at the next table films on a smartphone held vertically, looking down at the table at a steep angle, 50mm look, the phone filling the middle of the frame. Light natural handheld sway of 2 to 4 cm, focus locked on the phone. Modern phone video: clean, natural colors, no over-sharpening, no film grain.\n\nACTION\n0.0s to 3.0s: the phone vibrates in short repeated bursts and creeps across the marble, rotating a few degrees and sliding a centimeter with each buzz, never stopping. The screen stays a plain bright blank white screen and stays face up. The ice in the latte trembles slightly with each buzz. Nothing else moves.\n\nPHYSICS\nEach vibration burst makes the phone rattle against the hard marble and shift a little; the motion accumulates into a slow drift and rotation.\n\nAUDIO\nA continuous series of short phone vibration buzzes rattling on marble, getting more frequent, over quiet cafe ambience. No voices, no music.\n\nPOSITIVE LOCKS\nOnly one phone in frame, face up, screen a plain bright blank white screen with nothing drawn on it the whole time. Same marble table, cup and lighting. No faces. No subtitles, no on-screen text.",
+    "reference_elements": [],
+    "sound": "on",
+    "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_011133_d06abd68-75e2-45e9-b4bc-971fe0274475.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_011133_d06abd68-75e2-45e9-b4bc-971fe0274475_thumbnail.webp"
+}

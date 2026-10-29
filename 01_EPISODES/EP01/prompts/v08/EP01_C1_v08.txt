@@ -1,0 +1,20 @@
+SCENE CONTEXT
+Continue exactly from the start image: two-shot in a bright cafe by a window, round marble table. The woman on the left (a 27-year-old Vietnamese woman: soft round face with gentle cheeks and a small chin, low nose bridge with a slightly rounded tip, full lips with a natural rosy color, hooded single-lidded eyes that look bright and kind with slightly downturned outer corners, warm golden skin with a healthy glow and a few faint freckles on the cheekbones, a small dark mole under the left eye, long black hair brushed smooth into a neat low ponytail, no frizz, no flyaways, at most one or two soft strands by the ear, thin gold wire-frame round glasses, small gold hoop earrings. Outfit: ivory chunky knit cardigan over a white t-shirt, straight mid-blue jeans, white low-top canvas sneakers. Not a model, not an idol; natural, slightly asymmetric face, real skin texture.) sips an iced americano through a straw; the man on the right (a 29-year-old Korean man: soft oval face with a gentle rounded jaw, small bright single-lidded eyes that crease kindly when he smiles, thick straight dark eyebrows, neat short two-block haircut with a natural side-swept fringe, clean-shaven with clear healthy skin, black square acetate glasses, a small dimple on the left cheek, slightly prominent ears. Outfit: navy crew-neck knit sweater with a white t-shirt collar showing, beige straight chino trousers, white leather sneakers. Not a model, not an idol; natural, slightly asymmetric face, real skin texture.) looks down at the white phone in his hands, screen toward him. The man's phone is a plain white smartphone in a clear case with no logo and no brand mark; its screen is a plain bright blank white screen.
+
+FORMAT MODE
+One continuous shot, no cuts.
+
+CAMERA
+A friend at the next table films on a smartphone held vertically, eye level, 50mm look, two-shot. Light natural handheld sway of 2 to 4 cm, no zoom, no pan. Modern phone video: clean, natural colors, no over-sharpening, no film grain.
+
+ACTION
+0.0s to 1.3s: the woman lowers the straw a little from her lips, turns her eyes toward the man with a bright teasing smile and asks her short question. 1.3s to 3.8s: the man keeps his eyes on the phone, scrolling once with his thumb; his eyebrows go up and his mouth opens a little in a flustered, overwhelmed look as he answers in a low dry voice, still staring at the screen. 3.8s to 5.0s: she gives a bright knowing smile and sips her straw; he keeps staring at the phone, eyebrows still raised, blinking twice. Two soft phone chimes while he looks.
+
+PERFORMANCE
+She speaks Korean with a soft Vietnamese accent in a bright, light, playful tone with upbeat energy; she speaks only Korean. He speaks natural native Korean, low and dry, increasingly flustered; he speaks only Korean.
+
+POSITIVE LOCKS
+Faces, hair, glasses and clothes stay exactly as in the start image through the whole take; faces must not change. Hair stays neat, nothing sticking up. Eyes steady with natural blinks only, no darting or rolling eyes, no look at the camera. No subtitles, no on-screen text. Absolutely no music, no musical tones. No vibration sounds; notifications are soft short chimes.
+
+DIALOGUE
+The woman says in Korean with a soft Vietnamese accent, bright and playful: "들어갔어?" Then the man says in Korean, low and flustered: "응… 가족이 엄청 많네." Natural delivery, visible lip-sync, mouth movements match every word.

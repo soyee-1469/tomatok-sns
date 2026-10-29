@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-29T04:38:34.300278Z",
+  "display_name": "Kling v3.0",
+  "id": "f605069c-c6e5-4f1d-be2a-31f8b5ca208a",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+    "aspect_ratio": "9:16",
+    "cfg_scale": 0.5,
+    "duration": 3,
+    "enhance_prompt": false,
+    "height": 1920,
+    "kling_element_ids": [],
+    "kling_elements": [],
+    "medias": [
+      {
+        "data": {
+          "id": "4cc49b67-926f-4dbe-8f4f-df6a55ce7d75",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/4cc49b67-926f-4dbe-8f4f-df6a55ce7d75.png"
+        },
+        "role": "start_image"
+      }
+    ],
+    "mode": "pro",
+    "multi_prompt": [],
+    "multi_shot_mode": "custom",
+    "multi_shots": false,
+    "prompt": "SCENE CONTEXT\nContinue exactly from the start image: two-shot in a bright cafe by a window, round marble table. The woman on the left (a 27-year-old Vietnamese woman: soft round face with gentle cheeks and a small chin, low nose bridge with a slightly rounded tip, full lips with a natural rosy color, hooded single-lidded eyes that look bright and kind with slightly downturned outer corners, warm golden skin with a healthy glow and a few faint freckles on the cheekbones, a small dark mole under the left eye, long black hair brushed smooth into a neat low ponytail, no frizz, no flyaways, at most one or two soft strands by the ear, thin gold wire-frame round glasses, small gold hoop earrings. Outfit: ivory chunky knit cardigan over a white t-shirt, straight mid-blue jeans, white low-top canvas sneakers. Not a model, not an idol; natural, slightly asymmetric face, real skin texture.) leans toward the man with her right hand near her chin; the man on the right (a 29-year-old Korean man: soft oval face with a gentle rounded jaw, small bright single-lidded eyes that crease kindly when he smiles, thick straight dark eyebrows, neat short two-block haircut with a natural side-swept fringe, clean-shaven with clear healthy skin, black square acetate glasses, a small dimple on the left cheek, slightly prominent ears. Outfit: navy crew-neck knit sweater with a white t-shirt collar showing, beige straight chino trousers, white leather sneakers. Not a model, not an idol; natural, slightly asymmetric face, real skin texture.) holds up a white smartphone in his right hand, its back toward the camera, screen toward the two of them; both look at his phone. The man's phone is a plain white smartphone in a clear case with no logo and no brand mark; its screen is a plain bright blank white screen.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nA friend at the next table films on a smartphone held vertically, eye level, 50mm look, two-shot. Light natural handheld sway of 2 to 4 cm, no zoom, no pan. Modern phone video: clean, natural colors, no over-sharpening, no film grain.\n\nACTION\n0.0s to 2.4s: the man tilts the phone a little toward her and says the line slowly and clearly, each word distinct, matter-of-factly, a little proud, his free hand resting flat on the table (no hand gestures, no finger counting); she looks at the screen. 2.4s to 3.0s: she nods once with a bright little smile; he lowers the phone slightly. The woman does not speak.\n\nPERFORMANCE\nHe speaks natural native Korean, low and dry, increasingly flustered; he speaks only Korean.\n\nPOSITIVE LOCKS\nFaces, hair, glasses and clothes stay exactly as in the start image through the whole take; faces must not change. Hair stays neat, nothing sticking up. Eyes steady with natural blinks only, no darting or rolling eyes, no look at the camera. No subtitles, no on-screen text. Absolutely no music, no musical tones. No vibration sounds; notifications are soft short chimes.\n\nDIALOGUE\nThe man says in Korean: \"우리 가족방은 엄마, 아빠, 나, 동생, 이렇게 넷이야.\" Natural delivery, visible lip-sync, mouth movements match every word.",
+    "reference_elements": [],
+    "sound": "on",
+    "width": 1080
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_043834_f605069c-c6e5-4f1d-be2a-31f8b5ca208a.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_043834_f605069c-c6e5-4f1d-be2a-31f8b5ca208a_thumbnail.webp"
+}

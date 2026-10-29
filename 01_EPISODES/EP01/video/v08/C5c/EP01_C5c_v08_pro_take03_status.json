@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-29T04:29:21.537287Z",
+  "display_name": "Kling v3.0",
+  "id": "09edd443-9765-4aa2-88b7-0c872eb8b200",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+    "aspect_ratio": "9:16",
+    "cfg_scale": 0.5,
+    "duration": 3,
+    "enhance_prompt": false,
+    "height": 1920,
+    "kling_element_ids": [],
+    "kling_elements": [],
+    "medias": [
+      {
+        "data": {
+          "id": "76e2ecc0-61ec-4352-85be-e9628efae0bd",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/76e2ecc0-61ec-4352-85be-e9628efae0bd.png"
+        },
+        "role": "start_image"
+      }
+    ],
+    "mode": "pro",
+    "multi_prompt": [],
+    "multi_shot_mode": "custom",
+    "multi_shots": false,
+    "prompt": "SCENE CONTEXT\nContinue exactly from the start image: over-the-shoulder shot from behind the woman (ivory chunky knit cardigan, dark low ponytail, gold hoop earring, out of focus in the left foreground) across a round marble cafe table onto the man (a 29-year-old Korean man: soft oval face with a gentle rounded jaw, small bright single-lidded eyes that crease kindly when he smiles, thick straight dark eyebrows, neat short two-block haircut with a natural side-swept fringe, clean-shaven with clear healthy skin, black square acetate glasses, a small dimple on the left cheek, slightly prominent ears. Outfit: navy crew-neck knit sweater with a white t-shirt collar showing, beige straight chino trousers, white leather sneakers. Not a model, not an idol; natural, slightly asymmetric face, real skin texture.). He holds a plain white smartphone in a clear case, no logo, in his right hand in front of his chest. In this cut the phone is tilted so its screen faces the camera: the screen is a plain bright blank white screen with nothing drawn on it, filling the lower middle of the frame.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nA friend at the next table films on a smartphone held vertically, leaning behind the woman's shoulder, 50mm look, then a slow push-in toward the phone screen over the 3 seconds so the screen grows to fill most of the frame. Light natural handheld sway of 2 to 4 cm; focus locks on the phone screen; the man's face goes soft behind it. Modern phone video: clean, natural colors, no over-sharpening, no film grain.\n\nACTION\n0.0s to 3.0s: the phone stays almost still in his hand, screen toward the camera, a plain bright blank white screen the entire time; his thumb hovers at the edge without touching; the man behind stays still, eyes on the phone, a rapid run of soft short notification chimes getting faster. No one speaks.\n\nPERFORMANCE\nNo dialogue. Minimal movement.\n\nPOSITIVE LOCKS\nThe phone screen stays a plain bright blank white screen with nothing drawn on it, facing the camera the whole take. Only one phone in frame. Faces, hair and clothes stay as in the start image. No look at the camera. No subtitles, no on-screen text. Absolutely no music. No vibration sounds; notifications are soft short chimes.",
+    "reference_elements": [],
+    "sound": "on",
+    "width": 1080
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_042921_09edd443-9765-4aa2-88b7-0c872eb8b200.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_042921_09edd443-9765-4aa2-88b7-0c872eb8b200_thumbnail.webp"
+}

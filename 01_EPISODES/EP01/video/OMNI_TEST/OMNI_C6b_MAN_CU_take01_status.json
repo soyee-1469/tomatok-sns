@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-10-29T02:42:37.893625Z",
+  "display_name": "Kling O3",
+  "id": "2d92122e-de83-4aa0-9aee-0c70e00c6e6c",
+  "job_type": "kling_o3_image_reference",
+  "min_result_url": null,
+  "params": {
+    "aspect_ratio": "9:16",
+    "duration": 3,
+    "height": 1280,
+    "kling_element_ids": [],
+    "medias": [
+      {
+        "data": {
+          "id": "7c61cefe-f13a-4e25-8ba8-7e21974ed7d1",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/7c61cefe-f13a-4e25-8ba8-7e21974ed7d1.png"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "c199c388-640d-41d8-a8d9-8369a0a51b99",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/c199c388-640d-41d8-a8d9-8369a0a51b99.png"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "8001c8d1-aff0-4e86-b751-e7a4a84eba1e",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/8001c8d1-aff0-4e86-b751-e7a4a84eba1e.png"
+        },
+        "role": "image"
+      }
+    ],
+    "mode": "std",
+    "multi_prompt": [],
+    "multi_shots": false,
+    "prompt": "Character reference: @image1 and @image2 are the same man: a 29-year-old Korean man: soft oval face with a gentle rounded jaw, small bright single-lidded eyes that crease kindly when he smiles, thick straight dark eyebrows, neat short two-block haircut with a natural side-swept fringe, clean-shaven with clear healthy skin, black square acetate glasses, a small dimple on the left cheek, slightly prominent ears. Outfit: navy crew-neck knit sweater with a white t-shirt collar showing, beige straight chino trousers, white leather sneakers. Not a model, not an idol; natural, slightly asymmetric face, real skin texture. Framing reference: recreate the framing of @image3 exactly: tight close-up, eye level, 70mm look, bright cafe with mint-green wall, window and plants softly out of focus behind him; he holds a white smartphone low in the frame, screen toward his face.\nOne continuous shot. A friend at the next table films on a smartphone held vertically; very light handheld breathing of 1 to 2 cm, no zoom, no pan. Modern phone video, clean natural colors, no over-sharpening, no film grain.\n0.0s to 0.5s: he looks at the phone, expression flat. 0.5s to 2.3s: he lifts his eyes from the phone toward the woman beside him, off screen to the left (never toward the camera), and asks the single short word, eyebrows up, startled; his head barely moves. 2.3s to 3.0s: he holds the look toward her, mouth slightly open.\nHis face must match @image1 and @image2 exactly through the whole take; hair stays neat, nothing sticking up. Eyes steady, natural blinks only, no look at the camera. Only one phone in frame. No subtitles, no on-screen text. Absolutely no music.\nThe man says in Korean, startled, as a short question: \"어머님?\" Natural delivery, visible lip-sync.",
+    "reference_elements": [],
+    "sound": "on",
+    "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_024237_2d92122e-de83-4aa0-9aee-0c70e00c6e6c.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_024237_2d92122e-de83-4aa0-9aee-0c70e00c6e6c_thumbnail.webp"
+}

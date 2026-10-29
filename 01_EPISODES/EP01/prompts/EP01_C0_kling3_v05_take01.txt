@@ -1,0 +1,20 @@
+SCENE CONTEXT
+Insert shot in a bright cafe by a window. A white smartphone with a clear case lies face up on a round white marble table, slightly turned. Its screen is a plain bright blank white screen with nothing drawn on it. Next to it an iced latte in a clear plastic cup with a black straw; soft sunlight and leaf shadows on the marble; a navy knit sleeve and the edge of an ivory knit sleeve out of focus at the top of the frame; green plants far behind. No people in focus.
+
+FORMAT MODE
+One continuous shot, no cuts.
+
+CAMERA
+A friend at the next table films on a smartphone held vertically, looking down at the table at a steep angle, 50mm look, the phone filling the middle of the frame. Light natural handheld sway of 2 to 4 cm, focus locked on the phone. Modern phone video: clean, natural colors, no over-sharpening, no film grain.
+
+ACTION
+0.0s to 3.0s: the phone vibrates in short repeated bursts and creeps across the marble, rotating a few degrees and sliding a centimeter with each buzz, never stopping. The screen stays a plain bright blank white screen and stays face up. The ice in the latte trembles slightly with each buzz. Nothing else moves.
+
+PHYSICS
+Each vibration burst makes the phone rattle against the hard marble and shift a little; the motion accumulates into a slow drift and rotation.
+
+AUDIO
+A continuous series of short phone vibration buzzes rattling on marble, getting more frequent, over quiet cafe ambience. No voices, no music.
+
+POSITIVE LOCKS
+Only one phone in frame, face up, screen a plain bright blank white screen with nothing drawn on it the whole time. Same marble table, cup and lighting. No faces. No subtitles, no on-screen text.

@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-29T05:21:20.216435Z",
+  "display_name": "Kling v3.0",
+  "id": "afcc5b59-c05e-4fd7-bbb0-b30654a6519d",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+    "aspect_ratio": "9:16",
+    "cfg_scale": 0.5,
+    "duration": 3,
+    "enhance_prompt": false,
+    "height": 1280,
+    "kling_element_ids": [],
+    "kling_elements": [],
+    "medias": [
+      {
+        "data": {
+          "id": "198d8e37-6031-4c76-b1e9-1d52dfb3efe1",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/198d8e37-6031-4c76-b1e9-1d52dfb3efe1.png"
+        },
+        "role": "start_image"
+      }
+    ],
+    "mode": "std",
+    "multi_prompt": [],
+    "multi_shot_mode": "custom",
+    "multi_shots": false,
+    "prompt": "SCENE CONTEXT\nContinue exactly from the start image: two-shot in a bright cafe by a window, round marble table. The woman sits on the left (ivory chunky knit cardigan over a white t-shirt, thin gold round glasses, neat low ponytail, small gold hoop earrings). The man sits on the right (navy crew-neck knit, black square glasses, short two-block hair) holding up a white smartphone in his right hand, its back toward the camera, screen toward the two of them. Both are looking at his phone. Iced americano on the left, iced latte on the right.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nA friend at the next table films on a smartphone held vertically, eye level, 50mm look, two-shot. Light natural handheld sway of 2 to 4 cm, no zoom, no pan. Modern phone video: clean, natural colors, no over-sharpening, no film grain.\n\nACTION\n0.0s to 2.2s: the man tilts the phone a little toward her and says the line while tilting the phone screen toward her, his free hand resting flat on the table the whole time, then glances at her on the last words.\n2.2s to 3.0s: she looks at the screen and nods once with a bright little smile; he lowers the phone slightly.\n\nPERFORMANCE\nSmall expression changes, realistic, no exaggerated acting, no look at the camera. The man speaks natural native Korean, matter-of-fact, a little proud.\n\nAUDIO\nQuiet cafe ambience. No music, no vibration.\n\nPOSITIVE LOCKS\nBoth keep the same faces, hair, glasses and clothes through the whole take. His teeth look natural and even; his mouth opens only slightly while speaking and closes between words; no exaggerated mouth shapes. The phone screen never faces the camera. She stays on the left, he stays on the right, same seating, same cafe background. Only one phone in frame, held in his right hand, its back toward the camera. His free hand stays on the table, no finger counting, no hand gestures. The woman does not speak. No subtitles, no on-screen text.\n\nDIALOGUE\nThe man says in Korean: \"우리는 엄마, 아빠, 나, 동생 네 명이야. 들어왔지?\" He says only this one line and nothing else; the woman does not speak. Natural delivery, visible lip-sync, no invented words, no subtitles, no on-screen text.",
+    "reference_elements": [],
+    "sound": "on",
+    "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_052120_afcc5b59-c05e-4fd7-bbb0-b30654a6519d.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_052120_afcc5b59-c05e-4fd7-bbb0-b30654a6519d_thumbnail.webp"
+}

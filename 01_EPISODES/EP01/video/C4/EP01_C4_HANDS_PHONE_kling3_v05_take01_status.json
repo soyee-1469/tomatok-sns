@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-29T01:06:27.745749Z",
+  "display_name": "Kling v3.0",
+  "id": "1317b04e-1f8f-4a14-8bc9-c2b7e3e4fed7",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+    "aspect_ratio": "9:16",
+    "cfg_scale": 0.5,
+    "duration": 5,
+    "enhance_prompt": false,
+    "height": 1280,
+    "kling_element_ids": [],
+    "kling_elements": [],
+    "medias": [
+      {
+        "data": {
+          "id": "dd27fa30-ffc2-42e5-9815-dd1795011dc2",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/dd27fa30-ffc2-42e5-9815-dd1795011dc2.png"
+        },
+        "role": "start_image"
+      }
+    ],
+    "mode": "std",
+    "multi_prompt": [],
+    "multi_shot_mode": "custom",
+    "multi_shots": false,
+    "prompt": "SCENE CONTEXT\nContinue exactly from the start image: top-down insert over a round marble cafe table. The man's two hands (navy knit sleeves, white t-shirt cuff showing) hold a black smartphone in both hands, thumbs over the screen; the screen is a plain bright blank white screen facing up to the camera. An iced latte with a black straw at the lower right, the woman's ivory knit sleeve out of focus at the upper left, a wooden chair and plants beyond. Warm sunlight with leaf shadows on the marble.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nOPTICS\nInsert at 50mm look. At 2.2s one quick digital zoom-in narrows the framing by about 25% onto the phone in 0.3s, then holds. The camera position stays, only the framing tightens.\n\nCAMERA\nA friend at the next table films on a smartphone held vertically, reaching over the table and looking down at the man's phone. Light natural handheld sway of 2 to 4 cm, a short focus hunt at the start, then focus locks on the phone. Modern phone video: clean, natural colors, no over-sharpening, no film grain.\n\nACTION\n0.0s to 1.2s: his right thumb taps the lower part of the screen slowly, one tap at a time, as if typing carefully.\n1.2s to 2.2s: his thumb stops mid-air above the screen and freezes; his grip tightens slightly.\n2.2s to 4.0s: quick digital zoom-in onto the phone; both hands stay still, the thumb hovers, then his left hand slides a few millimeters as if the phone buzzed repeatedly.\n4.0s to 5.0s: the hands stay frozen, the thumb still hovering, never touching the screen again.\n\nPERFORMANCE\nOnly the hands act. Small, realistic movements, no exaggeration.\n\nAUDIO\nQuiet cafe ambience, soft keyboard tap sounds for the first second, then a rapid run of short phone notification chimes and vibration buzzes that get faster and faster. No voices, no music.\n\nPOSITIVE LOCKS\nOnly one phone in frame, held in both hands, screen facing up to the camera and staying a plain bright blank white screen with nothing drawn on it the whole time. Same hands, sleeves, table, cup and lighting. No faces in frame. No subtitles, no on-screen text.",
+    "reference_elements": [],
+    "sound": "on",
+    "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_010627_1317b04e-1f8f-4a14-8bc9-c2b7e3e4fed7.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_010627_1317b04e-1f8f-4a14-8bc9-c2b7e3e4fed7_thumbnail.webp"
+}

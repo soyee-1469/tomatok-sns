@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-29T05:31:31.192814Z",
+  "display_name": "Kling v3.0",
+  "id": "3ef1ee6f-cebb-4a95-b575-9d777b2fbb9a",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+    "aspect_ratio": "9:16",
+    "cfg_scale": 0.5,
+    "duration": 5,
+    "enhance_prompt": false,
+    "height": 1280,
+    "kling_element_ids": [],
+    "kling_elements": [],
+    "medias": [
+      {
+        "data": {
+          "id": "cfb51498-a9a2-448b-a25a-e4ceb826eee4",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/cfb51498-a9a2-448b-a25a-e4ceb826eee4_resize.jpg"
+        },
+        "role": "start_image"
+      }
+    ],
+    "mode": "std",
+    "multi_prompt": [],
+    "multi_shot_mode": "custom",
+    "multi_shots": false,
+    "prompt": "SCENE CONTEXT\nContinue exactly from the start image: a bright cafe by a window, a round marble table. The woman sits on the left (ivory chunky knit cardigan over a white t-shirt, thin gold round glasses, neat low ponytail) holding an iced americano with a straw at her lips. The man sits on the right (navy crew-neck knit, black square glasses, short two-block hair) looking down at the smartphone in his hands. The phone screen faces him and is a plain bright blank screen.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nA friend at the next table films them on a smartphone held vertically, eye level, 50mm look, two-shot. Light natural handheld sway of 2 to 4 cm, no zoom, no pan. Modern phone video: clean, natural colors, no over-sharpening, no film grain.\n\nACTION\n0.0s to 1.3s: the woman lowers the straw a little from her lips, turns her eyes toward the man with a bright teasing smile and asks him her short question.\n1.3s to 3.8s: the man keeps his eyes on the phone, scrolling once with his thumb; his eyebrows go up and his mouth opens a little in a flustered, overwhelmed look as he answers her, half laughing nervously, still staring at the screen.\n3.8s to 5.0s: she gives a bright knowing smile and goes back to sipping her straw; he keeps staring at the phone, eyebrows still raised, blinking twice.\n\nPERFORMANCE\nThe woman is bright, light, playful. The man is flustered and overwhelmed but understated: eyebrows up, eyes wide, nervous half-smile; no exaggerated acting, no look at the camera.\n\nVOICE\nThe woman speaks Korean with a soft Vietnamese accent in a bright, playful, upbeat tone. The man speaks natural native Korean in a flustered, slightly rising tone.\n\nAUDIO\nQuiet cafe ambience, two soft short phone notification chimes while he looks at the screen. No music, no vibration.\n\nPOSITIVE LOCKS\nBoth keep the same faces, hair, glasses and clothes through the whole take. Her eyes stay steady and natural: she looks at him with a calm, direct gaze, pupils centered, natural blinks only, no eye darting, no rolling, no crossed eyes, no look at the camera. The man's phone is a plain white smartphone in a clear case, no logo. She stays on the left, he stays on the right, same seating, same cafe background and window. Only one phone in frame, held by the man, its screen faces him and stays a plain bright blank screen. No subtitles, no on-screen text.\n\nDIALOGUE\nThe woman says in Korean with a soft Vietnamese accent, bright and playful: \"들어갔어?\" Then, after a short pause, the man clearly answers in Korean, flustered, in a full audible voice: \"응~ 가족이 엄청 많구나~\" Both lines must be spoken clearly and completely. They say only these two lines and nothing else. Visible lip-sync, no invented words, no subtitles, no on-screen text.",
+    "reference_elements": [],
+    "sound": "on",
+    "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_053131_3ef1ee6f-cebb-4a95-b575-9d777b2fbb9a.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_053131_3ef1ee6f-cebb-4a95-b575-9d777b2fbb9a_thumbnail.webp"
+}

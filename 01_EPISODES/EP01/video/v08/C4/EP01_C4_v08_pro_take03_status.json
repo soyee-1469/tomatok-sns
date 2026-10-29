@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-29T04:29:30.414463Z",
+  "display_name": "Kling v3.0",
+  "id": "56a3b4ed-388a-4a8b-b02d-680a79174141",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+    "aspect_ratio": "9:16",
+    "cfg_scale": 0.5,
+    "duration": 5,
+    "enhance_prompt": false,
+    "height": 1920,
+    "kling_element_ids": [],
+    "kling_elements": [],
+    "medias": [
+      {
+        "data": {
+          "id": "387810c3-a2e9-48a8-94f1-f792131f3aa9",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/387810c3-a2e9-48a8-94f1-f792131f3aa9_resize.jpg"
+        },
+        "role": "start_image"
+      }
+    ],
+    "mode": "pro",
+    "multi_prompt": [],
+    "multi_shot_mode": "custom",
+    "multi_shots": false,
+    "prompt": "SCENE CONTEXT\nContinue exactly from the start image: top-down insert over a round marble cafe table. The man's two hands (navy knit sleeves, white t-shirt cuff) hold a plain white smartphone in a clear case, no logo, in both hands, thumbs over the screen; the screen is a plain bright blank white screen facing up to the camera. Iced latte at lower right, the woman's ivory knit sleeve out of focus at upper left.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nA friend at the next table films on a smartphone held vertically, reaching over the table and looking down at the man's phone. Light natural handheld sway of 2 to 4 cm, focus locked on the phone. At 2.2s one quick digital zoom-in tightens the framing by about 25% onto the phone in 0.3s, then holds. Modern phone video: clean, natural colors, no over-sharpening, no film grain.\n\nACTION\n0.0s to 1.2s: his right thumb taps the lower part of the screen slowly, one tap at a time, typing carefully. 1.2s to 2.2s: his thumb stops mid-air and freezes; his grip tightens. 2.2s to 5.0s: hands stay almost still, the thumb hovering, his left hand slides a few millimeters as if the phone keeps buzzing. The screen stays a plain bright blank white screen with nothing drawn on it the whole time. No faces. Audio: soft keyboard taps for the first second, then a rapid run of short phone notification chimes getting faster; no voices.\n\nPERFORMANCE\nOnly the hands act; small realistic movements.\n\nPOSITIVE LOCKS\nFaces, hair, glasses and clothes stay exactly as in the start image through the whole take; faces must not change. Hair stays neat, nothing sticking up. Eyes steady with natural blinks only, no darting or rolling eyes, no look at the camera. No subtitles, no on-screen text. Absolutely no music, no musical tones. No vibration sounds; notifications are soft short chimes.",
+    "reference_elements": [],
+    "sound": "on",
+    "width": 1080
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_042930_56a3b4ed-388a-4a8b-b02d-680a79174141.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_042930_56a3b4ed-388a-4a8b-b02d-680a79174141_thumbnail.webp"
+}

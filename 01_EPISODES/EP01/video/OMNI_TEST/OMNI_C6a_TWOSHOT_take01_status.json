@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-10-29T02:42:56.464546Z",
+  "display_name": "Kling O3",
+  "id": "8f78b63a-6a2a-406e-8c97-fc3f3c38961d",
+  "job_type": "kling_o3_image_reference",
+  "min_result_url": null,
+  "params": {
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "height": 1280,
+    "kling_element_ids": [],
+    "medias": [
+      {
+        "data": {
+          "id": "8182a609-11b3-4568-81e4-8738a5867e72",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/8182a609-11b3-4568-81e4-8738a5867e72.png"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "99038e17-ef75-4a91-bd29-386fa9038c77",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/99038e17-ef75-4a91-bd29-386fa9038c77.png"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "a2c78e27-6fcb-4e72-9928-050c41bd5cc6",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/a2c78e27-6fcb-4e72-9928-050c41bd5cc6.png"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "9fb9966e-0181-4562-8eba-55570350ba15",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/9fb9966e-0181-4562-8eba-55570350ba15.png"
+        },
+        "role": "image"
+      },
+      {
+        "data": {
+          "id": "a3c845f7-55d1-45f5-a754-c229c4b3faae",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/a3c845f7-55d1-45f5-a754-c229c4b3faae.png"
+        },
+        "role": "image"
+      }
+    ],
+    "mode": "std",
+    "multi_prompt": [],
+    "multi_shots": false,
+    "prompt": "Character references: @image1 and @image2 are the woman: a 27-year-old Vietnamese woman: soft round face with gentle cheeks and a small chin, low nose bridge with a slightly rounded tip, full lips with a natural rosy color, hooded single-lidded eyes that look bright and kind with slightly downturned outer corners, warm golden skin with a healthy glow and a few faint freckles on the cheekbones, a small dark mole under the left eye, long black hair brushed smooth into a neat low ponytail, no frizz, no flyaways, at most one or two soft strands by the ear, thin gold wire-frame round glasses, small gold hoop earrings. Outfit: ivory chunky knit cardigan over a white t-shirt, straight mid-blue jeans, white low-top canvas sneakers. Not a model, not an idol; natural, slightly asymmetric face, real skin texture. @image3 and @image4 are the man: a 29-year-old Korean man: soft oval face with a gentle rounded jaw, small bright single-lidded eyes that crease kindly when he smiles, thick straight dark eyebrows, neat short two-block haircut with a natural side-swept fringe, clean-shaven with clear healthy skin, black square acetate glasses, a small dimple on the left cheek, slightly prominent ears. Outfit: navy crew-neck knit sweater with a white t-shirt collar showing, beige straight chino trousers, white leather sneakers. Not a model, not an idol; natural, slightly asymmetric face, real skin texture. Framing reference: recreate the framing of @image5 exactly: two-shot in a bright cafe by a window, round marble table; the woman sits on the left leaning toward the man with her right hand near her chin, the man sits on the right holding up a white smartphone in his right hand, its back toward the camera; both look at his phone; iced americano left, iced latte right.\nOne continuous shot. A friend at the next table films on a smartphone held vertically, eye level, 50mm look; light natural handheld sway of 2 to 4 cm, no zoom, no pan. Modern phone video, clean natural colors, no over-sharpening, no film grain.\n0.0s to 1.2s: a soft chime; both keep their eyes on his phone. He says his short line flatly without looking up. 1.2s to 3.0s: she leans a little closer to the screen, her eyes widen and she says her line, caught off guard, her hand dropping from her chin; he stays still. 3.0s to 5.0s: dead silence, both frozen staring at the phone, mouths slightly open; she blinks once.\nBoth faces must match the reference images exactly through the whole take; same hair, glasses and clothes. Eyes steady, natural blinks only, no look at the camera. Only one phone in frame. No subtitles, no on-screen text. Absolutely no music.\nThe man says in Korean, low and flat: \"또 들어왔어.\" Then the woman says in Korean with a soft Vietnamese accent, surprised: \"…어? 우리 엄마~\" Then two seconds of silence. Natural delivery, visible lip-sync.",
+    "reference_elements": [],
+    "sound": "on",
+    "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_024256_8f78b63a-6a2a-406e-8c97-fc3f3c38961d.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_024256_8f78b63a-6a2a-406e-8c97-fc3f3c38961d_thumbnail.webp"
+}

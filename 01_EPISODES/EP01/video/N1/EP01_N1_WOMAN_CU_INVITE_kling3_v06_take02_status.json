@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-29T01:55:52.38692Z",
+  "display_name": "Kling v3.0",
+  "id": "197b0b14-b8eb-4fa9-92bb-c459113a4346",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+    "aspect_ratio": "9:16",
+    "cfg_scale": 0.5,
+    "duration": 3,
+    "enhance_prompt": false,
+    "height": 1280,
+    "kling_element_ids": [],
+    "kling_elements": [],
+    "medias": [
+      {
+        "data": {
+          "id": "f5581f81-6b60-4326-9db3-f22f30c19843",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/f5581f81-6b60-4326-9db3-f22f30c19843.png"
+        },
+        "role": "start_image"
+      }
+    ],
+    "mode": "std",
+    "multi_prompt": [],
+    "multi_shot_mode": "custom",
+    "multi_shots": false,
+    "prompt": "SCENE CONTEXT\nContinue exactly from the start image: close-up of the woman (ivory chunky knit cardigan over a white t-shirt, thin gold round glasses, neat low ponytail, small gold hoop earrings, a small dark mole under the left eye, faint freckles) in a bright cafe by a window, city view and plants softly out of focus behind her. Her right hand rests near her chin holding the straw of an iced americano on the marble table. The man's dark navy shoulder is out of focus at the right edge of the frame. She looks at him with a calm, slightly amused half-smile.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nA friend at the next table films on a smartphone held vertically, eye level, 70mm look, tight close-up. Very light handheld breathing of 1 to 2 cm, no zoom, no pan. Modern phone video: clean, natural colors, no over-sharpening, no film grain.\n\nACTION\n0.0s to 0.5s: she lets go of the straw and lowers her hand.\n0.5s to 2.4s: looking at him with the small amused smile, she says the line casually, giving a tiny nod toward him on the last words as if to say \"go on\".\n2.4s to 3.0s: she holds the smile, eyes on him, eyebrows up for a beat.\n\nPERFORMANCE\nCasual and understated, no exaggerated acting, no advertising smile, no look at the camera. She speaks Korean with a soft Vietnamese accent, slightly non-native pronunciation, young female voice.\n\nAUDIO\nQuiet cafe ambience. No music, no vibration.\n\nPOSITIVE LOCKS\nSame face, hair, glasses, earrings and clothes through the whole take. Her hair stays neat in a low ponytail. The man's shoulder stays at the right edge, his face is never shown. No phone in frame. Same cafe background. No subtitles, no on-screen text.\n\nDIALOGUE\nThe woman says in Korean with a soft Vietnamese accent: \"토마톡 가족톡방에 초대했어. 들어가 봐.\" Natural casual delivery, mouth movements match the words, no subtitles, no on-screen text.",
+    "reference_elements": [],
+    "sound": "on",
+    "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_015552_197b0b14-b8eb-4fa9-92bb-c459113a4346.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_015552_197b0b14-b8eb-4fa9-92bb-c459113a4346_thumbnail.webp"
+}

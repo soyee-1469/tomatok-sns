@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-29T01:49:10.59341Z",
+  "display_name": "Kling v3.0",
+  "id": "54f4353e-8463-4fa7-ba70-151c557148cb",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+    "aspect_ratio": "9:16",
+    "cfg_scale": 0.5,
+    "duration": 3,
+    "enhance_prompt": false,
+    "height": 1280,
+    "kling_element_ids": [],
+    "kling_elements": [],
+    "medias": [
+      {
+        "data": {
+          "id": "2d966488-239e-45a6-9fa5-edeff8347a9e",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/2d966488-239e-45a6-9fa5-edeff8347a9e.png"
+        },
+        "role": "start_image"
+      }
+    ],
+    "mode": "std",
+    "multi_prompt": [],
+    "multi_shot_mode": "custom",
+    "multi_shots": false,
+    "prompt": "SCENE CONTEXT\nContinue exactly from the start image: close-up of the woman (ivory chunky knit cardigan over a white t-shirt, thin gold round glasses, neat low ponytail, small gold hoop earrings, a small dark mole under the left eye, faint freckles) in a bright cafe by a window, city view and plants softly out of focus behind her. Her right hand rests near her chin holding the straw of an iced americano on the marble table. The man's dark navy shoulder is out of focus at the right edge of the frame. She looks at him with a calm, slightly amused half-smile.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nA friend at the next table films on a smartphone held vertically, eye level, 70mm look, tight close-up. Very light handheld breathing of 1 to 2 cm, no zoom, no pan. Modern phone video: clean, natural colors, no over-sharpening, no film grain.\n\nACTION\n0.0s to 0.6s: she lets go of the straw and picks up her own phone from the table with her right hand, raising it slightly.\n0.6s to 2.2s: looking at him with a playful little smile, she says her line like a game-show host introducing the next round, then taps her phone screen once.\n2.2s to 3.0s: she holds the smile, eyes on him, eyebrows up for a beat.\n\nPERFORMANCE\nPlayful but understated, no exaggerated acting, no advertising smile, no look at the camera. She speaks Korean with a soft Vietnamese accent, slightly non-native pronunciation, young female voice.\n\nAUDIO\nQuiet cafe ambience, one soft phone tap sound. No music, no vibration.\n\nPOSITIVE LOCKS\nSame face, hair, glasses, earrings and clothes through the whole take. Her hair stays neat in a low ponytail. The man's shoulder stays at the right edge, his face is never shown. Her phone screen, if visible, is a plain bright blank white screen. Same cafe background. No subtitles, no on-screen text.\n\nDIALOGUE\nThe woman says in Korean with a soft Vietnamese accent: \"자, 이제 우리 가족방.\" Natural playful delivery, mouth movements match the words, no subtitles, no on-screen text.",
+    "reference_elements": [],
+    "sound": "on",
+    "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_014910_54f4353e-8463-4fa7-ba70-151c557148cb.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261029_014910_54f4353e-8463-4fa7-ba70-151c557148cb_thumbnail.webp"
+}
