@@ -26,3 +26,5 @@
 - 모든 UI 렌더는 이 두 장을 기준으로 한다. 이전 렌더(BASE_CHAT_ROOM 기반, 빨간 내 말풍선)는 폐기.
 - `TOMATOK_REAL_NOTIFICATION_BANNER.png`: 실제 알림 배너(2026-10-29 사용자 제공). 흰 둥근 카드, 왼쪽 토마톡 앱 아이콘(빨간 토마토 말풍선), '오후 2:31' / '✉️ 새 메시지 도착' / '새 메시지가 도착했어요. 지금 확인해보세요!'. C0 잠금화면 알림은 이 배너를 그대로 쌓는다. 앱 아이콘은 `04_UI/TOMATOK_APP_ICON_from_banner.png`로 잘라둠.
 - 렌더러 v2 (2026-10-29): `01_EPISODES/EP01/ui/real/render_ui_v2.py`. 캔버스 높이는 인서트 스틸의 화면 비율대로(남 1810, 여 1598, 테이블 1816) 렌더하고 still_anim.py `fit=stretch`로 통째로 얹는다(잘림 없음). 채팅은 날짜 알약 없이 처음부터 꽉 찬 상태에서 연속 스크롤. 다국어 가족방 설정: 영어 쓰는 호주 사촌 Emily 🇦🇺 1명 → 여자(베트남) 폰에서도 번역 UI가 보인다. 베트남 친척 메시지는 여자 폰에서 원문만(흰 말풍선).
+- 5개국 단톡방 스틸 (2026-11-02): `TOMATOK_GROUP_CHAT/render_group_chat_5countries.py` → `TOMATOK_GROUP_CHAT_5COUNTRIES_KR_VIEW.png`. 상단 헤더(y0~141)와 하단 입력창(y1842~2000)은 REAL_SCREENS 실제 스크린샷을 잘라 붙이고 방 이름만 다시 씀. 프로필은 PROFILES/{MINH,YUKI,JAKE,PLOY}.png(NB Pro 1:1, 8cr) + 얼굴 크롭 `_AV.png`.
+- 폰 목업 규칙 (2026-11-02 사용자 지시): 화면 스틸을 목업으로 만들 때는 항상 `MOCKUP/phone_mockup.py <screen.png> <out.png> [--transparent]`만 쓴다. 얇은 흰색 베젤(16px) 폰, 상단 상태바(7:07)+펀치홀, 옆 버튼까지 상수 고정. 껍데기는 모든 화면에서 동일해야 하며 스크립트 상수를 바꾸지 않는다.

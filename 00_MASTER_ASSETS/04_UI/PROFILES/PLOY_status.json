@@ -1,0 +1,23 @@
+[
+ {
+  "created_at": "2026-11-02T06:48:49.904132Z",
+  "display_name": "Nano Banana Pro",
+  "id": "db82f52b-b788-4224-8a21-c5182a9ccdd7",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261102_064849_db82f52b-b788-4224-8a21-c5182a9ccdd7_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "1:1",
+   "batch_size": 1,
+   "height": 1024,
+   "input_image": null,
+   "input_images": [],
+   "prompt": "Realistic candid smartphone profile photo for a messenger app, square, natural daylight, real skin texture, likeable friendly face, not a model, no text, no watermark, no logo. A 25-year-old Thai woman, long dark hair tied low with a hair clip, dimples, bright yellow t-shirt, holding a mango sticky rice at a Bangkok night market with string lights behind, laughing with eyes crinkled, photo taken by a friend.",
+   "resolution": "1k",
+   "surface": null,
+   "width": 1024
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261102_064849_db82f52b-b788-4224-8a21-c5182a9ccdd7.png",
+  "status": "completed"
+ }
+]

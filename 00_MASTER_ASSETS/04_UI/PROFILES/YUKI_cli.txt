@@ -1,0 +1,24 @@
+[
+  {
+    "created_at": "2026-11-02T06:48:49.929459Z",
+    "display_name": "Nano Banana Pro",
+    "id": "b2793024-91b3-4259-aff0-ea26bb7481f0",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261102_064849_b2793024-91b3-4259-aff0-ea26bb7481f0_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "1:1",
+      "batch_size": 1,
+      "height": 1024,
+      "input_image": null,
+      "input_images": [],
+      "prompt": "Realistic candid smartphone profile photo for a messenger app, square, natural daylight, real skin texture, likeable friendly face, not a model, no text, no watermark, no logo. A 24-year-old Japanese woman, chin-length bob with straight bangs, small mole under left eye, beige trench coat, standing on a Tokyo street near Shimokitazawa with a vintage record shop behind her, soft closed-lip smile, slightly tilted selfie.",
+      "resolution": "1k",
+      "surface": null,
+      "width": 1024
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261102_064849_b2793024-91b3-4259-aff0-ea26bb7481f0.png",
+    "status": "completed"
+  }
+]
+--stderr--
