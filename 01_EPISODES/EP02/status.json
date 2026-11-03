@@ -1,0 +1,16 @@
+{
+  "id": "EP02",
+  "type": "SITCOM",
+  "title": "내가 왜 후보야?",
+  "source": "A03 드레스 사진",
+  "status": "SCRIPTING",
+  "lastCompleted": "Folder skeleton + tools copied from EP01, script_v01 draft (2026-11-03)",
+  "nextTask": "User approves topic + script_v01 -> dress stills (NB Pro) -> UI inserts -> Kling std 1 take per cut",
+  "budgetCredits": 200,
+  "estimatedCredits": 110,
+  "creditsAtStart": 816.58,
+  "updatedBy": "Claude Code",
+  "updatedAt": "2026-11-03",
+  "castVersion": "v8",
+  "scriptVersion": "v01"
+}
