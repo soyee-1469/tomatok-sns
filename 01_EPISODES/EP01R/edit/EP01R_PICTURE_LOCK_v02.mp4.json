@@ -1,0 +1,98 @@
+{
+ "picks": [
+  [
+   "T",
+   "/Users/ymy/project/sns/01_EPISODES/EP01R/edit/title_2s.mp4",
+   2.0,
+   0
+  ],
+  [
+   "A1",
+   "/Users/ymy/project/sns/01_EPISODES/EP01R/video/A1_PHONE/EP01R_A1_PHONE_kling3_take01.mp4",
+   3.0,
+   0
+  ],
+  [
+   "A2",
+   "/Users/ymy/project/sns/01_EPISODES/EP01R/edit/pip/A2.mp4",
+   3.0,
+   1
+  ],
+  [
+   "A3",
+   "/Users/ymy/project/sns/01_EPISODES/EP01R/video/A3_JUNHO_L1/EP01R_A3_JUNHO_L1_kling3_take01.mp4",
+   2.5,
+   0
+  ],
+  [
+   "A4",
+   "/Users/ymy/project/sns/01_EPISODES/EP01R/edit/pip/A4.mp4",
+   3.0,
+   1
+  ],
+  [
+   "A5",
+   "/Users/ymy/project/sns/01_EPISODES/EP01R/video/A5_BEA_L1/EP01R_A5_BEA_L1_kling3_take01.mp4",
+   4.6,
+   0,
+   0.3
+  ],
+  [
+   "A6",
+   "/Users/ymy/project/sns/01_EPISODES/EP01R/edit/pip/A6.mp4",
+   6.6,
+   1
+  ],
+  [
+   "A7",
+   "/Users/ymy/project/sns/01_EPISODES/EP01R/video/A7_SUMAN_L1/EP01R_A7_SUMAN_L1_kling3_take01.mp4",
+   2.1,
+   0,
+   0.9
+  ],
+  [
+   "A8",
+   "/Users/ymy/project/sns/01_EPISODES/EP01R/video/A8_JUNHO_L2/EP01R_A8_JUNHO_L2_kling3_take01.mp4",
+   1.9,
+   0,
+   0.7
+  ],
+  [
+   "A9",
+   "/Users/ymy/project/sns/01_EPISODES/EP01R/edit/pip/A9.mp4",
+   4.6,
+   1
+  ],
+  [
+   "A10",
+   "/Users/ymy/project/sns/01_EPISODES/EP01R/video/A10_FREEZE/EP01R_A10_FREEZE_kling3_take01.mp4",
+   2.0,
+   0
+  ],
+  [
+   "OUT",
+   "/Users/ymy/project/sns/00_MASTER_ASSETS/08_OUTRO/TOMATOK_OUTRO_v03.mp4",
+   4.5,
+   1
+  ]
+ ],
+ "starts": {
+  "T": 0,
+  "A1": 2.0,
+  "A2": 5.0,
+  "A3": 8.0,
+  "A4": 10.5,
+  "A5": 13.5,
+  "A6": 18.1,
+  "A7": 24.700000000000003,
+  "A8": 26.800000000000004,
+  "A9": 28.700000000000003,
+  "A10": 33.300000000000004,
+  "OUT": 35.300000000000004
+ },
+ "total": 39.800000000000004,
+ "bgm_gap": [
+  30.300000000000004,
+  33.900000000000006
+ ]
+}

@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-04T08:54:35.022258Z",
+  "display_name": "Kling v3.0",
+  "id": "088d272c-38ac-4135-a742-f25a262161d5",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+   "aspect_ratio": "9:16",
+   "cfg_scale": 0.5,
+   "duration": 3,
+   "enhance_prompt": false,
+   "height": 1280,
+   "kling_element_ids": [],
+   "kling_elements": [],
+   "medias": [
+    {
+     "data": {
+      "id": "5f52d118-0575-42f6-86f4-c011459e663a",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/5f52d118-0575-42f6-86f4-c011459e663a.png"
+     },
+     "role": "start_image"
+    }
+   ],
+   "mode": "std",
+   "multi_prompt": [],
+   "multi_shot_mode": "custom",
+   "multi_shots": false,
+   "prompt": "SCENE CONTEXT\nEvening living room, medium shot. the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard) sits on the caramel corduroy sofa holding a black smartphone in both hands in his lap, looking down at it. The phone's back faces the camera.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nFixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, window dark navy, no film grain, no over-sharpening.\n\nACTION\n0.0s to 0.5s: his shoulders drop with relief as he reads. 0.5s to 2.4s: still looking at the phone he says his line quietly, a small relieved nod on the first sentence and a puzzled tilt of the head on the second. 2.4s to 3.0s: he squints at the screen, lips pressed together.\n\nPERFORMANCE\nRelieved then puzzled, understated. Small expression changes, no exaggerated acting, no look at the camera.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.\n\nPOSITIVE LOCKS\nContinue exactly from the start image. The man keep the same face, hair, glasses, clothes and position through the whole take. Same room, furniture, lamps and colors. No new people enter. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe man says in natural native Korean, quietly, relieved then puzzled, the end falling: \"20대는 괜찮네. 쿠야가 뭐지.\" He says only this one Korean line and nothing else; no other words in any language. Natural delivery, visible lip-sync, mouth movements match every word, no subtitles, no on-screen text.",
+   "reference_elements": [],
+   "sound": "on",
+   "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261104_085435_088d272c-38ac-4135-a742-f25a262161d5.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261104_085435_088d272c-38ac-4135-a742-f25a262161d5_thumbnail.webp"
+ }
+]

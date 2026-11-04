@@ -1,0 +1,23 @@
+SCENE CONTEXT
+Evening living room, medium shot. the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard) sits on the caramel corduroy sofa holding a black smartphone in both hands in his lap, looking down at it. The phone's back faces the camera.
+
+FORMAT MODE
+One continuous shot, no cuts.
+
+CAMERA
+Fixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, window dark navy, no film grain, no over-sharpening.
+
+ACTION
+0.0s to 0.5s: he keeps looking at the phone, perfectly still. 0.5s to 2.4s: his eyes lift to the middle distance (not the camera) and he says his line quietly to himself, barely moving anything but his mouth. 2.4s to 3.0s: he looks back down at the phone and exhales through his nose.
+
+PERFORMANCE
+Deadpan, resolved, a man talking himself into something. Small expression changes, realistic stillness, no look at the camera.
+
+AUDIO
+Quiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.
+
+POSITIVE LOCKS
+Continue exactly from the start image. The man keep the same face, hair, glasses, clothes and position through the whole take. Same room, furniture, lamps and colors. No new people enter. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The man says in natural native Korean, low and quiet, a determined murmur, the end of the sentence falling: "말씀드려야지. 예비 사위인데." He says only this one Korean line and nothing else; no other words in any language. Natural delivery, visible lip-sync, mouth movements match every word, no subtitles, no on-screen text.

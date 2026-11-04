@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-04T08:41:43.451235Z",
+    "display_name": "Kling v3.0",
+    "id": "9c74254a-66ac-4471-bf5e-ec73a06781ea",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 3,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "5bda1527-9f25-4f1f-9880-6157103ff23d",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/5bda1527-9f25-4f1f-9880-6157103ff23d.png"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "SCENE CONTEXT\nEvening living room. In the foreground on the round oak coffee table a black smartphone lies face down beside a tomato-red tray and a tangerine basket. Behind it the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard) sits on the caramel corduroy sofa with his arms folded, looking away to the right side of the room as if watching TV, ignoring the phone.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nFixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, window dark navy, no film grain, no over-sharpening.\n\nACTION\n0.0s to 3.0s: with each soft notification chime the face-down phone gives a tiny shiver and creeps a few millimetres across the wood, rotating slightly, never flipping over. The man keeps his arms folded and keeps looking to the right; at 1.5s his eyes flick toward the phone for a fraction of a second and go straight back. Nothing else moves.\n\nPERFORMANCE\nDeadpan sitcom stillness. He refuses to look. No exaggerated acting, no look at the camera.\n\nAUDIO\nQuiet living-room ambience (soft refrigerator hum) and exactly two short soft phone notification chimes, one at 0.5s and one at 2.0s. No vibration buzz, no voices, no music.\n\nPOSITIVE LOCKS\nContinue exactly from the start image. The man and the phone keep the same face, hair, glasses, clothes and position through the whole take. Same room, furniture, lamps and colors. No new people enter. No subtitles, no on-screen text, no watermark.",
+      "reference_elements": [],
+      "sound": "on",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261104_084143_9c74254a-66ac-4471-bf5e-ec73a06781ea.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261104_084143_9c74254a-66ac-4471-bf5e-ec73a06781ea_thumbnail.webp"
+  }
+]
+--stderr--

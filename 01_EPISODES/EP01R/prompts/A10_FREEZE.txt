@@ -1,0 +1,20 @@
+SCENE CONTEXT
+Evening living room, medium two-shot. the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard) sits on the caramel corduroy sofa, hands on his knees, frozen, mouth slightly open, staring at a smartphone held in front of them. the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops) leans over the sofa back from the left, her head beside his, her right hand holding the phone, her left hand on the backrest, grinning at the same phone screen.
+
+FORMAT MODE
+One continuous shot, no cuts.
+
+CAMERA
+Fixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, window dark navy, no film grain, no over-sharpening.
+
+ACTION
+0.0s to 3.0s: both keep staring at the phone screen. The man does not move except one slow blink at 1.5s and his mouth closing slightly at the end. The woman's grin grows wider as she tries not to laugh, her shoulders shaking once at 2.0s, her eyes staying on the screen. Nothing else moves.
+
+PERFORMANCE
+Comic freeze frame. Both perfectly still apart from the tiny beats described. No look at the camera, no talking.
+
+AUDIO
+Quiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.
+
+POSITIVE LOCKS
+Continue exactly from the start image. Both people and the phone keep the same face, hair, glasses, clothes and position through the whole take. Same room, furniture, lamps and colors. No new people enter. No subtitles, no on-screen text, no watermark.

@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-04T08:39:22.759725Z",
+  "display_name": "Kling v3.0",
+  "id": "b7bfcb2d-36ae-47fd-af02-394c4c2330e4",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+   "aspect_ratio": "9:16",
+   "cfg_scale": 0.5,
+   "duration": 3,
+   "enhance_prompt": false,
+   "height": 1280,
+   "kling_element_ids": [],
+   "kling_elements": [],
+   "medias": [
+    {
+     "data": {
+      "id": "f899a13b-7602-4518-8ed1-d1552eb0a1fd",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/f899a13b-7602-4518-8ed1-d1552eb0a1fd.png"
+     },
+     "role": "start_image"
+    }
+   ],
+   "mode": "std",
+   "multi_prompt": [],
+   "multi_shot_mode": "custom",
+   "multi_shots": false,
+   "prompt": "SCENE CONTEXT\nEvening living room, medium shot. the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard) sits on the caramel corduroy sofa holding a black smartphone in both hands in his lap, looking down at it. The phone's back faces the camera.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nFixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, window dark navy, no film grain, no over-sharpening.\n\nACTION\n0.0s to 0.5s: he keeps looking at the phone, perfectly still. 0.5s to 2.4s: his eyes lift to the middle distance (not the camera) and he says his line quietly to himself, barely moving anything but his mouth. 2.4s to 3.0s: he looks back down at the phone and exhales through his nose.\n\nPERFORMANCE\nDeadpan, resolved, a man talking himself into something. Small expression changes, realistic stillness, no look at the camera.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.\n\nPOSITIVE LOCKS\nContinue exactly from the start image. The man keep the same face, hair, glasses, clothes and position through the whole take. Same room, furniture, lamps and colors. No new people enter. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe man says in natural native Korean, low and quiet, a determined murmur, the end of the sentence falling: \"말씀드려야지. 예비 사위인데.\" He says only this one Korean line and nothing else; no other words in any language. Natural delivery, visible lip-sync, mouth movements match every word, no subtitles, no on-screen text.",
+   "reference_elements": [],
+   "sound": "on",
+   "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261104_083922_b7bfcb2d-36ae-47fd-af02-394c4c2330e4.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261104_083922_b7bfcb2d-36ae-47fd-af02-394c4c2330e4_thumbnail.webp"
+ }
+]

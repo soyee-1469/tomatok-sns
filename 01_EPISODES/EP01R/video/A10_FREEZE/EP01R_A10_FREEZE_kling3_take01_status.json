@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-04T08:50:02.239075Z",
+  "display_name": "Kling v3.0",
+  "id": "5e6ce127-010f-4f8e-9593-dc9680fc4362",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+   "aspect_ratio": "9:16",
+   "cfg_scale": 0.5,
+   "duration": 3,
+   "enhance_prompt": false,
+   "height": 1280,
+   "kling_element_ids": [],
+   "kling_elements": [],
+   "medias": [
+    {
+     "data": {
+      "id": "f1886612-f21b-4e3f-ac79-d6b7e8ad42c7",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/f1886612-f21b-4e3f-ac79-d6b7e8ad42c7.png"
+     },
+     "role": "start_image"
+    }
+   ],
+   "mode": "std",
+   "multi_prompt": [],
+   "multi_shot_mode": "custom",
+   "multi_shots": false,
+   "prompt": "SCENE CONTEXT\nEvening living room, medium two-shot. the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard) sits on the caramel corduroy sofa, hands on his knees, frozen, mouth slightly open, staring at a smartphone held in front of them. the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops) leans over the sofa back from the left, her head beside his, her right hand holding the phone, her left hand on the backrest, grinning at the same phone screen.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nFixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, window dark navy, no film grain, no over-sharpening.\n\nACTION\n0.0s to 3.0s: both keep staring at the phone screen. The man does not move except one slow blink at 1.5s and his mouth closing slightly at the end. The woman's grin grows wider as she tries not to laugh, her shoulders shaking once at 2.0s, her eyes staying on the screen. Nothing else moves.\n\nPERFORMANCE\nComic freeze frame. Both perfectly still apart from the tiny beats described. No look at the camera, no talking.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.\n\nPOSITIVE LOCKS\nContinue exactly from the start image. Both people and the phone keep the same face, hair, glasses, clothes and position through the whole take. Same room, furniture, lamps and colors. No new people enter. No subtitles, no on-screen text, no watermark.",
+   "reference_elements": [],
+   "sound": "on",
+   "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261104_085002_5e6ce127-010f-4f8e-9593-dc9680fc4362.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261104_085002_5e6ce127-010f-4f8e-9593-dc9680fc4362_thumbnail.webp"
+ }
+]

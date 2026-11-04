@@ -1,0 +1,23 @@
+SCENE CONTEXT
+Evening living room, medium two-shot. the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard) sits on the caramel corduroy sofa, hands on his knees, staring at a smartphone held in front of them. the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops) leans over the sofa back from the left, her head beside his, her right hand holding the phone so its screen faces them, her left hand on the backrest.
+
+FORMAT MODE
+One continuous shot, no cuts.
+
+CAMERA
+Fixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, window dark navy, no film grain, no over-sharpening.
+
+ACTION
+0.0s to 0.5s: she tilts the phone a little closer to him. 0.5s to 2.3s: looking at the phone screen with a proud bright smile she says her line. 2.3s to 3.0s: she glances sideways at his face for a beat, grinning; he keeps staring at the screen, eyes widening slightly, mouth opening a little. He does not speak.
+
+PERFORMANCE
+She is proud and bright. He is silent, frozen in dawning dread. No exaggerated acting, no look at the camera.
+
+AUDIO
+Quiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.
+
+POSITIVE LOCKS
+Continue exactly from the start image. Both people keep the same face, hair, glasses, clothes and position through the whole take. Same room, furniture, lamps and colors. No new people enter. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The woman says in fluent Korean with a light American-English rhythm, proud and bright, the last syllable rising: "오빠, 가족방 22명 다 모였어." She says only this one Korean line and nothing else; no other words in any language. Natural delivery, visible lip-sync, mouth movements match every word, no subtitles, no on-screen text. The man says nothing.

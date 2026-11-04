@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-04T08:43:37.6832Z",
+    "display_name": "Kling v3.0",
+    "id": "aaf6a349-12ec-439c-870f-990585dd4410",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 5,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "3bb8df75-b713-4ea4-86b5-0ef9c70ea9f2",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/3bb8df75-b713-4ea4-86b5-0ef9c70ea9f2.png"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "SCENE CONTEXT\nEvening kitchen island, medium shot. the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops) sits on a black stool at the end of the marble island, elbows on the counter, holding a smartphone in both hands, her head turned toward the left side of the room (toward the sofa, off-screen).\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nFixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, window dark navy, no film grain, no over-sharpening.\n\nACTION\n0.0s to 0.6s: she glances at her phone, then looks up and to the left toward him with a playful teasing smile. 0.6s to 4.2s: looking at him (off-screen left, not at the camera) she says her line, bright and quick, eyebrows lifting on the question, a little shrug on the last sentence. 4.2s to 5.0s: she presses her lips together to hold back a laugh and looks back down at the phone.\n\nPERFORMANCE\nBright, playful, teasing. Natural small gestures, no exaggerated acting, no look at the camera.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.\n\nPOSITIVE LOCKS\nContinue exactly from the start image. The woman keep the same face, hair, glasses, clothes and position through the whole take. Same room, furniture, lamps and colors. No new people enter. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe woman says in fluent Korean with a light American-English rhythm, bright and quick and teasing, the question ending with a rising tone: \"오빠, 이거 영어랑 타갈로그어로 바로 번역돼서 가는 거 알지? 아빠는 영어 그냥 읽어.\" She says only this one Korean line and nothing else; no other words in any language. Natural delivery, visible lip-sync, mouth movements match every word, no subtitles, no on-screen text.",
+      "reference_elements": [],
+      "sound": "on",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261104_084337_aaf6a349-12ec-439c-870f-990585dd4410.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261104_084337_aaf6a349-12ec-439c-870f-990585dd4410_thumbnail.webp"
+  }
+]
+--stderr--
