@@ -1,0 +1,54 @@
+[
+ {
+  "created_at": "2026-11-05T08:29:02.558067Z",
+  "display_name": "Nano Banana Pro",
+  "id": "0a01afeb-4914-42fb-a7e9-99018a196334",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_082902_0a01afeb-4914-42fb-a7e9-99018a196334_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "290dac85-73e3-429e-841e-7b7ace641853",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/290dac85-73e3-429e-841e-7b7ace641853.png"
+    },
+    {
+     "id": "290dac85-73e3-429e-841e-7b7ace641853",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/290dac85-73e3-429e-841e-7b7ace641853.png"
+    },
+    {
+     "id": "d19c36cb-3153-45c9-a9e5-84bd35f99d01",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/d19c36cb-3153-45c9-a9e5-84bd35f99d01.png"
+    },
+    {
+     "id": "62549616-f7b0-4b6e-b4b7-411da330175b",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/62549616-f7b0-4b6e-b4b7-411da330175b_resize.jpg"
+    },
+    {
+     "id": "47057875-588b-4b15-b7d2-743e25f4daa7",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/47057875-588b-4b15-b7d2-743e25f4daa7_resize.jpg"
+    },
+    {
+     "id": "93ba7857-3c49-4ba2-bbc2-a07da8dcc260",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/93ba7857-3c49-4ba2-bbc2-a07da8dcc260_resize.jpg"
+    }
+   ],
+   "prompt": "A frame grabbed from a Korean sitcom video, 9:16 vertical: candid mid-action, caught between movements, slight natural motion softness on the hands, not a posed photo. Evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the people in the reference images and the exact room. Tight close-up: the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers) with two fingers pressed to his own cheek, checking where the corner of his mouth is, eyes crossed slightly toward his hand, caught mid-gesture, kitchen island blurred behind. KEEP this exact staging, camera distance, furniture placement and room; change only what follows. Situation: 나만 무서운 줄 알았는데. 준호가 자기 뺨을 만져 입꼬리를 확인한다. Emotion: 안도, 웃음 나는데 모름. Action: 손가락으로 뺨, 입꼬리 확인. FIXED SET LAYOUT (identical to the evening master set image; never move furniture): seen from the audience side, the front door and the single straight oak staircase with black railing are on the far LEFT along the back wall; the big arched window is in the center of the back wall with the round oak dining table and chairs in front of it, behind-left of the sofa; the caramel corduroy sofa sits center facing the camera with the round oak coffee table (tomato-red tray, small flowers) in front of it and the mustard armchair at its right; a low oak sideboard with a radio and globe stands behind the armchair; the white marble kitchen island with three black stools is on the far RIGHT in front of the kitchen wall with copper pans and copper pendant lamps. Nothing else is rearranged. FIXED TIME AND LIGHTING (identical in every frame): 9 pm, evening. The arched window is dark navy with no daylight. All practical lamps are on (paper pendants, copper pendants over the island, table lamps, warm string lights). Warm tungsten color around 3000K, soft even low-contrast exposure, faces clearly lit, no deep shadows, no sunbeams, no blue light. Same brightness as the evening master set image.  IDENTITY LOCK: each character's face must be the exact same person as in their face reference image (same eyes, nose, jaw, skin tone, hairline, hairstyle); do not beautify or generalize the face. The first reference images are the exact faces to keep; identity must match them exactly. Candid mid-action, like a frame grabbed from video. No text, no lettering, no sound-effect words, no logos anywhere in the image.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_082902_0a01afeb-4914-42fb-a7e9-99018a196334.png",
+  "status": "completed"
+ }
+]

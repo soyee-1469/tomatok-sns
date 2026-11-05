@@ -1,0 +1,44 @@
+[
+ {
+  "created_at": "2026-11-05T06:23:17.473482Z",
+  "display_name": "Nano Banana Pro",
+  "id": "d40bf393-6b7e-45c2-a58d-e75ed21299d1",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_062317_d40bf393-6b7e-45c2-a58d-e75ed21299d1_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "c2115fe7-1c21-45fa-92d1-6c4fb2e96c11",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/c2115fe7-1c21-45fa-92d1-6c4fb2e96c11.png"
+    },
+    {
+     "id": "63300767-bbc7-49eb-91ac-eec024133017",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/63300767-bbc7-49eb-91ac-eec024133017.png"
+    },
+    {
+     "id": "5e68faf3-57f9-47c7-a587-dd7486e7eea0",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/5e68faf3-57f9-47c7-a587-dd7486e7eea0.png"
+    },
+    {
+     "id": "6afc37ef-15ec-47f1-aa79-2e0ad994aeda",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/6afc37ef-15ec-47f1-aa79-2e0ad994aeda.png"
+    }
+   ],
+   "prompt": "A frame grabbed from a Korean sitcom video, 9:16 vertical: candid mid-action, caught between movements, slight natural motion softness, not a posed photo. Evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Reference images: first the exact FACE(s) to keep (identity must match exactly), then the outfit sheet(s), then the room. People: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses). Situation: 수만(아일랜드 뒤의 남자 셰프)과 비아(스툴)가 동시에 준호를 본다. Emotion: 어이없음. Action: 수만과 비아가 준호를 귀엽다는 듯이 바라본다. 등장인물은 이 둘뿐 / 수만과 비아가 준호를 귀엽다는 듯히 바라본다.. Extra note from the director: 수만과 비아가 동시에 준호를 쳐다본다.. Show the action clearly in one frame; the face stays the reference face.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_062317_d40bf393-6b7e-45c2-a58d-e75ed21299d1.png",
+  "status": "completed"
+ }
+]

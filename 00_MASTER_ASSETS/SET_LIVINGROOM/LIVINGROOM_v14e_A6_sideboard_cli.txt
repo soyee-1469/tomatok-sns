@@ -1,0 +1,30 @@
+[
+  {
+    "created_at": "2026-11-05T07:13:15.853638Z",
+    "display_name": "Nano Banana Pro",
+    "id": "8174d798-18e8-45b5-8780-6f8973be3345",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_071315_8174d798-18e8-45b5-8780-6f8973be3345_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "49613bbb-d48d-4351-938d-a2cfafcba8ad",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/49613bbb-d48d-4351-938d-a2cfafcba8ad_resize.jpg"
+        }
+      ],
+      "prompt": "Same set as the reference image, identical furniture in identical positions, 9 pm evening lighting exactly as in the reference (arched window dark navy, all lamps on, warm 3000K, soft low contrast). Photo-real, 9:16 portrait, eye-level camera, no people, no text. Camera on the audience side facing the area right of the sofa: the mustard armchair with its patterned cushion in the foreground, the low oak sideboard behind it with the vintage radio, small globe, books, table lamp and trailing plant, the gallery of framed travel pictures on the wall above, the right edge of the arched window at the left of the frame.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_071315_8174d798-18e8-45b5-8780-6f8973be3345.png",
+    "status": "completed"
+  }
+]
+--stderr--

@@ -1,0 +1,29 @@
+[
+ {
+  "created_at": "2026-11-05T03:03:14.905639Z",
+  "display_name": "Nano Banana Pro",
+  "id": "5ff01633-fd2c-4499-be25-a010fa43e4c3",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_030314_5ff01633-fd2c-4499-be25-a010fa43e4c3_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "6cbc1dc0-c782-418a-95db-d7b7b88f89ea",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/6cbc1dc0-c782-418a-95db-d7b7b88f89ea.png"
+    }
+   ],
+   "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, evening living room lighting (warm lamps, string lights, window dark navy), fixed tripod camera, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the person in the reference image. Tight close-up (85mm) of the man from the reference, head and shoulders filling the frame, sitting on the caramel sofa, soft phone-screen glow on his face from below, looking down at the phone off-screen, deadpan worried expression, background softly blurred.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_030314_5ff01633-fd2c-4499-be25-a010fa43e4c3.png",
+  "status": "completed"
+ }
+]

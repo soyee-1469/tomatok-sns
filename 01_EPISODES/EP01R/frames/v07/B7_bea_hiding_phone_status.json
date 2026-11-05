@@ -1,0 +1,29 @@
+[
+ {
+  "created_at": "2026-11-05T04:26:27.241052Z",
+  "display_name": "Nano Banana Pro",
+  "id": "5421a490-f4ab-434b-becd-d77153a78ee7",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_042627_5421a490-f4ab-434b-becd-d77153a78ee7_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "6bd954b2-a178-4e3e-ae81-adcde20f018b",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/6bd954b2-a178-4e3e-ae81-adcde20f018b.png"
+    }
+   ],
+   "prompt": "A frame grabbed from a Korean sitcom video, 9:16 vertical: candid mid-action, caught between movements, slight natural motion softness on the hands, not a posed photo. Evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the people in the reference images and the exact room. Medium shot: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses) on the black stool at the island, pressing her phone face-down against her chest with both hands, looking sideways to the left (toward him, off-screen) with a guilty, mischievous side-eye, mid-giggle.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_042627_5421a490-f4ab-434b-becd-d77153a78ee7.png",
+  "status": "completed"
+ }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "created_at": "2026-11-05T06:40:02.789002Z",
+    "display_name": "Nano Banana Pro",
+    "id": "968311e4-3aa3-4d0c-a758-c87660e30e37",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_064002_968311e4-3aa3-4d0c-a758-c87660e30e37_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "460fcb1c-3afa-4b8a-816f-7a96848221b6",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/460fcb1c-3afa-4b8a-816f-7a96848221b6.png"
+        },
+        {
+          "id": "9125db60-5e31-46c4-a3c4-8f1545d61665",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/9125db60-5e31-46c4-a3c4-8f1545d61665.png"
+        },
+        {
+          "id": "424070fd-98f9-479f-b719-de1835e1198a",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/424070fd-98f9-479f-b719-de1835e1198a.png"
+        },
+        {
+          "id": "36fea48b-7c87-4423-a23a-3a317abd9ec6",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/36fea48b-7c87-4423-a23a-3a317abd9ec6.png"
+        }
+      ],
+      "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the people in the reference images and the exact room from the references. Medium shot: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, NO glasses) on the black stool at the marble island, turned toward the left side of the frame (toward the sofa, off-screen), holding her black smartphone up at shoulder height with its screen facing left (back of the phone toward the camera), a plain matter-of-fact expression, one eyebrow slightly up. KEEP this exact staging, camera distance, furniture placement and room; change only what follows. Situation: 개인톡… 전부. Emotion: 시간 끌다 자백. Action: 폰 들어 보임, 어깨 으쓱 / 리아와 준호가 리아의 핸드폰을 같이 보다가 서로 얼굴을 쳐다본다. / 리아와 준호가 리아의 핸드폰을 같이 보다가 서로 얼굴을 쳐다본다. / 리아와 준호가 리아의 핸드폰을 같이 보다가 서로 얼굴을 쳐다본다. / 리아와 준호가 리아의 핸드폰을 같이 보다가 서로 얼굴을 쳐다본다. / 비아와 준호가 비아의 핸드폰을 같이 보다가 서로 얼굴을 쳐다본다. FIXED SET LAYOUT (never move furniture, same as the master set image): seen from the audience side, the front door and the single straight oak staircase are on the far LEFT along the back wall; the caramel corduroy sofa sits center facing the camera with the round oak coffee table (tomato-red tray) in front of it and the mustard armchair at its right; the round oak dining table with chairs is behind-right of the sofa; the white marble kitchen island with three black stools is on the far RIGHT in front of the kitchen wall with copper pans; the big arched window is on the right-hand back wall above the dining nook. Nothing else is rearranged. The first reference images are the exact faces to keep; identity must match them exactly. Candid mid-action, like a frame grabbed from video. No text, no lettering, no sound-effect words, no logos anywhere in the image.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_064002_968311e4-3aa3-4d0c-a758-c87660e30e37.png",
+    "status": "completed"
+  }
+]
+--stderr--

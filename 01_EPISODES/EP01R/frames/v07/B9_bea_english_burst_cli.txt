@@ -1,0 +1,30 @@
+[
+  {
+    "created_at": "2026-11-05T04:54:38.930376Z",
+    "display_name": "Nano Banana Pro",
+    "id": "f36e993e-dc12-420c-80fc-5c177fc54ddb",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_045438_f36e993e-dc12-420c-80fc-5c177fc54ddb_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "a0513c21-8681-4269-a7d5-645c94303c3a",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/a0513c21-8681-4269-a7d5-645c94303c3a.png"
+        }
+      ],
+      "prompt": "A frame grabbed from a Korean sitcom video, 9:16 vertical: candid mid-action, caught between movements, slight natural motion softness on the hands, not a posed photo. Evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the people in the reference images and the exact room and sofa. Medium shot: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses) at the left end of the sofa mid-sentence, mouth open wide, both hands up and blurred mid-gesture, eyebrows high, turned toward the right (toward him, off-screen), phone in one hand.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_045438_f36e993e-dc12-420c-80fc-5c177fc54ddb.png",
+    "status": "completed"
+  }
+]
+--stderr--

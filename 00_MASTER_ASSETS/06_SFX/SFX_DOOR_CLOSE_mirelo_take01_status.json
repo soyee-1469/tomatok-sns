@@ -1,0 +1,15 @@
+[
+ {
+  "created_at": "2026-11-05T02:28:05.515023Z",
+  "display_name": "Mirelo Text to Audio",
+  "id": "75345d18-1401-48b7-ad2d-b9813fe55469",
+  "job_type": "mirelo_text_to_audio",
+  "min_result_url": null,
+  "params": {
+   "duration": 2,
+   "prompt": "A wooden apartment front door closing firmly with a soft latch click, indoor, close, no music, no voices."
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_022805_75345d18-1401-48b7-ad2d-b9813fe55469.mp3",
+  "status": "completed"
+ }
+]

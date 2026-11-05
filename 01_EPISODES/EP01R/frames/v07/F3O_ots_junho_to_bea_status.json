@@ -1,0 +1,29 @@
+[
+ {
+  "created_at": "2026-11-05T03:03:16.125613Z",
+  "display_name": "Nano Banana Pro",
+  "id": "826d41bb-a1d3-45ea-a39f-573ccb259a14",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_030316_826d41bb-a1d3-45ea-a39f-573ccb259a14_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "6d690c1c-5ba8-4369-9511-52c54e3bb409",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/6d690c1c-5ba8-4369-9511-52c54e3bb409_resize.jpg"
+    }
+   ],
+   "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, evening living room lighting (warm lamps, string lights, window dark navy), fixed tripod camera, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the person in the reference image. Over-the-shoulder shot from behind the man on the sofa (his navy overshirt shoulder and the back of his black hair blurred in the left foreground) looking across the living room to the woman from the reference who sits on a black stool at the marble island in the midground, phone in hand, looking back toward him; the room from the reference, evening.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_030316_826d41bb-a1d3-45ea-a39f-573ccb259a14.png",
+  "status": "completed"
+ }
+]

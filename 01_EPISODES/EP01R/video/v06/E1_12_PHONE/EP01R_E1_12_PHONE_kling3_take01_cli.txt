@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-05T02:14:17.970817Z",
+    "display_name": "Kling v3.0",
+    "id": "8aa3a3e3-2335-4648-b3df-c2c81870e012",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 3,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "c3a3a87d-c754-4964-8517-bfc560a9a6e9",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/c3a3a87d-c754-4964-8517-bfc560a9a6e9.png"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "SCENE CONTEXT\nEvening living room. In the foreground on the round oak coffee table a black smartphone lies face down beside a tomato-red tray and a tangerine basket. Behind it the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard) sits on the caramel corduroy sofa with his arms folded, looking away to the right side of the room as if watching TV, ignoring the phone.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nFixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, window dark navy, no film grain, no over-sharpening.\n\nACTION\n0.0s to 3.0s: the face-down phone does not move at all. The man keeps his arms folded and keeps looking to the right. At 0.6s, 1.4s and 2.2s his eyes flick further to the right (toward the kitchen, off-screen) for a fraction of a second as if hearing something, then return to the TV. Nothing else moves.\n\nPERFORMANCE\nDeadpan stillness. He refuses to react. No exaggerated acting, no look at the camera.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.\n\nPOSITIVE LOCKS\nContinue exactly from the start image. The man and the phone keep the same face, hair, glasses, clothes and position through the whole take. Same room, furniture, lamps and colors. No new people enter. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nNobody speaks. No words in any language.",
+      "reference_elements": [],
+      "sound": "on",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_021417_8aa3a3e3-2335-4648-b3df-c2c81870e012.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_021417_8aa3a3e3-2335-4648-b3df-c2c81870e012_thumbnail.webp"
+  }
+]
+--stderr--

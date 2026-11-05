@@ -1,0 +1,3 @@
+
+--stderr--
+Error: Higgsfield API error (HTTP 520). failed to PUT media bytes to upload_url: 520

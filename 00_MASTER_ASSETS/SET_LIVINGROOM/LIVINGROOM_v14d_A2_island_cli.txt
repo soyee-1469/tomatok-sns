@@ -1,0 +1,35 @@
+[
+  {
+    "created_at": "2026-11-05T07:20:11.392075Z",
+    "display_name": "Nano Banana Pro",
+    "id": "c3af1f56-0a31-4c50-b4f0-d730e98aa99e",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_072011_c3af1f56-0a31-4c50-b4f0-d730e98aa99e_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "cbbafd4a-db5f-4a8d-870d-dacce1957ff1",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/cbbafd4a-db5f-4a8d-870d-dacce1957ff1.png"
+        },
+        {
+          "id": "995487c5-b225-4d22-af05-60d32366c81c",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/995487c5-b225-4d22-af05-60d32366c81c_resize.jpg"
+        }
+      ],
+      "prompt": "Same set as the reference images, identical furniture in identical positions. DAYTIME, exactly the lighting of the FIRST reference image: soft diffused daylight comes through the big arched window, which is frosted white with no outdoor view and no sunbeams; the warm lamps and the string lights are also on; cream walls, warm oak, low contrast, no deep shadows. The SECOND reference image gives only the camera angle and composition; ignore its night lighting. Photo-real, 9:16 portrait, no people, no text. Camera facing the white marble kitchen island on the right side of the room: island with three black stools in the foreground, the kitchen wall with copper pans, copper pendants and copper canisters behind, the fridge with magnets at the right edge.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_072011_c3af1f56-0a31-4c50-b4f0-d730e98aa99e.png",
+    "status": "completed"
+  }
+]
+--stderr--

@@ -1,0 +1,35 @@
+[
+  {
+    "created_at": "2026-11-05T02:19:41.638054Z",
+    "display_name": "Nano Banana Pro",
+    "id": "b13c0a23-38e0-49f8-b071-4ba9674d06b4",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_021941_b13c0a23-38e0-49f8-b071-4ba9674d06b4_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "98a59bea-3e08-43b7-8cf3-3fed29b7dccd",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/98a59bea-3e08-43b7-8cf3-3fed29b7dccd.png"
+        },
+        {
+          "id": "dc7afbbb-c4a8-4ab1-ab40-2dc9e9b38118",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/dc7afbbb-c4a8-4ab1-ab40-2dc9e9b38118_resize.jpg"
+        }
+      ],
+      "prompt": "Photo-real establishing shot for a Korean sitcom, 9:16 vertical, evening. Reference image 1 is the exact living room (caramel corduroy sofa, round oak coffee table with tomato-red tray, mustard armchair, marble kitchen island with black stools, oak stairs, herringbone floor, string lights, arched window): keep every piece of furniture, art and color, but make it evening: window dark navy, warm lamps and string lights on, no daylight. Wide shot from the entrance side at eye level, the sofa in the foreground-left and the kitchen island in the midground-right, both fully visible. Reference image 2 gives the two people: keep their exact faces, hair, glasses and clothes. The man (navy overshirt, round gold glasses, ID badge) sits on the sofa holding a phone in both hands looking down. The woman (white shirt, dark jeans, long dark wavy hair) sits on a black stool at the island with a phone. Behind the island a Nepali man (31, deep brown skin, black curly hair, short beard, white chef jacket, beige towel on shoulder, navy half-apron) stands holding a glass pickle jar. People are small in the frame, the whole room reads. No text, no watermark, natural skin.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_021941_b13c0a23-38e0-49f8-b071-4ba9674d06b4.png",
+    "status": "completed"
+  }
+]
+--stderr--

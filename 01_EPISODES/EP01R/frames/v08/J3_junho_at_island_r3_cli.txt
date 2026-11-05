@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-05T06:06:36.532753Z",
+    "display_name": "Nano Banana Pro",
+    "id": "e74e03db-7124-409a-a74b-c77539c11b89",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_060636_e74e03db-7124-409a-a74b-c77539c11b89_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "26f3cf68-68fe-42c5-a475-dfce2ebd34b4",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/26f3cf68-68fe-42c5-a475-dfce2ebd34b4.png"
+        },
+        {
+          "id": "a45b39f5-f7e2-4f62-961f-5c6b54a18568",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/a45b39f5-f7e2-4f62-961f-5c6b54a18568.png"
+        },
+        {
+          "id": "ebb24c67-ff4b-4b89-b312-2ca9dca9e526",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/ebb24c67-ff4b-4b89-b312-2ca9dca9e526.png"
+        }
+      ],
+      "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the people in the reference images and the exact room from the references. Medium two-shot at the marble kitchen island from the living-room side: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, NO glasses) sits on the black stool with her own phone, and the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers) stands right beside her, holding his black smartphone out in front of her face with both hands, screen toward her, leaning in anxiously; copper pendant lamps above. KEEP this exact staging, camera distance, furniture placement and room; change only what follows. Situation: 준호가 수만에게 도움을 청한다. Emotion: 막막, 애원. Action: 아일랜드 너머 수만 쪽으로 고개. The first reference images are the exact faces to keep; identity must match them exactly. Candid mid-action, like a frame grabbed from video.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_060636_e74e03db-7124-409a-a74b-c77539c11b89.png",
+    "status": "completed"
+  }
+]
+--stderr--

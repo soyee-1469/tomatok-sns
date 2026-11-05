@@ -1,0 +1,54 @@
+[
+ {
+  "created_at": "2026-11-05T09:04:26.212911Z",
+  "display_name": "Nano Banana Pro",
+  "id": "0cf39110-2000-46d9-ba9a-52f9a0475837",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_090426_0cf39110-2000-46d9-ba9a-52f9a0475837_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "92d4b480-4305-4a94-be1f-88da2b9f1c8a",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/92d4b480-4305-4a94-be1f-88da2b9f1c8a.png"
+    },
+    {
+     "id": "92d4b480-4305-4a94-be1f-88da2b9f1c8a",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/92d4b480-4305-4a94-be1f-88da2b9f1c8a.png"
+    },
+    {
+     "id": "018a46fb-c865-4d51-a885-94a06e779ce2",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/018a46fb-c865-4d51-a885-94a06e779ce2.png"
+    },
+    {
+     "id": "a152bfc1-9917-480e-9aba-9802621317f2",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/a152bfc1-9917-480e-9aba-9802621317f2_resize.jpg"
+    },
+    {
+     "id": "6c23890d-ee9b-42ba-aae1-849a54b2ff39",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/6c23890d-ee9b-42ba-aae1-849a54b2ff39_resize.jpg"
+    },
+    {
+     "id": "3d74f632-8a02-431e-9317-7e3f34e62fed",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/3d74f632-8a02-431e-9317-7e3f34e62fed_resize.jpg"
+    }
+   ],
+   "prompt": "A frame grabbed from a Korean sitcom video, 9:16 vertical: candid mid-action, caught between movements, slight natural motion softness, not a posed photo. Evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Reference images: first the exact FACE(s) to keep (identity must match exactly), then the outfit sheet(s), then the room. People: the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers). Situation: 수만(아일랜드 뒤의 남자 셰프)과 리아(스툴)가 동시에 준호를 본다. Emotion: 어이없음. Action: 수만과 리아가 준호를 귀엽다는 듯이 바라본다. 등장인물은 이 둘뿐 / 수만과 리아가 준호를 귀엽다는 듯히 바라본다. / 수만과 리아가 준호를 귀엽다는 듯히 바라본다.. Extra note from the director: 수만과 리아가 동시에 준호를 쳐다본다. 식탁임. 싱크대없음. Show the action clearly in one frame; the face stays the reference face.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_090426_0cf39110-2000-46d9-ba9a-52f9a0475837.png",
+  "status": "completed"
+ }
+]

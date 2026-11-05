@@ -1,0 +1,30 @@
+[
+  {
+    "created_at": "2026-11-05T04:17:52.316981Z",
+    "display_name": "Nano Banana Pro",
+    "id": "cd802923-c438-4de5-a1d2-cff697d64a9b",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_041752_cd802923-c438-4de5-a1d2-cff697d64a9b_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "1e9cade8-629f-4807-a5fa-b78192e66880",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/1e9cade8-629f-4807-a5fa-b78192e66880.png"
+        }
+      ],
+      "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the people in the reference images and the exact room from the references. Medium shot: the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers) caught half-way standing up from the caramel corduroy sofa, knees bent, leaning forward, black smartphone clutched in both hands at chest height, eyes wide and eager toward the right side of the frame (the kitchen island, off-screen), restless nervous energy.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_041752_cd802923-c438-4de5-a1d2-cff697d64a9b.png",
+    "status": "completed"
+  }
+]
+--stderr--

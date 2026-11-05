@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-05T05:56:16.676382Z",
+    "display_name": "Nano Banana Pro",
+    "id": "408e1dcc-05c8-433b-8d55-2d679f5c1dcd",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_055616_408e1dcc-05c8-433b-8d55-2d679f5c1dcd_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "e86caa21-1221-4fa6-acff-f68c715441f8",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/e86caa21-1221-4fa6-acff-f68c715441f8.png"
+        },
+        {
+          "id": "be99b198-4ea3-4017-87aa-af1c828f889e",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/be99b198-4ea3-4017-87aa-af1c828f889e.png"
+        },
+        {
+          "id": "2327b3c3-0a45-4468-9466-90866b024a04",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/2327b3c3-0a45-4468-9466-90866b024a04.png"
+        }
+      ],
+      "prompt": "A frame grabbed from a Korean sitcom video, 9:16 vertical: candid mid-action, caught between movements, slight natural motion softness, not a posed photo. Evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Reference images: first the exact FACE(s) to keep (identity must match exactly), then the outfit sheet(s), then the room. People: the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers). Situation: 밤 10시 1층 거실. 준호는 소파, 비아는 아일랜드, 수만은 아일랜드 뒤. 로고와 제목이 위에 뜬다. Emotion: 평온. Action: 와이드, 느린 줌. Extra note from the director: 이미지가 뭉개져있음. Show the action clearly in one frame; the face stays the reference face.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_055616_408e1dcc-05c8-433b-8d55-2d679f5c1dcd.png",
+    "status": "completed"
+  }
+]
+--stderr--

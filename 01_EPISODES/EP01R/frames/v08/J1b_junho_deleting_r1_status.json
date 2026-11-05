@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-05T05:57:02.480141Z",
+  "display_name": "Nano Banana Pro",
+  "id": "cc886c1c-52ee-4966-af02-b98a75bb2d9f",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_055702_cc886c1c-52ee-4966-af02-b98a75bb2d9f_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "1e5a9aad-028a-4467-b2f0-571c8c21726f",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/1e5a9aad-028a-4467-b2f0-571c8c21726f.png"
+    },
+    {
+     "id": "29fb202e-0e05-4ceb-882d-95d34dd941ce",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/29fb202e-0e05-4ceb-882d-95d34dd941ce.png"
+    },
+    {
+     "id": "2e107579-5026-4dfd-9b86-68f687b101f3",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/2e107579-5026-4dfd-9b86-68f687b101f3.png"
+    }
+   ],
+   "prompt": "A frame grabbed from a Korean sitcom video, 9:16 vertical: candid mid-action, caught between movements, slight natural motion softness, not a posed photo. Evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Reference images: first the exact FACE(s) to keep (identity must match exactly), then the outfit sheet(s), then the room. People: the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers). Situation: 준호가 인사말이 중요하다고 우긴다. 22명이면 첫인상 22개라는 논리. Emotion: 진지한데 본인도 웃김을 앎. Action: 폰을 증거처럼 들어 보임, 눈썹 크게. Show the action clearly in one frame; the face stays the reference face.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_055702_cc886c1c-52ee-4966-af02-b98a75bb2d9f.png",
+  "status": "completed"
+ }
+]

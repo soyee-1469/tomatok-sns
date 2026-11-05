@@ -1,0 +1,29 @@
+[
+ {
+  "created_at": "2026-11-05T04:17:52.268856Z",
+  "display_name": "Nano Banana Pro",
+  "id": "f1d9d995-f52e-4de9-9999-65da20fdf887",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_041752_f1d9d995-f52e-4de9-9999-65da20fdf887_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "7b2dc451-799d-40b1-83bb-3b68a3a7c8ae",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/7b2dc451-799d-40b1-83bb-3b68a3a7c8ae.png"
+    }
+   ],
+   "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the people in the reference images and the exact room from the references. Medium shot: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, NO glasses) on the black stool at the marble island, turned toward the left side of the frame (toward the sofa, off-screen), holding her black smartphone up at shoulder height with its screen facing left (back of the phone toward the camera), a plain matter-of-fact expression, one eyebrow slightly up.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_041752_f1d9d995-f52e-4de9-9999-65da20fdf887.png",
+  "status": "completed"
+ }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-05T02:32:51.929608Z",
+    "display_name": "Kling v3.0",
+    "id": "10125e38-0933-4e99-88e1-3a3073e593dc",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 3,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "d195dead-a88c-4d2b-beb6-399c0b0e1460",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/d195dead-a88c-4d2b-beb6-399c0b0e1460.png"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "SCENE CONTEXT\nEvening, just inside the front door of the living room. the grandmother (71, Korean, short gray curly perm, vivid emerald-green chore jacket over a white T-shirt, reading glasses on a beaded chain, keys clipped to the pocket) stands on a small jute doormat with the dark-gray front door half open behind her on the left, holding two stacked stainless-steel side-dish containers with both hands at chest height, leaning slightly forward and peering into the room toward the right (the sofa, off-screen). The wall beside the door is plain.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nFixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, window dark navy, no film grain, no over-sharpening.\n\nACTION\n0.0s to 0.6s: she steps one small step onto the mat, eyes scanning the room to the right. 0.6s to 1.8s: she says her line. 1.8s to 3.0s: she waits, head tilted.\n\nPERFORMANCE\nNosy, affectionate grandmother. No exaggerated acting, no look at the camera.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.\n\nPOSITIVE LOCKS\nContinue exactly from the start image. The grandmother keeps the same face, hair, glasses, clothes and position through the whole take. Same room, furniture, lamps and colors. No new people enter. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe grandmother says in natural native Korean, an elderly woman's warm nosy tone, half suspicious half fond, tossed out, falling: \"둘이 뭐 해.\" She says only this one line and nothing else; no other words in any language. Natural delivery, visible lip-sync, mouth movements match every word, no subtitles, no on-screen text.",
+      "reference_elements": [],
+      "sound": "on",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_023251_10125e38-0933-4e99-88e1-3a3073e593dc.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_023251_10125e38-0933-4e99-88e1-3a3073e593dc_thumbnail.webp"
+  }
+]
+--stderr--

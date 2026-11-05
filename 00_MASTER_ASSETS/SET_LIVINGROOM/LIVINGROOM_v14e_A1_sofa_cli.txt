@@ -1,0 +1,30 @@
+[
+  {
+    "created_at": "2026-11-05T07:13:15.583061Z",
+    "display_name": "Nano Banana Pro",
+    "id": "7434732c-8669-4422-bcb9-d989cdbae6e1",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_071315_7434732c-8669-4422-bcb9-d989cdbae6e1_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "9ace02fe-77c1-45b7-beec-f4e9285d5ea8",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/9ace02fe-77c1-45b7-beec-f4e9285d5ea8_resize.jpg"
+        }
+      ],
+      "prompt": "Same set as the reference image, identical furniture in identical positions, 9 pm evening lighting exactly as in the reference (arched window dark navy, all lamps on, warm 3000K, soft low contrast). Photo-real, 9:16 portrait, eye-level camera, no people, no text. Camera on the audience side facing the caramel corduroy sofa head-on, medium-wide: sofa centered with its patterned cushions and cream throw, round oak coffee table with the tomato-red tray and small flowers in front, mustard armchair at the right edge, the arched window and the round oak dining table visible behind-left of the sofa, paper pendant lamp above.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_071315_7434732c-8669-4422-bcb9-d989cdbae6e1.png",
+    "status": "completed"
+  }
+]
+--stderr--

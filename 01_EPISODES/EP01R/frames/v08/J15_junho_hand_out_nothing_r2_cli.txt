@@ -1,0 +1,55 @@
+[
+  {
+    "created_at": "2026-11-05T08:30:40.249013Z",
+    "display_name": "Nano Banana Pro",
+    "id": "c9fb5e43-a2f5-4fc4-80e0-b8214dbbea2c",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_083040_c9fb5e43-a2f5-4fc4-80e0-b8214dbbea2c_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "95d39496-bba2-4102-96b4-2a069620be87",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/95d39496-bba2-4102-96b4-2a069620be87.png"
+        },
+        {
+          "id": "95d39496-bba2-4102-96b4-2a069620be87",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/95d39496-bba2-4102-96b4-2a069620be87.png"
+        },
+        {
+          "id": "cb335d6f-639e-48da-b077-efecf377b308",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/cb335d6f-639e-48da-b077-efecf377b308.png"
+        },
+        {
+          "id": "88879300-ff36-4239-a573-42b568f9840e",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/88879300-ff36-4239-a573-42b568f9840e_resize.jpg"
+        },
+        {
+          "id": "3ccd062a-6cb6-4ee8-be6a-8ceb1cc5a5bb",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/3ccd062a-6cb6-4ee8-be6a-8ceb1cc5a5bb_resize.jpg"
+        },
+        {
+          "id": "72545c25-a9f7-43de-b79e-73d75aaf15ea",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/72545c25-a9f7-43de-b79e-73d75aaf15ea_resize.jpg"
+        }
+      ],
+      "prompt": "A frame grabbed from a Korean sitcom video, 9:16 vertical: candid mid-action, caught between movements, slight natural motion softness on the hands, not a posed photo. Evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the people in the reference images and the exact room and sofa. Medium shot: the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers) at the right end of the sofa with one hand held out open toward the entrance (off-screen left), palm up, expecting something, face falling into a comic pout as nothing is placed in it. KEEP this exact staging, camera distance, furniture placement and room; change only what follows. Situation: 준호가 소파에서 벌떡 일어나 할머니 뒤를 따라가며 반찬통을 받아 들려 한다. Emotion: 코믹 상심. Action: 빠른 걸음으로 뒤따르며 두 손 내밀어 반찬통 받으려 함 / 할머니 반찬통을 들어드리며 냉장고로 가는 할머니를 쫒아간다. / 할머니 반찬통을 들어드리며 냉장고로 가는 할머니를 쫒아간다. FIXED SET LAYOUT (identical to the evening master set image; never move furniture): seen from the audience side, the front door and the single straight oak staircase with black railing are on the far LEFT along the back wall; the big arched window is in the center of the back wall with the round oak dining table and chairs in front of it, behind-left of the sofa; the caramel corduroy sofa sits center facing the camera with the round oak coffee table (tomato-red tray, small flowers) in front of it and the mustard armchair at its right; a low oak sideboard with a radio and globe stands behind the armchair; the white marble kitchen island with three black stools is on the far RIGHT in front of the kitchen wall with copper pans and copper pendant lamps. Nothing else is rearranged. FIXED TIME AND LIGHTING (identical in every frame): 9 pm, evening. The arched window is dark navy with no daylight. All practical lamps are on (paper pendants, copper pendants over the island, table lamps, warm string lights). Warm tungsten color around 3000K, soft even low-contrast exposure, faces clearly lit, no deep shadows, no sunbeams, no blue light. Same brightness as the evening master set image.  IDENTITY LOCK: each character's face must be the exact same person as in their face reference image (same eyes, nose, jaw, skin tone, hairline, hairstyle); do not beautify or generalize the face. The first reference images are the exact faces to keep; identity must match them exactly. Candid mid-action, like a frame grabbed from video. No text, no lettering, no sound-effect words, no logos anywhere in the image.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_083040_c9fb5e43-a2f5-4fc4-80e0-b8214dbbea2c.png",
+    "status": "completed"
+  }
+]
+--stderr--

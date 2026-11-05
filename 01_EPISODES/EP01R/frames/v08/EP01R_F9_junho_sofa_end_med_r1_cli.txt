@@ -1,0 +1,55 @@
+[
+  {
+    "created_at": "2026-11-05T08:33:49.351651Z",
+    "display_name": "Nano Banana Pro",
+    "id": "f4b2e63c-f2ed-4122-9482-682edc060b00",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_083349_f4b2e63c-f2ed-4122-9482-682edc060b00_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "f9807970-27f9-4369-ab5d-afb7e5026847",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/f9807970-27f9-4369-ab5d-afb7e5026847.png"
+        },
+        {
+          "id": "f9807970-27f9-4369-ab5d-afb7e5026847",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/f9807970-27f9-4369-ab5d-afb7e5026847.png"
+        },
+        {
+          "id": "166f6e13-3cb2-4ae9-b0e6-b70ad29cce41",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/166f6e13-3cb2-4ae9-b0e6-b70ad29cce41.png"
+        },
+        {
+          "id": "215c6c3e-f96a-4b3e-87a4-a22c203a214e",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/215c6c3e-f96a-4b3e-87a4-a22c203a214e_resize.jpg"
+        },
+        {
+          "id": "5721fa4c-c269-4f26-b5c8-7155ba0af36d",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/5721fa4c-c269-4f26-b5c8-7155ba0af36d_resize.jpg"
+        },
+        {
+          "id": "0c4f9268-1ee1-4616-b830-3f0c6028bac5",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/0c4f9268-1ee1-4616-b830-3f0c6028bac5_resize.jpg"
+        }
+      ],
+      "prompt": "A frame grabbed from a Korean sitcom video, 9:16 vertical: candid mid-action, caught between movements, slight natural motion softness, not a posed photo. Evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Reference images: first the exact FACE(s) to keep (identity must match exactly), then the outfit sheet(s), then the room. People: the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers). Situation: . Emotion: 체념. Action: 천장 한 번 보고 / 당황하며 핸드폰을 보는척 당황한다. / 당황하며 핸드폰을 보는척 당황한다. / 당황하며 핸드폰을 보는척 당황한다.. Show the action clearly in one frame; the face stays the reference face.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_083349_f4b2e63c-f2ed-4122-9482-682edc060b00.png",
+    "status": "completed"
+  }
+]
+--stderr--

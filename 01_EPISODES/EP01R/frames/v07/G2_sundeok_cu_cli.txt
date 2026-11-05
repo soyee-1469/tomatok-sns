@@ -1,0 +1,30 @@
+[
+  {
+    "created_at": "2026-11-05T04:21:19.565412Z",
+    "display_name": "Nano Banana Pro",
+    "id": "447bd4b1-52d2-4fbc-94de-20ba8b013dab",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_042119_447bd4b1-52d2-4fbc-94de-20ba8b013dab_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "5a3a0ec9-0b95-45a5-a486-3bacf71eb6a9",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/5a3a0ec9-0b95-45a5-a486-3bacf71eb6a9.png"
+        }
+      ],
+      "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the people in the reference images and the exact room from the references. Close-up (85mm) of the grandmother (71, Korean, short gray curly perm, vivid emerald-green chore jacket over a white T-shirt, reading glasses on a beaded chain, keys clipped to the pocket) just inside the front door, the dark-gray door edge blurred at the left, her face filling the frame, eyes narrowed knowingly with a small satisfied smile, peering toward the right.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_042119_447bd4b1-52d2-4fbc-94de-20ba8b013dab.png",
+    "status": "completed"
+  }
+]
+--stderr--

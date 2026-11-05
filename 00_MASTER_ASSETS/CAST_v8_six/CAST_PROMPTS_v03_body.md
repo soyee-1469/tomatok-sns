@@ -1,9 +1,9 @@
 # 토마톡 캐스트 프롬프트 v03 — 확정 얼굴 8명 기준 몸통 시트 + 9:16 세트 컷
 
-작성 2026-11-04. `CAST_PROMPTS_v01.md`(2026-11-03)는 확정 얼굴과 안 맞아 폐기(비아 번·점, 준호 은테 사각 안경, 미유 히메컷·덧니, 순덕 금니 전부 옛 설정). 이 파일이 현재 기준.
+작성 2026-11-04. `CAST_PROMPTS_v01.md`(2026-11-03)는 확정 얼굴과 안 맞아 폐기(리아 번·점, 준호 은테 사각 안경, 미유 히메컷·덧니, 순덕 금니 전부 옛 설정). 이 파일이 현재 기준.
 
 ## 공통 규칙
-- 키 차트 (2026-11-04 사용자 지시: 준호 180+, 비아 170+, 하영·미유 작게): 준호 184 · 시우 178 · 수만 172 · 하오 172 · 비아 171 · 하영 155 · 순덕 155 · 미유 153. 2인 이상 컷에서는 이 차이가 보이게 프롬프트에 두 사람 키를 함께 적는다.
+- 키 차트 (2026-11-04 사용자 지시: 준호 180+, 리아 170+, 하영·미유 작게): 준호 184 · 시우 178 · 수만 172 · 하오 172 · 리아 171 · 하영 155 · 순덕 155 · 미유 153. 2인 이상 컷에서는 이 차이가 보이게 프롬프트에 두 사람 키를 함께 적는다.
 - 확정 얼굴(`*_face.png`, `BEA_MASTER_FACE.png`)은 바꾸지 않는다. 몸통 시트의 상의는 **확정 얼굴 사진에 보이는 상의 그대로** 이어받는다. 그래야 얼굴 컷과 몸통 컷이 한 사람으로 붙는다.
 - 이미지 1장 = ChatGPT 새 채팅 1개. (임시 채팅은 이미지 생성 불가.) 일반 채팅은 이전 채팅 기억을 끌어와 다른 캐릭터를 한 장에 합쳐 버릴 수 있다(11-04 수만 사례) → 프롬프트 맨 앞에 반드시 `Generate ONE image of ONLY the one person in the attached photo. Ignore any other people, previous images or conversations.`를 붙인다. 해당 캐릭터 확정 얼굴을 첨부하고 그 뒤에 아래 줄을 붙인다.
   ```
@@ -29,7 +29,7 @@ RIGHT PANEL: full body BACK view framed from the top of the head down to the fee
 
 ---
 
-## 1. 비아 (Bea Villanueva) · 27 · 필리핀 엄마 + 미국 아빠 · 3층 앞방
+## 1. 리아 (Ria Villanueva) · 27 · 필리핀 엄마 + 미국 아빠 · 3층 앞방
 확정 얼굴: `BEA_MASTER_FACE.png`
 ```
 IDENTITY: a 27-year-old woman of Filipino and American mixed heritage, warm golden-tan skin, long dark-espresso hair past the collarbone with soft curtain bangs and a loose S-wave, small gold hoop earrings, a thin gold chain with a small round gold pendant. Height about 171 cm, tall and slim with long legs and a soft natural figure, relaxed open posture.
@@ -115,6 +115,6 @@ STYLE: clean sharp high-resolution photo, modern Korean sitcom look, neutral-war
 - 결과가 얼굴 사진과 상의·머리가 다르면 그 채팅은 버리고 새 채팅에서 다시. 결과를 다시 넣어 고치지 않는다.
 
 ## 세트 컷 주의 (2026-11-04)
-- **세트 컷(B)은 레퍼런스라 얼굴을 뺀다** (사용자 2026-11-04 "세트컷에서도 얼굴 잘라야"). 프롬프트에 `framed from the chin down, head and face cropped out of the top of the frame` 추가. 얼굴이 들어가는 건 Kling 시작 프레임(에피소드 F컷)뿐이고, 그건 만들 때마다 마스터 얼굴과 대조. 기존 비아·준호 세트 컷은 턱 아래로 잘라 저장, 원본은 `_old_withface`.
+- **세트 컷(B)은 레퍼런스라 얼굴을 뺀다** (사용자 2026-11-04 "세트컷에서도 얼굴 잘라야"). 프롬프트에 `framed from the chin down, head and face cropped out of the top of the frame` 추가. 얼굴이 들어가는 건 Kling 시작 프레임(에피소드 F컷)뿐이고, 그건 만들 때마다 마스터 얼굴과 대조. 기존 리아·준호 세트 컷은 턱 아래로 잘라 저장, 원본은 `_old_withface`.
 - 거실 v14 마스터에는 **현관이 안 보인다**(현관 벽에서 찍은 앵글). 현관 컷을 요청하면 모델이 문·후크·에코백·신발장을 지어낸다. 사용자는 신발장을 일부러 없앴으므로 현관은 **빈 벽 + 문 + 바닥 매트 하나**로 고정. 프롬프트에 `no coat hooks, no shoe rack, no shelves, no bags on the wall, plain wall beside the door` 명시.
 - 소품은 캐릭터가 손에 든 것만. 바닥에 다른 신발 두지 않기.

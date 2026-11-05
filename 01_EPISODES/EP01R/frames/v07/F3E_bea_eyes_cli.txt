@@ -1,0 +1,30 @@
+[
+  {
+    "created_at": "2026-11-05T03:03:13.489925Z",
+    "display_name": "Nano Banana Pro",
+    "id": "d9bf8cc5-450a-450e-84c2-d9ccd1cb9c87",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_030313_d9bf8cc5-450a-450e-84c2-d9ccd1cb9c87_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "1967e339-bcef-4acb-8341-893660a54b28",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/1967e339-bcef-4acb-8341-893660a54b28.png"
+        }
+      ],
+      "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, evening living room lighting (warm lamps, string lights, window dark navy), fixed tripod camera, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the person in the reference image. Extreme close-up of only the woman's eyes from the reference, from eyebrows to the top of the cheeks, filling the whole frame, eyes crinkled mid-laugh she is trying to hold back, glancing sideways to the left, warm kitchen light, shallow depth of field.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_030313_d9bf8cc5-450a-450e-84c2-d9ccd1cb9c87.png",
+    "status": "completed"
+  }
+]
+--stderr--

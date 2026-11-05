@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-05T02:14:19.864323Z",
+    "display_name": "Kling v3.0",
+    "id": "4d9a0468-b3ce-4ca4-819e-7b74056676f1",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 3,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "dce21b3b-334c-4655-b26a-8e924761ffbf",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/dce21b3b-334c-4655-b26a-8e924761ffbf.png"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "SCENE CONTEXT\nEvening kitchen island, medium shot. the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops) sits on a black stool at the end of the marble island, elbows on the counter, holding a smartphone in both hands, her head turned toward the left side of the room (toward the sofa, off-screen).\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nFixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, window dark navy, no film grain, no over-sharpening.\n\nACTION\n0.0s to 3.0s: she looks at her phone and tries not to laugh: lips pressed inward, cheeks tight, shoulders shaking twice at 0.8s and 2.0s, one quick glance toward the sofa (off-screen left) at 1.4s and back to the phone. She does not speak.\n\nPERFORMANCE\nSilent laughter held in. Small, real. No exaggerated acting, no look at the camera.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.\n\nPOSITIVE LOCKS\nContinue exactly from the start image. The man keeps the same face, hair, glasses, clothes and position through the whole take. Same room, furniture, lamps and colors. No new people enter. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nNobody speaks. No words in any language.",
+      "reference_elements": [],
+      "sound": "on",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_021419_4d9a0468-b3ce-4ca4-819e-7b74056676f1.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_021419_4d9a0468-b3ce-4ca4-819e-7b74056676f1_thumbnail.webp"
+  }
+]
+--stderr--

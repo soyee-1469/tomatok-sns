@@ -1,0 +1,15 @@
+[
+ {
+  "created_at": "2026-11-05T02:28:05.171125Z",
+  "display_name": "Mirelo Text to Audio",
+  "id": "e58fb057-54b4-4a25-b8d0-e46e8276e244",
+  "job_type": "mirelo_text_to_audio",
+  "min_result_url": null,
+  "params": {
+   "duration": 3,
+   "prompt": "Korean apartment digital door lock: three quick electronic keypad beeps, then a motorized unlock clunk and the front door opening with a soft creak. Indoor, close, no music, no voices."
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_022805_e58fb057-54b4-4a25-b8d0-e46e8276e244.mp3",
+  "status": "completed"
+ }
+]

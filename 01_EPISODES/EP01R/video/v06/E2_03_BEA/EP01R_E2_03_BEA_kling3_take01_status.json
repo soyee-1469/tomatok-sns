@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-05T02:27:07.052085Z",
+  "display_name": "Kling v3.0",
+  "id": "dc502502-45e4-461f-a8a8-f6b5b6c9958b",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+   "aspect_ratio": "9:16",
+   "cfg_scale": 0.5,
+   "duration": 5,
+   "enhance_prompt": false,
+   "height": 1280,
+   "kling_element_ids": [],
+   "kling_elements": [],
+   "medias": [
+    {
+     "data": {
+      "id": "8c8ec369-452b-4d5d-ba47-e3e4e10ba75a",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/8c8ec369-452b-4d5d-ba47-e3e4e10ba75a.png"
+     },
+     "role": "start_image"
+    }
+   ],
+   "mode": "std",
+   "multi_prompt": [],
+   "multi_shot_mode": "custom",
+   "multi_shots": false,
+   "prompt": "SCENE CONTEXT\nEvening living room, medium shot. the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops) sits at the left end of the caramel corduroy sofa, body turned toward the right side of the frame (toward him, off-screen), a smartphone in her right hand resting on her knee, a cream knit cushion on the seat beside her.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nFixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, window dark navy, no film grain, no over-sharpening.\n\nACTION\n0.0s to 0.4s: she looks at him off-screen right. 0.4s to 3.6s: she says her line, counting on one finger at the start. 3.6s to 5.0s: she holds his gaze, unimpressed.\n\nPERFORMANCE\nExasperated, sharp. No exaggerated acting, no look at the camera.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.\n\nPOSITIVE LOCKS\nContinue exactly from the start image. The woman keeps the same face, hair, glasses, clothes and position through the whole take. Same room, furniture, lamps and colors. No new people enter. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe woman says in fluent Korean with a light Filipino-English accent and an English-like rising rhythm, bright and playful, exasperated, quick, falling: \"그 말 세 번째야. Seriously. 내 짐은 다 들어갔어.\" The English word \"Seriously\" is pronounced natively in English; every other word is Korean. She says only this one line and nothing else; no other words in any language. Natural delivery, visible lip-sync, mouth movements match every word, no subtitles, no on-screen text.",
+   "reference_elements": [],
+   "sound": "on",
+   "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_022707_dc502502-45e4-461f-a8a8-f6b5b6c9958b.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_022707_dc502502-45e4-461f-a8a8-f6b5b6c9958b_thumbnail.webp"
+ }
+]

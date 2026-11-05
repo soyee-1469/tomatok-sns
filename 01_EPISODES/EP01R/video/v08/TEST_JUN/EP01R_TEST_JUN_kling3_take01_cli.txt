@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-05T04:54:40.081244Z",
+    "display_name": "Kling v3.0",
+    "id": "64c5ad13-23ed-420d-99c1-eb1995fdbfc2",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 3,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "eb7e6ce9-b2d8-462a-9070-52e407d2e398",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/eb7e6ce9-b2d8-462a-9070-52e407d2e398_resize.jpg"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "SCENE CONTEXT\nEvening living room, medium shot. the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard) hunched on the caramel corduroy sofa over his phone, one hand in his hair, frustrated mid-edit.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nFixed camera on a tripod, exactly the framing of the start image, no zoom, no pan. Modern Korean sitcom look, warm evening indoor light, no film grain.\n\nACTION\n0.0s to 0.5s: he drops the hand from his hair and looks up toward the right (toward her at the island, off-screen) with a comic wounded face. 0.5s to 2.5s: he says his line with big expressive eyebrows, holding up the phone as evidence on \"22명\", a goofy grin breaking through on the last word. 2.5s to 3.0s: he goes straight back to the phone, thumbs jittering, bouncing one knee. Throughout he is a nervous, jittery wreck in a funny way: clutching the phone, shifting on the sofa, small restless fidgets.\n\nPERFORMANCE\nEarnest and a little goofy: he is treating a group-chat greeting like a job interview and half knows it is funny. He is a very kind, funny man who loves her deeply: a natural comedian, playful and a little goofy, with quick expressive reactions (eyebrows, mouth, small noises) and good comic timing. He is never irritated with her; when things go wrong he turns it into a joke on himself. No exaggerated acting, no look at the camera.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.\n\nPOSITIVE LOCKS\nContinue exactly from the start image. The man keeps the same face, hair, glasses, clothes and position through the whole take. No new people enter. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe man says in natural native Korean, warm and lively with a comedian's timing: playful, a little goofy, self-deprecating, never irritated or sharp toward her, bright and quick, the first sentence popping and the second almost laughing: \"첫인상이잖아! 22명이면 첫인상이 22개야.\" He says only this one line and nothing else; no other words in any language. Natural delivery, visible lip-sync, mouth movements match every word, no subtitles, no on-screen text.",
+      "reference_elements": [],
+      "sound": "on",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_045440_64c5ad13-23ed-420d-99c1-eb1995fdbfc2.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_045440_64c5ad13-23ed-420d-99c1-eb1995fdbfc2_thumbnail.webp"
+  }
+]
+--stderr--

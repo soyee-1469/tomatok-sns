@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-05T06:14:06.544723Z",
+  "display_name": "Nano Banana Pro",
+  "id": "5f70d669-d773-464f-8b72-d8607b2cec13",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_061406_5f70d669-d773-464f-8b72-d8607b2cec13_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "c4fabf45-30e0-40c3-af69-1fc84d781db5",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/c4fabf45-30e0-40c3-af69-1fc84d781db5.png"
+    },
+    {
+     "id": "f54c86a9-2e29-4454-bc92-d284eeb1018f",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/f54c86a9-2e29-4454-bc92-d284eeb1018f.png"
+    },
+    {
+     "id": "fdeade06-13fa-498b-963e-54bc11a00a89",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/fdeade06-13fa-498b-963e-54bc11a00a89.png"
+    }
+   ],
+   "prompt": "A frame grabbed from a Korean sitcom video, 9:16 vertical: candid mid-action, caught between movements, slight natural motion softness, not a posed photo. Evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Reference images: first the exact FACE(s) to keep (identity must match exactly), then the outfit sheet(s), then the room. People: the Nepali man (31, deep brown skin, black curly hair, short trimmed beard, white chef's jacket, beige towel on the left shoulder, navy half-apron). Situation: 수만: 우리 집도 그래, 읽기만 해. Emotion: 여유, 위로. Action: 피클병 내려놓으며 소파 쪽 / 피클병 내려놓으면서 식탁에 서있다. / 피클병 내려놓으면서 식탁에 서있다. / 피클병 내려놓으면서 식탁에 서있다.. Show the action clearly in one frame; the face stays the reference face.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_061406_5f70d669-d773-464f-8b72-d8607b2cec13.png",
+  "status": "completed"
+ }
+]

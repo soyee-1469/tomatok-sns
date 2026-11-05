@@ -1,0 +1,44 @@
+[
+ {
+  "created_at": "2026-11-05T06:26:44.668953Z",
+  "display_name": "Nano Banana Pro",
+  "id": "694899fd-344f-4ae9-ab25-e3ae8105f313",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_062644_694899fd-344f-4ae9-ab25-e3ae8105f313_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "a40e16ce-84d5-4a47-b215-6f225b160dd2",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/a40e16ce-84d5-4a47-b215-6f225b160dd2.png"
+    },
+    {
+     "id": "495bb87a-613a-47eb-98c7-1b16ba50ee32",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/495bb87a-613a-47eb-98c7-1b16ba50ee32.png"
+    },
+    {
+     "id": "f64a67e0-1652-4164-b59d-e892a2dee719",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/f64a67e0-1652-4164-b59d-e892a2dee719.png"
+    },
+    {
+     "id": "79533ad6-959a-4f42-898c-47727f37ff60",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/79533ad6-959a-4f42-898c-47727f37ff60.png"
+    }
+   ],
+   "prompt": "A frame grabbed from a Korean sitcom video, 9:16 vertical: candid mid-action, caught between movements, slight natural motion softness on the hands, not a posed photo. Evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the people in the reference images and the exact room. Medium shot: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses) on the black stool at the island, pressing her phone face-down against her chest with both hands, looking sideways to the left (toward him, off-screen) with a guilty, mischievous side-eye, mid-giggle. KEEP this exact staging, camera distance, furniture placement and room; change only what follows. Situation: 비아가 폰을 가슴에 엎어 숨긴다: 가족방 아니야. Emotion: 장난, 들킬 듯. Action: 폰 가슴에, 옆눈 / 자기에게 걸어오는 준호에게 핸드폰을보여주며 말한다 / 자기에게 걸어오는 준호에게 핸드폰을보여주며 말한다 / 자기에게 걸어오는 준호에게 핸드폰을보여주며 말한다 / 자기에게 걸어오는 준호에게 핸드폰을보여주며 말한다. FIXED SET LAYOUT (never move furniture, same as the master set image): seen from the audience side, the front door and the single straight oak staircase are on the far LEFT along the back wall; the caramel corduroy sofa sits center facing the camera with the round oak coffee table (tomato-red tray) in front of it and the mustard armchair at its right; the round oak dining table with chairs is behind-right of the sofa; the white marble kitchen island with three black stools is on the far RIGHT in front of the kitchen wall with copper pans; the big arched window is on the right-hand back wall above the dining nook. Nothing else is rearranged. The first reference images are the exact faces to keep; identity must match them exactly. Candid mid-action, like a frame grabbed from video. No text, no lettering, no sound-effect words, no logos anywhere in the image.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_062644_694899fd-344f-4ae9-ab25-e3ae8105f313.png",
+  "status": "completed"
+ }
+]

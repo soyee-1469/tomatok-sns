@@ -1,0 +1,49 @@
+[
+ {
+  "created_at": "2026-11-05T09:03:14.558311Z",
+  "display_name": "Nano Banana Pro",
+  "id": "e788f975-3ca5-423c-a118-809197e262eb",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_090314_e788f975-3ca5-423c-a118-809197e262eb_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "6a26a075-0eff-4108-a714-269f716a35f2",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/6a26a075-0eff-4108-a714-269f716a35f2.png"
+    },
+    {
+     "id": "6a26a075-0eff-4108-a714-269f716a35f2",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/6a26a075-0eff-4108-a714-269f716a35f2.png"
+    },
+    {
+     "id": "ac698046-65e6-4580-b018-2fce22409ad9",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/ac698046-65e6-4580-b018-2fce22409ad9.png"
+    },
+    {
+     "id": "5797d31c-9718-47c3-bcd1-24bd06d583a5",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/5797d31c-9718-47c3-bcd1-24bd06d583a5_resize.jpg"
+    },
+    {
+     "id": "bef69207-71f2-43c6-805c-0cd8e2cec1dd",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/bef69207-71f2-43c6-805c-0cd8e2cec1dd_resize.jpg"
+    }
+   ],
+   "prompt": "A frame grabbed from a Korean sitcom video, 9:16 vertical: candid mid-action, caught between movements, slight natural motion softness, not a posed photo. Evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Reference images: first the exact FACE(s) to keep (identity must match exactly), then the outfit sheet(s), then the room. People: the Nepali man (31, deep brown skin, black curly hair, short trimmed beard, white chef's jacket, beige towel on the left shoulder, navy half-apron). Situation: 수만이 아일랜드 뒤에 서서 피클병을 내려놓으며 소파 쪽에 말한다. Emotion: 여유, 위로. Action: 피클병 내려놓기, 고개는 소파 쪽(화면 왼쪽) / 피클병 내려놓으면서 식탁에 서있다. / 피클병 내려놓으면서 식탁에 서있다. 식탁앞에는 리아가 아일랜드 의자에 앉아있고 그옆에 서서 쩔쩔매는 준호가 있다. / 피클병 내려놓으면서 식탁에 서있다. 식탁앞에는 리아가 아일랜드 의자에 앉아있고 그옆에 서서 쩔쩔매는 준호가 있다.. Show the action clearly in one frame; the face stays the reference face.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_090314_e788f975-3ca5-423c-a118-809197e262eb.png",
+  "status": "completed"
+ }
+]

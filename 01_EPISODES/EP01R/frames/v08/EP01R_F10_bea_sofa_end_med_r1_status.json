@@ -1,0 +1,54 @@
+[
+ {
+  "created_at": "2026-11-05T08:32:42.046037Z",
+  "display_name": "Nano Banana Pro",
+  "id": "10dbb4d8-988e-4faf-abfd-f4dc4b7dbb83",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_083242_10dbb4d8-988e-4faf-abfd-f4dc4b7dbb83_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "6c0bca22-6f61-478f-a073-6bc2fc9c1883",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/6c0bca22-6f61-478f-a073-6bc2fc9c1883.png"
+    },
+    {
+     "id": "6c0bca22-6f61-478f-a073-6bc2fc9c1883",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/6c0bca22-6f61-478f-a073-6bc2fc9c1883.png"
+    },
+    {
+     "id": "31e0b325-ab23-4b09-99a6-91356cd561cf",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/31e0b325-ab23-4b09-99a6-91356cd561cf.png"
+    },
+    {
+     "id": "b56b3687-f8d9-46fd-8dea-209a275145b9",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/b56b3687-f8d9-46fd-8dea-209a275145b9_resize.jpg"
+    },
+    {
+     "id": "af0108e2-afde-4044-98ec-3da1962337e7",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/af0108e2-afde-4044-98ec-3da1962337e7_resize.jpg"
+    },
+    {
+     "id": "93333208-444f-4bfe-b59e-996f0befe256",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/93333208-444f-4bfe-b59e-996f0befe256_resize.jpg"
+    }
+   ],
+   "prompt": "A frame grabbed from a Korean sitcom video, 9:16 vertical: candid mid-action, caught between movements, slight natural motion softness, not a posed photo. Evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Reference images: first the exact FACE(s) to keep (identity must match exactly), then the outfit sheet(s), then the room. People: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses). Situation: . Emotion: 속삭임. Action: 준호 쪽으로 몸 기울임 / 할머니가 고마운 리아, 준호를 바라보며 쌤통이다라는 표정을 짓는다. / 할머니가 고마운 리아, 준호를 바라보며 쌤통이다라는 표정을 짓는다. / 할머니가 고마운 리아, 준호를 바라보며 쌤통이다라는 표정을 짓는다.. Show the action clearly in one frame; the face stays the reference face.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_083242_10dbb4d8-988e-4faf-abfd-f4dc4b7dbb83.png",
+  "status": "completed"
+ }
+]

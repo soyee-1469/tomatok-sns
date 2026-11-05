@@ -1,0 +1,30 @@
+[
+  {
+    "created_at": "2026-11-05T03:03:13.612444Z",
+    "display_name": "Nano Banana Pro",
+    "id": "ae3ad6ba-75ee-4026-adde-83ab4336f66e",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_030313_ae3ad6ba-75ee-4026-adde-83ab4336f66e_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "0ade148d-6ee0-416b-a14c-91579d44dd43",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/0ade148d-6ee0-416b-a14c-91579d44dd43.png"
+        }
+      ],
+      "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, evening living room lighting (warm lamps, string lights, window dark navy), fixed tripod camera, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the person in the reference image. Extreme close-up of only the man's eyes and round gold wire glasses from the reference, from eyebrows to the bridge of the nose, filling the whole frame, eyes wide and startled, soft phone-screen glow reflected in the lenses, shallow depth of field.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_030313_ae3ad6ba-75ee-4026-adde-83ab4336f66e.png",
+    "status": "completed"
+  }
+]
+--stderr--

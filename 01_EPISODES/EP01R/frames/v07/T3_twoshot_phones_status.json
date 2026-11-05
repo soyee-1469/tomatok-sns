@@ -1,0 +1,29 @@
+[
+ {
+  "created_at": "2026-11-05T04:19:39.589259Z",
+  "display_name": "Nano Banana Pro",
+  "id": "8bbedcb6-52f2-4812-b0a1-1faa8cc665a9",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_041939_8bbedcb6-52f2-4812-b0a1-1faa8cc665a9_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "3487e73b-7acf-4857-8ecd-3199e6352828",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/3487e73b-7acf-4857-8ecd-3199e6352828_resize.jpg"
+    }
+   ],
+   "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the people in the reference images and the exact room from the references. Medium two-shot on the caramel sofa: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, NO glasses) at the left end and the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers) at the right end, the cream knit cushion between them, both heads down typing furiously on their own black smartphones with both thumbs, not looking at each other, tight-lipped.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_041939_8bbedcb6-52f2-4812-b0a1-1faa8cc665a9.png",
+  "status": "completed"
+ }
+]

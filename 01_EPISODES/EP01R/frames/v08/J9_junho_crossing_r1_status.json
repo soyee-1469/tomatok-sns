@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-05T05:58:01.654811Z",
+  "display_name": "Nano Banana Pro",
+  "id": "6558178e-cdbc-4934-95d5-7af76e754f0c",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_055801_6558178e-cdbc-4934-95d5-7af76e754f0c_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "0a458547-e56b-48a7-a15d-f7bf1bd3dbd7",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/0a458547-e56b-48a7-a15d-f7bf1bd3dbd7.png"
+    },
+    {
+     "id": "e3a67fce-53c3-4018-9fc2-c20ad6b76dd9",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/e3a67fce-53c3-4018-9fc2-c20ad6b76dd9.png"
+    },
+    {
+     "id": "615f8579-a14c-433d-a7b6-6dafc74e2abe",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/615f8579-a14c-433d-a7b6-6dafc74e2abe.png"
+    }
+   ],
+   "prompt": "A frame grabbed from a Korean sitcom video, 9:16 vertical: candid mid-action, caught between movements, slight natural motion softness, not a posed photo. Evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Reference images: first the exact FACE(s) to keep (identity must match exactly), then the outfit sheet(s), then the room. People: the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers). Situation: 소파를 돌아 아일랜드로 세 걸음. Emotion: 조급, 촐싹. Action: 걷는 중, 한 발 든 채, 폰 앞으로. Show the action clearly in one frame; the face stays the reference face.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_055801_6558178e-cdbc-4934-95d5-7af76e754f0c.png",
+  "status": "completed"
+ }
+]

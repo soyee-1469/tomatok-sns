@@ -1,0 +1,45 @@
+[
+  {
+    "created_at": "2026-11-05T06:53:04.411087Z",
+    "display_name": "Nano Banana Pro",
+    "id": "be764fdc-ac27-4a37-a4d3-5b1f7148a898",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_065304_be764fdc-ac27-4a37-a4d3-5b1f7148a898_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "32832f17-eb81-4e55-b64d-aeaa618a1b0e",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/32832f17-eb81-4e55-b64d-aeaa618a1b0e.png"
+        },
+        {
+          "id": "a4f5256f-e30a-41d8-a98b-520f7e88c237",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/a4f5256f-e30a-41d8-a98b-520f7e88c237.png"
+        },
+        {
+          "id": "6a03c386-6de6-4d4a-9126-f6855e137666",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/6a03c386-6de6-4d4a-9126-f6855e137666.png"
+        },
+        {
+          "id": "6d9f9de8-fdcb-41c0-b923-4be93e2f16d8",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/6d9f9de8-fdcb-41c0-b923-4be93e2f16d8.png"
+        }
+      ],
+      "prompt": "A frame grabbed from a Korean sitcom video, 9:16 vertical: candid mid-action, caught between movements, slight natural motion softness, not a posed photo. Evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Reference images: first the exact FACE(s) to keep (identity must match exactly), then the outfit sheet(s), then the room. People: the grandmother (71, Korean, short gray curly perm, vivid emerald-green chore jacket over a white T-shirt, reading glasses on a beaded chain). Situation: 손자에게. Emotion: 딱딱하지만 사랑. Action: 눈 돌리며 / 할머니가 냉장고에 반찬을 넣으며 리아에게 얘기한다. / 할머니가 냉장고에 반찬을 넣으며 리아에게 얘기한다.. Show the action clearly in one frame; the face stays the reference face.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_065304_be764fdc-ac27-4a37-a4d3-5b1f7148a898.png",
+    "status": "completed"
+  }
+]
+--stderr--

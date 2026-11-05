@@ -1,0 +1,35 @@
+[
+  {
+    "created_at": "2026-11-05T07:20:11.186678Z",
+    "display_name": "Nano Banana Pro",
+    "id": "c0606de5-a9f1-4f3e-b2d6-6ce984c60e50",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_072011_c0606de5-a9f1-4f3e-b2d6-6ce984c60e50_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "37acfc6b-a455-4886-937d-eaecb9ad81e8",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/37acfc6b-a455-4886-937d-eaecb9ad81e8.png"
+        },
+        {
+          "id": "7c3db57e-ac28-4635-b3d8-01204d6ea5da",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/7c3db57e-ac28-4635-b3d8-01204d6ea5da_resize.jpg"
+        }
+      ],
+      "prompt": "Same set as the reference images, identical furniture in identical positions. DAYTIME, exactly the lighting of the FIRST reference image: soft diffused daylight comes through the big arched window, which is frosted white with no outdoor view and no sunbeams; the warm lamps and the string lights are also on; cream walls, warm oak, low contrast, no deep shadows. The SECOND reference image gives only the camera angle and composition; ignore its night lighting. Photo-real, 9:16 portrait, no people, no text. Reverse angle from the kitchen island looking back across the room: the back of the mustard armchair and the sofa in the foreground, the coffee table beyond, the staircase and front door in the background left, the arched window and dining table on the right.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_072011_c0606de5-a9f1-4f3e-b2d6-6ce984c60e50.png",
+    "status": "completed"
+  }
+]
+--stderr--

@@ -1,0 +1,54 @@
+[
+ {
+  "created_at": "2026-11-05T08:36:05.436656Z",
+  "display_name": "Nano Banana Pro",
+  "id": "eaa8c9b5-4bb1-4a6b-8b4d-878a08a74ca6",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_083605_eaa8c9b5-4bb1-4a6b-8b4d-878a08a74ca6_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "381e085c-3c00-4782-b3b5-06a8c20b0dff",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/381e085c-3c00-4782-b3b5-06a8c20b0dff.png"
+    },
+    {
+     "id": "381e085c-3c00-4782-b3b5-06a8c20b0dff",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/381e085c-3c00-4782-b3b5-06a8c20b0dff.png"
+    },
+    {
+     "id": "3899b06e-aedf-469e-94da-10e0798ab1f2",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/3899b06e-aedf-469e-94da-10e0798ab1f2.png"
+    },
+    {
+     "id": "ea567e88-8c7f-45f4-bd2b-9b2cba8ac1a4",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/ea567e88-8c7f-45f4-bd2b-9b2cba8ac1a4_resize.jpg"
+    },
+    {
+     "id": "a726095f-a28b-4611-95ec-ec64cae6ad32",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/a726095f-a28b-4611-95ec-ec64cae6ad32_resize.jpg"
+    },
+    {
+     "id": "d42980ef-aafb-49b1-a548-2bd590c5373c",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/d42980ef-aafb-49b1-a548-2bd590c5373c_resize.jpg"
+    }
+   ],
+   "prompt": "A frame grabbed from a Korean sitcom video, 9:16 vertical: candid mid-action, caught between movements, slight natural motion softness on the hands, not a posed photo. Evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the people in the reference images and the exact room and sofa. Medium-wide: the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers) standing a few steps away from the sofa toward the hallway, holding a stainless-steel side-dish container, caught mid-turn looking back over his shoulder at the sofa with a sheepish bargaining face; the sofa with the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses) seated at the left end soft in the background. KEEP this exact staging, camera distance, furniture placement and room; change only what follows. Situation: 준호가 반찬통 들고 창고방 쪽으로 가다 멈춰 돌아본다. Emotion: 착한 남자의 유일한 고집. Action: 세 걸음, 멈춤, 돌아봄 / 쇼파에서 일어나며 리아를 피하려고 한다. / 쇼파에서 일어나며 리아를 피하려고 한다. / 쇼파에서 일어나며 리아를 피하려고 한다. FIXED SET LAYOUT (identical to the evening master set image; never move furniture): seen from the audience side, the front door and the single straight oak staircase with black railing are on the far LEFT along the back wall; the big arched window is in the center of the back wall with the round oak dining table and chairs in front of it, behind-left of the sofa; the caramel corduroy sofa sits center facing the camera with the round oak coffee table (tomato-red tray, small flowers) in front of it and the mustard armchair at its right; a low oak sideboard with a radio and globe stands behind the armchair; the white marble kitchen island with three black stools is on the far RIGHT in front of the kitchen wall with copper pans and copper pendant lamps. Nothing else is rearranged. FIXED TIME AND LIGHTING (identical in every frame): 9 pm, evening. The arched window is dark navy with no daylight. All practical lamps are on (paper pendants, copper pendants over the island, table lamps, warm string lights). Warm tungsten color around 3000K, soft even low-contrast exposure, faces clearly lit, no deep shadows, no sunbeams, no blue light. Same brightness as the evening master set image.  IDENTITY LOCK: each character's face must be the exact same person as in their face reference image (same eyes, nose, jaw, skin tone, hairline, hairstyle); do not beautify or generalize the face. The first reference images are the exact faces to keep; identity must match them exactly. Candid mid-action, like a frame grabbed from video. No text, no lettering, no sound-effect words, no logos anywhere in the image.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_083605_eaa8c9b5-4bb1-4a6b-8b4d-878a08a74ca6.png",
+  "status": "completed"
+ }
+]

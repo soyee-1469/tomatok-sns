@@ -1,0 +1,44 @@
+[
+ {
+  "created_at": "2026-11-05T06:45:22.708318Z",
+  "display_name": "Nano Banana Pro",
+  "id": "4ed5efb7-28b9-4add-9d6c-0f6c92cedc45",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_064522_4ed5efb7-28b9-4add-9d6c-0f6c92cedc45_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "16d17e4f-3f92-4bc8-b240-8998db0fe54b",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/16d17e4f-3f92-4bc8-b240-8998db0fe54b.png"
+    },
+    {
+     "id": "4a31ee98-958a-4731-ab33-15bd14b0af79",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/4a31ee98-958a-4731-ab33-15bd14b0af79.png"
+    },
+    {
+     "id": "ca0c85b3-cdde-494e-840c-292753b68dde",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/ca0c85b3-cdde-494e-840c-292753b68dde.png"
+    },
+    {
+     "id": "3407d20d-87aa-4a20-96a1-f79f0d41e0af",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/3407d20d-87aa-4a20-96a1-f79f0d41e0af.png"
+    }
+   ],
+   "prompt": "A frame grabbed from a Korean sitcom video, 9:16 vertical: candid mid-action, caught between movements, slight natural motion softness on the hands, not a posed photo. Evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the people in the reference images and the exact room. Tight close-up: the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers) with two fingers pressed to his own cheek, checking where the corner of his mouth is, eyes crossed slightly toward his hand, caught mid-gesture, kitchen island blurred behind. KEEP this exact staging, camera distance, furniture placement and room; change only what follows. Situation: 나만 무서운 줄 알았는데. 준호가 자기 뺨을 만져 입꼬리를 확인한다. Emotion: 안도, 웃음 나는데 모름. Action: 손가락으로 뺨, 입꼬리 확인. FIXED SET LAYOUT (never move furniture, same as the master set image): seen from the audience side, the front door and the single straight oak staircase are on the far LEFT along the back wall; the caramel corduroy sofa sits center facing the camera with the round oak coffee table (tomato-red tray) in front of it and the mustard armchair at its right; the round oak dining table with chairs is behind-right of the sofa; the white marble kitchen island with three black stools is on the far RIGHT in front of the kitchen wall with copper pans; the big arched window is on the right-hand back wall above the dining nook. Nothing else is rearranged. The first reference images are the exact faces to keep; identity must match them exactly. Candid mid-action, like a frame grabbed from video. No text, no lettering, no sound-effect words, no logos anywhere in the image.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_064522_4ed5efb7-28b9-4add-9d6c-0f6c92cedc45.png",
+  "status": "completed"
+ }
+]

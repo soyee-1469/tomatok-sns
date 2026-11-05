@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-05T02:32:49.238217Z",
+  "display_name": "Kling v3.0",
+  "id": "55574caf-0fd5-4e94-a52f-ea622972e733",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+   "aspect_ratio": "9:16",
+   "cfg_scale": 0.5,
+   "duration": 3,
+   "enhance_prompt": false,
+   "height": 1280,
+   "kling_element_ids": [],
+   "kling_elements": [],
+   "medias": [
+    {
+     "data": {
+      "id": "e44d6996-a558-449a-857d-d7b120743099",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/e44d6996-a558-449a-857d-d7b120743099_resize.jpg"
+     },
+     "role": "start_image"
+    }
+   ],
+   "mode": "std",
+   "multi_prompt": [],
+   "multi_shot_mode": "custom",
+   "multi_shots": false,
+   "prompt": "SCENE CONTEXT\nEvening living room, medium two-shot. the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops) sits at the left end of the caramel corduroy sofa and the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard) at the right end, one cream knit cushion on the seat between them, both bodies turned slightly toward each other, not touching.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nFixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, window dark navy, no film grain, no over-sharpening.\n\nACTION\n0.0s to 1.2s: both sit in tense silence, looking at each other across the cushion, mouths closed. At 1.2s both heads turn slightly toward the entrance (off-screen left) as if hearing a sound. 1.4s to 1.8s: both faces switch at the same moment into bright polite smiles, shoulders dropping, backs straightening. 1.8s to 3.0s: they hold the smiles, side by side, like nothing happened.\n\nPERFORMANCE\nTwo people instantly pretending. The switch is simultaneous and fast. No exaggerated acting, no look at the camera.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.\n\nPOSITIVE LOCKS\nContinue exactly from the start image. Both people keep the same face, hair, glasses, clothes and position through the whole take. Same room, furniture, lamps and colors. No new people enter. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nNobody speaks. No words in any language.",
+   "reference_elements": [],
+   "sound": "on",
+   "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_023249_55574caf-0fd5-4e94-a52f-ea622972e733.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_023249_55574caf-0fd5-4e94-a52f-ea622972e733_thumbnail.webp"
+ }
+]

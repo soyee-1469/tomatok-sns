@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-05T06:03:40.924968Z",
+  "display_name": "Nano Banana Pro",
+  "id": "d9b76465-2a37-4eae-9ce8-b14f1abb9f06",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_060340_d9b76465-2a37-4eae-9ce8-b14f1abb9f06_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "c91c6b32-69b3-4cd8-b09f-0bb6ac5deeab",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/c91c6b32-69b3-4cd8-b09f-0bb6ac5deeab.png"
+    },
+    {
+     "id": "63a91858-a0b7-42af-ab90-38b0a0829dd9",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/63a91858-a0b7-42af-ab90-38b0a0829dd9.png"
+    },
+    {
+     "id": "848593bd-7d64-4396-834e-5f17243123ad",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/848593bd-7d64-4396-834e-5f17243123ad.png"
+    }
+   ],
+   "prompt": "A frame grabbed from a Korean sitcom video, 9:16 vertical: candid mid-action, caught between movements, slight natural motion softness on the hands, not a posed photo. Evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the people in the reference images and the exact room. Medium shot: the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers) on the caramel sofa, hunched over his phone, one thumb mid-tap on the delete key, mouth twisted in frustration, mid-blink, the other hand raking his hair. KEEP this exact staging, camera distance, furniture placement and room; change only what follows. Situation: 준호가 인사말이 중요하다고 우긴다. 22명이면 첫인상 22개라는 논리. Emotion: 진지한데 본인도 웃김을 앎. Action: 폰을 증거처럼 들어 보임, 눈썹 크게. The first reference images are the exact faces to keep; identity must match them exactly. Candid mid-action, like a frame grabbed from video.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_060340_d9b76465-2a37-4eae-9ce8-b14f1abb9f06.png",
+  "status": "completed"
+ }
+]

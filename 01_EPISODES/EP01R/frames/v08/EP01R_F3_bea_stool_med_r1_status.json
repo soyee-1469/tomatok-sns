@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-05T06:15:44.858108Z",
+  "display_name": "Nano Banana Pro",
+  "id": "5155b0f3-aa72-4a7e-a814-85048b06658b",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_061544_5155b0f3-aa72-4a7e-a814-85048b06658b_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "a20ed29b-61d8-4884-822d-68a8833ac15b",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/a20ed29b-61d8-4884-822d-68a8833ac15b.png"
+    },
+    {
+     "id": "72a07b5a-dc4e-4fa5-a4ce-7e70f1ba37ab",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/72a07b5a-dc4e-4fa5-a4ce-7e70f1ba37ab.png"
+    },
+    {
+     "id": "3d442102-4b13-4b10-9388-25e8ba16141e",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/3d442102-4b13-4b10-9388-25e8ba16141e.png"
+    }
+   ],
+   "prompt": "A frame grabbed from a Korean sitcom video, 9:16 vertical: candid mid-action, caught between movements, slight natural motion softness, not a posed photo. Evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Reference images: first the exact FACE(s) to keep (identity must match exactly), then the outfit sheet(s), then the room. People: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses). Situation: 수만과 비아가 처음으로 고개를 든다. Emotion: 어이없음. Action: 비아 스틸, 눈만 준호 쪽 / 수만과 비아가 준호를 귀엽다는 듯히 바라본다. / 수만과 비아가 준호를 귀엽다는 듯히 바라본다. / 수만과 비아가 준호를 귀엽다는 듯히 바라본다.. Extra note from the director: 수만과 비아가 동시에 준호를 쳐다본다.. Show the action clearly in one frame; the face stays the reference face.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_061544_5155b0f3-aa72-4a7e-a814-85048b06658b.png",
+  "status": "completed"
+ }
+]

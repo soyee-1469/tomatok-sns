@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-05T05:59:06.662125Z",
+    "display_name": "Nano Banana Pro",
+    "id": "f9e48041-f0eb-4253-9351-47f2a3e56aa0",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_055906_f9e48041-f0eb-4253-9351-47f2a3e56aa0_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "ba71c674-2b04-4a96-ab95-9c780f40c775",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/ba71c674-2b04-4a96-ab95-9c780f40c775.png"
+        },
+        {
+          "id": "65e6e942-9651-40c1-9c89-d3219e44791f",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/65e6e942-9651-40c1-9c89-d3219e44791f.png"
+        },
+        {
+          "id": "54725588-3ede-4013-9b66-298b8ce1a26b",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/54725588-3ede-4013-9b66-298b8ce1a26b.png"
+        }
+      ],
+      "prompt": "A frame grabbed from a Korean sitcom video, 9:16 vertical: candid mid-action, caught between movements, slight natural motion softness, not a posed photo. Evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Reference images: first the exact FACE(s) to keep (identity must match exactly), then the outfit sheet(s), then the room. People: the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers). Situation: 비아 옆에 서서 폰을 얼굴 앞에 들이민다. Emotion: 억울+조급, 웃김. Action: 폰 들이대기, 어깨 들썩. Extra note from the director: 쇼파위치가 식탁옆이었다가 뒤로감. 식탁이 뒤에있는데 앞에 또생김. Show the action clearly in one frame; the face stays the reference face.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_055906_f9e48041-f0eb-4253-9351-47f2a3e56aa0.png",
+    "status": "completed"
+  }
+]
+--stderr--

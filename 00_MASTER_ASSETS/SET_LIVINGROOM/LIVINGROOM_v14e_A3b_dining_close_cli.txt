@@ -1,0 +1,35 @@
+[
+  {
+    "created_at": "2026-11-05T07:16:58.174068Z",
+    "display_name": "Nano Banana Pro",
+    "id": "6fbd6a73-53b4-45e4-b91c-1af618b2ac90",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_071658_6fbd6a73-53b4-45e4-b91c-1af618b2ac90_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "59277596-eeee-4f24-94ed-90347c2806da",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/59277596-eeee-4f24-94ed-90347c2806da_resize.jpg"
+        },
+        {
+          "id": "6a21b86d-54c3-4a32-b4f0-b185fa388dcf",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/6a21b86d-54c3-4a32-b4f0-b185fa388dcf_resize.jpg"
+        }
+      ],
+      "prompt": "Same set as the reference images, identical furniture in identical positions. 9 pm evening, exactly the lighting of the references: arched window dark navy with no daylight, all lamps and the warm string lights on, warm 3000K, soft low contrast. The round oak dining table with its four chairs (two black spindle chairs, one red chair, one natural oak chair) stands in front of the big arched window; the cushioned window seat and monstera are behind it, the oak staircase is to its left, the sofa is in front of it toward the camera. Photo-real, 9:16 portrait, no people, no text. Closer medium shot of the dining table from the audience side at seated eye level: tabletop with the small vase of pink flowers, the red chair and a black chair nearest the camera, the arched window filling the background.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_071658_6fbd6a73-53b4-45e4-b91c-1af618b2ac90.png",
+    "status": "completed"
+  }
+]
+--stderr--

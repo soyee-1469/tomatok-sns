@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-05T02:34:41.901077Z",
+    "display_name": "Kling v3.0",
+    "id": "b122d77f-b5f0-4a77-92f9-0eca903c5a82",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 3,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "329d3fcf-eadf-46a9-94f5-9df7f13ab802",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/329d3fcf-eadf-46a9-94f5-9df7f13ab802.png"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "SCENE CONTEXT\nEvening, just inside the front door of the living room. the grandmother (71, Korean, short gray curly perm, vivid emerald-green chore jacket over a white T-shirt, reading glasses on a beaded chain, keys clipped to the pocket) stands on a small jute doormat with the dark-gray front door half open behind her on the left, holding two stacked stainless-steel side-dish containers with both hands at chest height, leaning slightly forward and peering into the room toward the right (the sofa, off-screen). The wall beside the door is plain.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nFixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, window dark navy, no film grain, no over-sharpening.\n\nACTION\n0.0s to 0.5s: her eyes shift to the right, toward him. 0.5s to 2.4s: she says her line, chin lifting on the second sentence. 2.4s to 3.0s: she holds the look.\n\nPERFORMANCE\nGrandmother to grandson. Firm, dry. No exaggerated acting, no look at the camera.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.\n\nPOSITIVE LOCKS\nContinue exactly from the start image. The grandmother keeps the same face, hair, glasses, clothes and position through the whole take. Same room, furniture, lamps and colors. No new people enter. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe grandmother says in natural native Korean, an elderly woman's warm nosy tone, to her grandson, clipped and firm, falling: \"준호 너는. 복 받은 줄 알아라.\" She says only this one line and nothing else; no other words in any language. Natural delivery, visible lip-sync, mouth movements match every word, no subtitles, no on-screen text.",
+      "reference_elements": [],
+      "sound": "on",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_023441_b122d77f-b5f0-4a77-92f9-0eca903c5a82.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_023441_b122d77f-b5f0-4a77-92f9-0eca903c5a82_thumbnail.webp"
+  }
+]
+--stderr--

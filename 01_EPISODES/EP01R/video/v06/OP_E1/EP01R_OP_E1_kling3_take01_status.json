@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-05T02:21:38.73756Z",
+  "display_name": "Kling v3.0",
+  "id": "d619b1ab-b43f-41f7-bb0d-ee6be02a3a14",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+   "aspect_ratio": "9:16",
+   "cfg_scale": 0.5,
+   "duration": 5,
+   "enhance_prompt": false,
+   "height": 1280,
+   "kling_element_ids": [],
+   "kling_elements": [],
+   "medias": [
+    {
+     "data": {
+      "id": "fef8eea3-6171-4245-a1ea-ba4c336dd77f",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/fef8eea3-6171-4245-a1ea-ba4c336dd77f_resize.jpg"
+     },
+     "role": "start_image"
+    }
+   ],
+   "mode": "std",
+   "multi_prompt": [],
+   "multi_shot_mode": "custom",
+   "multi_shots": false,
+   "prompt": "SCENE CONTEXT\nEvening living room, wide establishing shot from the entrance side. In the foreground-left the man (29, Korean, round gold wire glasses, navy overshirt over a white T-shirt, ID badge on a navy lanyard) sits on the caramel corduroy sofa looking down at a phone in both hands. In the midground-right the woman (27, Filipino-American, long dark wavy hair, white poplin shirt, dark-indigo jeans) sits on a black stool at the marble kitchen island looking at her phone. Behind the island a Nepali man in a white chef's jacket holds a glass pickle jar. Warm lamps and string lights on, window dark navy.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nSitcom opening shot: a slow, perfectly smooth, steady dolly push-in on a track, starting from the full wide view of the start image and moving forward and slightly right toward the woman at the island, ending on a medium close-up of her face and shoulders (chest up, she fills the lower two thirds of the frame). Constant speed, no shake, no zoom jumps, no cuts. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting, no film grain.\n\nACTION\n0.0s to 5.0s: everyone keeps doing what they are doing with small natural idle movements only: the man scrolls his phone, the chef sets the jar down, the woman scrolls then, at 3.5s as the camera arrives, glances up toward the sofa with a small knowing smile and looks back down. Nobody walks, nobody looks at the camera, nobody speaks.\n\nPERFORMANCE\nNatural, quiet, lived-in. No exaggerated acting, no look at the camera.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no voices.\n\nPOSITIVE LOCKS\nContinue exactly from the start image. All people keep the same face, hair, glasses, clothes and position through the whole take. Same room, furniture, lamps and colors. No new people enter. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nNobody speaks. No words in any language.",
+   "reference_elements": [],
+   "sound": "on",
+   "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_022138_d619b1ab-b43f-41f7-bb0d-ee6be02a3a14.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_022138_d619b1ab-b43f-41f7-bb0d-ee6be02a3a14_thumbnail.webp"
+ }
+]

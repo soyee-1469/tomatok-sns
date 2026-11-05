@@ -1,0 +1,55 @@
+[
+  {
+    "created_at": "2026-11-05T08:40:42.22442Z",
+    "display_name": "Nano Banana Pro",
+    "id": "c5ef1413-6d5b-48b2-8218-8d09d5b6e53a",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_084042_c5ef1413-6d5b-48b2-8218-8d09d5b6e53a_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "3aaa20cd-c12e-4180-bf98-73227b80fe23",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/3aaa20cd-c12e-4180-bf98-73227b80fe23.png"
+        },
+        {
+          "id": "3aaa20cd-c12e-4180-bf98-73227b80fe23",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/3aaa20cd-c12e-4180-bf98-73227b80fe23.png"
+        },
+        {
+          "id": "b834bb3a-ef19-4ef8-b1ee-9032a11b3a2f",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/b834bb3a-ef19-4ef8-b1ee-9032a11b3a2f.png"
+        },
+        {
+          "id": "3a984131-d566-4e8c-93a1-bfc34138926e",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/3a984131-d566-4e8c-93a1-bfc34138926e_resize.jpg"
+        },
+        {
+          "id": "d1efa370-86cf-4121-9f1f-c3e0e13620b0",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/d1efa370-86cf-4121-9f1f-c3e0e13620b0_resize.jpg"
+        },
+        {
+          "id": "60a1cd42-24df-448b-ad0f-4fe70a5b8ea3",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/60a1cd42-24df-448b-ad0f-4fe70a5b8ea3_resize.jpg"
+        }
+      ],
+      "prompt": "Photo-real establishing shot for a Korean sitcom, 9:16 vertical, evening. Reference image 1 is the exact living room (caramel corduroy sofa, round oak coffee table with tomato-red tray, mustard armchair, marble kitchen island with black stools, oak stairs, herringbone floor, string lights, arched window): keep every piece of furniture, art and color, but make it evening: window dark navy, warm lamps and string lights on, no daylight. Wide shot from the entrance side at eye level, the sofa in the foreground-left and the kitchen island behind on the right, nobody at the island. Reference image 2 gives the two people and their exact pose: keep their faces, hair, glasses and clothes. The woman (white shirt, dark jeans) sits at the left end of the sofa with a phone, the man (navy overshirt, glasses, ID badge) at the right end, one cream knit cushion between them, both tense, not touching. People are small in the frame, the whole room reads. No text, no watermark, natural skin. KEEP this exact staging, camera distance, furniture placement and room; change only what follows. Situation: 와이드 정지. Emotion: 여운. Action: 와이드 / 쿠션을 잡고 다시 리아옆에 앉으며 얘기한다. 리아의 화가 풀린 얼굴로 장면이 끝난다. / 쿠션을 잡고 다시 리아옆에 앉으며 얘기한다. 리아의 화가 풀린 얼굴로 장면이 끝난다. / 쿠션을 잡고 다시 리아옆에 앉으며 얘기한다. 리아의 화가 풀린 얼굴로 장면이 끝난다. / 쿠션을 잡고 다시 리아옆에 앉으며 얘기한다. 리아의 화가 풀린 얼굴로 장면이 끝난다. FIXED SET LAYOUT (identical to the evening master set image; never move furniture): seen from the audience side, the front door and the single straight oak staircase with black railing are on the far LEFT along the back wall; the big arched window is in the center of the back wall with the round oak dining table and chairs in front of it, behind-left of the sofa; the caramel corduroy sofa sits center facing the camera with the round oak coffee table (tomato-red tray, small flowers) in front of it and the mustard armchair at its right; a low oak sideboard with a radio and globe stands behind the armchair; the white marble kitchen island with three black stools is on the far RIGHT in front of the kitchen wall with copper pans and copper pendant lamps. Nothing else is rearranged. FIXED TIME AND LIGHTING (identical in every frame): 9 pm, evening. The arched window is dark navy with no daylight. All practical lamps are on (paper pendants, copper pendants over the island, table lamps, warm string lights). Warm tungsten color around 3000K, soft even low-contrast exposure, faces clearly lit, no deep shadows, no sunbeams, no blue light. Same brightness as the evening master set image.  IDENTITY LOCK: each character's face must be the exact same person as in their face reference image (same eyes, nose, jaw, skin tone, hairline, hairstyle); do not beautify or generalize the face. The first reference images are the exact faces to keep; identity must match them exactly. Candid mid-action, like a frame grabbed from video. No text, no lettering, no sound-effect words, no logos anywhere in the image.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_084042_c5ef1413-6d5b-48b2-8218-8d09d5b6e53a.png",
+    "status": "completed"
+  }
+]
+--stderr--

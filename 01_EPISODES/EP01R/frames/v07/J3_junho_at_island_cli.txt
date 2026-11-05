@@ -1,0 +1,35 @@
+[
+  {
+    "created_at": "2026-11-05T04:17:55.225092Z",
+    "display_name": "Nano Banana Pro",
+    "id": "3cbf8d55-4395-4601-9bb8-17e7bd655816",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_041755_3cbf8d55-4395-4601-9bb8-17e7bd655816_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "945db2ff-59ca-486b-ab35-5387e9788c5c",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/945db2ff-59ca-486b-ab35-5387e9788c5c_resize.jpg"
+        },
+        {
+          "id": "ac793809-2afa-43eb-96d2-ef26dbfefd25",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/ac793809-2afa-43eb-96d2-ef26dbfefd25.png"
+        }
+      ],
+      "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the people in the reference images and the exact room from the references. Medium two-shot at the marble kitchen island from the living-room side: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, NO glasses) sits on the black stool with her own phone, and the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers) stands right beside her, holding his black smartphone out in front of her face with both hands, screen toward her, leaning in anxiously; copper pendant lamps above.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_041755_3cbf8d55-4395-4601-9bb8-17e7bd655816.png",
+    "status": "completed"
+  }
+]
+--stderr--

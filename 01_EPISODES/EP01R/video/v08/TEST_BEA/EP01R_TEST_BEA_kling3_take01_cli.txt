@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-05T04:54:40.511039Z",
+    "display_name": "Kling v3.0",
+    "id": "175744fd-014c-4448-a4d7-10b6eae53199",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 3,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "0b9c7b04-0eb3-476c-af20-69168b114ba7",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/0b9c7b04-0eb3-476c-af20-69168b114ba7_resize.jpg"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "SCENE CONTEXT\nEvening kitchen island, tight close-up. the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt, small gold hoops, no glasses) at the marble island, face filling the frame, looking toward the left side of the frame (toward the sofa, off-screen) with a sly half-smile.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nFixed camera on a tripod, exactly the framing of the start image, no zoom, no pan. Modern Korean sitcom look, warm evening indoor light, no film grain.\n\nACTION\n0.0s to 0.5s: she holds the half-smile, eyes on him. 0.5s to 2.3s: she says her line, teasing, one eyebrow lifting on the English word. 2.3s to 3.0s: she presses her lips together to hold back a laugh and glances down.\n\nPERFORMANCE\nBright, playful, teasing with affection. From the script: she has watched him rewrite the greeting six times. No exaggerated acting, no look at the camera.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.\n\nPOSITIVE LOCKS\nContinue exactly from the start image. The woman keeps the same face, hair, clothes and position through the whole take. No new people enter. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe woman says in fluent Korean with a light Filipino-English accent and an English-like rising rhythm, bright and playful, teasing, the question rising at the end: \"오빠, still? 그거 아직도 써?\" The English word \"still\" is pronounced natively in English; every other word is Korean. She says only this one line and nothing else; no other words in any language. Natural delivery, visible lip-sync, mouth movements match every word, no subtitles, no on-screen text.",
+      "reference_elements": [],
+      "sound": "on",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_045440_175744fd-014c-4448-a4d7-10b6eae53199.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_045440_175744fd-014c-4448-a4d7-10b6eae53199_thumbnail.webp"
+  }
+]
+--stderr--

@@ -1,6 +1,6 @@
 Here are the four prompts, each self-contained so you can paste it straight into ChatGPT.
 
-# BEA (비아) — 27, Filipina, Yeonnam-dong
+# RIA (리아) — 27, Filipina, Yeonnam-dong
 
 **Prompt 1 · Cinematic solo close-up (9:16)**
 

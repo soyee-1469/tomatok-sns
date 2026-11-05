@@ -1,0 +1,45 @@
+[
+  {
+    "created_at": "2026-11-05T06:49:17.965103Z",
+    "display_name": "Nano Banana Pro",
+    "id": "1536450d-0708-401a-8841-f62b267bb217",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_064917_1536450d-0708-401a-8841-f62b267bb217_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "8e742523-8a3f-4dc7-9bd2-e49cef54087b",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/8e742523-8a3f-4dc7-9bd2-e49cef54087b.png"
+        },
+        {
+          "id": "83f3d452-684a-482f-9f33-0cda9f4c206b",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/83f3d452-684a-482f-9f33-0cda9f4c206b.png"
+        },
+        {
+          "id": "90acfb02-5db2-40ea-a040-e55f430b190f",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/90acfb02-5db2-40ea-a040-e55f430b190f.png"
+        },
+        {
+          "id": "09e0c474-c0fc-409e-a50b-1d2e7dff7b27",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/09e0c474-c0fc-409e-a50b-1d2e7dff7b27.png"
+        }
+      ],
+      "prompt": "A frame grabbed from a Korean sitcom video, 9:16 vertical: candid mid-action, caught between movements, slight natural motion softness on the hands, not a posed photo. Evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the people in the reference images and the exact room. Medium two-shot at the island: the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers) leans over the counter beside the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses), reading her phone that she holds up, his jaw dropped and eyebrows up mid-reaction, her eyes on his face waiting. KEEP this exact staging, camera distance, furniture placement and room; change only what follows. Situation: 리아와 준호가 아일랜드에서 리아의 폰을 같이 보다가 서로 얼굴을 본다. Emotion: 시간 끌다 자백. Action: 폰 들어 보임, 어깨 으쓱 / 리아와 준호가 리아의 핸드폰을 같이 보다가 서로 얼굴을 쳐다본다. / 리아와 준호가 리아의 핸드폰을 같이 보다가 서로 얼굴을 쳐다본다. / 리아와 준호가 리아의 핸드폰을 같이 보다가 서로 얼굴을 쳐다본다. / 리아와 준호가 리아의 핸드폰을 같이 보다가 서로 얼굴을 쳐다본다. / 비아와 준호가 비아의 핸드폰을 같이 보다가 서로 얼굴을 쳐다본다. / 비아와 준호가 비아의 핸드폰을 같이 보다가 서로 얼굴을 쳐다본다. FIXED SET LAYOUT (never move furniture, same as the master set image): seen from the audience side, the front door and the single straight oak staircase are on the far LEFT along the back wall; the caramel corduroy sofa sits center facing the camera with the round oak coffee table (tomato-red tray) in front of it and the mustard armchair at its right; the round oak dining table with chairs is behind-right of the sofa; the white marble kitchen island with three black stools is on the far RIGHT in front of the kitchen wall with copper pans; the big arched window is on the right-hand back wall above the dining nook. Nothing else is rearranged. The first reference images are the exact faces to keep; identity must match them exactly. Candid mid-action, like a frame grabbed from video. No text, no lettering, no sound-effect words, no logos anywhere in the image.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_064917_1536450d-0708-401a-8841-f62b267bb217.png",
+    "status": "completed"
+  }
+]
+--stderr--

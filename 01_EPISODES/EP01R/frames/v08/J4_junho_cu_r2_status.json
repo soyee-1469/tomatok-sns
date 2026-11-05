@@ -1,0 +1,54 @@
+[
+ {
+  "created_at": "2026-11-05T08:15:27.484569Z",
+  "display_name": "Nano Banana Pro",
+  "id": "13a85de4-f084-4973-b0a0-7900d5800726",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_081527_13a85de4-f084-4973-b0a0-7900d5800726_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "657c6803-95fd-49a9-910d-c43a1e06968f",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/657c6803-95fd-49a9-910d-c43a1e06968f.png"
+    },
+    {
+     "id": "657c6803-95fd-49a9-910d-c43a1e06968f",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/657c6803-95fd-49a9-910d-c43a1e06968f.png"
+    },
+    {
+     "id": "15f79439-1549-4ff4-85ff-d10e9e54ccde",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/15f79439-1549-4ff4-85ff-d10e9e54ccde.png"
+    },
+    {
+     "id": "d11775f2-4a75-4e94-b86c-fdc8df529942",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/d11775f2-4a75-4e94-b86c-fdc8df529942_resize.jpg"
+    },
+    {
+     "id": "774f26f4-2cfa-4f9e-bd99-3ddb0a2c425d",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/774f26f4-2cfa-4f9e-bd99-3ddb0a2c425d_resize.jpg"
+    },
+    {
+     "id": "53cbe915-afda-4427-aa04-2d19c0bad9d9",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/53cbe915-afda-4427-aa04-2d19c0bad9d9_resize.jpg"
+    }
+   ],
+   "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the people in the reference images and the exact room from the references. Tight close-up (85mm): the face of the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers) fills the frame from the top of the head to the collar, slightly below eye level, soft phone-screen glow from below, looking down just past the lens, mouth slightly open, worried and comic, background sofa and window very blurred. KEEP this exact staging, camera distance, furniture placement and room; change only what follows. Situation: 준호: 저 알람 맞출게요. Emotion: 진심이라 웃김. Action: 폰 알람 켜려는 손. Director's note: 클로즈업: 마스터 얼굴과 동일 인물, 얼굴 선명하게. FIXED SET LAYOUT (identical to the evening master set image; never move furniture): seen from the audience side, the front door and the single straight oak staircase with black railing are on the far LEFT along the back wall; the big arched window is in the center of the back wall with the round oak dining table and chairs in front of it, behind-left of the sofa; the caramel corduroy sofa sits center facing the camera with the round oak coffee table (tomato-red tray, small flowers) in front of it and the mustard armchair at its right; a low oak sideboard with a radio and globe stands behind the armchair; the white marble kitchen island with three black stools is on the far RIGHT in front of the kitchen wall with copper pans and copper pendant lamps. Nothing else is rearranged. FIXED TIME AND LIGHTING (identical in every frame): 9 pm, evening. The arched window is dark navy with no daylight. All practical lamps are on (paper pendants, copper pendants over the island, table lamps, warm string lights). Warm tungsten color around 3000K, soft even low-contrast exposure, faces clearly lit, no deep shadows, no sunbeams, no blue light. Same brightness as the evening master set image.  IDENTITY LOCK: each character's face must be the exact same person as in their face reference image (same eyes, nose, jaw, skin tone, hairline, hairstyle); do not beautify or generalize the face. The first reference images are the exact faces to keep; identity must match them exactly. Candid mid-action, like a frame grabbed from video. No text, no lettering, no sound-effect words, no logos anywhere in the image.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_081527_13a85de4-f084-4973-b0a0-7900d5800726.png",
+  "status": "completed"
+ }
+]

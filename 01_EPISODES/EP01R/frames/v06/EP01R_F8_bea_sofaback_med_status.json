@@ -1,0 +1,29 @@
+[
+ {
+  "created_at": "2026-11-05T02:07:26.895999Z",
+  "display_name": "Nano Banana Pro",
+  "id": "175f103b-383d-4481-95b3-2fbc69249d73",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_020726_175f103b-383d-4481-95b3-2fbc69249d73_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "65c179df-ce98-420d-8fe3-cf1a26b5aec8",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/65c179df-ce98-420d-8fe3-cf1a26b5aec8.png"
+    }
+   ],
+   "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical. Same room, sofa, lighting and camera as the reference image. Only the woman from the reference (27, Filipino-American, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, small gold hoops) is in the frame: she leans over the back of the caramel corduroy sofa from behind, both forearms resting on the backrest, a black smartphone in her right hand with its back toward the camera, head tilted, looking down and to the right toward the empty seat (where someone sits off-screen), small amused smile. The man is NOT in the picture; the sofa seat below her is empty with a cream knit cushion. Medium shot, chest up, fixed tripod camera, warm lamps and string lights, no text, no watermark, natural skin.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_020726_175f103b-383d-4481-95b3-2fbc69249d73.png",
+  "status": "completed"
+ }
+]

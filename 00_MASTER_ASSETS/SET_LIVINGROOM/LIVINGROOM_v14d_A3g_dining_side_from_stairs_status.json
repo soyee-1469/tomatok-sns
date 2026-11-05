@@ -1,0 +1,34 @@
+[
+ {
+  "created_at": "2026-11-05T07:36:14.433312Z",
+  "display_name": "Nano Banana Pro",
+  "id": "82ff98ba-cf67-461b-b81b-0df5524e0ac8",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_073614_82ff98ba-cf67-461b-b81b-0df5524e0ac8_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "3be9522e-5be1-433e-a19a-9bae8f846316",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/3be9522e-5be1-433e-a19a-9bae8f846316.png"
+    },
+    {
+     "id": "4f99ef7b-60c2-416a-b2df-33277607a61b",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/4f99ef7b-60c2-416a-b2df-33277607a61b_resize.jpg"
+    }
+   ],
+   "prompt": "Same set and furniture as the references. DAYTIME lighting exactly as in the FIRST reference (soft diffused daylight through the frosted-white arched grid window, no outdoor view, no sunbeams, warm lamps and string lights also on, low contrast). The SECOND reference gives the exact camera angle and composition: standing at the foot of the staircase on the far left, looking right along the back wall, the round dining table in profile in the middle ground, the arched window at the left edge, the gallery wall, oak sideboard with radio and globe, and the kitchen island further right. HARD CONSTRAINTS: the dining table is ROUND (a round oak top on a round base), never rectangular; exactly four chairs: two BLACK spindle chairs, one RED chair, one NATURAL OAK chair; there is only ONE window in the room, the big black-framed arched grid window on the back wall; the single straight oak staircase starts at the front door on the far left and rises toward the back wall going up to the RIGHT, with a black metal railing. Photo-real, 9:16 portrait, no people, no text.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_073614_82ff98ba-cf67-461b-b81b-0df5524e0ac8.png",
+  "status": "completed"
+ }
+]

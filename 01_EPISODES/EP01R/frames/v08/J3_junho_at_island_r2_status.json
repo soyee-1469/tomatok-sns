@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-05T06:04:27.111869Z",
+  "display_name": "Nano Banana Pro",
+  "id": "89a312cf-9fec-46f3-92a3-34ea43ce9d7f",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_060427_89a312cf-9fec-46f3-92a3-34ea43ce9d7f_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "7ebea535-60df-4028-bdc0-531ab22f165d",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/7ebea535-60df-4028-bdc0-531ab22f165d.png"
+    },
+    {
+     "id": "6da38c62-effe-4739-9322-dccf9f8f44b4",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/6da38c62-effe-4739-9322-dccf9f8f44b4.png"
+    },
+    {
+     "id": "7ab0e7d9-d7fd-40b7-a7f8-bbe792022e8b",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/7ab0e7d9-d7fd-40b7-a7f8-bbe792022e8b.png"
+    }
+   ],
+   "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the people in the reference images and the exact room from the references. Medium two-shot at the marble kitchen island from the living-room side: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, NO glasses) sits on the black stool with her own phone, and the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers) stands right beside her, holding his black smartphone out in front of her face with both hands, screen toward her, leaning in anxiously; copper pendant lamps above. KEEP this exact staging, camera distance, furniture placement and room; change only what follows. Situation: 비아 옆에 서서 폰을 얼굴 앞에 들이민다. Emotion: 억울+조급, 웃김. Action: 폰 들이대기, 어깨 들썩. Director's note: 쇼파위치가 식탁옆이었다가 뒤로감. 식탁이 뒤에있는데 앞에 또생김. The first reference images are the exact faces to keep; identity must match them exactly. Candid mid-action, like a frame grabbed from video.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_060427_89a312cf-9fec-46f3-92a3-34ea43ce9d7f.png",
+  "status": "completed"
+ }
+]

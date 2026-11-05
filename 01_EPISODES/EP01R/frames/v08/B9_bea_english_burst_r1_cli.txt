@@ -1,0 +1,50 @@
+[
+  {
+    "created_at": "2026-11-05T08:24:42.931234Z",
+    "display_name": "Nano Banana Pro",
+    "id": "67c6c0ba-4892-4489-a5b0-9cd2c7bf0208",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_082442_67c6c0ba-4892-4489-a5b0-9cd2c7bf0208_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "3a30686d-8733-4886-94f9-10b5e98bf024",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/3a30686d-8733-4886-94f9-10b5e98bf024.png"
+        },
+        {
+          "id": "3a30686d-8733-4886-94f9-10b5e98bf024",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/3a30686d-8733-4886-94f9-10b5e98bf024.png"
+        },
+        {
+          "id": "5fb80c72-3dd7-47c0-ad87-c5c5c83fb5aa",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/5fb80c72-3dd7-47c0-ad87-c5c5c83fb5aa.png"
+        },
+        {
+          "id": "31cd1bdb-00d2-457b-b457-02a7e82adf56",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/31cd1bdb-00d2-457b-b457-02a7e82adf56_resize.jpg"
+        },
+        {
+          "id": "5842c0a2-54a0-447f-97e4-42a1ae716f13",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/5842c0a2-54a0-447f-97e4-42a1ae716f13_resize.jpg"
+        }
+      ],
+      "prompt": "A frame grabbed from a Korean sitcom video, 9:16 vertical: candid mid-action, caught between movements, slight natural motion softness on the hands, not a posed photo. Evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the people in the reference images and the exact room and sofa. Medium shot: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses) at the left end of the sofa mid-sentence, mouth open wide, both hands up and blurred mid-gesture, eyebrows high, turned toward the right (toward him, off-screen), phone in one hand. KEEP this exact staging, camera distance, furniture placement and room; change only what follows. Situation: 리아가 한국어를 버리고 영어로 폭발. 준호가 알아듣는 단어는 junho, receipt, seriously뿐. Emotion: 폭발. Action: 손 올라가고 입 크게, 빠른 영어. Director's note: 클로즈업: 마스터 얼굴과 동일 인물, 얼굴 선명하게. FIXED SET LAYOUT (identical to the evening master set image; never move furniture): seen from the audience side, the front door and the single straight oak staircase with black railing are on the far LEFT along the back wall; the big arched window is in the center of the back wall with the round oak dining table and chairs in front of it, behind-left of the sofa; the caramel corduroy sofa sits center facing the camera with the round oak coffee table (tomato-red tray, small flowers) in front of it and the mustard armchair at its right; a low oak sideboard with a radio and globe stands behind the armchair; the white marble kitchen island with three black stools is on the far RIGHT in front of the kitchen wall with copper pans and copper pendant lamps. Nothing else is rearranged. FIXED TIME AND LIGHTING (identical in every frame): 9 pm, evening. The arched window is dark navy with no daylight. All practical lamps are on (paper pendants, copper pendants over the island, table lamps, warm string lights). Warm tungsten color around 3000K, soft even low-contrast exposure, faces clearly lit, no deep shadows, no sunbeams, no blue light. Same brightness as the evening master set image.  IDENTITY LOCK: each character's face must be the exact same person as in their face reference image (same eyes, nose, jaw, skin tone, hairline, hairstyle); do not beautify or generalize the face. The first reference images are the exact faces to keep; identity must match them exactly. Candid mid-action, like a frame grabbed from video. No text, no lettering, no sound-effect words, no logos anywhere in the image.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_082442_67c6c0ba-4892-4489-a5b0-9cd2c7bf0208.png",
+    "status": "completed"
+  }
+]
+--stderr--

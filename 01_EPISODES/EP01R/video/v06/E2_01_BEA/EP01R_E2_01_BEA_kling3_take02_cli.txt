@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-05T02:42:50.393359Z",
+    "display_name": "Kling v3.0",
+    "id": "a705e4be-036f-4e1a-8353-c2709ba49b97",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 3,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "58f23e9c-ade9-4910-b394-e869ddf47b33",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/58f23e9c-ade9-4910-b394-e869ddf47b33_resize.jpg"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "SCENE CONTEXT\nEvening living room, medium two-shot. the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops) sits at the left end of the caramel corduroy sofa and the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard) at the right end, one cream knit cushion on the seat between them, both bodies turned slightly toward each other, not touching.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nFixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, window dark navy, no film grain, no over-sharpening.\n\nACTION\n0.0s to 0.5s: she looks at him across the cushion. 0.5s to 2.0s: she says her line evenly. 2.0s to 3.0s: she waits; he looks at the cushion.\n\nPERFORMANCE\nShe is calm and pointed. He is avoiding. No exaggerated acting, no look at the camera.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.\n\nPOSITIVE LOCKS\nContinue exactly from the start image. Both people keep the same face, hair, glasses, clothes and position through the whole take. Same room, furniture, lamps and colors. No new people enter. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe woman says in fluent Korean with a light Filipino-English accent and an English-like rising rhythm, bright and playful, calm, starting an argument, falling: \"오빠, 짐 언제 옮겨.\" She says only this one line and nothing else; no other words in any language. Natural delivery, visible lip-sync, mouth movements match every word, no subtitles, no on-screen text. The other person says nothing.",
+      "reference_elements": [],
+      "sound": "on",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_024250_a705e4be-036f-4e1a-8353-c2709ba49b97.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_024250_a705e4be-036f-4e1a-8353-c2709ba49b97_thumbnail.webp"
+  }
+]
+--stderr--

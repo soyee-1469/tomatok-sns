@@ -8,7 +8,7 @@
 - 저장: `<KEY>_face_neutral.png` (예: `BEA_face_neutral.png`). 보드가 자동 수집한다.
 - 완료: 8/8 (2026-11-04). 도윤→하오 재캐스팅 후 DOYUN_face_neutral도 새 얼굴로 생성.
 
-## BEA
+## RIA
 ```
 Generate ONE image of ONLY the one person in the attached photo. Ignore any other people, previous images or conversations. This is the SAME person as the attached photo: identical face, identical hair, identical clothing, identical earrings and glasses, identical warm off-white plaster wall with soft window light from the left, identical framing. Only the expression changes.
 

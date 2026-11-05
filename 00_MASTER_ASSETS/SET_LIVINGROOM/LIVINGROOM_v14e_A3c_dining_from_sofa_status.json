@@ -1,0 +1,34 @@
+[
+ {
+  "created_at": "2026-11-05T07:32:35.226879Z",
+  "display_name": "Nano Banana Pro",
+  "id": "be26479e-1eaf-42aa-8cef-4ecc19ef2c24",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_073235_be26479e-1eaf-42aa-8cef-4ecc19ef2c24_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "adf42a66-aa01-4cd6-8028-f9504389c7cd",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/adf42a66-aa01-4cd6-8028-f9504389c7cd_resize.jpg"
+    },
+    {
+     "id": "08391771-fa9b-48df-b2a8-8516bc5d00f4",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/08391771-fa9b-48df-b2a8-8516bc5d00f4_resize.jpg"
+    }
+   ],
+   "prompt": "Same set and furniture as the references. NIGHT lighting exactly as in the FIRST reference (9 pm: arched window dark navy, no daylight, all lamps and warm string lights on, warm 3000K, soft low contrast). The SECOND reference gives the exact camera angle and composition: standing just behind the LEFT arm of the sofa looking diagonally at the round dining table, the staircase's lower steps and black railing filling the left third, the arched window and window seat behind-right of the table. HARD CONSTRAINTS: the dining table is ROUND (a round oak top on a round base), never rectangular; exactly four chairs: two BLACK spindle chairs, one RED chair, one NATURAL OAK chair; there is only ONE window in the room, the big black-framed arched grid window on the back wall; the single straight oak staircase starts at the front door on the far left and rises toward the back wall going up to the RIGHT, with a black metal railing. Photo-real, 9:16 portrait, no people, no text.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_073235_be26479e-1eaf-42aa-8cef-4ecc19ef2c24.png",
+  "status": "completed"
+ }
+]

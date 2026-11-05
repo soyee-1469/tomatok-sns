@@ -1,0 +1,29 @@
+[
+ {
+  "created_at": "2026-11-05T07:13:17.243411Z",
+  "display_name": "Nano Banana Pro",
+  "id": "5a0febdd-626a-4d2c-937a-268898bcced1",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_071317_5a0febdd-626a-4d2c-937a-268898bcced1_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "9371a478-0818-4fce-9637-dbf19489c044",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/9371a478-0818-4fce-9637-dbf19489c044_resize.jpg"
+    }
+   ],
+   "prompt": "Same set as the reference image, identical furniture in identical positions, 9 pm evening lighting exactly as in the reference (arched window dark navy, all lamps on, warm 3000K, soft low contrast). Photo-real, 9:16 portrait, eye-level camera, no people, no text. Reverse angle: camera placed at the kitchen island looking back across the room toward the sofa and the entrance: the back of the mustard armchair and the sofa in the foreground, the round coffee table beyond, the oak staircase and front door in the background on the left, the arched window and dining table on the right of the frame.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_071317_5a0febdd-626a-4d2c-937a-268898bcced1.png",
+  "status": "completed"
+ }
+]

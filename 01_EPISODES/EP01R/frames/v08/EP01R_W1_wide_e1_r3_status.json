@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-05T06:13:12.603886Z",
+  "display_name": "Nano Banana Pro",
+  "id": "a52e4102-17a7-4900-b672-b03c1b59e27c",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_061312_a52e4102-17a7-4900-b672-b03c1b59e27c_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "7548aa39-c868-4400-bfd7-9cdf16ade94b",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/7548aa39-c868-4400-bfd7-9cdf16ade94b.png"
+    },
+    {
+     "id": "2a2ec6ae-517b-47d0-80af-fbe3a1c66900",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/2a2ec6ae-517b-47d0-80af-fbe3a1c66900.png"
+    },
+    {
+     "id": "01b5fa3e-c8e9-4a39-8ff8-f9bd862c85ce",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/01b5fa3e-c8e9-4a39-8ff8-f9bd862c85ce.png"
+    }
+   ],
+   "prompt": "Photo-real establishing shot for a Korean sitcom, 9:16 vertical, evening. Reference image 1 is the exact living room (caramel corduroy sofa, round oak coffee table with tomato-red tray, mustard armchair, marble kitchen island with black stools, oak stairs, herringbone floor, string lights, arched window): keep every piece of furniture, art and color, but make it evening: window dark navy, warm lamps and string lights on, no daylight. Wide shot from the entrance side at eye level, the sofa in the foreground-left and the kitchen island in the midground-right, both fully visible. Reference image 2 gives the two people: keep their exact faces, hair, glasses and clothes. The man (navy overshirt, round gold glasses, ID badge) sits on the sofa holding a phone in both hands looking down. The woman (white shirt, dark jeans, long dark wavy hair) sits on a black stool at the island with a phone. Behind the island a Nepali man (31, deep brown skin, black curly hair, short beard, white chef jacket, beige towel on shoulder, navy half-apron) stands holding a glass pickle jar. People are small in the frame, the whole room reads. No text, no watermark, natural skin. KEEP this exact staging, camera distance, furniture placement and room; change only what follows. Situation: 밤 10시 1층 거실. 준호는 소파에 앉아 폰, 비아는 아일랜드 스툴에 앉아 폰, 수만은 아일랜드 뒤에서 피클병. 현관 쪽에서 본 와이드. Emotion: 평온. Action: 와이드, 느린 줌 (타이틀 오버레이는 편집에서 얹음). Director's note: 이미지가 뭉개져있음. The first reference images are the exact faces to keep; identity must match them exactly. Candid mid-action, like a frame grabbed from video.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_061312_a52e4102-17a7-4900-b672-b03c1b59e27c.png",
+  "status": "completed"
+ }
+]

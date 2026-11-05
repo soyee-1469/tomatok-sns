@@ -1,0 +1,35 @@
+[
+  {
+    "created_at": "2026-11-05T07:25:19.887573Z",
+    "display_name": "Nano Banana Pro",
+    "id": "d9486ef1-9023-4c0c-aa8c-9c214269736d",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_072519_d9486ef1-9023-4c0c-aa8c-9c214269736d_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "fea7d434-26db-4457-9845-256f144a96cc",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/fea7d434-26db-4457-9845-256f144a96cc.png"
+        },
+        {
+          "id": "36bce41f-70b2-4199-ab2f-504a4b18ccd3",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/36bce41f-70b2-4199-ab2f-504a4b18ccd3_resize.jpg"
+        }
+      ],
+      "prompt": "Same set as the reference images, identical furniture in identical positions. DAYTIME lighting exactly as in the FIRST reference: soft diffused daylight through the big black-framed arched GRID window (frosted white, no outdoor view, no sunbeams), warm lamps and string lights also on, low contrast. The SECOND reference gives only the camera angle; ignore its night lighting. Keep the window exactly as in the first reference: a wide arch with a regular black grid of square panes. NEW CAMERA: standing just behind the LEFT arm of the sofa looking diagonally at the round oak dining table with its two black spindle chairs, one red chair and one natural oak chair; the staircase's lower steps and black railing fill the left third; the arched window and window seat sit behind-right of the table. Photo-real, 9:16 portrait, no people, no text.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_072519_d9486ef1-9023-4c0c-aa8c-9c214269736d.png",
+    "status": "completed"
+  }
+]
+--stderr--

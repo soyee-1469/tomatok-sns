@@ -1,0 +1,30 @@
+[
+  {
+    "created_at": "2026-11-05T07:20:58.745589Z",
+    "display_name": "Nano Banana Pro",
+    "id": "c661eb26-2d61-455a-9437-9386ebba301b",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_072058_c661eb26-2d61-455a-9437-9386ebba301b_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "7984e0d3-ef78-4df8-b38b-468a02efe6e3",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/7984e0d3-ef78-4df8-b38b-468a02efe6e3_resize.jpg"
+        }
+      ],
+      "prompt": "The reference image is the master wide shot of this set, seen from the audience side. Render the SAME room with identical furniture, finishes and 9 pm lighting (black-framed arched grid window dark navy, round white paper lantern, warm string lights, all lamps on, warm 3000K, soft low contrast), but from a NEW camera position as described. Keep every object exactly as in the reference: the round oak dining table with two black spindle chairs, one red chair and one natural oak chair in front of the arched window; the cushioned window seat with monstera; the straight oak staircase with black railing on the left; the caramel corduroy sofa and round coffee table in front; the white marble island with black stools on the far right. Photo-real, 9:16 portrait, no people, no text. NEW CAMERA: standing at the foot of the staircase on the far LEFT, turned 90 degrees to look RIGHT along the back wall: the dining table is seen in profile in the middle ground, the arched window is at the left edge of the frame, and further right along the back wall are the gallery of framed pictures, the oak sideboard with radio and globe, and the kitchen island with copper pendants in the distance.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_072058_c661eb26-2d61-455a-9437-9386ebba301b.png",
+    "status": "completed"
+  }
+]
+--stderr--

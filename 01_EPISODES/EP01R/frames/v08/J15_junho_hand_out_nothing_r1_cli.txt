@@ -1,0 +1,45 @@
+[
+  {
+    "created_at": "2026-11-05T06:52:07.919192Z",
+    "display_name": "Nano Banana Pro",
+    "id": "76553677-0cc1-40c8-b140-78cd1bee04db",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_065207_76553677-0cc1-40c8-b140-78cd1bee04db_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "9b3c0c1d-9639-4d36-bc44-394975553858",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/9b3c0c1d-9639-4d36-bc44-394975553858.png"
+        },
+        {
+          "id": "79b30207-a5ab-4dc7-95c8-53006f6ca292",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/79b30207-a5ab-4dc7-95c8-53006f6ca292.png"
+        },
+        {
+          "id": "d784e848-a5e8-462d-b485-6f1127448a53",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/d784e848-a5e8-462d-b485-6f1127448a53.png"
+        },
+        {
+          "id": "b6c17e3f-1835-49e5-8328-5f5e850f0cd0",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/b6c17e3f-1835-49e5-8328-5f5e850f0cd0.png"
+        }
+      ],
+      "prompt": "A frame grabbed from a Korean sitcom video, 9:16 vertical: candid mid-action, caught between movements, slight natural motion softness on the hands, not a posed photo. Evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the people in the reference images and the exact room and sofa. Medium shot: the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers) at the right end of the sofa with one hand held out open toward the entrance (off-screen left), palm up, expecting something, face falling into a comic pout as nothing is placed in it. KEEP this exact staging, camera distance, furniture placement and room; change only what follows. Situation: 준호가 손을 내밀지만 반찬통은 안 온다. Emotion: 코믹 상심. Action: 손 내밀다 멈춤 / 할머니 반찬통을 들어드리며 냉장고로 가는 할머니를 쫒아간다. / 할머니 반찬통을 들어드리며 냉장고로 가는 할머니를 쫒아간다. FIXED SET LAYOUT (never move furniture, same as the master set image): seen from the audience side, the front door and the single straight oak staircase are on the far LEFT along the back wall; the caramel corduroy sofa sits center facing the camera with the round oak coffee table (tomato-red tray) in front of it and the mustard armchair at its right; the round oak dining table with chairs is behind-right of the sofa; the white marble kitchen island with three black stools is on the far RIGHT in front of the kitchen wall with copper pans; the big arched window is on the right-hand back wall above the dining nook. Nothing else is rearranged. The first reference images are the exact faces to keep; identity must match them exactly. Candid mid-action, like a frame grabbed from video. No text, no lettering, no sound-effect words, no logos anywhere in the image.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_065207_76553677-0cc1-40c8-b140-78cd1bee04db.png",
+    "status": "completed"
+  }
+]
+--stderr--

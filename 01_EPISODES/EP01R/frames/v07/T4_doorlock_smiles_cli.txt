@@ -1,0 +1,30 @@
+[
+  {
+    "created_at": "2026-11-05T04:54:40.648798Z",
+    "display_name": "Nano Banana Pro",
+    "id": "e9713706-b7fa-4e09-8432-e8343f0ab853",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_045440_e9713706-b7fa-4e09-8432-e8343f0ab853_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "c591816d-e901-4c52-b056-5ffa53864048",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/c591816d-e901-4c52-b056-5ffa53864048_resize.jpg"
+        }
+      ],
+      "prompt": "A frame grabbed from a Korean sitcom video, 9:16 vertical: candid mid-action, caught between movements, slight natural motion softness on the hands, not a posed photo. Evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the people in the reference images and the exact room and sofa. Medium two-shot on the sofa: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses) at the left end and the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers) at the right end, both faces frozen in sudden wide polite smiles turned toward the entrance (off-screen left), the cream knit cushion half tucked behind his back, caught mid-switch.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_045440_e9713706-b7fa-4e09-8432-e8343f0ab853.png",
+    "status": "completed"
+  }
+]
+--stderr--

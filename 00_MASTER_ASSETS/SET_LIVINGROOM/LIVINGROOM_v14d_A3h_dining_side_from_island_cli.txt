@@ -1,0 +1,35 @@
+[
+  {
+    "created_at": "2026-11-05T07:23:30.452385Z",
+    "display_name": "Nano Banana Pro",
+    "id": "9c578c2a-21a6-4465-a204-a91c58f32b8e",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_072330_9c578c2a-21a6-4465-a204-a91c58f32b8e_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "715002d3-4b4d-4a59-b5d4-0b9adf12785e",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/715002d3-4b4d-4a59-b5d4-0b9adf12785e.png"
+        },
+        {
+          "id": "ecd2c769-d3ec-4262-b494-37e81b776369",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/ecd2c769-d3ec-4262-b494-37e81b776369_resize.jpg"
+        }
+      ],
+      "prompt": "Same set as the reference images, identical furniture in identical positions. DAYTIME, exactly the lighting of the FIRST reference image: soft diffused daylight comes through the big arched window, which is frosted white with no outdoor view and no sunbeams; the warm lamps and the string lights are also on; cream walls, warm oak, low contrast, no deep shadows. The SECOND reference image gives only the camera angle and composition; ignore its night lighting. Photo-real, 9:16 portrait, no people, no text. NEW CAMERA as in the second reference: beside the kitchen island on the far RIGHT, looking LEFT along the back wall, the dining table in profile, the arched window at the right edge, the staircase and the front door beyond.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_072330_9c578c2a-21a6-4465-a204-a91c58f32b8e.png",
+    "status": "completed"
+  }
+]
+--stderr--

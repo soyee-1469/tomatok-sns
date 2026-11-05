@@ -1,0 +1,30 @@
+[
+  {
+    "created_at": "2026-11-05T06:52:03.548336Z",
+    "display_name": "Nano Banana Pro",
+    "id": "32abdfa8-66fe-466d-ad09-6ab8053246a3",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_065203_32abdfa8-66fe-466d-ad09-6ab8053246a3_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "16:9",
+      "batch_size": 1,
+      "height": 1536,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "785f9e55-60be-4f45-88ef-5b5cf64299bd",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/785f9e55-60be-4f45-88ef-5b5cf64299bd.png"
+        }
+      ],
+      "prompt": "Use the reference image as the exact set: same room, same furniture in the same places (entrance and straight oak stair on the far left along the back wall, caramel corduroy sofa center facing camera with the round oak coffee table and tomato-red tray in front, mustard armchair right of the sofa, round oak dining table behind-right, white marble kitchen island with three black stools on the far right, big arched window on the right-hand back wall). Change ONLY the time and lighting: it is 9 pm. The arched window is dark navy blue with no outdoor detail and no daylight. All practical lamps are on: the paper pendant lamps, the copper pendants over the island, the small table lamps, and the warm string lights along the top of the back wall. Warm tungsten color (about 3000K), soft even low-contrast exposure, faces would read clearly, no deep shadows, no sunbeams, no blue daylight anywhere. Photo-real, 16:9 landscape, no people, no text, no watermark.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 2752
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_065203_32abdfa8-66fe-466d-ad09-6ab8053246a3.png",
+    "status": "completed"
+  }
+]
+--stderr--

@@ -1,0 +1,45 @@
+[
+  {
+    "created_at": "2026-11-05T06:25:37.318781Z",
+    "display_name": "Nano Banana Pro",
+    "id": "141ec2d4-5732-42c4-b6c9-a900fd349215",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_062537_141ec2d4-5732-42c4-b6c9-a900fd349215_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "3ee19b15-4da8-4475-a5a1-5661aabebf25",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/3ee19b15-4da8-4475-a5a1-5661aabebf25.png"
+        },
+        {
+          "id": "56464af4-a404-45da-a4f5-e38b76d42eca",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/56464af4-a404-45da-a4f5-e38b76d42eca.png"
+        },
+        {
+          "id": "98660e57-bef6-4e3c-847d-32e9e15927a5",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/98660e57-bef6-4e3c-847d-32e9e15927a5.png"
+        },
+        {
+          "id": "20adb113-acc3-4bee-bc8c-52d62b1774c4",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/20adb113-acc3-4bee-bc8c-52d62b1774c4.png"
+        }
+      ],
+      "prompt": "A frame grabbed from a Korean sitcom video, 9:16 vertical: candid mid-action, caught between movements, slight natural motion softness, not a posed photo. Evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Reference images: first the exact FACE(s) to keep (identity must match exactly), then the outfit sheet(s), then the room. People: the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers). Situation: 준호가 폰을 뒤집어 좌탁에 둔 직후, 비아 폰이 계속 울린다(소리는 편집에서). Emotion: 체념 → ?. Action: 소파에 앉은 준호가 아일랜드 쪽(화면 오른쪽)을 부럽다는 듯 쳐다본다 / 쇼파에 앉아있는 준호 비아폰이 마구 울리자 부럽다는듯히 쳐다본다.. Show the action clearly in one frame; the face stays the reference face.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261105_062537_141ec2d4-5732-42c4-b6c9-a900fd349215.png",
+    "status": "completed"
+  }
+]
+--stderr--
