@@ -1,0 +1,23 @@
+SCENE CONTEXT
+Evening, island-axis camera, sofa on camera-left and the marble island on camera-right. the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses). 리아와 준호가 아일랜드에서 리아의 폰을 같이 보다가 서로 얼굴을 본다 폰 들어 보임, 어깨 으쓱 / 리아와 준호가 리아의 핸드폰을 같이 보다가 서로 얼굴을 쳐다본다.
+
+FORMAT MODE
+One continuous shot, no cuts.
+
+CAMERA
+Fixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Camera axis: sofa on camera-left, island on camera-right. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, window dark navy, no film grain, no over-sharpening.
+
+ACTION
+0.0s to 0.5s: hold the start pose, a small breath before the line. 0.5s to 2.4s: 폰 들어 보임, 어깨 으쓱 / 리아와 준호가 리아의 핸드폰을 같이 보다가 서로 얼굴을 쳐다본다. 2.4s to 3.0s: hold the last expression, no new gesture.
+
+PERFORMANCE
+From the script (시간 끌다 자백): in character, playful, never sharp. 폰 들어 보임, 어깨 으쓱 / 리아와 준호가 리아의 핸드폰을 같이 보다가 서로 얼굴을 쳐다본다. Bright and playful. No exaggerated acting, no look at the camera.
+
+AUDIO
+Quiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.
+
+POSITIVE LOCKS
+Continue exactly from the start image. The woman keeps the same face, hair, clothes and position through the whole take. She does not wear glasses. Same room, furniture, lamps and colors. No new people enter. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The woman says in fluent Korean with a light Filipino-English accent and an English-like rising rhythm, bright and playful, in character, playful, never sharp, a light rising rhythm: "다들 궁금한게 많긴 하신가봐 ㅋㅋㅋ". She says only this one line and nothing else; no other words in any language. Natural delivery, visible lip-sync, mouth movements match every word, no subtitles, no on-screen text.

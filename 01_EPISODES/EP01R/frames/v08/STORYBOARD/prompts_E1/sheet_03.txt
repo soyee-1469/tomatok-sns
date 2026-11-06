@@ -1,0 +1,23 @@
+Storyboard for one sitcom episode, 3x4 grid (12 panels), each panel 9:16 portrait. Grey pencil sketch, no color, no shading detail, loose lines. Same characters and same apartment in every panel.
+Draw characters as faceless croquis figures: blank oval heads, NO facial features. Show head direction with a single small wedge for the nose, and draw an arrow from the head to whatever the character is looking at, with a label like "looks at Ria" or "looks at phone".
+Set: Korean apartment living room. Left = caramel corduroy sofa + round coffee table. Right = white marble kitchen island with black bar stools. Arched window on back wall.
+Characters: JUNHO (man, glasses, navy shirt, phone in hand). RIA (woman, seated at island with a mug). SUMAN (man, white chef jacket, behind the counter).
+Camera axis for all panels: sofa on camera-left, island on camera-right. Do not flip.
+Furniture layout and angles must match the attached set photos exactly: the sofa faces the camera squarely with its back to the arched window; do not rotate or move furniture.
+Fixed positions in every panel: Junho sits on the CENTER cushion of the sofa; Ria sits on the first black stool on the living-room side of the island; Suman stands behind the island counter to her right. Do not move anyone unless the panel says so.
+Act 2 panels: Junho stands beside Ria at the island, not on the sofa, unless the panel says he is still on the move.
+SET DRESSING LOCK: on the island counter there are exactly one bowl of lemons and one small vase of pink flowers, exactly as in the set plate; nothing else on the counter except the props listed for the characters.
+SET DRESSING LOCK: on the coffee table exactly the tomato-red tray, a small vase of baby's breath and two books, as in the set plate; nothing else.
+Label each panel with the cut number and "sofa-axis" or "island-axis" in small text.
+Panel 1 — CUT 26 (2막, sofa-axis): 준호가 목록을 보고 '이게 뭐야' / 리아 폰 읽으며 턱 빠짐 / 리아 이 상황이 재밌다는듯이 당황하고 있는 준호를 바라본다. / 비아 이 상황이 재밌다는듯이 당황하고 있는 준호를 바라본다. / looks at Ria and Junho and the phone
+Panel 2 — CUT 27 (2막, sofa-axis): 리아: 검사 / 띵동 메시지가 오고 엄마 메시지를 확인하려고 폰을 터치한다 (2026-11-06 판정) → 재생성 대상 / looks at Ria and the phone
+Panel 3 — CUT 28 (2막, island-axis): UI: U20b_MAMA_DM
+Panel 4 — CUT 30 (2막, sofa-axis): 준호: 스물한 명이 나한테 물어볼 걸 너한테 검사받는 중이라고? / 리아 폰에서 천천히 눈 떼기 (리아 옆에 그대로 서 있음) / looks at Ria and Junho and the phone
+Panel 5 — CUT 31 (2막, sofa-axis): 리아: 응, 다들 틀릴까 봐 무서워하셔 / CU, 반미소. 옆에 선 준호를 올려다보며 말한다 / looks at Ria and Junho
+Panel 6 — CUT 32 (2막, sofa-axis): 어머니가? 그 어머니가? / 눈 커짐, 반 웃음 / looks ahead
+Panel 7 — CUT 33 (2막, island-axis): 리아가 아일랜드에서 엄마와 토마톡 메시지를 주고받으며(통화 아님, 폰은 손에 들고 화면 보기) 준호에게 말한다 / 폰 화면 보며 엄지 타이핑, 준호 쪽 힐끗, 반미소 / 핸드폰으로 엄마와 대화하며 얘기한다. / looks at Ria and Junho and the phone
+Panel 8 — CUT 34 (2막, sofa-axis): 나만 무서운 줄 알았는데. 준호가 자기 뺨을 만져 입꼬리를 확인한다 / 아일랜드 옆에 서서 손가락으로 뺨, 입꼬리 확인 (2막) / looks at Junho
+Panel 9 — CUT 35 (2막, sofa-axis): 리아: 지금 대기 열한 명이야, 나 바빠 / 엄지 빠르게 타이핑, 준호는 리아 옆에 그대로 서서 기다림 (2026-11-06 사용자: 준호를 뒤로 보내지 않는다, 같은 씬 안에서 자리 고정) / looks at Ria and Junho
+Panel 10 — CUT 36 (2막, island-axis): UI: U33b_BEA_REPLIES
+Panel 11 — CUT 37 (2막, sofa-axis): 준호가 아일랜드 옆에서 자기 폰을 꺼내 본다. 이제 볼 이유가 있다 / 아일랜드 옆에 서서 자기 폰 꺼내 확인 (2막: 소파로 돌아가지 않음) / looks at Junho and the phone
+Panel 12 — CUT 38 (2막, island-axis): UI: U25b_MAMA_EAT

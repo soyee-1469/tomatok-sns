@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-06T05:32:22.936705Z",
+  "display_name": "Nano Banana Pro",
+  "id": "fb53aa75-4075-45c7-ad68-bbea418c1734",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_053222_fb53aa75-4075-45c7-ad68-bbea418c1734_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "16:9",
+   "batch_size": 1,
+   "height": 1536,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "d5d18794-85a7-4ee0-8856-844c9d5c297c",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/d5d18794-85a7-4ee0-8856-844c9d5c297c.png"
+    },
+    {
+     "id": "b87564c7-b474-48ff-99dc-6fa73ede16eb",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/b87564c7-b474-48ff-99dc-6fa73ede16eb.png"
+    },
+    {
+     "id": "b87564c7-b474-48ff-99dc-6fa73ede16eb",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/b87564c7-b474-48ff-99dc-6fa73ede16eb.png"
+    }
+   ],
+   "prompt": "Generate ONE image of ONLY the one person shown in reference image 2 (face) and reference image 1 (body sheet). Full-body wardrobe sheet, exactly the same layout as reference image 1: horizontal image, TWO panels side by side, left panel = FRONT view from the collarbone down to the feet (no face), right panel = BACK view from the back of the head down to the feet. Same warm off-white plaster wall, pale oak floor, soft window light from the left, same stocky 172 cm build and grounded stance as reference image 1. OUTFIT (this is the only change from reference image 1): white double-breasted chef's jacket with cloth buttons and the sleeves rolled to the elbow; over it a plain BLACK full bib apron with a black neck strap, the bib covering the chest, tied at the waist with the ties visible in the back view; NO towel anywhere; charcoal-gray work trousers; black kitchen clogs. STYLE: clean sharp high-resolution photo, neutral-warm color grade, modern Korean drama look, no film grain, no vignette, no text, no labels, no watermark, no extra limbs.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 2752
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_053222_fb53aa75-4075-45c7-ad68-bbea418c1734.png",
+  "status": "completed"
+ }
+]

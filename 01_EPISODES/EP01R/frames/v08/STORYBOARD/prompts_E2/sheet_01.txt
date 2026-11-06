@@ -1,0 +1,19 @@
+Storyboard for one sitcom episode, 3x4 grid (12 panels), each panel 9:16 portrait. Grey pencil sketch, no color, no shading detail, loose lines. Same two characters and same apartment in every panel.
+Draw characters as faceless croquis figures: blank oval heads, NO facial features. Show head direction with a single small wedge for the nose, and draw an arrow from the head to whatever the character is looking at, with a label like "looks at Junho" or "looks at phone".
+Set: Korean apartment living room, evening. Left = caramel corduroy sofa + round coffee table. Right = white marble kitchen island with black bar stools. Arched window on the back wall. The sofa faces the camera squarely, its back to the arched window. Do not rotate furniture. Do not flip. Camera-left is the sofa, camera-right is the island.
+Characters: JUNHO (man, glasses, navy shirt). RIA (woman, white shirt, long dark hair). No other people in these 12 panels.
+Fixed positions in every panel of episode 2: Junho and Ria sit on OPPOSITE ENDS of the sofa; one cushion stays in the MIDDLE as a border between them. Do not sit Junho on the center cushion. Do not move Ria to the island. Sundeok stays outside until a panel says she enters, carrying banchan containers. Suman is not in this episode. Do not move anyone unless the panel says so.
+SET DRESSING LOCK: on the coffee table exactly the tomato-red tray, a small vase of baby's breath and two books. Nothing else.
+Label each panel in small text: "CUT n" and "sofa-axis".
+Panel 1 — CUT 1 (sofa-axis): wide from the entry, evening living room. Ria and Junho at opposite ends of the sofa, one cushion between them. Slow push-in. looks at the room
+Panel 2 — CUT 2 (sofa-axis): Ria looks at Junho. Her things have moved in; his eight boxes are still in the storage room. Middle cushion is the border. looks at Junho
+Panel 3 — CUT 3 (sofa-axis): Junho springs up to move the boxes now and looks for car keys. Ria stays seated. looks at the keys
+Panel 4 — CUT 4 (sofa-axis): Ria grabs his sleeve and pulls him back down. He is half-standing again before he sits. looks at Junho
+Panel 5 — CUT 5 (sofa-axis): Ria starts counting on her fingers. The problem is throwing things away, not carrying them. looks at Junho
+Panel 6 — CUT 6 (sofa-axis): Junho, palms open, insists nothing can be thrown away. looks at Ria
+Panel 7 — CUT 7 (sofa-axis): close-up Ria, one eyebrow up, holding up the idea of a 2009 movie ticket. looks at Junho
+Panel 8 — CUT 8 (sofa-axis): close-up Junho, a blink, he agrees to throw that one ticket away. looks at Ria
+Panel 9 — CUT 9 (sofa-axis): Ria folds one finger. A broken MP3 player. looks at Junho
+Panel 10 — CUT 10 (sofa-axis): Junho nods at once. He would rather repair it. looks at Ria
+Panel 11 — CUT 11 (sofa-axis): Ria folds a second finger. An out-of-style leather jacket. looks at Junho
+Panel 12 — CUT 12 (sofa-axis): Junho rubs his stomach and avoids her eyes. looks away from Ria

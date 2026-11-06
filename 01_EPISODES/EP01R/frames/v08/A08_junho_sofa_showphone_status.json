@@ -1,0 +1,54 @@
+[
+ {
+  "created_at": "2026-11-06T02:27:41.142718Z",
+  "display_name": "Nano Banana Pro",
+  "id": "82f3a418-9348-4c6f-94c8-0d4903fd5a78",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_022741_82f3a418-9348-4c6f-94c8-0d4903fd5a78_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "16421b90-f362-468a-8408-a5b20d2ffa1e",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/16421b90-f362-468a-8408-a5b20d2ffa1e_resize.jpg"
+    },
+    {
+     "id": "405eda40-7962-4a93-a5fa-f10f276ae587",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/405eda40-7962-4a93-a5fa-f10f276ae587_resize.jpg"
+    },
+    {
+     "id": "19a2f761-bc0b-4a90-9127-de9345455b3e",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/19a2f761-bc0b-4a90-9127-de9345455b3e.png"
+    },
+    {
+     "id": "19a2f761-bc0b-4a90-9127-de9345455b3e",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/19a2f761-bc0b-4a90-9127-de9345455b3e.png"
+    },
+    {
+     "id": "91104897-b5ea-42d7-a530-e58f3397912e",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/91104897-b5ea-42d7-a530-e58f3397912e.png"
+    },
+    {
+     "id": "b283be89-28ec-4e71-8f68-fa6f37e4b0b0",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/b283be89-28ec-4e71-8f68-fa6f37e4b0b0_resize.jpg"
+    }
+   ],
+   "prompt": "A frame grabbed from a sitcom video: candid mid-action, caught between movements, slight motion softness, not a posed photo. SEAT MASTER: reference image 1 shows the man in his fixed seat (center cushion of the sofa) from this same camera. Keep that seat, camera and furniture exactly; only his pose and expression change as described. Reference image 2 is the empty set plate. The only change: the man, still seated on the CENTER cushion, now holds his phone up high toward camera-RIGHT (toward the kitchen island off-frame) with his right arm extended, as if showing the screen to someone across the room, torso twisted right, mouth open mid-sentence, eyebrows up, comic aggrieved-impatient face, shoulders in a shrug. Black leather shoes. SET DRESSING LOCK: on the coffee table exactly the tomato-red tray, a small vase of baby's breath and two books, as in the set plate; nothing else. SEAT LOCK: the man sits on the CENTER cushion of the three-seat sofa, squarely facing the camera, the coffee table tray directly in front of him; never on either end cushion. FIXED SET LAYOUT (identical to the evening master set image; never move furniture): seen from the audience side, the front door and the single straight oak staircase with black railing are on the far LEFT along the back wall; the big arched window is in the center of the back wall with the round oak dining table and chairs in front of it, behind-left of the sofa; the caramel corduroy sofa sits center facing the camera with the round oak coffee table (tomato-red tray, small flowers) in front of it and the mustard armchair at its right; a low oak sideboard with a radio and globe stands behind the armchair; the white marble kitchen island with three black stools is on the far RIGHT in front of the kitchen wall with copper pans and copper pendant lamps. Nothing else is rearranged. FIXED TIME AND LIGHTING (identical in every frame): 9 pm, evening. The arched window is dark navy with no daylight. All practical lamps are on (paper pendants, copper pendants over the island, table lamps, warm string lights). Warm tungsten color around 3000K, soft even low-contrast exposure, faces clearly lit, no deep shadows, no sunbeams, no blue light. Same brightness as the evening master set image. IDENTITY LOCK: each character's face must be the exact same person as in their face reference image (same eyes, nose, jaw, skin tone, hairline, hairstyle); do not beautify or generalize. Face references come right after the set plate, then outfit sheets, then the wide room. No text, no lettering, no logos anywhere. ",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_022741_82f3a418-9348-4c6f-94c8-0d4903fd5a78.png",
+  "status": "completed"
+ }
+]

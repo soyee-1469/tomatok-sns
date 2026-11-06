@@ -1,0 +1,23 @@
+SCENE CONTEXT
+Evening, sofa-axis camera, the corduroy sofa facing the camera. the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses). 리아: 응, 다들 틀릴까 봐 무서워하셔 CU, 반미소. 옆에 선 준호를 올려다보며 말한다
+
+FORMAT MODE
+One continuous shot, no cuts.
+
+CAMERA
+Fixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Camera axis: sofa on camera-left, island on camera-right. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, window dark navy, no film grain, no over-sharpening.
+
+ACTION
+0.0s to 0.5s: hold the start pose, a small breath before the line. 0.5s to 2.4s: CU, 반미소. 옆에 선 준호를 올려다보며 말한다 2.4s to 3.0s: hold the last expression, no new gesture.
+
+PERFORMANCE
+From the script (담담, 따뜻): in character, playful, never sharp. CU, 반미소. 옆에 선 준호를 올려다보며 말한다 Bright and playful. No exaggerated acting, no look at the camera.
+
+AUDIO
+Quiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.
+
+POSITIVE LOCKS
+Continue exactly from the start image. The woman keeps the same face, hair, clothes and position through the whole take. She does not wear glasses. Same room, furniture, lamps and colors. No new people enter. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The woman says in fluent Korean with a light Filipino-English accent and an English-like rising rhythm, bright and playful, in character, playful, never sharp, a light rising rhythm: "응 다들 실수할까봐 무서워하셔". She says only this one line and nothing else; no other words in any language. Natural delivery, visible lip-sync, mouth movements match every word, no subtitles, no on-screen text.

@@ -1,0 +1,23 @@
+SCENE CONTEXT
+Evening wide view of the living room, sofa on camera-left, island on camera-right. . 와이드. 리아 폰 띠링 띠링, 대기 열두 명. 냉장고 소리. 자막: 당신 가족도 단톡방에 쓰기 전에 검사받나요? 엔딩 와이드: 준호는 아일랜드에서 리아 옆 (2막)
+
+FORMAT MODE
+One continuous shot, no cuts.
+
+CAMERA
+Fixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Camera axis: sofa on camera-left, island on camera-right. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, window dark navy, no film grain, no over-sharpening.
+
+ACTION
+0.0s to 0.5s: hold the start pose, a small breath before the line. 0.5s to 2.4s: 엔딩 와이드: 준호는 아일랜드에서 리아 옆 (2막) 2.4s to 3.0s: hold the last expression, no new gesture.
+
+PERFORMANCE
+From the script (여운): in character, playful, never sharp. 엔딩 와이드: 준호는 아일랜드에서 리아 옆 (2막)
+
+AUDIO
+Quiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.
+
+POSITIVE LOCKS
+Continue exactly from the start image. The speaker keeps the same face, hair, clothes and position through the whole take. Same room, furniture, lamps and colors. No new people enter. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The man says in casual Korean with a soft Nepali accent, relaxed, in character, playful, never sharp: "글로벌 대화방에서 자연스럽게 대화하려면? 자동 실시간 번역 글로벌 메신저 토마토랑 함께 하세요.". He says only this one line and nothing else; no other words in any language. Natural delivery, visible lip-sync, no subtitles, no on-screen text.

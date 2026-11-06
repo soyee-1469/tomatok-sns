@@ -1,0 +1,80 @@
+[
+  {
+    "created_at": "2026-11-06T05:03:36.282545Z",
+    "display_name": "Nano Banana Pro",
+    "id": "1e678d43-b0c4-402a-b003-a1111e4b575b",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_050336_1e678d43-b0c4-402a-b003-a1111e4b575b_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "6c3a0e6b-1ffd-47f0-bde7-7485cd1a02f2",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/6c3a0e6b-1ffd-47f0-bde7-7485cd1a02f2_resize.jpg"
+        },
+        {
+          "id": "2d33ea27-aeaf-4b72-b77a-afa7946fefbd",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/2d33ea27-aeaf-4b72-b77a-afa7946fefbd.png"
+        },
+        {
+          "id": "2d33ea27-aeaf-4b72-b77a-afa7946fefbd",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/2d33ea27-aeaf-4b72-b77a-afa7946fefbd.png"
+        },
+        {
+          "id": "f9e2622d-87b3-4525-b17e-bf3e2e2fa6fd",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/f9e2622d-87b3-4525-b17e-bf3e2e2fa6fd.png"
+        },
+        {
+          "id": "f9e2622d-87b3-4525-b17e-bf3e2e2fa6fd",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/f9e2622d-87b3-4525-b17e-bf3e2e2fa6fd.png"
+        },
+        {
+          "id": "7dc311c7-3974-4d74-bdbb-c86da9c101f0",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/7dc311c7-3974-4d74-bdbb-c86da9c101f0.png"
+        },
+        {
+          "id": "7dc311c7-3974-4d74-bdbb-c86da9c101f0",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/7dc311c7-3974-4d74-bdbb-c86da9c101f0.png"
+        },
+        {
+          "id": "dedc7258-81a9-403f-9e39-1a0bf81bd64b",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/dedc7258-81a9-403f-9e39-1a0bf81bd64b.png"
+        },
+        {
+          "id": "e8e2bda0-e06f-4d0e-9252-5e176dcf652e",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/e8e2bda0-e06f-4d0e-9252-5e176dcf652e.png"
+        },
+        {
+          "id": "7326471f-e3bb-4fd7-9706-c83d9b53f188",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/7326471f-e3bb-4fd7-9706-c83d9b53f188.png"
+        },
+        {
+          "id": "6c3a0e6b-1ffd-47f0-bde7-7485cd1a02f2",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/6c3a0e6b-1ffd-47f0-bde7-7485cd1a02f2_resize.jpg"
+        }
+      ],
+      "prompt": "A frame grabbed from a sitcom video: candid mid-action, caught between movements, slight motion softness, not a posed photo. PLATE LOCK: reference image 1 is the empty set plate shot from the exact camera position of this cut. Keep its framing, lens, furniture positions, window, lamps and lighting; only add the people described. Never move, add or remove furniture. ONE SINGLE photograph filling the whole 9:16 frame (no grid, no panels, no collage). FULL-ROOM wide shot from the EXACT camera of reference image 1 (the evening master wide seen from the entrance wall): staircase far left, arched window center back, caramel sofa in the middle distance, white marble island with THREE black stools on the right, whole room visible like the plate. The sofa is EMPTY. the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses) sits on the END stool nearest the living room (the stool closest to the sofa) with TWO empty stools beyond her; the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers) stands right beside her on the living-room side, holding his phone, both of them looking at her phone together, relaxed. the Nepali man (31, deep brown skin, black curly hair, short trimmed beard, white chef's jacket, charcoal-grey bib apron over it, no towel) stands BEHIND the island counter further right in his white chef's jacket and charcoal-grey bib apron (not a t-shirt), holding a glass pickle jar, looking at them deadpan. Everyone small in frame, warm ending mood. SEAT LOCK: the man sits on the CENTER cushion of the three-seat sofa, squarely facing the camera, the coffee table tray directly in front of him; never on either end cushion. FIXED SET LAYOUT (identical to the evening master set image; never move furniture): seen from the audience side, the front door and the single straight oak staircase with black railing are on the far LEFT along the back wall; the big arched window is in the center of the back wall with the round oak dining table and chairs in front of it, behind-left of the sofa; the caramel corduroy sofa sits center facing the camera with the round oak coffee table (tomato-red tray, small flowers) in front of it and the mustard armchair at its right; a low oak sideboard with a radio and globe stands behind the armchair; the white marble kitchen island with three black stools is on the far RIGHT in front of the kitchen wall with copper pans and copper pendant lamps. Nothing else is rearranged. FIXED TIME AND LIGHTING (identical in every frame): 9 pm, evening. The arched window is dark navy with no daylight. All practical lamps are on (paper pendants, copper pendants over the island, table lamps, warm string lights). Warm tungsten color around 3000K, soft even low-contrast exposure, faces clearly lit, no deep shadows, no sunbeams, no blue light. Same brightness as the evening master set image. IDENTITY LOCK: each character's face must be the exact same person as in their face reference image (same eyes, nose, jaw, skin tone, hairline, hairstyle); do not beautify or generalize. Face references come right after the set plate, then outfit sheets, then the wide room. No text, no lettering, no logos anywhere. ",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_050336_1e678d43-b0c4-402a-b003-a1111e4b575b.png",
+    "status": "completed"
+  }
+]
+--stderr--

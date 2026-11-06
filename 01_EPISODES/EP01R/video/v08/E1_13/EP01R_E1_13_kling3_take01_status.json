@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-06T08:43:30.385843Z",
+  "display_name": "Kling v3.0",
+  "id": "4350c661-d0fb-4e24-845b-b961031e5561",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+   "aspect_ratio": "9:16",
+   "cfg_scale": 0.5,
+   "duration": 3,
+   "enhance_prompt": false,
+   "height": 1280,
+   "kling_element_ids": [],
+   "kling_elements": [],
+   "medias": [
+    {
+     "data": {
+      "id": "05aa1265-926c-42e3-93d6-5830acd5bbec",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/05aa1265-926c-42e3-93d6-5830acd5bbec_resize.jpg"
+     },
+     "role": "start_image"
+    }
+   ],
+   "mode": "std",
+   "multi_prompt": [],
+   "multi_shot_mode": "custom",
+   "multi_shots": false,
+   "prompt": "SCENE CONTEXT\nEvening living room, island-axis camera: the living room on camera-left, the white marble kitchen island with an oak body, copper shelves and the fridge on camera-right; NO window in frame. Exactly as in the start image: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses) sits on the end bar stool looking at her phone; the Nepali man (31, deep brown skin, black curly hair, short trimmed beard, white chef's jacket with a plain black bib apron, no towel) stands behind the counter holding a pickle spear.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nFixed camera on a tripod, exactly the framing of the start image for the entire 3 seconds: no zoom, no pan, no dolly, no reframing, the camera never follows a person. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain, no over-sharpening.\n\nACTION\n0.0-0.3s: he takes a small bite of the pickle. 0.3-2.6s: chewing slowly, he says the line flatly toward camera-left, almost no facial movement, lips move only as much as the words need. 2.6-3.0s: keeps chewing in silence, no further words. The woman keeps looking at her phone.\n\nPERFORMANCE\nIn character: underplayed, deadpan, dry; minimal facial movement. No exaggerated acting, nobody looks at the camera.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.\n\nPOSITIVE LOCKS\nContinue exactly from the start image. Everyone keeps the same face, hair, glasses, clothes and position through the whole take; the other people in frame stay exactly where they are; nobody walks, nobody leaves, nobody new enters. Same room, furniture, lamps and colors. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe Nepali man speaks calm, deadpan, unhurried Korean with a slight foreign accent, low voice, flat ending: \"우리 엄마는 전화로만 하셔.. 새벽 4시에..\". Only this one line and nothing else; no other words in any language. Natural, underplayed delivery: lips move only as much as the words need, the mouth never opens wide, no exaggerated expressions; visible lip-sync, mouth movements match every word. Nobody else speaks.",
+   "reference_elements": [],
+   "sound": "on",
+   "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_084330_4350c661-d0fb-4e24-845b-b961031e5561.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_084330_4350c661-d0fb-4e24-845b-b961031e5561_thumbnail.webp"
+ }
+]

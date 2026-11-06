@@ -1,0 +1,74 @@
+{
+  "J2b_junho_exit_right_r1": {
+    "plate": "sofa",
+    "sketch": "EP01_island_02_C07b.png",
+    "who": [
+      "J"
+    ],
+    "stage": "Medium shot from the sofa side, camera axis: sofa on camera-left, kitchen island far on camera-right. the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers) has JUST stood up and is standing DIRECTLY IN FRONT of the caramel sofa, in the narrow gap between the sofa seat and the round coffee table, knees still slightly bent from rising, torso turning toward camera-RIGHT (toward the island), phone in his right hand, taking his first step to the right. He is still fully inside the frame, centered over the sofa. He wears black leather dress shoes. The sofa seat behind him is empty. Nobody else in frame; the woman and the Nepali man are at the island, out of frame.",
+    "time": "evening"
+  },
+  "B13_ria_island_start": {
+    "plate": "island",
+    "sketch": "EP01_island_03_C08a.png",
+    "who": [
+      "B",
+      "S"
+    ],
+    "stage": "Medium shot at the kitchen island, camera axis: living room on camera-left, kitchen wall on camera-right. the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses) sits on the black bar stool on the living-room side of the white marble island, both hands holding her phone low, eyes down on the phone screen, a mug beside her on the counter, small amused half-smile. the Nepali man (31, deep brown skin, black curly hair, short trimmed beard, white chef's jacket, beige towel on the left shoulder, navy half-apron) stands BEHIND the island counter further right, head down, both hands on a glass pickle jar he is opening, not looking up. Nobody else in frame; the man with glasses is NOT in this frame.",
+    "time": "evening"
+  },
+  "T5_ria_suman_look_left_r1": {
+    "plate": "island",
+    "sketch": "EP01_island_12_C15.png",
+    "who": [
+      "B",
+      "S"
+    ],
+    "stage": "Two-shot at the kitchen island, camera axis: living room on camera-left, kitchen wall on camera-right. the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses) sits on the black bar stool on the living-room side of the island, phone lowered to the counter next to her ceramic mug (the same mug as the previous frame, kept on the counter at her right hand), her head turned and eyes locked toward camera-LEFT at someone just out of frame, eyebrows slightly raised, lips pressed holding back a laugh. the Nepali man (31, deep brown skin, black curly hair, short trimmed beard, white chef's jacket, beige towel on the left shoulder, navy half-apron) stands behind the counter, pickle jar in his hands, also lifted his head, pupils toward camera-LEFT at the same off-screen person, deadpan. Both look at the same point off-frame left. Nobody else in frame.",
+    "time": "evening"
+  },
+  "J9b_junho_crossing_shoes": {
+    "plate": "reverse",
+    "sketch": "EP01_island_04_C08b.png",
+    "who": [
+      "J",
+      "B",
+      "S"
+    ],
+    "stage": "Medium-wide shot, camera axis: living room and sofa on camera-left, white marble kitchen island on camera-right. the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers) is entering from the LEFT side of the frame, two steps away from the island, mid-stride toward camera-right, holding his phone out in his right hand toward the island, eyes on the woman. He wears black leather dress shoes (NOT socks). the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses) sits on the black bar stool on the living-room side of the island, phone in hand lowered, head lifted, eyes locked on the man with glasses, a mug on the counter beside her. the Nepali man (31, deep brown skin, black curly hair, short trimmed beard, white chef's jacket, beige towel on the left shoulder, navy half-apron) stands behind the island counter further right, head down over a glass pickle jar, not looking up. All three fully in frame.",
+    "time": "evening"
+  },
+  "J2b_junho_exit_right_r2": {
+    "plate": "sofa",
+    "sketch": null,
+    "who": [
+      "J"
+    ],
+    "stage": "Medium shot from the exact camera position of reference image 1 (the sofa plate). THE SOFA GEOMETRY IS FIXED: the caramel corduroy sofa faces the camera squarely with its back to the arched window, exactly as in image 1, not rotated, not angled; the round oak coffee table stays centered in front of it. the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers) has JUST stood up and stands directly in front of the sofa seat, in the gap between the sofa and the coffee table, knees slightly bent from rising, torso beginning to turn toward camera-RIGHT (toward the island), phone in his right hand, first step to the right. He wears black leather dress shoes. The sofa seat behind him is empty. Nobody else in frame.",
+    "time": "evening"
+  },
+  "J9c_junho_toward_ria": {
+    "plate": "reverse",
+    "sketch": null,
+    "who": [
+      "J",
+      "B",
+      "S"
+    ],
+    "stage": "Medium-wide shot from the exact camera position of reference image 1, camera axis: sofa on camera-left, white marble kitchen island on camera-right. FURNITURE FIXED exactly as in image 1. the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers) is walking DIRECTLY TOWARD the woman at the island: his whole body, hips and shoulders are turned toward her (three-quarter view from behind-left, we see more of his back than his chest), one step away from the island, leaning slightly forward, holding his phone out in his right hand toward her face, eyes locked on her. He wears black leather dress shoes. the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses) sits on the black bar stool on the living-room side of the island facing him, phone lowered, head lifted, eyes on him, a mug on the counter beside her. the Nepali man (31, deep brown skin, black curly hair, short trimmed beard, white chef's jacket, beige towel on the left shoulder, navy half-apron) stands behind the island counter further right, head down over a glass pickle jar, not looking up. All three fully in frame.",
+    "time": "evening"
+  },
+  "J9d_junho_toward_ria_islandcam": {
+    "plate": "island",
+    "sketch": null,
+    "who": [
+      "J",
+      "B",
+      "S"
+    ],
+    "stage": "The only change: the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers) has entered from the LEFT edge of the frame and is now one step from the island, walking DIRECTLY TOWARD the seated woman, hips and shoulders turned toward her (three-quarter view, we see his back-left side), leaning slightly forward, holding his phone out in his right hand toward her, eyes locked on her. Grey trousers, black leather dress shoes. The woman has lifted her head from her phone and looks at him; everything else about her is unchanged. The Nepali man stays head-down over the pickle jar, unchanged. All three fully in frame.",
+    "time": "evening",
+    "frame_ref": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/B13_ria_island_start.png"
+  }
+}

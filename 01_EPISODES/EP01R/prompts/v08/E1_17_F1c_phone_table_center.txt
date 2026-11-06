@@ -1,0 +1,23 @@
+SCENE CONTEXT
+Evening, island-axis camera, sofa on camera-left and the marble island on camera-right. . 준호가 폰을 뒤집어 좌탁에 둔 직후, 리아 폰이 계속 울린다(소리는 편집에서) 소파에 앉은 준호가 아일랜드 쪽(화면 오른쪽)을 부럽다는 듯 쳐다본다 / 쇼파에 앉아있는 준호 리아폰이 마구 울리자 부럽다는듯히 쳐다본다.
+
+FORMAT MODE
+One continuous shot, no cuts.
+
+CAMERA
+Fixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Camera axis: sofa on camera-left, island on camera-right. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, window dark navy, no film grain, no over-sharpening.
+
+ACTION
+0.0s to 0.5s: hold the start pose, a small breath before the line. 0.5s to 2.4s: 소파에 앉은 준호가 아일랜드 쪽(화면 오른쪽)을 부럽다는 듯 쳐다본다 / 쇼파에 앉아있는 준호 리아폰이 마구 울리자 부럽다는듯히 쳐다본다. 2.4s to 3.0s: hold the last expression, no new gesture.
+
+PERFORMANCE
+From the script (체념 → ?): in character, playful, never sharp. 소파에 앉은 준호가 아일랜드 쪽(화면 오른쪽)을 부럽다는 듯 쳐다본다 / 쇼파에 앉아있는 준호 리아폰이 마구 울리자 부럽다는듯히 쳐다본다.
+
+AUDIO
+Quiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.
+
+POSITIVE LOCKS
+Continue exactly from the start image. The speaker keeps the same face, hair, clothes and position through the whole take. Same room, furniture, lamps and colors. No new people enter. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The man says in casual Korean with a soft Nepali accent, relaxed, in character, playful, never sharp: "(띠링 띠링띠링 — 리아 폰)". He says only this one line and nothing else; no other words in any language. Natural delivery, visible lip-sync, no subtitles, no on-screen text.

@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-06T08:30:52.557682Z",
+  "display_name": "Kling v3.0",
+  "id": "3cb91328-3b91-42ee-bd82-b2460ca3c16e",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+   "aspect_ratio": "9:16",
+   "cfg_scale": 0.5,
+   "duration": 3,
+   "enhance_prompt": false,
+   "height": 1280,
+   "kling_element_ids": [],
+   "kling_elements": [],
+   "medias": [
+    {
+     "data": {
+      "id": "e45c832a-a96e-45e7-89e6-bd0093996a97",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/e45c832a-a96e-45e7-89e6-bd0093996a97.png"
+     },
+     "role": "start_image"
+    }
+   ],
+   "mode": "std",
+   "multi_prompt": [],
+   "multi_shot_mode": "custom",
+   "multi_shots": false,
+   "prompt": "SCENE CONTEXT\nEvening living room, island-axis camera: the living room on camera-left, the white marble kitchen island with an oak body, copper shelves and the fridge on camera-right; NO window in frame. Exactly as in the start image: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses) sits on the end bar stool looking down at her phone.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nFixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain, no over-sharpening.\n\nACTION\n0.0-0.4s hold. 0.4-2.6s: eyes on her own phone, she says the line calmly, a warm half-smile, a small nod. 2.6-3.0s: keeps scrolling.\n\nPERFORMANCE\nIn character: calm, reassuring, warm. No exaggerated acting, nobody looks at the camera.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.\n\nPOSITIVE LOCKS\nContinue exactly from the start image. Everyone keeps the same face, hair, glasses, clothes and position through the whole take; nobody else enters the frame. Same room, furniture, lamps and colors. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe woman speaks fluent Korean with a light Filipino-English accent and a bright, playful rising rhythm: \"다들 뭐라고 답장할까 고민 중이실 거야.\". Only this one line and nothing else; no other words in any language. Natural delivery, visible lip-sync, mouth movements match every word. Nobody else speaks.",
+   "reference_elements": [],
+   "sound": "on",
+   "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_083052_3cb91328-3b91-42ee-bd82-b2460ca3c16e.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_083052_3cb91328-3b91-42ee-bd82-b2460ca3c16e_thumbnail.webp"
+ }
+]

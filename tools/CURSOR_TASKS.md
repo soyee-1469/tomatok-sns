@@ -72,3 +72,212 @@
 
 ## 작업 9 (선택) — 보드 "얼굴 QA" 배지
 - `tools/build_cast_board.py` 1화/2화 탭 각 컷 카드에, `tools/face_qa.py --json` 결과 파일(`edit/v06/face_qa.json`, 없으면 배지 없음)을 읽어 `SOFT`/`DRIFT` 배지를 빨간 글씨로 표시. DB 코드(`anim_checks`)는 건드리지 말 것. 수정 후 `node -e` 로 `<script>` 파싱 확인.
+
+---
+# 3차 지시서 — 2026-11-06 (콘티→스틸 파이프라인 도구화)
+
+> 공통 규칙은 1차와 같다. 추가 읽기 전용: `01_EPISODES/EP01R/frames/v08/**`, `00_MASTER_ASSETS/05_STYLE/blocking_rule.md`(규칙 원문, 꼭 읽을 것), `01_EPISODES/EP01R/tools/gen_conti_island.py`(참고용 원본, 수정 금지 — 복사해서 새 파일로).
+> 건드려도 되는 파일: `tools/build_cast_board.py`, 새로 만드는 `tools/*.py`. **Higgsfield/Kling/ChatGPT 호출 금지.** 생성 도구는 반드시 `--dry`(프롬프트·참조·비용만 출력)로만 테스트한다.
+> 작업이 끝나면 이 파일 맨 아래 `
+### 작업 17 — 보드 #conti 탭 UX 5건 (2026-11-06, 사용자 검토 의견 그대로)
+대상: `tools/build_cast_board.py` 의 콘티·스틸 컨펌 탭(#conti) HTML/JS. 데이터 규약(conti_checks 문서 id `E1-still-<key>` / `E1-island-NN`, 필드 status ok|fix, note)은 바꾸지 말 것. 다른 탭은 건드리지 말 것.
+1. **집계 분리**: 상단 OK/수정/미판정 집계가 콘티 12칸 + 사용 중 스틸 + 접힌 「교체됨·미사용」까지 한 통으로 센다. → 집계는 **사용 중 스틸만**, 콘티 칸은 별도 줄로. 접힌 카드(`details.old` 안)는 집계에서 제외.
+2. **한 장씩 넘기며 판정**: 카드 그림 클릭 → 크게 보기 모달에 **이전/다음 + OK + 재생성(메모 입력)** 을 넣어 스크롤 없이 컷 순서대로 판정. 1화 탭 재생기의 이전·다음 코드를 재사용해도 됨. 판정하면 자동으로 다음 미판정 카드로.
+3. **상단 정리**: 탭 제목 「컷 7~15」를 「1화 스틸 컨펌」으로. 위치 상태표·제작 메모는 `<details>`로 접고, 맨 위에는 「미판정 N장」 + 첫 미판정 카드로 가는 앵커 링크만. 헤더의 얼굴·몸통·세트 숫자는 이 탭에서 숨김.
+4. **재생성 버튼 보호**: 고칠 점(note)이 비어 있으면 「재생성」 버튼 disabled. 버튼 라벨에 「재생성 (2cr)」로 크레딧 표시. 「수정」 상태 저장은 note가 있을 때만.
+5. **제목 중복 제거**: `[컷 3] 3번 R03b 소파 OTS` → `[컷 3] 소파 OTS` 처럼 번호 한 번만. STILLS 튜플의 title에서 선행 `NN번 ` 을 빌드 시 제거(정규식), 한 줄 설명(desc)은 유지.
+완료 후: `python3 tools/build_cast_board.py /tmp/board_test` 로 빌드되는지 확인하고, 변경한 함수/블록 이름과 테스트 방법을 「처리 보고」에 적을 것. 발행(Artifact)은 Claude가 한다.
+
+
+### 작업 18 — 판정 창구 한 곳으로 (2026-11-06 사용자: "콘티 하단 생성 스틸이랑 애니매틱에 가는 이미지가 동일한데 왜 두 군데서 각각 수정하게 해놨어")
+대상: `tools/build_cast_board.py`. 작업 17과 같이 처리해도 됨.
+- #conti 탭에서 **생성 스틸 카드(`E1-still-*`)를 모두 제거**. 남기는 것: 콘티 12칸(`E1-island-NN`), 앵커·플레이트 참조 프레임(B13c, B40b, F2c, 플레이트 A1/A2/wide)만 "기준 프레임" 섹션으로(판정 버튼 없이, 보기만).
+- 이미지 판정은 **#anim1 탭 한 곳**에서만: 컷 카드의 기존 '이미지' 메모 + 재생성 체크를 그대로 쓴다. 접힌 「교체됨·미사용」 섹션도 삭제(파일은 남김).
+- 작업 17의 2번(한 장씩 넘기며 판정 모달)은 #anim1 탭에 구현.
+- 기존 conti_checks `E1-still-*` 문서는 건드리지 않는다(이력). 상단 집계는 anim_checks 기준.
+
+
+### 메모 — 2화 콘티 작업 전에 읽을 것 (2026-11-06)
+`.claude/skills/tomatok-episode/SKILL.md`의 「콘티→스틸→보드 컨펌 루프」, 「앵커 감사 6항목」, 「2화 이후 콘티 작업 참고 위치」와 `00_MASTER_ASSETS/05_STYLE/blocking_rule.md` §5~§14. 작업 15(make_storyboard_prompts.py)에는 Fixed positions(§8)·WALL ORDER(§14)·세트 마스터 첨부(§7) 문장이 들어가야 한다.
+
+
+### 작업 19 — tools/face_strip.py: 얼굴 일관성 띠 + 동일인 점수 (2026-11-06, 사용자 "스틸에 얼굴이 다른 건 괜찮은 거야?")
+- 입력: 애니매틱 JSON(skip 제외, kind=still). insightface buffalo_l(이미 설치, tools/face_qa.py 참고)로 각 프레임 얼굴 검출 → 컷 번호 라벨 붙인 띠 이미지(`<json 폴더>/face_strip_<ep>.jpg`, 12열).
+- 각 얼굴을 확정 얼굴(`CAST_v8_six/JUNHO_face_C.png`, `BEA_MASTER_FACE.png`, `SUMAN_face.png`)과 코사인 유사도로 매칭해 인물 라벨 + 점수. 점수 < 0.35는 띠에서 빨간 테두리, 보고서 md에 "컷 n <인물> 0.28 ← 재생성 후보"로 나열.
+- 사용 예: `python3 tools/face_strip.py 01_EPISODES/EP01R/edit/v06/animatic_E1_v062.json --out 01_EPISODES/EP01R/edit/v06/face_report.md`
+- 얼굴 스왑/복원은 절대 하지 말 것(철칙 9). 판정만.
+
+### 작업 20 — tools/gaze_qa.py: 시선·고개 방향 QA (2026-11-06, 사용자 "시선, 눈알 이런 건 괜찮은 거야?")
+- insightface의 pose(yaw/pitch/roll)와 2d106 랜드마크로 각 얼굴의 고개 방향(왼/오/정면/아래/위)을 분류.
+- 애니매틱 JSON의 dir_override/action 텍스트에서 의도 시선을 규칙으로 뽑는다: "소파 쪽/카메라-LEFT/왼쪽" → 왼쪽, "폰을 보" / "화면" → 아래, "올려다" → 위, "카메라" → 정면, "리아를/준호를 바라" → 상대 방향(자리표: 준호는 리아의 왼쪽).
+- 의도와 측정이 다르면 보고서에 "컷 n <인물> 의도=아래 측정=왼쪽" 으로 나열. 눈동자 방향은 랜드마크로 대략만(홍채 중심 vs 눈 중심 오프셋).
+- 출력: `<json 폴더>/gaze_report.md`. 생성은 하지 않는다.
+
+
+### 작업 16 보정 — make_kling_prompts.py 수정 (2026-11-06 Claude 검수, 22번 출력 기준)
+1. SCENE CONTEXT가 `cam` 필드를 무시하고 "sofa-axis… corduroy sofa"로 나옴 → `cam=="island"`면 "island-axis camera: the living room on camera-left, the kitchen island, copper shelves and fridge on camera-right; NO window in frame" 문장, `sofa`면 소파 문장.
+2. 옛 `situation` 문자열("리아가 폰을 가슴에 엎어 숨긴다: 가족방 아니야")이 들어감 → `situation`은 쓰지 말고 `dir_override`(없으면 `action`)만. "(2026-11-06 판정 지문)" 같은 괄호 메모는 제거.
+3. 프레임에 있는 모든 인물을 적을 것: 시작 스틸 키(G40_*, E40_*, B40b 등 2막)면 리아+준호+수만, 1막 아일랜드(G13_*, B13*)면 리아+수만, 소파 키면 준호만. POSITIVE LOCKS에 "the other people in frame stay exactly where they are, no one walks, no one leaves" 추가.
+4. DIALOGUE의 "ㅋㅋㅋ/ㅎㅎ"는 발화 텍스트에서 빼고 "(she laughs lightly after the line)"로 바꿀 것. "……"는 그대로 두되 "a short pause" 지시 추가.
+5. 수만 복장 문장은 "white chef's jacket with a plain black bib apron, no towel"로(옛 towel 문장 금지).
+
+## 처리 보고` 절에 작업 번호·바꾼 파일·검증 방법을 적는다. 5분 주기로 이 파일을 다시 읽고 아직 보고되지 않은 작업만 한다.
+
+## 작업 7 — 콘티 그리드 분할기 `tools/split_storyboard.py` (새 파일)
+- 입력: `python3 tools/split_storyboard.py <grid.png> --rows 4 --cols 3 --out <dir> --prefix EP01_island --names C07a,C07b,...`
+- 균등 분할이 아니라 **흰 구분선(gutter)을 찾아** 자른다: 행·열 방향 밝기 프로파일에서 밝기 > 240 이 연속된 띠를 구분선으로 보고, 띠 중앙에서 자른다. 못 찾으면 균등 분할로 폴백하고 경고 출력.
+- 칸 아래 라벨 띠("1 | CUT 7 – sofa-axis")는 자르지 말고 포함.
+- 출력: `<prefix>_NN_<name>.png` + `<prefix>_INDEX.md`(칸 번호·파일명·크기 표).
+- 테스트: `01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_board_01.png`(1086×1448, 3×4)로 돌려 기존 `EP01_island_NN_*.png`와 픽셀 차이가 거의 없는지 확인(덮어쓰지 말고 `/tmp` 또는 `--out` 다른 폴더로).
+
+## 작업 8 — 콘티 기반 스틸 생성기 공용화 `tools/gen_from_conti.py` (새 파일)
+- `01_EPISODES/EP01R/tools/gen_conti_island.py` 의 CUTS 딕셔너리를 **JSON 파일**로 빼서 읽는다: `python3 tools/gen_from_conti.py <cuts.json> [키 ...] [--dry]`
+- cuts.json 스키마: `{ "<key>": {"plate":"sofa|island|dining|door|reverse|sideboard|wide", "sketch": "<STORYBOARD 파일명 or null>", "who": ["J","B","S","G"], "stage": "...", "time": "evening|day"} }`. `time=day` 면 `LIVINGROOM_v14d_*` 플레이트.
+- 프롬프트 조립 규칙은 원본과 동일(HEAD + PLATE LOCK + (sketch 있을 때만 STORYBOARD 문장) + stage + LAYOUT + LIGHTING + IDENTITY LOCK). 참조 순서 [플레이트 → (콘티) → 얼굴×2 → 몸통 → 와이드]. JUN/RIA/SUM/SUN/FACE/BODY/ROOM/LAYOUT/LIGHTING 상수는 `tools/process_checks.py` 에서 **import 하지 말고** 그대로 복사(그 파일은 실행 시 sys.argv를 읽어 깨진다).
+- `--dry`: 키마다 프롬프트 전문, 참조 파일 존재 여부(없으면 ERROR), 예상 비용(장당 2cr) 을 출력하고 종료. 기본값(비 dry)은 원본처럼 `01_EPISODES/EP01R/tools/hf_gen.py` 를 Popen 병렬 호출 → **너는 절대 비 dry로 실행하지 않는다.**
+- 결과 webp → png 변환까지 포함. `_prompt.txt` 저장 유지.
+- 샘플 JSON `01_EPISODES/EP01R/frames/v08/STORYBOARD/cuts_island.json` 을 원본 CUTS 그대로 옮겨 만들고 `--dry` 출력이 원본 `_prompt.txt` 와 일치하는지 diff.
+
+## 작업 9 — 가구 배치·각도 QA `tools/layout_qa.py` (새 파일)
+목적: 생성 스틸이 플레이트와 가구 배치가 다른지 자동 표시(2026-11-06 J2b r1 사례: 콘티 때문에 소파가 비스듬히 돌아감).
+- 입력: `python3 tools/layout_qa.py <still.png> --plate <plate.png> [--out report.md]` 또는 `--batch <dir>`(파일명 규칙으로 플레이트 자동 선택: `J2b*`/`F2*`/`J2*`→A1_sofa, `*island*`/`B*`/`S2*`/`T5*`→A2_island, `J9*`/`*crossing*`→A5_reverse, `W*`→master).
+- 방법 (OpenCV, 외부 API 없음): (1) 두 이미지를 같은 크기로 맞추고 상단 55%(벽·창·선반)에서 ORB 특징점 매칭 → RANSAC 호모그래피 인라이어 비율. (2) 하단 45%에서 소파/아일랜드 윗선 각도: Canny + HoughLinesP 로 가장 긴 수평계 선분의 기울기(°)를 플레이트와 비교. (3) 판정: 인라이어 비율 < 0.25 또는 각도 차 > 6° 면 `LAYOUT DRIFT`, 아니면 `OK`. 수치와 판정을 md 표로.
+- 검증 세트: `frames/v08/J2b_junho_exit_right_r1.png`(DRIFT가 나와야 함) vs `J2b_junho_exit_right_r2.png`(OK가 나와야 함), `B13_ria_island_start.png`(OK), `T5_ria_suman_look_left_r1.png`(OK). 넷 다 기대값이 나오면 통과. 임계값은 이 넷이 맞게 조정해도 된다(값을 보고에 적을 것).
+
+## 작업 10 — 보드 「콘티·스틸」 탭 분리 (`tools/build_cast_board.py`)
+- 지금 `#view-anim1` 안에 끼워 넣은 `<section id="conti1">` 을 새 탭 `#conti`(「콘티·스틸 컨펌」)로 옮긴다. nav에 탭 추가, `show()` 의 허용 해시 목록에 `conti` 추가. `#anim1` 은 원래대로 애니매틱만.
+- 콘티 탭 상단에 `01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_STATE_TABLE.md` 의 첫 표(위치 상태표)를 HTML 표로 렌더(간단한 md 표 파서면 됨, 외부 라이브러리 금지).
+- `conti_checks` 저장 JS는 그대로(이동만). 콘티 칸 카드와 스틸 카드를 두 묶음(`콘티 12칸` / `생성 스틸`)으로 소제목 구분. 작업 9의 report.json 이 있으면 스틸 카드에 `LAYOUT DRIFT` 배지(기존 `.qa-badge` 클래스 재사용).
+- 수정 후 `python3 tools/build_cast_board.py /tmp/board_test` 로 빌드되고 `node -e` 로 `<script>` 문법 통과 확인. **발행(Artifact)은 하지 않는다**(Claude가 한다).
+
+## 작업 11 — 애니매틱 프레임 교체기 `tools/animatic_set_frame.py` (새 파일)
+목적: 콘티→스틸로 새로 뽑은 프레임을 애니매틱 JSON의 해당 컷에 안전하게 끼운다(지금은 손으로 JSON을 고침).
+- `python3 tools/animatic_set_frame.py <animatic.json> <n> --frame <frame_id> --src <png 경로> [--dur 2.0] [--line "..."] [--action "..."] [--dry]`
+- 바꾸기 전 원본을 `<animatic>.bak.<YYYYMMDD-HHMMSS>.json` 으로 백업. `--dry` 면 변경 전/후 row 를 출력만.
+- 검사: src 파일 존재, png 9:16(±2%) 여부, 같은 JSON 안에서 같은 frame 이 연속 컷에 반복되면 경고(철칙 8 "같은 인물 연속 컷은 다른 프레임"). `tools/lint_animatic.py` 가 있으면 끝에 호출.
+- **JSON 수정은 Claude가 명시적으로 시킬 때만**(지금은 도구만 만들고 `--dry` 로 `01_EPISODES/EP01R/edit/v06/animatic_E1_v062.json` 9번 컷에 `frames/v08/J9d_junho_toward_ria_islandcam.png` 를 넣는 출력이 맞는지만 확인). 실제 JSON은 건드리지 말 것(읽기 전용 목록에 있음).
+
+## 작업 12 — `tools/layout_qa.py` 플레이트 선택 오판 수정 (2026-11-06 Claude 검수)
+- 증상: `J9d_junho_toward_ria_islandcam.png` 는 아일랜드 플레이트(A2)로 뽑았는데 파일명 규칙(`J9*`→reverse)으로 A5_reverse와 비교해 `LAYOUT DRIFT`(inlier 0.24, angle 47°)가 나옴. 실제로는 B13과 같은 카메라라 OK여야 함.
+- 수정: 플레이트는 파일명이 아니라 **같은 폴더의 `<still>_prompt.txt` 또는 `<still>_status.json`의 image-references 1번**에서 읽는다(status.json의 params에 참조 목록이 있으면 그걸 우선). `frame_ref`로 시작 프레임을 1번에 넣은 경우(`FRAME LOCK` 문구가 프롬프트에 있으면) 2번이 플레이트다. 둘 다 없을 때만 파일명 규칙 폴백.
+- 검증: J9d → OK, J2b_r1 → DRIFT, J2b_r2 → OK, T5_r1 → OK, J3_*_r1~r4 → DRIFT(어제 사용자 판정과 일치해야 함). 결과를 `01_EPISODES/EP01R/frames/v08/layout_qa_report.md`(+ .json)로 저장. 보드(작업 10)의 DRIFT 배지가 이 json을 읽는지 확인.
+
+## 작업 13 — `tools/animatic_set_frame.py` 에 행 삽입 모드 추가
+- `--insert-after <n>` 옵션: 새 row(n+1)를 끼우고 뒤 row들의 `n`을 +1. 필드는 `--frame --src --dur --line --who --action --situation --emotion --cam`.
+- 삽입 시 `edit/v06/anim_checks_renumber.json`에 `{"E1-40":"E1-41",...}` 매핑을 써 둔다(보드 DB 문서 이동은 Claude가 ArtifactData로 한다. 너는 DB를 만지지 않는다).
+- `--dry` 로 2026-11-06 삽입(39 뒤 J9d)이 현재 JSON과 같은 결과를 내는지 백업 `.bak.*.insert40.json` 과 diff.
+
+## 작업 14 — 앉은 자리 판정 `tools/seat_qa.py` (새 파일)
+목적: 아일랜드 컷에서 리아가 몇 번째 스툴에 앉았는지 자동 판정(2026-11-06 '가운데 스툴' 요청이 생성에서 5번 연속 실패 → 눈 대신 수치로 잡는다).
+- 입력: `python3 tools/seat_qa.py <still.png> [--plate <plate.png>] [--batch <dir> --glob "R*|B*|A09*|ISLAND*"]`
+- 방법(OpenCV만): (1) 이미지 하단 40%에서 검은 원형 스툴 좌판을 찾는다(어두운 타원 블롭, 가로폭 60~220px, 가로로 늘어선 것만). 플레이트가 주어지면 플레이트의 스툴 좌표를 기준으로 쓴다. (2) 사람 영역은 insightface 얼굴 검출(`tools/face_qa.py` 참고) 얼굴 박스의 x중심을 아래로 내려 가장 가까운 스툴 인덱스를 고른다. (3) 출력: 스툴 개수, 각 인물의 스툴 인덱스(왼쪽=1), 판정 `SEAT 1|2|3|standing`.
+- 검증: `frames/v08/ISLAND_MASTER_v2*.png`, `ISLAND_MASTER_v3.png`, `B13_ria_island_start.png` 는 전부 SEAT 1이 나와야 함. 결과를 `frames/v08/seat_qa.md`로.
+
+## 작업 15 — 2막 구조 콘티 프롬프트 생성기 `tools/make_storyboard_prompts.py` (새 파일)
+목적: 애니매틱 JSON(현재 기준)에서 ChatGPT 콘티 프롬프트를 자동으로 뽑아 콘티·애니매틱·스틸이 어긋나지 않게 한다(사용자 2026-11-06 "콘티랑 애니매틱이랑 다르다").
+- 입력: `python3 tools/make_storyboard_prompts.py 01_EPISODES/EP01R/edit/v06/animatic_E1_v062.json --per 12 --out 01_EPISODES/EP01R/frames/v08/STORYBOARD/prompts_E1/`
+- `skip:true` 행 제외, `kind:"ui"` 행은 칸 안에 "UI: <frame>"으로만 표기. 12칸(3×4)씩 묶어 시트 N개. 각 시트 프롬프트는 `00_MASTER_ASSETS/05_STYLE/blocking_rule.md` 6절 템플릿을 뼈대로: 얼굴 없음, 코 쐐기+시선 화살표, 카메라 축 라벨, **Fixed positions 줄**(8절 고정 자리표: 준호 소파 가운데 쿠션 / 리아 아일랜드 스툴 / 수만 카운터 뒤, 2막은 준호 리아 옆), 세트 소품 줄(9절), 그리고 칸마다 `Panel k — CUT n (<막>, <축>): <situation> / <action> / looks at …`.
+- 출력: 시트별 `.txt` + 전체 `INDEX.md`(시트↔컷 매핑). 생성 API 호출 없음. 사용자가 ChatGPT에 붙여 넣는다.
+
+## 작업 16 — Kling 대사 컷 프롬프트 생성기 `tools/make_kling_prompts.py` (새 파일, --dry만)
+목적: 애니매틱 행(대사 있는 still)에서 `01_EPISODES/EP01R/prompts/v06/E1_02_BEA.txt` 형식(SCENE CONTEXT / FORMAT MODE / CAMERA / ACTION / PERFORMANCE / AUDIO / POSITIVE LOCKS / DIALOGUE)의 Kling 프롬프트를 만든다.
+- 입력: `python3 tools/make_kling_prompts.py <animatic.json> --out 01_EPISODES/EP01R/prompts/v08/ [--only 3,8,10]`
+- 인물 묘사 문장은 `01_EPISODES/EP01R/tools/gen_conti_island.py`의 JUN/RIA/SUM 상수를 복사. 대사 줄엔 `05_STYLE/subtitle_and_line_rule.md`·`junho_voice_rule.md`·`bea_language_rule.md`의 발화 지시(감정/말투/끝음)를 붙인다. 3초 컷 기준 ACTION 타임라인(0.0~0.5 / 0.5~2.4 / 2.4~3.0). AUDIO는 앰비언스만, 음악·진동 금지(철칙 6).
+- 생성 호출은 절대 하지 않는다. 결과 파일만 만들고 `--dry`로 3개 샘플(3·8·10번)을 보고에 붙인다.
+
+## 처리 보고
+
+작업 7–11. 생성 API는 호출하지 않았다. `gen_from_conti.py` 와 `animatic_set_frame.py` 는 `--dry` 만 실행했다. 애니매틱 JSON은 수정하지 않았다(mtime 1793869535, 25977바이트, 백업 파일 없음).
+
+### 작업 7
+- 새 파일 `tools/split_storyboard.py`.
+- 검증: `EP01_island_board_01.png` 를 `/tmp/sb_split` 에 분할(원본 칸 파일은 그대로). 밝기 > 240 인 내부 띠 중앙.
+- 1–6칸 362×362, 기존 파일과 평균 픽셀 차 0. 7–9칸은 세로 363(구분선 1px가 칸에 포함), 겹치는 영역 차 0. 10–12칸은 세로 361이고 1px 위가 기존 균등 컷. 세 번째 가로 구분선(y 1085–1090) 중앙이 1087이라 기존 1086 컷보다 1px 아래다. 1px 맞춰 겹치면 차 0. 라벨 띠는 칸 안에 있다.
+
+### 작업 8
+- 새 파일 `tools/gen_from_conti.py`. 샘플 `01_EPISODES/EP01R/frames/v08/STORYBOARD/cuts_island.json` (원본 CUTS 7키. J9d 만 `frame_ref` 추가).
+- 조립은 원본과 같다. `frame_ref` 가 있으면 FRAME LOCK 이 1번 참조가 되고 PLATE 문장은 빠진다. `time=day` 는 `LIVINGROOM_v14d_*` 플레이트.
+- `--dry` 프롬프트 7개가 각 `frames/v08/<key>_prompt.txt` 와 일치. 참조 파일 전부 있음. 예상 비용 14cr. 비 dry 는 실행하지 않음.
+
+### 작업 9
+- 새 파일 `tools/layout_qa.py`. 리포트 `tools/layout_qa.md`, `tools/layout_qa.json`.
+- 임계값: 상단 55% ORB+RANSAC 인라이어 < 0.25, 또는 하단 45% 수평계 선분 각도 차 > 6°. 수평계는 |기울기| ≤ 55° 인 가장 긴 선(돌아간 소파 약 40°를 포함하고 수직 기둥은 버린다).
+- 검증: J2b r1 LAYOUT DRIFT (인라이어 0.956, 각도 차 44.99°). r2 OK (0.969, 4.99°). B13 OK (0.899, 0.03°). T5 OK (0.909, 0.96°).
+
+### 작업 10
+- `tools/build_cast_board.py`. `#conti` 탭(「콘티·스틸 컨펌」), `show()` 해시에 `conti`. `#view-anim1` 은 애니매틱만. `conti_checks` JS는 이동만.
+- 콘티 탭 상단에 위치 상태표 첫 표. 소제목 `콘티 12칸` / `생성 스틸`. `tools/layout_qa.json` 에 DRIFT 가 있으면 해당 스틸에 `.qa-badge`. 이번 보드 스틸(r2, B13, J9d, T5)은 DRIFT 가 아니라 배지가 안 붙는다. r1 은 카드가 없다.
+- `python3 tools/build_cast_board.py /tmp/board_test` 성공. 생성 HTML의 script 2개 모두 `node --check` 통과. 발행은 하지 않음.
+
+### 작업 11
+- 새 파일 `tools/animatic_set_frame.py`.
+- `--dry` 로 E1 9번 컷: frame `J9_junho_crossing_r1_r1_r1` → `J9d_junho_toward_ria_islandcam`, src 는 `frames/v08/J9d_junho_toward_ria_islandcam.png`. 1536×2752, 9:16 오차 2% 안. 앞뒤 컷 프레임과 달라 연속 경고 없음. 이어서 `lint_animatic.py` 호출. JSON은 쓰지 않음.
+
+### 작업 12
+- `tools/layout_qa.py`. 플레이트는 status.json params의 로컬 image-references(없으면 prompt.txt의 로컬 경로)에서 고른다. 프롬프트에 FRAME LOCK이 있으면 2번, 아니면 1번. status의 input_images는 클라우드 URL뿐이라 로컬 경로가 없다. 그때 같은 이름의 `cuts_island.json` 참조 순서(frame_ref → plate)를 쓰고, 그것도 없으면 파일명 규칙.
+- 각도: 플레이트는 하단 45%에서 |기울기| ≤ 55°인 가장 긴 선. 스틸은 그 각 ±25° 안의 가장 긴 선(45° 인물 윤곽은 제외). 인라이어 < 0.55 또는 각도 차 > 20° 이면 LAYOUT DRIFT. 작업 9의 0.25 / 6°는 이 검증 세트에 맞게 바꾼 값이다.
+- 결과 `frames/v08/layout_qa_report.md`, `layout_qa_report.json`. J9d OK (A2, 인라이어 0.885, 각도 차 17.89°). J2b r1 DRIFT (A1, 0.956, 22.02°). J2b r2 OK (0.969, 4.99°). T5 OK (0.909, 0.96°). J3 r1 DRIFT (0.371, 9.98°), r2 DRIFT (0.24, 22.02°), r3 DRIFT (0.246, 11.04°), r4 DRIFT (0.5, 12.01°).
+- 보드 배지 경로는 `frames/v08/layout_qa_report.json`. `/tmp/board_test`를 다시 빌드했다. 콘티 탭 스틸(r2, B13, J9d, T5)은 OK라 LAYOUT DRIFT 배지가 없고, J9d 카드에도 배지가 없다. r1과 J3는 그 json에서 DRIFT지만 콘티 스틸 카드가 아니다. script 2개 `node --check` 통과. 발행은 하지 않음.
+
+### 작업 13
+- `tools/animatic_set_frame.py`에 `--insert-after`를 넣었다. 새 행은 n+1, 뒤 행의 n은 +1. `--dry`는 JSON과 `anim_checks_renumber.json`을 쓰지 않는다. 실제 삽입은 하지 않았다. 보드 DB는 건드리지 않았다.
+- 검증: `animatic_E1_v062.json.bak.20261106-111117.insert40.json`(44컷)의 39번 뒤에 twoact 스냅샷의 J9d 행을 넣으면 45컷이 된다. 새 40번 행은 twoact의 J9d와 같다. 매핑은 `E1-40→E1-41` … `E1-44→E1-45`.
+- twoact 스냅샷과 필드 비교는 45행 중 1곳만 다르다. 35번 action이 삽입 백업은 `엄지 빠르게, 준호 뒤에 흐릿`이고 twoact는 자리 고정 문장으로 바뀌어 있다. 삽입 자체와 번호 이동은 같다. 지금 쓰는 `animatic_E1_v062.json`은 그 뒤 2막 재배열(44컷, J9d 없음, 29124바이트)이라 비교 대상이 아니다. dry 전후로 이 파일과 두 백업의 mtime은 그대로였고, renumber 파일은 생기지 않았다.
+
+### 작업 14
+- 새 파일 `tools/seat_qa.py`. 플레이트 `LIVINGROOM_v14e_A2_island.png` 하단 40%에서 검은 좌판 가로폭 60–220px. 바닥 쪽 줄만 남겨 스툴 3개, x=522, 712, 844. 더 위의 블롭 1개는 버렸다.
+- 얼굴은 insightface buffalo_l. 카운터 쪽으로 기댄 얼굴이 다음 스툴에 더 가까워지므로, 얼굴 x보다 왼쪽(오른쪽 36px 허용)이면서 다음 스툴 간격의 85% 안인 스툴에 배정한다. 화면 아래쪽 얼굴이 그 컷의 판정이다.
+- 여섯 장 모두 SEAT 1. 카운터 뒤 얼굴은 standing. `frames/v08/seat_qa.md`. v2 cx624.3, v2b 656.2, v2c 632.8, v2d 674.2, v3 655.1, B13 567.8.
+
+### 작업 15
+- 새 파일 `tools/make_storyboard_prompts.py`. 현재 E1 JSON 44컷에서 skip 21·29를 빼고 42칸. 시트 4장(`prompts_E1/sheet_01.txt`–`sheet_04.txt`)과 `INDEX.md`. 생성 API 호출 없음.
+- 1–19는 1막, 20은 이동, 22부터 2막. ui 칸은 `UI: <frame>`만. 8절 Fixed positions 문장과 2막(준호는 리아 옆), 9절 소품 문장, Do not flip을 시트마다 넣었다.
+
+### 작업 16
+- 새 파일 `tools/make_kling_prompts.py`. 대사가 있는 still 30개를 `prompts/v08/`에 썼다. Kling·힉스필드 호출 없음. 금지어(aggrieved, incredulous, interrogating, pressing, petty, defensive, snapping, whiny, exasperated)는 30개 파일에 없다. 준호 문장의 "never irritated"는 말투 규칙의 고정 문장이다.
+- 3번 대사는 JSON 그대로 `오빠, still? 그거 아직도 써?`를 인용했다. 언어 규칙의 확정 대사는 문장 중간 영어를 뺀 `오빠, 그거 아직도 써?`다. JSON은 고치지 않았다.
+- `--dry --only 3,8,10` 샘플:
+
+```
+SCENE CONTEXT
+Evening, island-axis camera, sofa on camera-left and the marble island on camera-right. the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses). 리아가 커피를 젓다가 준호를 본다 폰에서 눈 떼고 소파 쪽으로 고개, 눈썹 올림
+
+FORMAT MODE
+One continuous shot, no cuts.
+
+CAMERA
+Fixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Camera axis: sofa on camera-left, island on camera-right. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, window dark navy, no film grain, no over-sharpening.
+
+ACTION
+0.0s to 0.5s: hold the start pose, a small breath before the line. 0.5s to 2.4s: 폰에서 눈 떼고 소파 쪽으로 고개, 눈썹 올림 2.4s to 3.0s: hold the last expression, no new gesture.
+
+PERFORMANCE
+From the script (놀림, 애정): teasing, affectionate. 폰에서 눈 떼고 소파 쪽으로 고개, 눈썹 올림 Bright and playful. No exaggerated acting, no look at the camera.
+
+AUDIO
+Quiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.
+
+POSITIVE LOCKS
+Continue exactly from the start image. The woman keeps the same face, hair, clothes and position through the whole take. She does not wear glasses. Same room, furniture, lamps and colors. No new people enter. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The woman says in fluent Korean with a light Filipino-English accent and an English-like rising rhythm, bright and playful, teasing, affectionate, the question rising at the end: "오빠, still? 그거 아직도 써?". The English word "still" is pronounced natively in English; every other word is Korean. She says only this one line and nothing else; no other words in any language. Natural delivery, visible lip-sync, mouth movements match every word, no subtitles, no on-screen text.
+```
+
+```
+SCENE CONTEXT
+Evening, island-axis camera, sofa on camera-left and the marble island on camera-right. the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers). 리아 옆에 서서 폰을 얼굴 앞에 들이민다 소파 가운데 앉아 폰을 아일랜드 쪽으로 들어 보이며 (1막 소파)
+
+ACTION
+0.0s to 0.5s: hold the start pose, a small breath before the line. 0.5s to 2.4s: 소파 가운데 앉아 폰을 아일랜드 쪽으로 들어 보이며 (1막 소파) Throughout the shot he is a nervous, jittery wreck in a funny way: clutching the phone with both hands, bouncing one knee, shifting his weight on the sofa, glancing at the screen and away again, wiping a palm on his trousers, small restless fidgets between and during the words. 2.4s to 3.0s: hold the last expression, no new gesture.
+
+DIALOGUE
+The man speaks in natural native Korean, low, calm and quiet, polite and unhurried, never raising his voice, the sentence ending on a soft falling tone; even when flustered his volume stays the same and only the pauses get longer. He says: "리아, 봐봐. 다 읽었어. 근데 아무도 말을 안 해.".
+```
+
+```
+DIALOGUE
+The man speaks in natural native Korean, low, calm and quiet, polite and unhurried, never raising his voice, the sentence ending on a soft falling tone; even when flustered his volume stays the same and only the pauses get longer. Where the line breaks off he trails off, and the question stays quiet. He says: "읽은 건 아는데 왜…… 수만 형, 이거 정상이에요?".
+```
+
+8번과 10번의 FORMAT MODE, CAMERA, PERFORMANCE, AUDIO, POSITIVE LOCKS는 3번과 같은 골격이다. 8·10 PERFORMANCE에는 준호 고정 문장(코미디언, 목소리를 높이지 않음)이 들어가 있다.

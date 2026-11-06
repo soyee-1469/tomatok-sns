@@ -1,0 +1,20 @@
+SCENE CONTEXT
+Evening living room, medium-wide shot at the kitchen island. the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans) sits on a black stool on the living-room side of the white marble island looking down at her phone; the Nepali man (31, white chef's jacket, towel on the shoulder, apron) stands behind the island counter head-down over a glass pickle jar. The man with glasses (29, Korean, round gold wire glasses, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers, black leather shoes) is about to enter from the left.
+
+FORMAT MODE
+One continuous shot, no cuts. Starts exactly on the start image and ends exactly on the end image.
+
+CAMERA
+Fixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and copper pendants, window dark navy, no film grain.
+
+ACTION
+0.0s to 0.6s: the woman keeps reading her phone, the Nepali man keeps working on the jar. 0.6s to 2.4s: the man with glasses walks in from the left edge of the frame, two or three normal steps, directly toward the woman, phone in his right hand, and raises the phone toward her as he arrives one step from the island. 2.0s to 3.0s: the woman lifts her head from her phone and looks at him; he stops in the end-image position, phone held out to her. The Nepali man never looks up.
+
+PERFORMANCE
+Natural walking pace, slightly eager, no running, no exaggerated gestures. Nobody looks at the camera. No talking, mouths closed.
+
+AUDIO
+Quiet living-room ambience only (soft refrigerator hum, soft footsteps). No music, no notification sounds, no vibration, no voices.
+
+POSITIVE LOCKS
+Continue exactly from the start image and finish exactly on the end image. The woman and the Nepali man keep the same face, hair, clothes, seat and place through the whole take; the mug, lemon bowl and pickle jar stay on the counter. The man with glasses keeps the same face, glasses, navy overshirt, grey trousers and black shoes. Same room, furniture, lamps and colors. No other people enter. No subtitles, no on-screen text, no watermark.

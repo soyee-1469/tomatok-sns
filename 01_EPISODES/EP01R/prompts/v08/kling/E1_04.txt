@@ -1,0 +1,23 @@
+SCENE CONTEXT
+Evening living room, sofa-axis camera: the caramel corduroy sofa faces the camera with the arched window and prayer flags behind it; the kitchen island is off-frame to the right. Exactly as in the start image: the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, ID badge on a navy lanyard, grey trousers, black leather shoes) sits on the center cushion of the sofa, phone in one hand, head turned toward the island on camera-right.
+
+FORMAT MODE
+One continuous shot, no cuts.
+
+CAMERA
+Fixed camera on a tripod, exactly the framing of the start image for the entire 3 seconds: no zoom, no pan, no dolly, no reframing, the camera never follows a person. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain, no over-sharpening.
+
+ACTION
+0.0-0.4s hold. 0.4-4.4s: he says the line toward the island (camera-right), counting the three options with small tilts of the head, then the question with raised eyebrows; lips move only as much as the words need. 4.4-5.0s: hopeful look, holds.
+
+PERFORMANCE
+In character: earnest, a little anxious, gently comic; minimal facial movement. No exaggerated acting, nobody looks at the camera.
+
+AUDIO
+Quiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.
+
+POSITIVE LOCKS
+Continue exactly from the start image. Everyone keeps the same face, hair, glasses, clothes and position through the whole take; nobody else enters the frame. Same room, furniture, lamps and colors. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The man speaks natural native Korean, low, calm and quiet, polite and unhurried, never raising his voice, the sentence ending on a soft falling tone: "남자친구? 예비신랑? 남편이 될 사람? 어떤 게 좋을까?". Only this one line and nothing else; no other words in any language. Natural, underplayed delivery: lips move only as much as the words need, the mouth never opens wide, no exaggerated expressions; visible lip-sync, mouth movements match every word. Nobody else speaks.

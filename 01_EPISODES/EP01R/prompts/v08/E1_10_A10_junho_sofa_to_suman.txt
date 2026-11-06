@@ -1,0 +1,23 @@
+SCENE CONTEXT
+Evening, island-axis camera, sofa on camera-left and the marble island on camera-right. the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers). 준호가 수만에게 도움을 청한다 소파에서 수만 쪽(오른쪽 멀리)으로 고개 (1막)
+
+FORMAT MODE
+One continuous shot, no cuts.
+
+CAMERA
+Fixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Camera axis: sofa on camera-left, island on camera-right. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, window dark navy, no film grain, no over-sharpening.
+
+ACTION
+0.0s to 0.5s: hold the start pose, a small breath before the line. 0.5s to 2.4s: 소파에서 수만 쪽(오른쪽 멀리)으로 고개 (1막) Throughout the shot he is a nervous, jittery wreck in a funny way: clutching the phone with both hands, bouncing one knee, shifting his weight on the sofa, glancing at the screen and away again, wiping a palm on his trousers, small restless fidgets between and during the words. 2.4s to 3.0s: hold the last expression, no new gesture.
+
+PERFORMANCE
+From the script (막막, 애원): gently puzzled, earnest and soft. 소파에서 수만 쪽(오른쪽 멀리)으로 고개 (1막) He is a very kind, funny man who loves her deeply: a natural comedian, playful and a little goofy, with quick expressive reactions and good comic timing. He is never irritated with her; when things go wrong he turns it into a joke on himself. His only flaw is that he cannot throw anything away. He is fond of her and never annoyed with her; any frustration is aimed at himself or the situation, and it shows as stillness and longer pauses, never as a sharper voice.
+
+AUDIO
+Quiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.
+
+POSITIVE LOCKS
+Continue exactly from the start image. The man keeps the same face, hair, glasses, clothes and position through the whole take. Same room, furniture, lamps and colors. No new people enter. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The man speaks in natural native Korean, low, calm and quiet, polite and unhurried, never raising his voice, the sentence ending on a soft falling tone; even when flustered his volume stays the same and only the pauses get longer. Where the line breaks off he trails off, and the question stays quiet. He says: "읽은 건 아는데 왜…… 수만 형, 이거 정상이에요?". He says only this one line and nothing else; no other words in any language. Natural delivery, visible lip-sync, mouth movements match every word, no subtitles, no on-screen text.

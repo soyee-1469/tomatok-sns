@@ -1,0 +1,55 @@
+[
+  {
+    "created_at": "2026-11-06T01:59:59.303486Z",
+    "display_name": "Nano Banana Pro",
+    "id": "0a129ab9-c565-480d-b1d1-645561aba8e2",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_015959_0a129ab9-c565-480d-b1d1-645561aba8e2_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "9e8e5a63-f332-4354-8e49-d9b22534b5f6",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/9e8e5a63-f332-4354-8e49-d9b22534b5f6_resize.jpg"
+        },
+        {
+          "id": "f49aa0e6-d98e-449d-89e3-ee0e4f6f717c",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/f49aa0e6-d98e-449d-89e3-ee0e4f6f717c_resize.jpg"
+        },
+        {
+          "id": "332862a3-b0ca-4ae1-b6d0-3fac5935c607",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/332862a3-b0ca-4ae1-b6d0-3fac5935c607.png"
+        },
+        {
+          "id": "332862a3-b0ca-4ae1-b6d0-3fac5935c607",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/332862a3-b0ca-4ae1-b6d0-3fac5935c607.png"
+        },
+        {
+          "id": "38d084a5-5185-4397-abe8-031315654ee3",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/38d084a5-5185-4397-abe8-031315654ee3.png"
+        },
+        {
+          "id": "9d3ef88f-2d82-4802-a09c-f7c64eb96bc5",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/9d3ef88f-2d82-4802-a09c-f7c64eb96bc5_resize.jpg"
+        }
+      ],
+      "prompt": "A frame grabbed from a sitcom video: candid mid-action, caught between movements, slight motion softness, not a posed photo. SEAT MASTER: reference image 1 shows the man in his fixed seat (center cushion of the sofa) from this same camera. Keep that seat, camera and furniture exactly; only his pose and expression change as described. Reference image 2 is the empty set plate. The only change: the man is now HALF-RISING from the CENTER cushion, bottom just off the seat, knees bent, one hand pushing off the sofa, phone in his right hand, head and eyes turned toward camera-RIGHT (toward the island), mouth open in a curious eager 'what? what is it?' expression, eyebrows up. Still over the center cushion, not at either end. Black leather shoes. SET DRESSING LOCK: on the coffee table exactly the tomato-red tray, a small vase of baby's breath and two books, as in the set plate; nothing else. SEAT LOCK: the man sits on the CENTER cushion of the three-seat sofa, squarely facing the camera, the coffee table tray directly in front of him; never on either end cushion. FIXED SET LAYOUT (identical to the evening master set image; never move furniture): seen from the audience side, the front door and the single straight oak staircase with black railing are on the far LEFT along the back wall; the big arched window is in the center of the back wall with the round oak dining table and chairs in front of it, behind-left of the sofa; the caramel corduroy sofa sits center facing the camera with the round oak coffee table (tomato-red tray, small flowers) in front of it and the mustard armchair at its right; a low oak sideboard with a radio and globe stands behind the armchair; the white marble kitchen island with three black stools is on the far RIGHT in front of the kitchen wall with copper pans and copper pendant lamps. Nothing else is rearranged. FIXED TIME AND LIGHTING (identical in every frame): 9 pm, evening. The arched window is dark navy with no daylight. All practical lamps are on (paper pendants, copper pendants over the island, table lamps, warm string lights). Warm tungsten color around 3000K, soft even low-contrast exposure, faces clearly lit, no deep shadows, no sunbeams, no blue light. Same brightness as the evening master set image. IDENTITY LOCK: each character's face must be the exact same person as in their face reference image (same eyes, nose, jaw, skin tone, hairline, hairstyle); do not beautify or generalize. Face references come right after the set plate, then outfit sheets, then the wide room. No text, no lettering, no logos anywhere. ",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_015959_0a129ab9-c565-480d-b1d1-645561aba8e2.png",
+    "status": "completed"
+  }
+]
+--stderr--

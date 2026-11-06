@@ -1,0 +1,84 @@
+[
+ {
+  "created_at": "2026-11-06T04:41:59.09688Z",
+  "display_name": "Nano Banana Pro",
+  "id": "97c371e6-80c2-4ff0-ad01-bc6bca79a9bb",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_044159_97c371e6-80c2-4ff0-ad01-bc6bca79a9bb_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "7b8d25aa-b3dd-41e4-9b2c-5898e9406929",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/7b8d25aa-b3dd-41e4-9b2c-5898e9406929_resize.jpg"
+    },
+    {
+     "id": "05911e94-edc6-4ba3-bcab-baa064e48703",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/05911e94-edc6-4ba3-bcab-baa064e48703_resize.jpg"
+    },
+    {
+     "id": "70910812-4bb1-4668-a32b-b3e64aad39cb",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/70910812-4bb1-4668-a32b-b3e64aad39cb.png"
+    },
+    {
+     "id": "70910812-4bb1-4668-a32b-b3e64aad39cb",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/70910812-4bb1-4668-a32b-b3e64aad39cb.png"
+    },
+    {
+     "id": "469f0555-f912-4b3a-9dbc-653484d559bd",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/469f0555-f912-4b3a-9dbc-653484d559bd.png"
+    },
+    {
+     "id": "469f0555-f912-4b3a-9dbc-653484d559bd",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/469f0555-f912-4b3a-9dbc-653484d559bd.png"
+    },
+    {
+     "id": "85032301-a466-49c3-af4f-ed356cd308dc",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/85032301-a466-49c3-af4f-ed356cd308dc.png"
+    },
+    {
+     "id": "85032301-a466-49c3-af4f-ed356cd308dc",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/85032301-a466-49c3-af4f-ed356cd308dc.png"
+    },
+    {
+     "id": "71fc6db5-be85-4089-81e6-5aa213198af8",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/71fc6db5-be85-4089-81e6-5aa213198af8.png"
+    },
+    {
+     "id": "fc6d16f5-997a-4621-a6db-94d3059379f0",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/fc6d16f5-997a-4621-a6db-94d3059379f0.png"
+    },
+    {
+     "id": "dc09c963-cba0-476e-877f-8ec7115cd2a1",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/dc09c963-cba0-476e-877f-8ec7115cd2a1.png"
+    },
+    {
+     "id": "ce11f131-f74b-4650-aa5d-f3db9f0593b7",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/ce11f131-f74b-4650-aa5d-f3db9f0593b7_resize.jpg"
+    }
+   ],
+   "prompt": "A frame grabbed from a sitcom video: candid mid-action, caught between movements, slight motion softness, not a posed photo. FRAME LOCK: reference image 1 is the START FRAME of this very shot, taken two seconds earlier from the same camera. Keep the camera position, lens, framing, every piece of furniture, the lighting, and the two people already in it (same seats, same poses, same clothes, same props: on the island counter the bowl of lemons AND the small vase of pink flowers stay exactly where they are in image 1) EXACTLY as in image 1. Reference image 2 is the empty set plate of the same camera. The ONLY change is described next. Full scene, same medium shot and same camera as image 1 (NOT a portrait, NOT a close-up): the only change is that the man with glasses, standing beside the island next to the seated woman, looks down at HIS OWN phone held in both hands at chest height, expectant, eyebrows lifting as a message arrives. The woman keeps typing on her phone, not looking at him. The Nepali man stays head-down over the pickle jar. The small vase of pink flowers and the bowl of lemons stay on the counter exactly as in image 1. SET DRESSING LOCK: on the island counter there are exactly one bowl of lemons and one small vase of pink flowers, as in the set plate; NO mug, NO cup, nothing else on the counter. The island has exactly THREE black bar stools on the living-room side. FIXED SET LAYOUT (identical to the evening master set image; never move furniture): seen from the audience side, the front door and the single straight oak staircase with black railing are on the far LEFT along the back wall; the big arched window is in the center of the back wall with the round oak dining table and chairs in front of it, behind-left of the sofa; the caramel corduroy sofa sits center facing the camera with the round oak coffee table (tomato-red tray, small flowers) in front of it and the mustard armchair at its right; a low oak sideboard with a radio and globe stands behind the armchair; the white marble kitchen island with three black stools is on the far RIGHT in front of the kitchen wall with copper pans and copper pendant lamps. Nothing else is rearranged. FIXED TIME AND LIGHTING (identical in every frame): 9 pm, evening. The arched window is dark navy with no daylight. All practical lamps are on (paper pendants, copper pendants over the island, table lamps, warm string lights). Warm tungsten color around 3000K, soft even low-contrast exposure, faces clearly lit, no deep shadows, no sunbeams, no blue light. Same brightness as the evening master set image. IDENTITY LOCK: each character's face must be the exact same person as in their face reference image (same eyes, nose, jaw, skin tone, hairline, hairstyle); do not beautify or generalize. Face references come right after the set plate, then outfit sheets, then the wide room. No text, no lettering, no logos anywhere. ",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_044159_97c371e6-80c2-4ff0-ad01-bc6bca79a9bb.png",
+  "status": "completed"
+ }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "created_at": "2026-11-06T06:05:01.613057Z",
+    "display_name": "Nano Banana Pro",
+    "id": "2c40f05f-e641-4883-92b3-223c6d486d1d",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_060501_2c40f05f-e641-4883-92b3-223c6d486d1d_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "82131af2-1caa-4a90-9cf2-e2f66b159af1",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/82131af2-1caa-4a90-9cf2-e2f66b159af1_resize.jpg"
+        },
+        {
+          "id": "257a3384-9260-4cb8-aafb-e68cb2b70e65",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/257a3384-9260-4cb8-aafb-e68cb2b70e65.png"
+        },
+        {
+          "id": "257a3384-9260-4cb8-aafb-e68cb2b70e65",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/257a3384-9260-4cb8-aafb-e68cb2b70e65.png"
+        },
+        {
+          "id": "7fdb7391-1e7c-4226-ab27-d9515205978e",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/7fdb7391-1e7c-4226-ab27-d9515205978e_resize.jpg"
+        },
+        {
+          "id": "a65404d1-f2d4-4629-96e3-288c3c4bcb04",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/a65404d1-f2d4-4629-96e3-288c3c4bcb04_resize.jpg"
+        }
+      ],
+      "prompt": "A frame grabbed from a sitcom video: candid mid-action, caught between movements, slight motion softness, not a posed photo. PLATE LOCK: reference image 1 is the empty set plate shot from the exact camera position of this cut. Keep its framing, lens, furniture positions, window, lamps and lighting; only add the people described. Never move, add or remove furniture. ONE SINGLE photograph, no panels. CLOSE-UP of the Nepali man (31, deep brown skin, black curly hair, short trimmed beard, white chef's jacket with a plain BLACK full bib apron over it, no towel) standing behind the kitchen island counter, head and shoulders filling the frame, camera axis: living room on camera-left, kitchen wall on camera-right. He looks toward camera-LEFT at two people just out of frame, flat deadpan 'unbelievable' expression, eyebrows slightly raised, mouth closed, head turned a little as he slowly shakes it side to side. White chef's jacket with the plain BLACK bib apron strap visible on his shoulders, NO towel. Copper pans and the fridge with magnets soft in the background. Nobody else in frame. FURNITURE SIZE LOCK: the island is a deep, wide block, 2.4 m long and 1.0 m deep with a thick white marble top (5 cm), oak body; the counter depth is about 2.5 stool-seat diameters; never a narrow bar or a slim ledge. SET DRESSING LOCK: on the island counter there are exactly one bowl of lemons and one small vase of pink flowers, as in the set plate; NO mug, NO cup, nothing else on the counter. The island has exactly THREE black bar stools on the living-room side. FIXED SET LAYOUT (identical to the evening master set image; never move furniture): seen from the audience side, the front door and the single straight oak staircase with black railing are on the far LEFT along the back wall; the big arched window is in the center of the back wall with the round oak dining table and chairs in front of it, behind-left of the sofa; the caramel corduroy sofa sits center facing the camera with the round oak coffee table (tomato-red tray, small flowers) in front of it and the mustard armchair at its right; a low oak sideboard with a radio and globe stands behind the armchair; the white marble kitchen island with three black stools is on the far RIGHT in front of the kitchen wall with copper pans and copper pendant lamps. Nothing else is rearranged. FIXED TIME AND LIGHTING (identical in every frame): 9 pm, evening. The arched window is dark navy with no daylight. All practical lamps are on (paper pendants, copper pendants over the island, table lamps, warm string lights). Warm tungsten color around 3000K, soft even low-contrast exposure, faces clearly lit, no deep shadows, no sunbeams, no blue light. Same brightness as the evening master set image. IDENTITY LOCK: each character's face must be the exact same person as in their face reference image (same eyes, nose, jaw, skin tone, hairline, hairstyle); do not beautify or generalize. Face references come right after the set plate, then outfit sheets, then the wide room. No text, no lettering, no logos anywhere. ",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_060501_2c40f05f-e641-4883-92b3-223c6d486d1d.png",
+    "status": "completed"
+  }
+]
+--stderr--

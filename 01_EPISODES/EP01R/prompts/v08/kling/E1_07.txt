@@ -1,0 +1,23 @@
+SCENE CONTEXT
+Evening living room, sofa-axis camera: the caramel corduroy sofa faces the camera with the arched window and prayer flags behind it; the kitchen island is off-frame to the right. Exactly as in the start image: the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, ID badge on a navy lanyard, grey trousers, black leather shoes) in close-up, eyes on his phone.
+
+FORMAT MODE
+One continuous shot, no cuts.
+
+CAMERA
+Fixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain, no over-sharpening.
+
+ACTION
+0.0-0.6s: expectant, eyes bright. 0.6-2.6s: he lets out a long hesitant 'eo...' while his eyebrows slowly rise and his expression turns to dismay as the numbers on his screen drop. 2.6-3.0s: frozen, mouth slightly open.
+
+PERFORMANCE
+In character: expectation collapsing into quiet dismay, comic. No exaggerated acting, nobody looks at the camera.
+
+AUDIO
+Quiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.
+
+POSITIVE LOCKS
+Continue exactly from the start image. Everyone keeps the same face, hair, glasses, clothes and position through the whole take; nobody else enters the frame. Same room, furniture, lamps and colors. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The man speaks natural native Korean, low, calm and quiet, polite and unhurried, never raising his voice, the sentence ending on a soft falling tone: "어.................". Only this one line and nothing else; no other words in any language. Natural delivery, visible lip-sync, mouth movements match every word. Nobody else speaks.

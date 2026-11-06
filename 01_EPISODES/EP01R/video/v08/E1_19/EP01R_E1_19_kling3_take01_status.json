@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-06T08:43:29.309275Z",
+  "display_name": "Kling v3.0",
+  "id": "60ab4c59-7b70-4e00-a837-ecefa7371157",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+   "aspect_ratio": "9:16",
+   "cfg_scale": 0.5,
+   "duration": 3,
+   "enhance_prompt": false,
+   "height": 1280,
+   "kling_element_ids": [],
+   "kling_elements": [],
+   "medias": [
+    {
+     "data": {
+      "id": "0fc1c525-ae80-4cbd-8a38-099c948d4dae",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/0fc1c525-ae80-4cbd-8a38-099c948d4dae_resize.jpg"
+     },
+     "role": "start_image"
+    }
+   ],
+   "mode": "std",
+   "multi_prompt": [],
+   "multi_shot_mode": "custom",
+   "multi_shots": false,
+   "prompt": "SCENE CONTEXT\nEvening living room, sofa-axis camera: the caramel corduroy sofa faces the camera with the arched window and prayer flags behind it; the kitchen island is off-frame to the right. Exactly as in the start image: the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, ID badge on a navy lanyard, grey trousers, black leather shoes) half-rising from the center cushion of the sofa, one hand on the cushion, looking toward the island on camera-right.\n\nFORMAT MODE\nOne continuous shot, no cuts.\n\nCAMERA\nFixed camera on a tripod, exactly the framing of the start image for the entire 3 seconds: no zoom, no pan, no dolly, no reframing, the camera never follows a person. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain, no over-sharpening.\n\nACTION\n0.0-0.3s hold. 0.3-2.4s: he says the line curiously toward the island (camera-right) while pushing himself up to standing right in front of the sofa. 2.4-3.0s: he stands still in front of the sofa, leaning a little toward camera-right, and does NOT walk anywhere; the camera does not move or follow him; the sofa, coffee table and window stay exactly where they are in frame.\n\nPERFORMANCE\nIn character: curious, eager but contained; minimal facial movement. No exaggerated acting, nobody looks at the camera.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.\n\nPOSITIVE LOCKS\nContinue exactly from the start image. Everyone keeps the same face, hair, glasses, clothes and position through the whole take; nobody else enters the frame. Same room, furniture, lamps and colors. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe man speaks natural native Korean, low, calm and quiet, polite and unhurried, never raising his voice, the sentence ending on a soft falling tone: \"어? 뭐야 뭐야, 뭔데? 나도 보여줘.\". Only this one line and nothing else; no other words in any language. Natural, underplayed delivery: lips move only as much as the words need, the mouth never opens wide, no exaggerated expressions; visible lip-sync, mouth movements match every word. Nobody else speaks.",
+   "reference_elements": [],
+   "sound": "on",
+   "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_084329_60ab4c59-7b70-4e00-a837-ecefa7371157.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_084329_60ab4c59-7b70-4e00-a837-ecefa7371157_thumbnail.webp"
+ }
+]

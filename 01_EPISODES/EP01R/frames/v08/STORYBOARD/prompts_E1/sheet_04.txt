@@ -1,0 +1,17 @@
+Storyboard for one sitcom episode, 3x4 grid (12 panels), each panel 9:16 portrait. Grey pencil sketch, no color, no shading detail, loose lines. Same characters and same apartment in every panel.
+Draw characters as faceless croquis figures: blank oval heads, NO facial features. Show head direction with a single small wedge for the nose, and draw an arrow from the head to whatever the character is looking at, with a label like "looks at Ria" or "looks at phone".
+Set: Korean apartment living room. Left = caramel corduroy sofa + round coffee table. Right = white marble kitchen island with black bar stools. Arched window on back wall.
+Characters: JUNHO (man, glasses, navy shirt, phone in hand). RIA (woman, seated at island with a mug). SUMAN (man, white chef jacket, behind the counter).
+Camera axis for all panels: sofa on camera-left, island on camera-right. Do not flip.
+Furniture layout and angles must match the attached set photos exactly: the sofa faces the camera squarely with its back to the arched window; do not rotate or move furniture.
+Fixed positions in every panel: Junho sits on the CENTER cushion of the sofa; Ria sits on the first black stool on the living-room side of the island; Suman stands behind the island counter to her right. Do not move anyone unless the panel says so.
+Act 2 panels: Junho stands beside Ria at the island, not on the sofa, unless the panel says he is still on the move.
+SET DRESSING LOCK: on the island counter there are exactly one bowl of lemons and one small vase of pink flowers, exactly as in the set plate; nothing else on the counter except the props listed for the characters.
+SET DRESSING LOCK: on the coffee table exactly the tomato-red tray, a small vase of baby's breath and two books, as in the set plate; nothing else.
+Label each panel with the cut number and "sofa-axis" or "island-axis" in small text.
+Panel 1 — CUT 39 (2막, island-axis): 준호가 벌떡: 리아! 어머니가 밥 먹었냬! / 리아 옆에서 폰 치켜들고 폭발적 기쁨 (2막 아일랜드) / looks at Ria and Junho and the phone
+Panel 2 — CUT 40 (2막, sofa-axis): 응, 방금 통과시켰어 / CU, 끝음 내림 / looks ahead
+Panel 3 — CUT 41 (2막, island-axis): 나 밥 먹었어, 먹었다고 보내도 돼? / 아일랜드 옆에 서서 폰 들고 / looks at the phone
+Panel 4 — CUT 42 (2막, island-axis): 오빠도 검사받게? / OTS, 리아가 준호를 올려다봄 / looks at Ria and Junho
+Panel 5 — CUT 43 (2막, sofa-axis): 준호가 숙제 내듯 두 손으로 폰을 내민다. 응. / 두 손으로 폰 제출, 고개 살짝 숙임 (리아 옆에 서 있음) / looks at Ria and Junho and the phone
+Panel 6 — CUT 44 (2막, wide-axis): 와이드. 리아 폰 띠링 띠링, 대기 열두 명. 냉장고 소리. 자막: 당신 가족도 단톡방에 쓰기 전에 검사받나요? / 엔딩 와이드: 준호는 아일랜드에서 리아 옆 (2막) / looks at Ria and Junho and the phone

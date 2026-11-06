@@ -1,0 +1,70 @@
+[
+  {
+    "created_at": "2026-11-06T05:36:34.767456Z",
+    "display_name": "Nano Banana Pro",
+    "id": "22d8ae8e-2873-4958-bb42-848c80aacab9",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_053634_22d8ae8e-2873-4958-bb42-848c80aacab9_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "3fe305bb-fab8-425f-8e21-7247916a4ff0",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/3fe305bb-fab8-425f-8e21-7247916a4ff0_resize.jpg"
+        },
+        {
+          "id": "741e9830-82d6-4029-9238-074c7faf590f",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/741e9830-82d6-4029-9238-074c7faf590f_resize.jpg"
+        },
+        {
+          "id": "89a4d015-3dea-46a3-99cd-cbd6924170c9",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/89a4d015-3dea-46a3-99cd-cbd6924170c9.png"
+        },
+        {
+          "id": "89a4d015-3dea-46a3-99cd-cbd6924170c9",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/89a4d015-3dea-46a3-99cd-cbd6924170c9.png"
+        },
+        {
+          "id": "aa08f178-3fdc-4d27-955c-efc6a33be906",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/aa08f178-3fdc-4d27-955c-efc6a33be906.png"
+        },
+        {
+          "id": "aa08f178-3fdc-4d27-955c-efc6a33be906",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/aa08f178-3fdc-4d27-955c-efc6a33be906.png"
+        },
+        {
+          "id": "7ae87c80-2cc2-4acf-9e27-8cc5199389a8",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/7ae87c80-2cc2-4acf-9e27-8cc5199389a8.png"
+        },
+        {
+          "id": "1ba49cf7-01fc-420c-9f49-0ea7aebd8c2a",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/1ba49cf7-01fc-420c-9f49-0ea7aebd8c2a_resize.jpg"
+        },
+        {
+          "id": "83414ea9-a89a-4d38-9fec-d7ad4ce4b65e",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/83414ea9-a89a-4d38-9fec-d7ad4ce4b65e_resize.jpg"
+        }
+      ],
+      "prompt": "A frame grabbed from a sitcom video: candid mid-action, caught between movements, slight motion softness, not a posed photo. FRAME LOCK: reference image 1 is the START FRAME of this very shot, taken two seconds earlier from the same camera. Keep the camera position, lens, framing, every piece of furniture, the lighting, and the two people already in it (same seats, same poses, same clothes, same props: on the island counter the bowl of lemons AND the small vase of pink flowers stay exactly where they are in image 1) EXACTLY as in image 1. Reference image 2 is the empty set plate of the same camera. The ONLY change is described next. ONE SINGLE photograph, same camera and same room as image 1. The only change: the woman bursts out laughing at something on her phone, one hand clapped over her mouth, eyes squeezed shut with laughter, shoulders shaking, phone in her other hand on the counter. The Nepali man stays head-down over the pickle jar. The man with glasses is NOT in frame. The Nepali man keeps exactly the white chef's jacket and plain BLACK full bib apron as in image 1, NO towel or cloth on his shoulder. The small vase of pink flowers and the bowl of lemons stay on the counter exactly as in image 1. FURNITURE SIZE LOCK: the island is a deep, wide block, 2.4 m long and 1.0 m deep with a thick white marble top (5 cm), oak body; the counter depth is about 2.5 stool-seat diameters; never a narrow bar or a slim ledge. SET DRESSING LOCK: on the island counter there are exactly one bowl of lemons and one small vase of pink flowers, as in the set plate; NO mug, NO cup, nothing else on the counter. The island has exactly THREE black bar stools on the living-room side. FIXED SET LAYOUT (identical to the evening master set image; never move furniture): seen from the audience side, the front door and the single straight oak staircase with black railing are on the far LEFT along the back wall; the big arched window is in the center of the back wall with the round oak dining table and chairs in front of it, behind-left of the sofa; the caramel corduroy sofa sits center facing the camera with the round oak coffee table (tomato-red tray, small flowers) in front of it and the mustard armchair at its right; a low oak sideboard with a radio and globe stands behind the armchair; the white marble kitchen island with three black stools is on the far RIGHT in front of the kitchen wall with copper pans and copper pendant lamps. Nothing else is rearranged. FIXED TIME AND LIGHTING (identical in every frame): 9 pm, evening. The arched window is dark navy with no daylight. All practical lamps are on (paper pendants, copper pendants over the island, table lamps, warm string lights). Warm tungsten color around 3000K, soft even low-contrast exposure, faces clearly lit, no deep shadows, no sunbeams, no blue light. Same brightness as the evening master set image. IDENTITY LOCK: each character's face must be the exact same person as in their face reference image (same eyes, nose, jaw, skin tone, hairline, hairstyle); do not beautify or generalize. Face references come right after the set plate, then outfit sheets, then the wide room. No text, no lettering, no logos anywhere. ",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_053634_22d8ae8e-2873-4958-bb42-848c80aacab9.png",
+    "status": "completed"
+  }
+]
+--stderr--

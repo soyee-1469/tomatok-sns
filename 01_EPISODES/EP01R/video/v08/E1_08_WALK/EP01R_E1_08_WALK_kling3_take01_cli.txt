@@ -1,0 +1,48 @@
+[
+  {
+    "created_at": "2026-11-06T01:39:42.658683Z",
+    "display_name": "Kling v3.0",
+    "id": "e65c48b9-7ba6-4e86-8113-fe9abc3d3161",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 3,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "84c8a6f9-0ef3-4a20-bd06-17772759b4c7",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/84c8a6f9-0ef3-4a20-bd06-17772759b4c7_resize.jpg"
+          },
+          "role": "start_image"
+        },
+        {
+          "data": {
+            "id": "0f0024ac-511b-4d1b-9aad-ffbf14131f57",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/0f0024ac-511b-4d1b-9aad-ffbf14131f57_resize.jpg"
+          },
+          "role": "end_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "SCENE CONTEXT\nEvening living room, medium-wide shot at the kitchen island. the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans) sits on a black stool on the living-room side of the white marble island looking down at her phone; the Nepali man (31, white chef's jacket, towel on the shoulder, apron) stands behind the island counter head-down over a glass pickle jar. The man with glasses (29, Korean, round gold wire glasses, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers, black leather shoes) is about to enter from the left.\n\nFORMAT MODE\nOne continuous shot, no cuts. Starts exactly on the start image and ends exactly on the end image.\n\nCAMERA\nFixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and copper pendants, window dark navy, no film grain.\n\nACTION\n0.0s to 0.6s: the woman keeps reading her phone, the Nepali man keeps working on the jar. 0.6s to 2.4s: the man with glasses walks in from the left edge of the frame, two or three normal steps, directly toward the woman, phone in his right hand, and raises the phone toward her as he arrives one step from the island. 2.0s to 3.0s: the woman lifts her head from her phone and looks at him; he stops in the end-image position, phone held out to her. The Nepali man never looks up.\n\nPERFORMANCE\nNatural walking pace, slightly eager, no running, no exaggerated gestures. Nobody looks at the camera. No talking, mouths closed.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum, soft footsteps). No music, no notification sounds, no vibration, no voices.\n\nPOSITIVE LOCKS\nContinue exactly from the start image and finish exactly on the end image. The woman and the Nepali man keep the same face, hair, clothes, seat and place through the whole take; the mug, lemon bowl and pickle jar stay on the counter. The man with glasses keeps the same face, glasses, navy overshirt, grey trousers and black shoes. Same room, furniture, lamps and colors. No other people enter. No subtitles, no on-screen text, no watermark.",
+      "reference_elements": [],
+      "sound": "on",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_013942_e65c48b9-7ba6-4e86-8113-fe9abc3d3161.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_013942_e65c48b9-7ba6-4e86-8113-fe9abc3d3161_thumbnail.webp"
+  }
+]
+--stderr--

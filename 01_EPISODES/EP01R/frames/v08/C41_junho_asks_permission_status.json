@@ -1,0 +1,84 @@
+[
+ {
+  "created_at": "2026-11-06T05:03:47.750351Z",
+  "display_name": "Nano Banana Pro",
+  "id": "1e4e2e1a-dc9c-46b9-92cc-ccf7a3a808e2",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_050347_1e4e2e1a-dc9c-46b9-92cc-ccf7a3a808e2_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "c6a7e9ba-80e6-4ca4-a66a-62c9a52baa10",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/c6a7e9ba-80e6-4ca4-a66a-62c9a52baa10_resize.jpg"
+    },
+    {
+     "id": "b605d7df-b6dc-4935-b205-c494d2e5006f",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/b605d7df-b6dc-4935-b205-c494d2e5006f_resize.jpg"
+    },
+    {
+     "id": "b0b55bc3-6767-404e-9a49-a7eb45d10723",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/b0b55bc3-6767-404e-9a49-a7eb45d10723.png"
+    },
+    {
+     "id": "b0b55bc3-6767-404e-9a49-a7eb45d10723",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/b0b55bc3-6767-404e-9a49-a7eb45d10723.png"
+    },
+    {
+     "id": "2d59d064-710a-4264-bb8f-ff294a55983d",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/2d59d064-710a-4264-bb8f-ff294a55983d.png"
+    },
+    {
+     "id": "2d59d064-710a-4264-bb8f-ff294a55983d",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/2d59d064-710a-4264-bb8f-ff294a55983d.png"
+    },
+    {
+     "id": "f097c9b5-9163-4278-9a1b-2789094b9364",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/f097c9b5-9163-4278-9a1b-2789094b9364.png"
+    },
+    {
+     "id": "f097c9b5-9163-4278-9a1b-2789094b9364",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/f097c9b5-9163-4278-9a1b-2789094b9364.png"
+    },
+    {
+     "id": "768e335a-dd3d-460b-9a4b-44e949039c26",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/768e335a-dd3d-460b-9a4b-44e949039c26.png"
+    },
+    {
+     "id": "c35ab309-ae67-479a-8e18-1794f1c607f6",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/c35ab309-ae67-479a-8e18-1794f1c607f6.png"
+    },
+    {
+     "id": "43f1764c-2e2e-4956-a95d-66ba75004b8f",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/43f1764c-2e2e-4956-a95d-66ba75004b8f.png"
+    },
+    {
+     "id": "9e2f3240-5e5b-4cec-b256-6ac89a7f40c4",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/9e2f3240-5e5b-4cec-b256-6ac89a7f40c4_resize.jpg"
+    }
+   ],
+   "prompt": "A frame grabbed from a sitcom video: candid mid-action, caught between movements, slight motion softness, not a posed photo. FRAME LOCK: reference image 1 is the START FRAME of this very shot, taken two seconds earlier from the same camera. Keep the camera position, lens, framing, every piece of furniture, the lighting, and the two people already in it (same seats, same poses, same clothes, same props: on the island counter the bowl of lemons AND the small vase of pink flowers stay exactly where they are in image 1) EXACTLY as in image 1. Reference image 2 is the empty set plate of the same camera. The ONLY change is described next. The only change: the man holds his phone in both hands at chest height turned toward himself, giddy wide smile, eyes on the woman as if asking permission, bouncing slightly on his toes. The woman looks up at him. The Nepali man stays head-down over the pickle jar. The woman stays on the END stool nearest the living room with TWO empty stools to her right, exactly as in image 1; the man stands on the living-room side beyond her stool, never behind the counter. The small vase of pink flowers and the bowl of lemons stay on the counter exactly as in image 1. SET DRESSING LOCK: on the island counter there are exactly one bowl of lemons and one small vase of pink flowers, as in the set plate; NO mug, NO cup, nothing else on the counter. The island has exactly THREE black bar stools on the living-room side. FIXED SET LAYOUT (identical to the evening master set image; never move furniture): seen from the audience side, the front door and the single straight oak staircase with black railing are on the far LEFT along the back wall; the big arched window is in the center of the back wall with the round oak dining table and chairs in front of it, behind-left of the sofa; the caramel corduroy sofa sits center facing the camera with the round oak coffee table (tomato-red tray, small flowers) in front of it and the mustard armchair at its right; a low oak sideboard with a radio and globe stands behind the armchair; the white marble kitchen island with three black stools is on the far RIGHT in front of the kitchen wall with copper pans and copper pendant lamps. Nothing else is rearranged. FIXED TIME AND LIGHTING (identical in every frame): 9 pm, evening. The arched window is dark navy with no daylight. All practical lamps are on (paper pendants, copper pendants over the island, table lamps, warm string lights). Warm tungsten color around 3000K, soft even low-contrast exposure, faces clearly lit, no deep shadows, no sunbeams, no blue light. Same brightness as the evening master set image. IDENTITY LOCK: each character's face must be the exact same person as in their face reference image (same eyes, nose, jaw, skin tone, hairline, hairstyle); do not beautify or generalize. Face references come right after the set plate, then outfit sheets, then the wide room. No text, no lettering, no logos anywhere. ",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_050347_1e4e2e1a-dc9c-46b9-92cc-ccf7a3a808e2.png",
+  "status": "completed"
+ }
+]

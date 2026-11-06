@@ -1,0 +1,80 @@
+[
+  {
+    "created_at": "2026-11-06T07:12:06.773704Z",
+    "display_name": "Nano Banana Pro",
+    "id": "0f4ea3e8-32af-4f31-b643-37dea2b20fa0",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_071206_0f4ea3e8-32af-4f31-b643-37dea2b20fa0_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "dfa1d427-6750-4c69-99cc-72e5907ccfcb",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/dfa1d427-6750-4c69-99cc-72e5907ccfcb.png"
+        },
+        {
+          "id": "40c83dab-7f27-4519-8690-3a25057bebc4",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/40c83dab-7f27-4519-8690-3a25057bebc4.png"
+        },
+        {
+          "id": "40c83dab-7f27-4519-8690-3a25057bebc4",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/40c83dab-7f27-4519-8690-3a25057bebc4.png"
+        },
+        {
+          "id": "520de050-d7af-437f-b53c-73e2c0f48821",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/520de050-d7af-437f-b53c-73e2c0f48821.png"
+        },
+        {
+          "id": "520de050-d7af-437f-b53c-73e2c0f48821",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/520de050-d7af-437f-b53c-73e2c0f48821.png"
+        },
+        {
+          "id": "ab9cf241-77eb-45e5-997f-78d67436231f",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/ab9cf241-77eb-45e5-997f-78d67436231f.png"
+        },
+        {
+          "id": "ab9cf241-77eb-45e5-997f-78d67436231f",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/ab9cf241-77eb-45e5-997f-78d67436231f.png"
+        },
+        {
+          "id": "30d17bde-b36a-491d-9fa1-cb9a6051d5b0",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/30d17bde-b36a-491d-9fa1-cb9a6051d5b0.png"
+        },
+        {
+          "id": "e9cbecd4-adb6-4299-9fe7-a5eca35ab294",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/e9cbecd4-adb6-4299-9fe7-a5eca35ab294.png"
+        },
+        {
+          "id": "1aaabb0f-a9ed-4721-8b9f-d13ffb993e1e",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/1aaabb0f-a9ed-4721-8b9f-d13ffb993e1e_resize.jpg"
+        },
+        {
+          "id": "0d5a68af-acab-4240-8d37-929570e50161",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/0d5a68af-acab-4240-8d37-929570e50161_resize.jpg"
+        }
+      ],
+      "prompt": "A frame grabbed from a sitcom video: candid mid-action, caught between movements, slight motion softness, not a posed photo. PLATE LOCK: reference image 1 is the empty set plate shot from the exact camera position of this cut. Keep its framing, lens, furniture positions, window, lamps and lighting; only add the people described. Never move, add or remove furniture. Medium shot from the EXACT camera and framing of reference image 1 (the island plate): the framed-pictures wall with the vintage radio and globe on the oak sideboard at the LEFT, the hanging vine plant, the open shelf of copper canisters, copper pans, white tile and stove at the RIGHT, three copper pendant lamps over the island; NO window anywhere in frame. The island: light OAK body with a white marble top, three black metal stools with ROUND seats and foot rings along the living-room side. the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses) sits on the END stool nearest the living room (the first of the three, at camera-left), the other two stools EMPTY to her right, phone in both hands on the counter, head turned to look up at the man beside her, cool half-smile. the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers) stands on the living-room side immediately beyond her stool (camera-left of her), his feet on the floor in FRONT of the island's near edge, never behind the counter, holding his phone, looking down at her; black leather shoes; he is 184 cm so the counter top reaches his upper thigh. the Nepali man (31, deep brown skin, black curly hair, short trimmed beard, white chef's jacket with a plain BLACK full bib apron over it, no towel) stands BEHIND the island counter further right, head down over a glass pickle jar, white chef's jacket with the plain BLACK bib apron, NO towel. FURNITURE DESIGN LOCK: the island has a light OAK body with a 5 cm white marble top only (NO waterfall marble sides); the three bar stools are black metal with ROUND seats and a foot ring (not square Tolix stools). HEIGHT LOCK: the island counter top is 0.9 m high; on the standing men it reaches the belt line / hip (the man with glasses is 184 cm: upper thigh to hip; the Nepali man is 172 cm: belt line), never the chest. The woman (171 cm) on the 65 cm stool has her shoulders well above the counter and rests her forearms on it. FURNITURE SIZE LOCK: the island is a deep, wide block, 2.4 m long and 1.0 m deep with a thick white marble top (5 cm), oak body; the counter depth is about 2.5 stool-seat diameters; never a narrow bar or a slim ledge. SET DRESSING LOCK: on the island counter there are exactly one bowl of lemons and one small vase of pink flowers, as in the set plate; NO mug, NO cup, nothing else on the counter. The island has exactly THREE black bar stools on the living-room side. FIXED SET LAYOUT (identical to the evening master set image; never move furniture): seen from the audience side, the front door and the single straight oak staircase with black railing are on the far LEFT along the back wall; the big arched window is in the center of the back wall with the round oak dining table and chairs in front of it, behind-left of the sofa; the caramel corduroy sofa sits center facing the camera with the round oak coffee table (tomato-red tray, small flowers) in front of it and the mustard armchair at its right; a low oak sideboard with a radio and globe stands behind the armchair; the white marble kitchen island with three black stools is on the far RIGHT in front of the kitchen wall with copper pans and copper pendant lamps. Nothing else is rearranged. FIXED TIME AND LIGHTING (identical in every frame): 9 pm, evening. The arched window is dark navy with no daylight. All practical lamps are on (paper pendants, copper pendants over the island, table lamps, warm string lights). Warm tungsten color around 3000K, soft even low-contrast exposure, faces clearly lit, no deep shadows, no sunbeams, no blue light. Same brightness as the evening master set image. IDENTITY LOCK: each character's face must be the exact same person as in their face reference image (same eyes, nose, jaw, skin tone, hairline, hairstyle); do not beautify or generalize. Face references come right after the set plate, then outfit sheets, then the wide room. No text, no lettering, no logos anywhere. ",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_071206_0f4ea3e8-32af-4f31-b643-37dea2b20fa0.png",
+    "status": "completed"
+  }
+]
+--stderr--

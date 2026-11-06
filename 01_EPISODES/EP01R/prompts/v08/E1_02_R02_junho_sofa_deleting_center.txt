@@ -1,0 +1,23 @@
+SCENE CONTEXT
+Evening, sofa-axis camera, the corduroy sofa facing the camera. . 여자친구 가족방 22명에 초대됐고 인사말을 여섯 번째 고치는 중 폰을 두 손으로 쥐고 썼다 지웠다, 머리 긁기
+
+FORMAT MODE
+One continuous shot, no cuts.
+
+CAMERA
+Fixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Camera axis: sofa on camera-left, island on camera-right. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, window dark navy, no film grain, no over-sharpening.
+
+ACTION
+0.0s to 0.5s: hold the start pose, a small breath before the line. 0.5s to 2.4s: 폰을 두 손으로 쥐고 썼다 지웠다, 머리 긁기 2.4s to 3.0s: hold the last expression, no new gesture.
+
+PERFORMANCE
+From the script (긴장, 공들임, 촐싹): in character, playful, never sharp. 폰을 두 손으로 쥐고 썼다 지웠다, 머리 긁기
+
+AUDIO
+Quiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.
+
+POSITIVE LOCKS
+Continue exactly from the start image. The speaker keeps the same face, hair, clothes and position through the whole take. Same room, furniture, lamps and colors. No new people enter. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The man says in casual Korean with a soft Nepali accent, relaxed, in character, playful, never sharp: "(인사말 여섯 번째 고치는 중)". He says only this one line and nothing else; no other words in any language. Natural delivery, visible lip-sync, no subtitles, no on-screen text.

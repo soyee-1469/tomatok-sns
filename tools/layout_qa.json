@@ -1,0 +1,42 @@
+[
+ {
+  "still": "J2b_junho_exit_right_r1",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/J2b_junho_exit_right_r1.png",
+  "plate": "LIVINGROOM_v14e_A1_sofa.png",
+  "inlier": 0.956,
+  "still_angle": 40.0,
+  "plate_angle": -4.99,
+  "angle_diff": 44.99,
+  "verdict": "LAYOUT DRIFT"
+ },
+ {
+  "still": "J2b_junho_exit_right_r2",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/J2b_junho_exit_right_r2.png",
+  "plate": "LIVINGROOM_v14e_A1_sofa.png",
+  "inlier": 0.969,
+  "still_angle": 0.0,
+  "plate_angle": -4.99,
+  "angle_diff": 4.99,
+  "verdict": "OK"
+ },
+ {
+  "still": "B13_ria_island_start",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/B13_ria_island_start.png",
+  "plate": "LIVINGROOM_v14e_A2_island.png",
+  "inlier": 0.899,
+  "still_angle": 11.98,
+  "plate_angle": 12.01,
+  "angle_diff": 0.03,
+  "verdict": "OK"
+ },
+ {
+  "still": "T5_ria_suman_look_left_r1",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/T5_ria_suman_look_left_r1.png",
+  "plate": "LIVINGROOM_v14e_A2_island.png",
+  "inlier": 0.909,
+  "still_angle": 12.97,
+  "plate_angle": 12.01,
+  "angle_diff": 0.96,
+  "verdict": "OK"
+ }
+]

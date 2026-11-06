@@ -1,0 +1,82 @@
+[
+ {
+  "still": "J9d_junho_toward_ria_islandcam",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/J9d_junho_toward_ria_islandcam.png",
+  "plate": "LIVINGROOM_v14e_A2_island.png",
+  "inlier": 0.885,
+  "still_angle": -5.87,
+  "plate_angle": 12.01,
+  "angle_diff": 17.89,
+  "verdict": "OK"
+ },
+ {
+  "still": "J2b_junho_exit_right_r1",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/J2b_junho_exit_right_r1.png",
+  "plate": "LIVINGROOM_v14e_A1_sofa.png",
+  "inlier": 0.956,
+  "still_angle": 17.03,
+  "plate_angle": -4.99,
+  "angle_diff": 22.02,
+  "verdict": "LAYOUT DRIFT"
+ },
+ {
+  "still": "J2b_junho_exit_right_r2",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/J2b_junho_exit_right_r2.png",
+  "plate": "LIVINGROOM_v14e_A1_sofa.png",
+  "inlier": 0.969,
+  "still_angle": 0.0,
+  "plate_angle": -4.99,
+  "angle_diff": 4.99,
+  "verdict": "OK"
+ },
+ {
+  "still": "T5_ria_suman_look_left_r1",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/T5_ria_suman_look_left_r1.png",
+  "plate": "LIVINGROOM_v14e_A2_island.png",
+  "inlier": 0.909,
+  "still_angle": 12.97,
+  "plate_angle": 12.01,
+  "angle_diff": 0.96,
+  "verdict": "OK"
+ },
+ {
+  "still": "J3_junho_at_island_r1",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/J3_junho_at_island_r1.png",
+  "plate": "LIVINGROOM_v14e_A2_island.png",
+  "inlier": 0.371,
+  "still_angle": 2.03,
+  "plate_angle": 12.01,
+  "angle_diff": 9.98,
+  "verdict": "LAYOUT DRIFT"
+ },
+ {
+  "still": "J3_junho_at_island_r2",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/J3_junho_at_island_r2.png",
+  "plate": "LIVINGROOM_v14e_A2_island.png",
+  "inlier": 0.24,
+  "still_angle": -10.0,
+  "plate_angle": 12.01,
+  "angle_diff": 22.02,
+  "verdict": "LAYOUT DRIFT"
+ },
+ {
+  "still": "J3_junho_at_island_r3",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/J3_junho_at_island_r3.png",
+  "plate": "LIVINGROOM_v14e_A2_island.png",
+  "inlier": 0.246,
+  "still_angle": 23.05,
+  "plate_angle": 12.01,
+  "angle_diff": 11.04,
+  "verdict": "LAYOUT DRIFT"
+ },
+ {
+  "still": "J3_junho_at_island_r4",
+  "file": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/J3_junho_at_island_r4.png",
+  "plate": "LIVINGROOM_v14e_A2_island.png",
+  "inlier": 0.5,
+  "still_angle": 0.0,
+  "plate_angle": 12.01,
+  "angle_diff": 12.01,
+  "verdict": "LAYOUT DRIFT"
+ }
+]

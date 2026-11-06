@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-06T06:26:10.425366Z",
+    "display_name": "Nano Banana Pro",
+    "id": "4fc68c49-56e0-4825-b260-2830056f6054",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_062610_4fc68c49-56e0-4825-b260-2830056f6054_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "4b9709f0-2263-4ea3-9ea3-a15086137417",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/4b9709f0-2263-4ea3-9ea3-a15086137417_resize.jpg"
+        },
+        {
+          "id": "4b9709f0-2263-4ea3-9ea3-a15086137417",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/4b9709f0-2263-4ea3-9ea3-a15086137417_resize.jpg"
+        },
+        {
+          "id": "7b6bce98-b371-4efd-a83d-ad6e39d125e2",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/7b6bce98-b371-4efd-a83d-ad6e39d125e2_resize.jpg"
+        }
+      ],
+      "prompt": "Same set as reference image 1 (the evening master wide), identical furniture in identical positions, 9 pm evening lighting exactly as in the reference (arched window dark navy, all lamps on, warm 3000K, soft low contrast). Photo-real, 9:16 portrait, eye-level camera at 1.5 m, no people, no text. ONE SINGLE photograph, no panels. Camera stands on the living-room side near the sofa and looks toward the kitchen island on the RIGHT side of the room, the island running PARALLEL to the right wall (not diagonal). WALL ORDER left to right exactly as in the master wide: at the left edge the arched window with its cushioned window bench and the string of prayer flags above it, then the framed-pictures wall (vintage bus, pagoda, city map, mountain prints) with the sideboard holding the vintage radio and a small table lamp, then the kitchen: open shelf of copper canisters and bottles, copper pans on a rail, white tile, stove, and the fridge with flag magnets at the right edge. Three copper pendant lamps hang over the island. Flat ceiling, no dropped beam. Do NOT add a globe, a hanging vine plant, a cabinet under the window, or extra lamps. FURNITURE SIZE LOCK: the island is a deep wide block, 2.4 m long and 1.0 m deep, 0.9 m high, thick white marble top (5 cm) on an oak body; never a narrow bar. Three black metal bar stools (65 cm seat height) evenly spaced along the living-room side of the island, in the foreground. On the counter exactly one bowl of lemons and one small vase of pink flowers, nothing else. Herringbone oak floor, jute rug edge at the bottom.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_062610_4fc68c49-56e0-4825-b260-2830056f6054.png",
+    "status": "completed"
+  }
+]
+--stderr--

@@ -66,7 +66,8 @@ B 세트 컷 포즈: 창가 벤치에 앉아 응원봉을 무릎에 놓고 폰�
 확정 얼굴: `SUMAN_face.png`
 ```
 IDENTITY: a 31-year-old Nepali man, deep warm brown skin, thick black curly hair, short neatly trimmed black beard and mustache, wide bright smile. Height about 172 cm, stocky solid build, broad shoulders, thick forearms, grounded relaxed stance.
-OUTFIT: white double-breasted chef's jacket with cloth buttons and the sleeves rolled to the elbow, a beige kitchen towel with a blue stripe draped over the left shoulder, a plain navy half-apron tied at the waist, charcoal-gray work trousers, black kitchen clogs.
+OUTFIT (2026-11-06 개정, 사용자 A안): white double-breasted chef's jacket with cloth buttons and the sleeves rolled to the elbow, a plain BLACK full bib apron with a neck strap over it, NO towel, charcoal-gray work trousers, black kitchen clogs.
+(옛 v03: 네이비 반앞치마 + 어깨 수건 → 1화 프레임이 전부 bib 앞치마로 나와 검정 bib로 확정. 바디 시트 BODY_SUMAN_v04. v03 파일은 BODY_SUMAN_v03_old_halfapron.png로 이름 변경, 보드·생성기에서 제외.)
 ```
 B 세트 컷 포즈: 아일랜드 뒤에서 유리 피클병(아차르) 뚜껑을 열며 거실 쪽에 들어 보인다. 소품: 유리 피클병, 앞치마.
 

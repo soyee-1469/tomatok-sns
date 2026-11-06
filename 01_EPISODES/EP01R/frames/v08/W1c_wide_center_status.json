@@ -1,0 +1,79 @@
+[
+ {
+  "created_at": "2026-11-06T01:59:59.866954Z",
+  "display_name": "Nano Banana Pro",
+  "id": "8ca835c7-29be-4b79-aced-13ccfa297fe7",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_015959_8ca835c7-29be-4b79-aced-13ccfa297fe7_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "c082987e-eb17-42c6-a7b9-d96d59f9e70f",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/c082987e-eb17-42c6-a7b9-d96d59f9e70f_resize.jpg"
+    },
+    {
+     "id": "acfddc66-a0e7-4c43-9cf3-72a9aebc61f6",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/acfddc66-a0e7-4c43-9cf3-72a9aebc61f6.png"
+    },
+    {
+     "id": "acfddc66-a0e7-4c43-9cf3-72a9aebc61f6",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/acfddc66-a0e7-4c43-9cf3-72a9aebc61f6.png"
+    },
+    {
+     "id": "f0a8f07f-93d4-4dcf-baf1-4e17395f8469",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/f0a8f07f-93d4-4dcf-baf1-4e17395f8469.png"
+    },
+    {
+     "id": "f0a8f07f-93d4-4dcf-baf1-4e17395f8469",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/f0a8f07f-93d4-4dcf-baf1-4e17395f8469.png"
+    },
+    {
+     "id": "6b4633e1-2177-4afc-a000-dd8135459e4f",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/6b4633e1-2177-4afc-a000-dd8135459e4f.png"
+    },
+    {
+     "id": "6b4633e1-2177-4afc-a000-dd8135459e4f",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/6b4633e1-2177-4afc-a000-dd8135459e4f.png"
+    },
+    {
+     "id": "91027fd8-bf24-47a0-aa33-232beb66cb0e",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/91027fd8-bf24-47a0-aa33-232beb66cb0e.png"
+    },
+    {
+     "id": "f4bfddbb-fae3-4795-bb02-0f0931fd1d37",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/f4bfddbb-fae3-4795-bb02-0f0931fd1d37.png"
+    },
+    {
+     "id": "4ce1b56b-3c9c-4a9c-ae5c-41f798ae1295",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/4ce1b56b-3c9c-4a9c-ae5c-41f798ae1295.png"
+    },
+    {
+     "id": "c082987e-eb17-42c6-a7b9-d96d59f9e70f",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/c082987e-eb17-42c6-a7b9-d96d59f9e70f_resize.jpg"
+    }
+   ],
+   "prompt": "A frame grabbed from a sitcom video: candid mid-action, caught between movements, slight motion softness, not a posed photo. PLATE LOCK: reference image 1 is the empty set plate shot from the exact camera position of this cut. Keep its framing, lens, furniture positions, window, lamps and lighting; only add the people described. Never move, add or remove furniture. Wide shot from the exact camera of reference image 1 (the evening master wide, seen from the entrance wall). the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers) sits on the CENTER cushion of the caramel sofa, phone in both hands, looking at it, black leather shoes. the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses) sits on the first black stool on the living-room side of the white marble island, looking at her phone, a mug beside her. the Nepali man (31, deep brown skin, black curly hair, short trimmed beard, white chef's jacket, beige towel on the left shoulder, navy half-apron) stands behind the island counter further right, head down over a glass pickle jar. Everyone small in frame, whole room visible, calm. SEAT LOCK: the man sits on the CENTER cushion of the three-seat sofa, squarely facing the camera, the coffee table tray directly in front of him; never on either end cushion. FIXED SET LAYOUT (identical to the evening master set image; never move furniture): seen from the audience side, the front door and the single straight oak staircase with black railing are on the far LEFT along the back wall; the big arched window is in the center of the back wall with the round oak dining table and chairs in front of it, behind-left of the sofa; the caramel corduroy sofa sits center facing the camera with the round oak coffee table (tomato-red tray, small flowers) in front of it and the mustard armchair at its right; a low oak sideboard with a radio and globe stands behind the armchair; the white marble kitchen island with three black stools is on the far RIGHT in front of the kitchen wall with copper pans and copper pendant lamps. Nothing else is rearranged. FIXED TIME AND LIGHTING (identical in every frame): 9 pm, evening. The arched window is dark navy with no daylight. All practical lamps are on (paper pendants, copper pendants over the island, table lamps, warm string lights). Warm tungsten color around 3000K, soft even low-contrast exposure, faces clearly lit, no deep shadows, no sunbeams, no blue light. Same brightness as the evening master set image. IDENTITY LOCK: each character's face must be the exact same person as in their face reference image (same eyes, nose, jaw, skin tone, hairline, hairstyle); do not beautify or generalize. Face references come right after the set plate, then outfit sheets, then the wide room. No text, no lettering, no logos anywhere. ",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_015959_8ca835c7-29be-4b79-aced-13ccfa297fe7.png",
+  "status": "completed"
+ }
+]

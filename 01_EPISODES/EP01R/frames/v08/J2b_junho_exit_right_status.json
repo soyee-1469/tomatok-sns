@@ -1,0 +1,54 @@
+[
+ {
+  "created_at": "2026-11-06T01:09:31.519289Z",
+  "display_name": "Nano Banana Pro",
+  "id": "413863e9-b62e-46bd-a8ac-757db0bf1e4d",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_010931_413863e9-b62e-46bd-a8ac-757db0bf1e4d_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "c5ac3553-ce2b-4957-8007-9cc375acc67c",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/c5ac3553-ce2b-4957-8007-9cc375acc67c_resize.jpg"
+    },
+    {
+     "id": "fb71b2e6-0da5-4d36-b282-2f07f455614d",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/fb71b2e6-0da5-4d36-b282-2f07f455614d.png"
+    },
+    {
+     "id": "e28bd721-08d9-476f-b50d-891ec0f64d23",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/e28bd721-08d9-476f-b50d-891ec0f64d23.png"
+    },
+    {
+     "id": "e28bd721-08d9-476f-b50d-891ec0f64d23",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/e28bd721-08d9-476f-b50d-891ec0f64d23.png"
+    },
+    {
+     "id": "8df42d62-73e1-4498-956d-75d20c96f18f",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/8df42d62-73e1-4498-956d-75d20c96f18f.png"
+    },
+    {
+     "id": "85e813c9-d869-47b2-bd40-4ef1102988b7",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/85e813c9-d869-47b2-bd40-4ef1102988b7_resize.jpg"
+    }
+   ],
+   "prompt": "A frame grabbed from a sitcom video: candid mid-action, caught between movements, slight motion softness, not a posed photo. PLATE LOCK: reference image 1 is the empty set plate shot from the exact camera position of this cut. Keep its framing, lens, furniture positions, window, lamps and lighting; only add the people described. Never move, add or remove furniture. STORYBOARD: reference image 2 is a grey pencil storyboard panel. Use it ONLY for composition, camera angle, where each person stands or sits, body direction and where they look. Ignore its drawing style, its faces and its furniture details completely; render fully photoreal and match the set plate. Medium shot from the sofa side, camera axis: sofa on camera-left, kitchen island far on camera-right. the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers) has just stood up from the caramel sofa and is walking out of frame to the RIGHT toward the island, phone in his right hand; we see him from behind-side, his body already half past the right edge of the frame, mid-step. The sofa is EMPTY. Nobody else in frame. The woman and the Nepali man are NOT visible (they are at the island, out of frame). FIXED SET LAYOUT (identical to the evening master set image; never move furniture): seen from the audience side, the front door and the single straight oak staircase with black railing are on the far LEFT along the back wall; the big arched window is in the center of the back wall with the round oak dining table and chairs in front of it, behind-left of the sofa; the caramel corduroy sofa sits center facing the camera with the round oak coffee table (tomato-red tray, small flowers) in front of it and the mustard armchair at its right; a low oak sideboard with a radio and globe stands behind the armchair; the white marble kitchen island with three black stools is on the far RIGHT in front of the kitchen wall with copper pans and copper pendant lamps. Nothing else is rearranged. FIXED TIME AND LIGHTING (identical in every frame): 9 pm, evening. The arched window is dark navy with no daylight. All practical lamps are on (paper pendants, copper pendants over the island, table lamps, warm string lights). Warm tungsten color around 3000K, soft even low-contrast exposure, faces clearly lit, no deep shadows, no sunbeams, no blue light. Same brightness as the evening master set image. IDENTITY LOCK: each character's face must be the exact same person as in their face reference image (same eyes, nose, jaw, skin tone, hairline, hairstyle); do not beautify or generalize. Face references come after the storyboard, then outfit sheets, then the wide room. No text, no lettering, no logos anywhere. ",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_010931_413863e9-b62e-46bd-a8ac-757db0bf1e4d.png",
+  "status": "completed"
+ }
+]

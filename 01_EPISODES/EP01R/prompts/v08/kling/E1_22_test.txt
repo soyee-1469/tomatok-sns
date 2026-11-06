@@ -1,0 +1,23 @@
+SCENE CONTEXT
+Evening living room, island-axis camera: the living room on camera-left, the white marble kitchen island with an oak body, copper shelves and the fridge on camera-right; NO window in frame. Three people exactly as in the start image: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses) sits on the end bar stool nearest the living room; the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, ID badge on a navy lanyard, grey trousers, black leather shoes) stands right beside her stool on the living-room side; the Nepali man (31, white chef's jacket with a plain black bib apron, no towel) stands behind the counter head-down over a glass pickle jar.
+
+FORMAT MODE
+One continuous shot, no cuts.
+
+CAMERA
+Fixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm copper pendants and string lights, no film grain, no over-sharpening.
+
+ACTION
+0.0s to 0.4s: hold the start pose, a small breath. 0.4s to 2.5s: the woman lifts her phone a little toward the man and shows him the screen while she says the line, grinning; she glances up at his face mid-sentence. 2.5s to 3.0s: she laughs lightly and looks back at the screen. The man with glasses stays standing beside her, leaning in slightly, eyes on her phone; he does not speak. The Nepali man keeps working on the jar and never looks up.
+
+PERFORMANCE
+In character: playful, teasing, affectionate, bright. No exaggerated acting, nobody looks at the camera.
+
+AUDIO
+Quiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.
+
+POSITIVE LOCKS
+Continue exactly from the start image. All three keep the same faces, hair, clothes and positions through the whole take; the other two people stay exactly where they are, nobody walks, nobody leaves, nobody new enters. The lemon bowl and the small vase of pink flowers stay on the counter. Same room, furniture, lamps and colors. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The woman says in fluent Korean with a light Filipino-English accent and a bright, playful rising rhythm: "다들 준호한테 무슨 말 할지 나한테 다 물어보고 있어." Then she laughs lightly. She says only this one line and nothing else; no other words in any language. Natural delivery, visible lip-sync, mouth movements match every word. The two men do not speak.

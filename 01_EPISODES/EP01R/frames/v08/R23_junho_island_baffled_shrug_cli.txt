@@ -1,0 +1,85 @@
+[
+  {
+    "created_at": "2026-11-06T02:48:51.444736Z",
+    "display_name": "Nano Banana Pro",
+    "id": "2b74cd4a-61b1-4e7e-86fa-5a11a5050cb2",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_024851_2b74cd4a-61b1-4e7e-86fa-5a11a5050cb2_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "12f54e58-9fdb-461f-b378-a1ab3b4bfa5f",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/12f54e58-9fdb-461f-b378-a1ab3b4bfa5f_resize.jpg"
+        },
+        {
+          "id": "86425f54-03d2-46ae-9440-3d862690b607",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/86425f54-03d2-46ae-9440-3d862690b607_resize.jpg"
+        },
+        {
+          "id": "75a3960f-890d-488d-ad92-69fe25e1ca52",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/75a3960f-890d-488d-ad92-69fe25e1ca52.png"
+        },
+        {
+          "id": "75a3960f-890d-488d-ad92-69fe25e1ca52",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/75a3960f-890d-488d-ad92-69fe25e1ca52.png"
+        },
+        {
+          "id": "5fe1b16a-79a7-4b33-b8b2-adb1c4d345eb",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/5fe1b16a-79a7-4b33-b8b2-adb1c4d345eb.png"
+        },
+        {
+          "id": "5fe1b16a-79a7-4b33-b8b2-adb1c4d345eb",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/5fe1b16a-79a7-4b33-b8b2-adb1c4d345eb.png"
+        },
+        {
+          "id": "8b4658d3-029a-4340-961b-0535f3533931",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/8b4658d3-029a-4340-961b-0535f3533931.png"
+        },
+        {
+          "id": "8b4658d3-029a-4340-961b-0535f3533931",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/8b4658d3-029a-4340-961b-0535f3533931.png"
+        },
+        {
+          "id": "66a16b03-66b4-4cdf-bb50-66c68bea11dd",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/66a16b03-66b4-4cdf-bb50-66c68bea11dd.png"
+        },
+        {
+          "id": "b186017c-7886-4c82-a8d9-34c466b8c6bb",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/b186017c-7886-4c82-a8d9-34c466b8c6bb.png"
+        },
+        {
+          "id": "e7d3b678-c5b2-43bb-86ba-24a16d2b15da",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/e7d3b678-c5b2-43bb-86ba-24a16d2b15da.png"
+        },
+        {
+          "id": "414c839c-a75d-4341-b004-bf7dab239b5c",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/414c839c-a75d-4341-b004-bf7dab239b5c_resize.jpg"
+        }
+      ],
+      "prompt": "A frame grabbed from a sitcom video: candid mid-action, caught between movements, slight motion softness, not a posed photo. FRAME LOCK: reference image 1 is the START FRAME of this very shot, taken two seconds earlier from the same camera. Keep the camera position, lens, framing, every piece of furniture, the lighting, and the two people already in it (same seats, same poses, same clothes, same mug) EXACTLY as in image 1. Reference image 2 is the empty set plate of the same camera. The ONLY change is described next. The only change: the man beside the island spreads both hands palms-up in a baffled shrug (phone in his right hand), looking at the woman with a puzzled face; the woman is cracking up, one hand over her mouth. The Nepali man stays head-down over the pickle jar. SET DRESSING LOCK: on the island counter there are exactly one bowl of lemons and one small vase of pink flowers, as in the set plate; nothing else on the counter except the props listed for the characters. FIXED SET LAYOUT (identical to the evening master set image; never move furniture): seen from the audience side, the front door and the single straight oak staircase with black railing are on the far LEFT along the back wall; the big arched window is in the center of the back wall with the round oak dining table and chairs in front of it, behind-left of the sofa; the caramel corduroy sofa sits center facing the camera with the round oak coffee table (tomato-red tray, small flowers) in front of it and the mustard armchair at its right; a low oak sideboard with a radio and globe stands behind the armchair; the white marble kitchen island with three black stools is on the far RIGHT in front of the kitchen wall with copper pans and copper pendant lamps. Nothing else is rearranged. FIXED TIME AND LIGHTING (identical in every frame): 9 pm, evening. The arched window is dark navy with no daylight. All practical lamps are on (paper pendants, copper pendants over the island, table lamps, warm string lights). Warm tungsten color around 3000K, soft even low-contrast exposure, faces clearly lit, no deep shadows, no sunbeams, no blue light. Same brightness as the evening master set image. IDENTITY LOCK: each character's face must be the exact same person as in their face reference image (same eyes, nose, jaw, skin tone, hairline, hairstyle); do not beautify or generalize. Face references come right after the set plate, then outfit sheets, then the wide room. No text, no lettering, no logos anywhere. ",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_024851_2b74cd4a-61b1-4e7e-86fa-5a11a5050cb2.png",
+    "status": "completed"
+  }
+]
+--stderr--

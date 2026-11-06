@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-06T08:51:58.389665Z",
+    "display_name": "Kling v3.0",
+    "id": "99b44300-8b87-4c6b-bae7-4f4ba3a73e29",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 3,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "7ee3d188-79fa-405a-8d49-013c5442dd2f",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/7ee3d188-79fa-405a-8d49-013c5442dd2f_resize.jpg"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "SCENE CONTEXT\nEvening living room, island-axis camera: the living room on camera-left, the white marble kitchen island with an oak body, copper shelves and the fridge on camera-right; NO window in frame. Exactly as in the start image: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses) sits on the end bar stool nearest the living room, turned toward the sofa (camera-left); the Nepali man (31, deep brown skin, black curly hair, short trimmed beard, white chef's jacket with a plain black bib apron, no towel) stands behind the counter head-down over a glass pickle jar.\n\nFORMAT MODE\nONE single continuous locked-off shot for the entire clip: no cuts, no shot changes, no punch-in, no second angle; the framing at the last frame is identical to the first frame.\n\nCAMERA\nFixed camera on a tripod, exactly the framing of the start image for the entire 3 seconds: no zoom, no pan, no dolly, no reframing, the camera never follows a person. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain, no over-sharpening.\n\nACTION\n0.0-0.3s hold. 0.3-2.7s: the woman, looking off toward the sofa at camera-left, says the line lightly with a small teasing smile, phone in one hand, her thumb hovering over the screen as if about to tap 'invite'; lips move only as much as the words need. 2.7-3.0s: small smile, holds. The Nepali man keeps working and never looks up.\n\nPERFORMANCE\nIn character: teasing, affectionate, light; minimal facial movement. No exaggerated acting, nobody looks at the camera.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.\n\nPOSITIVE LOCKS\nContinue exactly from the start image. Everyone keeps the same face, hair, glasses, clothes and position through the whole take; the other people in frame stay exactly where they are; nobody walks, nobody leaves, nobody new enters. Same room, furniture, lamps and colors. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe woman speaks fluent Korean with a light Filipino-English accent and a bright, playful rising rhythm: \"오빠, 인사말 정리됐어? 지금 초대할게?\". Only this one line and nothing else; no other words in any language. Natural, underplayed delivery: lips move only as much as the words need, the mouth never opens wide, no exaggerated expressions; visible lip-sync, mouth movements match every word. Nobody else speaks.",
+      "reference_elements": [],
+      "sound": "on",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_085158_99b44300-8b87-4c6b-bae7-4f4ba3a73e29.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_085158_99b44300-8b87-4c6b-bae7-4f4ba3a73e29_thumbnail.webp"
+  }
+]
+--stderr--

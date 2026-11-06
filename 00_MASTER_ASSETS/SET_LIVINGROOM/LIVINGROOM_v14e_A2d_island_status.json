@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-06T06:28:09.514748Z",
+  "display_name": "Nano Banana Pro",
+  "id": "4e670ee9-d75a-4356-a544-a77e1e5abf15",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_062809_4e670ee9-d75a-4356-a544-a77e1e5abf15_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "1d3e4670-eea2-438b-a19e-82e1a6e45f6c",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/1d3e4670-eea2-438b-a19e-82e1a6e45f6c_resize.jpg"
+    },
+    {
+     "id": "1d3e4670-eea2-438b-a19e-82e1a6e45f6c",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/1d3e4670-eea2-438b-a19e-82e1a6e45f6c_resize.jpg"
+    },
+    {
+     "id": "3e25d04e-1119-49a5-9bcb-d7cd4bc46750",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/3e25d04e-1119-49a5-9bcb-d7cd4bc46750_resize.jpg"
+    }
+   ],
+   "prompt": "Same set as reference image 1 (the evening master wide) and the same wall order as reference image 3 (the previous plate): identical furniture, 9 pm evening lighting (arched window dark navy, all lamps on, warm 3000K, soft low contrast). Photo-real, 9:16 portrait, eye-level camera at 1.5 m, no people, no text. ONE SINGLE photograph, no panels. The camera stands about 2 m from the kitchen island, in the open floor between the sofa and the island; NO sofa, NO armchair and NO coffee table in the frame at all. The white marble island with its three black metal bar stools fills the lower third of the frame in the foreground, the island running PARALLEL to the right wall; behind it the kitchen wall: open shelf of copper canisters and bottles, copper pans on a rail, white tile, stove, the fridge with flag magnets at the right edge, three copper pendant lamps over the island. At the LEFT edge of the frame, farther back: the end of the framed-pictures wall (vintage bus, pagoda, city map prints) with the sideboard holding the vintage radio and a small table lamp, and just a sliver of the arched window with the prayer flags above it. Flat ceiling, no dropped beam. Do NOT add a globe, a hanging vine plant, a cabinet under the window, a sofa, or extra lamps. FURNITURE SIZE LOCK: the island is a deep wide block, 2.4 m long and 1.0 m deep, 0.9 m high, thick white marble top (5 cm) on an oak body, never a narrow bar. Three black metal bar stools (65 cm seat height) evenly spaced along the living-room side. On the counter exactly one bowl of lemons and one small vase of pink flowers, nothing else. Herringbone oak floor.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_062809_4e670ee9-d75a-4356-a544-a77e1e5abf15.png",
+  "status": "completed"
+ }
+]

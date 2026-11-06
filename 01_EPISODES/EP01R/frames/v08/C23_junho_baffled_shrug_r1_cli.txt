@@ -1,0 +1,85 @@
+[
+  {
+    "created_at": "2026-11-06T05:09:42.774768Z",
+    "display_name": "Nano Banana Pro",
+    "id": "b9a45c78-07ae-4456-ad09-cb69785e9da0",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_050942_b9a45c78-07ae-4456-ad09-cb69785e9da0_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "c7c6d1ed-9eb2-4125-af15-50b5f805b853",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/c7c6d1ed-9eb2-4125-af15-50b5f805b853_resize.jpg"
+        },
+        {
+          "id": "4cfa483e-733d-4d76-8e30-c0a3beba524e",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/4cfa483e-733d-4d76-8e30-c0a3beba524e_resize.jpg"
+        },
+        {
+          "id": "98a393f4-4173-4820-92b9-7c7b6fe5ee1e",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/98a393f4-4173-4820-92b9-7c7b6fe5ee1e.png"
+        },
+        {
+          "id": "98a393f4-4173-4820-92b9-7c7b6fe5ee1e",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/98a393f4-4173-4820-92b9-7c7b6fe5ee1e.png"
+        },
+        {
+          "id": "14eee0a0-dc7b-442c-9839-a3fc685a7fa6",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/14eee0a0-dc7b-442c-9839-a3fc685a7fa6.png"
+        },
+        {
+          "id": "14eee0a0-dc7b-442c-9839-a3fc685a7fa6",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/14eee0a0-dc7b-442c-9839-a3fc685a7fa6.png"
+        },
+        {
+          "id": "1db6fc13-cbe7-486f-a00f-2b05444d619c",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/1db6fc13-cbe7-486f-a00f-2b05444d619c.png"
+        },
+        {
+          "id": "1db6fc13-cbe7-486f-a00f-2b05444d619c",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/1db6fc13-cbe7-486f-a00f-2b05444d619c.png"
+        },
+        {
+          "id": "2427d785-f594-4abc-8c76-7ab12a8cc476",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/2427d785-f594-4abc-8c76-7ab12a8cc476.png"
+        },
+        {
+          "id": "46f2d954-f6e5-4583-a67b-24d5f38024ff",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/46f2d954-f6e5-4583-a67b-24d5f38024ff.png"
+        },
+        {
+          "id": "30048674-df41-4211-84ea-9378939c367f",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/30048674-df41-4211-84ea-9378939c367f.png"
+        },
+        {
+          "id": "6936ba6c-8ba3-4901-8465-1d4f121ba8d1",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/6936ba6c-8ba3-4901-8465-1d4f121ba8d1_resize.jpg"
+        }
+      ],
+      "prompt": "A frame grabbed from a sitcom video: candid mid-action, caught between movements, slight motion softness, not a posed photo. FRAME LOCK: reference image 1 is the START FRAME of this very shot, taken two seconds earlier from the same camera. Keep the camera position, lens, framing, every piece of furniture, the lighting, and the two people already in it (same seats, same poses, same clothes, same props: on the island counter the bowl of lemons AND the small vase of pink flowers stay exactly where they are in image 1) EXACTLY as in image 1. Reference image 2 is the empty set plate of the same camera. The ONLY change is described next. ONE SINGLE photograph, same camera and same room as image 1. The only change: the man, standing exactly where he stands in image 1, spreads both hands palms-up in a baffled shrug (phone in his right hand), looking at the woman with a puzzled face; the woman is cracking up, one hand over her mouth. The Nepali man stays head-down over the pickle jar behind the counter. The man's feet stay on the living-room floor in FRONT of the island (the counter is never between him and the camera); he is NOT behind the counter and NOT on the kitchen side. The woman stays on the END stool nearest the living room with TWO empty stools to her right, exactly as in image 1; the man stands on the living-room side beyond her stool, never behind the counter. The small vase of pink flowers and the bowl of lemons stay on the counter exactly as in image 1. SET DRESSING LOCK: on the island counter there are exactly one bowl of lemons and one small vase of pink flowers, as in the set plate; NO mug, NO cup, nothing else on the counter. The island has exactly THREE black bar stools on the living-room side. FIXED SET LAYOUT (identical to the evening master set image; never move furniture): seen from the audience side, the front door and the single straight oak staircase with black railing are on the far LEFT along the back wall; the big arched window is in the center of the back wall with the round oak dining table and chairs in front of it, behind-left of the sofa; the caramel corduroy sofa sits center facing the camera with the round oak coffee table (tomato-red tray, small flowers) in front of it and the mustard armchair at its right; a low oak sideboard with a radio and globe stands behind the armchair; the white marble kitchen island with three black stools is on the far RIGHT in front of the kitchen wall with copper pans and copper pendant lamps. Nothing else is rearranged. FIXED TIME AND LIGHTING (identical in every frame): 9 pm, evening. The arched window is dark navy with no daylight. All practical lamps are on (paper pendants, copper pendants over the island, table lamps, warm string lights). Warm tungsten color around 3000K, soft even low-contrast exposure, faces clearly lit, no deep shadows, no sunbeams, no blue light. Same brightness as the evening master set image. IDENTITY LOCK: each character's face must be the exact same person as in their face reference image (same eyes, nose, jaw, skin tone, hairline, hairstyle); do not beautify or generalize. Face references come right after the set plate, then outfit sheets, then the wide room. No text, no lettering, no logos anywhere. ",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_050942_b9a45c78-07ae-4456-ad09-cb69785e9da0.png",
+    "status": "completed"
+  }
+]
+--stderr--

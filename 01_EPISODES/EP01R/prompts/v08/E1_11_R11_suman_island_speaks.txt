@@ -1,0 +1,23 @@
+SCENE CONTEXT
+Evening, island-axis camera, sofa on camera-left and the marble island on camera-right. the Nepali man (31, deep brown skin, black curly hair, short trimmed beard, white chef's jacket, charcoal-grey bib apron over it, no towel). 수만이 아일랜드 뒤에 서서 피클병을 내려놓으며 소파 쪽에 말한다 피클병 내려놓기, 고개는 소파 쪽(화면 왼쪽) / 피클병 내려놓으면서 식탁에 서있다. / 피클병 내려놓으면서 식탁에 서있다. 식탁앞에는 리아가 아일랜드 의자에 앉아있고 그옆에 서서 쩔쩔매는 준호가 있다. / 피클병 내려놓으면서 식탁에 서있다. 식탁앞에는 리아가 아일랜드 의자에 앉아있고 그옆에 서서 쩔쩔매는 준호가 있다.
+
+FORMAT MODE
+One continuous shot, no cuts.
+
+CAMERA
+Fixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Camera axis: sofa on camera-left, island on camera-right. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, window dark navy, no film grain, no over-sharpening.
+
+ACTION
+0.0s to 0.5s: hold the start pose, a small breath before the line. 0.5s to 2.4s: 피클병 내려놓기, 고개는 소파 쪽(화면 왼쪽) / 피클병 내려놓으면서 식탁에 서있다. / 피클병 내려놓으면서 식탁에 서있다. 식탁앞에는 리아가 아일랜드 의자에 앉아있고 그옆에 서서 쩔쩔매는 준호가 있다. / 피클병 내려놓으면서 식탁에 서있다. 식탁앞에는 리아가 아일랜드 의자에 앉아있고 그옆에 서서 쩔쩔매는 준호가 있다. 2.4s to 3.0s: hold the last expression, no new gesture.
+
+PERFORMANCE
+From the script (여유, 위로): in character, playful, never sharp. 피클병 내려놓기, 고개는 소파 쪽(화면 왼쪽) / 피클병 내려놓으면서 식탁에 서있다. / 피클병 내려놓으면서 식탁에 서있다. 식탁앞에는 리아가 아일랜드 의자에 앉아있고 그옆에 서서 쩔쩔매는 준호가 있다. / 피클병 내려놓으면서 식탁에 서있다. 식탁앞에는 리아가 아일랜드 의자에 앉아있고 그옆에 서서 쩔쩔매는 준호가 있다.
+
+AUDIO
+Quiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.
+
+POSITIVE LOCKS
+Continue exactly from the start image. The speaker keeps the same face, hair, clothes and position through the whole take. Same room, furniture, lamps and colors. No new people enter. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The man says in casual Korean with a soft Nepali accent, relaxed, in character, playful, never sharp: "우리 집도 그래. 읽기만 해.". He says only this one line and nothing else; no other words in any language. Natural delivery, visible lip-sync, no subtitles, no on-screen text.

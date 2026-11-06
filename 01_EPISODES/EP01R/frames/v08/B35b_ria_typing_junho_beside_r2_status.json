@@ -1,0 +1,84 @@
+[
+ {
+  "created_at": "2026-11-06T04:44:30.546161Z",
+  "display_name": "Nano Banana Pro",
+  "id": "bf26f9a9-c99f-4842-8b64-b2854e91ed3b",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_044430_bf26f9a9-c99f-4842-8b64-b2854e91ed3b_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "ef5175a6-f337-4f43-8f54-12cbf0d76537",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/ef5175a6-f337-4f43-8f54-12cbf0d76537_resize.jpg"
+    },
+    {
+     "id": "c243e41f-e890-4aa1-9184-6367814d25fc",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/c243e41f-e890-4aa1-9184-6367814d25fc_resize.jpg"
+    },
+    {
+     "id": "71e09738-17ee-46a3-b628-e433b4122f27",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/71e09738-17ee-46a3-b628-e433b4122f27.png"
+    },
+    {
+     "id": "71e09738-17ee-46a3-b628-e433b4122f27",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/71e09738-17ee-46a3-b628-e433b4122f27.png"
+    },
+    {
+     "id": "d875bf8c-8de0-47a5-86c2-7dfd64e407fd",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/d875bf8c-8de0-47a5-86c2-7dfd64e407fd.png"
+    },
+    {
+     "id": "d875bf8c-8de0-47a5-86c2-7dfd64e407fd",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/d875bf8c-8de0-47a5-86c2-7dfd64e407fd.png"
+    },
+    {
+     "id": "3ea19e1e-d6cf-4a2c-8351-eb9d02730e1c",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/3ea19e1e-d6cf-4a2c-8351-eb9d02730e1c.png"
+    },
+    {
+     "id": "3ea19e1e-d6cf-4a2c-8351-eb9d02730e1c",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/3ea19e1e-d6cf-4a2c-8351-eb9d02730e1c.png"
+    },
+    {
+     "id": "1b49a7b6-db1b-4b27-aecb-8dc9d587546b",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/1b49a7b6-db1b-4b27-aecb-8dc9d587546b.png"
+    },
+    {
+     "id": "69603a3c-d63b-4a8b-8c3b-740d7f0b56b9",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/69603a3c-d63b-4a8b-8c3b-740d7f0b56b9.png"
+    },
+    {
+     "id": "1f0cd846-67f9-42ad-9bd2-8893ca42c2f8",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/1f0cd846-67f9-42ad-9bd2-8893ca42c2f8.png"
+    },
+    {
+     "id": "38a48005-9e4c-4b28-96d3-af6fac19c1a0",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/38a48005-9e4c-4b28-96d3-af6fac19c1a0_resize.jpg"
+    }
+   ],
+   "prompt": "A frame grabbed from a sitcom video: candid mid-action, caught between movements, slight motion softness, not a posed photo. FRAME LOCK: reference image 1 is the START FRAME of this very shot, taken two seconds earlier from the same camera. Keep the camera position, lens, framing, every piece of furniture, the lighting, and the two people already in it (same seats, same poses, same clothes, same props: on the island counter the bowl of lemons AND the small vase of pink flowers stay exactly where they are in image 1) EXACTLY as in image 1. Reference image 2 is the empty set plate of the same camera. The ONLY change is described next. The only change: the woman is now typing fast with both thumbs on her phone held low over the counter, eyes down on the screen, a small busy grin, ignoring him; the man with glasses stands EXACTLY where he stands in image 1, on the LIVING-ROOM side of the island right beside her stool (in front of the counter, never behind it), sharp and in focus, phone lowered in his right hand, leaning in slightly and looking at her, waiting impatiently. The Nepali man stays head-down over the pickle jar behind the counter, wearing exactly the white chef's jacket and charcoal-grey bib apron as in image 1, with NO towel or cloth on his shoulder. The small vase of pink flowers and the bowl of lemons stay on the counter exactly as in image 1. SET DRESSING LOCK: on the island counter there are exactly one bowl of lemons and one small vase of pink flowers, as in the set plate; NO mug, NO cup, nothing else on the counter. The island has exactly THREE black bar stools on the living-room side. FIXED SET LAYOUT (identical to the evening master set image; never move furniture): seen from the audience side, the front door and the single straight oak staircase with black railing are on the far LEFT along the back wall; the big arched window is in the center of the back wall with the round oak dining table and chairs in front of it, behind-left of the sofa; the caramel corduroy sofa sits center facing the camera with the round oak coffee table (tomato-red tray, small flowers) in front of it and the mustard armchair at its right; a low oak sideboard with a radio and globe stands behind the armchair; the white marble kitchen island with three black stools is on the far RIGHT in front of the kitchen wall with copper pans and copper pendant lamps. Nothing else is rearranged. FIXED TIME AND LIGHTING (identical in every frame): 9 pm, evening. The arched window is dark navy with no daylight. All practical lamps are on (paper pendants, copper pendants over the island, table lamps, warm string lights). Warm tungsten color around 3000K, soft even low-contrast exposure, faces clearly lit, no deep shadows, no sunbeams, no blue light. Same brightness as the evening master set image. IDENTITY LOCK: each character's face must be the exact same person as in their face reference image (same eyes, nose, jaw, skin tone, hairline, hairstyle); do not beautify or generalize. Face references come right after the set plate, then outfit sheets, then the wide room. No text, no lettering, no logos anywhere. ",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_044430_bf26f9a9-c99f-4842-8b64-b2854e91ed3b.png",
+  "status": "completed"
+ }
+]

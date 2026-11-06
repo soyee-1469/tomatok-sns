@@ -1,0 +1,79 @@
+[
+ {
+  "created_at": "2026-11-06T04:33:01.271895Z",
+  "display_name": "Nano Banana Pro",
+  "id": "93614561-3376-45fd-8397-c6e87ac523e5",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_043301_93614561-3376-45fd-8397-c6e87ac523e5_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "b2207571-2148-4531-bb34-86851ac61ed8",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/b2207571-2148-4531-bb34-86851ac61ed8_resize.jpg"
+    },
+    {
+     "id": "d3beb965-e12e-4c65-9e13-ee44443d5500",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/d3beb965-e12e-4c65-9e13-ee44443d5500.png"
+    },
+    {
+     "id": "d3beb965-e12e-4c65-9e13-ee44443d5500",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/d3beb965-e12e-4c65-9e13-ee44443d5500.png"
+    },
+    {
+     "id": "3012819d-5caa-4a30-8646-3007f48e2a77",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/3012819d-5caa-4a30-8646-3007f48e2a77.png"
+    },
+    {
+     "id": "3012819d-5caa-4a30-8646-3007f48e2a77",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/3012819d-5caa-4a30-8646-3007f48e2a77.png"
+    },
+    {
+     "id": "e32b24f2-da69-4465-9a56-02afefe00a1c",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/e32b24f2-da69-4465-9a56-02afefe00a1c.png"
+    },
+    {
+     "id": "e32b24f2-da69-4465-9a56-02afefe00a1c",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/e32b24f2-da69-4465-9a56-02afefe00a1c.png"
+    },
+    {
+     "id": "44275f46-455a-42fc-aeb7-3bdf76870cbf",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/44275f46-455a-42fc-aeb7-3bdf76870cbf.png"
+    },
+    {
+     "id": "c7f754f4-63f4-415a-aecf-7e4c76036164",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/c7f754f4-63f4-415a-aecf-7e4c76036164.png"
+    },
+    {
+     "id": "bf92ce37-c8ca-4a3b-91bb-3703acf8d0df",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/bf92ce37-c8ca-4a3b-91bb-3703acf8d0df.png"
+    },
+    {
+     "id": "b2207571-2148-4531-bb34-86851ac61ed8",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/b2207571-2148-4531-bb34-86851ac61ed8_resize.jpg"
+    }
+   ],
+   "prompt": "A frame grabbed from a sitcom video: candid mid-action, caught between movements, slight motion softness, not a posed photo. PLATE LOCK: reference image 1 is the empty set plate shot from the exact camera position of this cut. Keep its framing, lens, furniture positions, window, lamps and lighting; only add the people described. Never move, add or remove furniture. ONE SINGLE photograph filling the whole 9:16 frame (no grid, no panels, no collage, no split screen). Wide shot from the exact camera of reference image 1 (the evening master wide, seen from the entrance wall). The sofa is EMPTY. the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers) stands beside the white marble island immediately next to the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses), who sits on the END black stool nearest the living room; he holds his phone, both of them looking at her phone together, relaxed. the Nepali man (31, deep brown skin, black curly hair, short trimmed beard, white chef's jacket, charcoal-grey bib apron over it, no towel) stands BEHIND the island counter further right, wearing his white chef's jacket with the charcoal-grey bib apron (NOT a t-shirt), holding a glass pickle jar, looking at them deadpan. Everyone small in frame, whole room visible, warm ending mood. SEAT LOCK: the man sits on the CENTER cushion of the three-seat sofa, squarely facing the camera, the coffee table tray directly in front of him; never on either end cushion. FIXED SET LAYOUT (identical to the evening master set image; never move furniture): seen from the audience side, the front door and the single straight oak staircase with black railing are on the far LEFT along the back wall; the big arched window is in the center of the back wall with the round oak dining table and chairs in front of it, behind-left of the sofa; the caramel corduroy sofa sits center facing the camera with the round oak coffee table (tomato-red tray, small flowers) in front of it and the mustard armchair at its right; a low oak sideboard with a radio and globe stands behind the armchair; the white marble kitchen island with three black stools is on the far RIGHT in front of the kitchen wall with copper pans and copper pendant lamps. Nothing else is rearranged. FIXED TIME AND LIGHTING (identical in every frame): 9 pm, evening. The arched window is dark navy with no daylight. All practical lamps are on (paper pendants, copper pendants over the island, table lamps, warm string lights). Warm tungsten color around 3000K, soft even low-contrast exposure, faces clearly lit, no deep shadows, no sunbeams, no blue light. Same brightness as the evening master set image. IDENTITY LOCK: each character's face must be the exact same person as in their face reference image (same eyes, nose, jaw, skin tone, hairline, hairstyle); do not beautify or generalize. Face references come right after the set plate, then outfit sheets, then the wide room. No text, no lettering, no logos anywhere. ",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261106_043301_93614561-3376-45fd-8397-c6e87ac523e5.png",
+  "status": "completed"
+ }
+]
