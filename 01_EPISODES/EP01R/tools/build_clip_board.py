@@ -316,7 +316,7 @@ def load_cards():
             raise SystemExit("{0}: 객체 json 이 아님".format(path))
         number = data.get("cut", data.get("n"))
         if number is None:
-            match = re.search(r"qa_(\d+)", os.path.basename(path))
+            match = re.search(r"qa_([0-9]+[A-Za-z]*)", os.path.basename(path))
             if not match:
                 raise SystemExit("{0}: cut 번호 없음".format(path))
             number = match.group(1)
@@ -512,7 +512,7 @@ def page_html(cards, dropped, total):
 
     if dropped:
         names = ", ".join(
-            "E1_{0:02d}/{1}".format(item["card"], os.path.basename(item["src"])) for item in dropped
+            "E1_{0}/{1}".format(tagn(item["card"]), os.path.basename(item["src"])) for item in dropped
         )
         budget = "용량 한도 60MB를 넘겨 오래된 테이크를 뺌: {0}. 현재 media {1:.1f}MB.".format(
             names, total / 1048576.0
