@@ -336,3 +336,13 @@ The man speaks in natural native Korean, low, calm and quiet, polite and unhurri
 - 통과 식은 그대로다. 단일 샷이고, 얼굴 4지점 모두 ≥0.45, 얼굴 폭 ≥180px, whisper 일치 ≥85%일 때만 「통과」. 필터는 전체/통과/재생성.
 - media 합이 60MB를 넘으면 수정시각이 오래된 테이크부터 빼는다. 최신 테이크와 540px 스틸 jpg는 남긴다. HTML은 `charset`·`title`·`style`·본문만이고 doctype/html/head/body 태그는 없다. 화면 문구에 비아/Bea를 넣지 않았다.
 - 검증: 이 클론에는 `qa_*.json`·mp4·스틸 png가 없다. 컷 3·4·5·7·8·9·10·11·12·13·14·19·22 임시 13장으로 `python3 01_EPISODES/EP01R/tools/build_clip_board.py` → `13 cards, 11 pass` (4=내부 컷, 12=얼굴 0.20/100px). 생성 HTML에 article/video/select 각 13, 금지 태그 없음, 기본 선택은 take02, take01 옵션은 QA 없음. 헤드리스 크롬에서 재생성 필터가 4·12만 보이고, 통과 11, 전체 13. 3번 셀렉트를 take01로 바꾸면 문구가 QA 없음이고 영상 src가 바뀐다. take02는 `play()` 후 paused=false, readyState=4, currentTime>0. 390px 폭에서도 가로 스크롤 없이 2열 카드와 재생성 필터가 동작했다. 60MB 제외는 크기 목록으로 확인(가장 오래된 항목부터 탈락, 필수 파일은 유지). 이번 13장 media는 0.1MB라 제외 없음. 임시 파일·jpg·mp4·`board_clips/`는 커밋하지 않았다. 발행은 하지 않았다.
+
+### 작업 28
+- 토글을 넣지 못했다. `tools/build_cast_board.py`가 이 저장소에 없다. `origin/main` 트리, 전체 git 오브젝트, 다른 브랜치, 이 머신 어디에도 없고 `/Users/ymy/project/sns`도 없다.
+- 없는 보드 생성기를 새로 쓰면 아이맥에 있는 파일을 대체한다. `#conti`의 `#conti1`/`#conti2`, 「1화 콘티」「2화 콘티」 토글, localStorage, `conti_checks`, `paintSec`는 바꾸지 않았다. 화면 문구도 추가하지 않았다.
+- 검증: `git ls-tree -r origin/main`과 `git rev-list --all --objects`에 `build_cast_board.py` 없음. `python3 tools/build_cast_board.py`는 실행하지 않았다.
+- 빌드가 없다. **발행 필요 아님.** 발행 필요는 빌드가 된 뒤에만 적는다. 2화 콘티 토글은 보드 소스에 없다. 파일이 저장소에 들어오면 이 작업은 다시 적용해야 한다.
+
+### 작업 26
+- 처리 보고의 완료 항목에 17·18·19·20이 없다. 끝낸 것으로 적을 내용이 없어 21~25보다 뒤에 그대로 둔다.
+- 17·18은 `tools/build_cast_board.py`가 없어 진행하지 않았다. 19·20·21~25는 이번 푸시에서 새로 만들지 않았다.
