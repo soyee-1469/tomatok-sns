@@ -321,3 +321,10 @@ The man speaks in natural native Korean, low, calm and quiet, polite and unhurri
 ```
 
 8번과 10번의 FORMAT MODE, CAMERA, PERFORMANCE, AUDIO, POSITIVE LOCKS는 3번과 같은 골격이다. 8·10 PERFORMANCE에는 준호 고정 문장(코미디언, 목소리를 높이지 않음)이 들어가 있다.
+
+### 작업 27
+- 고친 파일: `01_EPISODES/EP01R/tools/build_clip_board.py`. `batch_qa.py`는 이 클론에 없어 저장 형식은 그대로 두고 읽기만 맞췄다.
+- 맥 절대경로(`/Users/ymy/project/sns`)가 이 머신에 없으면 저장소 루트로 다시 찾는다. 컷 폴더 `video/v08/E1_nn/*_kling3_take*.mp4`를 `board_clips/media/`에 복사하고 `<select>`로 바꾼다. 기본 재생은 테이크 번호가 가장 큰 파일. QA JSON의 `clip`과 같은 테이크만 얼굴 4지점·whisper를 보여주고, 나머지는 「QA 없음」.
+- 통과 식은 그대로다. 단일 샷이고, 얼굴 4지점 모두 ≥0.45, 얼굴 폭 ≥180px, whisper 일치 ≥85%일 때만 「통과」. 필터는 전체/통과/재생성.
+- media 합이 60MB를 넘으면 수정시각이 오래된 테이크부터 빼는다. 최신 테이크와 540px 스틸 jpg는 남긴다. HTML은 `charset`·`title`·`style`·본문만이고 doctype/html/head/body 태그는 없다. 화면 문구에 비아/Bea를 넣지 않았다.
+- 검증: 이 클론에는 `qa_*.json`·mp4·스틸 png가 없다. 컷 3·4·5·7·8·9·10·11·12·13·14·19·22 임시 13장으로 `python3 01_EPISODES/EP01R/tools/build_clip_board.py` → `13 cards, 11 pass` (4=내부 컷, 12=얼굴 0.20/100px). 생성 HTML에 article/video/select 각 13, 금지 태그 없음, 기본 선택은 take02, take01 옵션은 QA 없음. 헤드리스 크롬에서 재생성 필터가 4·12만 보이고, 통과 11, 전체 13. 3번 셀렉트를 take01로 바꾸면 문구가 QA 없음이고 영상 src가 바뀐다. take02는 `play()` 후 paused=false, readyState=4, currentTime>0. 390px 폭에서도 가로 스크롤 없이 2열 카드와 재생성 필터가 동작했다. 60MB 제외는 크기 목록으로 확인(가장 오래된 항목부터 탈락, 필수 파일은 유지). 이번 13장 media는 0.1MB라 제외 없음. 임시 파일·jpg·mp4·`board_clips/`는 커밋하지 않았다. 발행은 하지 않았다.
