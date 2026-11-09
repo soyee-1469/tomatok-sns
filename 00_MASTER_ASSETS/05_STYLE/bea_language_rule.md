@@ -28,3 +28,24 @@
 - 영어는 **독립된 한 단어 문장**으로만: "Seriously." "No." "OK." "Sana all~" — 이 형태는 E2_03·E2_08에서 정확히 나왔다.
 - 따라서 1화 첫 줄은 "오빠, 그거 아직도 써?"로 확정. 리아의 혼합어 느낌은 "OK OK." "Seriously." 같은 독립 단어로 낸다.
 - 준호 개그 톤 테스트("첫인상이잖아! 22명이면 첫인상이 22개야.")는 whisper 정확, 톤 확인은 사용자 청취.
+
+## 1화 적용 초안 (2026-11-09, 사용자 "한국어만 많이 나온다" 지적 → 승인 대기)
+규칙 그대로: 영어는 **독립 한 단어 문장**으로 줄 앞/뒤에만. 한국어 뼈대는 v07 유지(22번만 길이 때문에 축약).
+| 컷 | 현재(v07) | 초안 |
+|---|---|---|
+| 3 | 오빠, 인사말 정리됐어? 지금 초대할게? | Ready? 오빠, 인사말 정리됐어? 지금 초대할게? |
+| 5 | 내가 잘 말해뒀어. 편하게 얘기해도 돼. | Relax. 내가 잘 말해뒀어. 편하게 얘기해도 돼. |
+| 9 | 다들 뭐라고 답장할까 고민 중이실 거야. | Honestly. 다들 뭐라고 답장할까 고민 중이실 거야. |
+| 22 | 다들 준호한테 무슨 말 할지 나한테 다 물어보고있어 ㅋㅋㅋㅋ | Guess what. 다들 준호한테 무슨 말 할지 나한테 다 물어봐 ㅋㅋㅋ |
+| 24 | 다들 궁금한게 많긴 하신가봐 ㅋㅋㅋ | Seriously. 다들 궁금한게 많긴 하신가봐 ㅋㅋㅋ |
+| 27 | 보내도 괜찮을지 체크해달래 | 보내도 괜찮을지 체크해달래. Cute. |
+| 31 | 응. 단톡방에 쓰면 다들 보니까. 틀릴까 봐 무서워하셔. | Yes. 단톡방에 쓰면 다들 보니까. 틀릴까 봐 무서워하셔. |
+| 33 | 엄마가 제일 무서워해. | Mom? 엄마가 제일 무서워해. |
+| 35 | 오빠, 지금 대기 열한 명이야. 나 바빠. | Sorry. 오빠, 지금 대기 열한 명이야. 나 바빠. |
+| 40 | 응 방금 그렇게 보내시라고 말씀드렸어 | Yep. 방금 그렇게 보내시라고 말씀드렸어 |
+| 42 | ……오빠도 검사받게? | ……Wait. 오빠도 검사받게? |
+자막(준호 폰 시점 한국어 뷰)은 영어 단어를 그대로 표기. 영어 단어는 매번 다른 단어(반복 금지).
+
+### VOICE 지시 강화안 (Kling 프롬프트, 테스트 후 조절)
+`The woman speaks Korean as her second language: a clearly noticeable Filipino-English accent, English-like stress and rising rhythm, slightly slower than a native speaker, vowels a little flattened, yet every Korean word is clear and intelligible; the standalone English word is pronounced natively in American English. Bright, playful tone.`
+테스트: 33번("Mom? 엄마가 제일 무서워해.") 3s 6cr → whisper로 한국어 단어 전부 인식되는지 확인 후 세기 조절.

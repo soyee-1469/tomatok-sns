@@ -1,0 +1,17 @@
+{
+ "cut": 9,
+ "who": "리아",
+ "line": "다들 뭐라고 답장할까 고민 중이실 거야.",
+ "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_09/EP01R_E1_09_kling3_take03.mp4",
+ "take": "EP01R_E1_09_kling3_take03",
+ "clip_qa": "4.0s | 단일 샷 | 첫↔끝 프레임 차 1.0 | 스파이크 []",
+ "face": {
+  "f25": "리아 0.54 (298px) ✓",
+  "f50": "리아 0.52 (296px) ✓",
+  "f75": "리아 0.52 (300px) ✓",
+  "end": "리아 0.55 (299px) ✓"
+ },
+ "whisper": "(lang ko p=0.95)\n   0.00- 4.00  다들 뭐라고 답장할까 고민 중이실 거야",
+ "face_pass": true,
+ "single_shot": true
+}

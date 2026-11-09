@@ -1,14 +1,17 @@
 SCENE CONTEXT
-Evening living room, sofa-axis camera: the caramel corduroy sofa faces the camera with the arched window and prayer flags behind it; the kitchen island is off-frame to the right. Exactly as in the start image: the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, ID badge on a navy lanyard, grey trousers, black leather shoes) in close-up on the sofa, phone in both hands.
+A single chest-up close-up, exactly as in the start image: the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, ID badge on a navy lanyard, grey trousers, black leather shoes) alone in a chest-up close-up on the center cushion of the sofa, the dark arched window and plant behind him, eyes down on the phone in his hand. Only what the start image shows is ever in frame; the rest of the room is never shown.
 
 FORMAT MODE
-ONE single continuous locked-off shot for the entire clip: no cuts, no shot changes, no punch-in, no second angle; the framing at the last frame is identical to the first frame.
+ONE single continuous locked-off shot for the entire clip: no cuts, no shot changes, no punch-in, no punch-out, no cut to a wider shot, no second angle; the shot size stays a chest-up close-up from the first frame to the last; the framing at the last frame is identical to the first frame.
 
 CAMERA
-Fixed camera on a tripod, exactly the framing of the start image for the entire 3 seconds: no zoom, no pan, no dolly, no reframing, the camera never follows a person. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain, no over-sharpening.
+Fixed camera on a tripod, exactly the framing of the start image for the entire clip: no zoom, no pan, no dolly, no reframing, the camera never follows a person. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain, no over-sharpening.
 
-ACTION
-0.0-0.5s hold, a quiet breath. 0.5-2.6s: he says the line hesitantly, a flustered, slightly panicked look creeping in, eyes drifting from the phone to the middle distance; lips move only as much as the words need, mouth never opens wide. 2.6-3.0s: holds the flustered face, swallows.
+ACTION (only the movements listed below happen; nothing else moves)
+0.0-0.5s: eyes on the phone, lips closed, a quiet breath. 0.5-1.0s: on '아…' lips part slightly, eyes stay on the phone. 1.0-1.3s: a hesitation, lips parted but silent. 1.3-2.5s: on '전화가 오면 어쩌지…' his eyes drift up from the phone to the middle distance toward camera-RIGHT, eyebrows draw together a little. 2.5-3.0s: no new movement; he swallows once.
+
+CHARACTERS
+Rule: the man with glasses moves only his eyes, eyebrows and lips; head stays within a few degrees; glasses never come off; no grin.
 
 PERFORMANCE
 In character: flustered, quietly panicked; minimal facial movement, no grin. No exaggerated acting, nobody looks at the camera.
@@ -20,4 +23,4 @@ POSITIVE LOCKS
 Continue exactly from the start image. Everyone keeps the same face, hair, glasses, clothes and position through the whole take; nobody else enters the frame. Same room, furniture, lamps and colors. No subtitles, no on-screen text, no watermark.
 
 DIALOGUE
-The man speaks natural native Korean, low, calm and quiet, polite and unhurried, never raising his voice, the sentence ending on a soft falling tone: "…아… 전화가 오면 어쩌지…". Only this one line and nothing else; no other words in any language. Natural, underplayed delivery: lips move only as much as the words need, the mouth never opens wide, no exaggerated expressions; visible lip-sync, mouth movements match every word. Nobody else speaks.
+The man speaks natural native Korean, low, calm and quiet, polite and unhurried, never raising his voice, the sentence ending on a soft falling tone: "…아… 전화가 오면 어쩌지…". The line begins within the first 0.3 seconds and every word of it is spoken, from the first word to the last. Only this one line and nothing else; no other words in any language. Natural, underplayed delivery: lips move only as much as the words need, the mouth never opens wide, no exaggerated expressions; visible lip-sync, mouth movements match every word. Nobody else speaks.

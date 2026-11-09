@@ -1,14 +1,17 @@
 SCENE CONTEXT
-Evening living room, island-axis camera: the living room on camera-left, the white marble kitchen island with an oak body, copper shelves and the fridge on camera-right; NO window in frame. Exactly as in the start image: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses) sits on the end bar stool looking down at her phone.
+A single chest-up close-up, exactly as in the start image: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses) alone in a chest-up close-up on a bar stool, eyes down on the phone in her hands, copper shelves and jars behind her. Only what the start image shows is ever in frame; the rest of the room is never shown.
 
 FORMAT MODE
-One continuous shot, no cuts.
+ONE single continuous locked-off shot for the entire clip: no cuts, no shot changes, no punch-in, no punch-out, no cut to a wider shot, no second angle; the shot size stays a chest-up close-up from the first frame to the last; the framing at the last frame is identical to the first frame.
 
 CAMERA
-Fixed camera on a tripod, exactly the framing of the start image, no zoom, no pan, no handheld sway. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain, no over-sharpening.
+Fixed camera on a tripod, exactly the framing of the start image for the entire clip: no zoom, no pan, no dolly, no reframing, the camera never follows a person. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain, no over-sharpening.
 
-ACTION
-0.0-0.4s hold. 0.4-2.6s: eyes on her own phone, she says the line calmly, a warm half-smile, a small nod. 2.6-3.0s: keeps scrolling.
+ACTION (only the movements listed below happen; nothing else moves)
+0.0-0.4s: eyes on the phone, thumb still, lips closed. 0.4-1.6s: on '다들 뭐라고 답장할까' eyes stay on the phone, one small nod. 1.6-1.9s: a short pause, lips closed. 1.9-3.2s: on '고민 중이실 거야.' her eyes flick up toward camera-LEFT for half a second and return to the phone; the corners of her mouth lift a little. 3.2-4.0s: no new movement; her thumb scrolls once.
+
+CHARACTERS
+Rule: the woman moves only her eyes, eyebrows and lips; head stays within a few degrees; shoulders and hands stay still except where the beats say so.
 
 PERFORMANCE
 In character: calm, reassuring, warm. No exaggerated acting, nobody looks at the camera.
@@ -20,4 +23,4 @@ POSITIVE LOCKS
 Continue exactly from the start image. Everyone keeps the same face, hair, glasses, clothes and position through the whole take; nobody else enters the frame. Same room, furniture, lamps and colors. No subtitles, no on-screen text, no watermark.
 
 DIALOGUE
-The woman speaks fluent Korean with a light Filipino-English accent and a bright, playful rising rhythm: "다들 뭐라고 답장할까 고민 중이실 거야.". Only this one line and nothing else; no other words in any language. Natural delivery, visible lip-sync, mouth movements match every word. Nobody else speaks.
+The woman speaks fluent Korean with a light Filipino-English accent and a bright, playful rising rhythm: "다들 뭐라고 답장할까 고민 중이실 거야.". Only this one line and nothing else; no other words in any language. Natural, underplayed delivery: lips move only as much as the words need, the mouth never opens wide, no exaggerated expressions; visible lip-sync, mouth movements match every word. Nobody else speaks.

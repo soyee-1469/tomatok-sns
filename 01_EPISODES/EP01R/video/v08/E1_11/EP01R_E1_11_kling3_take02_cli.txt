@@ -1,0 +1,48 @@
+[
+  {
+    "created_at": "2026-11-09T01:41:37.522205Z",
+    "display_name": "Kling v3.0",
+    "id": "e2d51302-2137-4de2-8a74-9cf0f8a107fd",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 3,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "34bf6c4b-3339-4c04-85ad-b1ec7b0929e7",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/34bf6c4b-3339-4c04-85ad-b1ec7b0929e7.png"
+          },
+          "role": "start_image"
+        },
+        {
+          "data": {
+            "id": "34bf6c4b-3339-4c04-85ad-b1ec7b0929e7",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/34bf6c4b-3339-4c04-85ad-b1ec7b0929e7.png"
+          },
+          "role": "end_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "SCENE CONTEXT\nA single chest-up close-up, exactly as in the start image: the Nepali man (31, deep brown skin, black curly hair, short trimmed beard, white chef's jacket with a plain black bib apron, no towel) alone in a chest-up close-up behind the counter, head down toward his hands, copper shelves behind him. Only what the start image shows is ever in frame; the rest of the room is never shown.\n\nFORMAT MODE\nONE single continuous locked-off shot for the entire clip: no cuts, no shot changes, no punch-in, no punch-out, no cut to a wider shot, no second angle; the shot size stays a chest-up close-up from the first frame to the last; the framing at the last frame is identical to the first frame.\n\nCAMERA\nFixed camera on a tripod, exactly the framing of the start image for the entire clip: no zoom, no pan, no dolly, no reframing, the camera never follows a person. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain, no over-sharpening.\n\nACTION (only the movements listed below happen; nothing else moves)\n0.0-0.4s: head down toward his hands below frame, lips closed. 0.4-1.4s: on '우리 집도 그래~' only the lips move; the head stays down. 1.4-1.7s: a short pause. 1.7-2.6s: on '읽기만 해...' his eyes lift toward camera-LEFT for a moment without the head moving, then drop again. 2.6-3.0s: no new movement; head down.\n\nCHARACTERS\nRule: the Nepali man moves only his lips and, at most, his eyes; head and shoulders stay still; he never smiles wide.\n\nPERFORMANCE\nIn character: nonchalant, deadpan, dry; minimal facial movement. No exaggerated acting, nobody looks at the camera.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.\n\nPOSITIVE LOCKS\nContinue exactly from the start image. Everyone keeps the same face, hair, glasses, clothes and position through the whole take; nobody else enters the frame. Same room, furniture, lamps and colors. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe Nepali man speaks calm, deadpan, unhurried Korean with a slight foreign accent, low voice, flat ending: \"우리 집도 그래 읽기만 해...\". The line begins within the first 0.3 seconds and every word of it is spoken, from the first word to the last. Only this one line and nothing else; no other words in any language. Natural, underplayed delivery: lips move only as much as the words need, the mouth never opens wide, no exaggerated expressions; visible lip-sync, mouth movements match every word. Nobody else speaks.",
+      "reference_elements": [],
+      "sound": "on",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261109_014137_e2d51302-2137-4de2-8a74-9cf0f8a107fd.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261109_014137_e2d51302-2137-4de2-8a74-9cf0f8a107fd_thumbnail.webp"
+  }
+]
+--stderr--

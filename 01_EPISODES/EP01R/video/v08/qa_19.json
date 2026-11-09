@@ -1,0 +1,17 @@
+{
+ "cut": 19,
+ "who": "준호",
+ "line": "어? 뭐야 뭐야, 뭔데? 나도 보여줘.",
+ "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_19/EP01R_E1_19_kling3_take01.mp4",
+ "take": "EP01R_E1_19_kling3_take01",
+ "clip_qa": "3.0s | 단일 샷 | 첫↔끝 프레임 차 6.9 | 스파이크 []",
+ "face": {
+  "f25": "준호 0.29 (53px) ✗",
+  "f50": "준호 0.28 (52px) ✗",
+  "f75": "준호 0.28 (51px) ✗",
+  "end": "준호 0.40 (51px) ✗"
+ },
+ "whisper": "(lang ko p=1.00)\n   0.00- 3.00  어? 뭐야 뭐야 뭔데? 나도 보여줘",
+ "face_pass": false,
+ "single_shot": true
+}

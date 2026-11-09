@@ -1,0 +1,26 @@
+SCENE CONTEXT
+A single chest-up close-up, exactly as in the start image: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses) alone in a chest-up close-up on a bar stool, eyes down on the phone in her hands, copper shelves and jars behind her. Only what the start image shows is ever in frame; the rest of the room is never shown.
+
+FORMAT MODE
+ONE single continuous locked-off shot for the entire clip: no cuts, no shot changes, no punch-in, no punch-out, no cut to a wider shot, no second angle; the shot size stays a chest-up close-up from the first frame to the last; the framing at the last frame is identical to the first frame.
+
+CAMERA
+Fixed camera on a tripod, exactly the framing of the start image for the entire clip: no zoom, no pan, no dolly, no reframing, the camera never follows a person. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain, no over-sharpening.
+
+ACTION (only the movements listed below happen; nothing else moves)
+0.0-0.4s: eyes on the phone, thumb still. 0.4-0.8s: her thumb taps the screen once. 0.8-2.4s: on '보내도 괜찮을지 체크해달래' eyes stay on the phone, only the lips move, one tiny nod at the end. 2.4-3.0s: no new movement; she keeps reading.
+
+CHARACTERS
+Rule: the woman moves only her eyes, eyebrows and lips; head stays within a few degrees; shoulders and hands stay still except where the beats say so.
+
+PERFORMANCE
+In character: cool, matter-of-fact; minimal facial movement. No exaggerated acting, nobody looks at the camera.
+
+AUDIO
+Quiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.
+
+POSITIVE LOCKS
+Continue exactly from the start image. Everyone keeps the same face, hair, glasses, clothes and position through the whole take; nobody else enters the frame. Same room, furniture, lamps and colors. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The woman speaks fluent Korean with a light Filipino-English accent and a bright, playful rising rhythm: "보내도 괜찮을지 체크해달래". The line begins within the first 0.3 seconds and every word of it is spoken, from the first word to the last. Only this one line and nothing else; no other words in any language. Natural, underplayed delivery: lips move only as much as the words need, the mouth never opens wide, no exaggerated expressions; visible lip-sync, mouth movements match every word. Nobody else speaks.

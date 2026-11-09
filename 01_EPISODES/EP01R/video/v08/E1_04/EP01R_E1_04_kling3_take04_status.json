@@ -1,0 +1,47 @@
+[
+ {
+  "created_at": "2026-11-09T01:35:48.428731Z",
+  "display_name": "Kling v3.0",
+  "id": "a159d65a-6b9a-46c5-97e3-63fc3c5e8b45",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+   "aspect_ratio": "9:16",
+   "cfg_scale": 0.5,
+   "duration": 4,
+   "enhance_prompt": false,
+   "height": 1280,
+   "kling_element_ids": [],
+   "kling_elements": [],
+   "medias": [
+    {
+     "data": {
+      "id": "ae001f87-a050-4ad1-b165-d73fa874c4e1",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/ae001f87-a050-4ad1-b165-d73fa874c4e1.png"
+     },
+     "role": "start_image"
+    },
+    {
+     "data": {
+      "id": "ae001f87-a050-4ad1-b165-d73fa874c4e1",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/ae001f87-a050-4ad1-b165-d73fa874c4e1.png"
+     },
+     "role": "end_image"
+    }
+   ],
+   "mode": "std",
+   "multi_prompt": [],
+   "multi_shot_mode": "custom",
+   "multi_shots": false,
+   "prompt": "SCENE CONTEXT\nA single chest-up close-up, exactly as in the start image: the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, ID badge on a navy lanyard, grey trousers, black leather shoes) alone in a chest-up close-up on the center cushion of the sofa, the dark arched window and plant behind him, eyes down on the phone in his hand. Only what the start image shows is ever in frame; the rest of the room is never shown.\n\nFORMAT MODE\nONE single continuous locked-off shot for the entire clip: no cuts, no shot changes, no punch-in, no punch-out, no cut to a wider shot, no second angle; the shot size stays a chest-up close-up from the first frame to the last; the framing at the last frame is identical to the first frame.\n\nCAMERA\nFixed camera on a tripod, exactly the framing of the start image for the entire clip: no zoom, no pan, no dolly, no reframing, the camera never follows a person. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain, no over-sharpening.\n\nACTION (only the movements listed below happen; nothing else moves)\n0.0-0.3s: eyes on the phone, lips closed. 0.3-1.0s: on '남자친구?' his eyes lift toward camera-RIGHT, head still. 1.0-1.7s: on '예비신랑?' his head tilts a few degrees to one side. 1.7-2.5s: on '남편이 될 사람?' the head tilts back the other way, eyebrows up. 2.5-2.8s: a short hesitation, lips parted but silent. 2.8-3.5s: on '어떤 게 좋을까?' eyebrows stay up, one slow blink, eyes on camera-RIGHT. 3.5-4.0s: no new movement; he holds the look.\n\nCHARACTERS\nRule: the man with glasses moves only his eyes, eyebrows and lips; head stays within a few degrees; glasses never come off; no grin.\n\nPERFORMANCE\nIn character: earnest, a little anxious, gently comic; minimal facial movement. No exaggerated acting, nobody looks at the camera.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.\n\nPOSITIVE LOCKS\nContinue exactly from the start image. Everyone keeps the same face, hair, glasses, clothes and position through the whole take; nobody else enters the frame. Same room, furniture, lamps and colors. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe man speaks natural native Korean, low, calm and quiet, polite and unhurried, never raising his voice, the sentence ending on a soft falling tone: \"남자친구? 예비신랑? 남편이 될 사람? 어떤 게 좋을까?\". Only this one line and nothing else; no other words in any language. Natural, underplayed delivery: lips move only as much as the words need, the mouth never opens wide, no exaggerated expressions; visible lip-sync, mouth movements match every word. Nobody else speaks.",
+   "reference_elements": [],
+   "sound": "on",
+   "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261109_013548_a159d65a-6b9a-46c5-97e3-63fc3c5e8b45.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261109_013548_a159d65a-6b9a-46c5-97e3-63fc3c5e8b45_thumbnail.webp"
+ }
+]

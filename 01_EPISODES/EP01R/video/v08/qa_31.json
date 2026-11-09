@@ -1,0 +1,19 @@
+{
+ "cut": 31,
+ "who": "리아",
+ "line": "Yes. 단톡방에 쓰면 다들 보니까. 틀릴까 봐 무서워하셔.",
+ "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_31/EP01R_E1_31_kling3_take01.mp4",
+ "take": "EP01R_E1_31_kling3_take01",
+ "clip_qa": "4.0s | 단일 샷 | 첫↔끝 프레임 차 1.0 | 스파이크 []",
+ "face": {
+  "f25": "리아 0.61 (305px) ✓",
+  "f50": "리아 0.53 (297px) ✓",
+  "f75": "리아 0.59 (300px) ✓",
+  "end": "리아 0.58 (300px) ✓"
+ },
+ "whisper": "(lang ko p=0.97)\n   0.00- 5.50  예스 단톡방에 쓰면 다들 보니까 틀릴까 봐 무서워 하셔",
+ "face_pass": true,
+ "single_shot": true,
+ "max_db": -6.0,
+ "silent": false
+}

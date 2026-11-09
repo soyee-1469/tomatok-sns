@@ -1,0 +1,19 @@
+{
+ "cut": 34,
+ "who": "준호",
+ "line": "……나만 무서운 줄 알았는데.",
+ "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_34/EP01R_E1_34_kling3_take01.mp4",
+ "take": "EP01R_E1_34_kling3_take01",
+ "clip_qa": "3.0s | 단일 샷 | 첫↔끝 프레임 차 1.0 | 스파이크 []",
+ "face": {
+  "f25": "준호 0.56 (192px) ✗",
+  "f50": "준호 0.53 (190px) ✗",
+  "f75": "준호 0.52 (191px) ✗",
+  "end": "준호 0.57 (194px) ✗"
+ },
+ "whisper": "(lang ko p=1.00)\n   0.00-10.00  나만 무서운 줄 알았는데.",
+ "face_pass": false,
+ "single_shot": true,
+ "max_db": -5.0,
+ "silent": false
+}

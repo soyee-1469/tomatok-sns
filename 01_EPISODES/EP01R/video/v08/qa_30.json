@@ -1,0 +1,19 @@
+{
+ "cut": 30,
+ "who": "준호",
+ "line": "……스물한 명이 지금 나한테 물어볼 걸 너한테 검사받는 중이라고?",
+ "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_30/EP01R_E1_30_kling3_take01.mp4",
+ "take": "EP01R_E1_30_kling3_take01",
+ "clip_qa": "5.0s | 단일 샷 | 첫↔끝 프레임 차 0.9 | 스파이크 []",
+ "face": {
+  "f25": "준호 0.56 (191px) ✗",
+  "f50": "준호 0.55 (192px) ✗",
+  "f75": "준호 0.50 (191px) ✗",
+  "end": "준호 0.57 (193px) ✗"
+ },
+ "whisper": "(lang ko p=0.99)\n   0.00- 5.00  21명이 지금 나한테 물어볼 걸 너한테 검사받는 중이라고?",
+ "face_pass": false,
+ "single_shot": true,
+ "max_db": -9.3,
+ "silent": false
+}

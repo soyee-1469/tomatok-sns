@@ -1,0 +1,19 @@
+{
+ "cut": 26,
+ "who": "준호",
+ "line": "……이게 뭐야.",
+ "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_26/EP01R_E1_26_kling3_take01.mp4",
+ "take": "EP01R_E1_26_kling3_take01",
+ "clip_qa": "3.0s | 단일 샷 | 첫↔끝 프레임 차 1.0 | 스파이크 []",
+ "face": {
+  "f25": "준호 0.57 (192px) ✗",
+  "f50": "준호 0.55 (191px) ✗",
+  "f75": "준호 0.58 (191px) ✗",
+  "end": "준호 0.56 (192px) ✗"
+ },
+ "whisper": "(lang ko p=0.98)\n   0.00- 2.00  이게 뭐야?",
+ "face_pass": false,
+ "single_shot": true,
+ "max_db": -8.8,
+ "silent": false
+}

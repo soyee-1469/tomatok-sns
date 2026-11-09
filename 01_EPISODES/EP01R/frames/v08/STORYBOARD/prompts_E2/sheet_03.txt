@@ -1,0 +1,22 @@
+Storyboard for one sitcom episode, 3x4 grid (12 panels), each panel 9:16 portrait. Grey pencil sketch, no color, no shading detail, loose lines. Same characters and same apartment in every panel.
+Draw characters as faceless croquis figures: blank oval heads, NO facial features. Show head direction with a single small wedge for the nose, and draw an arrow from the head to whatever the character is looking at, with a label like "looks at Ria" or "looks at phone".
+Set: Korean apartment living room. Left = caramel corduroy sofa + round coffee table. Right = white marble kitchen island with black bar stools. Arched window on back wall.
+Characters: JUNHO (man, glasses, navy shirt, phone in his pocket). RIA (woman, white shirt, phone in hand). Sundeok enters only when a panel says so.
+Camera axis for all panels: sofa on camera-left, island on camera-right. Do not flip.
+Furniture layout and angles must match the attached set photos exactly: the sofa faces the camera squarely with its back to the arched window; do not rotate or move furniture.
+Fixed positions in every panel of episode 2: Junho and Ria sit on OPPOSITE ENDS of the sofa; one cushion stays in the MIDDLE as a border between them. Do not sit Junho on the center cushion. Do not move Ria to the island. Sundeok stays outside until a panel says she enters, carrying banchan containers. Suman is not in this episode. Do not move anyone unless the panel says so.
+SET DRESSING LOCK: on the island counter there are exactly one bowl of lemons and one small vase of pink flowers, exactly as in the set plate; nothing else on the counter except the props listed for the characters.
+SET DRESSING LOCK: on the coffee table exactly the tomato-red tray, a small vase of baby's breath and two books, as in the set plate; nothing else.
+Label each panel with the cut number and "sofa-axis" or "island-axis" in small text.
+Panel 1 — CUT 25 (2화, sofa-axis): 리아가 일어나 완벽한 한국어로. 영어 단어 0개 / 두 손 모으고 살짝 숙임 / 리아가쇼파에서 일어나 할머니를 살짝 앉으며 얘기한다. / looks at Ria
+Panel 2 — CUT 26 (2화, sofa-axis): 할머니 얼굴이 녹는다. 준호가 29년 동안 못 받은 얼굴 / 반찬통 하나 리아에게 / 리아를 지나 냉장고로 걸어가면서 반찬통을 살짞 들어올리며 리아에게 얘기한다. / looks at Ria and Junho
+Panel 3 — CUT 27 (2화, sofa-axis): 준호가 소파에서 벌떡 일어나 할머니 뒤를 따라가며 반찬통을 받아 들려 한다 (할머니는 냉장고 쪽으로 걷는 중, 둘 다 서 있음) / 빠른 걸음으로 뒤따르며 두 손 내밀어 반찬통 받으려 함 / 할머니 반찬통을 들어드리며 냉장고로 가는 할머니를 쫒아간다. / looks at Junho
+Panel 4 — CUT 28 (2화, sofa-axis): 손자에게 / 눈 돌리며 / 할머니가 냉장고에 반찬을 넣으며 리아에게 얘기한다. / looks at Ria
+Panel 5 — CUT 29 (2화, sofa-axis): 문이 닫히고 쿠션이 돌아온다. 이번엔 말 대신 폰으로 싸운다. 띠링 띠링 / 둘 다 타이핑 / 할머니가 나가시고 리아와 준호는 각자 핸드폰을 바라보며 열심히 채팅을 친다 / looks at Ria and Junho and the phone
+Panel 6 — CUT 30 (2화, sofa-axis): UI: V19_JUN_KR
+Panel 7 — CUT 31 (2화, sofa-axis): UI: V20_BEA_EN
+Panel 8 — CUT 32 (2화, sofa-axis): 번역기가 김을 뺀다 / 웃음 터지기 직전 / 상황이 너무 웃겨서 화가 풀린 리아. 준호를 바라보며 얘기한다. / looks at Ria and Junho
+Panel 9 — CUT 33 (2화, sofa-axis): 준호가 따라 웃다가 급히 진지한 얼굴로 돌아온다. 아직 싸우는 중이니까 / 표정 급전환 / 준호도 베시시 웃으며 리아를 쳐다보며 얘기한다. / looks at Ria and Junho
+Panel 10 — CUT 34 (2화, sofa-axis): 할머니가 반찬통 하나 들고 다시 들어와 판결 / 문 반쯤, 반찬통 1개 / looks ahead
+Panel 11 — CUT 35 (2화, sofa-axis): 할머니가 거실에서 한 상자 얘기를 다 들었다고 하자 준호가 얼떨떨해진다(보청기) / 멍 / looks at Junho
+Panel 12 — CUT 36 (2화, sofa-axis): 말버릇 / 눈 가늘게 / looks ahead

@@ -1,0 +1,19 @@
+{
+ "cut": 14,
+ "who": "준호",
+ "line": "…아… 전화가 오면 어쩌지…",
+ "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_14/EP01R_E1_14_kling3_take02.mp4",
+ "take": "EP01R_E1_14_kling3_take02",
+ "clip_qa": "3.0s | 단일 샷 | 첫↔끝 프레임 차 0.9 | 스파이크 []",
+ "face": {
+  "f25": "준호 0.48 (299px) ✓",
+  "f50": "준호 0.46 (303px) ✓",
+  "f75": "준호 0.50 (301px) ✓",
+  "end": "준호 0.52 (301px) ✓"
+ },
+ "whisper": "(lang ko p=1.00)\n   0.00-10.00  아, 전화가 오면 어쩌지?",
+ "face_pass": true,
+ "single_shot": true,
+ "max_db": -5.3,
+ "silent": false
+}

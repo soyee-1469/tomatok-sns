@@ -1,0 +1,19 @@
+{
+ "cut": 12,
+ "who": "준호",
+ "line": "누구 한 분은 답변해 주시겠죠?",
+ "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_12/EP01R_E1_12_kling3_take02.mp4",
+ "take": "EP01R_E1_12_kling3_take02",
+ "clip_qa": "3.0s | 단일 샷 | 첫↔끝 프레임 차 0.9 | 스파이크 []",
+ "face": {
+  "f25": "준호 0.49 (297px) ✓",
+  "f50": "준호 0.50 (301px) ✓",
+  "f75": "준호 0.48 (296px) ✓",
+  "end": "준호 0.53 (302px) ✓"
+ },
+ "whisper": "(lang ko p=1.00)\n   0.00- 3.00  누구 한 분은 답변해 주시겠죠?",
+ "face_pass": true,
+ "single_shot": true,
+ "max_db": -4.9,
+ "silent": false
+}

@@ -1,0 +1,19 @@
+{
+ "cut": 35,
+ "who": "리아",
+ "line": "오빠, 나 빨리 답변해드려야해~ 너무 바빠ㅋㅋㅋ",
+ "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_35/EP01R_E1_35_kling3_take01.mp4",
+ "take": "EP01R_E1_35_kling3_take01",
+ "clip_qa": "4.0s | 단일 샷 | 첫↔끝 프레임 차 1.1 | 스파이크 []",
+ "face": {
+  "f25": "리아 0.52 (298px) ✓",
+  "f50": "리아 0.48 (296px) ✓",
+  "f75": "리아 0.53 (299px) ✓",
+  "end": "리아 0.53 (299px) ✓"
+ },
+ "whisper": "(lang ko p=1.00)\n   0.00- 5.28  오빠 나 빨리 답변해 드려야 해 너무 바빠",
+ "face_pass": true,
+ "single_shot": true,
+ "max_db": -4.9,
+ "silent": false
+}

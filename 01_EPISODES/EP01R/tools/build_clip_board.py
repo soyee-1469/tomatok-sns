@@ -361,6 +361,16 @@ def load_cards():
             folder = os.path.join(ep, "video", "v08", "E1_" + tagn(number))
             raise SystemExit("컷 {0}: mp4 없음 ({1})".format(number, folder))
         latest_i = max(range(len(takes)), key=lambda i: (takes[i]["take_num"], takes[i]["mtime"]))
+        _ov = {}
+        _ovp = os.path.join(ep, "video", "v08", "board_default_takes.json")
+        if os.path.isfile(_ovp):
+            _ov = load_json(_ovp).get(str(number), {})
+        if _ov.get("default"):
+            for _i, _t in enumerate(takes):
+                if os.path.basename(_t["src"]) == _ov["default"]:
+                    latest_i = _i
+        hold_note = _ov.get("note", "") if (_ov.get("hold") or _ov.get("default")) else ""
+        hold_flag = bool(_ov.get("hold"))
         for index, take in enumerate(takes):
             take["required"] = index == latest_i
         still_src = resolve_path(row.get("src") or "")
@@ -373,7 +383,8 @@ def load_cards():
             "act": row.get("dir_override") or row.get("action") or "",
             "frame": row.get("frame") or os.path.basename(still_src),
             "still_src": still_src,
-            "verdict": info["verdict"],
+            "verdict": ("보류" if hold_flag else info["verdict"]),
+            "hold_note": hold_note,
             "why": info["why"],
             "info": info,
             "takes": takes,

@@ -1,0 +1,19 @@
+{
+ "cut": "4b",
+ "who": "준호",
+ "line": "어떤 게 좋을까?",
+ "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_4b/EP01R_E1_4b_kling3_take01.mp4",
+ "take": "EP01R_E1_4b_kling3_take01",
+ "clip_qa": "3.0s | 단일 샷 | 첫↔끝 프레임 차 0.9 | 스파이크 []",
+ "face": {
+  "f25": "준호 0.51 (300px) ✓",
+  "f50": "준호 0.51 (301px) ✓",
+  "f75": "준호 0.52 (300px) ✓",
+  "end": "준호 0.51 (302px) ✓"
+ },
+ "whisper": "(lang ko p=1.00)\n   0.00- 5.50  어떤 게 좋을까?",
+ "face_pass": true,
+ "single_shot": true,
+ "max_db": -4.4,
+ "silent": false
+}

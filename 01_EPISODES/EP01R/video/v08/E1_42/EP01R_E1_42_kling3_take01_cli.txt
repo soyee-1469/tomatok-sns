@@ -1,0 +1,48 @@
+[
+  {
+    "created_at": "2026-11-09T02:07:32.619948Z",
+    "display_name": "Kling v3.0",
+    "id": "0c3ea6de-131e-45cb-8cb6-c40028b2ace1",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 3,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "93d9050f-011a-4377-8cdf-3fcc06c1b9a5",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/93d9050f-011a-4377-8cdf-3fcc06c1b9a5.png"
+          },
+          "role": "start_image"
+        },
+        {
+          "data": {
+            "id": "93d9050f-011a-4377-8cdf-3fcc06c1b9a5",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/93d9050f-011a-4377-8cdf-3fcc06c1b9a5.png"
+          },
+          "role": "end_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "SCENE CONTEXT\nA single chest-up close-up, exactly as in the start image: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses) alone in a chest-up close-up on a bar stool, face turned up toward camera-LEFT with a small smile, copper shelves and jars behind her. Only what the start image shows is ever in frame; the rest of the room is never shown.\n\nFORMAT MODE\nONE single continuous locked-off shot for the entire clip: no cuts, no shot changes, no punch-in, no punch-out, no cut to a wider shot, no second angle; the shot size stays a chest-up close-up from the first frame to the last; the framing at the last frame is identical to the first frame.\n\nCAMERA\nFixed camera on a tripod, exactly the framing of the start image for the entire clip: no zoom, no pan, no dolly, no reframing, the camera never follows a person. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain, no over-sharpening.\n\nACTION (only the movements listed below happen; nothing else moves)\n0.0-0.6s: eyes toward camera-LEFT, lips closed, no movement. 0.6-1.1s: on 'Wait.' one eyebrow rises. 1.1-2.2s: on '오빠도 검사받게?' lips move slowly, the corner of her mouth lifts on one side. 2.2-3.0s: no new movement; the half smile and the raised eyebrow stay.\n\nCHARACTERS\nRule: the woman moves only her eyes, eyebrows and lips; head stays within a few degrees; shoulders and hands stay still except where the beats say so.\n\nPERFORMANCE\nIn character: amused disbelief, fond; minimal facial movement. No exaggerated acting, nobody looks at the camera.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.\n\nPOSITIVE LOCKS\nContinue exactly from the start image. Everyone keeps the same face, hair, glasses, clothes and position through the whole take; nobody else enters the frame. Same room, furniture, lamps and colors. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe woman speaks Korean as her second language: a clearly noticeable Filipino-English accent, English-like stress and rising rhythm, slightly slower than a native speaker, vowels a little flattened, yet every Korean word is clear and intelligible; the standalone English word is pronounced natively in American English. Bright, playful tone: \"……Wait. 오빠도 검사받게?\". The line begins within the first 0.3 seconds and every word of it is spoken, from the first word to the last. Only this one line and nothing else; no other words in any language. The English word is a separate short sentence spoken in natural American English; all other words are Korean. Natural, underplayed delivery: lips move only as much as the words need, the mouth never opens wide, no exaggerated expressions; visible lip-sync, mouth movements match every word. Nobody else speaks.",
+      "reference_elements": [],
+      "sound": "on",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261109_020732_0c3ea6de-131e-45cb-8cb6-c40028b2ace1.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261109_020732_0c3ea6de-131e-45cb-8cb6-c40028b2ace1_thumbnail.webp"
+  }
+]
+--stderr--

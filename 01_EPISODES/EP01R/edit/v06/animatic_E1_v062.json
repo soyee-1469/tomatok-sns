@@ -40,7 +40,7 @@
  {
   "n": 3,
   "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
-  "dur": 2.2,
+  "dur": 3.04,
   "line": "오빠, 인사말 정리됐어? 지금 초대할게?",
   "who": "리아",
   "kind": "still",
@@ -56,12 +56,16 @@
   "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/H03_ria_tease.png",
   "line_prev": "오빠, 그거 아직도 써?",
   "dir_override": "폰에서 눈 떼고 소파 쪽으로 고개, 눈썹 올림. 준호를 단톡방에 초대하기 직전",
-  "frame_group": "H03_ria_tease"
+  "frame_group": "H03_ria_tease",
+  "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_03/EP01R_E1_03_kling3_take01.mp4",
+  "clip_dur": 3.04,
+  "dur_still_backup": 2.2,
+  "clip_note": "11-06 take01 (사용자 선택 2026-11-09)"
  },
  {
   "n": 4,
   "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/S_junho_sofa_cu.png",
-  "dur": 4.5,
+  "dur": 5.04,
   "line": "남자친구? 예비신랑? 남편이 될 사람? 어떤 게 좋을까?",
   "who": "준호",
   "kind": "still",
@@ -77,12 +81,16 @@
   "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/A10_junho_sofa_to_suman.png",
   "line_prev": "남자친구? 예비신랑? 남편이될 사람? 어떤게 좋을까",
   "dir_override": "리아 말을 들은 준호, 리아에게 말한다",
-  "frame_group": "A10_junho_sofa_to_suman"
+  "frame_group": "A10_junho_sofa_to_suman",
+  "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_04/EP01R_E1_04_kling3_take01.mp4",
+  "clip_dur": 5.04,
+  "dur_still_backup": 4.5,
+  "clip_note": "11-06 take01 (사용자 선택 2026-11-09)"
  },
  {
   "n": 5,
   "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/S_ria_island_act1_cu.png",
-  "dur": 2.0,
+  "dur": 3.04,
   "line": "내가 잘 말해뒀어. 편하게 얘기해도 돼.",
   "who": "리아",
   "kind": "still",
@@ -99,7 +107,11 @@
   "frame_prev": "G13_island_master_act1",
   "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/G13_island_master_act1.png",
   "line_prev": "내가 잘 말해뒀어 편하게 얘기해도돼",
-  "frame_group": "G13_island_master_act1"
+  "frame_group": "G13_island_master_act1",
+  "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_05/EP01R_E1_05_kling3_take01.mp4",
+  "clip_dur": 3.04,
+  "dur_still_backup": 2.0,
+  "clip_note": "11-06 take01 (사용자 선택 2026-11-09)"
  },
  {
   "n": 6,
@@ -117,7 +129,7 @@
  {
   "n": 7,
   "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v07/F2E_junho_eyes.png",
-  "dur": 1.8,
+  "dur": 3.04,
   "line": "어.................",
   "who": "준호",
   "kind": "still",
@@ -127,12 +139,16 @@
   "action": "준호 눈 ECU, 눈만 깜빡 / 기대하는 눈빛에서 점점 눈썹이 올라가며 당황하는 눈빛으로",
   "dir_override": "숨을 참는다. 21이 14가, 6이, 0이 된다. 기대에서 당황으로",
   "cam": "sofa",
-  "n_old": 7
+  "n_old": 7,
+  "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_07/EP01R_E1_07_kling3_take01.mp4",
+  "clip_dur": 3.04,
+  "dur_still_backup": 1.8,
+  "clip_note": "11-06 take01 (사용자 선택 2026-11-09)"
  },
  {
   "n": 8,
   "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/S_junho_sofa_cu.png",
-  "dur": 3.4,
+  "dur": 3.04,
   "line": "다들 읽으셨는데... 아무도 답변을 안 해주셔...",
   "who": "준호",
   "kind": "still",
@@ -148,12 +164,16 @@
   "dir_override": "핸드폰을 자세히 들여다보며 '다들 읽으셨는데…', 그리고 시무룩한 표정으로 '아무도 답변을 안 해주셔…' (소파)",
   "frame_group": "A08_junho_sofa_showphone",
   "frame_prev": "A08_junho_sofa_showphone",
-  "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/A08_junho_sofa_showphone.png"
+  "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/A08_junho_sofa_showphone.png",
+  "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_08/EP01R_E1_08_kling3_take01.mp4",
+  "clip_dur": 3.04,
+  "dur_still_backup": 3.4,
+  "clip_note": "11-06 take01 (사용자 선택 2026-11-09)"
  },
  {
   "n": 9,
   "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/S_ria_island_act1_cu.png",
-  "dur": 2.0,
+  "dur": 3.04,
   "line": "다들 뭐라고 답장할까 고민 중이실 거야.",
   "who": "리아",
   "kind": "still",
@@ -170,12 +190,16 @@
   "frame_prev": "G13_crop_ria_cu",
   "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/G13_crop_ria_cu.png",
   "line_prev": "다들 뭐라고 답장할까 고민중이실거야",
-  "frame_group": "G13_crop_ria_cu"
+  "frame_group": "G13_crop_ria_cu",
+  "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_09/EP01R_E1_09_kling3_take01.mp4",
+  "clip_dur": 3.04,
+  "dur_still_backup": 2.0,
+  "clip_note": "11-06 take01 (사용자 선택 2026-11-09)"
  },
  {
   "n": 10,
   "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/S_junho_sofa_cu.png",
-  "dur": 2.4,
+  "dur": 3.04,
   "line": "수만이 형.. 기다리면 되겠죠?",
   "who": "준호",
   "kind": "still",
@@ -191,12 +215,16 @@
   "dir_override": "힘없는 목소리로 수만이 형에게 질문한다, 시무룩 (소파에서 아일랜드 쪽으로 고개)",
   "frame_group": "A10_junho_sofa_to_suman",
   "frame_prev": "A10_junho_sofa_to_suman",
-  "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/A10_junho_sofa_to_suman.png"
+  "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/A10_junho_sofa_to_suman.png",
+  "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_10/EP01R_E1_10_kling3_take01.mp4",
+  "clip_dur": 3.04,
+  "dur_still_backup": 2.4,
+  "clip_note": "11-06 take01 (사용자 선택 2026-11-09)"
  },
  {
   "n": 11,
   "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/S_suman_island_cu.png",
-  "dur": 2.2,
+  "dur": 3.04,
   "line": "우리 집도 그래~ 읽기만 해...",
   "who": "수만",
   "kind": "still",
@@ -212,12 +240,16 @@
   "frame_prev": "G13_crop_suman_cu",
   "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/G13_crop_suman_cu.png",
   "line_prev": "우리 집도 그래. 읽기만 해.",
-  "frame_group": "G13_crop_suman_cu"
+  "frame_group": "G13_crop_suman_cu",
+  "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_11/EP01R_E1_11_kling3_take01.mp4",
+  "clip_dur": 3.04,
+  "dur_still_backup": 2.2,
+  "clip_note": "11-06 take01 (사용자 선택 2026-11-09)"
  },
  {
   "n": 12,
   "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/J4_junho_cu_r1.png",
-  "dur": 2.4,
+  "dur": 3.04,
   "line": "누구 한 분은 답변해 주시겠죠?",
   "who": "준호",
   "kind": "still",
@@ -231,12 +263,16 @@
   "frame_prev": "J4_junho_cu_r1",
   "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/J4_junho_cu_r1.png",
   "line_prev": "그럼 대답은 언제 와요? 저 기다릴 수 있어요. 밤새도 돼요.",
-  "dir_override": "다행이라는 듯이, 기대하는 눈빛 (준호 CU)"
+  "dir_override": "다행이라는 듯이, 기대하는 눈빛 (준호 CU)",
+  "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_12/EP01R_E1_12_kling3_take01.mp4",
+  "clip_dur": 3.04,
+  "dur_still_backup": 2.4,
+  "clip_note": "11-06 take01 (사용자 선택 2026-11-09)"
  },
  {
   "n": 13,
   "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/S_suman_island_look_cu.png",
-  "dur": 5.4,
+  "dur": 3.04,
   "line": "우리 엄마는 전화로만 하셔.. 새벽 4시에..",
   "who": "수만",
   "kind": "still",
@@ -253,12 +289,16 @@
   "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/H13_suman_bite.png",
   "line_prev": "우리 엄마는 전화로~ 여기가 새벽인줄 모르시는거 같지만..",
   "dir_override": "피클 한입 씹으며 말한다. '새벽 4시에' 뒤 3초 정적(씹기만), 그다음 14번",
-  "frame_group": "H13_suman_bite"
+  "frame_group": "H13_suman_bite",
+  "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_13/EP01R_E1_13_kling3_take01.mp4",
+  "clip_dur": 3.04,
+  "dur_still_backup": 5.4,
+  "clip_note": "11-06 take01 (사용자 선택 2026-11-09)"
  },
  {
   "n": 14,
   "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/J4_junho_cu_r1.png",
-  "dur": 2.2,
+  "dur": 3.04,
   "line": "…아… 전화가 오면 어쩌지…",
   "who": "준호",
   "kind": "still",
@@ -273,7 +313,11 @@
   "frame_prev": "J4_junho_cu_r2",
   "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/J4_junho_cu_r2.png",
   "dir_override": "당황한 표정 (준호 CU)",
-  "line_prev": "……저 알람 맞출게요."
+  "line_prev": "……저 알람 맞출게요.",
+  "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_14/EP01R_E1_14_kling3_take01.mp4",
+  "clip_dur": 3.04,
+  "dur_still_backup": 2.2,
+  "clip_note": "11-06 take01 (사용자 선택 2026-11-09)"
  },
  {
   "n": 15,
@@ -344,7 +388,7 @@
  {
   "n": 19,
   "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/J2c_halfstand_curious.png",
-  "dur": 2.2,
+  "dur": 3.04,
   "line": "어? 뭐야 뭐야, 뭔데? 나도 보여줘.",
   "who": "준호",
   "kind": "still",
@@ -355,7 +399,11 @@
   "dir_override": "벌떡 일어나 리아 쪽으로 간다",
   "src_old": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v07/J2_junho_halfstand.png",
   "cam": "island",
-  "n_old": 21
+  "n_old": 21,
+  "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_19/EP01R_E1_19_kling3_take01.mp4",
+  "clip_dur": 3.04,
+  "dur_still_backup": 2.2,
+  "clip_note": "11-06 take01 (사용자 선택 2026-11-09)"
  },
  {
   "n": 20,
@@ -397,7 +445,7 @@
  {
   "n": 22,
   "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
-  "dur": 2.0,
+  "dur": 3.04,
   "line": "다들 준호한테 무슨 말 할지 나한테 다 물어보고있어 ㅋㅋㅋㅋ",
   "who": "리아",
   "kind": "still",
@@ -413,7 +461,11 @@
   "frame_old": "B7_bea_hiding_phone_r1",
   "frame_prev": "G40_island_master_act2_r1",
   "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/G40_island_master_act2_r1.png",
-  "frame_group": "G40_island_master_act2_r1"
+  "frame_group": "G40_island_master_act2_r1",
+  "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_22/EP01R_E1_22_kling3_take01.mp4",
+  "clip_dur": 3.04,
+  "dur_still_backup": 2.0,
+  "clip_note": "11-06 take01 (사용자 선택 2026-11-09)"
  },
  {
   "n": 23,
@@ -564,7 +616,7 @@
   "n": 31,
   "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
   "dur": 2.2,
-  "line": "응. 단톡방에 쓰면 다들 보니까. 틀릴까 봐 무서워하셔.",
+  "line": "Yes. 단톡방에 쓰면 다들 보니까. 틀릴까 봐 무서워하셔.",
   "who": "리아",
   "kind": "still",
   "frame": "S_ria_island_act2_cu",
@@ -580,7 +632,9 @@
   "frame_prev": "G40_crop_ria_cu",
   "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/G40_crop_ria_cu.png",
   "line_prev": "응 다들 실수할까봐 무서워하셔",
-  "frame_group": "G40_crop_ria_cu"
+  "frame_group": "G40_crop_ria_cu",
+  "line_old_v07": "응. 단톡방에 쓰면 다들 보니까. 틀릴까 봐 무서워하셔.",
+  "note_lang_2026_11_09": "리아 언어 규칙(새 방식으로 재생성 예정)"
  },
  {
   "n": 32,
@@ -606,7 +660,7 @@
   "n": 33,
   "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
   "dur": 2.0,
-  "line": "엄마가 제일 무서워해.",
+  "line": "Mom? 엄마가 제일 무서워해.",
   "who": "리아",
   "kind": "still",
   "frame": "S_ria_island_act2_cu",
@@ -619,7 +673,9 @@
   "n_old": 33,
   "frame_prev": "G40_crop_ria_cu",
   "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/G40_crop_ria_cu.png",
-  "frame_group": "G40_crop_ria_cu"
+  "frame_group": "G40_crop_ria_cu",
+  "line_old_v07": "엄마가 제일 무서워해.",
+  "note_lang_2026_11_09": "리아 언어 규칙(새 방식으로 재생성 예정)"
  },
  {
   "n": 34,
@@ -644,8 +700,8 @@
  {
   "n": 35,
   "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/S_ria_island_act1_cu.png",
-  "dur": 2.2,
-  "line": "오빠, 지금 대기 열한 명이야. 나 바빠.",
+  "dur": 4.0,
+  "line": "오빠, 나 빨리 답변해드려야해~ 너무 바빠ㅋㅋㅋ",
   "who": "리아",
   "kind": "still",
   "frame": "S_ria_island_act1_cu",
@@ -658,7 +714,8 @@
   "frame_prev": "G40_island_master_act2_r1",
   "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/G40_island_master_act2_r1.png",
   "dir_override": "엄지가 빠르다. 'OK.' '그건 빼.' 'OK.' 준호는 옆에 그대로 서서 기다린다",
-  "frame_group": "G40_island_master_act2_r1"
+  "frame_group": "G40_island_master_act2_r1",
+  "note_2026_11_09_b": "사용자 대사 교체"
  },
  {
   "n": 36,
@@ -729,7 +786,7 @@
   "n": 40,
   "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
   "dur": 2.4,
-  "line": "응 방금 그렇게 보내시라고 말씀드렸어",
+  "line": "Yep. 방금 그렇게 보내시라고 말씀드렸어",
   "who": "리아",
   "kind": "still",
   "frame": "S_ria_island_act2_cu",
@@ -743,7 +800,9 @@
   "frame_prev": "G40_crop_ria_cu",
   "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/G40_crop_ria_cu.png",
   "line_prev": "응. 방금 통과시켰어.",
-  "frame_group": "G40_crop_ria_cu"
+  "frame_group": "G40_crop_ria_cu",
+  "line_old_v07": "응 방금 그렇게 보내시라고 말씀드렸어",
+  "note_lang_2026_11_09": "리아 언어 규칙(새 방식으로 재생성 예정)"
  },
  {
   "n": 41,
@@ -766,7 +825,7 @@
   "n": 42,
   "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
   "dur": 2.0,
-  "line": "……오빠도 검사받게?",
+  "line": "……Wait. 오빠도 검사받게?",
   "who": "리아",
   "kind": "still",
   "frame": "S_ria_island_act2_cu",
@@ -779,7 +838,9 @@
   "src_old": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v07/B5_ots_island.png",
   "frame_prev": "G40_crop_ria_cu",
   "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/G40_crop_ria_cu.png",
-  "frame_group": "G40_crop_ria_cu"
+  "frame_group": "G40_crop_ria_cu",
+  "line_old_v07": "……오빠도 검사받게?",
+  "note_lang_2026_11_09": "리아 언어 규칙(새 방식으로 재생성 예정)"
  },
  {
   "n": 43,
@@ -802,12 +863,12 @@
  },
  {
   "n": 44,
-  "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/H44_suman_headshake.png",
+  "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/H44e_suman_headshake_emptyjar.png",
   "dur": 2.0,
   "line": "",
   "who": "수만",
   "kind": "still",
-  "frame": "H44_suman_headshake",
+  "frame": "H44e_suman_headshake_emptyjar",
   "situation": "와이드. 리아 폰 띠링 띠링, 대기 열두 명. 냉장고 소리. 자막: 느낌표 개수 고민하신 적 있나요?",
   "emotion": "여운",
   "action": "엔딩 와이드: 준호는 아일랜드에서 리아 옆 (2막)",
@@ -820,14 +881,16 @@
   "frame_prev": "C44_suman_headshake_r1",
   "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/C44_suman_headshake_r1.png",
   "line_prev": "글로벌 대화방에서 자연스럽게 대화하려면? 자동 실시간 번역 글로벌 메신저 토마토랑 함께 하세요.",
-  "end_caption": "느낌표 개수 고민하신 적 있나요?"
+  "end_caption": "느낌표 개수 고민하신 적 있나요?",
+  "note_2026_11_09_d": "§16 엔딩 빈 피클병",
+  "frame_old_fulljar": "H44_suman_headshake"
  },
  {
   "kind": "still",
   "cam": "island",
   "n": 45,
-  "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/H44_crop_suman_cu.png",
-  "frame": "H44_crop_suman_cu",
+  "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/H44e_crop_suman_cu.png",
+  "frame": "H44e_crop_suman_cu",
   "dur": 2.5,
   "line": "",
   "who": "수만",
@@ -836,6 +899,8 @@
   "action": "수만이 둘을 보며 고개를 절레절레 흔든다 (CU)",
   "dir_override": "수만 클로즈업. 고개를 절레절레 흔들며 끝난다. 대사 없음",
   "frame_prev": "C45_suman_cu_headshake_crop",
-  "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/C45_suman_cu_headshake_crop.png"
+  "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/C45_suman_cu_headshake_crop.png",
+  "note_2026_11_09_d": "§16 엔딩 빈 피클병 크롭",
+  "frame_old_fulljar": "H44_crop_suman_cu"
  }
 ]

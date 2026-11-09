@@ -1,0 +1,26 @@
+SCENE CONTEXT
+A single chest-up close-up, exactly as in the start image: the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, ID badge on a navy lanyard, grey trousers, black leather shoes) alone, standing at the near end of the kitchen island, both hands resting on the marble top, leaning in a little, the island shelves and pendant lamps behind him. Only what the start image shows is ever in frame; the rest of the room is never shown.
+
+FORMAT MODE
+ONE single continuous locked-off shot for the entire clip: no cuts, no shot changes, no punch-in, no punch-out, no cut to a wider shot, no second angle; the shot size stays a chest-up close-up from the first frame to the last; the framing at the last frame is identical to the first frame.
+
+CAMERA
+Fixed camera on a tripod, exactly the framing of the start image for the entire clip: no zoom, no pan, no dolly, no reframing, the camera never follows a person. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain, no over-sharpening.
+
+ACTION (these are the beats; between them the face stays alive and reacts; hands, props and camera never move)
+0.0-0.3s: eyes down on her phone on the counter, brow already furrowed. 0.3-1.6s: on '편하게 말하시지..' his eyebrows knit, his mouth pulls to one side, a small exasperated shake of the head. 1.6-2.0s: he looks up at her (camera-LEFT, slightly down), eyebrows raised in disbelief. 2.0-3.3s: on '번역되서 다 읽을 수 있는데' his eyebrows go up, mouth opens in a 'come on, really?' face, head tilts toward her; hands stay on the counter. 3.3-4.0s: he keeps the puzzled, half-amused look on her and blinks once.
+
+CHARACTERS
+Rule: his hands and the phone stay where they are; glasses stay on; he never looks into the camera and is never irritated; his face, eyes and head act freely inside this close-up.
+
+PERFORMANCE
+In character: puzzled, mildly exasperated, half-laughing complaint; comic. Big, readable comic reaction: eyes wide, eyebrows all the way up, mouth open, a clear head move and a lively voice, yet still a real person, not a cartoon. Nobody looks at the camera.
+
+AUDIO
+Quiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.
+
+POSITIVE LOCKS
+Continue exactly from the start image. Everyone keeps the same face, hair, glasses, clothes and position through the whole take; nobody else enters the frame. Same room, furniture, lamps and colors. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The man speaks natural native Korean, polite and never irritated, never shouting, but his voice clearly carries the feeling of the line (hope, worry, surprise, delight) through pitch, pace and small breaths; sentences end naturally: "편하게 말하시지..번역되서 다 읽을 수 있는데". The line begins within the first 0.3 seconds and every word of it is spoken, from the first word to the last. Only this one line and nothing else; no other words in any language. Natural, underplayed delivery: lips move only as much as the words need, the mouth never opens wide, no exaggerated expressions; visible lip-sync, mouth movements match every word. Nobody else speaks.

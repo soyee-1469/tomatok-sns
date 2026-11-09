@@ -1,0 +1,19 @@
+{
+ "cut": 32,
+ "who": "준호",
+ "line": "어머님 아버님도?",
+ "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_32/EP01R_E1_32_kling3_take01.mp4",
+ "take": "EP01R_E1_32_kling3_take01",
+ "clip_qa": "3.0s | 단일 샷 | 첫↔끝 프레임 차 1.0 | 스파이크 []",
+ "face": {
+  "f25": "준호 0.56 (192px) ✗",
+  "f50": "준호 0.52 (190px) ✗",
+  "f75": "준호 0.58 (193px) ✗",
+  "end": "준호 0.58 (193px) ✗"
+ },
+ "whisper": "(lang ko p=0.99)\n   0.00- 2.00  어머님, 아버님도?",
+ "face_pass": false,
+ "single_shot": true,
+ "max_db": -13.6,
+ "silent": false
+}

@@ -1,0 +1,17 @@
+{
+ "cut": 7,
+ "who": "준호",
+ "line": "어.................",
+ "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_07/EP01R_E1_07_kling3_take01.mp4",
+ "take": "EP01R_E1_07_kling3_take01",
+ "clip_qa": "3.0s | 내부 컷 | 첫↔끝 프레임 차 21.7 | 스파이크 [(1.58, 8.2), (1.62, 8.1)]",
+ "face": {
+  "f25": "",
+  "f50": "",
+  "f75": "",
+  "end": ""
+ },
+ "whisper": "(lang ko p=0.59)\n   0.00- 2.00  어...",
+ "face_pass": false,
+ "single_shot": false
+}

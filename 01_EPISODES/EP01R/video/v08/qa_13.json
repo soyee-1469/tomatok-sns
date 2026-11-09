@@ -1,0 +1,19 @@
+{
+ "cut": 13,
+ "who": "수만",
+ "line": "우리 엄마는 전화로만 하셔.. 새벽 4시에..",
+ "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_13/EP01R_E1_13_kling3_take02.mp4",
+ "take": "EP01R_E1_13_kling3_take02",
+ "clip_qa": "3.0s | 단일 샷 | 첫↔끝 프레임 차 1.1 | 스파이크 []",
+ "face": {
+  "f25": "수만 0.63 (294px) ✓",
+  "f50": "수만 0.62 (296px) ✓",
+  "f75": "수만 0.62 (297px) ✓",
+  "end": "수만 0.63 (298px) ✓"
+ },
+ "whisper": "(lang ko p=0.99)\n   0.00- 3.00  우리 엄마는 전화로만 하셔, 새벽 3시에.",
+ "face_pass": true,
+ "single_shot": true,
+ "max_db": -11.1,
+ "silent": false
+}

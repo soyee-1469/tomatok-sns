@@ -1,0 +1,19 @@
+{
+ "cut": 22,
+ "who": "리아",
+ "line": "다들 준호한테 무슨 말 할지 나한테 다 물어보고있어 ㅋㅋㅋㅋ",
+ "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_22/EP01R_E1_22_kling3_take03.mp4",
+ "take": "EP01R_E1_22_kling3_take03",
+ "clip_qa": "4.0s | 단일 샷 | 첫↔끝 프레임 차 1.1 | 스파이크 []",
+ "face": {
+  "f25": "리아 0.51 (298px) ✓",
+  "f50": "리아 0.55 (300px) ✓",
+  "f75": "리아 0.56 (298px) ✓",
+  "end": "리아 0.58 (300px) ✓"
+ },
+ "whisper": "(lang ko p=1.00)\n   0.00- 3.90  다들 준호한테 무슨 말할지 나한테 다 물어보고 있어.",
+ "face_pass": true,
+ "single_shot": true,
+ "max_db": -6.0,
+ "silent": false
+}

@@ -1,0 +1,19 @@
+{
+ "cut": 39,
+ "who": "준호",
+ "line": "리아! 어머니가 밥 먹었냬!",
+ "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_39/EP01R_E1_39_kling3_take01.mp4",
+ "take": "EP01R_E1_39_kling3_take01",
+ "clip_qa": "3.0s | 단일 샷 | 첫↔끝 프레임 차 1.0 | 스파이크 []",
+ "face": {
+  "f25": "준호 0.57 (193px) ✗",
+  "f50": "준호 0.58 (193px) ✗",
+  "f75": "준호 0.57 (192px) ✗",
+  "end": "준호 0.57 (192px) ✗"
+ },
+ "whisper": "(lang ko p=0.99)\n   0.00- 3.00  리야, 어머니가 밥 먹었네?",
+ "face_pass": false,
+ "single_shot": true,
+ "max_db": -10.7,
+ "silent": false
+}

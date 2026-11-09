@@ -1,0 +1,47 @@
+[
+ {
+  "created_at": "2026-11-09T01:50:46.727076Z",
+  "display_name": "Kling v3.0",
+  "id": "a5588e6c-7e2b-46c9-af68-fcea694d31e6",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+   "aspect_ratio": "9:16",
+   "cfg_scale": 0.5,
+   "duration": 4,
+   "enhance_prompt": false,
+   "height": 1280,
+   "kling_element_ids": [],
+   "kling_elements": [],
+   "medias": [
+    {
+     "data": {
+      "id": "a6d6db55-b821-41ec-b510-d2ad6c5b9d54",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/a6d6db55-b821-41ec-b510-d2ad6c5b9d54_resize.jpg"
+     },
+     "role": "start_image"
+    },
+    {
+     "data": {
+      "id": "a6d6db55-b821-41ec-b510-d2ad6c5b9d54",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/a6d6db55-b821-41ec-b510-d2ad6c5b9d54_resize.jpg"
+     },
+     "role": "end_image"
+    }
+   ],
+   "mode": "std",
+   "multi_prompt": [],
+   "multi_shot_mode": "custom",
+   "multi_shots": false,
+   "prompt": "SCENE CONTEXT\nA single chest-up close-up, exactly as in the start image: the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, ID badge on a navy lanyard, grey trousers, black leather shoes) alone, standing at the near end of the kitchen island, both hands resting on the marble top, leaning in a little, the island shelves and pendant lamps behind him. Only what the start image shows is ever in frame; the rest of the room is never shown.\n\nFORMAT MODE\nONE single continuous locked-off shot for the entire clip: no cuts, no shot changes, no punch-in, no punch-out, no cut to a wider shot, no second angle; the shot size stays a chest-up close-up from the first frame to the last; the framing at the last frame is identical to the first frame.\n\nCAMERA\nFixed camera on a tripod, exactly the framing of the start image for the entire clip: no zoom, no pan, no dolly, no reframing, the camera never follows a person. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain, no over-sharpening.\n\nACTION (only the movements listed below happen; nothing else moves)\n0.0-0.3s: eyes down toward the counter, lips closed. 0.3-1.6s: on '편하게 말하시지..' eyebrows draw together a little, eyes stay down. 1.6-2.0s: a hesitation, lips parted but silent. 2.0-3.3s: on '번역되서 다 읽을 수 있는데' his head shakes once, a few degrees, then his eyes flick toward camera-LEFT and slightly down. 3.3-4.0s: no new movement; eyes stay there, lips close.\n\nCHARACTERS\nRule: the man with glasses moves only his eyes, eyebrows and lips; head stays within a few degrees; glasses never come off; no grin.\n\nPERFORMANCE\nIn character: puzzled, gently accusing, comic; minimal facial movement. No exaggerated acting, nobody looks at the camera.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.\n\nPOSITIVE LOCKS\nContinue exactly from the start image. Everyone keeps the same face, hair, glasses, clothes and position through the whole take; nobody else enters the frame. Same room, furniture, lamps and colors. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe man speaks natural native Korean, low, calm and quiet, polite and unhurried, never raising his voice, the sentence ending on a soft falling tone: \"편하게 말하시지..번역되서 다 읽을 수 있는데\". The line begins within the first 0.3 seconds and every word of it is spoken, from the first word to the last. Only this one line and nothing else; no other words in any language. Natural, underplayed delivery: lips move only as much as the words need, the mouth never opens wide, no exaggerated expressions; visible lip-sync, mouth movements match every word. Nobody else speaks.",
+   "reference_elements": [],
+   "sound": "on",
+   "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261109_015046_a5588e6c-7e2b-46c9-af68-fcea694d31e6.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261109_015046_a5588e6c-7e2b-46c9-af68-fcea694d31e6_thumbnail.webp"
+ }
+]

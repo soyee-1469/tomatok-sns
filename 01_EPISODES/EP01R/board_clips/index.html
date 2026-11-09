@@ -1,0 +1,523 @@
+<meta charset="utf-8">
+<title>토마톡 1화 클립 보드</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<style>
+:root{--bg:#f6f3ee;--card:#fffdf9;--fg:#1f1b16;--mute:#6d655b;--rule:#e2dbd0;--accent:#b8471f;--ok:#2f7a4a;--ok-bg:#e4f2e8;--bad:#a8341c;--bad-bg:#f8e3dc;
+ --body:"Noto Sans KR",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#17150f;--card:#211e17;--fg:#f0eae0;--mute:#a69c8d;--rule:#352f26;--accent:#e2794c;--ok:#7fcf98;--ok-bg:#1e3326;--bad:#f09a82;--bad-bg:#3d1f17;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#17150f;--card:#211e17;--fg:#f0eae0;--mute:#a69c8d;--rule:#352f26;--accent:#e2794c;--ok:#7fcf98;--ok-bg:#1e3326;--bad:#f09a82;--bad-bg:#3d1f17;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 60px;line-height:1.5}
+main{max-width:1040px;margin:0 auto}
+h1{font-size:1.5rem;margin:0 0 4px;text-wrap:balance} .sub{color:var(--mute);margin:0 0 18px;font-size:.9rem}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.filters button{font:inherit;font-size:.85rem;padding:6px 12px;border-radius:999px;border:1px solid var(--rule);background:var(--card);color:var(--fg);cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.filters button:focus-visible,video:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+h2{font-size:1.05rem;margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--rule)} h2 small{color:var(--mute);font-weight:400;font-size:.85rem;margin-left:8px}
+.cut{background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:14px;margin-bottom:14px}
+.cut header{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:baseline;margin-bottom:10px}
+.num{font-family:var(--mono);font-weight:500;color:var(--accent);font-size:1.05rem} .who{font-weight:700} .line{flex:1 1 260px;min-width:0}
+.verdict{font-size:.8rem;padding:2px 10px;border-radius:999px;font-weight:500;white-space:nowrap} .verdict.pass{background:var(--ok-bg);color:var(--ok)} .verdict.redo{background:var(--bad-bg);color:var(--bad)}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:620px}
+figure{margin:0;min-width:0} figure img,figure video{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:6px;background:#000;display:block;max-width:100%}
+figcaption,.take-label{font-family:var(--mono);font-size:.72rem;color:var(--mute);margin-top:4px;overflow-wrap:anywhere}
+.take{font:inherit;font-size:.78rem;max-width:100%;margin-left:4px}
+.qa{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;margin-top:10px}
+.badge{font-size:.78rem;padding:2px 8px;border-radius:4px;font-family:var(--mono)} .badge.ok{background:var(--ok-bg);color:var(--ok)} .badge.bad{background:var(--bad-bg);color:var(--bad)} .badge.na{background:var(--rule);color:var(--fg)}
+.scores{font-family:var(--mono);font-size:.78rem;color:var(--mute);font-variant-numeric:tabular-nums}
+.said{margin:8px 0 0;font-size:.9rem} .said .k{font-family:var(--mono);font-size:.72rem;color:var(--mute);margin-right:6px}
+.act{margin:4px 0 0;font-size:.82rem;color:var(--mute)}
+@media (max-width:480px){.pair{gap:8px} .cut{padding:10px}}
+@media (prefers-reduced-motion:no-preference){.filters button{transition:background .15s}}
+</style>
+<main>
+<h1>토마톡 1화 Kling 대사 클립</h1>
+<p class="sub">2026-11-09 11:28 기준 · 28컷 중 9컷 통과 · 왼쪽 시작 스틸, 오른쪽 테이크 영상. 기준: 단일 샷 · 얼굴 4지점 ≥0.45 · 얼굴 폭 ≥180px · whisper 대사 일치 ≥85%. 기본 재생은 최신 테이크.</p>
+<p class="sub" id="budget">용량 한도 60MB를 넘겨 오래된 테이크를 뺌: E1_04/EP01R_E1_04_kling3_take01_old.mp4, E1_03/EP01R_E1_03_kling3_take01_old.mp4, E1_05/EP01R_E1_05_kling3_take01_old.mp4, E1_10/EP01R_E1_10_kling3_take01_old.mp4, E1_14/EP01R_E1_14_kling3_take01_old.mp4, E1_19/EP01R_E1_19_kling3_take01_old.mp4, E1_08/EP01R_E1_08_kling3_take01_old.mp4, E1_11/EP01R_E1_11_kling3_take01_old.mp4, E1_12/EP01R_E1_12_kling3_take01_old.mp4, E1_13/EP01R_E1_13_kling3_take01_old.mp4, E1_14/EP01R_E1_14_kling3_take01_old2.mp4, E1_08/EP01R_E1_08_kling3_take01_old2.mp4, E1_03/EP01R_E1_03_kling3_take01_old2.mp4, E1_12/EP01R_E1_12_kling3_take01_cut.mp4, E1_22/EP01R_E1_22_kling3_take02.mp4, E1_03/EP01R_E1_03_kling3_take04.mp4, E1_09/EP01R_E1_09_kling3_take02.mp4, E1_08/EP01R_E1_08_kling3_take04.mp4, E1_05/EP01R_E1_05_kling3_take03.mp4, E1_04/EP01R_E1_04_kling3_take03.mp4, E1_05/EP01R_E1_05_kling3_take04.mp4. 현재 media 58.7MB.</p>
+<section class="animatic" id="animatic">
+ <h2>애니매틱 전체 재생 <small>v090 · 2026-11-09 · 11-06 Kling 13컷 + 스틸 29컷, 112s</small></h2>
+ <video controls preload="metadata" playsinline src="media/ANIMATIC_E1_v090_preview.mp4" style="width:100%;max-width:360px;aspect-ratio:9/16;background:#000;border-radius:8px;display:block"></video>
+ <p class="sub">보드용 540p 프리뷰 (3.8MB). 원본: edit/v06/ANIMATIC_E1_v090.mp4</p>
+</section>
+<div class="filters" role="group" aria-label="필터">
+ <button type="button" data-f="all" aria-pressed="true" id="f-all">전체 28</button>
+ <button type="button" data-f="통과" aria-pressed="false" id="f-pass">통과 9</button>
+ <button type="button" data-f="재생성" aria-pressed="false" id="f-redo">재생성 19</button>
+</div>
+<section><h2>1막 · 소파 / 아일랜드 <small>8/12 통과</small></h2>
+<article class="cut" data-verdict="통과" id="cut-3">
+  <header><span class="num">03</span><span class="who">리아</span><span class="line">오빠, 인사말 정리됐어? 지금 초대할게?</span><span class="verdict pass">통과</span></header>
+  <div class="pair">
+    <figure><img src="media/S_03.jpg" alt="컷 3 시작 스틸" loading="lazy"><figcaption>시작 스틸 · S_ria_island_act2_cu</figcaption></figure>
+    <figure>
+      <video src="media/E1_03_take06.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 3 테이크"><option value="media/E1_03_take06.mp4" selected>take06 · 3.0s</option><option value="media/E1_03_take05.mp4">take05 · 3.0s · QA 없음</option><option value="media/E1_03_take01_3.mp4">take01 · 3.0s · QA 없음</option></select></label>
+      <figcaption class="cap">take06 · 3.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge ok">얼굴 0.50</span><span class="badge ok">대사 100%</span><span class="scores">얼굴 25/50/75/끝 = 0.50 · 0.54 · 0.57 · 0.58</span></div>
+  <p class="said"><span class="k">whisper</span> 오빠 인사 말 정리됐어? 지금 초대할게.</p>
+  <p class="act">폰에서 눈 떼고 소파 쪽으로 고개, 눈썹 올림. 준호를 단톡방에 초대하기 직전</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_03_take06.mp4", "label": "take06", "dur": 3.04, "qa": true, "badges": [["ok", "단일 샷"], ["ok", "얼굴 0.50"], ["ok", "대사 100%"]], "scores": "0.50 · 0.54 · 0.57 · 0.58", "said": "오빠 인사 말 정리됐어? 지금 초대할게."}, {"src": "media/E1_03_take05.mp4", "label": "take05", "dur": 3.04, "qa": false, "badges": [["na", "QA 없음"]], "scores": "", "said": ""}, {"src": "media/E1_03_take01_3.mp4", "label": "take01", "dur": 3.04, "qa": false, "badges": [["na", "QA 없음"]], "scores": "", "said": ""}]</script>
+</article>
+<article class="cut" data-verdict="재생성" id="cut-4">
+  <header><span class="num">04</span><span class="who">준호</span><span class="line">남자친구? 예비신랑? 남편이 될 사람? 어떤 게 좋을까?</span><span class="verdict redo">재생성 · 대사 불일치</span></header>
+  <div class="pair">
+    <figure><img src="media/S_04.jpg" alt="컷 4 시작 스틸" loading="lazy"><figcaption>시작 스틸 · S_junho_sofa_cu</figcaption></figure>
+    <figure>
+      <video src="media/E1_04_take05.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 4 테이크"><option value="media/E1_04_take05.mp4" selected>take05 · 4.0s</option><option value="media/E1_04_take04.mp4">take04 · 4.0s · QA 없음</option><option value="media/E1_04_take01.mp4">take01 · 5.0s · QA 없음</option></select></label>
+      <figcaption class="cap">take05 · 4.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge ok">얼굴 0.49</span><span class="badge bad">대사 76%</span><span class="scores">얼굴 25/50/75/끝 = 0.50 · 0.50 · 0.49 · 0.51</span></div>
+  <p class="said"><span class="k">whisper</span> 남자친구? 예비실랑? 남편이 될 사람?</p>
+  <p class="act">리아 말을 들은 준호, 리아에게 말한다</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_04_take05.mp4", "label": "take05", "dur": 4.04, "qa": true, "badges": [["ok", "단일 샷"], ["ok", "얼굴 0.49"], ["bad", "대사 76%"]], "scores": "0.50 · 0.50 · 0.49 · 0.51", "said": "남자친구? 예비실랑? 남편이 될 사람?"}, {"src": "media/E1_04_take04.mp4", "label": "take04", "dur": 4.04, "qa": false, "badges": [["na", "QA 없음"]], "scores": "", "said": ""}, {"src": "media/E1_04_take01.mp4", "label": "take01", "dur": 5.04, "qa": false, "badges": [["na", "QA 없음"]], "scores": "", "said": ""}]</script>
+</article>
+<article class="cut" data-verdict="재생성" id="cut-5">
+  <header><span class="num">05</span><span class="who">리아</span><span class="line">내가 잘 말해뒀어. 편하게 얘기해도 돼.</span><span class="verdict redo">재생성 · 얼굴 0.43</span></header>
+  <div class="pair">
+    <figure><img src="media/S_05.jpg" alt="컷 5 시작 스틸" loading="lazy"><figcaption>시작 스틸 · S_ria_island_act1_cu</figcaption></figure>
+    <figure>
+      <video src="media/E1_05_take05.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 5 테이크"><option value="media/E1_05_take05.mp4" selected>take05 · 3.0s</option><option value="media/E1_05_take01_2.mp4">take01 · 3.0s · QA 없음</option></select></label>
+      <figcaption class="cap">take05 · 3.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge bad">얼굴 0.43</span><span class="badge ok">대사 100%</span><span class="scores">얼굴 25/50/75/끝 = 0.46 · 0.43 · 0.51 · 0.54</span></div>
+  <p class="said"><span class="k">whisper</span> 내가 잘 말해뒀어. 편하게 얘기해도 돼.</p>
+  <p class="act">&#x27;내가 잘 말해뒀어.&#x27; 뒤 준호(소파 쪽) 바라보며 &#x27;편하게 얘기해도 돼.&#x27;</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_05_take05.mp4", "label": "take05", "dur": 3.04, "qa": true, "badges": [["ok", "단일 샷"], ["bad", "얼굴 0.43"], ["ok", "대사 100%"]], "scores": "0.46 · 0.43 · 0.51 · 0.54", "said": "내가 잘 말해뒀어. 편하게 얘기해도 돼."}, {"src": "media/E1_05_take01_2.mp4", "label": "take01", "dur": 3.04, "qa": false, "badges": [["na", "QA 없음"]], "scores": "", "said": ""}]</script>
+</article>
+<article class="cut" data-verdict="재생성" id="cut-7">
+  <header><span class="num">07</span><span class="who">준호</span><span class="line">어.................</span><span class="verdict redo">재생성 · 내부 컷, 얼굴 미검출</span></header>
+  <div class="pair">
+    <figure><img src="media/S_07.jpg" alt="컷 7 시작 스틸" loading="lazy"><figcaption>시작 스틸 · F2E_junho_eyes</figcaption></figure>
+    <figure>
+      <video src="media/E1_07_take01.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 7 테이크"><option value="media/E1_07_take01.mp4" selected>take01 · 3.0s</option></select></label>
+      <figcaption class="cap">take01 · 3.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge bad">내부 컷</span><span class="badge bad">얼굴 미검출</span><span class="badge ok">대사 100%</span><span class="scores">얼굴 25/50/75/끝 = – · – · – · –</span></div>
+  <p class="said"><span class="k">whisper</span> 어...</p>
+  <p class="act">숨을 참는다. 21이 14가, 6이, 0이 된다. 기대에서 당황으로</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_07_take01.mp4", "label": "take01", "dur": 3.04, "qa": true, "badges": [["bad", "내부 컷"], ["bad", "얼굴 미검출"], ["ok", "대사 100%"]], "scores": "– · – · – · –", "said": "어..."}]</script>
+</article>
+<article class="cut" data-verdict="통과" id="cut-8">
+  <header><span class="num">08</span><span class="who">준호</span><span class="line">다들 읽으셨는데... 아무도 답변을 안 해주셔...</span><span class="verdict pass">통과</span></header>
+  <div class="pair">
+    <figure><img src="media/S_08.jpg" alt="컷 8 시작 스틸" loading="lazy"><figcaption>시작 스틸 · S_junho_sofa_cu</figcaption></figure>
+    <figure>
+      <video src="media/E1_08_take05.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 8 테이크"><option value="media/E1_08_take05.mp4" selected>take05 · 4.0s</option><option value="media/E1_08_take01.mp4">take01 · 3.0s · QA 없음</option></select></label>
+      <figcaption class="cap">take05 · 4.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge ok">얼굴 0.49</span><span class="badge ok">대사 100%</span><span class="scores">얼굴 25/50/75/끝 = 0.49 · 0.52 · 0.50 · 0.53</span></div>
+  <p class="said"><span class="k">whisper</span> 다들 읽으셨는데 아무도 답변을 안 해주셔.</p>
+  <p class="act">핸드폰을 자세히 들여다보며 &#x27;다들 읽으셨는데…&#x27;, 그리고 시무룩한 표정으로 &#x27;아무도 답변을 안 해주셔…&#x27; (소파)</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_08_take05.mp4", "label": "take05", "dur": 4.04, "qa": true, "badges": [["ok", "단일 샷"], ["ok", "얼굴 0.49"], ["ok", "대사 100%"]], "scores": "0.49 · 0.52 · 0.50 · 0.53", "said": "다들 읽으셨는데 아무도 답변을 안 해주셔."}, {"src": "media/E1_08_take01.mp4", "label": "take01", "dur": 3.04, "qa": false, "badges": [["na", "QA 없음"]], "scores": "", "said": ""}]</script>
+</article>
+<article class="cut" data-verdict="통과" id="cut-9">
+  <header><span class="num">09</span><span class="who">리아</span><span class="line">다들 뭐라고 답장할까 고민 중이실 거야.</span><span class="verdict pass">통과</span></header>
+  <div class="pair">
+    <figure><img src="media/S_09.jpg" alt="컷 9 시작 스틸" loading="lazy"><figcaption>시작 스틸 · S_ria_island_act1_cu</figcaption></figure>
+    <figure>
+      <video src="media/E1_09_take03.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 9 테이크"><option value="media/E1_09_take03.mp4" selected>take03 · 4.0s</option><option value="media/E1_09_take01.mp4">take01 · 3.0s · QA 없음</option></select></label>
+      <figcaption class="cap">take03 · 4.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge ok">얼굴 0.52</span><span class="badge ok">대사 100%</span><span class="scores">얼굴 25/50/75/끝 = 0.54 · 0.52 · 0.52 · 0.55</span></div>
+  <p class="said"><span class="k">whisper</span> 다들 뭐라고 답장할까 고민 중이실 거야</p>
+  <p class="act">리아는 자기 폰을 보며 준호에게 말한다</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_09_take03.mp4", "label": "take03", "dur": 4.04, "qa": true, "badges": [["ok", "단일 샷"], ["ok", "얼굴 0.52"], ["ok", "대사 100%"]], "scores": "0.54 · 0.52 · 0.52 · 0.55", "said": "다들 뭐라고 답장할까 고민 중이실 거야"}, {"src": "media/E1_09_take01.mp4", "label": "take01", "dur": 3.04, "qa": false, "badges": [["na", "QA 없음"]], "scores": "", "said": ""}]</script>
+</article>
+<article class="cut" data-verdict="통과" id="cut-10">
+  <header><span class="num">10</span><span class="who">준호</span><span class="line">수만이 형.. 기다리면 되겠죠?</span><span class="verdict pass">통과</span></header>
+  <div class="pair">
+    <figure><img src="media/S_10.jpg" alt="컷 10 시작 스틸" loading="lazy"><figcaption>시작 스틸 · S_junho_sofa_cu</figcaption></figure>
+    <figure>
+      <video src="media/E1_10_take02.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 10 테이크"><option value="media/E1_10_take02.mp4" selected>take02 · 3.0s</option><option value="media/E1_10_take01.mp4">take01 · 3.0s · QA 없음</option></select></label>
+      <figcaption class="cap">take02 · 3.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge ok">얼굴 0.51</span><span class="badge ok">대사 100%</span><span class="scores">얼굴 25/50/75/끝 = 0.53 · 0.51 · 0.52 · 0.53</span></div>
+  <p class="said"><span class="k">whisper</span> 수만이 형 기다리면 되겠죠?</p>
+  <p class="act">힘없는 목소리로 수만이 형에게 질문한다, 시무룩 (소파에서 아일랜드 쪽으로 고개)</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_10_take02.mp4", "label": "take02", "dur": 3.04, "qa": true, "badges": [["ok", "단일 샷"], ["ok", "얼굴 0.51"], ["ok", "대사 100%"]], "scores": "0.53 · 0.51 · 0.52 · 0.53", "said": "수만이 형 기다리면 되겠죠?"}, {"src": "media/E1_10_take01.mp4", "label": "take01", "dur": 3.04, "qa": false, "badges": [["na", "QA 없음"]], "scores": "", "said": ""}]</script>
+</article>
+<article class="cut" data-verdict="통과" id="cut-11">
+  <header><span class="num">11</span><span class="who">수만</span><span class="line">우리 집도 그래~ 읽기만 해...</span><span class="verdict pass">통과</span></header>
+  <div class="pair">
+    <figure><img src="media/S_11.jpg" alt="컷 11 시작 스틸" loading="lazy"><figcaption>시작 스틸 · S_suman_island_cu</figcaption></figure>
+    <figure>
+      <video src="media/E1_11_take02.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 11 테이크"><option value="media/E1_11_take02.mp4" selected>take02 · 3.0s</option><option value="media/E1_11_take01.mp4">take01 · 3.0s · QA 없음</option></select></label>
+      <figcaption class="cap">take02 · 3.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge ok">얼굴 0.52</span><span class="badge ok">대사 100%</span><span class="scores">얼굴 25/50/75/끝 = 0.58 · 0.55 · 0.52 · 0.54</span></div>
+  <p class="said"><span class="k">whisper</span> 우리 집도 그래. 읽기만 해.</p>
+  <p class="act">아무렇지 않다는 듯이 피클 뚜껑을 열며 말한다</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_11_take02.mp4", "label": "take02", "dur": 3.04, "qa": true, "badges": [["ok", "단일 샷"], ["ok", "얼굴 0.52"], ["ok", "대사 100%"]], "scores": "0.58 · 0.55 · 0.52 · 0.54", "said": "우리 집도 그래. 읽기만 해."}, {"src": "media/E1_11_take01.mp4", "label": "take01", "dur": 3.04, "qa": false, "badges": [["na", "QA 없음"]], "scores": "", "said": ""}]</script>
+</article>
+<article class="cut" data-verdict="통과" id="cut-12">
+  <header><span class="num">12</span><span class="who">준호</span><span class="line">누구 한 분은 답변해 주시겠죠?</span><span class="verdict pass">통과</span></header>
+  <div class="pair">
+    <figure><img src="media/S_12.jpg" alt="컷 12 시작 스틸" loading="lazy"><figcaption>시작 스틸 · J4_junho_cu_r1</figcaption></figure>
+    <figure>
+      <video src="media/E1_12_take02.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 12 테이크"><option value="media/E1_12_take02.mp4" selected>take02 · 3.0s</option><option value="media/E1_12_take01_2.mp4">take01 · 3.0s · QA 없음</option></select></label>
+      <figcaption class="cap">take02 · 3.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge ok">얼굴 0.48</span><span class="badge ok">대사 100%</span><span class="scores">얼굴 25/50/75/끝 = 0.49 · 0.50 · 0.48 · 0.53</span></div>
+  <p class="said"><span class="k">whisper</span> 누구 한 분은 답변해 주시겠죠?</p>
+  <p class="act">다행이라는 듯이, 기대하는 눈빛 (준호 CU)</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_12_take02.mp4", "label": "take02", "dur": 3.04, "qa": true, "badges": [["ok", "단일 샷"], ["ok", "얼굴 0.48"], ["ok", "대사 100%"]], "scores": "0.49 · 0.50 · 0.48 · 0.53", "said": "누구 한 분은 답변해 주시겠죠?"}, {"src": "media/E1_12_take01_2.mp4", "label": "take01", "dur": 3.04, "qa": false, "badges": [["na", "QA 없음"]], "scores": "", "said": ""}]</script>
+</article>
+<article class="cut" data-verdict="통과" id="cut-13">
+  <header><span class="num">13</span><span class="who">수만</span><span class="line">우리 엄마는 전화로만 하셔.. 새벽 4시에..</span><span class="verdict pass">통과</span></header>
+  <div class="pair">
+    <figure><img src="media/S_13.jpg" alt="컷 13 시작 스틸" loading="lazy"><figcaption>시작 스틸 · S_suman_island_look_cu</figcaption></figure>
+    <figure>
+      <video src="media/E1_13_take02.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 13 테이크"><option value="media/E1_13_take02.mp4" selected>take02 · 3.0s</option><option value="media/E1_13_take01.mp4">take01 · 3.0s · QA 없음</option></select></label>
+      <figcaption class="cap">take02 · 3.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge ok">얼굴 0.62</span><span class="badge ok">대사 94%</span><span class="scores">얼굴 25/50/75/끝 = 0.63 · 0.62 · 0.62 · 0.63</span></div>
+  <p class="said"><span class="k">whisper</span> 우리 엄마는 전화로만 하셔, 새벽 3시에.</p>
+  <p class="act">피클 한입 씹으며 말한다. &#x27;새벽 4시에&#x27; 뒤 3초 정적(씹기만), 그다음 14번</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_13_take02.mp4", "label": "take02", "dur": 3.04, "qa": true, "badges": [["ok", "단일 샷"], ["ok", "얼굴 0.62"], ["ok", "대사 94%"]], "scores": "0.63 · 0.62 · 0.62 · 0.63", "said": "우리 엄마는 전화로만 하셔, 새벽 3시에."}, {"src": "media/E1_13_take01.mp4", "label": "take01", "dur": 3.04, "qa": false, "badges": [["na", "QA 없음"]], "scores": "", "said": ""}]</script>
+</article>
+<article class="cut" data-verdict="통과" id="cut-14">
+  <header><span class="num">14</span><span class="who">준호</span><span class="line">…아… 전화가 오면 어쩌지…</span><span class="verdict pass">통과</span></header>
+  <div class="pair">
+    <figure><img src="media/S_14.jpg" alt="컷 14 시작 스틸" loading="lazy"><figcaption>시작 스틸 · J4_junho_cu_r1</figcaption></figure>
+    <figure>
+      <video src="media/E1_14_take02.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 14 테이크"><option value="media/E1_14_take02.mp4" selected>take02 · 3.0s</option><option value="media/E1_14_take01.mp4">take01 · 3.0s · QA 없음</option></select></label>
+      <figcaption class="cap">take02 · 3.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge ok">얼굴 0.46</span><span class="badge ok">대사 100%</span><span class="scores">얼굴 25/50/75/끝 = 0.48 · 0.46 · 0.50 · 0.52</span></div>
+  <p class="said"><span class="k">whisper</span> 아, 전화가 오면 어쩌지?</p>
+  <p class="act">당황한 표정 (준호 CU)</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_14_take02.mp4", "label": "take02", "dur": 3.04, "qa": true, "badges": [["ok", "단일 샷"], ["ok", "얼굴 0.46"], ["ok", "대사 100%"]], "scores": "0.48 · 0.46 · 0.50 · 0.52", "said": "아, 전화가 오면 어쩌지?"}, {"src": "media/E1_14_take01.mp4", "label": "take01", "dur": 3.04, "qa": false, "badges": [["na", "QA 없음"]], "scores": "", "said": ""}]</script>
+</article>
+<article class="cut" data-verdict="재생성" id="cut-19">
+  <header><span class="num">19</span><span class="who">준호</span><span class="line">어? 뭐야 뭐야, 뭔데? 나도 보여줘.</span><span class="verdict redo">재생성 · 얼굴 0.28</span></header>
+  <div class="pair">
+    <figure><img src="media/S_19.jpg" alt="컷 19 시작 스틸" loading="lazy"><figcaption>시작 스틸 · J2c_halfstand_curious</figcaption></figure>
+    <figure>
+      <video src="media/E1_19_take01_2.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 19 테이크"><option value="media/E1_19_take01_2.mp4" selected>take01 · 3.0s</option></select></label>
+      <figcaption class="cap">take01 · 3.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge bad">얼굴 0.28/51px</span><span class="badge ok">대사 100%</span><span class="scores">얼굴 25/50/75/끝 = 0.29 · 0.28 · 0.28 · 0.40</span></div>
+  <p class="said"><span class="k">whisper</span> 어? 뭐야 뭐야 뭔데? 나도 보여줘</p>
+  <p class="act">벌떡 일어나 리아 쪽으로 간다</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_19_take01_2.mp4", "label": "take01", "dur": 3.04, "qa": true, "badges": [["ok", "단일 샷"], ["bad", "얼굴 0.28/51px"], ["ok", "대사 100%"]], "scores": "0.29 · 0.28 · 0.28 · 0.40", "said": "어? 뭐야 뭐야 뭔데? 나도 보여줘"}]</script>
+</article></section>
+<section><h2>2막 · 아일랜드 <small>1/16 통과</small></h2>
+<article class="cut" data-verdict="통과" id="cut-22">
+  <header><span class="num">22</span><span class="who">리아</span><span class="line">다들 준호한테 무슨 말 할지 나한테 다 물어보고있어 ㅋㅋㅋㅋ</span><span class="verdict pass">통과</span></header>
+  <div class="pair">
+    <figure><img src="media/S_22.jpg" alt="컷 22 시작 스틸" loading="lazy"><figcaption>시작 스틸 · S_ria_island_act2_cu</figcaption></figure>
+    <figure>
+      <video src="media/E1_22_take03.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 22 테이크"><option value="media/E1_22_take03.mp4" selected>take03 · 4.0s</option><option value="media/E1_22_take01.mp4">take01 · 3.0s · QA 없음</option></select></label>
+      <figcaption class="cap">take03 · 4.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge ok">얼굴 0.51</span><span class="badge ok">대사 100%</span><span class="scores">얼굴 25/50/75/끝 = 0.51 · 0.55 · 0.56 · 0.58</span></div>
+  <p class="said"><span class="k">whisper</span> 다들 준호한테 무슨 말할지 나한테 다 물어보고 있어.</p>
+  <p class="act">자기에게 걸어오는 준호에게 핸드폰을보여주며 말한다</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_22_take03.mp4", "label": "take03", "dur": 4.04, "qa": true, "badges": [["ok", "단일 샷"], ["ok", "얼굴 0.51"], ["ok", "대사 100%"]], "scores": "0.51 · 0.55 · 0.56 · 0.58", "said": "다들 준호한테 무슨 말할지 나한테 다 물어보고 있어."}, {"src": "media/E1_22_take01.mp4", "label": "take01", "dur": 3.04, "qa": false, "badges": [["na", "QA 없음"]], "scores": "", "said": ""}]</script>
+</article>
+<article class="cut" data-verdict="보류" id="cut-23">
+  <header><span class="num">23</span><span class="who">준호</span><span class="line">편하게 말하시지..번역되서 다 읽을 수 있는데</span><span class="verdict redo">보류</span></header>
+  <div class="pair">
+    <figure><img src="media/S_23.jpg" alt="컷 23 시작 스틸" loading="lazy"><figcaption>시작 스틸 · S_junho_island_r2</figcaption></figure>
+    <figure>
+      <video src="media/E1_23_take01.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 23 테이크"><option value="media/E1_23_take01.mp4" selected>take01 · 4.0s</option></select></label>
+      <figcaption class="cap">take01 · 4.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge ok">얼굴 0.56</span><span class="badge ok">대사 94%</span><span class="scores">얼굴 25/50/75/끝 = 0.56 · 0.57 · 0.60 · 0.57</span></div>
+  <p class="said"><span class="k">whisper</span> 편하게 말하시지, 번역돼서 다 읽을 수 있는데.</p>
+  <p class="act">리아는 웃겨죽겠다는 표정, 준호는 어리둥절한 표정으로 리아의 핸드폰을함께  보고 있다.</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_23_take01.mp4", "label": "take01", "dur": 4.04, "qa": true, "badges": [["ok", "단일 샷"], ["ok", "얼굴 0.56"], ["ok", "대사 94%"]], "scores": "0.56 · 0.57 · 0.60 · 0.57", "said": "편하게 말하시지, 번역돼서 다 읽을 수 있는데."}]</script>
+</article>
+<article class="cut" data-verdict="보류" id="cut-24">
+  <header><span class="num">24</span><span class="who">리아</span><span class="line">다들 궁금한게 많긴 하신가봐 ㅋㅋㅋ</span><span class="verdict redo">보류</span></header>
+  <div class="pair">
+    <figure><img src="media/S_24.jpg" alt="컷 24 시작 스틸" loading="lazy"><figcaption>시작 스틸 · S_ria_island_act2_cu</figcaption></figure>
+    <figure>
+      <video src="media/E1_24_take01.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 24 테이크"><option value="media/E1_24_take01.mp4" selected>take01 · 3.0s</option></select></label>
+      <figcaption class="cap">take01 · 3.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge ok">얼굴 0.51</span><span class="badge ok">대사 100%</span><span class="scores">얼굴 25/50/75/끝 = 0.51 · 0.58 · 0.57 · 0.57</span></div>
+  <p class="said"><span class="k">whisper</span> 다들 궁금한 게 많긴 하신가 봐</p>
+  <p class="act">리아와 준호가 리아의 핸드폰을 같이 보다가 서로 얼굴을 쳐다본다.</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_24_take01.mp4", "label": "take01", "dur": 3.04, "qa": true, "badges": [["ok", "단일 샷"], ["ok", "얼굴 0.51"], ["ok", "대사 100%"]], "scores": "0.51 · 0.58 · 0.57 · 0.57", "said": "다들 궁금한 게 많긴 하신가 봐"}]</script>
+</article>
+<article class="cut" data-verdict="보류" id="cut-26">
+  <header><span class="num">26</span><span class="who">준호</span><span class="line">……이게 뭐야.</span><span class="verdict redo">보류</span></header>
+  <div class="pair">
+    <figure><img src="media/S_26.jpg" alt="컷 26 시작 스틸" loading="lazy"><figcaption>시작 스틸 · S_junho_island_r2</figcaption></figure>
+    <figure>
+      <video src="media/E1_26_take01.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 26 테이크"><option value="media/E1_26_take01.mp4" selected>take01 · 3.0s</option></select></label>
+      <figcaption class="cap">take01 · 3.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge ok">얼굴 0.55</span><span class="badge ok">대사 100%</span><span class="scores">얼굴 25/50/75/끝 = 0.57 · 0.55 · 0.58 · 0.56</span></div>
+  <p class="said"><span class="k">whisper</span> 이게 뭐야?</p>
+  <p class="act">준호가 천천히 리아 폰에서 눈을 뗀다. 리아는 이 상황이 재밌다는 듯 준호를 본다</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_26_take01.mp4", "label": "take01", "dur": 3.04, "qa": true, "badges": [["ok", "단일 샷"], ["ok", "얼굴 0.55"], ["ok", "대사 100%"]], "scores": "0.57 · 0.55 · 0.58 · 0.56", "said": "이게 뭐야?"}]</script>
+</article>
+<article class="cut" data-verdict="보류" id="cut-27">
+  <header><span class="num">27</span><span class="who">리아</span><span class="line">보내도 괜찮을지 체크해달래</span><span class="verdict redo">보류</span></header>
+  <div class="pair">
+    <figure><img src="media/S_27.jpg" alt="컷 27 시작 스틸" loading="lazy"><figcaption>시작 스틸 · S_ria_island_act1_cu</figcaption></figure>
+    <figure>
+      <video src="media/E1_27_take01.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 27 테이크"><option value="media/E1_27_take01.mp4" selected>take01 · 3.0s</option></select></label>
+      <figcaption class="cap">take01 · 3.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge ok">얼굴 0.48</span><span class="badge ok">대사 100%</span><span class="scores">얼굴 25/50/75/끝 = 0.55 · 0.48 · 0.53 · 0.53</span></div>
+  <p class="said"><span class="k">whisper</span> 보내도 괜찮을지 체크해 달래?</p>
+  <p class="act">띵동 메시지가 오고 엄마 메시지를 확인하려고 폰을 터치한다</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_27_take01.mp4", "label": "take01", "dur": 3.04, "qa": true, "badges": [["ok", "단일 샷"], ["ok", "얼굴 0.48"], ["ok", "대사 100%"]], "scores": "0.55 · 0.48 · 0.53 · 0.53", "said": "보내도 괜찮을지 체크해 달래?"}]</script>
+</article>
+<article class="cut" data-verdict="보류" id="cut-30">
+  <header><span class="num">30</span><span class="who">준호</span><span class="line">……스물한 명이 지금 나한테 물어볼 걸 너한테 검사받는 중이라고?</span><span class="verdict redo">보류</span></header>
+  <div class="pair">
+    <figure><img src="media/S_30.jpg" alt="컷 30 시작 스틸" loading="lazy"><figcaption>시작 스틸 · S_junho_island_r2</figcaption></figure>
+    <figure>
+      <video src="media/E1_30_take01.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 30 테이크"><option value="media/E1_30_take01.mp4" selected>take01 · 5.0s</option></select></label>
+      <figcaption class="cap">take01 · 5.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge ok">얼굴 0.50</span><span class="badge ok">대사 90%</span><span class="scores">얼굴 25/50/75/끝 = 0.56 · 0.55 · 0.50 · 0.57</span></div>
+  <p class="said"><span class="k">whisper</span> 21명이 지금 나한테 물어볼 걸 너한테 검사받는 중이라고?</p>
+  <p class="act">준호 다시 쇼파로 돌아간다.</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_30_take01.mp4", "label": "take01", "dur": 5.04, "qa": true, "badges": [["ok", "단일 샷"], ["ok", "얼굴 0.50"], ["ok", "대사 90%"]], "scores": "0.56 · 0.55 · 0.50 · 0.57", "said": "21명이 지금 나한테 물어볼 걸 너한테 검사받는 중이라고?"}]</script>
+</article>
+<article class="cut" data-verdict="보류" id="cut-31">
+  <header><span class="num">31</span><span class="who">리아</span><span class="line">Yes. 단톡방에 쓰면 다들 보니까. 틀릴까 봐 무서워하셔.</span><span class="verdict redo">보류</span></header>
+  <div class="pair">
+    <figure><img src="media/S_31.jpg" alt="컷 31 시작 스틸" loading="lazy"><figcaption>시작 스틸 · S_ria_island_act2_cu</figcaption></figure>
+    <figure>
+      <video src="media/E1_31_take01.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 31 테이크"><option value="media/E1_31_take01.mp4" selected>take01 · 4.0s</option></select></label>
+      <figcaption class="cap">take01 · 4.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge ok">얼굴 0.53</span><span class="badge ok">대사 89%</span><span class="scores">얼굴 25/50/75/끝 = 0.61 · 0.53 · 0.59 · 0.58</span></div>
+  <p class="said"><span class="k">whisper</span> 예스 단톡방에 쓰면 다들 보니까 틀릴까 봐 무서워 하셔</p>
+  <p class="act">바로 옆에 선 준호를 올려다보며 말한다</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_31_take01.mp4", "label": "take01", "dur": 4.04, "qa": true, "badges": [["ok", "단일 샷"], ["ok", "얼굴 0.53"], ["ok", "대사 89%"]], "scores": "0.61 · 0.53 · 0.59 · 0.58", "said": "예스 단톡방에 쓰면 다들 보니까 틀릴까 봐 무서워 하셔"}]</script>
+</article>
+<article class="cut" data-verdict="보류" id="cut-32">
+  <header><span class="num">32</span><span class="who">준호</span><span class="line">어머님 아버님도?</span><span class="verdict redo">보류</span></header>
+  <div class="pair">
+    <figure><img src="media/S_32.jpg" alt="컷 32 시작 스틸" loading="lazy"><figcaption>시작 스틸 · S_junho_island_r2</figcaption></figure>
+    <figure>
+      <video src="media/E1_32_take01.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 32 테이크"><option value="media/E1_32_take01.mp4" selected>take01 · 3.0s</option></select></label>
+      <figcaption class="cap">take01 · 3.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge ok">얼굴 0.52</span><span class="badge ok">대사 100%</span><span class="scores">얼굴 25/50/75/끝 = 0.56 · 0.52 · 0.58 · 0.58</span></div>
+  <p class="said"><span class="k">whisper</span> 어머님, 아버님도?</p>
+  <p class="act">눈 커짐, 반 웃음</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_32_take01.mp4", "label": "take01", "dur": 3.04, "qa": true, "badges": [["ok", "단일 샷"], ["ok", "얼굴 0.52"], ["ok", "대사 100%"]], "scores": "0.56 · 0.52 · 0.58 · 0.58", "said": "어머님, 아버님도?"}]</script>
+</article>
+<article class="cut" data-verdict="보류" id="cut-33">
+  <header><span class="num">33</span><span class="who">리아</span><span class="line">Mom? 엄마가 제일 무서워해.</span><span class="verdict redo">보류</span></header>
+  <div class="pair">
+    <figure><img src="media/S_33.jpg" alt="컷 33 시작 스틸" loading="lazy"><figcaption>시작 스틸 · S_ria_island_act2_cu</figcaption></figure>
+    <figure>
+      <video src="media/E1_33_take01.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 33 테이크"><option value="media/E1_33_take01.mp4" selected>take01 · 3.0s</option></select></label>
+      <figcaption class="cap">take01 · 3.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge ok">얼굴 0.57</span><span class="badge ok">대사 86%</span><span class="scores">얼굴 25/50/75/끝 = 0.58 · 0.57 · 0.57 · 0.57</span></div>
+  <p class="said"><span class="k">whisper</span> 엄마가 제일 무서워해?</p>
+  <p class="act">핸드폰으로 엄마와 대화하며 얘기한다.</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_33_take01.mp4", "label": "take01", "dur": 3.04, "qa": true, "badges": [["ok", "단일 샷"], ["ok", "얼굴 0.57"], ["ok", "대사 86%"]], "scores": "0.58 · 0.57 · 0.57 · 0.57", "said": "엄마가 제일 무서워해?"}]</script>
+</article>
+<article class="cut" data-verdict="보류" id="cut-34">
+  <header><span class="num">34</span><span class="who">준호</span><span class="line">……나만 무서운 줄 알았는데.</span><span class="verdict redo">보류</span></header>
+  <div class="pair">
+    <figure><img src="media/S_34.jpg" alt="컷 34 시작 스틸" loading="lazy"><figcaption>시작 스틸 · S_junho_island_r2</figcaption></figure>
+    <figure>
+      <video src="media/E1_34_take01.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 34 테이크"><option value="media/E1_34_take01.mp4" selected>take01 · 3.0s</option></select></label>
+      <figcaption class="cap">take01 · 3.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge ok">얼굴 0.52</span><span class="badge ok">대사 100%</span><span class="scores">얼굴 25/50/75/끝 = 0.56 · 0.53 · 0.52 · 0.57</span></div>
+  <p class="said"><span class="k">whisper</span> 나만 무서운 줄 알았는데.</p>
+  <p class="act">웃고 있지 않은데 입꼬리가 올라가 있다. 자기 얼굴을 만져 본다</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_34_take01.mp4", "label": "take01", "dur": 3.04, "qa": true, "badges": [["ok", "단일 샷"], ["ok", "얼굴 0.52"], ["ok", "대사 100%"]], "scores": "0.56 · 0.53 · 0.52 · 0.57", "said": "나만 무서운 줄 알았는데."}]</script>
+</article>
+<article class="cut" data-verdict="보류" id="cut-35">
+  <header><span class="num">35</span><span class="who">리아</span><span class="line">오빠, 나 빨리 답변해드려야해~ 너무 바빠ㅋㅋㅋ</span><span class="verdict redo">보류</span></header>
+  <div class="pair">
+    <figure><img src="media/S_35.jpg" alt="컷 35 시작 스틸" loading="lazy"><figcaption>시작 스틸 · S_ria_island_act1_cu</figcaption></figure>
+    <figure>
+      <video src="media/E1_35_take01.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 35 테이크"><option value="media/E1_35_take01.mp4" selected>take01 · 4.0s</option></select></label>
+      <figcaption class="cap">take01 · 4.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge ok">얼굴 0.48</span><span class="badge ok">대사 100%</span><span class="scores">얼굴 25/50/75/끝 = 0.52 · 0.48 · 0.53 · 0.53</span></div>
+  <p class="said"><span class="k">whisper</span> 오빠 나 빨리 답변해 드려야 해 너무 바빠</p>
+  <p class="act">엄지가 빠르다. &#x27;OK.&#x27; &#x27;그건 빼.&#x27; &#x27;OK.&#x27; 준호는 옆에 그대로 서서 기다린다</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_35_take01.mp4", "label": "take01", "dur": 4.04, "qa": true, "badges": [["ok", "단일 샷"], ["ok", "얼굴 0.48"], ["ok", "대사 100%"]], "scores": "0.52 · 0.48 · 0.53 · 0.53", "said": "오빠 나 빨리 답변해 드려야 해 너무 바빠"}]</script>
+</article>
+<article class="cut" data-verdict="보류" id="cut-39">
+  <header><span class="num">39</span><span class="who">준호</span><span class="line">리아! 어머니가 밥 먹었냬!</span><span class="verdict redo">보류 · 대사 불일치</span></header>
+  <div class="pair">
+    <figure><img src="media/S_39.jpg" alt="컷 39 시작 스틸" loading="lazy"><figcaption>시작 스틸 · H39_junho_joy</figcaption></figure>
+    <figure>
+      <video src="media/E1_39_take01.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 39 테이크"><option value="media/E1_39_take01.mp4" selected>take01 · 3.0s</option></select></label>
+      <figcaption class="cap">take01 · 3.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge ok">얼굴 0.57</span><span class="badge bad">대사 80%</span><span class="scores">얼굴 25/50/75/끝 = 0.57 · 0.58 · 0.57 · 0.57</span></div>
+  <p class="said"><span class="k">whisper</span> 리야, 어머니가 밥 먹었네?</p>
+  <p class="act">얼굴이 아주 느리게 풀린다. 바보 같은 얼굴. 폰을 번쩍 든다</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_39_take01.mp4", "label": "take01", "dur": 3.04, "qa": true, "badges": [["ok", "단일 샷"], ["ok", "얼굴 0.57"], ["bad", "대사 80%"]], "scores": "0.57 · 0.58 · 0.57 · 0.57", "said": "리야, 어머니가 밥 먹었네?"}]</script>
+</article>
+<article class="cut" data-verdict="보류" id="cut-40">
+  <header><span class="num">40</span><span class="who">리아</span><span class="line">Yep. 방금 그렇게 보내시라고 말씀드렸어</span><span class="verdict redo">보류</span></header>
+  <div class="pair">
+    <figure><img src="media/S_40.jpg" alt="컷 40 시작 스틸" loading="lazy"><figcaption>시작 스틸 · S_ria_island_act2_cu</figcaption></figure>
+    <figure>
+      <video src="media/E1_40_take01.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 40 테이크"><option value="media/E1_40_take01.mp4" selected>take01 · 4.0s</option></select></label>
+      <figcaption class="cap">take01 · 4.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge ok">얼굴 0.46</span><span class="badge ok">대사 91%</span><span class="scores">얼굴 25/50/75/끝 = 0.55 · 0.46 · 0.51 · 0.58</span></div>
+  <p class="said"><span class="k">whisper</span> 방금 그렇게 보내시라고 말씀드렸어</p>
+  <p class="act">CU, 끝음 내림</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_40_take01.mp4", "label": "take01", "dur": 4.04, "qa": true, "badges": [["ok", "단일 샷"], ["ok", "얼굴 0.46"], ["ok", "대사 91%"]], "scores": "0.55 · 0.46 · 0.51 · 0.58", "said": "방금 그렇게 보내시라고 말씀드렸어"}]</script>
+</article>
+<article class="cut" data-verdict="보류" id="cut-41">
+  <header><span class="num">41</span><span class="who">준호</span><span class="line">나 밥 먹었어. 먹었다고 보내도 돼?</span><span class="verdict redo">보류</span></header>
+  <div class="pair">
+    <figure><img src="media/S_41.jpg" alt="컷 41 시작 스틸" loading="lazy"><figcaption>시작 스틸 · S_junho_island_r2</figcaption></figure>
+    <figure>
+      <video src="media/E1_41_take01.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 41 테이크"><option value="media/E1_41_take01.mp4" selected>take01 · 3.0s</option></select></label>
+      <figcaption class="cap">take01 · 3.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge ok">얼굴 0.53</span><span class="badge ok">대사 100%</span><span class="scores">얼굴 25/50/75/끝 = 0.53 · 0.57 · 0.57 · 0.57</span></div>
+  <p class="said"><span class="k">whisper</span> 나 밥 먹었어 먹었다고 보내도 돼?</p>
+  <p class="act">아일랜드 옆에 서서 폰 들고</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_41_take01.mp4", "label": "take01", "dur": 3.04, "qa": true, "badges": [["ok", "단일 샷"], ["ok", "얼굴 0.53"], ["ok", "대사 100%"]], "scores": "0.53 · 0.57 · 0.57 · 0.57", "said": "나 밥 먹었어 먹었다고 보내도 돼?"}]</script>
+</article>
+<article class="cut" data-verdict="보류" id="cut-42">
+  <header><span class="num">42</span><span class="who">리아</span><span class="line">……Wait. 오빠도 검사받게?</span><span class="verdict redo">보류 · 대사 불일치</span></header>
+  <div class="pair">
+    <figure><img src="media/S_42.jpg" alt="컷 42 시작 스틸" loading="lazy"><figcaption>시작 스틸 · S_ria_island_act2_cu</figcaption></figure>
+    <figure>
+      <video src="media/E1_42_take01.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 42 테이크"><option value="media/E1_42_take01.mp4" selected>take01 · 3.0s</option></select></label>
+      <figcaption class="cap">take01 · 3.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge ok">얼굴 0.55</span><span class="badge bad">대사 74%</span><span class="scores">얼굴 25/50/75/끝 = 0.55 · 0.56 · 0.57 · 0.57</span></div>
+  <p class="said"><span class="k">whisper</span> 왜 오빠도 검사받게?</p>
+  <p class="act">OTS, 리아가 준호를 올려다봄</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_42_take01.mp4", "label": "take01", "dur": 3.04, "qa": true, "badges": [["ok", "단일 샷"], ["ok", "얼굴 0.55"], ["bad", "대사 74%"]], "scores": "0.55 · 0.56 · 0.57 · 0.57", "said": "왜 오빠도 검사받게?"}]</script>
+</article>
+<article class="cut" data-verdict="보류" id="cut-43">
+  <header><span class="num">43</span><span class="who">준호</span><span class="line">응.</span><span class="verdict redo">보류 · 무음</span></header>
+  <div class="pair">
+    <figure><img src="media/S_43.jpg" alt="컷 43 시작 스틸" loading="lazy"><figcaption>시작 스틸 · H43_junho_submits_phone</figcaption></figure>
+    <figure>
+      <video src="media/E1_43_take01.mp4" controls preload="metadata" playsinline></video>
+      <label class="take-label">테이크 <select class="take" aria-label="컷 43 테이크"><option value="media/E1_43_take01.mp4" selected>take01 · 3.0s</option></select></label>
+      <figcaption class="cap">take01 · 3.0s</figcaption>
+    </figure>
+  </div>
+  <div class="qa"><span class="badge ok">단일 샷</span><span class="badge ok">얼굴 0.54</span><span class="badge bad">무음</span><span class="scores">얼굴 25/50/75/끝 = 0.57 · 0.54 · 0.57 · 0.56</span></div>
+  <p class="said"><span class="k">whisper</span> Hmm.</p>
+  <p class="act">준호가 멈춘다. 폰을 리아에게 두 손으로 내민다</p>
+  <script type="application/json" class="take-data">[{"src": "media/E1_43_take01.mp4", "label": "take01", "dur": 3.04, "qa": true, "badges": [["ok", "단일 샷"], ["ok", "얼굴 0.54"], ["bad", "무음"]], "scores": "0.57 · 0.54 · 0.57 · 0.56", "said": "Hmm."}]</script>
+</article></section>
+</main>
+
+<script>
+const bs=[...document.querySelectorAll(".filters button")];
+function apply(f){
+  document.querySelectorAll(".cut").forEach(c=>{c.hidden=(f!=="all"&&c.dataset.verdict!==f);});
+  bs.forEach(b=>b.setAttribute("aria-pressed", String(b.dataset.f===f)));
+  try{localStorage.setItem("clipFilter", f);}catch(e){}
+}
+bs.forEach(b=>b.addEventListener("click", ()=>apply(b.dataset.f)));
+let f="all";
+try{f=localStorage.getItem("clipFilter")||"all";}catch(e){}
+if(!bs.some(b=>b.dataset.f===f)) f="all";
+apply(f);
+function paint(card, take){
+  const video=card.querySelector("video");
+  if(video.getAttribute("src")!==take.src){
+    video.pause();
+    video.setAttribute("src", take.src);
+    video.load();
+  }
+  card.querySelector(".cap").textContent=take.label+" · "+Number(take.dur).toFixed(1)+"s";
+  const qa=card.querySelector(".qa");
+  qa.replaceChildren();
+  (take.badges||[]).forEach(pair=>{
+    const span=document.createElement("span");
+    span.className="badge "+pair[0];
+    span.textContent=pair[1];
+    qa.appendChild(span);
+  });
+  if(take.scores){
+    const span=document.createElement("span");
+    span.className="scores";
+    span.textContent="얼굴 25/50/75/끝 = "+take.scores;
+    qa.appendChild(span);
+  }
+  const said=card.querySelector(".said");
+  said.replaceChildren();
+  const key=document.createElement("span");
+  key.className="k";
+  key.textContent=take.qa?"whisper":"QA";
+  said.appendChild(key);
+  said.appendChild(document.createTextNode(" "+(take.qa?(take.said||"(음성 없음)"):"QA 없음")));
+}
+document.querySelectorAll(".cut").forEach(card=>{
+  const data=JSON.parse(card.querySelector(".take-data").textContent);
+  const sel=card.querySelector("select.take");
+  sel.addEventListener("change", ()=>paint(card, data[sel.selectedIndex]));
+});
+document.querySelectorAll("video").forEach(v=>v.addEventListener("play", ()=>{
+  document.querySelectorAll("video").forEach(o=>{if(o!==v) o.pause();});
+}));
+</script>

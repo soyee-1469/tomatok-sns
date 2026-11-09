@@ -1,14 +1,17 @@
 SCENE CONTEXT
-Evening living room, sofa-axis camera: the caramel corduroy sofa faces the camera with the arched window and prayer flags behind it; the kitchen island is off-frame to the right. Exactly as in the start image: the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, ID badge on a navy lanyard, grey trousers, black leather shoes) sits on the center cushion of the sofa holding his phone.
+A single chest-up close-up, exactly as in the start image: the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, ID badge on a navy lanyard, grey trousers, black leather shoes) alone in a chest-up close-up on the center cushion of the sofa, the dark arched window and plant behind him, eyes down on the phone in his hand. Only what the start image shows is ever in frame; the rest of the room is never shown.
 
 FORMAT MODE
-ONE single continuous locked-off shot for the entire clip: no cuts, no shot changes, no punch-in, no second angle; the framing at the last frame is identical to the first frame.
+ONE single continuous locked-off shot for the entire clip: no cuts, no shot changes, no punch-in, no punch-out, no cut to a wider shot, no second angle; the shot size stays a chest-up close-up from the first frame to the last; the framing at the last frame is identical to the first frame.
 
 CAMERA
-Fixed camera on a tripod, exactly the framing of the start image for the entire 3 seconds: no zoom, no pan, no dolly, no reframing, the camera never follows a person. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain, no over-sharpening.
+Fixed camera on a tripod, exactly the framing of the start image for the entire clip: no zoom, no pan, no dolly, no reframing, the camera never follows a person. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain, no over-sharpening.
 
-ACTION
-0.0-0.3s hold. 0.3-1.6s: he brings the phone close and peers at the screen while saying the first half of the line. 1.6-2.7s: he says the second half as his face falls into a sulky, crestfallen look, shoulders dropping a little; lips move only as much as the words need. 2.7-3.0s: holds the sulky face, eyes still on the phone.
+ACTION (only the movements listed below happen; nothing else moves)
+0.0-0.3s: eyes on the phone, lips closed. 0.3-1.8s: on '다들 읽으셨는데...' he brings the phone a few centimetres closer and his eyes narrow a little at the screen. 1.8-2.3s: a hesitation, lips closed, eyes stay on the screen. 2.3-3.4s: on '아무도 답변을 안 해주셔...' the corners of his mouth turn down and his shoulders drop a little; eyes stay on the phone. 3.4-4.0s: no new movement; one slow blink.
+
+CHARACTERS
+Rule: the man with glasses moves only his eyes, eyebrows and lips; head stays within a few degrees; glasses never come off; no grin.
 
 PERFORMANCE
 In character: sulky, crestfallen, quiet; minimal facial movement. No exaggerated acting, nobody looks at the camera.

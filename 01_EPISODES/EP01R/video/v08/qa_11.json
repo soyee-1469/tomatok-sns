@@ -1,0 +1,19 @@
+{
+ "cut": 11,
+ "who": "수만",
+ "line": "우리 집도 그래~ 읽기만 해...",
+ "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_11/EP01R_E1_11_kling3_take02.mp4",
+ "take": "EP01R_E1_11_kling3_take02",
+ "clip_qa": "3.0s | 단일 샷 | 첫↔끝 프레임 차 1.2 | 스파이크 []",
+ "face": {
+  "f25": "수만 0.58 (299px) ✓",
+  "f50": "수만 0.55 (303px) ✓",
+  "f75": "수만 0.52 (304px) ✓",
+  "end": "수만 0.54 (304px) ✓"
+ },
+ "whisper": "(lang ko p=0.99)\n   0.00- 2.00  우리 집도 그래.\n   2.00- 3.00  읽기만 해.",
+ "face_pass": true,
+ "single_shot": true,
+ "max_db": -8.8,
+ "silent": false
+}

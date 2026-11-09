@@ -1,0 +1,19 @@
+{
+ "cut": 27,
+ "who": "리아",
+ "line": "보내도 괜찮을지 체크해달래",
+ "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_27/EP01R_E1_27_kling3_take01.mp4",
+ "take": "EP01R_E1_27_kling3_take01",
+ "clip_qa": "3.0s | 단일 샷 | 첫↔끝 프레임 차 1.0 | 스파이크 []",
+ "face": {
+  "f25": "리아 0.55 (299px) ✓",
+  "f50": "리아 0.48 (295px) ✓",
+  "f75": "리아 0.53 (295px) ✓",
+  "end": "리아 0.53 (298px) ✓"
+ },
+ "whisper": "(lang ko p=0.99)\n   0.00- 3.00  보내도 괜찮을지 체크해 달래?",
+ "face_pass": true,
+ "single_shot": true,
+ "max_db": -8.0,
+ "silent": false
+}

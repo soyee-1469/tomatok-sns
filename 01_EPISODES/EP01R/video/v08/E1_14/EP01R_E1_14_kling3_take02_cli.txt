@@ -1,0 +1,48 @@
+[
+  {
+    "created_at": "2026-11-09T02:07:31.420194Z",
+    "display_name": "Kling v3.0",
+    "id": "e99cab9c-a66f-458f-8cc5-3a04ed891892",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 3,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "778cfeae-979d-479c-9924-249923c58186",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/778cfeae-979d-479c-9924-249923c58186.png"
+          },
+          "role": "start_image"
+        },
+        {
+          "data": {
+            "id": "778cfeae-979d-479c-9924-249923c58186",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/778cfeae-979d-479c-9924-249923c58186.png"
+          },
+          "role": "end_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "SCENE CONTEXT\nA single chest-up close-up, exactly as in the start image: the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, ID badge on a navy lanyard, grey trousers, black leather shoes) alone in a chest-up close-up on the center cushion of the sofa, the dark arched window and plant behind him, eyes down on the phone in his hand. Only what the start image shows is ever in frame; the rest of the room is never shown.\n\nFORMAT MODE\nONE single continuous locked-off shot for the entire clip: no cuts, no shot changes, no punch-in, no punch-out, no cut to a wider shot, no second angle; the shot size stays a chest-up close-up from the first frame to the last; the framing at the last frame is identical to the first frame.\n\nCAMERA\nFixed camera on a tripod, exactly the framing of the start image for the entire clip: no zoom, no pan, no dolly, no reframing, the camera never follows a person. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain, no over-sharpening.\n\nACTION (only the movements listed below happen; nothing else moves)\n0.0-0.5s: eyes on the phone, lips closed, a quiet breath. 0.5-1.0s: on '아…' lips part slightly, eyes stay on the phone. 1.0-1.3s: a hesitation, lips parted but silent. 1.3-2.5s: on '전화가 오면 어쩌지…' his eyes drift up from the phone to the middle distance toward camera-RIGHT, eyebrows draw together a little. 2.5-3.0s: no new movement; he swallows once.\n\nCHARACTERS\nRule: the man with glasses moves only his eyes, eyebrows and lips; head stays within a few degrees; glasses never come off; no grin.\n\nPERFORMANCE\nIn character: flustered, quietly panicked; minimal facial movement, no grin. No exaggerated acting, nobody looks at the camera.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.\n\nPOSITIVE LOCKS\nContinue exactly from the start image. Everyone keeps the same face, hair, glasses, clothes and position through the whole take; nobody else enters the frame. Same room, furniture, lamps and colors. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe man speaks natural native Korean, low, calm and quiet, polite and unhurried, never raising his voice, the sentence ending on a soft falling tone: \"…아… 전화가 오면 어쩌지…\". The line begins within the first 0.3 seconds and every word of it is spoken, from the first word to the last. Only this one line and nothing else; no other words in any language. Natural, underplayed delivery: lips move only as much as the words need, the mouth never opens wide, no exaggerated expressions; visible lip-sync, mouth movements match every word. Nobody else speaks.",
+      "reference_elements": [],
+      "sound": "on",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261109_020731_e99cab9c-a66f-458f-8cc5-3a04ed891892.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261109_020731_e99cab9c-a66f-458f-8cc5-3a04ed891892_thumbnail.webp"
+  }
+]
+--stderr--

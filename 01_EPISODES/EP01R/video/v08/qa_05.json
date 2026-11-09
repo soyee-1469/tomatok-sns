@@ -1,0 +1,17 @@
+{
+ "cut": 5,
+ "who": "리아",
+ "line": "내가 잘 말해뒀어. 편하게 얘기해도 돼.",
+ "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_05/EP01R_E1_05_kling3_take05.mp4",
+ "take": "EP01R_E1_05_kling3_take05",
+ "clip_qa": "3.0s | 단일 샷 | 첫↔끝 프레임 차 1.1 | 스파이크 []",
+ "face": {
+  "f25": "리아 0.46 (298px) ✓",
+  "f50": "리아 0.43 (304px) ✗",
+  "f75": "리아 0.51 (304px) ✓",
+  "end": "리아 0.54 (298px) ✓"
+ },
+ "whisper": "(lang ko p=1.00)\n   0.00- 3.00  내가 잘 말해뒀어. 편하게 얘기해도 돼.",
+ "face_pass": false,
+ "single_shot": true
+}

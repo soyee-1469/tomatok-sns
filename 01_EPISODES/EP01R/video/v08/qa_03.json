@@ -1,0 +1,19 @@
+{
+ "cut": 3,
+ "who": "리아",
+ "line": "오빠, 인사말 정리됐어? 지금 초대할게?",
+ "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_03/EP01R_E1_03_kling3_take06.mp4",
+ "take": "EP01R_E1_03_kling3_take06",
+ "clip_qa": "3.0s | 단일 샷 | 첫↔끝 프레임 차 1.2 | 스파이크 []",
+ "face": {
+  "f25": "리아 0.50 (296px) ✓",
+  "f50": "리아 0.54 (296px) ✓",
+  "f75": "리아 0.57 (300px) ✓",
+  "end": "리아 0.58 (301px) ✓"
+ },
+ "whisper": "(lang ko p=1.00)\n   0.00- 1.96  오빠 인사 말 정리됐어?\n   1.96- 3.10  지금 초대할게.",
+ "face_pass": true,
+ "single_shot": true,
+ "max_db": -6.0,
+ "silent": false
+}

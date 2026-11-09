@@ -1,0 +1,19 @@
+{
+ "cut": 43,
+ "who": "준호",
+ "line": "응.",
+ "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_43/EP01R_E1_43_kling3_take01.mp4",
+ "take": "EP01R_E1_43_kling3_take01",
+ "clip_qa": "3.0s | 단일 샷 | 첫↔끝 프레임 차 1.0 | 스파이크 []",
+ "face": {
+  "f25": "준호 0.57 (192px) ✗",
+  "f50": "준호 0.54 (191px) ✗",
+  "f75": "준호 0.57 (191px) ✗",
+  "end": "준호 0.56 (192px) ✗"
+ },
+ "whisper": "(lang en p=0.62)\n   0.00- 2.00  Hmm.",
+ "face_pass": false,
+ "single_shot": true,
+ "max_db": -9.3,
+ "silent": false
+}

@@ -1,0 +1,19 @@
+{
+ "cut": 24,
+ "who": "리아",
+ "line": "다들 궁금한게 많긴 하신가봐 ㅋㅋㅋ",
+ "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_24/EP01R_E1_24_kling3_take01.mp4",
+ "take": "EP01R_E1_24_kling3_take01",
+ "clip_qa": "3.0s | 단일 샷 | 첫↔끝 프레임 차 1.1 | 스파이크 []",
+ "face": {
+  "f25": "리아 0.51 (298px) ✓",
+  "f50": "리아 0.58 (300px) ✓",
+  "f75": "리아 0.57 (299px) ✓",
+  "end": "리아 0.57 (300px) ✓"
+ },
+ "whisper": "(lang ko p=0.99)\n   0.00- 2.76  다들 궁금한 게 많긴 하신가 봐",
+ "face_pass": true,
+ "single_shot": true,
+ "max_db": -5.4,
+ "silent": false
+}

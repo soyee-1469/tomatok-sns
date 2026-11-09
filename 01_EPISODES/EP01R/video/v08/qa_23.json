@@ -1,0 +1,19 @@
+{
+ "cut": 23,
+ "who": "준호",
+ "line": "편하게 말하시지..번역되서 다 읽을 수 있는데",
+ "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_23/EP01R_E1_23_kling3_take01.mp4",
+ "take": "EP01R_E1_23_kling3_take01",
+ "clip_qa": "4.0s | 단일 샷 | 첫↔끝 프레임 차 0.9 | 스파이크 []",
+ "face": {
+  "f25": "준호 0.56 (189px) ✗",
+  "f50": "준호 0.57 (191px) ✗",
+  "f75": "준호 0.60 (189px) ✗",
+  "end": "준호 0.57 (193px) ✗"
+ },
+ "whisper": "(lang ko p=1.00)\n   0.00- 4.00  편하게 말하시지, 번역돼서 다 읽을 수 있는데.",
+ "face_pass": false,
+ "single_shot": true,
+ "max_db": -10.8,
+ "silent": false
+}

@@ -1,0 +1,26 @@
+SCENE CONTEXT
+A single chest-up close-up, exactly as in the start image: the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, ID badge on a navy lanyard, grey trousers, black leather shoes) alone, standing at the near end of the kitchen island, both hands resting on the marble top, leaning in a little, the island shelves and pendant lamps behind him. Only what the start image shows is ever in frame; the rest of the room is never shown.
+
+FORMAT MODE
+ONE single continuous locked-off shot for the entire clip: no cuts, no shot changes, no punch-in, no punch-out, no cut to a wider shot, no second angle; the shot size stays a chest-up close-up from the first frame to the last; the framing at the last frame is identical to the first frame.
+
+CAMERA
+Fixed camera on a tripod, exactly the framing of the start image for the entire clip: no zoom, no pan, no dolly, no reframing, the camera never follows a person. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain, no over-sharpening.
+
+ACTION (only the movements listed below happen; nothing else moves)
+0.0-0.4s: eyes down toward the counter, face still. 0.4-1.0s: his eyes widen, eyebrows rise, mouth opens slightly. 1.0-2.2s: on '리아! 어머니가 밥 먹었냬!' his head turns toward camera-LEFT and a grin spreads; hands stay on the counter. 2.2-3.0s: no new movement; the grin stays.
+
+CHARACTERS
+Rule: the man with glasses moves only his eyes, eyebrows and lips; head stays within a few degrees; glasses never come off; no grin.
+
+PERFORMANCE
+In character: bursting joy, goofy; big but not cartoonish. No exaggerated acting, nobody looks at the camera.
+
+AUDIO
+Quiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.
+
+POSITIVE LOCKS
+Continue exactly from the start image. Everyone keeps the same face, hair, glasses, clothes and position through the whole take; nobody else enters the frame. Same room, furniture, lamps and colors. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The man speaks natural native Korean, low, calm and quiet, polite and unhurried, never raising his voice, the sentence ending on a soft falling tone: "리아! 어머니가 밥 먹었냬!". The line begins within the first 0.3 seconds and every word of it is spoken, from the first word to the last. Only this one line and nothing else; no other words in any language. Natural, underplayed delivery: lips move only as much as the words need, the mouth never opens wide, no exaggerated expressions; visible lip-sync, mouth movements match every word. Nobody else speaks.

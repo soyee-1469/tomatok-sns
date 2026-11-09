@@ -1,0 +1,19 @@
+{
+ "cut": 40,
+ "who": "리아",
+ "line": "Yep. 방금 그렇게 보내시라고 말씀드렸어",
+ "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_40/EP01R_E1_40_kling3_take01.mp4",
+ "take": "EP01R_E1_40_kling3_take01",
+ "clip_qa": "4.0s | 단일 샷 | 첫↔끝 프레임 차 1.1 | 스파이크 []",
+ "face": {
+  "f25": "리아 0.55 (301px) ✓",
+  "f50": "리아 0.46 (307px) ✓",
+  "f75": "리아 0.51 (303px) ✓",
+  "end": "리아 0.58 (300px) ✓"
+ },
+ "whisper": "(lang ko p=0.98)\n   0.00- 5.50  방금 그렇게 보내시라고 말씀드렸어",
+ "face_pass": true,
+ "single_shot": true,
+ "max_db": -3.6,
+ "silent": false
+}
