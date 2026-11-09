@@ -121,6 +121,38 @@
 4. DIALOGUE의 "ㅋㅋㅋ/ㅎㅎ"는 발화 텍스트에서 빼고 "(she laughs lightly after the line)"로 바꿀 것. "……"는 그대로 두되 "a short pause" 지시 추가.
 5. 수만 복장 문장은 "white chef's jacket with a plain black bib apron, no towel"로(옛 towel 문장 금지).
 
+## 4차 작업 (2026-11-09, Claude) — Kling 대사 클립 QA·조립 도구화. 외부 API 호출 금지, 크레딧 0.
+> 배경: 1막 대사 클립 재생성에서 Kling이 클로즈업 중간에 와이드 샷으로 하드 컷을 넣어 얼굴이 바뀜. 통과 기준 = `tools/face_score.py` ≥0.45 & 얼굴 폭 ≥250px(720p 클립 기준 ≥180px), 내부 컷 없음, whisper 대사 일치. 오늘 만든 도구: `01_EPISODES/EP01R/tools/clip_frames.py`(끝·f25/f50/f75·콘택트 추출), `01_EPISODES/EP01R/tools/batch_qa.py`(컷 번호 → 최신 테이크 QA 묶음), `01_EPISODES/EP01R/tools/gen_kling_lines.py`(--dry/--lockend/--omni, CUTS 23컷). 이 세 파일은 **읽기만**, 수정은 작업 21·24에서 지정한 범위만.
+
+### 작업 21 — `tools/clip_qa.py` 내부 컷 판정 고도화 (수정 허용: 이 파일만)
+현재 `clip_qa.py`는 프레임 차 >8 스파이크 목록만 찍는다. 와이드 전환을 자동 판정하도록:
+1. 각 프레임에서 insightface(`buffalo_l`, CPU)로 가장 큰 얼굴 폭을 재고(매 3프레임), 얼굴 폭이 직전 대비 40% 이상 줄어드는 시각을 `WIDE_CUT@<t>s`로 보고. 얼굴이 사라지면 `FACE_LOST@<t>s`.
+2. 프레임 차 스파이크 >40 은 `HARD_CUT@<t>s`, 8~40 연속 10프레임 이상은 `CAMERA_MOVE <t0>-<t1>s`.
+3. 출력 한 줄: `<파일> | <길이>s | PASS|FAIL | 사유들 | 사용 가능 구간 0.0-<t>s`(첫 결함 직전까지).
+4. `--json` 옵션이면 `{"file","dur","pass","events":[...],"usable_until"}` 배열을 stdout에.
+검증: `python3 tools/clip_qa.py 01_EPISODES/EP01R/video/v08/E1_04/EP01R_E1_04_kling3_take03.mp4`(1.75s 하드 컷+와이드 → FAIL, usable 1.7) 와 `E1_12/EP01R_E1_12_kling3_take01.mp4`(PASS) 두 개로 확인.
+
+### 작업 22 — 타이트 클로즈업 크롭기 `tools/tight_cu.py` (새 파일)
+단독 상반신 스틸(frames/v08/S_*.png, 1080×1920)에서 얼굴 중심 9:16 크롭을 만든다. 2026-11-06 통과 프레임 J4(얼굴 폭 365px @720p ≈ 550px @1080)와 같은 비율이 목표.
+1. insightface로 얼굴 bbox → 얼굴 폭이 출력 가로의 **45~50%** 가 되도록 크롭 폭 결정, 세로는 9:16, 얼굴 중심을 가로 중앙·세로 38% 지점에. 원본 밖으로 나가면 크롭을 안쪽으로 밀고 그래도 안 되면 LANCZOS 업스케일 후 크롭.
+2. 출력 `frames/v08/<이름>_tight.png` 1080×1920. 끝에 `tools/face_score.py`로 점수·폭을 찍어 표로 보고.
+3. 대상 6장: S_ria_island_act1_cu, S_ria_island_act2_cu, S_suman_island_cu, S_suman_island_look_cu, S_junho_sofa_cu, S_junho_island_r2. 원본은 절대 덮어쓰지 않는다.
+
+### 작업 23 — 보드 「Kling 대사 클립」 탭 테이크 카드 (`tools/build_cast_board.py`)
+컷 번호별로 최신 테이크를 카드로: 콘택트 png(`*_contact.png`), mp4 재생, 얼굴 점수 4개(f25/f50/f75/end, `tools/face_score.py` 출력 파싱 또는 미리 저장된 `video/v08/qa_<cut>.json`이 있으면 그것), whisper 텍스트(`video/v08/E1_nn/*_whisper.txt` 있으면), clip_qa 한 줄. PASS/FAIL 배지. 테이크 선택 드롭다운(같은 폴더의 모든 mp4). 데이터 수집 스크립트는 `tools/collect_clip_qa.py`(새 파일)로 분리: `python3 tools/collect_clip_qa.py 3 4 5 …` → `video/v08/qa_<cut>.json` 저장(face_score·clip_qa·transcribe 호출, 모두 로컬). 발행은 Claude가 한다.
+
+### 작업 24 — 애니매틱 클립 끼우기 `tools/animatic_set_clip.py` (새 파일, animatic_set_frame.py 패턴 재사용)
+`edit/v06/animatic_E1_v062.json` 행에 `clip`(mp4 경로)·`clip_in`·`clip_out`(초) 필드를 넣고/빼는 CLI: `--set 22 video/v08/E1_22/EP01R_E1_22_kling3_take02.mp4 --out 3.4`, `--clear 22`, `--list`. JSON은 백업(`*.bak_<시각>`) 후 쓴다. `edit/animatic_E1_v062.py` 렌더러가 `clip` 필드가 있으면 스틸 줌 대신 그 구간을 1080×1920로 스케일해 넣도록 분기 추가(오디오 포함, 없는 행은 기존 동작). 검증: 22번 set 후 `ANIMATIC_E1_v090.mp4` 렌더되는지(클립 1개만 들어간 상태).
+
+### 작업 25 — `01_EPISODES/EP01R/tools/hf_gen.py` 비용 사전 견적 + 장부 (수정 허용: 이 파일만, API 호출 중 `generate cost`만 추가 허용 — 크레딧 0)
+1. 생성 직전 `higgsfield generate cost <job_type> <같은 파라미터>`를 호출해 견적을 찍고, 환경변수 `HF_MAX_CR`(기본 40)보다 **누계**가 크면 생성하지 않고 exit 3.
+2. 누계 장부 `01_EPISODES/EP01R/video/v08/CREDIT_LEDGER.csv`(시각, job_type, out_base, 견적, 상태). 성공·실패·nsfw 모두 기록. 날짜가 바뀌면 누계 0부터.
+3. `--yes` 없이도 동작하되, 견적 줄은 반드시 stdout 첫 줄에.
+검증: `HF_MAX_CR=1 python3 01_EPISODES/EP01R/tools/hf_gen.py /tmp/x kling3_0 --prompt t --duration 3 --mode std --aspect_ratio 9:16` → 견적 6 출력 후 exit 3(생성 안 함).
+
+### 작업 26 — 미처리 작업 17·18·19·20 상태 확인
+처리 보고에 17~20 항목이 없다. 끝낸 것이 있으면 보고 절에 적고, 안 한 것은 21~25보다 **뒤**로 미룬다(우선순위: 21 → 22 → 24 → 25 → 23 → 17~20).
+
 ## 처리 보고` 절에 작업 번호·바꾼 파일·검증 방법을 적는다. 5분 주기로 이 파일을 다시 읽고 아직 보고되지 않은 작업만 한다.
 
 ## 작업 7 — 콘티 그리드 분할기 `tools/split_storyboard.py` (새 파일)
