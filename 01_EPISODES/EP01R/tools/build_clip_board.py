@@ -75,7 +75,7 @@ def match_line(line, whisper):
     whisper = whisper_text(whisper)
     timed = [row for row in whisper.splitlines() if re.match(r"\s*\d", row)]
     if timed:
-        said = " ".join(row.split("  ", 1)[-1].strip() for row in timed)
+        said = " ".join(re.sub(r"^\s*[\d.]+\s*-\s*[\d.]+\s*", "", row).strip() for row in timed)
     else:
         said = whisper.strip()
     left, right = norm_text(line), norm_text(said)
@@ -197,6 +197,20 @@ def clear_media(media_dir):
             os.remove(old)
 
 
+def tagn(n):
+    return "{0:02d}".format(n) if isinstance(n, int) else str(n)
+
+
+def keyn(v):
+    t = str(v).strip()
+    return int(t) if t.isdigit() else t
+
+
+def sort_key(n):
+    m = re.match(r"(\d+)(.*)", str(n))
+    return (int(m.group(1)), m.group(2)) if m else (9999, str(n))
+
+
 def save_still(src, dest):
     from PIL import Image
     image = Image.open(src).convert("RGB")
@@ -205,7 +219,7 @@ def save_still(src, dest):
 
 
 def discover_takes(cut, clip_path):
-    folder = os.path.join(episode_root(), "video", "v08", "E1_{0:02d}".format(cut))
+    folder = os.path.join(episode_root(), "video", "v08", "E1_" + tagn(cut))
     found = []
     if os.path.isdir(folder):
         found.extend(glob.glob(os.path.join(folder, "*_kling3_take*.mp4")))
@@ -227,10 +241,10 @@ def discover_takes(cut, clip_path):
 def dest_video_name(cut, path, used):
     number = take_num(path)
     if number >= 0:
-        base = "E1_{0:02d}_take{1:02d}.mp4".format(cut, number)
+        base = "E1_{0}_take{1:02d}.mp4".format(tagn(cut), number)
     else:
         safe = re.sub(r"[^A-Za-z0-9._-]+", "_", os.path.basename(path))
-        base = "E1_{0:02d}_{1}".format(cut, safe)
+        base = "E1_{0}_{1}".format(tagn(cut), safe)
     name = base
     serial = 2
     while name in used:
@@ -291,7 +305,7 @@ def badges_for(info, face_vals):
 def load_cards():
     ep = episode_root()
     anim_path = os.path.join(ep, "edit", "v06", "animatic_E1_v062.json")
-    rows = {int(row["n"]): row for row in load_json(anim_path)}
+    rows = {keyn(row["n"]): row for row in load_json(anim_path)}
     paths = sorted(glob.glob(os.path.join(ep, "video", "v08", "qa_*.json")))
     if not paths:
         raise SystemExit("qa json 없음: {0}".format(os.path.join(ep, "video", "v08", "qa_*.json")))
@@ -306,7 +320,7 @@ def load_cards():
             if not match:
                 raise SystemExit("{0}: cut 번호 없음".format(path))
             number = match.group(1)
-        number = int(number)
+        number = keyn(number)
         stamp = os.path.getmtime(path)
         prev = chosen.get(number)
         if prev is None or stamp >= prev["qmtime"]:
@@ -314,7 +328,7 @@ def load_cards():
             data["_qmtime"] = stamp
             chosen[number] = {"data": data, "qmtime": stamp}
     cards = []
-    for number in sorted(chosen):
+    for number in sorted(chosen, key=sort_key):
         data = chosen[number]["data"]
         if number not in rows:
             raise SystemExit("애니매틱에 컷 {0} 행이 없음".format(number))
@@ -344,7 +358,7 @@ def load_cards():
                 "qa": qa_for_take(data, src) is not None,
             })
         if not takes:
-            folder = os.path.join(ep, "video", "v08", "E1_{0:02d}".format(number))
+            folder = os.path.join(ep, "video", "v08", "E1_" + tagn(number))
             raise SystemExit("컷 {0}: mp4 없음 ({1})".format(number, folder))
         latest_i = max(range(len(takes)), key=lambda i: (takes[i]["take_num"], takes[i]["mtime"]))
         for index, take in enumerate(takes):
@@ -376,7 +390,7 @@ def attach_media(cards):
     required = []
     optional = []
     for card in cards:
-        still_name = "S_{0:02d}.jpg".format(card["n"])
+        still_name = "S_{0}.jpg".format(tagn(card["n"]))
         still_dest = os.path.join(media, still_name)
         save_still(card["still_src"], still_dest)
         card["still"] = "media/" + still_name
@@ -464,7 +478,7 @@ def card_html(card):
 </article>""".format(
         verdict=html.escape(card["verdict"]),
         n=card["n"],
-        num="{0:02d}".format(card["n"]),
+        num=tagn(card["n"]),
         who=html.escape(card["who"]),
         line=html.escape(card["line"]),
         vclass=verdict_class,
@@ -486,8 +500,8 @@ def card_html(card):
 def page_html(cards, dropped, total):
     stamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
     passed = sum(1 for card in cards if card["verdict"] == "통과")
-    act1 = [card for card in cards if card["n"] <= 21]
-    act2 = [card for card in cards if card["n"] >= 22]
+    act1 = [card for card in cards if sort_key(card["n"])[0] <= 21]
+    act2 = [card for card in cards if sort_key(card["n"])[0] >= 22]
 
     def section(title, group):
         if not group:
