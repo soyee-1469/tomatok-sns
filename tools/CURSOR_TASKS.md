@@ -328,3 +328,37 @@ The man speaks in natural native Korean, low, calm and quiet, polite and unhurri
 - 통과 식은 그대로다. 단일 샷이고, 얼굴 4지점 모두 ≥0.45, 얼굴 폭 ≥180px, whisper 일치 ≥85%일 때만 「통과」. 필터는 전체/통과/재생성.
 - media 합이 60MB를 넘으면 수정시각이 오래된 테이크부터 빼는다. 최신 테이크와 540px 스틸 jpg는 남긴다. HTML은 `charset`·`title`·`style`·본문만이고 doctype/html/head/body 태그는 없다. 화면 문구에 비아/Bea를 넣지 않았다.
 - 검증: 이 클론에는 `qa_*.json`·mp4·스틸 png가 없다. 컷 3·4·5·7·8·9·10·11·12·13·14·19·22 임시 13장으로 `python3 01_EPISODES/EP01R/tools/build_clip_board.py` → `13 cards, 11 pass` (4=내부 컷, 12=얼굴 0.20/100px). 생성 HTML에 article/video/select 각 13, 금지 태그 없음, 기본 선택은 take02, take01 옵션은 QA 없음. 헤드리스 크롬에서 재생성 필터가 4·12만 보이고, 통과 11, 전체 13. 3번 셀렉트를 take01로 바꾸면 문구가 QA 없음이고 영상 src가 바뀐다. take02는 `play()` 후 paused=false, readyState=4, currentTime>0. 390px 폭에서도 가로 스크롤 없이 2열 카드와 재생성 필터가 동작했다. 60MB 제외는 크기 목록으로 확인(가장 오래된 항목부터 탈락, 필수 파일은 유지). 이번 13장 media는 0.1MB라 제외 없음. 임시 파일·jpg·mp4·`board_clips/`는 커밋하지 않았다. 발행은 하지 않았다.
+
+### 작업 4
+- 저장소에 `01_EPISODES/EP01R/edit/animatic_E1_v062.py`가 없어 JSON 입력 렌더러로 새로 넣었다. `python3 animatic_E1_v062.py <animatic_json> <out.mp4>`. `skip` 행은 빼고, `dur`가 없으면 2.2초. `src`가 mp4면 그 영상, png면 느린 줌. 둘 다 1080×1920, 30fps.
+- 자막은 `tools/subtitle_style.py`가 있을 때만 `render`를 호출한다. 이 클론에는 그 파일이 없어 자막 없이 렌더하고 stderr에 한 줄 남긴다.
+- 맥 ffmpeg 경로가 없으면 PATH의 ffmpeg를 쓴다. 길이는 cv2 프레임 수/fps. 검증용 1초 스틸은 1.0초로 나왔다. 1화·2화 전체 렌더는 스틸 png가 저장소에 없어 하지 않았다. 애니매틱 JSON은 수정하지 않았다.
+
+### 작업 21
+- 새 파일 `tools/clip_qa.py`. 이 클론에 기존 파일이 없어, 프레임 차 판정과 와이드 판정을 한 파일에 넣었다. 프레임 차는 가로 320 그레이 평균 절대차. 40 초과는 `HARD_CUT@t`, 8~40이 연속 10프레임 이상이면 `CAMERA_MOVE t0-t1s`. insightface buffalo_l CPU로 3프레임마다 가장 큰 얼굴 폭을 재고, 직전 대비 40% 이상 줄면 `WIDE_CUT@t`, 있던 얼굴이 사라지면 `FACE_LOST@t`.
+- 한 줄 형식과 `--json` 배열(`file`,`dur`,`pass`,`events`,`usable_until`). 사용 가능 끝은 첫 결함 시각의 직전 0.1초.
+- 검증: 지시서의 `E1_04` take03·`E1_12` take01 mp4는 저장소에 없다. 24fps 합성 영상으로 1.75초에 화면이 바뀌고 얼굴 폭이 400→160이면 `FAIL | HARD_CUT@1.75s, WIDE_CUT@1.75s | 사용 가능 구간 0.0-1.7s`. 흔들림이 거의 없는 2초 영상은 PASS. 9프레임 차이 20은 이벤트가 없고 10프레임은 CAMERA_MOVE. 단색 하드컷을 `--json`으로 돌리면 `HARD_CUT@1.75s`, `usable_until` 1.7, pass false. 모델 다운로드 로그는 stderr로 보낸다. 얼굴 스왑은 호출하지 않았다.
+
+### 작업 22
+- 새 파일 `tools/tight_cu.py`. insightface bbox로 얼굴 폭이 출력 가로의 45~50%(기본 47.5%)가 되게 크롭 폭을 잡고, 세로는 9:16, 얼굴 중심은 가로 중앙·세로 38%. 밖으로 나가면 안쪽으로 밀고, 그래도 안 되면 LANCZOS 업스케일 후 크롭해 1080×1920으로 저장한다. 원본 경로는 쓰지 않는다. 끝나면 `tools/face_score.py`가 있으면 그 출력을 표에 붙인다.
+- 검증: 1080×1920에서 얼굴 폭 500px 크롭의 비율은 0.475, 출력 1080×1920, 업스케일 없음. 얼굴 폭 880px는 프레임보다 크롭이 커져 scale>1. 대상 6장(`S_ria_island_act1_cu` 외) png는 이 클론에 없고 `face_score.py`도 없어 점수 표는 만들지 못했다. 생성 png는 커밋하지 않았다.
+
+### 작업 24
+- 새 파일 `tools/animatic_set_clip.py`. `--set 22 <mp4> --out 3.4`는 `clip`·`clip_in`(기본 0)·`clip_out`을 넣고, `--clear 22`는 세 키를 빼고, `--list`는 clip이 있는 행만 찍는다. 쓰기 전에 `<json>.bak_<YYYYMMDD-HHMMSS>` 복사. 기본 JSON은 `edit/v06/animatic_E1_v062.json`. 다른 파일은 `--json`.
+- 렌더러는 `clip`이 있으면 스틸 줌 대신 그 구간을 1080×1920로 넣고 오디오를 포함한다. 오디오가 없으면 무음 트랙을 붙인다.
+- 검증: 원본 JSON은 복사본에만 `--set 22`를 했다. 원본 mtime은 그대로였다. 4초 합성 클립(사인 오디오)을 `clip_out` 3.4로 렌더한 `ANIMATIC_E1_v090.mp4`는 1080×1920, 3.4초, Audio 스트림 있음. `--clear 22` 후 `clip` 키는 없다. 백업과 렌더 mp4는 커밋하지 않았다. 1화 전체 렌더는 스틸이 없어 하지 않았다.
+
+### 작업 25
+- 새 파일 `01_EPISODES/EP01R/tools/hf_gen.py`. 이 클론에 기존 생성기가 없어, 견적 관문과 장부만 넣었다. 생성 직전 `higgsfield generate cost <job_type> <같은 인자>`를 호출하고 stdout 첫 줄에 `견적 N`을 찍는다. 오늘 장부의 success·fail·nsfw 합 + 견적이 `HF_MAX_CR`(기본 40)보다 크면 생성하지 않고 exit 3, 상태는 `over_cap`. 날짜가 바뀌면 그 전날 행은 합계에서 뺀다. `--yes`는 필요 없다. 성공 시 `<out_base>_cli.txt`와, stdout이 JSON이면 `_status.json`을 쓴다.
+- 검증: 이 머신에는 `higgsfield`가 없어 같은 명령은 exit 1(`No such file or directory`). PATH에 견적 `6`만 출력하는 stub을 두고 `HF_MAX_CR=1 python3 01_EPISODES/EP01R/tools/hf_gen.py /tmp/x kling3_0 --prompt t --duration 3 --mode std --aspect_ratio 9:16` → 첫 줄 `견적 6`, exit 3, generate는 호출되지 않음, 장부 `over_cap`. `HF_MAX_CR=40`이면 generate가 호출되고 상태가 success. 이어서 상한 6이면 누계 때문에 다음 호출이 exit 3. stub과 `CREDIT_LEDGER.csv`는 커밋하지 않았다. 생성 API는 호출하지 않았다.
+
+### 작업 23
+- 새 파일 `tools/collect_clip_qa.py`. `python3 tools/collect_clip_qa.py 3 4 …`가 컷 폴더의 가장 큰 `*_kling3_take*.mp4`에 `clip_qa.py --json`, `tools/face_score.py`, `transcribe.py`를 호출해 `video/v08/qa_<cut>.json`에 cut·clip·take·single_shot·face(f25/f50/f75/end)·whisper·clip_qa를 쓴다. 단일 샷은 HARD_CUT·WIDE_CUT·FACE_LOST·CAMERA_MOVE가 없을 때다.
+- `tools/build_cast_board.py`는 저장소에 없다. 콘티 보드 탭은 넣지 못했다. qa json을 읽는 클립 보드는 작업 27의 `build_clip_board.py`가 이미 있다.
+- 검증: 합성 하드컷 take02로 컷 4를 임시 폴더에 모아 `single_shot` false, clip 경로가 take02로 끝나는 것을 확인했다. `face_score.py`와 `transcribe.py`가 없어 notes에 그 사실이 남는다. qa json·임시 mp4·프레임 png는 커밋하지 않았다. 발행은 하지 않았다.
+
+### 작업 26
+- 처리 보고에 17·18·19·20은 아직 없다. 이번에 끝내지 않았고, 21→22→24→25→23 다음에 둔다.
+- 17·18은 `tools/build_cast_board.py`가 저장소에 없어 탭 HTML을 고치지 못했다.
+- 19·20은 `face_strip.py`·`gaze_qa.py`와 마스터 얼굴 png·스틸 png가 이 클론에 없다. 얼굴 스왑은 호출하지 않았다.
+- 1~6번과 작업 16 보정(`make_kling_prompts.py`)도 대상 파일이 저장소에 없어 이번 보고에 넣지 않았다.
