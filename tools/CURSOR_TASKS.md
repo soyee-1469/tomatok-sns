@@ -150,8 +150,16 @@
 3. `--yes` 없이도 동작하되, 견적 줄은 반드시 stdout 첫 줄에.
 검증: `HF_MAX_CR=1 python3 01_EPISODES/EP01R/tools/hf_gen.py /tmp/x kling3_0 --prompt t --duration 3 --mode std --aspect_ratio 9:16` → 견적 6 출력 후 exit 3(생성 안 함).
 
+### 작업 27 — 1화 Kling 대사 클립 보드 `01_EPISODES/EP01R/tools/build_clip_board.py` (2026-11-09 사용자: "스틸컷 옆에 영상 생성한거 넣어서 짤별로 플레이 해볼수있게") — **작업 23보다 먼저**
+Claude가 초안을 써 두었다(미실행, 수정 허용: 이 파일과 `tools/batch_qa.py`의 JSON 저장 부분만). 입력 = `video/v08/qa_<cut>.json`(13개 있음, `python3 01_EPISODES/EP01R/tools/batch_qa.py <컷…>`이 만든다) + `edit/v06/animatic_E1_v062.json`. 출력 = `01_EPISODES/EP01R/board_clips/index.html` + `board_clips/media/`(mp4 복사, 스틸 540px jpg).
+1. 실행해서 돌아가게 만들고(cv2·PIL 외 외부 라이브러리 금지), 깨진 부분 고친다. HTML은 `<title>`·`<style>`·본문만(doctype/html/head/body 태그 없음 — Artifact 발행 규격).
+2. 컷 카드에 **테이크 선택 드롭다운** 추가: 같은 `video/v08/E1_nn/` 폴더의 모든 `*_kling3_take*.mp4`를 media/로 복사하고 `<select>`로 바꿔 재생. 기본은 최신 테이크. 테이크마다 face/whisper가 있으면(현재는 최신 테이크만 JSON) 표시, 없으면 "QA 없음".
+3. 통과 판정은 바꾸지 말 것(단일 샷 & 얼굴 4지점 ≥0.45 & 얼굴 폭 ≥180px & whisper 일치 ≥85%). 필터 버튼(전체/통과/재생성)은 유지.
+4. media 총량이 60MB를 넘으면 오래된 테이크부터 제외하고 보고에 적는다(Artifact 1회 발행 상한 64MB).
+5. 검증: `python3 01_EPISODES/EP01R/tools/build_clip_board.py` 성공 + `open board_clips/index.html`로 로컬 확인(13카드, 영상 재생, 필터 동작). 발행은 Claude가 한다.
+
 ### 작업 26 — 미처리 작업 17·18·19·20 상태 확인
-처리 보고에 17~20 항목이 없다. 끝낸 것이 있으면 보고 절에 적고, 안 한 것은 21~25보다 **뒤**로 미룬다(우선순위: 21 → 22 → 24 → 25 → 23 → 17~20).
+처리 보고에 17~20 항목이 없다. 끝낸 것이 있으면 보고 절에 적고, 안 한 것은 21~25보다 **뒤**로 미룬다(우선순위: 27 → 21 → 22 → 24 → 25 → 23 → 17~20).
 
 ## 처리 보고` 절에 작업 번호·바꾼 파일·검증 방법을 적는다. 5분 주기로 이 파일을 다시 읽고 아직 보고되지 않은 작업만 한다.
 
