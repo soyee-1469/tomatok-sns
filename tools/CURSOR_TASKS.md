@@ -233,6 +233,17 @@ Claude가 초안을 써 두었다(미실행, 수정 허용: 이 파일과 `tools
 - 인물 묘사 문장은 `01_EPISODES/EP01R/tools/gen_conti_island.py`의 JUN/RIA/SUM 상수를 복사. 대사 줄엔 `05_STYLE/subtitle_and_line_rule.md`·`junho_voice_rule.md`·`bea_language_rule.md`의 발화 지시(감정/말투/끝음)를 붙인다. 3초 컷 기준 ACTION 타임라인(0.0~0.5 / 0.5~2.4 / 2.4~3.0). AUDIO는 앰비언스만, 음악·진동 금지(철칙 6).
 - 생성 호출은 절대 하지 않는다. 결과 파일만 만들고 `--dry`로 3개 샘플(3·8·10번)을 보고에 붙인다.
 
+## 작업 28 — 새 3화 공동 저녁 단톡방 UI (2026-11-12, Codex → Cursor)
+
+- 상태: TODO. 기존 작업보다 이번 회차 UI를 먼저 진행. 커서 실제 착수 여부는 아직 확인하지 않음.
+- 기준: `tools/EP03_CHAT_UI_BRIEF.md`, 각본 `00_MASTER_ASSETS/WORLD_PLANNING/EP03_SCRIPT_v03.md`. 옛 가스비 3화 v02는 사용하지 않는다.
+- 허용 변경: 새 `tools/render_ep03_chat.py`, 새 `tools/ep03_chat_data.json`, 새 `tools/ep03_chat_preview.html`, `tools/build_series_board.py`, `tools/series_board.html`. 이번 작업 결과만 `board_web/ep03_chat/`에 생성 허용. 기존 마스터·각본·프로필·옛 렌더러는 읽기 전용.
+- 기존 확정 얼굴 아바타 8명과 할머니 공지를 사용해 한국어 뷰 UI 초안 제작. 인물별 최종 프로필 연출 제안과 임시 기존 아바타를 구분. 리아는 BEA_AV, 하오는 DOYUN_AV이며 중국 국기.
+- 각본의 6개 채팅 상태를 데이터로 분리하고 이전/다음 상태 전환 및 프로필 목록 미리보기 제공. 번역 원문은 검수 전 초안으로 표시.
+- 3화 작업실에서 UI 미리보기로 이동하는 링크 연결. 기존 1·2화 동작 보존. 새 회차 화면은 `python3 tools/build_series_board.py`, `board_web/series.html#EP03/story`.
+- 검증: 아바타 경로 전부 존재, 할머니 참여·공지 표시, 6상태 순서 일치, 준호만 내 메시지 색, 번역/원문 순서, 390px 가로 넘침, 브라우저 이전/다음·프로필 전환, 재빌드 후 링크 유지.
+- 외부 이미지·영상·Higgsfield API 호출 금지. 목업은 기존 공용 스크립트 사용. 바이너리 Git 추가 금지. 커서는 처리 보고만 작성하고 커밋하지 않음. Codex가 검수 후 커밋·푸시.
+
 ## 처리 보고
 
 작업 7–11. 생성 API는 호출하지 않았다. `gen_from_conti.py` 와 `animatic_set_frame.py` 는 `--dry` 만 실행했다. 애니매틱 JSON은 수정하지 않았다(mtime 1793869535, 25977바이트, 백업 파일 없음).
