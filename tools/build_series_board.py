@@ -18,6 +18,7 @@ EPISODES = [
     dict(id='EP01', title='읽음 22', stage='기존 제작본 재검토', next='각본·콘티와 기존 영상의 최종 일치 확인', script='EP01_SCRIPT_FINAL_v07.md', boards='EP01_island_[0-9]*.png'),
     dict(id='EP02', title='싸움은 모국어로', stage='각본·콘티 검토', next='기존 콘티를 검토하고 GPT 기준 이미지 준비', script='EP02_SCRIPT_v08.md', boards='EP02_sofa_board_[0-9]*.png'),
     dict(id='EP03', title='오늘 못 와?', stage='각본·단톡 UI 초안', next='단톡 UI 검수 · 콘티 준비', script='EP03_SCRIPT_v03.md', boards=None, ui='ep03_chat/index.html'),
+    dict(id='EP04', title='반찬통 돌려주세요', stage='각본 초안', next='반찬통 각본 검토 · 소품과 콘티 준비', script='EP04_SCRIPT_v01.md', boards=None),
 ]
 
 

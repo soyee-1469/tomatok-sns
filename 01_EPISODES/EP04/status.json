@@ -1,0 +1,23 @@
+{
+  "id": "EP04",
+  "type": "SITCOM",
+  "title": "반찬통 돌려주세요",
+  "status": "SCRIPT_DRAFT",
+  "lastCompleted": "사용자 선택 소재로 각본 v01 작성. 할머니 단톡 회수 요청, 반찬통의 다른 용도, 수만 피클을 받아 가는 결말. 회차 보드에 연결.",
+  "nextTask": "사용자 각본 검토 후 소품 A~D 연속성 확정 및 그록봇 콘티 준비",
+  "publishDate": null,
+  "platforms": [
+    "Instagram Reels",
+    "YouTube Shorts"
+  ],
+  "updatedBy": "Codex",
+  "updatedAt": "2026-11-12T18:04:02.192143+09:00",
+  "assets": {
+    "script": "00_MASTER_ASSETS/WORLD_PLANNING/EP04_SCRIPT_v01.md",
+    "storyboard": false,
+    "stills": false,
+    "video": false,
+    "final": false
+  },
+  "videoGenerationAuthorized": false
+}
