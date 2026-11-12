@@ -235,7 +235,7 @@ Claude가 초안을 써 두었다(미실행, 수정 허용: 이 파일과 `tools
 
 ## 작업 28 — 새 3화 공동 저녁 단톡방 UI (2026-11-12, Codex → Cursor)
 
-- 상태: TODO. 기존 작업보다 이번 회차 UI를 먼저 진행. 커서 실제 착수 여부는 아직 확인하지 않음.
+- 상태: DONE (Cursor 로컬 초안). 검수·커밋은 Codex.
 - 사용자 추가 수정: 한국어가 서툰 입주민들의 소통 수단이 단톡방이다. 메뉴 제안·조건·합의를 채팅으로 표현. 대면 대화로 바꾸자는 장면 삭제, 최신 각본과 UI 브리프의 메뉴 메시지 순서를 사용한다.
 - 최신 결말 수정: 수만 온다는 소식에 소고기에서 김밥으로 변경하되 주문 전. 수만 도착 후 「내가 온다고 해서?」. 뒤늦게 할머니가 양손 가득 소고기를 사 와 같이 굽는다. 식사 중 수만 「나 오늘 오길 잘했네.」 / 리아는 할머니 앞에 접시를 놓으며 직접 「할머니, 같이 드세요.」라고 말함(채팅에서 제외)로 채팅 상태 교체. 옛 후반 메시지는 UI 브리프의 제외 목록 참조. 할머니 소고기는 등장 전 미리 보여 주지 않는다. 이미 UI 구현에 착수했으면 최신 각본으로 데이터 갱신 후 보고한다.
 - 기준: `tools/EP03_CHAT_UI_BRIEF.md`, 각본 `00_MASTER_ASSETS/WORLD_PLANNING/EP03_SCRIPT_v03.md`. 옛 가스비 3화 v02는 사용하지 않는다.
@@ -353,6 +353,16 @@ The man speaks in natural native Korean, low, calm and quiet, polite and unhurri
 ```
 
 8번과 10번의 FORMAT MODE, CAMERA, PERFORMANCE, AUDIO, POSITIVE LOCKS는 3번과 같은 골격이다. 8·10 PERFORMANCE에는 준호 고정 문장(코미디언, 목소리를 높이지 않음)이 들어가 있다.
+
+### 작업 28 — 3화 단톡 UI (2026-11-12)
+- Codex 검수 보완: `tools/EP03_CHAT_UI_REVIEW.md` 참조. 로컬 흰 확성기 공지 바·render_ui_v2 계열 스택·하오 새 로컬 아바타 보존. `--screens` 공용 폰 목업 6장 렌더. 390px 넘침 수정 및 상태 이동/8아바타 브라우저 검사 통과. 원격 `116ca3d`를 그대로 덮어쓰지 않고 로컬 보완본을 main에 코드로 반영. 이미지 파일은 로컬 전용.
+- 새 파일: `tools/ep03_chat_data.json`, `tools/ep03_chat_preview.html`, `tools/render_ep03_chat.py`.
+- 수정: `tools/build_series_board.py`(EP03 `ui` 링크·빌드 시 렌더 호출), `tools/series_board.html`(이야기/제작 탭에 단톡 UI 링크).
+- 로컬 결과: `board_web/ep03_chat/index.html`, `board_web/ep03_chat/ep03_chat_data.json`, `board_web/ep03_chat/avatars/*_AV.png`(CAST 8명 복사), `board_web/series.html`.
+- 실행: `python3 tools/render_ep03_chat.py` → `python3 tools/build_series_board.py`. 미리보기 `python3 board_web/serve.py` 후 `http://127.0.0.1:8765/ep03_chat/` 또는 `series.html#EP03/story`.
+- 맞춘 것: 방/공지/8프로필(BEA·DOYUN🇨🇳)·기존 vs 최종제안 구분, 6상태·메뉴 순서, 최신 후반(김밥→「내가 온다고 해서?」→식사 중 수만만; 제외 대사·리아 채팅 제거), 준호 KR 뷰 말풍선(render_ui_v2 스택 색), series 링크, 390px 앱 화면, 처리 보고. API·커밋 없음.
+- 아직: 컷용 PNG를 `phone_mockup.py`로 뽑는 단계는 미연결(HTML은 앱 화면만, 독자 폰 베젤 제거). REAL 헤더/입력창 크롭 합성은 house_chat 스틸 파이프라인과 동일하게 후속.
+- **발행 필요**: 시리즈/단톡 HTML은 로컬 `board_web`만. Artifact 발행은 Claude.
 
 ### 작업 27
 - 고친 파일: `01_EPISODES/EP01R/tools/build_clip_board.py`. `batch_qa.py`는 이 클론에 없어 저장 형식은 그대로 두고 읽기만 맞췄다.

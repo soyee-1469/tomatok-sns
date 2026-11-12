@@ -1,0 +1,310 @@
+{
+  "room": "연남동 3층집 🏠",
+  "notice": "화·목 저녁 8시, 같이 밥 먹기. 못 오는 사람은 그날 저녁값 내기. — 순덕",
+  "view": "KR",
+  "viewer": "준호",
+  "note": "준호 폰 한국어 뷰. 외국어 원문은 검수 전 초안. 새 프로필 이미지는 미제작 — 아래 av는 기존 CAST 아바타.",
+  "profiles": [
+    {
+      "id": "ria",
+      "name": "리아",
+      "name_en": "Ria",
+      "flag": "🇵🇭",
+      "av": "BEA_AV.png",
+      "lang": "en",
+      "avatar_status": "existing",
+      "final_profile_idea": "여행지에서 커피 들고 웃는 셀카"
+    },
+    {
+      "id": "junho",
+      "name": "준호",
+      "name_en": "Junho",
+      "flag": "🇰🇷",
+      "av": "JUNHO_AV.png",
+      "lang": "ko",
+      "avatar_status": "existing",
+      "final_profile_idea": "커플 사진을 자기 얼굴만 남겨 서툴게 크롭, 가장자리에 리아 어깨"
+    },
+    {
+      "id": "hao",
+      "name": "하오",
+      "name_en": "Hao",
+      "flag": "🇨🇳",
+      "av": "DOYUN_AV.png",
+      "lang": "zh",
+      "avatar_status": "existing",
+      "final_profile_idea": "헤드폰을 목에 걸고 방송인처럼 포즈, 방 배경"
+    },
+    {
+      "id": "miyu",
+      "name": "미유",
+      "name_en": "Miyu",
+      "flag": "🇯🇵",
+      "av": "MIYU_AV.png",
+      "lang": "ja",
+      "avatar_status": "existing",
+      "final_profile_idea": "직접 만든 한복을 입은 단정한 사진"
+    },
+    {
+      "id": "suman",
+      "name": "수만",
+      "name_en": "Suman",
+      "flag": "🇳🇵",
+      "av": "SUMAN_AV.png",
+      "lang": "ne",
+      "avatar_status": "existing",
+      "final_profile_idea": "휴일 야외에서 편하게 웃는 사진. 매번 주방·셰프 이미지로 한정하지 않음"
+    },
+    {
+      "id": "sundeok",
+      "name": "순덕 할머니",
+      "name_en": "Sundeok",
+      "flag": "🇰🇷",
+      "av": "BOKRYE_AV.png",
+      "lang": "ko",
+      "avatar_status": "existing",
+      "final_profile_idea": "꽃구경 때 찍은 사진. 꽃과 얼굴이 함께 보임"
+    },
+    {
+      "id": "hayoung",
+      "name": "하영",
+      "name_en": "Hayoung",
+      "flag": "🇰🇷",
+      "av": "SONNYEO_AV.png",
+      "lang": "ko",
+      "avatar_status": "existing",
+      "final_profile_idea": "얼굴 옆 포토카드, 발랄한 셀카"
+    },
+    {
+      "id": "siwoo",
+      "name": "시우",
+      "name_en": "Siwoo",
+      "flag": "🇰🇷",
+      "av": "DAEHAK_AV.png",
+      "lang": "ko",
+      "avatar_status": "existing",
+      "final_profile_idea": "캠퍼스에서 친구가 찍어 준 자연스러운 사진"
+    }
+  ],
+  "states": [
+    {
+      "id": "S1",
+      "title": "공지·참석",
+      "beat": "1. 참석률 100퍼센트",
+      "time_base": "오후 7:52",
+      "messages": [
+        {
+          "who": "hao",
+          "ko": "오늘 저녁 참석 확인할게요.",
+          "orig": "我来确认一下今晚的出席。",
+          "time": "오후 7:52"
+        },
+        {
+          "who": "ria",
+          "ko": "참석!",
+          "orig": "I'm in!",
+          "time": "오후 7:52"
+        },
+        {
+          "who": "miyu",
+          "ko": "반드시 가겠소.",
+          "orig": "必ず参ります。",
+          "time": "오후 7:53"
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "메뉴 거절",
+      "beat": "2. 아무거나의 조건",
+      "time_base": "오후 7:55",
+      "messages": [
+        {
+          "who": "hao",
+          "ko": "메뉴는요?",
+          "orig": "菜单呢？",
+          "time": "오후 7:55"
+        },
+        {
+          "who": "ria",
+          "ko": "아무거나!",
+          "orig": "Anything!",
+          "time": "오후 7:55"
+        },
+        {
+          "who": "miyu",
+          "ko": "여러분 뜻에 따르겠소.",
+          "orig": "皆様のお考えに従いましょう。",
+          "time": "오후 7:55"
+        },
+        {
+          "who": "suman",
+          "ko": "나도 괜찮아.",
+          "orig": "म पनि ठिक छु।",
+          "time": "오후 7:56"
+        },
+        {
+          "who": "hao",
+          "ko": "그럼 치킨?",
+          "orig": "那炸鸡怎么样？",
+          "time": "오후 7:56",
+          "photo": "치킨 사진 (플레이스홀더)"
+        },
+        {
+          "who": "ria",
+          "ko": "튀긴 거 말고.",
+          "orig": "Not fried.",
+          "time": "오후 7:57"
+        },
+        {
+          "who": "miyu",
+          "ko": "닭은 오늘 내키지 않소.",
+          "orig": "今日は鶏肉が気が向かぬ。",
+          "time": "오후 7:57"
+        },
+        {
+          "who": "hao",
+          "ko": "피자는?",
+          "orig": "披萨呢？",
+          "time": "오후 7:58",
+          "photo": "피자 사진 (플레이스홀더)"
+        },
+        {
+          "who": "ria",
+          "ko": "점심에 빵 먹었어.",
+          "orig": "I already had bread for lunch.",
+          "time": "오후 7:58"
+        },
+        {
+          "who": "miyu",
+          "ko": "저녁은 밥이 좋겠소.",
+          "orig": "夕飯はご飯がよかろう。",
+          "time": "오후 7:58"
+        },
+        {
+          "who": "hao",
+          "ko": "그럼 먹고 싶은 걸 하나씩 써 주세요.",
+          "orig": "那请大家把想吃的各写一个。",
+          "time": "오후 7:59"
+        },
+        {
+          "who": "ria",
+          "ko": "둘이 정해. 나는 진짜 아무거나 괜찮아.",
+          "orig": "You two decide. I'm honestly fine with anything.",
+          "time": "오후 7:59"
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "수만 불참 가능·소고기 합의",
+      "beat": "3. 갑자기 만장일치",
+      "time_base": "오후 8:01",
+      "messages": [
+        {
+          "who": "suman",
+          "ko": "오늘 가게 일이 늦게 끝날 것 같아. 저녁 못 갈 수도 있어.",
+          "orig": "आज पसलको काम ढिलो सकिने जस्तो छ। सायद राति खाना आउन सक्दिनँ।",
+          "time": "오후 8:01"
+        },
+        {
+          "who": "hao",
+          "ko": "소고기 어때요?",
+          "orig": "牛肉怎么样？",
+          "time": "오후 8:02",
+          "photo": "소고기 사진 (플레이스홀더)"
+        },
+        {
+          "who": "ria",
+          "ko": "좋아.",
+          "orig": "Sounds good.",
+          "time": "오후 8:02"
+        },
+        {
+          "who": "miyu",
+          "ko": "소고기로 뜻을 모으겠소.",
+          "orig": "牛肉で意を合わせましょう。",
+          "time": "오후 8:02"
+        },
+        {
+          "who": "suman",
+          "ko": "갈게.",
+          "orig": "आउँछु।",
+          "time": "오후 8:03"
+        },
+        {
+          "who": "suman",
+          "ko": "꼭 갈게. 먼저 시키지 마.",
+          "orig": "जरुर आउँछु। पहिले नअर्डर गर।",
+          "time": "오후 8:03"
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "참석 번복·김밥",
+      "beat": "4. 취향이 바뀌는 속도",
+      "time_base": "오후 8:05",
+      "messages": [
+        {
+          "who": "ria",
+          "ko": "생각해 보니 저녁은 가볍게 먹고 싶어.",
+          "orig": "Thinking again—I want something light for dinner.",
+          "time": "오후 8:05"
+        },
+        {
+          "who": "miyu",
+          "ko": "김밥도 밥이오.",
+          "orig": "キンパもご飯ですぞ。",
+          "time": "오후 8:05"
+        },
+        {
+          "who": "hao",
+          "ko": "아까는 소고기로 뜻을 모으셨잖아요.",
+          "orig": "刚才不是都同意牛肉了吗。",
+          "time": "오후 8:06"
+        },
+        {
+          "who": "hao",
+          "ko": "그럼 김밥으로 할게요.",
+          "orig": "那我就订紫菜包饭了。",
+          "time": "오후 8:07"
+        }
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "수만 도착·「내가 온다고 해서?」",
+      "beat": "5. 소고기는 어디에",
+      "time_base": "오후 8:12",
+      "messages": [
+        {
+          "who": "hao",
+          "ko": "다 같이 가볍게 먹기로 했어요.",
+          "orig": "大家说一起吃得清淡一点。",
+          "time": "오후 8:12"
+        },
+        {
+          "who": "suman",
+          "ko": "내가 온다고 해서?",
+          "orig": "के म आउँछु भनेर?",
+          "time": "오후 8:13"
+        }
+      ]
+    },
+    {
+      "id": "S6",
+      "title": "소고기 식사·메시지",
+      "beat": "6. 먹는 데는 안 아낀다",
+      "time_base": "오후 8:28",
+      "messages": [
+        {
+          "who": "suman",
+          "ko": "나 오늘 오길 잘했네.",
+          "orig": "आज आउन राम्रो भयो।",
+          "time": "오후 8:28"
+        }
+      ]
+    }
+  ]
+}
