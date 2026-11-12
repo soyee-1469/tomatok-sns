@@ -49,7 +49,7 @@ def build():
     data = json.dumps(episodes, ensure_ascii=False).replace('<', '\\u003c')
     (OUT / 'series.html').write_text(template.replace('__EPISODES__', data), encoding='utf-8')
     status = dict(id='SERIES_BOARD', type='SITCOM', title='연남동 3층집 회차 작업실', status='REVIEW',
-                  lastCompleted='3화 로컬 공지 바·번역 스택·CAST 아바타 유지, 6상태 UI 및 공용 폰 목업 렌더',
+                  lastCompleted='보드 상단 회차 바로가기 추가 · 전체/1~3화 이동 · 현재 회차 표시 및 작업 탭 유지',
                   nextTask='3화 단톡 UI 검수 · 원문 번역 검수 · 콘티 준비',
                   publishDate=None, platforms=['Local'], updatedBy='Codex',
                   updatedAt=datetime.datetime.now(datetime.timezone.utc).isoformat(),
