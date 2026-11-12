@@ -16,7 +16,7 @@ WORLD = ROOT / '00_MASTER_ASSETS/WORLD_PLANNING'
 SB = ROOT / '01_EPISODES/EP01R/frames/v08/STORYBOARD'
 EPISODES = [
     dict(id='EP01', title='읽음 22', stage='기존 제작본 재검토', next='각본·콘티와 기존 영상의 최종 일치 확인', script='EP01_SCRIPT_FINAL_v07.md', boards='EP01_island_[0-9]*.png'),
-    dict(id='EP02', title='싸움은 모국어로', stage='각본·콘티 검토', next='기존 콘티를 검토하고 GPT 기준 이미지 준비', script='EP02_SCRIPT_v08.md', boards='EP02_sofa_board_[0-9]*.png'),
+    dict(id='EP02', title='싸움은 모국어로', stage='새 콘티 4장 검토', next='새 콘티 확인 · 시트 2의 영수증 장면을 USB 각본과 대조', script='EP02_SCRIPT_v08.md', boards='EP02_v01_chatgpt_board_[0-9]*.png', boards_dir='01_EPISODES/EP02_싸움은모국어로/STORYBOARD'),
     dict(id='EP03', title='오늘 못 와?', stage='각본·단톡 UI 초안', next='단톡 UI 검수 · 콘티 준비', script='EP03_SCRIPT_v03.md', boards=None, ui='ep03_chat/index.html'),
     dict(id='EP04', title='조금만 주세요', stage='각본 초안', next='할머니·수만 음식 교류 각본 검토 · 번역 장면과 콘티 준비', script='EP04_SCRIPT_v02.md', boards=None),
 ]
@@ -38,7 +38,8 @@ def build():
         shutil.copy2(src, sources / src.name)
         item['body'] = markdown.markdown(src.read_text(encoding='utf-8'), extensions=['tables', 'fenced_code'])
         item['images'] = []
-        for image in sorted(SB.glob(ep['boards'])) if ep['boards'] else []:
+        board_dir = ROOT / ep['boards_dir'] if ep.get('boards_dir') else SB
+        for image in sorted(board_dir.glob(ep['boards'])) if ep['boards'] else []:
             target = media / (image.stem + '.jpg')
             if not target.exists() or target.stat().st_mtime < image.stat().st_mtime:
                 subprocess.run(['sips', '-Z', '1400', '-s', 'format', 'jpeg', str(image), '--out', str(target)], check=True, capture_output=True)
