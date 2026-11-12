@@ -3,14 +3,14 @@
   "type": "SITCOM",
   "title": "연남동 3층집 회차 작업실",
   "status": "REVIEW",
-  "lastCompleted": "회차 작업실 생성 · 2화 USB 장면 반영 · 3화 공동 저녁 각본 v03 연결 · Cursor 작업 28 작성",
+  "lastCompleted": "3화 메뉴 협의를 다국어 단톡으로 수정 · UI 브리프와 Cursor 작업 28 동기화",
   "nextTask": "3화 각본 사용자 검토 · Cursor 작업 28 단톡방 UI 구현 후 검수",
   "publishDate": null,
   "platforms": [
     "Local"
   ],
   "updatedBy": "Codex",
-  "updatedAt": "2026-11-12T07:56:00.462720+00:00",
+  "updatedAt": "2026-11-12T08:02:03.669420+00:00",
   "assets": {
     "page": "board_web/series.html",
     "generator": "tools/build_series_board.py"

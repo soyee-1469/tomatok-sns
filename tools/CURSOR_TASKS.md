@@ -236,6 +236,7 @@ Claude가 초안을 써 두었다(미실행, 수정 허용: 이 파일과 `tools
 ## 작업 28 — 새 3화 공동 저녁 단톡방 UI (2026-11-12, Codex → Cursor)
 
 - 상태: TODO. 기존 작업보다 이번 회차 UI를 먼저 진행. 커서 실제 착수 여부는 아직 확인하지 않음.
+- 사용자 추가 수정: 한국어가 서툰 입주민들의 소통 수단이 단톡방이다. 메뉴 제안·조건·합의를 채팅으로 표현. 대면 대화로 바꾸자는 장면 삭제, 최신 각본과 UI 브리프의 메뉴 메시지 순서를 사용한다.
 - 기준: `tools/EP03_CHAT_UI_BRIEF.md`, 각본 `00_MASTER_ASSETS/WORLD_PLANNING/EP03_SCRIPT_v03.md`. 옛 가스비 3화 v02는 사용하지 않는다.
 - 허용 변경: 새 `tools/render_ep03_chat.py`, 새 `tools/ep03_chat_data.json`, 새 `tools/ep03_chat_preview.html`, `tools/build_series_board.py`, `tools/series_board.html`. 이번 작업 결과만 `board_web/ep03_chat/`에 생성 허용. 기존 마스터·각본·프로필·옛 렌더러는 읽기 전용.
 - 기존 확정 얼굴 아바타 8명과 할머니 공지를 사용해 한국어 뷰 UI 초안 제작. 인물별 최종 프로필 연출 제안과 임시 기존 아바타를 구분. 리아는 BEA_AV, 하오는 DOYUN_AV이며 중국 국기.

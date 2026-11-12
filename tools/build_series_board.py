@@ -43,7 +43,7 @@ def build():
     data = json.dumps(episodes, ensure_ascii=False).replace('<', '\\u003c')
     (OUT / 'series.html').write_text(template.replace('__EPISODES__', data))
     status = dict(id='SERIES_BOARD', type='SITCOM', title='연남동 3층집 회차 작업실', status='REVIEW',
-                  lastCompleted='회차 작업실 생성 · 2화 USB 장면 반영 · 3화 공동 저녁 각본 v03 연결 · Cursor 작업 28 작성',
+                  lastCompleted='3화 메뉴 협의를 다국어 단톡으로 수정 · UI 브리프와 Cursor 작업 28 동기화',
                   nextTask='3화 각본 사용자 검토 · Cursor 작업 28 단톡방 UI 구현 후 검수',
                   publishDate=None, platforms=['Local'], updatedBy='Codex',
                   updatedAt=datetime.datetime.now(datetime.timezone.utc).isoformat(),
