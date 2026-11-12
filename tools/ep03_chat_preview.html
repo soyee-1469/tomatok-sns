@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>3화 단톡 · 연남동 3층집</title>
+<style>
+:root{color-scheme:light;--bg:#e7e2dc;--chat:#f2eeeb;--ink:#241f1c;--muted:#8d8580;--line:#e3ddd8;--pink:#f9dcdc;--white:#fff;--gray:#e7e1dc;--grayink:#5e5854}
+*{box-sizing:border-box}
+html,body{margin:0;overflow-x:hidden;background:var(--bg);color:var(--ink)}
+body{font:15px/1.45 "Noto Sans Devanagari","Droid Sans Fallback","WenQuanYi Micro Hei","Apple SD Gothic Neo",sans-serif}
+button,a{font:inherit;touch-action:manipulation}
+button{cursor:pointer}
+button:focus-visible,a:focus-visible{outline:3px solid #b58a30;outline-offset:2px}
+.page{width:100%;max-width:390px;margin:0 auto;padding:12px 12px 28px}
+.top{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px}
+.top h1{flex:1 1 180px;min-width:0;margin:0;font-size:18px;line-height:1.35;overflow-wrap:anywhere}
+.top p{flex:1 1 100%;margin:0;color:#5c564f;font-size:13px;overflow-wrap:anywhere}
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0}
+.controls button{border:1px solid #d5cfc8;background:#fff;border-radius:999px;padding:10px 14px;min-height:44px}
+.controls button[aria-pressed=true]{background:#285b45;color:#fff;border-color:#285b45}
+.controls button:disabled{opacity:.4;cursor:default}
+.state-name{flex:1 1 140px;min-width:0;margin:0;font-size:14px;overflow-wrap:anywhere}
+.phone{width:100%;max-width:390px;height:min(720px,calc(100vh - 168px));min-height:520px;background:var(--chat);border:1px solid #ddd6d0;border-radius:16px;display:flex;flex-direction:column;overflow:hidden}
+.bar{display:flex;align-items:center;gap:8px;background:#fff;min-height:52px;padding:8px 10px;border-bottom:1px solid var(--line)}
+.bar h2{flex:1;min-width:0;margin:0;text-align:center;font-size:16px;font-weight:700;overflow-wrap:anywhere}
+.icon{width:36px;height:36px;border:0;background:transparent;color:#3c3835;font-size:22px;flex:0 0 auto}
+.notice{margin:10px;background:#fff8e8;border:1px solid #ead9a8;border-radius:12px;padding:10px 12px}
+.notice b{display:block;font-size:12px;letter-spacing:.04em}
+.notice p{margin:4px 0;overflow-wrap:anywhere}
+.notice small{color:#6d6248}
+.log{flex:1;overflow:auto;padding:4px 10px 12px}
+.msg{display:flex;gap:8px;align-items:flex-start;margin:10px 0;max-width:100%}
+.msg.mine{flex-direction:row-reverse}
+.av,.fallback{width:36px;height:36px;border-radius:50%;flex:0 0 auto;object-fit:cover;background:#d9d3cc}
+.fallback{display:flex;align-items:center;justify-content:center;font-weight:700}
+.stack{min-width:0;max-width:calc(100% - 44px);display:flex;flex-direction:column;align-items:flex-start;gap:4px}
+.msg.mine .stack{align-items:flex-end}
+.who{font-size:12px;color:#3f3a36}
+.bubble{max-width:100%;border-radius:14px;padding:8px 10px;overflow-wrap:anywhere;word-break:break-word}
+.bubble.ko{background:var(--white)}
+.bubble.original{background:var(--gray);color:var(--grayink)}
+.bubble.mine{background:var(--pink)}
+.food{display:block;width:min(180px,100%);height:auto;border-radius:8px;margin-bottom:6px}
+.draft{display:inline-block;margin-left:6px;font-size:10px;letter-spacing:.02em;color:#8a8178;border:1px solid #d9d1ca;border-radius:999px;padding:0 5px;vertical-align:1px}
+.timed{display:flex;align-items:flex-end;gap:6px;max-width:100%}
+time{color:var(--muted);font-size:11px;flex:0 0 auto}
+.composer{display:flex;align-items:center;gap:6px;background:#fff;border-top:1px solid var(--line);padding:8px;min-height:52px}
+.composer span{flex:1;min-width:0;color:#9a938e;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.aside{margin:10px 0 0;color:#5c564f;font-size:13px;overflow-wrap:anywhere}
+.profile{display:flex;gap:10px;background:#fff;border-radius:12px;padding:10px;margin:8px 0}
+.profile h3{margin:0 0 4px;font-size:15px}
+.profile p{margin:2px 0;font-size:13px;overflow-wrap:anywhere}
+.tag{color:#6d6248}
+[hidden]{display:none!important}
+</style>
+<main class="page">
+  <div class="top">
+    <h1>3화 단톡 미리보기</h1>
+    <p>준호 폰 한국어 뷰. 준호 본인만 연분홍이고, 이 여섯 상태에는 준호가 보낸 문자가 없다. 외국어 원문은 검수 전 초안이다.</p>
+  </div>
+  <div class="controls">
+    <button type="button" id="prev" data-action="prev">이전</button>
+    <p class="state-name" id="state-name"></p>
+    <button type="button" id="next" data-action="next">다음</button>
+    <button type="button" id="view-chat" data-action="chat" aria-pressed="true">대화</button>
+    <button type="button" id="view-people" data-action="profiles" aria-pressed="false">프로필</button>
+  </div>
+  <section class="phone" id="phone" data-viewer="junho">
+    <div class="bar">
+      <button type="button" class="icon" aria-label="뒤로" tabindex="-1">‹</button>
+      <h2 id="room"></h2>
+      <button type="button" class="icon" aria-label="검색" tabindex="-1">⌕</button>
+      <button type="button" class="icon" aria-label="메뉴" tabindex="-1">☰</button>
+    </div>
+    <div class="notice" id="notice" data-notice="1"></div>
+    <div class="log" id="log"></div>
+    <div class="composer" aria-hidden="true"><span>메시지를 입력하세요.</span><span>☺</span></div>
+  </section>
+  <p class="aside" id="aside"></p>
+</main>
+<script type="application/json" id="chat-data">{
+  "room": "연남동 3층집 🏠",
+  "viewer": "junho",
+  "viewer_lang": "ko",
+  "mine_color": "#f9dcdc",
+  "notice": {
+    "author": "sunduk",
+    "text": "화·목 저녁 8시, 같이 밥 먹기. 못 오는 사람은 그날 저녁값 내기.",
+    "sign": "순덕"
+  },
+  "excluded_lines": [
+    "할머니, 같이 드세요.",
+    "기다릴게요",
+    "오는 길에 뛰지 마라",
+    "다음에 하오 없는 날",
+    "나 이제 안 빠져요",
+    "왜 화났어?"
+  ],
+  "profiles": [
+    {
+      "id": "ria",
+      "name": "리아",
+      "flag": "🇵🇭",
+      "lang": "en",
+      "avatar": "BEA_AV.png",
+      "avatar_label": "임시 기존 아바타",
+      "proposal": "여행지에서 커피 들고 웃는 셀카"
+    },
+    {
+      "id": "junho",
+      "name": "준호",
+      "flag": "🇰🇷",
+      "lang": "ko",
+      "avatar": "JUNHO_AV.png",
+      "avatar_label": "임시 기존 아바타",
+      "proposal": "커플 사진을 자기 얼굴만 남겨 서툴게 크롭, 가장자리에 리아 어깨"
+    },
+    {
+      "id": "hao",
+      "name": "하오",
+      "flag": "🇨🇳",
+      "lang": "zh",
+      "avatar": "DOYUN_AV.png",
+      "avatar_label": "임시 기존 아바타",
+      "proposal": "헤드폰을 목에 걸고 방송인처럼 포즈, 방 배경"
+    },
+    {
+      "id": "miyu",
+      "name": "미유",
+      "flag": "🇯🇵",
+      "lang": "ja",
+      "avatar": "MIYU_AV.png",
+      "avatar_label": "임시 기존 아바타",
+      "proposal": "직접 만든 한복을 입은 단정한 사진"
+    },
+    {
+      "id": "suman",
+      "name": "수만",
+      "flag": "🇳🇵",
+      "lang": "ne",
+      "avatar": "SUMAN_AV.png",
+      "avatar_label": "임시 기존 아바타",
+      "proposal": "휴일 야외에서 편하게 웃는 사진. 매번 주방·셰프 이미지로 한정하지 않음"
+    },
+    {
+      "id": "sunduk",
+      "name": "순덕",
+      "flag": "🇰🇷",
+      "lang": "ko",
+      "avatar": "BOKRYE_AV.png",
+      "avatar_label": "임시 기존 아바타",
+      "proposal": "꽃구경 때 찍은 사진. 꽃과 얼굴이 함께 보임"
+    },
+    {
+      "id": "hayoung",
+      "name": "하영",
+      "flag": "🇰🇷",
+      "lang": "ko",
+      "avatar": "SONNYEO_AV.png",
+      "avatar_label": "임시 기존 아바타",
+      "proposal": "얼굴 옆 포토카드, 발랄한 셀카"
+    },
+    {
+      "id": "siwoo",
+      "name": "시우",
+      "flag": "🇰🇷",
+      "lang": "ko",
+      "avatar": "DAEHAK_AV.png",
+      "avatar_label": "임시 기존 아바타",
+      "proposal": "캠퍼스에서 친구가 찍어 준 자연스러운 사진"
+    }
+  ],
+  "states": [
+    {
+      "id": "attendance",
+      "title": "공지·참석",
+      "aside": "참석 답장. 공지를 쓴 사람은 순덕이고, 이미 방에 있다. 이 화면은 준호 폰이다.",
+      "messages": [
+        {
+          "speaker": "hao",
+          "time": "오후 7:41",
+          "ko": "오늘 저녁 참석 확인할게요.",
+          "original": "我来确认一下今晚谁来。",
+          "original_status": "draft"
+        },
+        {
+          "speaker": "ria",
+          "time": "오후 7:41",
+          "ko": "참석!",
+          "original": "I'm in!",
+          "original_status": "draft"
+        },
+        {
+          "speaker": "miyu",
+          "time": "오후 7:42",
+          "ko": "반드시 가겠소.",
+          "original": "必ず参ります。",
+          "original_status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "menu_no",
+      "title": "메뉴 거절",
+      "aside": "메뉴 제안과 조건은 단톡에 남긴다. 치킨·피자는 메뉴 사진 자리이며 생성된 음식이 아니다.",
+      "messages": [
+        {
+          "speaker": "hao",
+          "time": "오후 7:43",
+          "ko": "메뉴는요?",
+          "original": "菜单呢？",
+          "original_status": "draft"
+        },
+        {
+          "speaker": "ria",
+          "time": "오후 7:43",
+          "ko": "아무거나!",
+          "original": "Anything!",
+          "original_status": "draft"
+        },
+        {
+          "speaker": "miyu",
+          "time": "오후 7:43",
+          "ko": "여러분 뜻에 따르겠소.",
+          "original": "皆様のお心に従います。",
+          "original_status": "draft"
+        },
+        {
+          "speaker": "suman",
+          "time": "오후 7:44",
+          "ko": "나도 괜찮아.",
+          "original": "मलाई पनि ठिकै छ।",
+          "original_status": "draft"
+        },
+        {
+          "speaker": "hao",
+          "time": "오후 7:44",
+          "ko": "그럼 치킨?",
+          "original": "那炸鸡呢？",
+          "original_status": "draft",
+          "photo": "chicken"
+        },
+        {
+          "speaker": "ria",
+          "time": "오후 7:45",
+          "ko": "튀긴 거 말고.",
+          "original": "Not fried.",
+          "original_status": "draft"
+        },
+        {
+          "speaker": "miyu",
+          "time": "오후 7:45",
+          "ko": "닭은 오늘 내키지 않소.",
+          "original": "本日は鶏は遠慮いたします。",
+          "original_status": "draft"
+        },
+        {
+          "speaker": "hao",
+          "time": "오후 7:46",
+          "ko": "피자는?",
+          "original": "披萨呢？",
+          "original_status": "draft",
+          "photo": "pizza"
+        },
+        {
+          "speaker": "ria",
+          "time": "오후 7:46",
+          "ko": "점심에 빵 먹었어.",
+          "original": "I had bread for lunch.",
+          "original_status": "draft"
+        },
+        {
+          "speaker": "miyu",
+          "time": "오후 7:46",
+          "ko": "저녁은 밥이 좋겠소.",
+          "original": "夕飯はご飯がよろしゅうございます。",
+          "original_status": "draft"
+        },
+        {
+          "speaker": "hao",
+          "time": "오후 7:47",
+          "ko": "그럼 먹고 싶은 걸 하나씩 써 주세요.",
+          "original": "那请把想吃的一样一样写下来。",
+          "original_status": "draft"
+        },
+        {
+          "speaker": "ria",
+          "time": "오후 7:47",
+          "ko": "둘이 정해. 나는 진짜 아무거나 괜찮아.",
+          "original": "You two decide. I really am fine with anything.",
+          "original_status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "beef_agree",
+      "title": "수만 불참 가능·소고기 합의",
+      "aside": "수만이 못 올 수도 있다고 보낸 뒤 소고기 문자가 모인다. 사진 없음. 할머니가 사 온 고기는 아직 보여 주지 않는다.",
+      "messages": [
+        {
+          "speaker": "suman",
+          "time": "오후 7:49",
+          "ko": "오늘 가게 일이 늦게 끝날 것 같아. 저녁 못 갈 수도 있어.",
+          "original": "आज पसलको काम ढिलो सकिएला जस्तो छ। साँझको खानामा आइनसक्ला।",
+          "original_status": "draft"
+        },
+        {
+          "speaker": "hao",
+          "time": "오후 7:50",
+          "ko": "소고기 어때요?",
+          "original": "牛肉怎么样？",
+          "original_status": "draft"
+        },
+        {
+          "speaker": "ria",
+          "time": "오후 7:50",
+          "ko": "좋아.",
+          "original": "Sounds good.",
+          "original_status": "draft"
+        },
+        {
+          "speaker": "miyu",
+          "time": "오후 7:50",
+          "ko": "소고기로 뜻을 모으겠소.",
+          "original": "牛肉で意見を一つにいたします。",
+          "original_status": "draft"
+        },
+        {
+          "speaker": "suman",
+          "time": "오후 7:51",
+          "ko": "갈게.",
+          "original": "आउँछु।",
+          "original_status": "draft"
+        },
+        {
+          "speaker": "suman",
+          "time": "오후 7:51",
+          "ko": "꼭 갈게. 먼저 시키지 마.",
+          "original": "पक्कै आउँछु। पहिले नअर्डर गर।",
+          "original_status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "kimbap",
+      "title": "참석 번복·김밥",
+      "aside": "주문 전. 김밥으로 바꾸자는 메시지까지만 보인다.",
+      "messages": [
+        {
+          "speaker": "ria",
+          "time": "오후 7:53",
+          "ko": "생각해 보니 저녁은 가볍게 먹고 싶어.",
+          "original": "On second thought, I want a light dinner.",
+          "original_status": "draft"
+        },
+        {
+          "speaker": "miyu",
+          "time": "오후 7:53",
+          "ko": "김밥도 밥이오.",
+          "original": "キンパもご飯でございます。",
+          "original_status": "draft"
+        },
+        {
+          "speaker": "hao",
+          "time": "오후 7:54",
+          "ko": "아까는 소고기로 뜻을 모으셨잖아요.",
+          "original": "刚才不是已经说好吃牛肉了吗。",
+          "original_status": "draft"
+        },
+        {
+          "speaker": "hao",
+          "time": "오후 7:55",
+          "ko": "그럼 김밥으로 할게요.",
+          "original": "那就改成紫菜包饭吧。",
+          "original_status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "suman_here",
+      "title": "수만 도착·「내가 온다고 해서?」",
+      "aside": "수만은 거실에 도착해 바뀐 메뉴를 읽는다. 할머니 소고기는 아직 화면에 없다.",
+      "messages": [
+        {
+          "speaker": "hao",
+          "time": "오후 7:55",
+          "ko": "그럼 김밥으로 할게요.",
+          "original": "那就改成紫菜包饭吧。",
+          "original_status": "draft"
+        },
+        {
+          "speaker": "hao",
+          "time": "오후 7:58",
+          "ko": "다 같이 가볍게 먹기로 했어요.",
+          "original": "大家决定一起吃得清淡一点。",
+          "original_status": "draft"
+        },
+        {
+          "speaker": "suman",
+          "time": "오후 7:59",
+          "ko": "내가 온다고 해서?",
+          "original": "म आउँछु भनेर हो?",
+          "original_status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "dinner",
+      "title": "소고기 식사·수만의 메시지",
+      "aside": "식사 중에는 수만의 문자만 올라온다. 리아의 「할머니, 같이 드세요.」는 접시를 놓으며 직접 하는 말이라 말풍선에 넣지 않았다. 소고기 사진도 채팅에 없다.",
+      "messages": [
+        {
+          "speaker": "suman",
+          "time": "오후 8:16",
+          "ko": "나 오늘 오길 잘했네.",
+          "original": "आज आएको राम्रो भयो।",
+          "original_status": "draft"
+        }
+      ]
+    }
+  ]
+}</script>
+<script>
+const DATA = JSON.parse(document.getElementById('chat-data').textContent);
+let index = 0;
+let view = 'chat';
+const people = Object.fromEntries(DATA.profiles.map(p => [p.id, p]));
+
+function avatarSrc(file){
+  const path = location.pathname.replace(/\\/g, '/');
+  const base = path.indexOf('/board_web/ep03_chat/') !== -1
+    ? '../../00_MASTER_ASSETS/04_UI/PROFILES/CAST/'
+    : '../00_MASTER_ASSETS/04_UI/PROFILES/CAST/';
+  return base + file;
+}
+function esc(s){
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+function photo(kind){
+  if(kind === 'chicken'){
+    return '<svg class="food" viewBox="0 0 160 100" role="img" aria-label="치킨 메뉴 사진 자리"><rect width="160" height="100" rx="10" fill="#f4e2c4"/><ellipse cx="78" cy="62" rx="30" ry="16" fill="#e0a15a"/><rect x="98" y="42" width="12" height="30" rx="5" transform="rotate(28 104 57)" fill="#c9843a"/><text x="12" y="24" font-size="14" fill="#6a4a2a">치킨 사진 자리</text></svg>';
+  }
+  if(kind === 'pizza'){
+    return '<svg class="food" viewBox="0 0 160 100" role="img" aria-label="피자 메뉴 사진 자리"><rect width="160" height="100" rx="10" fill="#f7efe4"/><circle cx="82" cy="62" r="28" fill="#f0c14a"/><circle cx="72" cy="54" r="4" fill="#c14b3a"/><circle cx="92" cy="66" r="4" fill="#c14b3a"/><circle cx="80" cy="74" r="3" fill="#6a8f4e"/><text x="12" y="24" font-size="14" fill="#6a4a2a">피자 사진 자리</text></svg>';
+  }
+  return '';
+}
+function avatar(person){
+  const alt = esc(person.name);
+  return '<img class="av" alt="'+alt+'" src="'+esc(avatarSrc(person.avatar))+'" data-file="'+esc(person.avatar)+'">';
+}
+function message(msg){
+  const person = people[msg.speaker];
+  const mine = msg.speaker === DATA.viewer;
+  const foreign = person.lang !== DATA.viewer_lang;
+  const shot = msg.photo ? photo(msg.photo) : '';
+  const ko = '<div class="bubble ko'+(mine?' mine':'')+'" data-kind="ko">'+shot+esc(msg.ko)+'</div>';
+  let body = ko;
+  if(foreign){
+    body += '<div class="timed"><div class="bubble original" data-kind="original" lang="'+esc(person.lang)+'">'+esc(msg.original)+' <span class="draft">초안</span></div><time>'+esc(msg.time)+'</time></div>';
+  }else{
+    body = '<div class="timed">'+ko+'<time>'+esc(msg.time)+'</time></div>';
+  }
+  return '<article class="msg'+(mine?' mine':'')+'" data-speaker="'+esc(msg.speaker)+'" data-mine="'+(mine?'1':'0')+'"><div class="av-slot">'+avatar(person)+'</div><div class="stack"><div class="who">'+esc(person.name)+' '+person.flag+'</div>'+body+'</div></article>';
+}
+function profiles(){
+  return DATA.profiles.map(person => {
+    return '<article class="profile" data-profile="'+esc(person.id)+'">'+avatar(person)+'<div><h3>'+esc(person.name)+' '+person.flag+'</h3><p class="tag">'+esc(person.avatar_label)+' · '+esc(person.avatar)+' · <span class="av-state">확인 중</span></p><p><b>최종 프로필 연출 제안</b> '+esc(person.proposal)+'</p><p class="tag">사용자 확정 전</p></div></article>';
+  }).join('');
+}
+function bindAvatars(root){
+  root.querySelectorAll('img.av').forEach(img => {
+    const mark = () => {
+      const state = img.closest('.profile') && img.closest('.profile').querySelector('.av-state');
+      if(img.naturalWidth > 0){
+        if(state) state.textContent = '파일 있음';
+        return;
+      }
+      const fallback = document.createElement('span');
+      fallback.className = 'fallback';
+      fallback.textContent = (img.alt || '?').slice(0, 1);
+      img.replaceWith(fallback);
+      if(state) state.textContent = '파일 없음';
+    };
+    if(img.complete) mark();
+    else{
+      img.addEventListener('load', mark);
+      img.addEventListener('error', mark);
+    }
+  });
+}
+function render(){
+  const state = DATA.states[index];
+  document.getElementById('room').textContent = DATA.room;
+  document.getElementById('state-name').textContent = (index + 1) + ' / ' + DATA.states.length + ' ' + state.title;
+  document.getElementById('prev').disabled = index === 0;
+  document.getElementById('next').disabled = index === DATA.states.length - 1;
+  document.getElementById('view-chat').setAttribute('aria-pressed', view === 'chat' ? 'true' : 'false');
+  document.getElementById('view-people').setAttribute('aria-pressed', view === 'people' ? 'true' : 'false');
+  const notice = DATA.notice;
+  const author = people[notice.author];
+  document.getElementById('notice').innerHTML = '<b>공지</b><p>'+esc(notice.text)+'</p><small>— '+esc(notice.sign)+' '+author.flag+'</small>';
+  document.getElementById('notice').setAttribute('data-author', notice.author);
+  const log = document.getElementById('log');
+  log.innerHTML = view === 'people' ? profiles() : state.messages.map(message).join('');
+  document.getElementById('aside').textContent = state.aside;
+  bindAvatars(log);
+  if(view === 'chat') log.scrollTop = log.scrollHeight;
+}
+document.getElementById('prev').addEventListener('click', () => { if(index > 0){ index -= 1; view = 'chat'; render(); }});
+document.getElementById('next').addEventListener('click', () => { if(index < DATA.states.length - 1){ index += 1; view = 'chat'; render(); }});
+document.getElementById('view-chat').addEventListener('click', () => { view = 'chat'; render(); });
+document.getElementById('view-people').addEventListener('click', () => { view = 'people'; render(); });
+window.addEventListener('keydown', event => {
+  if(event.key === 'ArrowRight') document.getElementById('next').click();
+  if(event.key === 'ArrowLeft') document.getElementById('prev').click();
+});
+render();
+</script>
+</html>

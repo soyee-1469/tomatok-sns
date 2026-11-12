@@ -349,3 +349,15 @@ The man speaks in natural native Korean, low, calm and quiet, polite and unhurri
 - 통과 식은 그대로다. 단일 샷이고, 얼굴 4지점 모두 ≥0.45, 얼굴 폭 ≥180px, whisper 일치 ≥85%일 때만 「통과」. 필터는 전체/통과/재생성.
 - media 합이 60MB를 넘으면 수정시각이 오래된 테이크부터 빼는다. 최신 테이크와 540px 스틸 jpg는 남긴다. HTML은 `charset`·`title`·`style`·본문만이고 doctype/html/head/body 태그는 없다. 화면 문구에 비아/Bea를 넣지 않았다.
 - 검증: 이 클론에는 `qa_*.json`·mp4·스틸 png가 없다. 컷 3·4·5·7·8·9·10·11·12·13·14·19·22 임시 13장으로 `python3 01_EPISODES/EP01R/tools/build_clip_board.py` → `13 cards, 11 pass` (4=내부 컷, 12=얼굴 0.20/100px). 생성 HTML에 article/video/select 각 13, 금지 태그 없음, 기본 선택은 take02, take01 옵션은 QA 없음. 헤드리스 크롬에서 재생성 필터가 4·12만 보이고, 통과 11, 전체 13. 3번 셀렉트를 take01로 바꾸면 문구가 QA 없음이고 영상 src가 바뀐다. take02는 `play()` 후 paused=false, readyState=4, currentTime>0. 390px 폭에서도 가로 스크롤 없이 2열 카드와 재생성 필터가 동작했다. 60MB 제외는 크기 목록으로 확인(가장 오래된 항목부터 탈락, 필수 파일은 유지). 이번 13장 media는 0.1MB라 제외 없음. 임시 파일·jpg·mp4·`board_clips/`는 커밋하지 않았다. 발행은 하지 않았다.
+
+### 작업 28 — 3화 공동 저녁 단톡방 UI (2026-11-12)
+- 새 파일: `tools/ep03_chat_data.json`, `tools/render_ep03_chat.py`, `tools/ep03_chat_preview.html`. 고친 파일: `tools/build_series_board.py`, `tools/series_board.html`.
+- 각본 v03의 여섯 상태를 데이터로 나눴다. 공지·참석 / 메뉴 거절 / 수만 불참 가능·소고기 합의 / 참석 번복·김밥 / 수만 도착·「내가 온다고 해서?」 / 소고기 식사·수만의 메시지. 메뉴 거절은 치킨 사진, 튀긴 것·닭 제외, 피자 사진, 빵·밥, 「먹고 싶은 걸 하나씩 써 주세요」, 「둘이 정해. 나는 진짜 아무거나 괜찮아.」 순서를 포함한다.
+- 화면은 준호 폰 한국어 뷰다. 외국어는 흰 한국어 번역 위, 회색 원문 아래이고 원문에 「초안」을 붙였다. 연분홍 `#f9dcdc`는 화자 준호만 쓴다. 이 여섯 상태에는 준호가 보낸 문자가 없다. 헤더에 인원수는 없다. 방 이름은 「연남동 3층집 🏠」.
+- 공지 「화·목 저녁 8시, 같이 밥 먹기. 못 오는 사람은 그날 저녁값 내기. — 순덕」를 상태마다 고정했다. 프로필 8명에 순덕이 있고, 리아는 `BEA_AV.png`, 하오는 `DOYUN_AV.png`와 중국 국기다. 채팅 표시명에 비아·도윤은 없다. 카드에서 임시 기존 아바타와 최종 프로필 연출 제안을 구분했다.
+- 치킨·피자는 생성된 음식이 아니라 글자 있는 사진 자리다. 소고기 사진은 어느 상태에도 없다. 「할머니, 같이 드세요.」는 말풍선에 넣지 않았고, 폰 밖 메모에만 채팅 제외라고 적었다. 「기다릴게요」「오는 길에 뛰지 마라」「다음에 하오 없는 날」「나 이제 안 빠져요」「왜 화났어?」도 메시지에 없다.
+- 3화 이야기 탭과 회차 카드에 `ep03_chat/index.html` 링크를 넣었다. 1·2화 카드와 탭에는 이 링크가 없다.
+- 이 클론에는 `00_MASTER_ASSETS/04_UI/PROFILES/CAST/*_AV.png` 8장과 `MOCKUP/phone_mockup.py`가 없다. 얼굴 이미지를 만들지 않았고, 폰 외곽도 새로 그리지 않았다. 아바타가 없으면 이니셜로 대체한다. PNG는 만들지 않았다. 생성 API는 호출하지 않았다. 바이너리는 커밋하지 않는다.
+- 검증: `python3 tools/render_ep03_chat.py` → `STATES 6 OK`, 아바타 0/8 MISSING, `MOCKUP_ABSENT`. `python3 tools/build_series_board.py`를 두 번 돌려도 미리보기 링크가 남는다. 로컬 결과: `tools/ep03_chat_preview.html`, `board_web/ep03_chat/index.html`, `board_web/series.html#EP03/story`.
+- 헤드리스 크롬 390×844에서 이전·다음을 눌러 여섯 상태 순서를 확인했다. 공지와 순덕, 번역 위·원문 아래, 연분홍 말풍선 0, 옛 후반 대사 없음, 프로필 8명. 문서 가로 스크롤은 없었다. `#EP03/story`의 링크가 미리보기를 열었고, `#EP01/story`와 `#EP02/images`에는 그 링크가 없었다. 1280px 홈에서 1·2화 카드는 기존 버튼만 있고 3화 카드만 미리보기 링크가 있다.
+- `tools/series_board_status.json`은 이번 허용 목록 밖이라 커밋하지 않았다. 빌더를 로컬에서 돌리면 상태 문구가 갱신된다.
