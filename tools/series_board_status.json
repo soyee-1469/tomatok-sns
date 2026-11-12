@@ -3,16 +3,17 @@
   "type": "SITCOM",
   "title": "연남동 3층집 회차 작업실",
   "status": "REVIEW",
-  "lastCompleted": "3화 메뉴 협의를 다국어 단톡으로 수정 · UI 브리프와 Cursor 작업 28 동기화",
-  "nextTask": "3화 각본 사용자 검토 · Cursor 작업 28 단톡방 UI 구현 후 검수",
+  "lastCompleted": "3화 할머니 소고기 결말 및 순덕 성격 반영; 회차 화면 재생성",
+  "nextTask": "Cursor 작업 28 UI 후반 데이터를 최신 소고기 결말로 갱신 후 검수; 3화 각본 사용자 검토",
   "publishDate": null,
   "platforms": [
     "Local"
   ],
   "updatedBy": "Codex",
-  "updatedAt": "2026-11-12T08:02:03.669420+00:00",
+  "updatedAt": "2026-11-12T08:07:24.506655+00:00",
   "assets": {
     "page": "board_web/series.html",
+    "ep03_chat": "board_web/ep03_chat/index.html",
     "generator": "tools/build_series_board.py"
   },
   "videoGenerationAuthorized": false
