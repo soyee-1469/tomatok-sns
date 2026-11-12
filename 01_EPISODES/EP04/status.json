@@ -1,19 +1,19 @@
 {
   "id": "EP04",
   "type": "SITCOM",
-  "title": "반찬통 돌려주세요",
+  "title": "조금만 주세요",
   "status": "SCRIPT_DRAFT",
-  "lastCompleted": "사용자 선택 소재로 각본 v01 작성. 할머니 단톡 회수 요청, 반찬통의 다른 용도, 수만 피클을 받아 가는 결말. 회차 보드에 연결.",
-  "nextTask": "사용자 각본 검토 후 소품 A~D 연속성 확정 및 그록봇 콘티 준비",
+  "lastCompleted": "각본 v02: 할머니와 수만이 서로의 음식을 맛보고 토마톡 음성 입력 번역으로 조리법을 묻는 이야기로 변경. v01 보관.",
+  "nextTask": "사용자 각본 검토 · 번역 화면 실제 입력 흐름 확인 · 그록봇 콘티 준비",
   "publishDate": null,
   "platforms": [
     "Instagram Reels",
     "YouTube Shorts"
   ],
   "updatedBy": "Codex",
-  "updatedAt": "2026-11-12T18:04:02.192143+09:00",
+  "updatedAt": "2026-11-12T18:16:38.818544+09:00",
   "assets": {
-    "script": "00_MASTER_ASSETS/WORLD_PLANNING/EP04_SCRIPT_v01.md",
+    "script": "00_MASTER_ASSETS/WORLD_PLANNING/EP04_SCRIPT_v02.md",
     "storyboard": false,
     "stills": false,
     "video": false,
