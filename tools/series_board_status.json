@@ -10,7 +10,7 @@
     "Local"
   ],
   "updatedBy": "Codex",
-  "updatedAt": "2026-11-12T07:54:07.598872+00:00",
+  "updatedAt": "2026-11-12T07:56:00.462720+00:00",
   "assets": {
     "page": "board_web/series.html",
     "generator": "tools/build_series_board.py"
