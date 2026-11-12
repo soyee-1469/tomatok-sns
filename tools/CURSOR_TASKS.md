@@ -246,6 +246,17 @@ Claude가 초안을 써 두었다(미실행, 수정 허용: 이 파일과 `tools
 - 검증: 아바타 경로 전부 존재, 할머니 참여·공지 표시, 6상태 순서 일치, 준호만 내 메시지 색, 번역/원문 순서, 390px 가로 넘침, 브라우저 이전/다음·프로필 전환, 재빌드 후 링크 유지.
 - 외부 이미지·영상·Higgsfield API 호출 금지. 목업은 기존 공용 스크립트 사용. 바이너리 Git 추가 금지. 커서는 처리 보고만 작성하고 커밋하지 않음. Codex가 검수 후 커밋·푸시.
 
+## 작업 29 — 1화 기존 콘티·이미지·영상 컷별 정리 (2026-11-12, 사용자 요청 / 최우선)
+
+- 상태: TODO. 구현 Cursor / 검수 Codex. 새 콘티는 그록봇 담당이므로 생성하지 않는다.
+- 상세 설계와 검증 기준: `tools/EP01_CUT_BOARD_PLAN.md`를 반드시 읽고 작업.
+- 회차 작업실 1화에 컷별 대사·지문 + 콘티 / 대사 자막을 얹은 이미지 미리보기 / 기존 영상 3열 비교 구현. 없는 결과는 빈칸, 여러 테이크는 선택 비교.
+- 기준은 `01_EPISODES/EP01R/edit/v06/animatic_E1_v062.json`의 현재 src·clip. 현재 45행/42 활성 컷. 원본은 읽기 전용. 콘티 구버전 컷 번호와 현재 컷 번호를 숫자로 자동 매칭하지 않는다.
+- 선택 클립 보존(컷3 take01), `_old` 테이크 제외, UI mp4 구분, 미연결 표시. `ep01_cut_asset_map.json`에 근거·누락 저장.
+- 범위: build_series_board.py, series_board.html, 필요시 새 series_cut_assets.py, 새 ep01_cut_asset_map.json, 새 EP01_CUT_BOARD_REPORT.md, 로컬 board_web 산출물. 기존 3화 UI 작업 보존.
+- 이미지·영상·Higgsfield 생성 호출 및 원본/DB 수정 금지. 커서 완료 보고 후 Codex가 검수·커밋·푸시.
+
+
 ## 처리 보고
 
 작업 7–11. 생성 API는 호출하지 않았다. `gen_from_conti.py` 와 `animatic_set_frame.py` 는 `--dry` 만 실행했다. 애니매틱 JSON은 수정하지 않았다(mtime 1793869535, 25977바이트, 백업 파일 없음).
