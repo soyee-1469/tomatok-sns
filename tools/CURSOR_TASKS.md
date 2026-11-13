@@ -260,7 +260,7 @@ Claude가 초안을 써 두었다(미실행, 수정 허용: 이 파일과 `tools
 
 ## 작업 31 — 1화 각본·콘티 감사 결과를 컷 보드에 반영 (2026-11-13, Claude 감사 → Cursor 구현 / 검수 Codex)
 
-- 상태: TODO. 우선순위: 29 다음, 24보다 먼저.
+- 상태: DONE (Cursor, 2026-11-13). 검수·발행은 Codex/Claude. 우선순위: 29 다음, 24보다 먼저.
 - 기준 문서: `tools/SCRIPT_CONTI_AUDIT.md` (커밋 `743e1ad`). 2.4 컷별 판정표와 3.3 반영 안내를 그대로 따른다. 판정을 바꾸지 않는다.
 - 새 파일: `tools/ep01_conti_links.json` — 감사 3.3의 JSON 초안을 그대로 저장(키 = 컷 번호 문자열, 값 = status / path / basis). 상태값은 기존 `linked / reference / unlinked`에 `check`(확인 필요) 하나 추가.
 - 수정 1: `tools/series_cut_assets.py` — `conti_for_frame()` 호출 전에 `ep01_conti_links.json`을 먼저 읽어 해당 컷이 있으면 그 값을 쓴다(`basis` 앞에 `SCRIPT_CONTI_AUDIT 2.4` 표기 유지). 없으면 기존 로직. 기존 로직이 unlinked를 내면 reason을 둘로 나눈다: `kind=ui` → 「UI, 콘티 대상 아님」, 그 외 → 「그림 콘티 없음(prompts_E1 텍스트만)」. skip 컷(20·21)도 links 파일에 있으면 conti를 채우되 skip 표시는 유지. linked/reference/check 모두 `preview`(series_cuts/img 썸네일)를 만든다. stats에 `conti_check` 추가.
@@ -273,7 +273,7 @@ Claude가 초안을 써 두었다(미실행, 수정 허용: 이 파일과 `tools
 
 ## 작업 32 — 2화 보드 문구·콘티 칸 14~17 상태 반영 (2026-11-13, Claude → Cursor)
 
-- 상태: TODO. 우선순위: 31 다음.
+- 상태: DONE (Cursor, 2026-11-13). 발행은 Claude. 우선순위: 31 다음.
 - 배경: 2화 각본 v08은 "여행 영수증"이 아니라 **옛날 USB 한 상자**다. 콘티 문서 `01_EPISODES/EP02_싸움은모국어로/STORYBOARD/EP02_STORYBOARD_v01.md` 칸 14~17 글은 11-13에 USB로 고쳤고, 그림(`EP02_v01_chatgpt_board_02.png` 칸 14~17)은 그록봇이 다시 뽑을 예정. 상태 파일 `tools/ep02_storyboard_status.json` 참조.
 - 수정 1: `tools/build_series_board.py` 19행 EP02의 `next` 문구 "시트2 영수증 장면 각본 대조" → "시트2 칸 14~17 USB 장면 콘티 재생성 대기(그록봇)". `stage`는 그대로.
 - 수정 2: 2화 콘티 칸 표시에서 시트 2의 칸 14·15·16·17에 「구 각본(영수증) — 재생성 대기」 배지를 붙인다. 칸 번호→파일 매핑은 기존 분할 결과(`ep02_storyboard_status.json`의 pattern·count)를 쓰고, 배지 대상은 코드에 하드코딩하지 말고 새 파일 `tools/ep02_conti_flags.json`(키 = 칸 번호 문자열, 값 = {"status":"stale","note":"구 각본 영수증 → USB"})에서 읽는다. 그록봇이 새 그림을 넣으면 그 파일에서 항목만 지우면 되게.
@@ -404,3 +404,24 @@ The man speaks in natural native Korean, low, calm and quiet, polite and unhurri
 - 통과 식은 그대로다. 단일 샷이고, 얼굴 4지점 모두 ≥0.45, 얼굴 폭 ≥180px, whisper 일치 ≥85%일 때만 「통과」. 필터는 전체/통과/재생성.
 - media 합이 60MB를 넘으면 수정시각이 오래된 테이크부터 빼는다. 최신 테이크와 540px 스틸 jpg는 남긴다. HTML은 `charset`·`title`·`style`·본문만이고 doctype/html/head/body 태그는 없다. 화면 문구에 비아/Bea를 넣지 않았다.
 - 검증: 이 클론에는 `qa_*.json`·mp4·스틸 png가 없다. 컷 3·4·5·7·8·9·10·11·12·13·14·19·22 임시 13장으로 `python3 01_EPISODES/EP01R/tools/build_clip_board.py` → `13 cards, 11 pass` (4=내부 컷, 12=얼굴 0.20/100px). 생성 HTML에 article/video/select 각 13, 금지 태그 없음, 기본 선택은 take02, take01 옵션은 QA 없음. 헤드리스 크롬에서 재생성 필터가 4·12만 보이고, 통과 11, 전체 13. 3번 셀렉트를 take01로 바꾸면 문구가 QA 없음이고 영상 src가 바뀐다. take02는 `play()` 후 paused=false, readyState=4, currentTime>0. 390px 폭에서도 가로 스크롤 없이 2열 카드와 재생성 필터가 동작했다. 60MB 제외는 크기 목록으로 확인(가장 오래된 항목부터 탈락, 필수 파일은 유지). 이번 13장 media는 0.1MB라 제외 없음. 임시 파일·jpg·mp4·`board_clips/`는 커밋하지 않았다. 발행은 하지 않았다.
+
+### 작업 31 — 1화 각본·콘티 감사 결과를 컷 보드에 반영 (2026-11-13)
+- 작업 29 보고에 적힌 `tools/series_cut_assets.py`와 `ep01_cut_asset_map.json`은 git에 없었다. 컷 맵을 만들고, `conti_for_frame()`(cuts_island 프레임 키만, C번호 자동 매칭 없음)보다 `ep01_conti_links.json`을 먼저 읽게 했다.
+- 새 파일: `tools/ep01_conti_links.json`(감사 3.3 JSON 17키), `tools/series_cut_assets.py`, `tools/ep01_cut_asset_map.json`, `tools/EP01_CUT_BOARD_REPORT.md`.
+- 수정: `tools/build_series_board.py`, `tools/series_board.html`. 1화 「콘티·기준 이미지」만 컷 3열. 2화·3화 단톡·이야기/최종 제작은 이 탭 구조를 그대로 둔다.
+- 실행: `python3 tools/series_cut_assets.py` → `python3 tools/build_series_board.py`.
+- stats(활성 42): linked 6(2·11·13·14·15·19) · reference 8(8·9·10·12·22·23·42·45) · check 1(30) · unlinked 27 · UI 6(6·16·25·28·36·38). skip 20·21은 linked, 활성 집계 제외. skip 29는 unlinked(UI).
+- 썸네일: 고유 콘티 경로 13. 이 클론에는 콘티 PNG가 없어 쓴 jpg는 0. 지정 clip 13, 존재하는 파일 0. 컷 3 `default_take` 1. `_old` 제외. 영상은 `board_web/series_cuts/vid/` 심볼릭 링크만.
+- 미리보기: `board_web/series.html#EP01/images`.
+- 검증: 헤드리스 크롬. 활성 카드 42. 「콘티 미연결」은 활성 28(없음 27+확인 필요 1). 자막 끄면 자막 0. 화면 대사에 비아/Bea 없음. 애니매틱 JSON은 읽기만. 생성 API 없음.
+- **발행 필요**. Artifact는 Claude.
+
+### 작업 32 — 2화 보드 문구·콘티 칸 14~17 상태 반영 (2026-11-13)
+- 수정: `tools/build_series_board.py` EP02 `next`를 `시트2 칸 14~17 USB 장면 콘티 재생성 대기(그록봇)`로 바꿈. `stage`는 `새 콘티 4장 검토` 그대로.
+- 새 파일: `tools/ep02_conti_flags.json`. 키 14·15·16·17, 값 `status=stale`, `note=구 각본 영수증 → USB`. 배지를 붙일 칸은 이 파일에서만 읽는다. 화면 `next` 문구만 지시에 적힌 14~17을 그대로 둔다.
+- 칸→파일: `tools/ep02_storyboard_status.json`의 pattern `EP02_v01_chatgpt_board_[0-9]*.png`와 count 4. 시트당 12칸(3×4). 칸 14~17의 파일은 `EP02_v01_chatgpt_board_02.png`. `ep02_storyboard_status.json`·각본·콘티 md·그림은 수정하지 않았다.
+- 2화 콘티 칸에만 `구 각본(영수증) — 재생성 대기` 배지. 나머지 44칸에는 배지가 없다. 1화 컷 보드와 3화 단톡 링크는 그대로.
+- 실행: `python3 tools/build_series_board.py`. 출력 `ep02 panels 48 stale [14, 15, 16, 17]`.
+- 미리보기: `board_web/series.html#EP02/images`.
+- 검증: 헤드리스 크롬. 2화 상단 next 문구 교체, 배지 4개(칸 14·15·16·17, 시트 2, 파일명 위와 같음), 다른 칸 배지 없음. 390px에서 scrollWidth 390. 1화 활성 42·필터·자막 토글 유지. 3화 이야기 탭의 단톡 링크 유지. 이 클론에는 2화 콘티 PNG가 없어 시트 그림은 비어 있고, 칸 슬롯과 파일명만 나온다. 생성 API 없음. 이미지 커밋 없음.
+- **발행 필요**. Artifact는 Claude.
