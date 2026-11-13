@@ -163,11 +163,12 @@ Claude가 초안을 써 두었다(미실행, 수정 허용: 이 파일과 `tools
 - `match_line`: whisper 줄이 `"   0.00-10.00  텍스트"`라 `split("  ",1)`이 들여쓰기에서 잘려 시간 접두가 남음 → 정규식으로 시간 구간 제거. 이 버그로 23카드 중 1장만 통과로 나왔었다(수정 후 29카드 20 통과).
 - 발행됨: https://claude.ai/artifact/XUJQa2zH8Q8o1DixuAW3TK . 작업 24(animatic_set_clip)가 다음 우선순위.
 
-### 작업 28 — 보드 「콘티·스틸」 탭을 1화/2화로 나누기 (2026-11-09 사용자: "콘티 1화 2화 나눠줘야지 저렇게 계속 이어서 보게할거야?") — **최우선**
+### 작업 30 — 보드 「콘티·스틸」 탭을 1화/2화로 나누기 (2026-11-09 사용자: "콘티 1화 2화 나눠줘야지 저렇게 계속 이어서 보게할거야?")
+> 번호 정리(2026-11-12): 예전 「작업 28」이었으나 3화 단톡 UI가 28번을 쓰므로 **30**으로 옮김. 상태 TODO.
 `tools/build_cast_board.py`의 #conti 뷰 안에서 1화 섹션(#conti1)과 2화 섹션(#conti2)이 위아래로 이어져 보인다. 「각본」 탭에 있는 1화/2화 선택 버튼(.ep-pick .ep)과 같은 방식으로 콘티 탭 상단에 **「1화 콘티」「2화 콘티」 토글**을 두고 한 번에 한 화만 보이게 한다. 기본 1화. 선택 상태는 localStorage(try/catch)에 기억. 콘티 판정 저장(conti_checks)과 집계(paintSec)는 그대로 동작해야 한다. 검증: 빌드 → 탭 전환 시 반대쪽 섹션이 hidden, 판정 OK 클릭이 여전히 db에 기록. **빌드 후 처리 보고에 "발행 필요"라고 적을 것** — 커서는 발행 권한이 없고 Claude가 Artifact로 올린다(2화 콘티가 안 보였던 원인).
 
 ### 작업 26 — 미처리 작업 17·18·19·20 상태 확인
-처리 보고에 17~20 항목이 없다. 끝낸 것이 있으면 보고 절에 적고, 안 한 것은 21~25보다 **뒤**로 미룬다(우선순위: 28 → 24 → 21 → 22 → 25 → 23 → 17~20).
+처리 보고에 17~20 항목이 없다. 끝낸 것이 있으면 보고 절에 적고, 안 한 것은 뒤쪽으로 미룬다(우선순위: **29 → 31 → 24 → 21 → 22 → 25 → 23 → 30 → 17~20**. 작업 28 3화 단톡 UI는 DONE).
 
 ## 처리 보고` 절에 작업 번호·바꾼 파일·검증 방법을 적는다. 5분 주기로 이 파일을 다시 읽고 아직 보고되지 않은 작업만 한다.
 
@@ -235,7 +236,7 @@ Claude가 초안을 써 두었다(미실행, 수정 허용: 이 파일과 `tools
 
 ## 작업 28 — 새 3화 공동 저녁 단톡방 UI (2026-11-12, Codex → Cursor)
 
-- 상태: DONE (Cursor 로컬 초안). 검수·커밋은 Codex.
+- 상태: DONE (main `d1b037a` 반영). 콘티 1화/2화 탭 분리는 **작업 30** 참고.
 - 사용자 추가 수정: 한국어가 서툰 입주민들의 소통 수단이 단톡방이다. 메뉴 제안·조건·합의를 채팅으로 표현. 대면 대화로 바꾸자는 장면 삭제, 최신 각본과 UI 브리프의 메뉴 메시지 순서를 사용한다.
 - 최신 결말 수정: 수만 온다는 소식에 소고기에서 김밥으로 변경하되 주문 전. 수만 도착 후 「내가 온다고 해서?」. 뒤늦게 할머니가 양손 가득 소고기를 사 와 같이 굽는다. 식사 중 수만 「나 오늘 오길 잘했네.」 / 리아는 할머니 앞에 접시를 놓으며 직접 「할머니, 같이 드세요.」라고 말함(채팅에서 제외)로 채팅 상태 교체. 옛 후반 메시지는 UI 브리프의 제외 목록 참조. 할머니 소고기는 등장 전 미리 보여 주지 않는다. 이미 UI 구현에 착수했으면 최신 각본으로 데이터 갱신 후 보고한다.
 - 기준: `tools/EP03_CHAT_UI_BRIEF.md`, 각본 `00_MASTER_ASSETS/WORLD_PLANNING/EP03_SCRIPT_v03.md`. 옛 가스비 3화 v02는 사용하지 않는다.
@@ -248,13 +249,26 @@ Claude가 초안을 써 두었다(미실행, 수정 허용: 이 파일과 `tools
 
 ## 작업 29 — 1화 기존 콘티·이미지·영상 컷별 정리 (2026-11-12, 사용자 요청 / 최우선)
 
-- 상태: TODO. 구현 Cursor / 검수 Codex. 새 콘티는 그록봇 담당이므로 생성하지 않는다.
+- 상태: DONE (Cursor 로컬). 검수·커밋은 Codex. 새 콘티는 그록봇 담당이므로 생성하지 않았다.
 - 상세 설계와 검증 기준: `tools/EP01_CUT_BOARD_PLAN.md`를 반드시 읽고 작업.
 - 회차 작업실 1화에 컷별 대사·지문 + 콘티 / 대사 자막을 얹은 이미지 미리보기 / 기존 영상 3열 비교 구현. 없는 결과는 빈칸, 여러 테이크는 선택 비교.
 - 기준은 `01_EPISODES/EP01R/edit/v06/animatic_E1_v062.json`의 현재 src·clip. 현재 45행/42 활성 컷. 원본은 읽기 전용. 콘티 구버전 컷 번호와 현재 컷 번호를 숫자로 자동 매칭하지 않는다.
 - 선택 클립 보존(컷3 take01), `_old` 테이크 제외, UI mp4 구분, 미연결 표시. `ep01_cut_asset_map.json`에 근거·누락 저장.
 - 범위: build_series_board.py, series_board.html, 필요시 새 series_cut_assets.py, 새 ep01_cut_asset_map.json, 새 EP01_CUT_BOARD_REPORT.md, 로컬 board_web 산출물. 기존 3화 UI 작업 보존.
 - 이미지·영상·Higgsfield 생성 호출 및 원본/DB 수정 금지. 커서 완료 보고 후 Codex가 검수·커밋·푸시.
+
+
+## 작업 31 — 1화 각본·콘티 감사 결과를 컷 보드에 반영 (2026-11-13, Claude 감사 → Cursor 구현 / 검수 Codex)
+
+- 상태: TODO. 우선순위: 29 다음, 24보다 먼저.
+- 기준 문서: `tools/SCRIPT_CONTI_AUDIT.md` (커밋 `743e1ad`). 2.4 컷별 판정표와 3.3 반영 안내를 그대로 따른다. 판정을 바꾸지 않는다.
+- 새 파일: `tools/ep01_conti_links.json` — 감사 3.3의 JSON 초안을 그대로 저장(키 = 컷 번호 문자열, 값 = status / path / basis). 상태값은 기존 `linked / reference / unlinked`에 `check`(확인 필요) 하나 추가.
+- 수정 1: `tools/series_cut_assets.py` — `conti_for_frame()` 호출 전에 `ep01_conti_links.json`을 먼저 읽어 해당 컷이 있으면 그 값을 쓴다(`basis` 앞에 `SCRIPT_CONTI_AUDIT 2.4` 표기 유지). 없으면 기존 로직. 기존 로직이 unlinked를 내면 reason을 둘로 나눈다: `kind=ui` → 「UI, 콘티 대상 아님」, 그 외 → 「그림 콘티 없음(prompts_E1 텍스트만)」. skip 컷(20·21)도 links 파일에 있으면 conti를 채우되 skip 표시는 유지. linked/reference/check 모두 `preview`(series_cuts/img 썸네일)를 만든다. stats에 `conti_check` 추가.
+- 수정 2: `tools/build_series_board.py`, `tools/series_board.html` — 콘티 열에 상태 배지 4종(연결 / 참고만 / 확인 필요 / 없음)과 `basis` 한 줄 표시. 「콘티 미연결」 필터는 unlinked+check로. 다른 탭·3화 UI·2화 콘티 탭은 건드리지 않는다.
+- 하지 말 것: `00_MASTER_ASSETS/WORLD_PLANNING/*` 각본, `animatic_E1_v062.json`, `frames/**`, `video/**`, `board_web/series_sources/*` 수정 금지. 감사 3.2의 사용자 판단 항목(1막 준호 위치, 컷 30 지문, 컷 15 프레임, 컷 11·13 네팔어 적용, 콘티 21컷 신규 생성, 보드 각본 사본 갱신)은 커서가 결정하지 않는다. 생성 API 호출 금지.
+- 실행: `python3 tools/series_cut_assets.py` → `python3 tools/build_series_board.py`.
+- 검증(활성 42컷 기준): linked 6(2·11·13·14·15·19) · reference 8(8·9·10·12·22·23·42·45) · check 1(30) · unlinked 27(그중 UI 6 = 6·16·25·28·36·38). skip 20·21은 linked 표시이되 활성 집계에서 제외. 썸네일 15개 생성(링크된 콘티 13개 파일 + 중복 경로는 1개). `_old` 제외·컷3 take01 기본값·영상 symlink 등 작업 29 검증 항목이 그대로 통과해야 한다.
+- 보고: 처리 보고에 바꾼 파일·stats 숫자·미리보기 경로를 적고 **「발행 필요」**를 적는다(발행은 Claude).
 
 
 ## 처리 보고
@@ -353,6 +367,15 @@ The man speaks in natural native Korean, low, calm and quiet, polite and unhurri
 ```
 
 8번과 10번의 FORMAT MODE, CAMERA, PERFORMANCE, AUDIO, POSITIVE LOCKS는 3번과 같은 골격이다. 8·10 PERFORMANCE에는 준호 고정 문장(코미디언, 목소리를 높이지 않음)이 들어가 있다.
+
+### 작업 29 — 1화 컷별 콘티·이미지·영상 보드 (2026-11-12)
+- 번호 정리: 예전 「콘티 1화/2화 토글」작업 28 → **작업 30**. 3화 단톡 UI는 작업 28(DONE). 본 항목이 작업 29.
+- 새 파일: `tools/series_cut_assets.py`, `tools/ep01_cut_asset_map.json`, `tools/EP01_CUT_BOARD_REPORT.md`.
+- 수정: `tools/build_series_board.py`, `tools/series_board.html`, `tools/CURSOR_TASKS.md`.
+- 실행: `python3 tools/series_cut_assets.py` → `python3 tools/build_series_board.py`.
+- 미리보기: `board_web/series.html#EP01/images` (컷별 3열: 콘티 / 이미지+자막 / 영상).
+- 검증: 활성 42·skip 20·21·29, 영상 선택 클립 존재 13, 컷3 default_take=1(take01), `_old` 제외, C번호 자동매칭 없음(콘티 linked 0 · 전부 근거 없어 unlinked — 의도), 영상은 symlink(`series_cuts/vid/`)로 중복 복사 없음. 생성 API·원본 JSON 수정 없음. 바이너리 커밋 안 함.
+- **발행 필요**: 로컬 `board_web`만. Artifact는 Claude.
 
 ### 작업 28 — 3화 단톡 UI (2026-11-12)
 - Codex 검수 보완: `tools/EP03_CHAT_UI_REVIEW.md` 참조. 로컬 흰 확성기 공지 바·render_ui_v2 계열 스택·하오 새 로컬 아바타 보존. `--screens` 공용 폰 목업 6장 렌더. 390px 넘침 수정 및 상태 이동/8아바타 브라우저 검사 통과. 원격 `116ca3d`를 그대로 덮어쓰지 않고 로컬 보완본을 main에 코드로 반영. 이미지 파일은 로컬 전용.
