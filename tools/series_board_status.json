@@ -3,18 +3,38 @@
   "type": "SITCOM",
   "title": "연남동 3층집 회차 작업실",
   "status": "REVIEW",
-  "lastCompleted": "보드 상단 회차 바로가기 추가 · 전체/1~3화 이동 · 현재 회차 표시 및 작업 탭 유지",
-  "nextTask": "3화 단톡 UI 검수 · 원문 번역 검수 · 콘티 준비",
+  "lastCompleted": "작업 31·32: 1화 감사 콘티 반영 · 2화 칸14~17 stale 배지",
+  "nextTask": "그록봇 시트2 14~17 재생성 후 flags 삭제 · 작업 30(콘티 1/2화 토글) · EP01 컷30 사용자 확정",
   "publishDate": null,
   "platforms": [
     "Local"
   ],
-  "updatedBy": "Codex",
-  "updatedAt": "2026-11-12T08:55:32.749918+00:00",
+  "updatedBy": "Cursor",
+  "updatedAt": "2026-11-13T09:05:14.132685+00:00",
   "assets": {
     "page": "board_web/series.html",
+    "reviews": "tools/series_board_reviews.json",
+    "ep01_cuts": "tools/ep01_cut_asset_map.json",
+    "ep02_cuts": "tools/ep02_cut_asset_map.json",
+    "ep01_conti_links": "tools/ep01_conti_links.json",
+    "script_conti_audit": "tools/SCRIPT_CONTI_AUDIT.md",
     "ep03_chat": "board_web/ep03_chat/index.html",
-    "generator": "tools/build_series_board.py"
+    "generator": "tools/build_series_board.py",
+    "server": "tools/serve_series_board.py"
   },
-  "videoGenerationAuthorized": false
+  "videoGenerationAuthorized": false,
+  "scriptContiAudit": true,
+  "contiStats": {
+    "EP01": {
+      "linked": 6,
+      "reference": 8,
+      "check": 1,
+      "unlinked": 27
+    },
+    "EP02": {
+      "linked": 42,
+      "with_image": 5,
+      "with_video": 0
+    }
+  }
 }

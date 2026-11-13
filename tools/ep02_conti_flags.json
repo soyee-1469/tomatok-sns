@@ -1,0 +1,22 @@
+{
+  "source": "CURSOR_TASKS 작업 32 — USB 각본 vs 구 영수증 콘티 그림",
+  "note": "그록봇이 EP02_v01_chatgpt_board_02.png 칸 14~17을 재생성하면 해당 키를 이 파일에서 삭제한다.",
+  "cuts": {
+    "14": {
+      "status": "stale",
+      "note": "구 각본(영수증) — 재생성 대기"
+    },
+    "15": {
+      "status": "stale",
+      "note": "구 각본(영수증) — 재생성 대기"
+    },
+    "16": {
+      "status": "stale",
+      "note": "구 각본(영수증) — 재생성 대기"
+    },
+    "17": {
+      "status": "stale",
+      "note": "구 각본(영수증) — 재생성 대기"
+    }
+  }
+}

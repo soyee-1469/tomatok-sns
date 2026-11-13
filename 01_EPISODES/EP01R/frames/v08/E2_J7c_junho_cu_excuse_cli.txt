@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-13T08:59:22.604716Z",
+    "display_name": "Nano Banana Pro",
+    "id": "e3139e4b-08ff-4b8f-80a2-878732a83155",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261113_085922_e3139e4b-08ff-4b8f-80a2-878732a83155_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "1ef7d125-d094-4a8e-b9e7-8c7d77422432",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/1ef7d125-d094-4a8e-b9e7-8c7d77422432_resize.jpg"
+        },
+        {
+          "id": "a3bf5d97-853e-4584-b604-95e63b4558d8",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/a3bf5d97-853e-4584-b604-95e63b4558d8.png"
+        },
+        {
+          "id": "ea4b0b47-975a-4f70-a68c-2916d312ba98",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/ea4b0b47-975a-4f70-a68c-2916d312ba98.png"
+        }
+      ],
+      "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, evening living room, natural skin, no beauty filter, no text, no watermark. PLATE LOCK: reference image 1 is the empty set plate shot from the camera position of this cut; keep its sofa (caramel corduroy, back to the arched window), lamps, string lights and colors exactly; only add the people described. Tight close-up (85mm): the face of the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard) fills the frame from the top of the head to the chest, seated at the RIGHT end of the caramel corduroy sofa, head turned toward camera-left, eyes locked on a point to camera-LEFT at her eye level (she is off-screen there), never at the lens, eyebrows raised, one hand half-lifted beside his face as if explaining, slight stubborn pout, warm lamp light, background very blurred. Situation: 리아가 케이블 한 박스를 버리라고 하자 변명한다. Emotion: 억지 논리, 본인은 진지. Reference images 2 and 3 are the exact face and outfit to keep; identity must match exactly. Candid mid-action, like a frame grabbed from video. Nobody looks at the camera.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261113_085922_e3139e4b-08ff-4b8f-80a2-878732a83155.png",
+    "status": "completed"
+  }
+]
+--stderr--

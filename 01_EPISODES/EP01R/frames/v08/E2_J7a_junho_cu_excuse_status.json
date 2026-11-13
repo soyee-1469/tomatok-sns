@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-13T08:49:41.365723Z",
+  "display_name": "Nano Banana Pro",
+  "id": "d9da5cf0-f87d-4863-ad50-c89bf01c463c",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261113_084941_d9da5cf0-f87d-4863-ad50-c89bf01c463c_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "a4e5c60e-6545-4169-9ed3-7f5d9f7a0f77",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/a4e5c60e-6545-4169-9ed3-7f5d9f7a0f77.png"
+    },
+    {
+     "id": "9b18bc5d-a564-4d7c-8e5e-966bc64078aa",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/9b18bc5d-a564-4d7c-8e5e-966bc64078aa_resize.jpg"
+    },
+    {
+     "id": "8d28c072-05a4-4b51-8ab9-e9950838f10e",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/8d28c072-05a4-4b51-8ab9-e9950838f10e.png"
+    }
+   ],
+   "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the people in the reference images and the exact room from the references. Tight close-up (85mm): the face of the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard, grey trousers) fills the frame, seated at the right end of the sofa, turned toward the left (toward her, off-screen), dazed, mouth slightly open, eyes wide, warm lamp light, background very blurred. KEEP this exact staging, camera distance, furniture placement and room; change only what follows. Situation: 리아가 '정체 모를 케이블 한 박스'를 버리라고 하자 준호가 변명한다. Emotion: 억지 논리, 본인은 진지. Action: eyes toward her (camera-left), eyebrows raised, one hand half-lifted beside his face as if explaining, slight stubborn pout. The first reference image is the exact face to keep; identity must match it exactly. Candid mid-action, like a frame grabbed from video.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261113_084941_d9da5cf0-f87d-4863-ad50-c89bf01c463c.png",
+  "status": "completed"
+ }
+]

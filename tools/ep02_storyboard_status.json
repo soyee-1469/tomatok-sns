@@ -3,18 +3,21 @@
   "type": "SITCOM",
   "title": "싸움은 모국어로 — 새 콘티 연결",
   "status": "REVIEW",
-  "lastCompleted": "보드의 구 EP02_sofa 콘티 경로를 별도 2화 폴더의 새 ChatGPT 콘티 4장으로 변경",
-  "nextTask": "사용자 새 콘티 검토. 시트2 컷14~17을 현 USB 각본과 대조하여 그록봇 수정 필요",
+  "lastCompleted": "2026-11-13 시트2 칸 14~17 텍스트를 각본 v08(USB)로 수정, 그림 재생성 필요 표기",
+  "nextTask": "그록봇: 시트2 칸 14~17 USB 장면으로 콘티 그림 재생성(EP02_v01_chatgpt_board_02.png) → 분할 → 보드 반영. 그 외 칸 사용자 검토",
   "publishDate": null,
   "platforms": [
     "Local"
   ],
-  "updatedBy": "Codex",
-  "updatedAt": "2026-11-12T18:26:42.823548+09:00",
+  "updatedBy": "Claude Code",
+  "updatedAt": "2026-11-13T08:30:33.025066+00:00",
   "assets": {
     "directory": "01_EPISODES/EP02_싸움은모국어로/STORYBOARD",
-    "pattern": "EP02_v01_chatgpt_board_[0-9]*.png",
-    "count": 4,
+    "sheets": "EP02_v01_chatgpt_board_01~04.png",
+    "panels": "EP02_v01_01_C01.png … EP02_v01_42_C42.png",
+    "index": "EP02_v01_INDEX.md",
+    "pattern": "EP02_v01_[0-9]*.png",
+    "count": 42,
     "board": "board_web/series.html#EP02/images",
     "script": "00_MASTER_ASSETS/WORLD_PLANNING/EP02_SCRIPT_v08.md"
   },

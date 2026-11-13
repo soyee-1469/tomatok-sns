@@ -1,0 +1,92 @@
+{
+  "source": "tools/SCRIPT_CONTI_AUDIT.md §3.3",
+  "updatedAt": "2026-11-13",
+  "note": "C번호=컷번호 자동매칭 금지. 감사 보고서에서 인물·장소·행동으로 확인된 연결만 수록.",
+  "cuts": {
+    "2": {
+      "status": "linked",
+      "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_cut02_board.png",
+      "basis": "SCRIPT_CONTI_AUDIT 2.4 — 준호·소파·타이핑/삭제·시선 폰 일치"
+    },
+    "8": {
+      "status": "reference",
+      "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_05_C08.png",
+      "basis": "같은 비트(line_prev, frame_old J3) — 콘티 준호 아일랜드, 현재 소파"
+    },
+    "9": {
+      "status": "reference",
+      "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_06_C09.png",
+      "basis": "같은 비트(frame_old B5) — 현재 지문 OTS 아님"
+    },
+    "10": {
+      "status": "reference",
+      "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_07_C10.png",
+      "basis": "같은 비트(line_prev) — 콘티 준호 아일랜드, 현재 소파"
+    },
+    "11": {
+      "status": "linked",
+      "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_08_C11.png",
+      "basis": "수만·카운터 뒤·피클 뚜껑·고개 안 듦 일치(frame_old F4). composition only"
+    },
+    "12": {
+      "status": "reference",
+      "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_09_C12.png",
+      "basis": "같은 비트 — 콘티 준호 아일랜드, 현재 소파 CU"
+    },
+    "13": {
+      "status": "linked",
+      "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_10_C13.png",
+      "basis": "수만 CU·씹기·시선 준호 일치(frame_old S2). composition only"
+    },
+    "14": {
+      "status": "linked",
+      "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_11_C14.png",
+      "basis": "준호 CU·폰 불빛·시선 폰 일치(frame_prev J4). composition only(얼굴 디테일)"
+    },
+    "15": {
+      "status": "linked",
+      "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_12_C15.png",
+      "basis": "리아·수만 둘 다 프레임 밖 준호 봄 일치(frame_old T5는 C15에서 생성)"
+    },
+    "19": {
+      "status": "linked",
+      "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_01_C07a.png",
+      "basis": "준호 소파 반쯤 일어남·폰·시선 아일랜드 일치(src_old J2)"
+    },
+    "20": {
+      "status": "linked",
+      "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_02_C07b.png",
+      "basis": "cuts_island.json J2b_r1.sketch (skip 컷)"
+    },
+    "21": {
+      "status": "linked",
+      "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_03_C08a.png",
+      "basis": "cuts_island.json B13.sketch; 끝 프레임 C08b (skip 컷)"
+    },
+    "22": {
+      "status": "reference",
+      "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_04_C08b.png",
+      "basis": "준호 진입·리아 고개 듦 구도만. 콘티에 리아 대사·폰 없음"
+    },
+    "23": {
+      "status": "reference",
+      "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_05_C08.png",
+      "basis": "3인 배치 일치 — 콘티 준호 자기 폰, 현재 리아 폰 함께 봄"
+    },
+    "30": {
+      "status": "check",
+      "path": null,
+      "basis": "지문 충돌: '다시 쇼파로 돌아간다' vs 무대 '소파로 돌아가지 않는다'"
+    },
+    "42": {
+      "status": "reference",
+      "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_06_C09.png",
+      "basis": "OTS 리아→준호 구도 일치, 콘티 의도는 1막 대사"
+    },
+    "45": {
+      "status": "reference",
+      "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_10_C13.png",
+      "basis": "수만 CU 샷 사이즈만. 행동·소품 다름"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-13T08:59:22.347571Z",
+    "display_name": "Nano Banana Pro",
+    "id": "1432535f-31e9-49d3-84db-927442f5a9cb",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261113_085922_1432535f-31e9-49d3-84db-927442f5a9cb_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "b3317cc6-abb5-4b9e-a9fd-a731e0bb75de",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/b3317cc6-abb5-4b9e-a9fd-a731e0bb75de_resize.jpg"
+        },
+        {
+          "id": "1e8f7473-8ed6-4167-a294-546f07db5879",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/1e8f7473-8ed6-4167-a294-546f07db5879.png"
+        },
+        {
+          "id": "d0fa12b1-19fa-4242-b662-3dda0f1d2e81",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/d0fa12b1-19fa-4242-b662-3dda0f1d2e81.png"
+        }
+      ],
+      "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, evening living room, natural skin, no beauty filter, no text, no watermark. PLATE LOCK: reference image 1 is the empty set plate shot from the camera position of this cut; keep its sofa (caramel corduroy, back to the arched window), lamps, string lights and colors exactly; only add the people described. Tight close-up (85mm): the face of the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses) fills the frame from the top of the head to the chest, seated at the LEFT end of the caramel corduroy sofa, head turned toward camera-right, eyes locked on a point to camera-RIGHT at his eye level (he is off-screen there), never at the lens, flat deadpan expression, one eyebrow slightly raised, lips pressed, warm lamp light, background very blurred. Situation: '오빠, 그거 8년째 쉬고 있어.' 고장 난 게임기 변명을 듣고 어이없음. Emotion: 담담한 어이없음. Reference images 2 and 3 are the exact face and outfit to keep; identity must match exactly. Candid mid-action, like a frame grabbed from video. Nobody looks at the camera.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261113_085922_1432535f-31e9-49d3-84db-927442f5a9cb.png",
+    "status": "completed"
+  }
+]
+--stderr--

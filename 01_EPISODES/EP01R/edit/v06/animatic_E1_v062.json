@@ -20,12 +20,12 @@
  },
  {
   "n": 2,
-  "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/R02c_junho_cu_typing_crop.png",
-  "dur": 2.5,
+  "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/edit/v06/ui/U01b_SCREEN_TAIL.mp4",
+  "dur": 2.62,
   "line": "(인사말 여섯 번째 고치는 중)",
   "who": "",
-  "kind": "still",
-  "frame": "R02c_junho_cu_typing_crop",
+  "kind": "ui",
+  "frame": "U01b_SCREEN_TAIL",
   "situation": "여자친구 가족방 22명에 초대됐고 인사말을 여섯 번째 고치는 중",
   "emotion": "긴장, 공들임, 촐싹",
   "action": "폰을 두 손으로 쥐고 썼다 지웠다, 머리 긁기",
@@ -35,7 +35,11 @@
   "frame_old": "J1b_junho_deleting_r2_r1",
   "frame_prev": "R02_junho_sofa_deleting_center",
   "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/R02_junho_sofa_deleting_center.png",
-  "dir_override": "입력창에 쓴 인사말을 또 지운다. 여섯 번째. 느낌표를 하나 붙였다 둘 붙였다 지운다 (준호 CU)"
+  "dir_override": "입력창에 쓴 인사말을 또 지운다. 여섯 번째. 느낌표를 하나 붙였다 둘 붙였다 지운다 (준호 CU)",
+  "src_old_still": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/R02c_junho_cu_typing_crop.png",
+  "frame_old_still": "R02c_junho_cu_typing_crop",
+  "dur_old": 2.5,
+  "ui_note": "2026-11-13 사용자 승인: 준호 CU(J4) 0.8s → 앱 화면 풀프레임(베젤 없음), 거의 다 쓴 상태에서 끝부분 입력→🙇→전송. 손 미노출."
  },
  {
   "n": 3,
@@ -244,7 +248,8 @@
   "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_11/EP01R_E1_11_kling3_take01.mp4",
   "clip_dur": 3.04,
   "dur_still_backup": 2.2,
-  "clip_note": "11-06 take01 (사용자 선택 2026-11-09)"
+  "clip_note": "11-06 take01 (사용자 선택 2026-11-09)",
+  "line_note": "각본 v07.2: 네팔어 중얼(뜻: 우리 집도 그래. 읽기만 해.). 자막·클립 처리 미정, take01은 한국어 발화라 재생성 대상"
  },
  {
   "n": 12,
@@ -273,7 +278,7 @@
   "n": 13,
   "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/S_suman_island_look_cu.png",
   "dur": 3.04,
-  "line": "우리 엄마는 전화로만 하셔.. 새벽 4시에..",
+  "line": "우리 엄마… 전화만 해요. 새벽… 네 시.",
   "who": "수만",
   "kind": "still",
   "frame": "S_suman_island_look_cu",
@@ -293,7 +298,8 @@
   "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_13/EP01R_E1_13_kling3_take01.mp4",
   "clip_dur": 3.04,
   "dur_still_backup": 5.4,
-  "clip_note": "11-06 take01 (사용자 선택 2026-11-09)"
+  "clip_note": "11-06 take01 (사용자 선택 2026-11-09) | 각본 v07.2: 서툰 토막 한국어로 대사 변경 → take01은 옛 대사, 재생성 대상",
+  "line_old_v071": "우리 엄마는 전화로만 하셔.. 새벽 4시에.."
  },
  {
   "n": 14,
@@ -340,16 +346,19 @@
  },
  {
   "n": 16,
-  "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/edit/v06/ui/U11_WEATHER.mp4",
-  "dur": 2.5,
+  "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/edit/v06/ui/U11b_SCREEN_TAIL.mp4",
+  "dur": 2.42,
   "line": "",
   "who": "",
   "kind": "ui",
-  "frame": "U11_WEATHER",
+  "frame": "U11b_SCREEN_TAIL",
   "situation": "준호가 날씨 메시지를 보낸다. 21→0, 또 없음",
   "emotion": "체념",
   "action": "UI: 입력·전송·숫자",
-  "n_old": 18
+  "n_old": 18,
+  "src_old_mockup": "/Users/ymy/project/sns/01_EPISODES/EP01R/edit/v06/ui/U11_WEATHER.mp4",
+  "dur_old": 2.5,
+  "ui_note": "2026-11-13: 앱 화면 풀프레임, 거의 다 쓴 상태에서 끝부분 입력→전송→21→0."
  },
  {
   "n": 17,

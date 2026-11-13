@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-13T08:59:19.74189Z",
+    "display_name": "Nano Banana Pro",
+    "id": "212b61de-b574-4234-970b-21a4ff1e6f18",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261113_085919_212b61de-b574-4234-970b-21a4ff1e6f18_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "4e136f47-d78d-4233-937a-9a5767fa50c2",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/4e136f47-d78d-4233-937a-9a5767fa50c2_resize.jpg"
+        },
+        {
+          "id": "f1acfc42-a418-4fe7-b45c-60ad7b3baadb",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/f1acfc42-a418-4fe7-b45c-60ad7b3baadb.png"
+        },
+        {
+          "id": "94deb389-4dfe-49f1-a40c-54609c069177",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/94deb389-4dfe-49f1-a40c-54609c069177.png"
+        }
+      ],
+      "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, evening living room, natural skin, no beauty filter, no text, no watermark. PLATE LOCK: reference image 1 is the empty set plate shot from the camera position of this cut; keep its sofa (caramel corduroy, back to the arched window), lamps, string lights and colors exactly; only add the people described. Tight close-up (85mm): the face of the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard) fills the frame from the top of the head to the chest, seated at the RIGHT end of the caramel corduroy sofa, leaning slightly toward camera-left, eyes locked on a point to camera-LEFT at her eye level (she is off-screen there), never at the lens, eyes wide, mouth slightly open, flustered and comic, holding his phone up at chest height with the screen toward camera-left, warm lamp light, background very blurred. Situation: 리아가 갑자기 빠른 영어로 쏟아내자 준호가 패닉, 토마톡 마이크를 켜려 한다. Emotion: 패닉, 그래도 작전. Reference images 2 and 3 are the exact face and outfit to keep; identity must match exactly. Candid mid-action, like a frame grabbed from video. Nobody looks at the camera.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261113_085919_212b61de-b574-4234-970b-21a4ff1e6f18.png",
+    "status": "completed"
+  }
+]
+--stderr--

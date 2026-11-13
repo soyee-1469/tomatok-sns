@@ -1,0 +1,33 @@
+{
+  "source": "2026-11-13 Nano Banana Pro stills in frames/v08/E2_* — prompt Situation matched to EP02_STORYBOARD_v01 cut text",
+  "note": "이미지(기준 스틸) 열 연결. 콘티 스케치 칸과는 별개. 영수증→USB 콘티 재생성은 ep02_conti_flags 유지.",
+  "cuts": {
+    "8": {
+      "path": "01_EPISODES/EP01R/frames/v08/E2_J7c_junho_cu_excuse.png",
+      "basis": "E2_J7c prompt: 케이블 한 박스 변명 → 스토리보드 컷8",
+      "alts": [
+        "01_EPISODES/EP01R/frames/v08/E2_J7b_junho_cu_excuse_plate.png",
+        "01_EPISODES/EP01R/frames/v08/E2_J7a_junho_cu_excuse.png"
+      ]
+    },
+    "11": {
+      "path": "01_EPISODES/EP01R/frames/v08/E2_B6a_ria_cu_deadpan.png",
+      "basis": "E2_B6a prompt: '오빠, 그거 8년째 쉬고 있어.' → 스토리보드 컷11"
+    },
+    "16": {
+      "path": "01_EPISODES/EP01R/frames/v08/E2_T13_usb_box_twoshot_lv1.png",
+      "basis": "E2_T13(+lv1) prompt: '열어 보면 되잖아.' USB 상자 → 스토리보드 컷16",
+      "alts": [
+        "01_EPISODES/EP01R/frames/v08/E2_T13_usb_box_twoshot.png"
+      ]
+    },
+    "18": {
+      "path": "01_EPISODES/EP01R/frames/v08/E2_B6b_ria_cu_before_burst.png",
+      "basis": "E2_B6b prompt: 영어 폭발 직전 → 스토리보드 컷18"
+    },
+    "19": {
+      "path": "01_EPISODES/EP01R/frames/v08/E2_J14_junho_cu_panic.png",
+      "basis": "E2_J14 prompt: 영어 듣고 패닉·토마톡 마이크 → 스토리보드 컷19"
+    }
+  }
+}

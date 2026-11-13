@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-13T07:56:58.488230+00:00",
+  "episodes": {
+    "EP01": {
+      "cuts": {
+        "3": {
+          "take": 1,
+          "status": "approved",
+          "memo": "립싱크 재확인",
+          "assignee": "cursor",
+          "updatedAt": "2026-11-13T07:37:25.302Z"
+        },
+        "7": {
+          "take": 1,
+          "status": "approved",
+          "memo": "OK",
+          "assignee": "claude",
+          "updatedAt": "2026-11-13T06:15:01.063757+00:00"
+        },
+        "4": {
+          "take": 1,
+          "status": "approved",
+          "memo": "",
+          "assignee": "unassigned",
+          "updatedAt": "2026-11-13T07:38:11.179Z"
+        },
+        "5": {
+          "take": 1,
+          "status": "approved",
+          "memo": "",
+          "assignee": "unassigned",
+          "updatedAt": "2026-11-13T07:38:49.579Z"
+        },
+        "6": {
+          "take": null,
+          "status": "approved",
+          "memo": "",
+          "assignee": "unassigned",
+          "updatedAt": "2026-11-13T07:39:05.822Z"
+        },
+        "8": {
+          "take": 1,
+          "status": "needs_fix",
+          "memo": "아무도 답변을 안해주셔~ 로 다시 생성 현재 아무도 답분을 안.. 까지만 들리고 끊김\n",
+          "assignee": "claude",
+          "updatedAt": "2026-11-13T07:40:13.755Z"
+        },
+        "9": {
+          "take": 2,
+          "status": "approved",
+          "memo": "",
+          "assignee": "unassigned",
+          "updatedAt": "2026-11-13T07:40:46.899Z"
+        },
+        "10": {
+          "take": 1,
+          "status": "needs_fix",
+          "memo": "조금더 들뜬 목소리로 변경",
+          "assignee": "claude",
+          "updatedAt": "2026-11-13T07:41:19.839Z"
+        },
+        "11": {
+          "take": 1,
+          "status": "needs_fix",
+          "memo": "네팔어로 중얼거리는 장면으로 변경",
+          "assignee": "claude",
+          "updatedAt": "2026-11-13T07:41:57.859Z"
+        },
+        "12": {
+          "take": null,
+          "status": "approved",
+          "memo": "",
+          "assignee": "unassigned",
+          "updatedAt": "2026-11-13T07:42:06.345Z"
+        },
+        "13": {
+          "take": 1,
+          "status": "pending",
+          "memo": "",
+          "assignee": "unassigned",
+          "updatedAt": "2026-11-13T07:42:20.374Z"
+        },
+        "14": {
+          "take": 1,
+          "status": "needs_fix",
+          "memo": "다른거 그대로 손에 핸드폰 쥔걸로 생성, 지금은 갑자기 쿠션이 생김",
+          "assignee": "claude",
+          "updatedAt": "2026-11-13T07:44:05.487Z"
+        },
+        "16": {
+          "take": null,
+          "status": "approved",
+          "memo": "",
+          "assignee": "unassigned",
+          "updatedAt": "2026-11-13T07:44:23.607Z"
+        },
+        "19": {
+          "take": null,
+          "status": "approved",
+          "memo": "",
+          "assignee": "unassigned",
+          "updatedAt": "2026-11-13T07:44:49.556Z"
+        },
+        "22": {
+          "take": null,
+          "status": "approved",
+          "memo": "",
+          "assignee": "unassigned",
+          "updatedAt": "2026-11-13T07:44:58.153Z"
+        },
+        "25": {
+          "take": null,
+          "status": "approved",
+          "memo": "",
+          "assignee": "unassigned",
+          "updatedAt": "2026-11-13T07:45:11.429Z"
+        },
+        "28": {
+          "take": null,
+          "status": "approved",
+          "memo": "",
+          "assignee": "unassigned",
+          "updatedAt": "2026-11-13T07:45:23.125Z"
+        },
+        "36": {
+          "take": null,
+          "status": "approved",
+          "memo": "",
+          "assignee": "unassigned",
+          "updatedAt": "2026-11-13T07:45:32.801Z"
+        },
+        "38": {
+          "take": null,
+          "status": "approved",
+          "memo": "",
+          "assignee": "unassigned",
+          "updatedAt": "2026-11-13T07:45:47.905Z"
+        },
+        "1": {
+          "take": null,
+          "status": "needs_fix",
+          "memo": "",
+          "assignee": "claude",
+          "updatedAt": "2026-11-13T07:56:58.233Z"
+        }
+      }
+    }
+  }
+}

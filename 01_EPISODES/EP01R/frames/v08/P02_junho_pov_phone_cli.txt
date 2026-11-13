@@ -1,0 +1,35 @@
+[
+  {
+    "created_at": "2026-11-13T08:12:54.885396Z",
+    "display_name": "Nano Banana Pro",
+    "id": "06a04f73-da90-4b71-80f0-67fbd221469b",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261113_081254_06a04f73-da90-4b71-80f0-67fbd221469b_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "567c5eeb-456a-4318-8ba1-6e3faa256508",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/567c5eeb-456a-4318-8ba1-6e3faa256508.png"
+        },
+        {
+          "id": "6fc83f13-e1bf-40da-bd90-3aace2f322a1",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/6fc83f13-e1bf-40da-bd90-3aace2f322a1_resize.jpg"
+        }
+      ],
+      "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, evening living room (warm lamps, string lights), natural skin, no beauty filter, no text, no watermark. POV shot from the man's own eyes, looking slightly down: his two hands hold a black smartphone in portrait orientation at the lower-middle of the frame, thumbs resting at the bottom edge of the screen, the phone filling about two thirds of the frame width, screen tilted slightly toward the viewer. The phone screen is a plain blank pure white rectangle with nothing on it. Beyond the phone, out of focus: his grey trousers and knees, the caramel corduroy sofa seat, and the round oak coffee table with a small vase of baby's breath and a tomato-red tray. The sleeves are a navy overshirt with cuffed sleeves, a slim wristwatch on the left wrist, exactly as in the outfit reference. Soft white glow from the phone screen on the fingers, warm lamp light from above. Candid, like a frame grabbed from video. No face, no other people.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261113_081254_06a04f73-da90-4b71-80f0-67fbd221469b.png",
+    "status": "completed"
+  }
+]
+--stderr--

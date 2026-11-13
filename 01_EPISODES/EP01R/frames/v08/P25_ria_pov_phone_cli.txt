@@ -1,0 +1,35 @@
+[
+  {
+    "created_at": "2026-11-13T08:48:48.791029Z",
+    "display_name": "Nano Banana Pro",
+    "id": "7edd6dd3-b6a4-4d50-b14c-ce4cb56a0a40",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261113_084848_7edd6dd3-b6a4-4d50-b14c-ce4cb56a0a40_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "dc47b03c-f36d-4ee6-ba01-91954fca334b",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/dc47b03c-f36d-4ee6-ba01-91954fca334b.png"
+        },
+        {
+          "id": "bfd6e766-2389-4877-938a-eb3a0acd72ee",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/bfd6e766-2389-4877-938a-eb3a0acd72ee_resize.jpg"
+        }
+      ],
+      "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, evening kitchen island area (warm copper pendant lights above, string lights), natural skin, no beauty filter, no text, no watermark. POV shot from the woman's own eyes, looking slightly down: her two hands hold a black smartphone in portrait orientation at the lower-middle of the frame, thumbs resting on the side bezels, NOT covering the screen; the phone fills about two thirds of the frame width, screen tilted slightly toward the viewer. The phone screen is a plain blank pure white rectangle with nothing on it. Beyond the phone, out of focus: the white marble island counter edge with a ceramic mug, and her dark-indigo jeans on the black bar stool. The sleeves are a white poplin shirt with cuffed sleeves, small gold ring on one finger, natural short nails, exactly as in the outfit reference. Soft white glow from the phone screen on the fingers, warm pendant light from above. Candid, like a frame grabbed from video. No face, no other people.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261113_084848_7edd6dd3-b6a4-4d50-b14c-ce4cb56a0a40.png",
+    "status": "completed"
+  }
+]
+--stderr--

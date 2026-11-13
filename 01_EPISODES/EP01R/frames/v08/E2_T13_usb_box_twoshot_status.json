@@ -1,0 +1,49 @@
+[
+ {
+  "created_at": "2026-11-13T09:00:27.073267Z",
+  "display_name": "Nano Banana Pro",
+  "id": "773e64f0-f7a9-45aa-a693-0988a31a8f30",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261113_090027_773e64f0-f7a9-45aa-a693-0988a31a8f30_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "52819441-4dac-44b4-96fb-9fe043c17b44",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/52819441-4dac-44b4-96fb-9fe043c17b44_resize.jpg"
+    },
+    {
+     "id": "e4bffcec-a618-4064-ad05-801e436ac1a2",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/e4bffcec-a618-4064-ad05-801e436ac1a2.png"
+    },
+    {
+     "id": "740f3ead-4bcd-4b7c-9e61-aaaf9d682823",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/740f3ead-4bcd-4b7c-9e61-aaaf9d682823.png"
+    },
+    {
+     "id": "88f5b490-ab37-410f-b7c7-88c4cf9da089",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/88f5b490-ab37-410f-b7c7-88c4cf9da089.png"
+    },
+    {
+     "id": "e289d270-c521-4a92-b5ae-b9c1f3c3af73",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/e289d270-c521-4a92-b5ae-b9c1f3c3af73.png"
+    }
+   ],
+   "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, evening living room, natural skin, no beauty filter, no text, no watermark. PLATE LOCK: reference image 1 is the empty set plate shot from the camera position of this cut; keep its sofa (caramel corduroy, back to the arched window), lamps, string lights and colors exactly; only add the people described. Medium two-shot from the sofa front: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses) sits at the LEFT end of the caramel corduroy sofa and the man (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt open over a white T-shirt, company ID badge on a navy lanyard) at the RIGHT end, one cushion between them. On his lap an old open cardboard box overflowing with dozens of old USB sticks of different colors and sizes; he has just lifted the lid and looks at her; she leans toward the box and stares down into it, lips parted in a small exasperated sigh. Both faces clearly visible, warm lamp light. Situation: '열어 보면 되잖아.' 상자를 열자 USB가 잔뜩. Emotion: 리아 한숨, 준호 머쓱. Reference images 2-5 are the exact faces and outfits to keep; identity must match exactly. Candid mid-action, like a frame grabbed from video. Nobody looks at the camera.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261113_090027_773e64f0-f7a9-45aa-a693-0988a31a8f30.png",
+  "status": "completed"
+ }
+]
