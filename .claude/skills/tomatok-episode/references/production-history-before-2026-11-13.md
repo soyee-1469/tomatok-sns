@@ -1,0 +1,220 @@
+# 과거 제작 기록 — 현재 실행 규칙 아님
+
+2026-11-13 통합 전 작업 중이던 스킬을 원문 보존했다. 실패 분석·기존 도구와 결정 근거 조회용이다. 아래의 3초 고정·클로즈업 강제·끝 프레임 잠금·무표정 제한·무조건 재사용·프로모션 및 가격은 현재 지시로 실행하지 않는다. 현재 규칙은 ../SKILL.md를 따른다.
+
+---
+name: tomatok-episode
+description: TOMATOK 숏폼 시트콤 에피소드 제작 절차와 도구 사용법 (Higgsfield(Kling 3.0) std 생성, whisper 대사 검사, UI 합성, 자막, BGM, 아웃트로). EP02 이후 새 에피소드를 만들거나 EP01 재편집을 이어갈 때 먼저 읽는다.
+---
+
+# TOMATOK 에피소드 제작 스킬
+
+기준 문서: `00_MASTER_ASSETS/VIDEO_MAKING_METHOD/EP01_RETRO_2026-10-29.md` (불필요했던 것 / 도구 목록), `00_MASTER_ASSETS/05_STYLE/subtitle_and_line_rule.md` (대사 감정 표기), `00_MASTER_ASSETS/05_STYLE/screenplay_rule.md` (각본 먼저·대사 마지막, 2026-11-05), `00_MASTER_ASSETS/05_STYLE/sitcom_engine_rule.md` (고정 결함·소파·규칙·바깥사람·반응 샷·러닝 개그, 2026-11-05), `01_EPISODES/EP01/video/README.md` (버전 로그).
+
+## 각본 순서
+대사 표부터 쓰지 않는다. 컷마다 상황 → 감정 → 동작 → 이 컷이 표현하는 것 → 그 다음에만 대사를 쓴다. 대사는 그 동작이 이미 보여 준 한 가지를 말로 확인한다. 앞 컷의 감정에서 다음 컷이 이어지지 않으면 대사를 고치지 말고 상황을 다시 쓴다. 잠긴 대본은 이 순서로 다시 쓰지 않는다.
+
+## 철칙
+1. 생성 전 비용(크레딧)을 먼저 보고하고 승인받는다. pro 모드 금지, std 720p만.
+2. 대사 컷 3초, 한 컷 한 사람 한 줄. 동작은 무대사 3초로 따로. 투샷에 두 사람 대사 금지.
+3. 생성 직후 `python3 01_EPISODES/EP01/tools/transcribe.py <mp4>`로 대사·언어 확인. 틀리면 그 컷만 1회 재생성.
+4. 대사 줄에는 항상 (감정, 말투, 끝음↑/↓). 화면 자막은 글자만.
+5. 생성 스크립트는 프롬프트 파일 존재와 핵심 문구 포함을 확인하고, 비면 중단한다.
+6. 알림음은 띠링, 진동 금지, 연타 금지, Kling 클립에 음악 금지.
+7. **각본 먼저, 대사는 마지막** (2026-11-05 사용자 지침). 로그라인 → 상황 → 인물 카드(원하는 것/두려운 것/시작→끝 감정) → 비트 시트(사건→감정→행동) → 씬 본문(지문 위, 대사 아래) → 컷 리스트 순서. 컷 표에 대사부터 채우지 않는다. 대사 한 줄마다 원인·상대·목적·동작·결과 5문항에 답 못 하면 지문·UI·무대사 반응컷으로 바꾼다. 설명은 UI, 감정은 얼굴, 웃음은 반응. 규칙 `05_STYLE/screenplay_rule.md`, 적용본 `WORLD_PLANNING/EP01_SCREENPLAY_v05.md`.
+
+8. **전환 이미지 최대, 영상 최소** (2026-11-05 사용자 지침). 대사가 있는 컷만 Kling. 반응·전환·정지는 NB Pro 스틸(2cr) + 느린 줌(0cr). 인물마다 장면별 시작 프레임을 여러 장(미디엄·반쯤 일어남·CU·눈 ECU·OTS·투샷 변형) 미리 만들어 두고, 같은 인물의 연속 컷은 반드시 다른 프레임에서 시작한다. 라이브러리: `01_EPISODES/EP01R/frames/v07/INDEX.md`. **대본을 잠그기 전에는 Kling을 돌리지 않는다**(2026-11-05 교훈: 대본·톤 변경으로 클립 48개 폐기).
+
+## 에피소드 제작 순서 (2026-11-05 사용자 확정: 애니매틱 먼저, 영상은 마지막)
+1. 극본(상황·감정·동작→대사, `05_STYLE/screenplay_rule.md`) → 사용자 확정.
+1-b. 콘티(0cr): **에피소드(여러 씬)를 ChatGPT 회색 스케치 그리드 한 장**(3×4, 9:16 칸, 12칸 초과 시 2장째에 1장째 첨부)으로. 한 생성 안에서 인물·세트가 같이 그려져 칸끼리 일관성이 높다. 얼굴 없는 크로키 인체 + 코 방향 쐐기 + 시선 화살표(`looks at Ria`), 칸에 씬·컷 번호·카메라 축·인물 위치 표기 → 사용자 확인. 눈동자는 프롬프트 `eyes locked on` + QA 3으로. 스틸 생성 때 콘티 칸 + 세트 마스터 + 캐릭터 레퍼런스 3종 첨부, "composition and blocking only, render photoreal". 규칙 `05_STYLE/blocking_rule.md`.
+2. 시작 프레임 라이브러리: 비트마다 1장, 같은 인물 연속 컷은 다른 자세·앵글, '영상 캡처한 것처럼' 동작 중간. NB Pro 2cr 또는 ChatGPT-크롬 0cr. 11항목 QA.
+3. 스틸 애니매틱(0cr): `edit/animatic_*.py` — 스틸 느린 줌 + UI 인서트 + 대사 자막. 흐름·연출·길이·공감을 여기서 확정한다. 사용자 체크 전에는 Kling 금지.
+4. 테스트 클립 2개(톤 확인, whisper) → 대사 컷만 Kling std → 스틸·UI와 조립 → 자막·BGM·엔드카드.
+
+## 도구 (01_EPISODES/EP01 기준 경로, EP02는 복사해서 사용)
+- 생성: `python3 tools/hf_gen.py <out_base> kling3_0 --prompt "$P" --duration 3 --aspect_ratio 9:16 --mode std --sound on --start-image <upload-uuid|png>` (status json에서 medias url의 uuid 재사용 가능)
+- 이미지: `python3 tools/hf_gen.py <out_base> nano_banana_pro --prompt "..." --aspect_ratio 9:16 --resolution 2k --image-references <ref.png>`
+- 대사 검사: `python3 tools/transcribe.py a.mp4 b.mp4`
+- 점 제거: `python3 tools/remove_spot.py in.mp4 out.mp4 <x> <y> 7 22 [debug.png]`
+- UI: `python3 ui/real/render_ui_v2.py C0 C2 C4 C6` → `python3 ui/real/still_anim.py <still> <ui.mp4> <out.mp4> <dur> 'quad=[[..]]' grow_side=0 corner=95 fit=stretch occl_v=120 occl_s=120 zoom=1.05` (검은 폰: white=250 ... occl=display grow_top=0.115 grow_bot=0.127)
+- 조립: `python3 edit/assemble_vNN.py edit/out.mp4` (picks: 컷,파일,길이,음소거[,시작[,오디오필터[,비디오필터]]])
+- 자막: `python3 tools/subtitles_pass.py edit/out.mp4.json edit/out.mp4 edit/out_subs.mp4` (LINES 표 갱신)
+- 마무리 한 번에: `python3 tools/finish.py edit/assemble_vNN.py <tag> --bgm-vol 0.08 --open` (픽처락→자막→BGM 덕킹→템플릿→최종 export). BGM만 끄려면 --no-bgm, 템플릿 없이 --no-template
+- 아웃트로: `python3 00_MASTER_ASSETS/08_OUTRO/render_outro.py`
+- 크레딧: `higgsfield account status --json`, `account transactions --size 100 --cursor N --json`
+
+## 시작 프레임 QA 체크리스트 11항목 (2026-11-04 사용자 지시 — 생성한 이미지는 저장 전에 반드시 아래를 눈으로 확인)
+이미지 생성 결과는 **사람처럼 보이는지**보다 **말이 되는지**를 본다. 하나라도 걸리면 그 채팅은 버리고 새 채팅에서 다시 뽑는다(결과를 넣어 고치지 않는다).
+1. **몸이 다 있는가** — 머리·상반신 없이 다리만, 팔 하나만, 손가락 6개, 팔다리 추가. 의도적으로 얼굴을 빼는 건 몸통 시트(A)와 세트 컷 레퍼런스(B)뿐. 에피소드 시작 프레임은 대사 컷이면 얼굴, 소품 컷이어도 사람이 나오면 최소 상반신.
+2. **가구와 겹치지 않는가** — 사람이 테이블·아일랜드·소파 "안"에 서 있거나, 다리가 가구를 관통하거나, 앉았는데 의자가 없거나.
+3. **시선·몸 방향 (눈동자까지)** — 얼굴 방향이 아니라 **눈동자**가 어디를 보는지 확대해서 본다. 상대를 봐야 하는 컷에서 눈이 아래·옆 허공을 보면 폐기 (2026-11-04 F5 리아 사례: 얼굴은 준호 쪽인데 눈은 아래 딴 곳 → 사용자 지적). 대화 상대가 있는 컷은 서로를 보거나 같은 대상(폰 화면)을 본다. 등을 돌리고 말하는 구도 금지. 1인 컷도 컷 리스트의 시선 방향(카메라 왼쪽=소파, 오른쪽=아일랜드)과 맞는지. 프롬프트에 `eyes locked on ...`, `pupils toward ...`처럼 눈동자 대상을 명시한다.
+4. **소품 물리 + 손** — 손은 확대해서 본다: 손가락 5개, 엄지 위치, 손목이 꺾인 방향이 팔이 나온 쪽과 맞는지(뒤에서 뻗은 팔이면 손등·손목이 뒤에서 온 각도여야 함). 2026-11-04 F5 v02 사례: 리아가 뒤에서 든 폰인데 손 방향이 앞에서 쥔 것처럼 나옴 → 사용자 지적. **어느 팔인지**도 본다: 사람이 서 있는 위치에서 자연스럽게 나오는 쪽(카메라에 가까운 팔)이어야 하고, 반대팔이 가슴을 가로질러 나오면 폐기(2026-11-04 F5 v03 사례, 사용자 "반대팔로 보여줘야지"). 프롬프트에 어느 팔·어느 어깨 너머·엄지 위치·나머지 손 위치까지 쓴다. 폰 화면이 폰 뒷면에 있는지, 화면이 보이면 안 되는 컷에 화면이 켜져 있는지, 컵·병을 든 손이 반대로 잡고 있는지, 안경이 한쪽만 있는지, 사원증·가방끈이 몸을 뚫는지.
+5. **얼굴 일치** — 마스터 얼굴과 나란히 놓고 눈·코·입·머리선 대조. 다르면 폐기.
+6. **옷 일치** — 몸통 시트와 상의·하의·신발·소품(열쇠, 안경줄, 사원증) 대조.
+7. **세트 일치** — 거실 시그니처 7개(카라멜 소파, 머스타드 암체어, 토마토 트레이, 아치창+깃발, 마블 아일랜드+검은 스툴, 오크 계단+검은 난간, 헤링본 바닥) 중 프레임에 들어온 것이 맞는지. 현관은 빈 벽+문+매트 하나.
+8. **조명 일치** — 밤 장면이면 램프·줄조명 켜짐, 창 네이비, 햇빛 없음. 같은 신 안의 프레임끼리 톤이 같은지.
+9. **비율** — 9:16(941×1672 또는 1080×1920), 머리 위 여백, 발이 잘리지 않았는지(전신 컷).
+10. **소품 연속성** — 같은 신의 프레임끼리 소품이 같은지(담요·쿠션·컵·꽃). 체크무늬 담요처럼 매번 다르게 나오는 소품은 아예 빼거나(2026-11-04 준호 담요: F1·F2·F5 무늬 전부 달라 사용자 지적 → 담요 삭제) 색·무늬를 한 문장으로 못 박고 매 프롬프트에 똑같이 넣는다. 인물 손 위치도 컷 리스트에 고정.
+11. **글자·워터마크** — 포스터·화이트보드에 생성된 가짜 글자가 눈에 띄면 폐기.
+12번 항목 추가 아래 참조.
+12. **가구 배치·각도 고정**(소파가 창을 등지고 정면인지, 비스듬히 돌지 않았는지도 본다 — 2026-11-06) (2026-11-05 사용자 지적: 사진마다 식탁·소파가 옮겨 다님) — 모든 스틸 프롬프트에 `SET_LIVINGROOM/LAYOUT_plan_v01` 배치 문장(현관·계단 왼쪽 뒷벽, 아치창 뒷벽 중앙+그 앞에 식탁(소파 뒤 왼쪽), 소파 중앙 정면, 좌탁 앞, 암체어 오른쪽, 사이드보드 그 뒤, 아일랜드 맨 오른쪽)을 넣고 `LIVINGROOM_master_v14.png`를 참조로 붙인다(tools/process_checks.py LAYOUT). 배치가 다르면 폐기. 지문의 소리·자막 단어(띠링·자막·로고)는 프롬프트에서 걸러낸다(그림에 글자로 박힘).
+확인 결과는 컷 리스트 프레임 표에 `QA ✓` 또는 재생성 사유를 적는다. 보드에는 확인본(프레임 + 마스터 얼굴 나란히)을 같이 올린다.
+
+## 최종본 보관
+`99_FINAL/EPnn_제목_FINAL.mp4` 에피소드당 1개. 최종이 바뀌면 `finish.py ... --final`로 같은 이름에 덮어쓴다(이전 파일 삭제). 사용자 지침 2026-10-29.
+
+## 매치컷
+대사 컷 → 동작 컷 연결: `ffmpeg -sseof -0.05 -i line.mp4 -frames:v 1 last.png` 를 동작 컷의 start-image로. 컷 경계에서 크롭·줌 동일.
+
+## 철칙 9 — 페이스스왑 금지 (2026-11-05 사용자)
+- 생성 결과에 페이스스왑(inswapper)·얼굴 복원(GFPGAN)을 걸지 않는다. 얼굴이 틀어지면 **다시 생성**한다(마스터 얼굴 참조 2회 + 동일 인물 문장 + 밤/낮 세트 각도 참조, tools/process_checks.py).
+- tools/faceswap*.py, face_restore.py, face_pipeline.sh 는 보관만. 애니매틱 JSON의 src 는 항상 생성 원본(src_pre_fs 없음).
+- QA 13 (2026-11-05): **얼굴 선명도**. 얼굴 영역 라플라시안 분산이 같은 회차 평균의 절반 이하이거나 눈·안경테가 번지면 불합격 → 재생성. 뭉개진 얼굴은 어떤 컷에도 남기지 않는다.
+
+## 철칙 10 — 컷은 잘게 (2026-11-05 사용자: "컷을 잘게 쪼갤수록 잘 나온다")
+- 한 컷 = 한 문장(또는 한 동작). 영상 컷은 **3초 이하**(Kling std 3s = 6cr)로만 뽑고, 5초 컷은 쓰지 않는다. 긴 대사는 두 컷으로 나누고 사이에 듣는 사람 반응 컷(스틸 줌)을 끼운다.
+- 이유: 3초를 넘기면 얼굴·자세가 흐르고 말과 입이 어긋난다. 짧은 컷은 시작 프레임의 얼굴을 그대로 유지한다.
+- 애니매틱 JSON의 dur은 2.0~3.0s 기준. 3.5s 이상 컷은 분할 대상.
+
+## 철칙 11 — 이동 컷은 시작+끝 스틸, 인물 등장은 컷 분할 (2026-11-06 사용자 확정, `05_STYLE/blocking_rule.md`)
+- 이동 방향을 글로 지시하지 않는다. 끝 스틸(도착 위치)을 먼저 뽑아 Kling 시작+끝 프레임으로 넣고, 한 클립 이동은 두세 걸음·3초 이하.
+- 시작 프레임에 없는 인물은 통제 불가 → 컷을 나눈다. CUT A 퇴장(상대 프레임 밖) / CUT B 상대가 **이미 앉아 있는 스틸**에서 시작, 진입 / CUT C 투샷.
+- 카메라 축 고정: 왼쪽=소파, 오른쪽=아일랜드. 이동이 걸린 컷은 축을 바꾸지 않는다. 아일랜드가 프레임에 걸리면 리아가 보여야 한다.
+- 컷 리스트에 위치 상태표 열(카메라 축 / 준호 위치 / 리아 위치 / 가시성 / 소품 / 이동). "프레임 밖"≠"공간에 없음", 프롬프트에 `seated at the island, out of frame` 식으로 유지.
+- QA 14: 이동 컷 시작·끝 스틸이 같은 축인지, 상태표와 가시성이 맞는지 확인 후 Kling.
+
+## 콘티→스틸→보드 컨펌 루프 (2026-11-06 사용자 "이 방법 괜찮다" 확정)
+**한 줄 요약(사용자 말):** 지피티로 콘티 1장을 뽑는다 → 쪼개서 각 콘티별로 사진을 뽑는다 → 사진으로 영상을 만든다. 보드 컨펌은 콘티 단계와 사진 단계에서 각각 한 번.
+1. 대본 잠금 → ChatGPT(크롬) 콘티 그리드 한 장(3×4, 9:16, 얼굴 없음, 코 쐐기+시선 화살표, 칸에 컷번호·카메라 축). 프롬프트 템플릿 `05_STYLE/blocking_rule.md` 6절. 사용자가 원본을 내려받아 주면 `frames/vNN/STORYBOARD/EPnn_<scene>_board_01.png`에 저장, PIL로 3×4 분할.
+2. `frames/vNN/STORYBOARD/<scene>_STATE_TABLE.md`에 칸별 위치 상태표 + 기존 프레임 재사용/신규 판단. 신규만 생성.
+3. 스틸: `01_EPISODES/EP01R/tools/gen_conti_island.py` 패턴 — 참조 순서 [세트 플레이트(ROOM[plate]) → 콘티 칸 → 얼굴×2 → 몸통 → 와이드]. 프롬프트 = HEAD + PLATE LOCK + "STORYBOARD: reference image 2 is a pencil storyboard, use ONLY for composition/blocking/gaze, ignore style/faces" + 지문 + LAYOUT + LIGHTING + IDENTITY LOCK. NB Pro 2k 2cr/장, 병렬 Popen. 결과 webp→png.
+4. QA: 얼굴 대조 시트(마스터 옆에 크롭) + 소품 연속성(컵·신발·폰) + 시선. 걸리면 그 장만 _r1.
+5. 보드: `tools/build_cast_board.py` STILLS 리스트에 추가 → 콘티 섹션에 OK/재생성 버튼(conti_checks/E1-still-<파일>) → 새 썸네일만 files로 발행 → 사용자에게 컨펌 요청.
+5-b. **Kling 시작·끝 프레임 쌍**: 같은 플레이트에서 뽑고, 끝 프레임은 시작 프레임 png를 1번 참조로 넣어 FRAME LOCK(카메라·가구·기존 인물 고정, 변화만 서술). 2026-11-06 J9c 교훈(역방향 플레이트로 뽑아 카메라 불일치).
+6. 판정 읽기 `ArtifactData list conti_checks` → fix 메모를 지문에 반영해 재생성 → 보드 교체 → doc에 done/result 기록. OK가 다 모이면 그제야 Kling(시작+끝 프레임, 3s).
+- 확정 기준(2026-11-06): 준호 실내에서도 **검정 구두**(양말 아님). 리아 아일랜드 컵은 씬 내내 유지.
+- **고정 자리표, 1화**(2026-11-06 사용자): 준호 소파 가운데 쿠션, 리아 거실쪽 첫 스툴, 수만 카운터 뒤. 콘티 프롬프트·상태표·스틸 SEAT LOCK 세 곳에 똑같이 넣는다. 자리 마스터 스틸 1장을 소파 컷 1번 참조로. QA 15 자리 대조. `blocking_rule.md` 8절. 2화에는 이 문장을 넣지 않는다.
+- **씬 안 자리 고정**(2026-11-06 사용자 "말을 하고 있는데 왜 앞에 있다 뒤에 있다 해"): 대사 중인 인물은 그 씬의 모든 컷에서 같은 자리. 씬 기준 프레임 하나를 FRAME LOCK으로 전 컷에 참조. 옛 지문의 '뒤에 흐릿' 같은 자리 변경 문구는 고친다. `blocking_rule.md` 10절.
+- **세트 소품 고정표**(2026-11-06 사용자 "아일랜드 위 꽃이 없다가 생겼어"): 플레이트에 있는 게 전부. 표면별 소품을 글로 세어 SET DRESSING LOCK 문장으로 넣고 QA 16에서 개수 대조. `blocking_rule.md` 9절.
+- **콘티 참조 주의**(2026-11-06 J2b r1 소파 비틀림): 콘티 이미지는 가구 각도까지 끌고 간다. 1인·단순 컷은 콘티 이미지 빼고 플레이트+글만. 콘티 생성 시 세트 마스터·플레이트를 ChatGPT에 첨부해 가구 각도부터 맞춘다. 소파 컷 프롬프트에 'sofa faces camera squarely, back to the arched window, not rotated'. `blocking_rule.md` 7절.
+
+## 철칙 12 — 커서 위임 (2026-11-06 사용자: "작업하다가 커서한테 시키면 좋을 거는 정리해서 알려줘")
+- 작업 중 크레딧이 안 드는 반복·도구화·렌더·QA 일(분할기, 생성기 공용화, 배치 QA, 보드 탭, UI 렌더, ffmpeg 조립)이 보이면 **그 자리에서** `tools/CURSOR_TASKS.md`에 번호 붙여 적고, 답장에서 "커서에 넘긴 것" 목록으로 사용자에게 알린다.
+- 지시서 형식: 목적 → 입력/출력 → 방법 → 검증 세트(기대값) → 건드려도 되는 파일. 생성 API 호출 금지, `--dry`만.
+- 커서는 5분마다 이 파일을 읽고 `## 처리 보고` 절에 결과를 적는다. 세션 시작 시 그 절을 먼저 읽고 검수·발행한다.
+
+## 앵커 감사 6항목 (2026-11-06 하루에 6번 재잠금한 교훈 — 종속 컷 전에 반드시)
+플레이트·앵커 후보 1장을 **마스터 와이드와 나란히 놓고** 아래를 대조한 뒤에만 종속 컷을 뽑는다. 하나라도 틀리면 플레이트 → 앵커 → 종속 컷 순서로 고친다. 규칙 원문 `00_MASTER_ASSETS/05_STYLE/blocking_rule.md`.
+1. 자리(§8 고정 자리표: 준호 소파 가운데, 리아 아일랜드 끝 스툴, 수만 카운터 뒤)
+2. 소품(§9 세트 소품 고정표: 상판 = 레몬 볼 + 꽃병, 컵 없음)
+3. 복장(§12: 바디 시트로 잠근다. 수만 = 흰 재킷 + 검정 bib 앞치마, 수건 없음 = BODY_SUMAN_v04)
+4. 가구 폭(§13 FURNITURE SIZE LOCK: 아일랜드 2.4×1.0 m)
+5. 키·높이(§13 보충 HEIGHT LOCK: 상판 0.9 m = 서 있는 사람 벨트, 가슴이면 폐기)
+6. 벽 순서(§14 WALL ORDER: 계단 → 창(벤치·깃발) → 액자 벽(라디오) → 주방. 플레이트끼리 같은 벽이 같게)
+7. 가구 디자인(§15 FURNITURE DESIGN LOCK: 식탁 재질·옆면, 스툴 좌판 모양, 창 모양. 플레이트 재생성은 반드시 마스터 + 직전 플레이트 둘 다 참조)
+- FRAME LOCK 컷에 카메라 변경 문구("closer", "close-up") 금지 → 콜라주/초상화 유발(§11). 사이즈 변주는 2k 크롭(0cr).
+- 같은 자리·같은 카메라 구간(1화 22~45 같은)은 **마스터 1장 + 크롭 4종(리아 CU·준호 CU·수만 CU·투샷) + 동작 큰 컷만 별도 스틸**. 컷마다 스틸을 뽑지 않는다(2026-11-06 사용자 확정).
+
+## 2화 이후 콘티 작업 참고 위치 (커서용)
+- 절차: 이 파일 「콘티→스틸→보드 컨펌 루프」 + 「제작순서 1-b」.
+- 2화 자리는 1화와 따로다. `blocking_rule.md` §8 「2화」 문장만 쓴다. 준호·리아는 소파 양 끝, 가운데 쿠션이 국경. 순덕은 칸이 말할 때만 현관으로. 수만은 이 화에 없다.
+- 콘티에 넣는 문장: `Fixed positions in every panel of episode 2: Junho and Ria sit on OPPOSITE ENDS of the sofa; one cushion stays in the MIDDLE as a border between them. Do not sit Junho on the center cushion. Do not move Ria to the island. Sundeok stays outside until a panel says she enters, carrying banchan containers. Suman is not in this episode. Do not move anyone unless the panel says so.`
+- ChatGPT 콘티 프롬프트 템플릿: `05_STYLE/blocking_rule.md` §5·§6 (3×4 그리드, 얼굴 없음, 코 쐐기+시선 화살표, 세트 마스터 첨부 §7). 자리 문장은 1화면 §8, 2화면 위의 2화 문장.
+- 콘티 분할: `tools/split_storyboard.py`. 콘티 프롬프트: `tools/make_storyboard_prompts.py --ep 2` 는 2화 자리 문장만 넣는다. `--ep 1` 이 1화 문장이다.
+- 스틸 생성기 패턴: `01_EPISODES/EP01R/tools/gen_conti_island.py`(HEAD/PLATE/FRAME/SEAT/DRESS/HEIGHT/SIZE/END/FRONT/AP 문장).
+
+## 철칙 13 — 크레딧 소모 제한 (2026-11-06 사용자: "힉스필드 소모가 너무 빨리 돼". 그날 278cr 중 ≈200cr가 앵커 오류 재잠금)
+1. 순서 고정: **플레이트 → 앵커 1장 → 7항목 감사 → 보드 컨펌 → 종속 컷**. 컨펌 전에 종속 컷을 뽑지 않는다.
+2. 같은 자리·같은 카메라 구간은 마스터 1장 + 2k 크롭 + 동작 큰 컷만. 컷마다 스틸 금지.
+3. 0cr 먼저: 소품·복장 = GPT 편집(원본과 대조 후 채택), 사이즈 = 크롭, 시선·작은 동작 = Kling.
+4. 세션 상한 40cr. 넘기기 전에 사용 내역을 보고하고 "진행"을 받는다. 생성 전 장수×단가를 항상 먼저 적는다.
+5. 재시도 1회. 두 번 실패하면 프롬프트를 더 고치지 말고 앵커·플레이트로 돌아간다.
+6. 갱신 직후 7일 무제한(Nano Banana Pro) 창에 스틸을 몰아 뽑는다. 그 전에 콘티·앵커를 준비.
+7. Kling은 대사 1줄 테스트(6cr) 후 일괄. std 3s, 컷당 1테이크.
+- 비용 기록: `frames/vNN/STORYBOARD/*_STATE_TABLE.md`에 생성마다 장수·크레딧·누계를 적는다.
+
+## 철칙 14 — 대사 클립은 얼굴이 보이는 거리에서만 (2026-11-06 사용자 "그걸 왜 안 알려줬어")
+- Kling std는 720p. 시작 스틸에서 얼굴 폭이 250px(2k 기준) 미만이면 영상에서 얼굴이 뭉개져 다른 사람이 된다. 전신 3인샷(얼굴 110px)으로 대사 12컷 176cr를 쓰고 알았다.
+- 규칙: 대사 클립 시작 스틸 = 상반신·CU(얼굴 ≥250px) + 동일인 점수 ≥0.45(§17). 전신·와이드는 대사 없는 등장·동작·엔딩에만.
+- 일괄 생성 전 `face` 점수와 얼굴 폭을 표로 보고하고 "진행"을 받는다.
+- 도구(face_qa, clip_qa)가 경고하면 "측정이 불안정"이라고 넘기지 않는다. 경고를 먼저 믿고 한 장으로 검증한다.
+
+## 샷 사이즈 기본값 (2026-11-06 사용자: "투샷까지는 얼굴 크기를 정해 놓자, 상반신 컷이 많다") → `blocking_rule.md` §18
+- 대사 = 1인 단독 상반신(얼굴 ≥400px/1080 기준), 리액션 = 단독 CU(≥500px), 같이 보는 순간만 투샷(각 ≥260px), 3인샷·전신은 대사 없는 컷만.
+- 단독 스틸은 `face_first=True`(얼굴 참조 1·2번)로 뽑고 2k 얼굴 중심 크롭 → `tools/face_score.py` ≥0.45 통과한 것만 Kling 시작 프레임.
+- 인수인계 문서: `01_EPISODES/EP01R/HANDOFF_2026-11-06.md` (월요일 시작점).
+
+## 철칙 15 — 묶음 생성 전 1컷 사용자 체크 (2026-11-09, 사용자: "한번에 돌리기전에 체크받아봐야하는거아니야?")
+- 프롬프트 틀·지문 방식·VOICE·시작 스틸 세트 중 **하나라도 바뀌면**, 묶음을 돌리기 전에 **그 방식으로 1컷만 뽑아 보드에 올리고 사용자 OK를 받는다.** OK 전에는 2컷 이상 동시 생성 금지.
+- 자동 QA(얼굴 점수·단일 샷·whisper·음량)는 **연기와 립싱크를 못 잰다.** QA 통과 = "기술적으로 쓸 수 있음"일 뿐, "연기 OK"는 사용자 눈과 귀로만 판정한다. 보고할 때 둘을 구분해서 적는다.
+- 교훈: 2026-11-09 "표정 최소·입은 필요한 만큼만·고개 몇 도" 제한을 전 컷 기본값으로 넣고 확인 없이 29컷을 돌려 약 60cr어치 연기가 죽음(+와이드 컷 38cr 손실). 카메라 고정은 end_image(--lockend)로 풀고, 얼굴 연기는 컷별 level 1~3으로 조절한다.
+
+## 철칙 16 — 에피소드 비용 규율 (2026-11-09, 사용자: "출혈이 너무 큰 거 아니야?" → 승인)
+배경: 1화에 약 2,000cr(10-29 ≈1,160 / 11-06 ≈516 / 11-09 ≈250)을 쓰고도 대사 클립은 11-06 테이크 13개뿐. 이상치는 300cr 안팎(대사 25컷×6cr×1.5 + 스틸 40장×2cr). 원인은 매체가 아니라 진행 방식: 확정 전 생성, 묶음 먼저 확인 나중, 숫자 QA로 "됐다" 판단, 라이브러리 미사용.
+1. **에피소드당 상한 300cr.** 넘으면 생성을 멈추고 사용자에게 보고·승인 후 재개. 세션 상한 40cr(철칙 13)은 그대로.
+2. **영상 컷은 에피소드당 12컷 안팎.** 펀치라인·핵심 반응만 영상. 나머지 대사는 스틸(라이브러리 프레임) + 느린 줌 + 음성(Kling 클립 음성 또는 TTS) + 자막.
+3. **컷당 최대 2테이크.** 두 번 실패하면 그 컷은 스틸로 대체하고 넘어간다. 세 번째 시도는 사용자 명시 승인이 있을 때만.
+4. **생성 전 한 줄 근거.** "이 컷이 꼭 영상이어야 하는 이유"를 상태표에 한 줄로 적지 못하면 스틸로 간다.
+5. 라이브러리(frames/v07 INDEX, v08 G/H/J/B 시리즈)에 쓸 프레임이 있으면 새 스틸을 뽑지 않는다.
+6. 유료 무제한 패스(Seedance 2.0 1일 US$140 등)는 방식이 확정되고 대본·프레임·프롬프트가 전부 잠긴 뒤에만 고려. 14일 갱신 프로모션(7일 무제한) 여부를 먼저 확인.
+7. 다른 숏폼 AI 시트콤 제작 관행 참고: 영상 컷 10개 안팎, 반응은 스틸, 대본 잠금 후 생성, 컷당 1~2테이크, 립싱크는 자막이 커버.
+목표: 남은 1화 + 2화 합계 400~500cr 이내.
+
+## 철칙 17 — 대사 컷 기준 방식 = J4 방식 (2026-11-13 사용자: "이런 느낌으로 많이 뽑히면 좋겠어, 영상도 잘 뽑혔어")
+기준 표본: 스틸 `frames/v08/J4_junho_cu_r1.png`(NB Pro 2k, 11-05, 2cr) + 클립 `video/v08/E1_12·E1_14/*_kling3_take01.mp4`(Kling 3.0 std 3s, 11-06, 6cr). 둘 다 사용자 채택. 11-09 방식(S_ 초상화 스틸 + end_image 잠금 + 동작 제한)은 29컷 전부 불채택 → 쓰지 않는다. 현재 `gen_kling_lines.py`는 11-09 방식이므로 그대로 쓰지 말 것. 11-06 방식 원본은 `01_EPISODES/EP01R/tools/gen_kling_lines_bak_2026-11-09.py`.
+
+### A. 스틸 (NB Pro) — 짧게, 얼굴 하나, 배경 블러
+1. **100단어 안팎.** PLATE LOCK·세트 레이아웃·조명 고정 문단을 붙이지 않는다(11-09 S_ 계열이 그렇게 길어져 '말하는 머리'가 됐다). 방 구조를 서술하지 않으면 모델이 와이드로 빠질 이유가 없다.
+2. **샷을 숫자로 잠근다:** `Tight close-up (85mm)`, 머리 꼭대기~옷깃이 프레임을 채움, `slightly below eye level`.
+3. **조명이 연기 요소:** `soft phone-screen glow from below` + 따뜻한 램프·스트링 라이트. 아일랜드 인물은 `warm pendant light from above` 정도로만 바꾼다.
+4. **시선은 렌즈 옆:** `looking down just past the lens`. 카메라를 보지 않으면서 얼굴 정면이 나온다.
+5. **표정은 한 구절, 감정 단어 둘:** `mouth slightly open, worried and comic` 식.
+6. **배경 블러:** `background sofa and window very blurred`.
+7. **변형은 덧붙여서:** 원본 프롬프트 뒤에 `KEEP this exact staging … change only what follows. Situation: … Emotion: … Action: …`(한국어 가능)만 붙인다. 구도는 글로 잠그고 표정만 바꾼다. 참조는 얼굴 레퍼런스 우선(face_first).
+
+```
+Photo-real still for a Korean sitcom, 9:16 vertical, evening living room (warm lamps, string lights, arched window dark navy), fixed tripod camera at eye level, natural skin, no beauty filter, no text, no watermark. Keep the exact face, hair, glasses and clothes of the people in the reference images and the exact room from the references.
+Tight close-up (85mm): the face of [인물 설명] fills the frame from the top of the head to the collar, slightly below eye level, soft phone-screen glow from below, looking down just past the lens, mouth slightly open, [감정 두 단어], background sofa and window very blurred.
+KEEP this exact staging, camera distance, furniture placement and room; change only what follows. Situation: [상황]. Emotion: [감정]. Action: [동작]. The first reference images are the exact faces to keep; identity must match them exactly. Candid mid-action, like a frame grabbed from video.
+```
+
+### B. 클립 (Kling 3.0 std, 3s/5s) — 시작 스틸만, 동작은 시간대로 허용
+1. **start_image만. end_image(--lockend) 금지.** 끝 프레임을 잠그면 제자리로 돌아오는 부메랑 움직임이 된다(11-09 원인 ①).
+2. **SCENE CONTEXT 세 줄:** 카메라 축, 프레임 밖 요소 한 줄(`island off-frame to the right`), 인물 한 명과 자세. 방 전체 서술 금지.
+3. **FORMAT MODE / CAMERA는 고정 문구 그대로:** 단일 샷·컷 없음·줌/팬 없음·삼각대·`Do not flip`·`Modern Korean sitcom look`.
+4. **ACTION = 시간대 + 감정이 섞인 관찰 동작.** 예: `0.0-0.3s hold. 0.3-2.6s: relieved, as if that settles it, he says the line with a hopeful look toward the island (camera-right), a small nod. 2.6-3.0s: holds the look.` 고개 끄덕임·시선 이동·숨·삼킴을 **허용**한다. "눈·눈썹·입술만 움직이고 나머지는 정지" 같은 제한 문장은 넣지 않는다(11-09 원인 ③). 손·소품·프레임 밖 인물 언급은 여전히 금지(철칙 §19).
+5. **PERFORMANCE 한 줄:** `minimal facial movement, no grin, no exaggerated acting, nobody looks at the camera`.
+6. **DIALOGUE는 인물 음성 규칙 그대로:** 준호 = `low, calm and quiet, polite and unhurried, soft falling tone`; `lips move only as much as the words need, visible lip-sync`; 그 한 줄만 발화.
+7. **설정:** mode std, 720×1280, cfg_scale 0.5, enhance_prompt off, sound on. AUDIO는 냉장고 룸톤만(차임·진동·음악 없음).
+8. 시작 스틸은 A 방식 CU 또는 라이브러리 장면 프레임(frames/v07 INDEX, v08 G/H/J/B). 얼굴 점수 0.45 규칙 때문에 장면 프레임을 전부 빼지 않는다(11-09 원인 ④).
+
+```
+SCENE CONTEXT
+Evening living room, [sofa|island]-axis camera: [한 줄 세트 설명]; [프레임 밖 요소] is off-frame to the [left|right]. Exactly as in the start image: [인물 설명] in close-up [위치], [손·소품 상태].
+
+FORMAT MODE
+ONE single continuous locked-off shot for the entire clip: no cuts, no shot changes, no punch-in, no second angle; the framing at the last frame is identical to the first frame.
+
+CAMERA
+Fixed camera on a tripod, exactly the framing of the start image for the entire [3|5] seconds: no zoom, no pan, no dolly, no reframing, the camera never follows a person. Do not flip. Modern Korean sitcom look: clean, natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain, no over-sharpening.
+
+ACTION
+0.0-0.3s hold. 0.3-[끝-0.4]s: [감정 형용사], [he|she] says the line with [시선 대상·방향], [작은 동작 하나]; lips move only as much as the words need, mouth never opens wide. [끝-0.4]-[끝]s: holds the look[, swallows|, one slow blink].
+
+PERFORMANCE
+In character: [감정 두세 단어]; minimal facial movement, no grin. No exaggerated acting, nobody looks at the camera.
+
+AUDIO
+Quiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no door sounds.
+
+POSITIVE LOCKS
+Continue exactly from the start image. Everyone keeps the same face, hair, glasses, clothes and position through the whole take; nobody else enters the frame. Same room, furniture, lamps and colors. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+[인물] speaks natural native Korean, [음성 규칙], the sentence ending on a [soft falling|rising] tone: "[대사]". Only this one line and nothing else; no other words in any language. Natural, underplayed delivery: lips move only as much as the words need, the mouth never opens wide, no exaggerated expressions; visible lip-sync, mouth movements match every word. Nobody else speaks.
+```
+
+### C. 적용 절차
+- 철칙 15 그대로: 이 틀로 **1컷 먼저** → 보드 → 사용자 OK → 묶음. 생성기를 고칠 때는 11-06 bak 파일을 기준으로 되돌리고, 11-09에 추가된 end_image·동작 제한·방 전체 서술을 넣지 않는다.
+- 리아·수만 버전은 A 2~6번과 B 6번만 인물에 맞게 바꾼다(리아 = 제2언어 억양·조금 느림·단어 명료, 수만 = 네팔어 중얼은 별도 규칙 `05_STYLE/suman_language_rule.md`).

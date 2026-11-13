@@ -1,0 +1,22 @@
+{
+  "id": "TOMATOK_EPISODE_SKILL",
+  "type": "SKILL",
+  "title": "TOMATOK 영상 제작 지침 통합",
+  "status": "FINAL",
+  "lastCompleted": "스킬 통합·누락 보완 완료: J4 원문 예시와 EP01R 최종 파일명 필수 지정 반영",
+  "nextTask": "제작 시 현행 스킬 적용; 유료 생성은 별도 승인 범위 확인",
+  "publishDate": null,
+  "platforms": [
+    "Local"
+  ],
+  "updatedBy": "Codex",
+  "updatedAt": "2026-11-13T07:08:13.608294+00:00",
+  "assets": {
+    "skill": ".claude/skills/tomatok-episode/SKILL.md",
+    "history": ".claude/skills/tomatok-episode/references/production-history-before-2026-11-13.md",
+    "templates": ".claude/skills/tomatok-episode/references/j4-templates.md",
+    "operations": ".claude/skills/tomatok-episode/references/operations.md",
+    "frameQA": ".claude/skills/tomatok-episode/references/frame-qa.md"
+  },
+  "videoGenerationAuthorized": false
+}
