@@ -168,7 +168,7 @@ Claude가 초안을 써 두었다(미실행, 수정 허용: 이 파일과 `tools
 `tools/build_cast_board.py`의 #conti 뷰 안에서 1화 섹션(#conti1)과 2화 섹션(#conti2)이 위아래로 이어져 보인다. 「각본」 탭에 있는 1화/2화 선택 버튼(.ep-pick .ep)과 같은 방식으로 콘티 탭 상단에 **「1화 콘티」「2화 콘티」 토글**을 두고 한 번에 한 화만 보이게 한다. 기본 1화. 선택 상태는 localStorage(try/catch)에 기억. 콘티 판정 저장(conti_checks)과 집계(paintSec)는 그대로 동작해야 한다. 검증: 빌드 → 탭 전환 시 반대쪽 섹션이 hidden, 판정 OK 클릭이 여전히 db에 기록. **빌드 후 처리 보고에 "발행 필요"라고 적을 것** — 커서는 발행 권한이 없고 Claude가 Artifact로 올린다(2화 콘티가 안 보였던 원인).
 
 ### 작업 26 — 미처리 작업 17·18·19·20 상태 확인
-처리 보고에 17~20 항목이 없다. 끝낸 것이 있으면 보고 절에 적고, 안 한 것은 뒤쪽으로 미룬다(우선순위: **29 → 31 → 32 → 24 → 21 → 22 → 25 → 23 → 30 → 17~20**. 작업 28 3화 단톡 UI는 DONE).
+처리 보고에 17~20 항목이 없다. 끝낸 것이 있으면 보고 절에 적고, 안 한 것은 뒤쪽으로 미룬다(우선순위: **33 → 32 후속 → 24(보강 포함) → 21 → 22 → 25 → 23 → 30 → 17~20** (29·31·32 DONE). 작업 28 3화 단톡 UI는 DONE).
 
 ## 처리 보고` 절에 작업 번호·바꾼 파일·검증 방법을 적는다. 5분 주기로 이 파일을 다시 읽고 아직 보고되지 않은 작업만 한다.
 
@@ -260,7 +260,7 @@ Claude가 초안을 써 두었다(미실행, 수정 허용: 이 파일과 `tools
 
 ## 작업 31 — 1화 각본·콘티 감사 결과를 컷 보드에 반영 (2026-11-13, Claude 감사 → Cursor 구현 / 검수 Codex)
 
-- 상태: TODO. 우선순위: 29 다음, 24보다 먼저.
+- 상태: DONE (Cursor 로컬). 검수·발행은 Codex/Claude.
 - 기준 문서: `tools/SCRIPT_CONTI_AUDIT.md` (커밋 `743e1ad`). 2.4 컷별 판정표와 3.3 반영 안내를 그대로 따른다. 판정을 바꾸지 않는다.
 - 새 파일: `tools/ep01_conti_links.json` — 감사 3.3의 JSON 초안을 그대로 저장(키 = 컷 번호 문자열, 값 = status / path / basis). 상태값은 기존 `linked / reference / unlinked`에 `check`(확인 필요) 하나 추가.
 - 수정 1: `tools/series_cut_assets.py` — `conti_for_frame()` 호출 전에 `ep01_conti_links.json`을 먼저 읽어 해당 컷이 있으면 그 값을 쓴다(`basis` 앞에 `SCRIPT_CONTI_AUDIT 2.4` 표기 유지). 없으면 기존 로직. 기존 로직이 unlinked를 내면 reason을 둘로 나눈다: `kind=ui` → 「UI, 콘티 대상 아님」, 그 외 → 「그림 콘티 없음(prompts_E1 텍스트만)」. skip 컷(20·21)도 links 파일에 있으면 conti를 채우되 skip 표시는 유지. linked/reference/check 모두 `preview`(series_cuts/img 썸네일)를 만든다. stats에 `conti_check` 추가.
@@ -273,13 +273,29 @@ Claude가 초안을 써 두었다(미실행, 수정 허용: 이 파일과 `tools
 
 ## 작업 32 — 2화 보드 문구·콘티 칸 14~17 상태 반영 (2026-11-13, Claude → Cursor)
 
-- 상태: TODO. 우선순위: 31 다음.
+- 상태: DONE (Cursor 로컬). 검수·발행은 Codex/Claude.
 - 배경: 2화 각본 v08은 "여행 영수증"이 아니라 **옛날 USB 한 상자**다. 콘티 문서 `01_EPISODES/EP02_싸움은모국어로/STORYBOARD/EP02_STORYBOARD_v01.md` 칸 14~17 글은 11-13에 USB로 고쳤고, 그림(`EP02_v01_chatgpt_board_02.png` 칸 14~17)은 그록봇이 다시 뽑을 예정. 상태 파일 `tools/ep02_storyboard_status.json` 참조.
 - 수정 1: `tools/build_series_board.py` 19행 EP02의 `next` 문구 "시트2 영수증 장면 각본 대조" → "시트2 칸 14~17 USB 장면 콘티 재생성 대기(그록봇)". `stage`는 그대로.
 - 수정 2: 2화 콘티 칸 표시에서 시트 2의 칸 14·15·16·17에 「구 각본(영수증) — 재생성 대기」 배지를 붙인다. 칸 번호→파일 매핑은 기존 분할 결과(`ep02_storyboard_status.json`의 pattern·count)를 쓰고, 배지 대상은 코드에 하드코딩하지 말고 새 파일 `tools/ep02_conti_flags.json`(키 = 칸 번호 문자열, 값 = {"status":"stale","note":"구 각본 영수증 → USB"})에서 읽는다. 그록봇이 새 그림을 넣으면 그 파일에서 항목만 지우면 되게.
 - 하지 말 것: 각본·콘티 md·그림 파일·`ep02_storyboard_status.json` 수정 금지. 생성 API 호출 금지. 1화 탭·3화 UI 건드리지 않기.
 - 실행: `python3 tools/build_series_board.py`. 검증: 2화 상단 next 문구 교체, 칸 14~17에만 배지, 나머지 칸 변화 없음, 1화 컷 보드(작업 31 결과) 그대로.
 - 보고: 처리 보고에 바꾼 파일·검증 결과와 **「발행 필요」** 표기(발행은 Claude).
+
+
+## 작업 33 — UI 컷 「화면 풀프레임」 생성기 + 남은 UI 컷 초안 (2026-11-13, 사용자 승인 방식 / Claude → Cursor)
+
+- 상태: TODO. 우선순위: 32 다음, 24보다 먼저.
+- 배경: 1화 컷 2·16을 사용자가 승인한 방식으로 바꿨다. 폰 목업(베이지 배경) 대신 **앱 화면을 베젤 없이 풀프레임**, 양옆은 같은 화면을 블러·어둡게 해서 채움, "거의 다 쓴 상태에서 끝부분만 입력"되게 뒤쪽 구간만 사용, 마지막 프레임 0.5~0.6s 홀드. 컷 2는 앞에 준호 CU(J4) 0.8s를 붙였다. 결과 `01_EPISODES/EP01R/edit/v06/ui/U01b_SCREEN_TAIL.mp4`, `U11b_SCREEN_TAIL.mp4`. 정지된 손 POV는 타이핑 컷에 쓰지 않는다(사용자 불채택).
+- 새 파일 `tools/ui_screen_cut.py`: 입력 = 원본 UI mp4(`ui/v06/EP01R_<ID>.mp4`, 830×1800 30fps), `--ss` 시작초, `--t` 길이, `--hold` 홀드초(기본 0.5), `--lead <png> <sec>` 선택(앞에 붙일 스틸, 1.02배 아주 약한 푸시), 출력 1080×1920 24fps. ffmpeg 필터는 Claude가 쓴 것 그대로: 배경 `scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:5,eq=brightness=-0.15`, 전경 `scale=-2:1920`, overlay 중앙, `tpad=stop_mode=clone`. ffmpeg 바이너리는 공통 규칙 경로.
+- 초안 생성(0cr, 검토용, JSON은 건드리지 않음): 컷 6 `U05_READ0`(숫자 21→0 구간만, 앞 0.3s), 컷 25 `U18b_DMLIST`(스크롤 뒤쪽), 컷 28 `U20b_MAMA_DM`(마지막 메시지 도착 구간), 컷 36 `U33b_BEA_REPLIES`(답장 날아가는 구간), 컷 38 `U25b_MAMA_EAT`(차임 1 구간) → `edit/ui_test/E1_<n>_screen_draft.mp4`. 길이는 현재 JSON `dur` ±0.5s 안에서.
+- 하지 말 것: 애니매틱 JSON·원본 UI mp4·스틸 수정 금지. 생성 API 금지. 폰 목업 셸(`ui_compose.sh`) 경로는 그대로 둔다(다른 용도).
+- 검증: 5개 mp4 재생, 글자 잘림 없음(헤더·입력창 보임), 24fps·1080×1920, 길이 보고. 처리 보고에 컷별 사용 구간(ss/t)을 적는다. 사용자가 보드에서 고른 뒤 Claude가 JSON에 연결한다.
+
+## 작업 24 보강 (2026-11-13) — 보드 승인 → 클립 연결
+- `tools/animatic_set_clip.py`에 `--from-reviews tools/series_board_reviews.json` 옵션 추가: `episodes.EP01.cuts[n].status == "approved"`인 컷의 `take`를 `video/v08/E1_<n>/EP01R_E1_<n>_kling3_take<NN>.mp4`로 바꿔 `clip`에 넣는다. take가 없으면 `video/v08/board_default_takes.json`의 default. `needs_fix`·`pending`은 건드리지 않고 목록만 출력. 쓰기 전 `--dry`로 변경 표를 보여 주고, 실제 쓰기는 백업 후. 보드 담당 칸은 숨김 처리됐으니(사용자 11-13) assignee는 무시한다.
+
+## 작업 32 후속 (2026-11-13)
+- `tools/ep02_conti_flags.json`: 17은 현 그림 사용 가능(리아 고개 듦 + 준호 시선 회피가 새 지문과 맞음) → 키 삭제. 24·30은 `status: "recommend"`, note "상자 동작 추가 권장(준호가 USB 상자를 등 뒤로 / 다시 무릎 위로)"로 추가. 배지 문구는 stale=「구 각본 — 재생성 대기」, recommend=「동작 추가 권장」. 근거: `EP02_STORYBOARD_v01.md` 칸 14~17·24·30 메모(11-13).
 
 
 ## 처리 보고
@@ -378,6 +394,21 @@ The man speaks in natural native Korean, low, calm and quiet, polite and unhurri
 ```
 
 8번과 10번의 FORMAT MODE, CAMERA, PERFORMANCE, AUDIO, POSITIVE LOCKS는 3번과 같은 골격이다. 8·10 PERFORMANCE에는 준호 고정 문장(코미디언, 목소리를 높이지 않음)이 들어가 있다.
+
+### 작업 32 — 2화 칸 14~17 stale 배지 (2026-11-13)
+- 새 파일: `tools/ep02_conti_flags.json` (14~17 → stale / 구 각본 영수증 → USB).
+- 수정: `tools/build_series_board.py`(EP02 `next` = 시트2 칸 14~17 USB 재생성 대기), `tools/series_cut_assets_ep02.py`(flag 주입), `tools/series_board.html`(stale 배지).
+- `ep02_storyboard_status.json`·각본·콘티 md·그림은 수정하지 않음. 생성 API 없음.
+- 검증: `#EP02/images` 컷 14~17에만 「구 각본(영수증) — 재생성 대기」, 상단 next 문구 교체, 1화 컷보드 stats 유지.
+- **발행 필요**: 로컬 `board_web`만. Artifact는 Claude.
+
+### 작업 31 — SCRIPT_CONTI_AUDIT → 1화 컷 보드 (2026-11-13)
+- 새 파일: `tools/ep01_conti_links.json`(감사 3.3 초안), 보고는 `tools/EP01_CUT_BOARD_REPORT.md`·`BOARD_FIX_REPORT.md`에 포함.
+- 수정: `tools/series_cut_assets.py`(수동 매핑 우선·check·UI/그림없음 reason), `tools/build_series_board.py`, `tools/series_board.html`(배지 연결/참고만/확인 필요/없음, basis, unlinked+check 필터).
+- 실행: `python3 tools/series_cut_assets.py` → `python3 tools/build_series_board.py`.
+- 검증(활성 42): linked 6(2·11·13·14·15·19) · reference 8(8·9·10·12·22·23·42·45) · check 1(30) · unlinked 27(UI 6=6·16·25·28·36·38). skip 20·21 linked 메타 유지·활성 제외. 콘티 preview 고유 13. 컷3 take01·symlink 유지. 각본·animatic·frames·video 원본 미수정.
+- 미리보기: `board_web/series.html#EP01/images`.
+- **발행 필요**: 로컬 `board_web`만. Artifact는 Claude.
 
 ### 작업 29 — 1화 컷별 콘티·이미지·영상 보드 (2026-11-12)
 - 번호 정리: 예전 「콘티 1화/2화 토글」작업 28 → **작업 30**. 3화 단톡 UI는 작업 28(DONE). 본 항목이 작업 29.
