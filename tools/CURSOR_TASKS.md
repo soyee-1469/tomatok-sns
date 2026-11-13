@@ -260,7 +260,7 @@ Claude가 초안을 써 두었다(미실행, 수정 허용: 이 파일과 `tools
 
 ## 작업 31 — 1화 각본·콘티 감사 결과를 컷 보드에 반영 (2026-11-13, Claude 감사 → Cursor 구현 / 검수 Codex)
 
-- 상태: TODO. 우선순위: 29 다음, 24보다 먼저.
+- 상태: DONE (Cursor). 검수·발행은 Codex/Claude. 우선순위: 29 다음, 24보다 먼저.
 - 기준 문서: `tools/SCRIPT_CONTI_AUDIT.md` (커밋 `743e1ad`). 2.4 컷별 판정표와 3.3 반영 안내를 그대로 따른다. 판정을 바꾸지 않는다.
 - 새 파일: `tools/ep01_conti_links.json` — 감사 3.3의 JSON 초안을 그대로 저장(키 = 컷 번호 문자열, 값 = status / path / basis). 상태값은 기존 `linked / reference / unlinked`에 `check`(확인 필요) 하나 추가.
 - 수정 1: `tools/series_cut_assets.py` — `conti_for_frame()` 호출 전에 `ep01_conti_links.json`을 먼저 읽어 해당 컷이 있으면 그 값을 쓴다(`basis` 앞에 `SCRIPT_CONTI_AUDIT 2.4` 표기 유지). 없으면 기존 로직. 기존 로직이 unlinked를 내면 reason을 둘로 나눈다: `kind=ui` → 「UI, 콘티 대상 아님」, 그 외 → 「그림 콘티 없음(prompts_E1 텍스트만)」. skip 컷(20·21)도 links 파일에 있으면 conti를 채우되 skip 표시는 유지. linked/reference/check 모두 `preview`(series_cuts/img 썸네일)를 만든다. stats에 `conti_check` 추가.
@@ -393,3 +393,19 @@ The man speaks in natural native Korean, low, calm and quiet, polite and unhurri
 - 통과 식은 그대로다. 단일 샷이고, 얼굴 4지점 모두 ≥0.45, 얼굴 폭 ≥180px, whisper 일치 ≥85%일 때만 「통과」. 필터는 전체/통과/재생성.
 - media 합이 60MB를 넘으면 수정시각이 오래된 테이크부터 빼는다. 최신 테이크와 540px 스틸 jpg는 남긴다. HTML은 `charset`·`title`·`style`·본문만이고 doctype/html/head/body 태그는 없다. 화면 문구에 비아/Bea를 넣지 않았다.
 - 검증: 이 클론에는 `qa_*.json`·mp4·스틸 png가 없다. 컷 3·4·5·7·8·9·10·11·12·13·14·19·22 임시 13장으로 `python3 01_EPISODES/EP01R/tools/build_clip_board.py` → `13 cards, 11 pass` (4=내부 컷, 12=얼굴 0.20/100px). 생성 HTML에 article/video/select 각 13, 금지 태그 없음, 기본 선택은 take02, take01 옵션은 QA 없음. 헤드리스 크롬에서 재생성 필터가 4·12만 보이고, 통과 11, 전체 13. 3번 셀렉트를 take01로 바꾸면 문구가 QA 없음이고 영상 src가 바뀐다. take02는 `play()` 후 paused=false, readyState=4, currentTime>0. 390px 폭에서도 가로 스크롤 없이 2열 카드와 재생성 필터가 동작했다. 60MB 제외는 크기 목록으로 확인(가장 오래된 항목부터 탈락, 필수 파일은 유지). 이번 13장 media는 0.1MB라 제외 없음. 임시 파일·jpg·mp4·`board_clips/`는 커밋하지 않았다. 발행은 하지 않았다.
+
+### 작업 31 — 1화 각본·콘티 감사 결과를 컷 보드에 반영 (2026-11-13)
+- 작업 29 보고에 적힌 `tools/series_cut_assets.py`·`ep01_cut_asset_map.json`은 git에 없었다. 컷 맵 스크립트를 새로 만들고, `conti_for_frame()`(cuts_island 프레임 키만, C번호 자동 매칭 없음)보다 `ep01_conti_links.json`을 먼저 읽게 했다.
+- 새 파일: `tools/ep01_conti_links.json`(감사 3.3 JSON과 값 동일, 17키), `tools/series_cut_assets.py`, `tools/ep01_cut_asset_map.json`, `tools/EP01_CUT_BOARD_REPORT.md`.
+- 수정: `tools/build_series_board.py`, `tools/series_board.html`. 1화 「콘티·기준 이미지」만 컷 3열. 2화 갤러리·3화 단톡 링크·이야기/최종 제작 탭은 그대로.
+- 실행: `python3 tools/series_cut_assets.py` → `python3 tools/build_series_board.py`.
+- stats(활성 42): linked 6(2·11·13·14·15·19) · reference 8(8·9·10·12·22·23·42·45) · check 1(30) · unlinked 27 · UI 6(6·16·25·28·36·38). skip 20·21은 linked, 활성 집계 제외. skip 29는 unlinked(UI).
+- 썸네일: 활성 상태 행 15(6+8+1). 컷 30은 path가 null이라 그림 없음. 고유 콘티 파일 13. 같은 경로를 나누는 컷은 8=23, 9=42, 13=45. 이 클론에는 콘티 PNG가 없어 쓴 jpg는 0(`thumbnail_written` 0, `thumbnail_planned` 13). Pillow 540px 저장은 샘플 (540×945)로 확인.
+- 영상: 지정 clip 13, 이 클론 존재 0. 컷 3 `default_take` 1(`take01`). `_old` 제외 단위 검사 통과. `board_web/series_cuts/vid/`는 심볼릭 링크만 허용(이번 0개).
+- 미리보기: `board_web/series.html#EP01/images`.
+- 검증: 헤드리스 크롬. 활성 카드 42, 배지 6/8/1/27, 「콘티 미연결」28(없음+확인 필요), 「영상 있음」0·「영상 없음」42, 자막 토글, 390px에서 scrollWidth 390·열 1개, 자동재생 없음. 2화는 기존 「장면을 보고 이야기 다듬기」. 3화 이야기 탭에 단톡 링크. 1화 이야기·최종 제작에는 컷 카드 없음. 애니매틱 JSON mtime 불변. 화면 대사에 비아/Bea 없음. 생성 API 없음. 이미지 커밋 없음.
+- 이 클론에는 CAST 아바타가 없어 `render_ep03_chat.py`가 exit 2. 아바타가 있으면 빌드는 기존처럼 성공하고, exit 2일 때만 시리즈 보드를 계속 만든다.
+- **발행 필요**. Artifact는 Claude.
+
+### 작업 26 — 17·18·19·20 상태 (2026-11-13)
+- 이 저장소에 `tools/build_cast_board.py`, `tools/face_strip.py`, `tools/gaze_qa.py`가 없다. 17~20은 끝난 항목이 아니라 미구현이다. 우선순위대로 24·21·22·25·23·30 뒤로 미룬다. 이번 실행에서 구현한 작업은 31뿐이다.

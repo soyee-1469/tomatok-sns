@@ -1,0 +1,1756 @@
+{
+  "source": "01_EPISODES/EP01R/edit/v06/animatic_E1_v062.json",
+  "links": "tools/ep01_conti_links.json",
+  "stats": {
+    "rows": 45,
+    "active": 42,
+    "skip": [
+      20,
+      21,
+      29
+    ],
+    "conti_linked": 6,
+    "conti_linked_cuts": [
+      2,
+      11,
+      13,
+      14,
+      15,
+      19
+    ],
+    "conti_reference": 8,
+    "conti_reference_cuts": [
+      8,
+      9,
+      10,
+      12,
+      22,
+      23,
+      42,
+      45
+    ],
+    "conti_check": 1,
+    "conti_check_cuts": [
+      30
+    ],
+    "conti_unlinked": 27,
+    "conti_unlinked_cuts": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      16,
+      17,
+      18,
+      24,
+      25,
+      26,
+      27,
+      28,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      43,
+      44
+    ],
+    "conti_unlinked_ui": 6,
+    "conti_unlinked_ui_cuts": [
+      6,
+      16,
+      25,
+      28,
+      36,
+      38
+    ],
+    "skip_linked": [
+      20,
+      21
+    ],
+    "clips_designated": 13,
+    "clips_exist": 0,
+    "thumbnail_planned": 13,
+    "thumbnail_written": 0,
+    "thumbnail_paths": [
+      "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_cut02_board.png",
+      "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_01_C07a.png",
+      "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_02_C07b.png",
+      "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_03_C08a.png",
+      "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_04_C08b.png",
+      "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_05_C08.png",
+      "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_06_C09.png",
+      "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_07_C10.png",
+      "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_08_C11.png",
+      "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_09_C12.png",
+      "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_10_C13.png",
+      "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_11_C14.png",
+      "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_12_C15.png"
+    ],
+    "cut3_default_take": 1,
+    "preview": "board_web/series.html#EP01/images"
+  },
+  "cuts": [
+    {
+      "n": 1,
+      "skip": false,
+      "kind": "still",
+      "who": "",
+      "line": "",
+      "spoken": "",
+      "direction": "밤 열 시. 준호 혼자 소파 가운데, 폰을 두 손으로. 22명 방이 조용하다 (소파 와이드, 느린 줌)",
+      "emotion": "평온",
+      "frame": "W1c_opening_junho_only",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/W1c_opening_junho_only.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__W1c_opening_junho_only.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": []
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "source": "frame",
+        "reason": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 2,
+      "skip": false,
+      "kind": "still",
+      "who": "",
+      "line": "(인사말 여섯 번째 고치는 중)",
+      "spoken": "",
+      "direction": "입력창에 쓴 인사말을 또 지운다. 여섯 번째. 느낌표를 하나 붙였다 둘 붙였다 지운다 (준호 CU)",
+      "emotion": "긴장, 공들임, 촐싹",
+      "frame": "R02c_junho_cu_typing_crop",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/R02c_junho_cu_typing_crop.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__R02c_junho_cu_typing_crop.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": []
+      },
+      "conti": {
+        "status": "linked",
+        "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_cut02_board.png",
+        "basis": "SCRIPT_CONTI_AUDIT 2.4 — 준호·소파·타이핑/삭제·시선 폰 일치",
+        "source": "ep01_conti_links",
+        "reason": "",
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__STORYBOARD__EP01_cut02_board.jpg",
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 3,
+      "skip": false,
+      "kind": "still",
+      "who": "리아",
+      "line": "오빠, 인사말 정리됐어? 지금 초대할게?",
+      "spoken": "오빠, 인사말 정리됐어? 지금 초대할게?",
+      "direction": "폰에서 눈 떼고 소파 쪽으로 고개, 눈썹 올림. 준호를 단톡방에 초대하기 직전",
+      "emotion": "놀림, 애정",
+      "frame": "S_ria_island_act2_cu",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": "01_EPISODES/EP01R/video/v08/E1_03/EP01R_E1_03_kling3_take01.mp4",
+        "clip_exists": false,
+        "default_take": 1,
+        "takes": [
+          {
+            "take": 1,
+            "path": "01_EPISODES/EP01R/video/v08/E1_03/EP01R_E1_03_kling3_take01.mp4",
+            "name": "EP01R_E1_03_kling3_take01.mp4",
+            "exists": false,
+            "src": null
+          }
+        ]
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "source": "frame",
+        "reason": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 4,
+      "skip": false,
+      "kind": "still",
+      "who": "준호",
+      "line": "남자친구? 예비신랑? 남편이 될 사람? 어떤 게 좋을까?",
+      "spoken": "남자친구? 예비신랑? 남편이 될 사람? 어떤 게 좋을까?",
+      "direction": "리아 말을 들은 준호, 리아에게 말한다",
+      "emotion": "진지한데 본인도 웃김을 앎",
+      "frame": "S_junho_sofa_cu",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/S_junho_sofa_cu.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_sofa_cu.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": "01_EPISODES/EP01R/video/v08/E1_04/EP01R_E1_04_kling3_take01.mp4",
+        "clip_exists": false,
+        "default_take": 1,
+        "takes": [
+          {
+            "take": 1,
+            "path": "01_EPISODES/EP01R/video/v08/E1_04/EP01R_E1_04_kling3_take01.mp4",
+            "name": "EP01R_E1_04_kling3_take01.mp4",
+            "exists": false,
+            "src": null
+          }
+        ]
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "source": "frame",
+        "reason": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 5,
+      "skip": false,
+      "kind": "still",
+      "who": "리아",
+      "line": "내가 잘 말해뒀어. 편하게 얘기해도 돼.",
+      "spoken": "내가 잘 말해뒀어. 편하게 얘기해도 돼.",
+      "direction": "'내가 잘 말해뒀어.' 뒤 준호(소파 쪽) 바라보며 '편하게 얘기해도 돼.'",
+      "emotion": "무심, 다정",
+      "frame": "S_ria_island_act1_cu",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act1_cu.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act1_cu.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": "01_EPISODES/EP01R/video/v08/E1_05/EP01R_E1_05_kling3_take01.mp4",
+        "clip_exists": false,
+        "default_take": 1,
+        "takes": [
+          {
+            "take": 1,
+            "path": "01_EPISODES/EP01R/video/v08/E1_05/EP01R_E1_05_kling3_take01.mp4",
+            "name": "EP01R_E1_05_kling3_take01.mp4",
+            "exists": false,
+            "src": null
+          }
+        ]
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "source": "frame",
+        "reason": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 6,
+      "skip": false,
+      "kind": "ui",
+      "who": "",
+      "line": "",
+      "spoken": "",
+      "direction": "전송. 말풍선 옆 21이 14, 6, 0으로 녹는다. 답장 없음. 냉장고 소리만 / UI: 숫자 녹아내림",
+      "emotion": "숨 참기 → 정적",
+      "frame": "U05_READ0",
+      "image": {
+        "path": "01_EPISODES/EP01R/edit/v06/ui/U05_READ0.mp4",
+        "exists": false,
+        "ui": true,
+        "preview": null,
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": [
+          {
+            "take": null,
+            "path": "01_EPISODES/EP01R/edit/v06/ui/U05_READ0.mp4",
+            "name": "U05_READ0.mp4",
+            "exists": false,
+            "src": null
+          }
+        ]
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "UI, 콘티 대상 아님",
+        "source": "frame",
+        "reason": "UI, 콘티 대상 아님",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 7,
+      "skip": false,
+      "kind": "still",
+      "who": "준호",
+      "line": "어.................",
+      "spoken": "어.................",
+      "direction": "숨을 참는다. 21이 14가, 6이, 0이 된다. 기대에서 당황으로",
+      "emotion": "당혹",
+      "frame": "F2E_junho_eyes",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v07/F2E_junho_eyes.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v07__F2E_junho_eyes.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": "01_EPISODES/EP01R/video/v08/E1_07/EP01R_E1_07_kling3_take01.mp4",
+        "clip_exists": false,
+        "default_take": 1,
+        "takes": [
+          {
+            "take": 1,
+            "path": "01_EPISODES/EP01R/video/v08/E1_07/EP01R_E1_07_kling3_take01.mp4",
+            "name": "EP01R_E1_07_kling3_take01.mp4",
+            "exists": false,
+            "src": null
+          }
+        ]
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "source": "frame",
+        "reason": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 8,
+      "skip": false,
+      "kind": "still",
+      "who": "준호",
+      "line": "다들 읽으셨는데... 아무도 답변을 안 해주셔...",
+      "spoken": "다들 읽으셨는데... 아무도 답변을 안 해주셔...",
+      "direction": "핸드폰을 자세히 들여다보며 '다들 읽으셨는데…', 그리고 시무룩한 표정으로 '아무도 답변을 안 해주셔…' (소파)",
+      "emotion": "억울+조급, 웃김",
+      "frame": "S_junho_sofa_cu",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/S_junho_sofa_cu.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_sofa_cu.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": "01_EPISODES/EP01R/video/v08/E1_08/EP01R_E1_08_kling3_take01.mp4",
+        "clip_exists": false,
+        "default_take": 1,
+        "takes": [
+          {
+            "take": 1,
+            "path": "01_EPISODES/EP01R/video/v08/E1_08/EP01R_E1_08_kling3_take01.mp4",
+            "name": "EP01R_E1_08_kling3_take01.mp4",
+            "exists": false,
+            "src": null
+          }
+        ]
+      },
+      "conti": {
+        "status": "reference",
+        "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_05_C08.png",
+        "basis": "SCRIPT_CONTI_AUDIT 2.4 — 같은 비트(line_prev, frame_old J3) — 콘티 준호 아일랜드, 현재 소파",
+        "source": "ep01_conti_links",
+        "reason": "",
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__STORYBOARD__EP01_island_05_C08.jpg",
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 9,
+      "skip": false,
+      "kind": "still",
+      "who": "리아",
+      "line": "다들 뭐라고 답장할까 고민 중이실 거야.",
+      "spoken": "다들 뭐라고 답장할까 고민 중이실 거야.",
+      "direction": "리아는 자기 폰을 보며 준호에게 말한다",
+      "emotion": "태연",
+      "frame": "S_ria_island_act1_cu",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act1_cu.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act1_cu.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": "01_EPISODES/EP01R/video/v08/E1_09/EP01R_E1_09_kling3_take01.mp4",
+        "clip_exists": false,
+        "default_take": 1,
+        "takes": [
+          {
+            "take": 1,
+            "path": "01_EPISODES/EP01R/video/v08/E1_09/EP01R_E1_09_kling3_take01.mp4",
+            "name": "EP01R_E1_09_kling3_take01.mp4",
+            "exists": false,
+            "src": null
+          }
+        ]
+      },
+      "conti": {
+        "status": "reference",
+        "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_06_C09.png",
+        "basis": "SCRIPT_CONTI_AUDIT 2.4 — 같은 비트(frame_old B5) — 현재 지문 OTS 아님",
+        "source": "ep01_conti_links",
+        "reason": "",
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__STORYBOARD__EP01_island_06_C09.jpg",
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 10,
+      "skip": false,
+      "kind": "still",
+      "who": "준호",
+      "line": "수만이 형.. 기다리면 되겠죠?",
+      "spoken": "수만이 형.. 기다리면 되겠죠?",
+      "direction": "힘없는 목소리로 수만이 형에게 질문한다, 시무룩 (소파에서 아일랜드 쪽으로 고개)",
+      "emotion": "막막, 애원",
+      "frame": "S_junho_sofa_cu",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/S_junho_sofa_cu.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_sofa_cu.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": "01_EPISODES/EP01R/video/v08/E1_10/EP01R_E1_10_kling3_take01.mp4",
+        "clip_exists": false,
+        "default_take": 1,
+        "takes": [
+          {
+            "take": 1,
+            "path": "01_EPISODES/EP01R/video/v08/E1_10/EP01R_E1_10_kling3_take01.mp4",
+            "name": "EP01R_E1_10_kling3_take01.mp4",
+            "exists": false,
+            "src": null
+          }
+        ]
+      },
+      "conti": {
+        "status": "reference",
+        "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_07_C10.png",
+        "basis": "SCRIPT_CONTI_AUDIT 2.4 — 같은 비트(line_prev) — 콘티 준호 아일랜드, 현재 소파",
+        "source": "ep01_conti_links",
+        "reason": "",
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__STORYBOARD__EP01_island_07_C10.jpg",
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 11,
+      "skip": false,
+      "kind": "still",
+      "who": "수만",
+      "line": "우리 집도 그래~ 읽기만 해...",
+      "spoken": "우리 집도 그래~ 읽기만 해...",
+      "direction": "아무렇지 않다는 듯이 피클 뚜껑을 열며 말한다",
+      "emotion": "여유, 위로",
+      "frame": "S_suman_island_cu",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/S_suman_island_cu.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_suman_island_cu.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": "01_EPISODES/EP01R/video/v08/E1_11/EP01R_E1_11_kling3_take01.mp4",
+        "clip_exists": false,
+        "default_take": 1,
+        "takes": [
+          {
+            "take": 1,
+            "path": "01_EPISODES/EP01R/video/v08/E1_11/EP01R_E1_11_kling3_take01.mp4",
+            "name": "EP01R_E1_11_kling3_take01.mp4",
+            "exists": false,
+            "src": null
+          }
+        ]
+      },
+      "conti": {
+        "status": "linked",
+        "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_08_C11.png",
+        "basis": "SCRIPT_CONTI_AUDIT 2.4 — 수만·카운터 뒤·피클 뚜껑·고개 안 듦 일치(frame_old F4). composition only",
+        "source": "ep01_conti_links",
+        "reason": "",
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__STORYBOARD__EP01_island_08_C11.jpg",
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 12,
+      "skip": false,
+      "kind": "still",
+      "who": "준호",
+      "line": "누구 한 분은 답변해 주시겠죠?",
+      "spoken": "누구 한 분은 답변해 주시겠죠?",
+      "direction": "다행이라는 듯이, 기대하는 눈빛 (준호 CU)",
+      "emotion": "기대, 진심",
+      "frame": "J4_junho_cu_r1",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/J4_junho_cu_r1.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J4_junho_cu_r1.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": "01_EPISODES/EP01R/video/v08/E1_12/EP01R_E1_12_kling3_take01.mp4",
+        "clip_exists": false,
+        "default_take": 1,
+        "takes": [
+          {
+            "take": 1,
+            "path": "01_EPISODES/EP01R/video/v08/E1_12/EP01R_E1_12_kling3_take01.mp4",
+            "name": "EP01R_E1_12_kling3_take01.mp4",
+            "exists": false,
+            "src": null
+          }
+        ]
+      },
+      "conti": {
+        "status": "reference",
+        "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_09_C12.png",
+        "basis": "SCRIPT_CONTI_AUDIT 2.4 — 같은 비트 — 콘티 준호 아일랜드, 현재 소파 CU",
+        "source": "ep01_conti_links",
+        "reason": "",
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__STORYBOARD__EP01_island_09_C12.jpg",
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 13,
+      "skip": false,
+      "kind": "still",
+      "who": "수만",
+      "line": "우리 엄마는 전화로만 하셔.. 새벽 4시에..",
+      "spoken": "우리 엄마는 전화로만 하셔.. 새벽 4시에..",
+      "direction": "피클 한입 씹으며 말한다. '새벽 4시에' 뒤 3초 정적(씹기만), 그다음 14번",
+      "emotion": "당연하다는 듯",
+      "frame": "S_suman_island_look_cu",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/S_suman_island_look_cu.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_suman_island_look_cu.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": "01_EPISODES/EP01R/video/v08/E1_13/EP01R_E1_13_kling3_take01.mp4",
+        "clip_exists": false,
+        "default_take": 1,
+        "takes": [
+          {
+            "take": 1,
+            "path": "01_EPISODES/EP01R/video/v08/E1_13/EP01R_E1_13_kling3_take01.mp4",
+            "name": "EP01R_E1_13_kling3_take01.mp4",
+            "exists": false,
+            "src": null
+          }
+        ]
+      },
+      "conti": {
+        "status": "linked",
+        "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_10_C13.png",
+        "basis": "SCRIPT_CONTI_AUDIT 2.4 — 수만 CU·씹기·시선 준호 일치(frame_old S2). composition only",
+        "source": "ep01_conti_links",
+        "reason": "",
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__STORYBOARD__EP01_island_10_C13.jpg",
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 14,
+      "skip": false,
+      "kind": "still",
+      "who": "준호",
+      "line": "…아… 전화가 오면 어쩌지…",
+      "spoken": "…아… 전화가 오면 어쩌지…",
+      "direction": "당황한 표정 (준호 CU)",
+      "emotion": "진심이라 웃김",
+      "frame": "J4_junho_cu_r1",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/J4_junho_cu_r1.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J4_junho_cu_r1.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": "01_EPISODES/EP01R/video/v08/E1_14/EP01R_E1_14_kling3_take01.mp4",
+        "clip_exists": false,
+        "default_take": 1,
+        "takes": [
+          {
+            "take": 1,
+            "path": "01_EPISODES/EP01R/video/v08/E1_14/EP01R_E1_14_kling3_take01.mp4",
+            "name": "EP01R_E1_14_kling3_take01.mp4",
+            "exists": false,
+            "src": null
+          }
+        ]
+      },
+      "conti": {
+        "status": "linked",
+        "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_11_C14.png",
+        "basis": "SCRIPT_CONTI_AUDIT 2.4 — 준호 CU·폰 불빛·시선 폰 일치(frame_prev J4). composition only(얼굴 디테일)",
+        "source": "ep01_conti_links",
+        "reason": "",
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__STORYBOARD__EP01_island_11_C14.jpg",
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 15,
+      "skip": false,
+      "kind": "still",
+      "who": "",
+      "line": "",
+      "spoken": "",
+      "direction": "수만이 처음으로 고개를 든다. 리아가 폰에서 눈을 뗀다. 준호는 진심이다",
+      "emotion": "어이없음",
+      "frame": "G13_island_master_act1",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/G13_island_master_act1.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__G13_island_master_act1.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": []
+      },
+      "conti": {
+        "status": "linked",
+        "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_12_C15.png",
+        "basis": "SCRIPT_CONTI_AUDIT 2.4 — 리아·수만 둘 다 프레임 밖 준호 봄 일치(frame_old T5는 C15에서 생성)",
+        "source": "ep01_conti_links",
+        "reason": "",
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__STORYBOARD__EP01_island_12_C15.jpg",
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 16,
+      "skip": false,
+      "kind": "ui",
+      "who": "",
+      "line": "",
+      "spoken": "",
+      "direction": "준호가 날씨 메시지를 보낸다. 21→0, 또 없음 / UI: 입력·전송·숫자",
+      "emotion": "체념",
+      "frame": "U11_WEATHER",
+      "image": {
+        "path": "01_EPISODES/EP01R/edit/v06/ui/U11_WEATHER.mp4",
+        "exists": false,
+        "ui": true,
+        "preview": null,
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": [
+          {
+            "take": null,
+            "path": "01_EPISODES/EP01R/edit/v06/ui/U11_WEATHER.mp4",
+            "name": "U11_WEATHER.mp4",
+            "exists": false,
+            "src": null
+          }
+        ]
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "UI, 콘티 대상 아님",
+        "source": "frame",
+        "reason": "UI, 콘티 대상 아님",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 17,
+      "skip": false,
+      "kind": "still",
+      "who": "",
+      "line": "(띠링 띠링띠링 — 리아 폰)",
+      "spoken": "",
+      "direction": "준호가 폰을 아주 천천히 뒤집어 내려놓는다. 그때 리아 폰이 띠링, 띠링띠링 울린다. 부럽다는 듯 본다",
+      "emotion": "체념 → ?",
+      "frame": "F1c_phone_table_center",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/F1c_phone_table_center.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__F1c_phone_table_center.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": []
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "source": "frame",
+        "reason": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 18,
+      "skip": false,
+      "kind": "still",
+      "who": "",
+      "line": "",
+      "spoken": "",
+      "direction": "폰을 보며 소리 안 내려고 입술을 말았는데 어깨가 흔들린다",
+      "emotion": "웃음 참기",
+      "frame": "H18_ria_laugh_hand",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/H18_ria_laugh_hand.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__H18_ria_laugh_hand.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": []
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "source": "frame",
+        "reason": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 19,
+      "skip": false,
+      "kind": "still",
+      "who": "준호",
+      "line": "어? 뭐야 뭐야, 뭔데? 나도 보여줘.",
+      "spoken": "어? 뭐야 뭐야, 뭔데? 나도 보여줘.",
+      "direction": "벌떡 일어나 리아 쪽으로 간다",
+      "emotion": "호기심, 촐싹",
+      "frame": "J2c_halfstand_curious",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/J2c_halfstand_curious.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J2c_halfstand_curious.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": "01_EPISODES/EP01R/video/v08/E1_19/EP01R_E1_19_kling3_take01.mp4",
+        "clip_exists": false,
+        "default_take": 1,
+        "takes": [
+          {
+            "take": 1,
+            "path": "01_EPISODES/EP01R/video/v08/E1_19/EP01R_E1_19_kling3_take01.mp4",
+            "name": "EP01R_E1_19_kling3_take01.mp4",
+            "exists": false,
+            "src": null
+          }
+        ]
+      },
+      "conti": {
+        "status": "linked",
+        "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_01_C07a.png",
+        "basis": "SCRIPT_CONTI_AUDIT 2.4 — 준호 소파 반쯤 일어남·폰·시선 아일랜드 일치(src_old J2)",
+        "source": "ep01_conti_links",
+        "reason": "",
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__STORYBOARD__EP01_island_01_C07a.jpg",
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 20,
+      "skip": true,
+      "kind": "still",
+      "who": "",
+      "line": "",
+      "spoken": "",
+      "direction": "쇼파에 앉았다 일어났다 안절부절한다",
+      "emotion": "조급",
+      "frame": "J2b_junho_exit_right_r2",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/J2b_junho_exit_right_r2.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J2b_junho_exit_right_r2.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": []
+      },
+      "conti": {
+        "status": "linked",
+        "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_02_C07b.png",
+        "basis": "SCRIPT_CONTI_AUDIT 2.4 — cuts_island.json J2b_r1.sketch (skip 컷)",
+        "source": "ep01_conti_links",
+        "reason": "",
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__STORYBOARD__EP01_island_02_C07b.jpg",
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 21,
+      "skip": true,
+      "kind": "video",
+      "who": "",
+      "line": "리아~~",
+      "spoken": "리아~~",
+      "direction": "당황한 얼굴로 리아에게 뛰어간다",
+      "emotion": "조급, 촐싹",
+      "frame": "E1_08_WALK_kling3_take01",
+      "image": {
+        "path": "01_EPISODES/EP01R/video/v08/E1_08_WALK/EP01R_E1_08_WALK_kling3_take01.mp4",
+        "exists": false,
+        "ui": false,
+        "preview": null,
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": 1,
+        "takes": [
+          {
+            "take": 1,
+            "path": "01_EPISODES/EP01R/video/v08/E1_08_WALK/EP01R_E1_08_WALK_kling3_take01.mp4",
+            "name": "EP01R_E1_08_WALK_kling3_take01.mp4",
+            "exists": false,
+            "src": null
+          }
+        ]
+      },
+      "conti": {
+        "status": "linked",
+        "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_03_C08a.png",
+        "basis": "SCRIPT_CONTI_AUDIT 2.4 — cuts_island.json B13.sketch; 끝 프레임 C08b (skip 컷)",
+        "source": "ep01_conti_links",
+        "reason": "",
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__STORYBOARD__EP01_island_03_C08a.jpg",
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 22,
+      "skip": false,
+      "kind": "still",
+      "who": "리아",
+      "line": "다들 준호한테 무슨 말 할지 나한테 다 물어보고있어 ㅋㅋㅋㅋ",
+      "spoken": "다들 준호한테 무슨 말 할지 나한테 다 물어보고있어 ㅋㅋㅋㅋ",
+      "direction": "자기에게 걸어오는 준호에게 핸드폰을보여주며 말한다",
+      "emotion": "장난, 들킬 듯",
+      "frame": "S_ria_island_act2_cu",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": "01_EPISODES/EP01R/video/v08/E1_22/EP01R_E1_22_kling3_take01.mp4",
+        "clip_exists": false,
+        "default_take": 1,
+        "takes": [
+          {
+            "take": 1,
+            "path": "01_EPISODES/EP01R/video/v08/E1_22/EP01R_E1_22_kling3_take01.mp4",
+            "name": "EP01R_E1_22_kling3_take01.mp4",
+            "exists": false,
+            "src": null
+          }
+        ]
+      },
+      "conti": {
+        "status": "reference",
+        "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_04_C08b.png",
+        "basis": "SCRIPT_CONTI_AUDIT 2.4 — 준호 진입·리아 고개 듦 구도만. 콘티에 리아 대사·폰 없음",
+        "source": "ep01_conti_links",
+        "reason": "",
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__STORYBOARD__EP01_island_04_C08b.jpg",
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 23,
+      "skip": false,
+      "kind": "still",
+      "who": "준호",
+      "line": "편하게 말하시지..번역되서 다 읽을 수 있는데",
+      "spoken": "편하게 말하시지..번역되서 다 읽을 수 있는데",
+      "direction": "리아는 웃겨죽겠다는 표정, 준호는 어리둥절한 표정으로 리아의 핸드폰을함께  보고 있다.",
+      "emotion": "추궁(장난)",
+      "frame": "S_junho_island_r2",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r2.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r2.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": []
+      },
+      "conti": {
+        "status": "reference",
+        "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_05_C08.png",
+        "basis": "SCRIPT_CONTI_AUDIT 2.4 — 3인 배치 일치 — 콘티 준호 자기 폰, 현재 리아 폰 함께 봄",
+        "source": "ep01_conti_links",
+        "reason": "",
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__STORYBOARD__EP01_island_05_C08.jpg",
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 24,
+      "skip": false,
+      "kind": "still",
+      "who": "리아",
+      "line": "다들 궁금한게 많긴 하신가봐 ㅋㅋㅋ",
+      "spoken": "다들 궁금한게 많긴 하신가봐 ㅋㅋㅋ",
+      "direction": "리아와 준호가 리아의 핸드폰을 같이 보다가 서로 얼굴을 쳐다본다.",
+      "emotion": "시간 끌다 자백",
+      "frame": "S_ria_island_act2_cu",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": []
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "source": "frame",
+        "reason": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 25,
+      "skip": false,
+      "kind": "ui",
+      "who": "",
+      "line": "",
+      "spoken": "",
+      "direction": "리아 폰 채팅 목록: 개인톡이 줄줄이, 가족방은 맨 아래 / UI: 목록 스크롤",
+      "emotion": "반전",
+      "frame": "U18b_DMLIST",
+      "image": {
+        "path": "01_EPISODES/EP01R/edit/v06/ui/U18b_DMLIST.mp4",
+        "exists": false,
+        "ui": true,
+        "preview": null,
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": [
+          {
+            "take": null,
+            "path": "01_EPISODES/EP01R/edit/v06/ui/U18b_DMLIST.mp4",
+            "name": "U18b_DMLIST.mp4",
+            "exists": false,
+            "src": null
+          }
+        ]
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "UI, 콘티 대상 아님",
+        "source": "frame",
+        "reason": "UI, 콘티 대상 아님",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 26,
+      "skip": false,
+      "kind": "still",
+      "who": "준호",
+      "line": "……이게 뭐야.",
+      "spoken": "……이게 뭐야.",
+      "direction": "준호가 천천히 리아 폰에서 눈을 뗀다. 리아는 이 상황이 재밌다는 듯 준호를 본다",
+      "emotion": "멍",
+      "frame": "S_junho_island_r2",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r2.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r2.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": []
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "source": "frame",
+        "reason": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 27,
+      "skip": false,
+      "kind": "still",
+      "who": "리아",
+      "line": "보내도 괜찮을지 체크해달래",
+      "spoken": "보내도 괜찮을지 체크해달래",
+      "direction": "띵동 메시지가 오고 엄마 메시지를 확인하려고 폰을 터치한다",
+      "emotion": "쿨",
+      "frame": "S_ria_island_act1_cu",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act1_cu.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act1_cu.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": []
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "source": "frame",
+        "reason": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 28,
+      "skip": false,
+      "kind": "ui",
+      "who": "",
+      "line": "",
+      "spoken": "",
+      "direction": "Mama 개인톡: 월급 물어봐도 돼? → 첫날부터 안 돼 → 그럼 밥은 먹었니? → OK → 틀리면 어떡해 / UI: Mama DM 스레드",
+      "emotion": "귀여움",
+      "frame": "U20b_MAMA_DM",
+      "image": {
+        "path": "01_EPISODES/EP01R/edit/v06/ui/U20b_MAMA_DM.mp4",
+        "exists": false,
+        "ui": true,
+        "preview": null,
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": [
+          {
+            "take": null,
+            "path": "01_EPISODES/EP01R/edit/v06/ui/U20b_MAMA_DM.mp4",
+            "name": "U20b_MAMA_DM.mp4",
+            "exists": false,
+            "src": null
+          }
+        ]
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "UI, 콘티 대상 아님",
+        "source": "frame",
+        "reason": "UI, 콘티 대상 아님",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 29,
+      "skip": true,
+      "kind": "ui",
+      "who": "",
+      "line": "",
+      "spoken": "",
+      "direction": "계속 채팅방의 숫자가 늘어난다. 최신메시지도 바뀐다.",
+      "emotion": "귀여움, 폭주",
+      "frame": "U21b_DM_QUESTIONS",
+      "image": {
+        "path": "01_EPISODES/EP01R/edit/v06/ui/U21b_DM_QUESTIONS.mp4",
+        "exists": false,
+        "ui": true,
+        "preview": null,
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": [
+          {
+            "take": null,
+            "path": "01_EPISODES/EP01R/edit/v06/ui/U21b_DM_QUESTIONS.mp4",
+            "name": "U21b_DM_QUESTIONS.mp4",
+            "exists": false,
+            "src": null
+          }
+        ]
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "UI, 콘티 대상 아님",
+        "source": "frame",
+        "reason": "UI, 콘티 대상 아님",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 30,
+      "skip": false,
+      "kind": "still",
+      "who": "준호",
+      "line": "……스물한 명이 지금 나한테 물어볼 걸 너한테 검사받는 중이라고?",
+      "spoken": "……스물한 명이 지금 나한테 물어볼 걸 너한테 검사받는 중이라고?",
+      "direction": "준호 다시 쇼파로 돌아간다.",
+      "emotion": "믿기지 않음, 감동 섞임",
+      "frame": "S_junho_island_r2",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r2.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r2.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": []
+      },
+      "conti": {
+        "status": "check",
+        "path": null,
+        "basis": "SCRIPT_CONTI_AUDIT 2.4 — 지문 충돌: '다시 쇼파로 돌아간다' vs 무대 '소파로 돌아가지 않는다'",
+        "source": "ep01_conti_links",
+        "reason": "",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 31,
+      "skip": false,
+      "kind": "still",
+      "who": "리아",
+      "line": "Yes. 단톡방에 쓰면 다들 보니까. 틀릴까 봐 무서워하셔.",
+      "spoken": "Yes. 단톡방에 쓰면 다들 보니까. 틀릴까 봐 무서워하셔.",
+      "direction": "바로 옆에 선 준호를 올려다보며 말한다",
+      "emotion": "담담, 따뜻",
+      "frame": "S_ria_island_act2_cu",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": []
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "source": "frame",
+        "reason": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 32,
+      "skip": false,
+      "kind": "still",
+      "who": "준호",
+      "line": "어머님 아버님도?",
+      "spoken": "어머님 아버님도?",
+      "direction": "어머니가? 그 어머니가? / 눈 커짐, 반 웃음",
+      "emotion": "놀람",
+      "frame": "S_junho_island_r2",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r2.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r2.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": []
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "source": "frame",
+        "reason": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 33,
+      "skip": false,
+      "kind": "still",
+      "who": "리아",
+      "line": "Mom? 엄마가 제일 무서워해.",
+      "spoken": "Mom? 엄마가 제일 무서워해.",
+      "direction": "핸드폰으로 엄마와 대화하며 얘기한다.",
+      "emotion": "담담",
+      "frame": "S_ria_island_act2_cu",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": []
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "source": "frame",
+        "reason": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 34,
+      "skip": false,
+      "kind": "still",
+      "who": "준호",
+      "line": "……나만 무서운 줄 알았는데.",
+      "spoken": "……나만 무서운 줄 알았는데.",
+      "direction": "웃고 있지 않은데 입꼬리가 올라가 있다. 자기 얼굴을 만져 본다",
+      "emotion": "안도, 웃음 나는데 모름",
+      "frame": "S_junho_island_r2",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r2.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r2.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": []
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "source": "frame",
+        "reason": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 35,
+      "skip": false,
+      "kind": "still",
+      "who": "리아",
+      "line": "오빠, 나 빨리 답변해드려야해~ 너무 바빠ㅋㅋㅋ",
+      "spoken": "오빠, 나 빨리 답변해드려야해~ 너무 바빠ㅋㅋㅋ",
+      "direction": "엄지가 빠르다. 'OK.' '그건 빼.' 'OK.' 준호는 옆에 그대로 서서 기다린다",
+      "emotion": "바쁨, 장난",
+      "frame": "S_ria_island_act1_cu",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act1_cu.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act1_cu.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": []
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "source": "frame",
+        "reason": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 36,
+      "skip": false,
+      "kind": "ui",
+      "who": "",
+      "line": "",
+      "spoken": "",
+      "direction": "리아의 답장이 날아간다: OK, 그건 빼, OK, Chloe는 언제나 OK / UI: 'You: OK.' 미리보기들",
+      "emotion": "속도감",
+      "frame": "U33b_BEA_REPLIES",
+      "image": {
+        "path": "01_EPISODES/EP01R/edit/v06/ui/U33b_BEA_REPLIES.mp4",
+        "exists": false,
+        "ui": true,
+        "preview": null,
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": [
+          {
+            "take": null,
+            "path": "01_EPISODES/EP01R/edit/v06/ui/U33b_BEA_REPLIES.mp4",
+            "name": "U33b_BEA_REPLIES.mp4",
+            "exists": false,
+            "src": null
+          }
+        ]
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "UI, 콘티 대상 아님",
+        "source": "frame",
+        "reason": "UI, 콘티 대상 아님",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 37,
+      "skip": false,
+      "kind": "still",
+      "who": "",
+      "line": "",
+      "spoken": "",
+      "direction": "아일랜드 옆에 선 채 자기 폰을 꺼내 본다. 이제 볼 이유가 있다 (소파로 돌아가지 않음)",
+      "emotion": "기대",
+      "frame": "S_junho_island_r2",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r2.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r2.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": []
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "source": "frame",
+        "reason": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 38,
+      "skip": false,
+      "kind": "ui",
+      "who": "",
+      "line": "",
+      "spoken": "",
+      "direction": "준호 폰에 Mama의 첫 통과 메시지: 밥은 먹었니? ^^ / UI: KR 뷰, 차임 1",
+      "emotion": "감격",
+      "frame": "U25b_MAMA_EAT",
+      "image": {
+        "path": "01_EPISODES/EP01R/edit/v06/ui/U25b_MAMA_EAT.mp4",
+        "exists": false,
+        "ui": true,
+        "preview": null,
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": [
+          {
+            "take": null,
+            "path": "01_EPISODES/EP01R/edit/v06/ui/U25b_MAMA_EAT.mp4",
+            "name": "U25b_MAMA_EAT.mp4",
+            "exists": false,
+            "src": null
+          }
+        ]
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "UI, 콘티 대상 아님",
+        "source": "frame",
+        "reason": "UI, 콘티 대상 아님",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 39,
+      "skip": false,
+      "kind": "still",
+      "who": "준호",
+      "line": "리아! 어머니가 밥 먹었냬!",
+      "spoken": "리아! 어머니가 밥 먹었냬!",
+      "direction": "얼굴이 아주 느리게 풀린다. 바보 같은 얼굴. 폰을 번쩍 든다",
+      "emotion": "폭발적 기쁨, 바보같이",
+      "frame": "H39_junho_joy",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/H39_junho_joy.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__H39_junho_joy.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": []
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "source": "frame",
+        "reason": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 40,
+      "skip": false,
+      "kind": "still",
+      "who": "리아",
+      "line": "Yep. 방금 그렇게 보내시라고 말씀드렸어",
+      "spoken": "Yep. 방금 그렇게 보내시라고 말씀드렸어",
+      "direction": "응, 방금 통과시켰어 / CU, 끝음 내림",
+      "emotion": "쿨",
+      "frame": "S_ria_island_act2_cu",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": []
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "source": "frame",
+        "reason": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 41,
+      "skip": false,
+      "kind": "still",
+      "who": "준호",
+      "line": "나 밥 먹었어. 먹었다고 보내도 돼?",
+      "spoken": "나 밥 먹었어. 먹었다고 보내도 돼?",
+      "direction": "나 밥 먹었어, 먹었다고 보내도 돼? / 아일랜드 옆에 서서 폰 들고",
+      "emotion": "들뜸",
+      "frame": "S_junho_island_r2",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r2.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r2.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": []
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "source": "frame",
+        "reason": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 42,
+      "skip": false,
+      "kind": "still",
+      "who": "리아",
+      "line": "……Wait. 오빠도 검사받게?",
+      "spoken": "……Wait. 오빠도 검사받게?",
+      "direction": "오빠도 검사받게? / OTS, 리아가 준호를 올려다봄",
+      "emotion": "어이없음+귀여워함",
+      "frame": "S_ria_island_act2_cu",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": []
+      },
+      "conti": {
+        "status": "reference",
+        "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_06_C09.png",
+        "basis": "SCRIPT_CONTI_AUDIT 2.4 — OTS 리아→준호 구도 일치, 콘티 의도는 1막 대사",
+        "source": "ep01_conti_links",
+        "reason": "",
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__STORYBOARD__EP01_island_06_C09.jpg",
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 43,
+      "skip": false,
+      "kind": "still",
+      "who": "준호",
+      "line": "응.",
+      "spoken": "응.",
+      "direction": "준호가 멈춘다. 폰을 리아에게 두 손으로 내민다",
+      "emotion": "진심",
+      "frame": "H43_junho_submits_phone",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/H43_junho_submits_phone.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__H43_junho_submits_phone.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": []
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "source": "frame",
+        "reason": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 44,
+      "skip": false,
+      "kind": "still",
+      "who": "수만",
+      "line": "",
+      "spoken": "",
+      "direction": "리아가 준호 폰을 받아 든다. 준호는 두 손을 모으고 기다린다. 수만이 피클병을 내려놓고 둘을 보며 고개를 절레절레",
+      "emotion": "여운",
+      "frame": "H44e_suman_headshake_emptyjar",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/H44e_suman_headshake_emptyjar.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__H44e_suman_headshake_emptyjar.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": []
+      },
+      "conti": {
+        "status": "unlinked",
+        "path": null,
+        "basis": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "source": "frame",
+        "reason": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "preview": null,
+        "preview_ready": false
+      }
+    },
+    {
+      "n": 45,
+      "skip": false,
+      "kind": "still",
+      "who": "수만",
+      "line": "",
+      "spoken": "",
+      "direction": "수만 클로즈업. 고개를 절레절레 흔들며 끝난다. 대사 없음",
+      "emotion": "어이없음",
+      "frame": "H44e_crop_suman_cu",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/H44e_crop_suman_cu.png",
+        "exists": false,
+        "ui": false,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__H44e_crop_suman_cu.jpg",
+        "preview_ready": false
+      },
+      "video": {
+        "clip": null,
+        "clip_exists": false,
+        "default_take": null,
+        "takes": []
+      },
+      "conti": {
+        "status": "reference",
+        "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_10_C13.png",
+        "basis": "SCRIPT_CONTI_AUDIT 2.4 — 수만 CU 샷 사이즈만. 행동·소품 다름",
+        "source": "ep01_conti_links",
+        "reason": "",
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__STORYBOARD__EP01_island_10_C13.jpg",
+        "preview_ready": false
+      }
+    }
+  ]
+}

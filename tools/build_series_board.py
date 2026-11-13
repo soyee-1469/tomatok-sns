@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """Build the local series workspace: python3 tools/build_series_board.py."""
 import datetime
 import html
@@ -22,6 +23,23 @@ EPISODES = [
 ]
 
 
+def jpeg_preview(src, dest):
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    if shutil.which('sips'):
+        subprocess.run(['sips', '-Z', '1400', '-s', 'format', 'jpeg', str(src), '--out', str(dest)], check=True, capture_output=True)
+        return
+    from PIL import Image
+    image = Image.open(src).convert('RGB')
+    image.thumbnail((1400, 1400), Image.Resampling.LANCZOS)
+    image.save(dest, 'JPEG', quality=80)
+
+
+def load_ep01_cuts():
+    script = ROOT / 'tools' / 'series_cut_assets.py'
+    subprocess.run([sys.executable, str(script)], check=True)
+    return json.loads((ROOT / 'tools' / 'ep01_cut_asset_map.json').read_text(encoding='utf-8'))
+
+
 def build():
     OUT.mkdir(exist_ok=True)
     media = OUT / 'series_img'
@@ -30,7 +48,12 @@ def build():
     sources.mkdir(exist_ok=True)
     ep03_ui = ROOT / 'tools' / 'render_ep03_chat.py'
     if ep03_ui.exists():
-        subprocess.run([sys.executable, str(ep03_ui)], check=True)
+        proc = subprocess.run([sys.executable, str(ep03_ui)])
+        if proc.returncode not in (0, 2):
+            raise SystemExit(proc.returncode)
+        if proc.returncode == 2:
+            print('ep03 avatars missing; series board continues')
+    ep01_cuts = load_ep01_cuts()
     episodes = []
     for ep in EPISODES:
         item = dict(ep)
@@ -42,8 +65,11 @@ def build():
         for image in sorted(board_dir.glob(ep['boards'])) if ep['boards'] else []:
             target = media / (image.stem + '.jpg')
             if not target.exists() or target.stat().st_mtime < image.stat().st_mtime:
-                subprocess.run(['sips', '-Z', '1400', '-s', 'format', 'jpeg', str(image), '--out', str(target)], check=True, capture_output=True)
+                jpeg_preview(image, target)
             item['images'].append(dict(src='series_img/' + target.name, name=image.stem))
+        if ep['id'] == 'EP01':
+            item['cuts'] = ep01_cuts['cuts']
+            item['cutStats'] = ep01_cuts['stats']
         ui = ep.get('ui')
         item['ui'] = ui if ui and (OUT / ui).exists() else None
         episodes.append(item)
@@ -51,8 +77,8 @@ def build():
     data = json.dumps(episodes, ensure_ascii=False).replace('<', '\\u003c')
     (OUT / 'series.html').write_text(template.replace('__EPISODES__', data), encoding='utf-8')
     status = dict(id='SERIES_BOARD', type='SITCOM', title='연남동 3층집 회차 작업실', status='REVIEW',
-                  lastCompleted='보드 상단 회차 바로가기 추가 · 전체/1~3화 이동 · 현재 회차 표시 및 작업 탭 유지',
-                  nextTask='3화 단톡 UI 검수 · 원문 번역 검수 · 콘티 준비',
+                  lastCompleted='1화 컷 보드에 각본·콘티 감사 연결·상태 배지 반영',
+                  nextTask='1화 컷 보드 발행은 Claude · 3화 단톡 UI 검수',
                   publishDate=None, platforms=['Local'], updatedBy='Codex',
                   updatedAt=datetime.datetime.now(datetime.timezone.utc).isoformat(),
                   assets={'page': 'board_web/series.html', 'ep03_chat': 'board_web/ep03_chat/index.html', 'generator': 'tools/build_series_board.py'},
