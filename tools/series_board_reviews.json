@@ -1,18 +1,20 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-13T07:56:58.488230+00:00",
+  "updatedAt": "2026-11-16T02:03:33.771998+00:00",
   "episodes": {
     "EP01": {
       "cuts": {
         "3": {
-          "take": 1,
+          "take": 7,
+          "image": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu_r1.png",
           "status": "approved",
-          "memo": "립싱크 재확인",
+          "memo": "",
           "assignee": "cursor",
-          "updatedAt": "2026-11-13T07:37:25.302Z"
+          "updatedAt": "2026-11-16T01:55:21.710Z"
         },
         "7": {
           "take": 1,
+          "image": null,
           "status": "approved",
           "memo": "OK",
           "assignee": "claude",
@@ -20,34 +22,39 @@
         },
         "4": {
           "take": 1,
+          "image": null,
           "status": "approved",
           "memo": "",
           "assignee": "unassigned",
-          "updatedAt": "2026-11-13T07:38:11.179Z"
+          "updatedAt": "2026-11-16T01:44:18.039Z"
         },
         "5": {
-          "take": 1,
+          "take": 7,
+          "image": null,
           "status": "approved",
           "memo": "",
           "assignee": "unassigned",
-          "updatedAt": "2026-11-13T07:38:49.579Z"
+          "updatedAt": "2026-11-16T01:54:09.785Z"
         },
         "6": {
           "take": null,
+          "image": null,
           "status": "approved",
           "memo": "",
           "assignee": "unassigned",
           "updatedAt": "2026-11-13T07:39:05.822Z"
         },
         "8": {
-          "take": 1,
-          "status": "needs_fix",
-          "memo": "아무도 답변을 안해주셔~ 로 다시 생성 현재 아무도 답분을 안.. 까지만 들리고 끊김\n",
+          "take": 6,
+          "image": null,
+          "status": "approved",
+          "memo": "\n",
           "assignee": "claude",
-          "updatedAt": "2026-11-13T07:40:13.755Z"
+          "updatedAt": "2026-11-16T01:48:40.875Z"
         },
         "9": {
           "take": 2,
+          "image": null,
           "status": "approved",
           "memo": "",
           "assignee": "unassigned",
@@ -55,41 +62,47 @@
         },
         "10": {
           "take": 1,
+          "image": "01_EPISODES/EP01R/frames/v08/S_junho_sofa.png",
           "status": "needs_fix",
           "memo": "조금더 들뜬 목소리로 변경",
           "assignee": "claude",
-          "updatedAt": "2026-11-13T07:41:19.839Z"
+          "updatedAt": "2026-11-16T02:01:48.338Z"
         },
         "11": {
-          "take": 1,
-          "status": "needs_fix",
+          "take": 4,
+          "image": null,
+          "status": "approved",
           "memo": "네팔어로 중얼거리는 장면으로 변경",
           "assignee": "claude",
-          "updatedAt": "2026-11-13T07:41:57.859Z"
+          "updatedAt": "2026-11-16T02:01:41.011Z"
         },
         "12": {
-          "take": null,
+          "take": 4,
+          "image": null,
           "status": "approved",
-          "memo": "",
+          "memo": "11-16 사용자 \"좋아\" (현행 J4 템플릿 1컷 시험)",
           "assignee": "unassigned",
-          "updatedAt": "2026-11-13T07:42:06.345Z"
+          "updatedAt": "2026-11-16T01:31:52.628911Z"
         },
         "13": {
-          "take": 1,
+          "take": 3,
+          "image": "01_EPISODES/EP01R/frames/v08/S2_suman_chew_r1.png",
           "status": "pending",
           "memo": "",
           "assignee": "unassigned",
-          "updatedAt": "2026-11-13T07:42:20.374Z"
+          "updatedAt": "2026-11-16T02:03:05.492Z"
         },
         "14": {
-          "take": 1,
-          "status": "needs_fix",
-          "memo": "다른거 그대로 손에 핸드폰 쥔걸로 생성, 지금은 갑자기 쿠션이 생김",
-          "assignee": "claude",
-          "updatedAt": "2026-11-13T07:44:05.487Z"
+          "take": 6,
+          "image": null,
+          "status": "approved",
+          "memo": "11-16 사용자 \"그냥 6번 쓸게\" (들뜬 표정, 배경 인물 없음)",
+          "assignee": "unassigned",
+          "updatedAt": "2026-11-16T01:31:52.628911Z"
         },
         "16": {
           "take": null,
+          "image": null,
           "status": "approved",
           "memo": "",
           "assignee": "unassigned",
@@ -97,20 +110,23 @@
         },
         "19": {
           "take": null,
+          "image": "01_EPISODES/EP01R/frames/v08/J2c_halfstand_curious.png",
           "status": "approved",
           "memo": "",
           "assignee": "unassigned",
-          "updatedAt": "2026-11-13T07:44:49.556Z"
+          "updatedAt": "2026-11-16T01:58:41.383Z"
         },
         "22": {
-          "take": null,
+          "take": 1,
+          "image": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
           "status": "approved",
           "memo": "",
           "assignee": "unassigned",
-          "updatedAt": "2026-11-13T07:44:58.153Z"
+          "updatedAt": "2026-11-16T01:59:27.913Z"
         },
         "25": {
           "take": null,
+          "image": null,
           "status": "approved",
           "memo": "",
           "assignee": "unassigned",
@@ -118,6 +134,7 @@
         },
         "28": {
           "take": null,
+          "image": null,
           "status": "approved",
           "memo": "",
           "assignee": "unassigned",
@@ -125,6 +142,7 @@
         },
         "36": {
           "take": null,
+          "image": null,
           "status": "approved",
           "memo": "",
           "assignee": "unassigned",
@@ -132,17 +150,43 @@
         },
         "38": {
           "take": null,
+          "image": null,
           "status": "approved",
           "memo": "",
           "assignee": "unassigned",
           "updatedAt": "2026-11-13T07:45:47.905Z"
         },
         "1": {
-          "take": null,
-          "status": "needs_fix",
+          "take": 1,
+          "image": null,
+          "status": "approved",
+          "memo": "11-16 오프닝 와이드+느린 푸시인 take01 채택",
+          "assignee": "unassigned",
+          "updatedAt": "2026-11-16T01:32:16.910961Z"
+        },
+        "15": {
+          "take": 2,
+          "image": "01_EPISODES/EP01R/frames/v08/T5_ria_suman_look_left_r1.png",
+          "status": "pending",
           "memo": "",
-          "assignee": "claude",
-          "updatedAt": "2026-11-13T07:56:58.233Z"
+          "assignee": "unassigned",
+          "updatedAt": "2026-11-16T02:03:33.517Z"
+        },
+        "18": {
+          "take": null,
+          "image": "01_EPISODES/EP01R/frames/v08/H18_ria_laugh_hand.png",
+          "status": "pending",
+          "memo": "",
+          "assignee": "unassigned",
+          "updatedAt": "2026-11-16T01:58:32.971Z"
+        },
+        "23": {
+          "take": null,
+          "image": "01_EPISODES/EP01R/frames/v08/G40_crop_junho_cu.png",
+          "status": "pending",
+          "memo": "",
+          "assignee": "unassigned",
+          "updatedAt": "2026-11-16T02:00:07.843Z"
         }
       }
     }

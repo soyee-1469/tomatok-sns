@@ -11,7 +11,7 @@
   ],
   "stats": {
     "with_image": 42,
-    "with_video": 13,
+    "with_video": 14,
     "conti_linked": 6,
     "conti_reference": 8,
     "conti_check": 1,
@@ -56,13 +56,43 @@
         "path": "01_EPISODES/EP01R/frames/v08/W1c_opening_junho_only.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__W1c_opening_junho_only.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/W1c_opening_junho_only.png",
+            "name": "W1c_opening_junho_only.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__W1c_opening_junho_only.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/C01_opening_full_wide.png",
+            "name": "C01_opening_full_wide.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__C01_opening_full_wide.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/EP01R_W1_wide_e1_r4.png",
+            "name": "EP01R_W1_wide_e1_r4.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__EP01R_W1_wide_e1_r4.png.jpg"
+          }
+        ]
       },
       "video": {
-        "selected": null,
-        "selected_exists": false,
-        "default_take": null,
-        "takes": [],
+        "selected": "01_EPISODES/EP01R/video/v08/E1_01/EP01R_E1_01_kling3_take01.mp4",
+        "selected_exists": true,
+        "default_take": 1,
+        "takes": [
+          {
+            "take": 1,
+            "path": "01_EPISODES/EP01R/video/v08/E1_01/EP01R_E1_01_kling3_take01.mp4",
+            "name": "EP01R_E1_01_kling3_take01.mp4",
+            "exists": true
+          }
+        ],
         "note": ""
       },
       "conti": {
@@ -88,7 +118,8 @@
         "path": "01_EPISODES/EP01R/edit/v06/ui/U01b_SCREEN_TAIL.mp4",
         "exists": true,
         "preview": null,
-        "is_ui_mp4": true
+        "is_ui_mp4": true,
+        "variants": []
       },
       "video": {
         "selected": null,
@@ -120,7 +151,51 @@
         "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
+            "name": "S_ria_island_act2_cu.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2.png",
+            "name": "S_ria_island_act2.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu_r1.png",
+            "name": "S_ria_island_act2_cu_r1.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu_r1_crop.png",
+            "name": "S_ria_island_act2_cu_r1_crop.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu_r1_crop.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/H03_ria_tease.png",
+            "name": "H03_ria_tease.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__H03_ria_tease.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/R03_ria_island_tease.png",
+            "name": "R03_ria_island_tease.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__R03_ria_island_tease.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": "01_EPISODES/EP01R/video/v08/E1_03/EP01R_E1_03_kling3_take01.mp4",
@@ -150,6 +225,12 @@
             "path": "01_EPISODES/EP01R/video/v08/E1_03/EP01R_E1_03_kling3_take06.mp4",
             "name": "EP01R_E1_03_kling3_take06.mp4",
             "exists": true
+          },
+          {
+            "take": 7,
+            "path": "01_EPISODES/EP01R/video/v08/E1_03/EP01R_E1_03_kling3_take07.mp4",
+            "name": "EP01R_E1_03_kling3_take07.mp4",
+            "exists": true
           }
         ],
         "note": "11-06 take01 (사용자 선택 2026-11-09)"
@@ -177,7 +258,37 @@
         "path": "01_EPISODES/EP01R/frames/v08/S_junho_sofa_cu.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_sofa_cu.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_sofa_cu.png",
+            "name": "S_junho_sofa_cu.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_sofa_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_sofa.png",
+            "name": "S_junho_sofa.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_sofa.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/A10_junho_sofa_to_suman.png",
+            "name": "A10_junho_sofa_to_suman.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__A10_junho_sofa_to_suman.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/J1b_junho_deleting_r3_r1.png",
+            "name": "J1b_junho_deleting_r3_r1.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J1b_junho_deleting_r3_r1.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": "01_EPISODES/EP01R/video/v08/E1_04/EP01R_E1_04_kling3_take01.mp4",
@@ -234,7 +345,30 @@
         "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act1_cu.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act1_cu.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act1_cu.png",
+            "name": "S_ria_island_act1_cu.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act1_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act1.png",
+            "name": "S_ria_island_act1.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/G13_island_master_act1.png",
+            "name": "G13_island_master_act1.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__G13_island_master_act1.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": "01_EPISODES/EP01R/video/v08/E1_05/EP01R_E1_05_kling3_take01.mp4",
@@ -264,6 +398,18 @@
             "path": "01_EPISODES/EP01R/video/v08/E1_05/EP01R_E1_05_kling3_take05.mp4",
             "name": "EP01R_E1_05_kling3_take05.mp4",
             "exists": true
+          },
+          {
+            "take": 6,
+            "path": "01_EPISODES/EP01R/video/v08/E1_05/EP01R_E1_05_kling3_take06.mp4",
+            "name": "EP01R_E1_05_kling3_take06.mp4",
+            "exists": true
+          },
+          {
+            "take": 7,
+            "path": "01_EPISODES/EP01R/video/v08/E1_05/EP01R_E1_05_kling3_take07.mp4",
+            "name": "EP01R_E1_05_kling3_take07.mp4",
+            "exists": true
           }
         ],
         "note": "11-06 take01 (사용자 선택 2026-11-09)"
@@ -291,7 +437,8 @@
         "path": "01_EPISODES/EP01R/edit/v06/ui/U05_READ0.mp4",
         "exists": true,
         "preview": null,
-        "is_ui_mp4": true
+        "is_ui_mp4": true,
+        "variants": []
       },
       "video": {
         "selected": null,
@@ -323,7 +470,16 @@
         "path": "01_EPISODES/EP01R/frames/v07/F2E_junho_eyes.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v07__F2E_junho_eyes.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v07/F2E_junho_eyes.png",
+            "name": "F2E_junho_eyes.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v07__F2E_junho_eyes.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": "01_EPISODES/EP01R/video/v08/E1_07/EP01R_E1_07_kling3_take01.mp4",
@@ -354,7 +510,7 @@
       "who": "준호",
       "line": "다들 읽으셨는데... 아무도 답변을 안 해주셔...",
       "spoken_line": true,
-      "direction": "핸드폰을 자세히 들여다보며 '다들 읽으셨는데…', 그리고 시무룩한 표정으로 '아무도 답변을 안 해주셔…' (소파)",
+      "direction": "핸드폰을 자세히 들여다보며 '다들 읽으셨는데…', 그리고 시무룩한 표정으로 '아무도 답변을 안 해주셔…' (소파, 준호 CU)",
       "emotion": "억울+조급, 웃김",
       "kind": "still",
       "frame": "S_junho_sofa_cu",
@@ -362,12 +518,42 @@
         "path": "01_EPISODES/EP01R/frames/v08/S_junho_sofa_cu.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_sofa_cu.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_sofa_cu.png",
+            "name": "S_junho_sofa_cu.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_sofa_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_sofa.png",
+            "name": "S_junho_sofa.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_sofa.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/A08_junho_sofa_showphone.png",
+            "name": "A08_junho_sofa_showphone.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__A08_junho_sofa_showphone.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/J3_junho_at_island_r2.png",
+            "name": "J3_junho_at_island_r2.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J3_junho_at_island_r2.png.jpg"
+          }
+        ]
       },
       "video": {
-        "selected": "01_EPISODES/EP01R/video/v08/E1_08/EP01R_E1_08_kling3_take01.mp4",
+        "selected": "01_EPISODES/EP01R/video/v08/E1_08/EP01R_E1_08_kling3_take06.mp4",
         "selected_exists": true,
-        "default_take": 1,
+        "default_take": 6,
         "takes": [
           {
             "take": 1,
@@ -385,6 +571,24 @@
             "take": 5,
             "path": "01_EPISODES/EP01R/video/v08/E1_08/EP01R_E1_08_kling3_take05.mp4",
             "name": "EP01R_E1_08_kling3_take05.mp4",
+            "exists": true
+          },
+          {
+            "take": 6,
+            "path": "01_EPISODES/EP01R/video/v08/E1_08/EP01R_E1_08_kling3_take06.mp4",
+            "name": "EP01R_E1_08_kling3_take06.mp4",
+            "exists": true
+          },
+          {
+            "take": 7,
+            "path": "01_EPISODES/EP01R/video/v08/E1_08/EP01R_E1_08_kling3_take07.mp4",
+            "name": "EP01R_E1_08_kling3_take07.mp4",
+            "exists": true
+          },
+          {
+            "take": 8,
+            "path": "01_EPISODES/EP01R/video/v08/E1_08/EP01R_E1_08_kling3_take08.mp4",
+            "name": "EP01R_E1_08_kling3_take08.mp4",
             "exists": true
           }
         ],
@@ -413,12 +617,42 @@
         "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act1_cu.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act1_cu.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act1_cu.png",
+            "name": "S_ria_island_act1_cu.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act1_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act1.png",
+            "name": "S_ria_island_act1.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/G13_crop_ria_cu.png",
+            "name": "G13_crop_ria_cu.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__G13_crop_ria_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/B5_ots_island_r2_r1.png",
+            "name": "B5_ots_island_r2_r1.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__B5_ots_island_r2_r1.png.jpg"
+          }
+        ]
       },
       "video": {
-        "selected": "01_EPISODES/EP01R/video/v08/E1_09/EP01R_E1_09_kling3_take01.mp4",
+        "selected": "01_EPISODES/EP01R/video/v08/E1_09/EP01R_E1_09_kling3_take02.mp4",
         "selected_exists": true,
-        "default_take": 1,
+        "default_take": 2,
         "takes": [
           {
             "take": 1,
@@ -464,7 +698,37 @@
         "path": "01_EPISODES/EP01R/frames/v08/S_junho_sofa_cu.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_sofa_cu.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_sofa_cu.png",
+            "name": "S_junho_sofa_cu.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_sofa_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_sofa.png",
+            "name": "S_junho_sofa.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_sofa.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/A10_junho_sofa_to_suman.png",
+            "name": "A10_junho_sofa_to_suman.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__A10_junho_sofa_to_suman.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/J3_junho_at_island_r3.png",
+            "name": "J3_junho_at_island_r3.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J3_junho_at_island_r3.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": "01_EPISODES/EP01R/video/v08/E1_10/EP01R_E1_10_kling3_take01.mp4",
@@ -499,22 +763,31 @@
       "skip": false,
       "active": true,
       "who": "수만",
-      "line": "우리 집도 그래~ 읽기만 해...",
-      "spoken_line": true,
+      "line": "(네팔어 중얼거림: 우리 집도 그래, 읽기만 해)",
+      "spoken_line": false,
       "direction": "아무렇지 않다는 듯이 피클 뚜껑을 열며 말한다",
       "emotion": "여유, 위로",
       "kind": "still",
-      "frame": "S_suman_island_cu",
+      "frame": "G13_crop_suman_cu",
       "image": {
-        "path": "01_EPISODES/EP01R/frames/v08/S_suman_island_cu.png",
+        "path": "01_EPISODES/EP01R/frames/v08/G13_crop_suman_cu.png",
         "exists": true,
-        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_suman_island_cu.png.jpg",
-        "is_ui_mp4": false
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__G13_crop_suman_cu.png.jpg",
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/G13_crop_suman_cu.png",
+            "name": "G13_crop_suman_cu.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__G13_crop_suman_cu.png.jpg"
+          }
+        ]
       },
       "video": {
-        "selected": "01_EPISODES/EP01R/video/v08/E1_11/EP01R_E1_11_kling3_take01.mp4",
+        "selected": "01_EPISODES/EP01R/video/v08/E1_11/EP01R_E1_11_kling3_take04.mp4",
         "selected_exists": true,
-        "default_take": 1,
+        "default_take": 4,
         "takes": [
           {
             "take": 1,
@@ -526,6 +799,18 @@
             "take": 2,
             "path": "01_EPISODES/EP01R/video/v08/E1_11/EP01R_E1_11_kling3_take02.mp4",
             "name": "EP01R_E1_11_kling3_take02.mp4",
+            "exists": true
+          },
+          {
+            "take": 3,
+            "path": "01_EPISODES/EP01R/video/v08/E1_11/EP01R_E1_11_kling3_take03.mp4",
+            "name": "EP01R_E1_11_kling3_take03.mp4",
+            "exists": true
+          },
+          {
+            "take": 4,
+            "path": "01_EPISODES/EP01R/video/v08/E1_11/EP01R_E1_11_kling3_take04.mp4",
+            "name": "EP01R_E1_11_kling3_take04.mp4",
             "exists": true
           }
         ],
@@ -554,12 +839,35 @@
         "path": "01_EPISODES/EP01R/frames/v08/J4_junho_cu_r1.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J4_junho_cu_r1.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/J4_junho_cu_r1.png",
+            "name": "J4_junho_cu_r1.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J4_junho_cu_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/J4_junho_cu_r2.png",
+            "name": "J4_junho_cu_r2.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J4_junho_cu_r2.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v07/J4_junho_cu.png",
+            "name": "J4_junho_cu.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v07__J4_junho_cu.png.jpg"
+          }
+        ]
       },
       "video": {
-        "selected": "01_EPISODES/EP01R/video/v08/E1_12/EP01R_E1_12_kling3_take01.mp4",
+        "selected": "01_EPISODES/EP01R/video/v08/E1_12/EP01R_E1_12_kling3_take04.mp4",
         "selected_exists": true,
-        "default_take": 1,
+        "default_take": 4,
         "takes": [
           {
             "take": 1,
@@ -571,6 +879,18 @@
             "take": 2,
             "path": "01_EPISODES/EP01R/video/v08/E1_12/EP01R_E1_12_kling3_take02.mp4",
             "name": "EP01R_E1_12_kling3_take02.mp4",
+            "exists": true
+          },
+          {
+            "take": 3,
+            "path": "01_EPISODES/EP01R/video/v08/E1_12/EP01R_E1_12_kling3_take03.mp4",
+            "name": "EP01R_E1_12_kling3_take03.mp4",
+            "exists": true
+          },
+          {
+            "take": 4,
+            "path": "01_EPISODES/EP01R/video/v08/E1_12/EP01R_E1_12_kling3_take04.mp4",
+            "name": "EP01R_E1_12_kling3_take04.mp4",
             "exists": true
           }
         ],
@@ -599,7 +919,37 @@
         "path": "01_EPISODES/EP01R/frames/v08/S_suman_island_look_cu.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_suman_island_look_cu.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_suman_island_look_cu.png",
+            "name": "S_suman_island_look_cu.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_suman_island_look_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_suman_island_look.png",
+            "name": "S_suman_island_look.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_suman_island_look.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/H13_suman_bite.png",
+            "name": "H13_suman_bite.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__H13_suman_bite.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S2_suman_chew_r1.png",
+            "name": "S2_suman_chew_r1.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S2_suman_chew_r1.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": "01_EPISODES/EP01R/video/v08/E1_13/EP01R_E1_13_kling3_take01.mp4",
@@ -616,6 +966,12 @@
             "take": 2,
             "path": "01_EPISODES/EP01R/video/v08/E1_13/EP01R_E1_13_kling3_take02.mp4",
             "name": "EP01R_E1_13_kling3_take02.mp4",
+            "exists": true
+          },
+          {
+            "take": 3,
+            "path": "01_EPISODES/EP01R/video/v08/E1_13/EP01R_E1_13_kling3_take03.mp4",
+            "name": "EP01R_E1_13_kling3_take03.mp4",
             "exists": true
           }
         ],
@@ -644,12 +1000,35 @@
         "path": "01_EPISODES/EP01R/frames/v08/J4_junho_cu_r1.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J4_junho_cu_r1.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/J4_junho_cu_r1.png",
+            "name": "J4_junho_cu_r1.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J4_junho_cu_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/J4_junho_cu_r2.png",
+            "name": "J4_junho_cu_r2.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J4_junho_cu_r2.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v07/J4_junho_cu.png",
+            "name": "J4_junho_cu.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v07__J4_junho_cu.png.jpg"
+          }
+        ]
       },
       "video": {
-        "selected": "01_EPISODES/EP01R/video/v08/E1_14/EP01R_E1_14_kling3_take01.mp4",
+        "selected": "01_EPISODES/EP01R/video/v08/E1_14/EP01R_E1_14_kling3_take06.mp4",
         "selected_exists": true,
-        "default_take": 1,
+        "default_take": 6,
         "takes": [
           {
             "take": 1,
@@ -661,6 +1040,30 @@
             "take": 2,
             "path": "01_EPISODES/EP01R/video/v08/E1_14/EP01R_E1_14_kling3_take02.mp4",
             "name": "EP01R_E1_14_kling3_take02.mp4",
+            "exists": true
+          },
+          {
+            "take": 3,
+            "path": "01_EPISODES/EP01R/video/v08/E1_14/EP01R_E1_14_kling3_take03.mp4",
+            "name": "EP01R_E1_14_kling3_take03.mp4",
+            "exists": true
+          },
+          {
+            "take": 4,
+            "path": "01_EPISODES/EP01R/video/v08/E1_14/EP01R_E1_14_kling3_take04.mp4",
+            "name": "EP01R_E1_14_kling3_take04.mp4",
+            "exists": true
+          },
+          {
+            "take": 5,
+            "path": "01_EPISODES/EP01R/video/v08/E1_14/EP01R_E1_14_kling3_take05.mp4",
+            "name": "EP01R_E1_14_kling3_take05.mp4",
+            "exists": true
+          },
+          {
+            "take": 6,
+            "path": "01_EPISODES/EP01R/video/v08/E1_14/EP01R_E1_14_kling3_take06.mp4",
+            "name": "EP01R_E1_14_kling3_take06.mp4",
             "exists": true
           }
         ],
@@ -689,13 +1092,49 @@
         "path": "01_EPISODES/EP01R/frames/v08/G13_island_master_act1.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__G13_island_master_act1.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/G13_island_master_act1.png",
+            "name": "G13_island_master_act1.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__G13_island_master_act1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/D15_both_look_left.png",
+            "name": "D15_both_look_left.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__D15_both_look_left.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/T5_ria_suman_look_left_r1.png",
+            "name": "T5_ria_suman_look_left_r1.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__T5_ria_suman_look_left_r1.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": null,
         "selected_exists": false,
         "default_take": null,
-        "takes": [],
+        "takes": [
+          {
+            "take": 1,
+            "path": "01_EPISODES/EP01R/video/v08/E1_15/EP01R_E1_15_kling3_take01.mp4",
+            "name": "EP01R_E1_15_kling3_take01.mp4",
+            "exists": true
+          },
+          {
+            "take": 2,
+            "path": "01_EPISODES/EP01R/video/v08/E1_15/EP01R_E1_15_kling3_take02.mp4",
+            "name": "EP01R_E1_15_kling3_take02.mp4",
+            "exists": true
+          }
+        ],
         "note": ""
       },
       "conti": {
@@ -721,7 +1160,8 @@
         "path": "01_EPISODES/EP01R/edit/v06/ui/U11b_SCREEN_TAIL.mp4",
         "exists": true,
         "preview": null,
-        "is_ui_mp4": true
+        "is_ui_mp4": true,
+        "variants": []
       },
       "video": {
         "selected": null,
@@ -753,7 +1193,16 @@
         "path": "01_EPISODES/EP01R/frames/v08/F1c_phone_table_center.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__F1c_phone_table_center.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/F1c_phone_table_center.png",
+            "name": "F1c_phone_table_center.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__F1c_phone_table_center.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": null,
@@ -785,7 +1234,30 @@
         "path": "01_EPISODES/EP01R/frames/v08/H18_ria_laugh_hand.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__H18_ria_laugh_hand.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/H18_ria_laugh_hand.png",
+            "name": "H18_ria_laugh_hand.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__H18_ria_laugh_hand.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/D18_ria_laugh_hand_r1.png",
+            "name": "D18_ria_laugh_hand_r1.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__D18_ria_laugh_hand_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v07/B4_bea_laugh_hand.png",
+            "name": "B4_bea_laugh_hand.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v07__B4_bea_laugh_hand.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": null,
@@ -817,7 +1289,23 @@
         "path": "01_EPISODES/EP01R/frames/v08/J2c_halfstand_curious.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J2c_halfstand_curious.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/J2c_halfstand_curious.png",
+            "name": "J2c_halfstand_curious.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J2c_halfstand_curious.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v07/J2_junho_halfstand.png",
+            "name": "J2_junho_halfstand.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v07__J2_junho_halfstand.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": "01_EPISODES/EP01R/video/v08/E1_19/EP01R_E1_19_kling3_take01.mp4",
@@ -856,7 +1344,37 @@
         "path": "01_EPISODES/EP01R/frames/v08/J2b_junho_exit_right_r2.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J2b_junho_exit_right_r2.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/J2b_junho_exit_right_r2.png",
+            "name": "J2b_junho_exit_right_r2.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J2b_junho_exit_right_r2.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/J2b_junho_exit_right.png",
+            "name": "J2b_junho_exit_right.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J2b_junho_exit_right.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/J2b_junho_exit_right_r1.png",
+            "name": "J2b_junho_exit_right_r1.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J2b_junho_exit_right_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/J2_junho_halfstand_r2.png",
+            "name": "J2_junho_halfstand_r2.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J2_junho_halfstand_r2.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": null,
@@ -888,7 +1406,16 @@
         "path": "01_EPISODES/EP01R/video/v08/E1_08_WALK/EP01R_E1_08_WALK_kling3_take01.mp4",
         "exists": true,
         "preview": null,
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/J9_junho_crossing_r1_r1_r1.png",
+            "name": "J9_junho_crossing_r1_r1_r1.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J9_junho_crossing_r1_r1_r1.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": null,
@@ -920,7 +1447,51 @@
         "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
+            "name": "S_ria_island_act2_cu.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2.png",
+            "name": "S_ria_island_act2.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu_r1.png",
+            "name": "S_ria_island_act2_cu_r1.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu_r1_crop.png",
+            "name": "S_ria_island_act2_cu_r1_crop.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu_r1_crop.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/G40_island_master_act2_r1.png",
+            "name": "G40_island_master_act2_r1.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__G40_island_master_act2_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/B7_bea_hiding_phone_r1.png",
+            "name": "B7_bea_hiding_phone_r1.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__B7_bea_hiding_phone_r1.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": "01_EPISODES/EP01R/video/v08/E1_22/EP01R_E1_22_kling3_take01.mp4",
@@ -971,7 +1542,51 @@
         "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r2.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r2.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r2.png",
+            "name": "S_junho_island_r2.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r2.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island.png",
+            "name": "S_junho_island.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_cu.png",
+            "name": "S_junho_island_cu.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r1.png",
+            "name": "S_junho_island_r1.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/G40_crop_junho_cu.png",
+            "name": "G40_crop_junho_cu.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__G40_crop_junho_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/J3_junho_at_island_r4.png",
+            "name": "J3_junho_at_island_r4.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J3_junho_at_island_r4.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": null,
@@ -1010,7 +1625,51 @@
         "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
+            "name": "S_ria_island_act2_cu.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2.png",
+            "name": "S_ria_island_act2.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu_r1.png",
+            "name": "S_ria_island_act2_cu_r1.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu_r1_crop.png",
+            "name": "S_ria_island_act2_cu_r1_crop.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu_r1_crop.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/G40_island_master_act2_r1.png",
+            "name": "G40_island_master_act2_r1.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__G40_island_master_act2_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/J10_junho_reading_her_phone_r2.png",
+            "name": "J10_junho_reading_her_phone_r2.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J10_junho_reading_her_phone_r2.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": null,
@@ -1049,7 +1708,8 @@
         "path": "01_EPISODES/EP01R/edit/v06/ui/U18b_DMLIST.mp4",
         "exists": true,
         "preview": null,
-        "is_ui_mp4": true
+        "is_ui_mp4": true,
+        "variants": []
       },
       "video": {
         "selected": null,
@@ -1081,7 +1741,51 @@
         "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r2.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r2.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r2.png",
+            "name": "S_junho_island_r2.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r2.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island.png",
+            "name": "S_junho_island.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_cu.png",
+            "name": "S_junho_island_cu.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r1.png",
+            "name": "S_junho_island_r1.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/H26_junho_jawdrop.png",
+            "name": "H26_junho_jawdrop.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__H26_junho_jawdrop.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/J10_junho_reading_her_phone_r1.png",
+            "name": "J10_junho_reading_her_phone_r1.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J10_junho_reading_her_phone_r1.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": null,
@@ -1120,7 +1824,37 @@
         "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act1_cu.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act1_cu.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act1_cu.png",
+            "name": "S_ria_island_act1_cu.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act1_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act1.png",
+            "name": "S_ria_island_act1.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/G40_island_master_act2_r1.png",
+            "name": "G40_island_master_act2_r1.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__G40_island_master_act2_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/B2_bea_phone_up_r2.png",
+            "name": "B2_bea_phone_up_r2.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__B2_bea_phone_up_r2.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": null,
@@ -1159,7 +1893,8 @@
         "path": "01_EPISODES/EP01R/edit/v06/ui/U20b_MAMA_DM.mp4",
         "exists": true,
         "preview": null,
-        "is_ui_mp4": true
+        "is_ui_mp4": true,
+        "variants": []
       },
       "video": {
         "selected": null,
@@ -1191,7 +1926,8 @@
         "path": "01_EPISODES/EP01R/edit/v06/ui/U21b_DM_QUESTIONS.mp4",
         "exists": true,
         "preview": null,
-        "is_ui_mp4": true
+        "is_ui_mp4": true,
+        "variants": []
       },
       "video": {
         "selected": null,
@@ -1223,7 +1959,51 @@
         "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r2.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r2.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r2.png",
+            "name": "S_junho_island_r2.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r2.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island.png",
+            "name": "S_junho_island.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_cu.png",
+            "name": "S_junho_island_cu.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r1.png",
+            "name": "S_junho_island_r1.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/G40_island_master_act2_r1.png",
+            "name": "G40_island_master_act2_r1.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__G40_island_master_act2_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/R30_junho_eyes_off_her_phone.png",
+            "name": "R30_junho_eyes_off_her_phone.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__R30_junho_eyes_off_her_phone.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": null,
@@ -1262,7 +2042,51 @@
         "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
+            "name": "S_ria_island_act2_cu.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2.png",
+            "name": "S_ria_island_act2.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu_r1.png",
+            "name": "S_ria_island_act2_cu_r1.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu_r1_crop.png",
+            "name": "S_ria_island_act2_cu_r1_crop.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu_r1_crop.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/G40_crop_ria_cu.png",
+            "name": "G40_crop_ria_cu.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__G40_crop_ria_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/R31_ria_cu_island_halfsmile.png",
+            "name": "R31_ria_cu_island_halfsmile.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__R31_ria_cu_island_halfsmile.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": null,
@@ -1301,7 +2125,51 @@
         "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r2.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r2.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r2.png",
+            "name": "S_junho_island_r2.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r2.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island.png",
+            "name": "S_junho_island.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_cu.png",
+            "name": "S_junho_island_cu.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r1.png",
+            "name": "S_junho_island_r1.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/G40_crop_junho_cu.png",
+            "name": "G40_crop_junho_cu.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__G40_crop_junho_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/R32_junho_cu_island.png",
+            "name": "R32_junho_cu_island.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__R32_junho_cu_island.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": null,
@@ -1340,7 +2208,51 @@
         "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
+            "name": "S_ria_island_act2_cu.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2.png",
+            "name": "S_ria_island_act2.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu_r1.png",
+            "name": "S_ria_island_act2_cu_r1.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu_r1_crop.png",
+            "name": "S_ria_island_act2_cu_r1_crop.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu_r1_crop.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/G40_crop_ria_cu.png",
+            "name": "G40_crop_ria_cu.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__G40_crop_ria_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v07/B3_bea_cu.png",
+            "name": "B3_bea_cu.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v07__B3_bea_cu.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": null,
@@ -1379,7 +2291,51 @@
         "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r2.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r2.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r2.png",
+            "name": "S_junho_island_r2.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r2.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island.png",
+            "name": "S_junho_island.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_cu.png",
+            "name": "S_junho_island_cu.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r1.png",
+            "name": "S_junho_island_r1.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/G40_island_master_act2_r1.png",
+            "name": "G40_island_master_act2_r1.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__G40_island_master_act2_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/J11_junho_cheek_r1_r1.png",
+            "name": "J11_junho_cheek_r1_r1.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J11_junho_cheek_r1_r1.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": null,
@@ -1418,7 +2374,37 @@
         "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act1_cu.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act1_cu.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act1_cu.png",
+            "name": "S_ria_island_act1_cu.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act1_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act1.png",
+            "name": "S_ria_island_act1.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/G40_island_master_act2_r1.png",
+            "name": "G40_island_master_act2_r1.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__G40_island_master_act2_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v07/B8_bea_busy_typing.png",
+            "name": "B8_bea_busy_typing.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v07__B8_bea_busy_typing.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": null,
@@ -1457,7 +2443,8 @@
         "path": "01_EPISODES/EP01R/edit/v06/ui/U33b_BEA_REPLIES.mp4",
         "exists": true,
         "preview": null,
-        "is_ui_mp4": true
+        "is_ui_mp4": true,
+        "variants": []
       },
       "video": {
         "selected": null,
@@ -1489,7 +2476,44 @@
         "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r2.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r2.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r2.png",
+            "name": "S_junho_island_r2.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r2.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island.png",
+            "name": "S_junho_island.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_cu.png",
+            "name": "S_junho_island_cu.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r1.png",
+            "name": "S_junho_island_r1.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/G40_crop_junho_cu.png",
+            "name": "G40_crop_junho_cu.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__G40_crop_junho_cu.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": null,
@@ -1521,7 +2545,8 @@
         "path": "01_EPISODES/EP01R/edit/v06/ui/U25b_MAMA_EAT.mp4",
         "exists": true,
         "preview": null,
-        "is_ui_mp4": true
+        "is_ui_mp4": true,
+        "variants": []
       },
       "video": {
         "selected": null,
@@ -1553,7 +2578,30 @@
         "path": "01_EPISODES/EP01R/frames/v08/H39_junho_joy.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__H39_junho_joy.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/H39_junho_joy.png",
+            "name": "H39_junho_joy.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__H39_junho_joy.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/C39_junho_joy.png",
+            "name": "C39_junho_joy.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__C39_junho_joy.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/J2_junho_halfstand_r2.png",
+            "name": "J2_junho_halfstand_r2.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J2_junho_halfstand_r2.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": null,
@@ -1592,7 +2640,51 @@
         "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
+            "name": "S_ria_island_act2_cu.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2.png",
+            "name": "S_ria_island_act2.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu_r1.png",
+            "name": "S_ria_island_act2_cu_r1.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu_r1_crop.png",
+            "name": "S_ria_island_act2_cu_r1_crop.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu_r1_crop.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/G40_crop_ria_cu.png",
+            "name": "G40_crop_ria_cu.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__G40_crop_ria_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/B3_bea_cu_r3.png",
+            "name": "B3_bea_cu_r3.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__B3_bea_cu_r3.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": null,
@@ -1631,7 +2723,44 @@
         "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r2.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r2.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r2.png",
+            "name": "S_junho_island_r2.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r2.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island.png",
+            "name": "S_junho_island.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_cu.png",
+            "name": "S_junho_island_cu.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_junho_island_r1.png",
+            "name": "S_junho_island_r1.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_junho_island_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/G40_crop_junho_cu.png",
+            "name": "G40_crop_junho_cu.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__G40_crop_junho_cu.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": null,
@@ -1670,7 +2799,51 @@
         "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png",
+            "name": "S_ria_island_act2_cu.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2.png",
+            "name": "S_ria_island_act2.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu_r1.png",
+            "name": "S_ria_island_act2_cu_r1.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu_r1_crop.png",
+            "name": "S_ria_island_act2_cu_r1_crop.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act2_cu_r1_crop.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/G40_crop_ria_cu.png",
+            "name": "G40_crop_ria_cu.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__G40_crop_ria_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v07/B5_ots_island.png",
+            "name": "B5_ots_island.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v07__B5_ots_island.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": null,
@@ -1709,7 +2882,30 @@
         "path": "01_EPISODES/EP01R/frames/v08/H43_junho_submits_phone.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__H43_junho_submits_phone.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/H43_junho_submits_phone.png",
+            "name": "H43_junho_submits_phone.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__H43_junho_submits_phone.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/C43_junho_submits_phone.png",
+            "name": "C43_junho_submits_phone.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__C43_junho_submits_phone.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v07/J12_junho_submits_phone.png",
+            "name": "J12_junho_submits_phone.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v07__J12_junho_submits_phone.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": null,
@@ -1748,7 +2944,30 @@
         "path": "01_EPISODES/EP01R/frames/v08/H44e_suman_headshake_emptyjar.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__H44e_suman_headshake_emptyjar.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/H44e_suman_headshake_emptyjar.png",
+            "name": "H44e_suman_headshake_emptyjar.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__H44e_suman_headshake_emptyjar.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/C44_suman_headshake_r1.png",
+            "name": "C44_suman_headshake_r1.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__C44_suman_headshake_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v06/EP01R_W1_wide_e1.png",
+            "name": "EP01R_W1_wide_e1.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v06__EP01R_W1_wide_e1.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": null,
@@ -1780,7 +2999,23 @@
         "path": "01_EPISODES/EP01R/frames/v08/H44e_crop_suman_cu.png",
         "exists": true,
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__H44e_crop_suman_cu.png.jpg",
-        "is_ui_mp4": false
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/H44e_crop_suman_cu.png",
+            "name": "H44e_crop_suman_cu.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__H44e_crop_suman_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/C45_suman_cu_headshake_crop.png",
+            "name": "C45_suman_cu_headshake_crop.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__C45_suman_cu_headshake_crop.png.jpg"
+          }
+        ]
       },
       "video": {
         "selected": null,

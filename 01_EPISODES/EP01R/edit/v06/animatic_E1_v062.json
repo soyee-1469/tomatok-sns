@@ -16,7 +16,10 @@
   "frame_old": "EP01R_W1_wide_e1_r4",
   "frame_prev": "C01_opening_full_wide",
   "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/C01_opening_full_wide.png",
-  "dir_override": "밤 열 시. 준호 혼자 소파 가운데, 폰을 두 손으로. 22명 방이 조용하다 (소파 와이드, 느린 줌)"
+  "dir_override": "밤 열 시. 준호 혼자 소파 가운데, 폰을 두 손으로. 22명 방이 조용하다 (소파 와이드, 느린 줌)",
+  "clip_prev": null,
+  "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_01/EP01R_E1_01_kling3_take01.mp4",
+  "clip_selected_at": "2026-11-16"
  },
  {
   "n": 2,
@@ -152,7 +155,7 @@
  {
   "n": 8,
   "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/S_junho_sofa_cu.png",
-  "dur": 3.04,
+  "dur": 5.0,
   "line": "다들 읽으셨는데... 아무도 답변을 안 해주셔...",
   "who": "준호",
   "kind": "still",
@@ -165,14 +168,16 @@
   "n_old": 10,
   "frame_old": "J3_junho_at_island_r2",
   "line_prev": "리아 봐봐. 다들 읽으셨는데…… 아무도 답변을 안 해 주셔 ㅠㅠ",
-  "dir_override": "핸드폰을 자세히 들여다보며 '다들 읽으셨는데…', 그리고 시무룩한 표정으로 '아무도 답변을 안 해주셔…' (소파)",
+  "dir_override": "핸드폰을 자세히 들여다보며 '다들 읽으셨는데…', 그리고 시무룩한 표정으로 '아무도 답변을 안 해주셔…' (소파, 준호 CU)",
   "frame_group": "A08_junho_sofa_showphone",
   "frame_prev": "A08_junho_sofa_showphone",
   "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/A08_junho_sofa_showphone.png",
-  "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_08/EP01R_E1_08_kling3_take01.mp4",
+  "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_08/EP01R_E1_08_kling3_take06.mp4",
   "clip_dur": 3.04,
   "dur_still_backup": 3.4,
-  "clip_note": "11-06 take01 (사용자 선택 2026-11-09)"
+  "clip_note": "11-06 take01 (사용자 선택 2026-11-09)",
+  "clip_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_08/EP01R_E1_08_kling3_take01.mp4",
+  "clip_selected_at": "2026-11-16"
  },
  {
   "n": 9,
@@ -195,7 +200,7 @@
   "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/G13_crop_ria_cu.png",
   "line_prev": "다들 뭐라고 답장할까 고민중이실거야",
   "frame_group": "G13_crop_ria_cu",
-  "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_09/EP01R_E1_09_kling3_take01.mp4",
+  "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_09/EP01R_E1_09_kling3_take02.mp4",
   "clip_dur": 3.04,
   "dur_still_backup": 2.0,
   "clip_note": "11-06 take01 (사용자 선택 2026-11-09)"
@@ -227,12 +232,12 @@
  },
  {
   "n": 11,
-  "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/S_suman_island_cu.png",
+  "src": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/G13_crop_suman_cu.png",
   "dur": 3.04,
-  "line": "우리 집도 그래~ 읽기만 해...",
+  "line": "(네팔어 중얼거림: 우리 집도 그래, 읽기만 해)",
   "who": "수만",
   "kind": "still",
-  "frame": "S_suman_island_cu",
+  "frame": "G13_crop_suman_cu",
   "situation": "수만이 아일랜드 뒤에 서서 피클병을 내려놓으며 소파 쪽에 말한다",
   "emotion": "여유, 위로",
   "action": "피클병 내려놓기, 고개는 소파 쪽(화면 왼쪽) / 피클병 내려놓으면서 식탁에 서있다. / 피클병 내려놓으면서 식탁에 서있다. 식탁앞에는 리아가 아일랜드 의자에 앉아있고 그옆에 서서 쩔쩔매는 준호가 있다. / 피클병 내려놓으면서 식탁에 서있다. 식탁앞에는 리아가 아일랜드 의자에 앉아있고 그옆에 서서 쩔쩔매는 준호가 있다.",
@@ -245,11 +250,15 @@
   "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/G13_crop_suman_cu.png",
   "line_prev": "우리 집도 그래. 읽기만 해.",
   "frame_group": "G13_crop_suman_cu",
-  "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_11/EP01R_E1_11_kling3_take01.mp4",
+  "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_11/EP01R_E1_11_kling3_take04.mp4",
   "clip_dur": 3.04,
   "dur_still_backup": 2.2,
   "clip_note": "11-06 take01 (사용자 선택 2026-11-09)",
-  "line_note": "각본 v07.2: 네팔어 중얼(뜻: 우리 집도 그래. 읽기만 해.). 자막·클립 처리 미정, take01은 한국어 발화라 재생성 대상"
+  "line_note": "각본 v07.2: 네팔어 중얼(뜻: 우리 집도 그래. 읽기만 해.). 자막·클립 처리 미정, take01은 한국어 발화라 재생성 대상",
+  "clip_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_11/EP01R_E1_11_kling3_take01.mp4",
+  "clip_selected_at": "2026-11-16",
+  "src_prev_1116": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/S_suman_island_cu.png",
+  "line_kr_meaning": "우리 집도 그래. 읽기만 해."
  },
  {
   "n": 12,
@@ -269,10 +278,12 @@
   "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/J4_junho_cu_r1.png",
   "line_prev": "그럼 대답은 언제 와요? 저 기다릴 수 있어요. 밤새도 돼요.",
   "dir_override": "다행이라는 듯이, 기대하는 눈빛 (준호 CU)",
-  "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_12/EP01R_E1_12_kling3_take01.mp4",
+  "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_12/EP01R_E1_12_kling3_take04.mp4",
   "clip_dur": 3.04,
   "dur_still_backup": 2.4,
-  "clip_note": "11-06 take01 (사용자 선택 2026-11-09)"
+  "clip_note": "11-06 take01 (사용자 선택 2026-11-09)",
+  "clip_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_12/EP01R_E1_12_kling3_take01.mp4",
+  "clip_selected_at": "2026-11-16"
  },
  {
   "n": 13,
@@ -320,10 +331,12 @@
   "src_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/frames/v08/J4_junho_cu_r2.png",
   "dir_override": "당황한 표정 (준호 CU)",
   "line_prev": "……저 알람 맞출게요.",
-  "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_14/EP01R_E1_14_kling3_take01.mp4",
+  "clip": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_14/EP01R_E1_14_kling3_take06.mp4",
   "clip_dur": 3.04,
   "dur_still_backup": 2.2,
-  "clip_note": "11-06 take01 (사용자 선택 2026-11-09)"
+  "clip_note": "11-06 take01 (사용자 선택 2026-11-09)",
+  "clip_prev": "/Users/ymy/project/sns/01_EPISODES/EP01R/video/v08/E1_14/EP01R_E1_14_kling3_take01.mp4",
+  "clip_selected_at": "2026-11-16"
  },
  {
   "n": 15,

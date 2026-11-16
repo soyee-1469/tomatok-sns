@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-16T01:25:53.358595Z",
+    "display_name": "Kling v3.0",
+    "id": "a40eae00-ba22-413b-8e45-4524d24a4c73",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 3,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "8c9ae64a-e504-462e-9721-686507e82099",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/8c9ae64a-e504-462e-9721-686507e82099_resize.jpg"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "SCENE CONTEXT\nEvening living room, sofa-axis camera; the kitchen island is off-frame to the right and stays off-frame. He has just heard, from off-frame, that the family only ever calls, at four in the morning, and has just realised that means someone might actually call HIM. He is the only person visible in this shot. Exactly as in the start image: the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt over a white T-shirt, ID badge on a navy lanyard) in tight close-up on the sofa, phone held low in both hands, soft phone-screen glow on his face.\n\nCAMERA\nOne continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain.\n\nACTION\n0.0–0.3s: his eyes are on the island (camera-right); the thought lands. A tiny double-take: eyebrows up, eyes widening with a little thrill. No speech yet.\n0.3–0.9s: a breathy, slightly excited \"…아…\", eyes dropping from the island to the phone in his hands as if the phone might ring any second, the phone itself staying where it is.\n0.9–2.4s: he says \"전화가 오면 어쩌지…\" mostly to himself, flustered in a happy way, a nervous little smile tugging at the corners of his mouth, eyes bright and darting between the phone and the middle distance just below the lens, a small swallow at the end. The whole line must finish by 2.4s.\n2.4–3.0s: he holds the giddy, slightly overwhelmed look, mouth closing into a small helpless smile, blinks once, shoulders lifting a touch with a held breath.\n\nPERFORMANCE\nHopeful → thought lands → giddy and flustered, a little excited and a little scared at the same time, like a man who just realised the girl's family might actually call him. Not grim, not dread: the mood is lifted and buzzing. The comedy is that he is completely sincere about it. Small, readable changes in the eyebrows, eyes and mouth; natural head movement is fine. He is a very kind, funny man who loves his girlfriend deeply: a natural comedian, playful and a little goofy, with quick expressive reactions and good comic timing. He is never annoyed with anyone; any frustration is aimed at himself or the situation, and it shows as stillness and longer pauses, never as a sharper voice. Avoid a wide grin, avoid looking into the lens, avoid hand gestures for this cut.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.\n\nIDENTITY AND CONTINUITY\nPreserve the same face, hair, glasses, clothes and visible scene throughout. The background behind him stays empty of people for the entire clip: no one walks past, no one stands up, no one appears at the edge of the frame. The phone stays held in both hands at exactly the same height as in the start image for the whole clip, the top of the phone always visible at the bottom edge of the frame; the hands never lower or leave the frame; no cushion, pillow or any new object appears. Absolutely no other person enters or is visible at any point. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe man speaks natural native Korean, low, calm and quiet, polite and unhurried, never raising his voice; even when flustered his volume stays the same and only the pauses get longer.\nDelivery: for THIS line, half to himself, breathy and a little excited, a short pause after \"아\", slight stress on \"전화\", the ending trails off on a soft, slightly lifted tone, as if he cannot quite believe it.\nExact spoken words: \"…아… 전화가 오면 어쩌지…\". No additional speech, no other words in any language. Natural visible lip-sync. Nobody else speaks.",
+      "reference_elements": [],
+      "sound": "on",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_012553_a40eae00-ba22-413b-8e45-4524d24a4c73.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_012553_a40eae00-ba22-413b-8e45-4524d24a4c73_thumbnail.webp"
+  }
+]
+--stderr--

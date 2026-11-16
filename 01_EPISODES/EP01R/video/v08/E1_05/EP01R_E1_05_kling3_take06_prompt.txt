@@ -1,0 +1,26 @@
+SCENE CONTEXT
+Evening living room, island-axis camera: the living room sofa is off-frame to the LEFT, the kitchen wall with copper shelves and pans is behind her on camera-right. Exactly as in the start image: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt, small gold hoops, no glasses) in close-up seated at the kitchen island, eyes down on her phone just below the frame, a small amused smile. She is the only person visible in this shot.
+
+CAMERA
+One continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting with warm copper pendant lamps, no film grain.
+
+ACTION
+0.0–0.3s: eyes still on the phone, a tiny amused breath. No speech yet.
+0.3–1.5s: still looking down at the phone, offhand and relaxed, she says the first sentence "내가 잘 말해뒀어." like it is already handled, a small one-shoulder shrug.
+1.5–2.0s: a pause; her eyes lift from the phone and her head turns toward the sofa at camera-LEFT, toward the man off-frame, a fond smile growing as if she finds him cute.
+2.0–3.4s: looking at him, warm and reassuring, she says the second sentence "편하게 얘기해도 돼." with a small reassuring nod.
+3.4–4.0s: she holds the fond look on him for a beat, then her eyes drift back down toward the phone, smile staying.
+
+PERFORMANCE
+Offhand → fond → reassuring. She is relaxed and a little teasing, the calm one in the room; he is the nervous one. Small, readable changes in the eyes, eyebrows and mouth; natural head movement is fine. Avoid a wide grin, avoid looking into the lens, avoid hand gestures for this cut.
+
+AUDIO
+Quiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.
+
+IDENTITY AND CONTINUITY
+Preserve the same face, hair, clothes and visible scene throughout. The background behind her stays empty of people for the entire clip: no one walks past, no one appears at the edge of the frame. Absolutely no other person enters or is visible at any point. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The woman speaks fluent Korean with a light Filipino-English accent and a bright, slightly rising English-like rhythm; relaxed and unhurried, never loud.
+Delivery: for THIS line, two sentences with a clear pause between them. First sentence "내가 잘 말해뒀어." casual and offhand, said to the phone, light stress on "잘", the ending level. Second sentence "편하게 얘기해도 돼." warm and reassuring, said to him, light stress on "편하게", the ending settling gently downward like a promise. Every syllable of both sentences must be clearly spoken and finished by 3.4s.
+Exact spoken words: "내가 잘 말해뒀어. 편하게 얘기해도 돼.". No additional speech, no other words in any language. Natural visible lip-sync. Nobody else speaks.

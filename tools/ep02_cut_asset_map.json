@@ -582,7 +582,7 @@
       "frame": "C14",
       "flag": {
         "status": "stale",
-        "note": "구 각본(영수증) — 재생성 대기"
+        "note": "구 각본(영수증) — USB로 재생성 대기"
       },
       "image": {
         "path": null,
@@ -621,7 +621,7 @@
       "frame": "C15",
       "flag": {
         "status": "stale",
-        "note": "구 각본(영수증) — 재생성 대기"
+        "note": "구 각본(영수증) — USB로 재생성 대기"
       },
       "image": {
         "path": null,
@@ -660,7 +660,7 @@
       "frame": "C16",
       "flag": {
         "status": "stale",
-        "note": "구 각본(영수증) — 재생성 대기"
+        "note": "구 각본(영수증) — USB로 재생성 대기"
       },
       "image": {
         "path": "01_EPISODES/EP01R/frames/v08/E2_T13_usb_box_twoshot_lv1.png",
@@ -699,10 +699,7 @@
       "emotion": "",
       "kind": "still",
       "frame": "C17",
-      "flag": {
-        "status": "stale",
-        "note": "구 각본(영수증) — 재생성 대기"
-      },
+      "flag": null,
       "image": {
         "path": null,
         "exists": false,
@@ -954,7 +951,10 @@
       "emotion": "",
       "kind": "still",
       "frame": "C24",
-      "flag": null,
+      "flag": {
+        "status": "recommend",
+        "note": "상자 동작 추가 권장(준호가 USB 상자를 등 뒤로 / 다시 무릎 위로)"
+      },
       "image": {
         "path": null,
         "exists": false,
@@ -1170,7 +1170,10 @@
       "emotion": "",
       "kind": "still",
       "frame": "C30",
-      "flag": null,
+      "flag": {
+        "status": "recommend",
+        "note": "상자 동작 추가 권장(준호가 USB 상자를 등 뒤로 / 다시 무릎 위로)"
+      },
       "image": {
         "path": null,
         "exists": false,

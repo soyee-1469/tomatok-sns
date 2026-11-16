@@ -1,0 +1,15 @@
+[
+  {
+    "created_at": "2026-11-16T01:10:47.929292Z",
+    "display_name": "Mirelo Text to Audio",
+    "id": "4b5f07fc-a6c5-496b-9b38-c54d57a0509f",
+    "job_type": "mirelo_text_to_audio",
+    "min_result_url": null,
+    "params": {
+      "duration": 3,
+      "prompt": "Multi-camera sitcom live studio audience: a short light chuckle from a medium-sized audience, a few people laughing softly, warm room, no applause, no music, no voices speaking."
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_011047_4b5f07fc-a6c5-496b-9b38-c54d57a0509f.mp3",
+    "status": "completed"
+  }
+]

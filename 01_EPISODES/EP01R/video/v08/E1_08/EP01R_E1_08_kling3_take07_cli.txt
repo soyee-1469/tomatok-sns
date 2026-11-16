@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-16T01:38:48.621361Z",
+    "display_name": "Kling v3.0",
+    "id": "9e9c4c75-4adb-4e33-83af-41c8322b63ee",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 5,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "00238320-4a74-42ba-8d4c-f4f73930eeb2",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/00238320-4a74-42ba-8d4c-f4f73930eeb2_resize.jpg"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "SCENE CONTEXT\nEvening living room, sofa-axis camera; the kitchen island is off-frame to the right and stays off-frame. Exactly as in the start image: the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt over a white T-shirt, ID badge on a navy lanyard) in tight close-up on the sofa, phone held low in both hands, soft phone-screen glow on his face. He is reading a family group chat where everyone has read his greeting and nobody has replied. He is the only person visible in this shot.\n\nCAMERA\nOne continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain.\n\nACTION\n0.0–0.3s: eyes on the phone, he leans in a few centimeters to read the screen more closely, eyebrows lifting a little in curiosity. No speech yet.\n0.3–1.6s: still peering at the screen, he murmurs \"다들 읽으셨는데...\" softly to himself, as if quietly impressed that everyone read it, a small confirming nod.\n1.6–2.1s: a pause; his eyes stay on the screen, then a small puzzled tilt of the head, a faint sheepish half-smile starting.\n2.1–3.6s: gently puzzled and a little sheepish, mostly to himself, he murmurs \"아무도 답변을 안 해주셔...\" like a man reporting a small, slightly funny fact about his own bad luck, eyes drifting off the screen to the middle distance just below the lens, a slow blink and the faint half-smile staying.\n3.6–5.0s: he holds the resigned, slightly amused look, a soft breath out, eyes coming back to the phone, patiently waiting.\n\nPERFORMANCE\nCurious → quietly impressed → gently puzzled and resigned, with a faint self-deprecating smile. Absolutely no irritation, no complaint, no sulking, no sighing in annoyance: he finds his own situation a little funny and sad at the same time. He is a very kind, funny man who loves his girlfriend deeply: a natural comedian, playful and a little goofy, with quick expressive reactions and good comic timing. He is never annoyed with anyone; any frustration shows as stillness and longer pauses, never as a sharper voice. Small, readable changes in the eyebrows, eyes and mouth; natural head movement is fine. Avoid a wide grin, avoid looking into the lens, avoid hand gestures for this cut.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.\n\nIDENTITY AND CONTINUITY\nPreserve the same face, hair, glasses, clothes and visible scene throughout. The phone stays held in both hands at the same height as in the start image for the whole clip, the top of the phone always visible at the bottom edge of the frame. The background behind him stays empty of people for the entire clip: no one walks past, no one appears at the edge of the frame. Absolutely no other person enters or is visible at any point. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe man speaks natural native Korean, low, calm and quiet, polite and unhurried, never raising his voice; even when deflated his volume stays the same and only the pauses get longer.\nDelivery: for THIS line, two parts with a clear pause between them, both murmured softly and evenly, no stressed words, no sharp consonants, no whining tone. First part \"다들 읽으셨는데...\" quiet and matter-of-fact, trailing off. Second part \"아무도 답변을 안 해주셔...\" soft, resigned, a little amused at himself, almost smiling as he says it, the ending drifting down gently on a soft falling tone. Every syllable of both parts must be clearly spoken and finished by 3.6s.\nExact spoken words: \"다들 읽으셨는데... 아무도 답변을 안 해주셔...\". No additional speech, no other words in any language. Natural visible lip-sync. Nobody else speaks.",
+      "reference_elements": [],
+      "sound": "on",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_013848_9e9c4c75-4adb-4e33-83af-41c8322b63ee.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_013848_9e9c4c75-4adb-4e33-83af-41c8322b63ee_thumbnail.webp"
+  }
+]
+--stderr--

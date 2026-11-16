@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-16T01:57:31.563534Z",
+    "display_name": "Kling v3.0",
+    "id": "4c1386b6-291c-42da-97fc-e4d25a1b5ae9",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 3,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "a4aa96bc-3886-49c7-9a12-8d9026090d2f",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/a4aa96bc-3886-49c7-9a12-8d9026090d2f.png"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "SCENE CONTEXT\nEvening kitchen island, island-axis camera: white marble counter with an oak body, copper pans and shelves behind him, lit by warm light from sources that are all off-frame; no lamp, pendant or bulb is visible in the frame and none appears; the living-room sofa is off-frame to the left and stays off-frame. Exactly as in the start image: the Nepali man (31, deep brown skin, black curly hair, short trimmed beard, white chef's jacket, plain black bib apron) stands behind the counter, both hands on a glass jar of pickles, looking down at the jar. A bowl of lemons and a small vase of flowers on the counter. He is the only person visible in this shot.\n\nCAMERA\nOne continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting, no film grain.\n\nACTION\n0.0–0.3s: he grips the jar lid, eyes on the jar, relaxed. No speech yet.\n0.3–2.3s: while twisting the lid open, unhurried, he murmurs the line to himself in Nepali, a small easy shrug of one shoulder, then a brief glance toward the sofa off-frame left with a faint reassuring half-smile.\n2.3–3.0s: eyes back on the jar, the lid comes off, he sets it down calmly.\n\nPERFORMANCE\nRelaxed, warm, matter-of-fact: a calm cook reassuring a nervous friend without making a big deal of it. Easy posture, slow hands, nothing exaggerated, no looking into the lens.\n\nAUDIO\nQuiet kitchen ambience only (soft refrigerator hum, a faint glass-lid twist). No music, no notification sounds.\n\nIDENTITY AND CONTINUITY\nPreserve the same face, hair, beard, jacket, apron and visible kitchen throughout. Nothing new appears in the frame: no lamp, no pendant, no bulb, no new object; the top of the frame stays exactly as in the start image. The jar stays on the counter in his hands. The background stays empty of people for the entire clip: no one walks past, no one appears at the edge of the frame. Absolutely no other person enters or is visible at any point. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe man speaks only Nepali, not Korean, not Hindi, not English: a low, soft, unhurried murmur with a natural Nepali voice and rhythm, half to himself, friendly and reassuring, ending on a relaxed falling tone.\nExact spoken words (Nepali): \"हाम्रो घरमा पनि यस्तै हो… पढ्छन् मात्र।\" (Hamro gharma pani yastai ho… padhchhan matra.)\nNo additional speech, no words in any other language. Natural visible lip-sync. Nobody else speaks.",
+      "reference_elements": [],
+      "sound": "on",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_015731_4c1386b6-291c-42da-97fc-e4d25a1b5ae9.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_015731_4c1386b6-291c-42da-97fc-e4d25a1b5ae9_thumbnail.webp"
+  }
+]
+--stderr--

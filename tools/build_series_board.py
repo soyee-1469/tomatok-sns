@@ -16,7 +16,7 @@ WORLD = ROOT / '00_MASTER_ASSETS/WORLD_PLANNING'
 SB = ROOT / '01_EPISODES/EP01R/frames/v08/STORYBOARD'
 EPISODES = [
     dict(id='EP01', title='읽음 22', stage='기존 제작본 재검토', next='각본·콘티와 기존 영상의 최종 일치 확인', script='EP01_SCRIPT_FINAL_v07.md', boards='EP01_island_[0-9]*.png'),
-    dict(id='EP02', title='싸움은 모국어로', stage='컷별 비교 보드', next='시트2 칸14~17 콘티 스케치 재생성 대기 · 기준 이미지 일부 연결됨', script='EP02_SCRIPT_v08.md', boards='EP02_v01_[0-9]*.png', boards_dir='01_EPISODES/EP02_싸움은모국어로/STORYBOARD'),
+    dict(id='EP02', title='싸움은 모국어로', stage='컷별 비교 보드', next='시트2 칸14~16 콘티 재생성(그록봇) · 24·30 상자 동작 권장 · 기준 이미지 일부 연결', script='EP02_SCRIPT_v08.md', boards='EP02_v01_[0-9]*.png', boards_dir='01_EPISODES/EP02_싸움은모국어로/STORYBOARD'),
     dict(id='EP03', title='오늘 못 와?', stage='각본·단톡 UI 초안', next='단톡 UI 검수 · 콘티 준비', script='EP03_SCRIPT_v03.md', boards=None, ui='ep03_chat/index.html'),
     dict(id='EP04', title='조금만 주세요', stage='각본 초안', next='할머니·수만 음식 교류 각본 검토 · 번역 장면과 콘티 준비', script='EP04_SCRIPT_v02.md', boards=None),
 ]
@@ -151,8 +151,8 @@ def build():
         type='SITCOM',
         title='연남동 3층집 회차 작업실',
         status='REVIEW',
-        lastCompleted='작업 31·32: 1화 감사 콘티 반영 · 2화 칸14~17 stale 배지',
-        nextTask='그록봇 시트2 14~17 재생성 후 flags 삭제 · 작업 30(콘티 1/2화 토글) · EP01 컷30 사용자 확정',
+        lastCompleted='작업 33 DONE · 32 후속: 17 해제 · 24·30 recommend',
+        nextTask='그록봇 시트2 14~16 재생성 · 24·30 상자 동작 · 작업 24 보강/30 · EP01 컷30 사용자 확정',
         publishDate=None,
         platforms=['Local'],
         updatedBy='Cursor',

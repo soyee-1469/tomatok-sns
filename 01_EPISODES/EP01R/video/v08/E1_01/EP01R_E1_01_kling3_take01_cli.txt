@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-16T01:06:31.465837Z",
+    "display_name": "Kling v3.0",
+    "id": "74c82175-25ab-40ea-966b-32a4a9ecc184",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 3,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "7ff997dd-9509-4b18-be94-3c6b41d28dc2",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/7ff997dd-9509-4b18-be94-3c6b41d28dc2_resize.jpg"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "SCENE CONTEXT\nTen at night, a warm living room. Exactly as in the start image: a wide shot of the caramel corduroy sofa facing the camera, the arched window dark navy behind it with prayer flags and string lights, lamps on, round coffee table in front. One man sits alone in the middle of the sofa (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt over a white T-shirt, ID badge on a lanyard, grey trousers), phone held in both hands, reading it. Nobody else is in the room.\n\nCAMERA\nOne continuous shot. Tripod camera with a very slow, smooth, barely noticeable push-in toward the man on the sofa over the whole clip, ending only slightly tighter than the start frame; no cuts, no pan, no tilt, no reframing, no horizontal flip. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain.\n\nACTION\n0.0–1.0s: he reads the phone screen, thumb scrolls once, a quiet breath out through the nose. No speech.\n1.0–2.0s: he shifts in his seat to sit up a little straighter, one knee bounces lightly, eyes still on the screen.\n2.0–3.0s: he tilts the phone a touch closer, lips pressed together, waiting for something that is not coming. Still no speech.\n\nPERFORMANCE\nCalm on the surface, quietly nervous underneath: a kind, slightly goofy man waiting for a reply in a silent group chat. Small readable fidgets only; no big gestures, no looking at the camera, no speech, no standing up.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum, faint room tone). No music, no notification sounds, no vibration, no voice.\n\nIDENTITY AND CONTINUITY\nPreserve the same face, hair, glasses, clothes, sofa, furniture, lamps and room throughout. The man stays seated in the middle of the sofa. No one enters the frame, no subtitles, no on-screen text, no watermark.",
+      "reference_elements": [],
+      "sound": "on",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_010631_74c82175-25ab-40ea-966b-32a4a9ecc184.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_010631_74c82175-25ab-40ea-966b-32a4a9ecc184_thumbnail.webp"
+  }
+]
+--stderr--

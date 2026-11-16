@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-16T02:00:32.325408Z",
+  "display_name": "Kling v3.0",
+  "id": "3a333aa1-215e-4032-bfe7-e4552a398c49",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+   "aspect_ratio": "9:16",
+   "cfg_scale": 0.5,
+   "duration": 3,
+   "enhance_prompt": false,
+   "height": 1280,
+   "kling_element_ids": [],
+   "kling_elements": [],
+   "medias": [
+    {
+     "data": {
+      "id": "ba7abb65-f32a-4a75-9edf-2cb3b73334a0",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/ba7abb65-f32a-4a75-9edf-2cb3b73334a0_resize.jpg"
+     },
+     "role": "start_image"
+    }
+   ],
+   "mode": "std",
+   "multi_prompt": [],
+   "multi_shot_mode": "custom",
+   "multi_shots": false,
+   "prompt": "SCENE CONTEXT\nEvening living room, island-axis camera: the living room sofa, where the man they are reacting to is SITTING, is off-frame to the LEFT and stays off-frame: the man sits about three meters to the LEFT of the camera, at the far left beyond the edge of the frame, so looking at him means looking well PAST the left edge of the frame, never at the camera; the white marble kitchen island with an oak body, copper shelves and copper pans are on camera-right. Exactly as in the start image: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses) sits on the end bar stool nearest the living room, smiling down at her phone held over the counter; the Nepali man (31, deep brown skin, black curly hair, short trimmed beard, white chef's jacket with a plain black bib apron, no towel) stands behind the counter, head down, both hands on a glass pickle jar. Only these two people are in the shot.\n\nCAMERA\nOne continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting with warm copper pendant lamps and string lights, no film grain.\n\nACTION\n0.0–0.5s: both hold exactly the start pose; the man on the sofa has just said something earnest off-frame. No one speaks.\n0.5–1.3s: the Nepali man lifts his head for the first time and slowly turns it to HIS RIGHT, toward the far left edge of the frame and beyond it, where the sofa is; his eyes aim well past the left edge of the frame, never at the camera lens; completely deadpan, his hands staying on the jar.\n0.9–1.7s: the woman's eyes lift from her phone and her head turns over her LEFT shoulder, back toward the far left edge of the frame and beyond it where the sofa is; her eyes aim well past the left edge, never at the camera lens; the smile softening into a faint amused look, as if she finds him cute; her hands and the phone stay on the counter.\n1.7–3.0s: both hold the look on the man off-frame in silence, a small shared beat: the woman's eyebrows lift slightly, the Nepali man blinks once, nothing else.\n\nPERFORMANCE\nTwo people reacting to one earnest, slightly absurd remark. The Nepali man: flat, deadpan, unimpressed, no smile. The woman: fond and amused, the calm one in the room. Small, readable changes in the eyes, eyebrows and head; natural movement is fine. Avoid laughing, avoid wide grins, avoid hand gestures, never let either person look into the lens or toward the camera: both eye lines go off-frame to the LEFT, clearly to the left of the camera.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No speech, no music, no notification sounds, no vibration.\n\nIDENTITY AND CONTINUITY\nPreserve both faces, hair, clothes and the visible scene throughout. The woman stays seated on the same end stool; the Nepali man stays behind the counter in the same spot; the pickle jar, the bowl of lemons and the vase of pink flowers stay on the counter. Nobody enters, nobody walks past, no one appears at any edge of the frame. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nNone. Nobody speaks; no words in any language; mouths stay closed except for natural breathing.",
+   "reference_elements": [],
+   "sound": "on",
+   "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_020032_3a333aa1-215e-4032-bfe7-e4552a398c49.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_020032_3a333aa1-215e-4032-bfe7-e4552a398c49_thumbnail.webp"
+ }
+]

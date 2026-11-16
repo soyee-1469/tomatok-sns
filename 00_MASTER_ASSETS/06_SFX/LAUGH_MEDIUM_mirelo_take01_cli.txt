@@ -1,0 +1,15 @@
+[
+  {
+    "created_at": "2026-11-16T01:11:00.322928Z",
+    "display_name": "Mirelo Text to Audio",
+    "id": "6f57f6b8-9177-4bd7-983f-954eba398eef",
+    "job_type": "mirelo_text_to_audio",
+    "min_result_url": null,
+    "params": {
+      "duration": 4,
+      "prompt": "Multi-camera sitcom live studio audience laughter, classic 1990s American sitcom laugh track style, a natural medium laugh that rises and tapers off, no applause, no music, no voices speaking."
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_011100_6f57f6b8-9177-4bd7-983f-954eba398eef.mp3",
+    "status": "completed"
+  }
+]

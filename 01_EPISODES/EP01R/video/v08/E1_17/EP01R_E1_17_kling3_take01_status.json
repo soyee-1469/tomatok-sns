@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-16T02:02:10.470782Z",
+  "display_name": "Kling v3.0",
+  "id": "7542fbf2-c0ef-48a5-a03e-096018c455c6",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+   "aspect_ratio": "9:16",
+   "cfg_scale": 0.5,
+   "duration": 3,
+   "enhance_prompt": false,
+   "height": 1280,
+   "kling_element_ids": [],
+   "kling_elements": [],
+   "medias": [
+    {
+     "data": {
+      "id": "92c38e4f-0d19-4e2e-955a-9ebec9a2c398",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/92c38e4f-0d19-4e2e-955a-9ebec9a2c398_resize.jpg"
+     },
+     "role": "start_image"
+    }
+   ],
+   "mode": "std",
+   "multi_prompt": [],
+   "multi_shot_mode": "custom",
+   "multi_shots": false,
+   "prompt": "SCENE CONTEXT\nEvening living room, wide shot from the island-axis camera: the caramel corduroy sofa faces the camera, the round oak coffee table in front of it with a tomato-red tray, a small vase of baby's breath, two books and his phone lying FACE DOWN beside the tray. The kitchen island, where his girlfriend is sitting with her phone, is off-frame to the RIGHT and stays off-frame; she never appears. Exactly as in the start image: the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt over a white T-shirt, ID badge on a navy lanyard, grey trousers, black leather shoes) sits on the CENTER cushion of the sofa, arms crossed, head turned toward camera-right, lips pressed. He is the only person visible in this shot. He has just put his phone down face-down after sending a message that nobody answered, and now HER phone, off-frame to the right, keeps chiming with replies.\n\nCAMERA\nOne continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting with warm lamps and string lights, window dark navy, no film grain.\n\nACTION\n0.0–0.4s: he holds the start pose, arms crossed, eyes on the island off-frame to the right, lips pressed. No speech.\n0.4–1.1s: her phone chimes again off-frame (sound added later, not in this clip): his eyebrows lift a little and his chin tips up, head leaning a touch further to camera-right as if trying to peek at her screen from the sofa; a slow, openly envious look.\n1.1–2.0s: his eyes drop to his own phone lying face-down on the coffee table in front of him; a small puff of breath through the nose, lips pressing into a tiny resigned pout, a slight sag of the shoulders under the crossed arms.\n2.0–3.0s: his eyes drift back up to the island off-frame right, one slow blink, the envious look settling into a small, helpless \"must be nice\" expression; arms stay crossed, he does not reach for the phone.\n\nPERFORMANCE\nResigned → her phone keeps ringing → openly envious, a little sulky in a cute way. The comedy is that he is sincerely jealous of a phone. He is a very kind, funny man who loves his girlfriend deeply: a natural comedian, playful and a little goofy, with quick expressive reactions and good comic timing. He is never annoyed with anyone; the sulk is aimed at himself and his silent phone and shows as stillness, never as a sharp face. Small, readable changes in the eyebrows, eyes, mouth and head; natural breathing and small head movement are fine. Avoid standing up, avoid uncrossing the arms, avoid picking up the phone, avoid looking into the lens, avoid a wide grin.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No speech, no music, no notification sounds, no ringtone, no vibration.\n\nIDENTITY AND CONTINUITY\nPreserve the same face, hair, glasses, clothes and the whole visible room throughout: same sofa, cushions, blanket, coffee table, red tray, flowers, books, armchair, window, stairs and lamps; nothing moves or appears. His phone stays face-down on the coffee table in the same spot for the whole clip. Nobody enters, nobody walks past, no one appears at any edge of the frame; the girlfriend stays off-frame to the right. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nNone. Nobody speaks; no words in any language; his mouth stays closed except for natural breathing.",
+   "reference_elements": [],
+   "sound": "on",
+   "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_020210_7542fbf2-c0ef-48a5-a03e-096018c455c6.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_020210_7542fbf2-c0ef-48a5-a03e-096018c455c6_thumbnail.webp"
+ }
+]

@@ -1,0 +1,25 @@
+SCENE CONTEXT
+Evening living room, sofa-axis camera; the kitchen island where his friend is standing is off-frame to the right. Exactly as in the start image: the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt over a white T-shirt, ID badge on a navy lanyard) in tight close-up on the sofa, phone held low in both hands, soft phone-screen glow on his face.
+
+CAMERA
+One continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain.
+
+ACTION
+0.0–0.4s: he is still looking down at the phone; he has just heard his friend mumble something reassuring from the island. A short breath in. No speech yet.
+0.4–0.8s: his eyes lift toward the island (camera-right, slightly above his eye line), eyebrows rise a little, the corners of his mouth start to lift into a small relieved smile.
+0.8–2.5s: he says the line as if that settles it, hopeful and earnest, a small nod on the middle of the sentence, leaning forward a few centimeters toward the island.
+2.5–3.0s: he holds the hopeful look toward the island, waiting for agreement, a tiny swallow.
+
+PERFORMANCE
+Deflated → relieved → hopeful. The relief is real: a worried man who just got told it's normal. Small, readable changes in the eyebrows, eyes and mouth; natural head movement is fine. He is a very kind, funny man who loves his girlfriend deeply: a natural comedian, playful and a little goofy, with quick expressive reactions and good comic timing. He is fond of everyone in the room and never annoyed; any frustration is aimed at himself or the situation. Avoid a wide grin and avoid looking into the lens for this cut.
+
+AUDIO
+Quiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.
+
+IDENTITY AND CONTINUITY
+Preserve the same face, hair, glasses, clothes and visible scene throughout. No unplanned entrants, no subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The man speaks natural native Korean, low, calm and quiet, polite and unhurried, never raising his voice; even when flustered his volume stays the same.
+Delivery: for THIS line, warm and hopeful, light stress on "한 분은", a gentle questioning lift at the very end of "주시겠죠?", as if asking the friend to agree.
+Exact spoken words: "누구 한 분은 답변해 주시겠죠?". No additional speech, no other words in any language. Natural visible lip-sync. Nobody else speaks.

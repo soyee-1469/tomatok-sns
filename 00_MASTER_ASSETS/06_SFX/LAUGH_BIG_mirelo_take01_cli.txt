@@ -1,0 +1,15 @@
+[
+  {
+    "created_at": "2026-11-16T01:11:13.43833Z",
+    "display_name": "Mirelo Text to Audio",
+    "id": "e309d064-62e7-4082-aeaa-dcd4135de3ed",
+    "job_type": "mirelo_text_to_audio",
+    "min_result_url": null,
+    "params": {
+      "duration": 5,
+      "prompt": "Multi-camera sitcom live studio audience: a big hearty laugh from a full audience after a punchline, classic sitcom laugh track, builds then settles, no applause, no music, no voices speaking."
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_011113_e309d064-62e7-4082-aeaa-dcd4135de3ed.mp3",
+    "status": "completed"
+  }
+]

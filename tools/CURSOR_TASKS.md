@@ -284,21 +284,48 @@ Claude가 초안을 써 두었다(미실행, 수정 허용: 이 파일과 `tools
 
 ## 작업 33 — UI 컷 「화면 풀프레임」 생성기 + 남은 UI 컷 초안 (2026-11-13, 사용자 승인 방식 / Claude → Cursor)
 
-- 상태: TODO. 우선순위: 32 다음, 24보다 먼저.
+- 상태: DONE (Cursor 로컬). JSON 연결·채택은 사용자/Claude.
 - 배경: 1화 컷 2·16을 사용자가 승인한 방식으로 바꿨다. 폰 목업(베이지 배경) 대신 **앱 화면을 베젤 없이 풀프레임**, 양옆은 같은 화면을 블러·어둡게 해서 채움, "거의 다 쓴 상태에서 끝부분만 입력"되게 뒤쪽 구간만 사용, 마지막 프레임 0.5~0.6s 홀드. 컷 2는 앞에 준호 CU(J4) 0.8s를 붙였다. 결과 `01_EPISODES/EP01R/edit/v06/ui/U01b_SCREEN_TAIL.mp4`, `U11b_SCREEN_TAIL.mp4`. 정지된 손 POV는 타이핑 컷에 쓰지 않는다(사용자 불채택).
 - 새 파일 `tools/ui_screen_cut.py`: 입력 = 원본 UI mp4(`ui/v06/EP01R_<ID>.mp4`, 830×1800 30fps), `--ss` 시작초, `--t` 길이, `--hold` 홀드초(기본 0.5), `--lead <png> <sec>` 선택(앞에 붙일 스틸, 1.02배 아주 약한 푸시), 출력 1080×1920 24fps. ffmpeg 필터는 Claude가 쓴 것 그대로: 배경 `scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:5,eq=brightness=-0.15`, 전경 `scale=-2:1920`, overlay 중앙, `tpad=stop_mode=clone`. ffmpeg 바이너리는 공통 규칙 경로.
 - 초안 생성(0cr, 검토용, JSON은 건드리지 않음): 컷 6 `U05_READ0`(숫자 21→0 구간만, 앞 0.3s), 컷 25 `U18b_DMLIST`(스크롤 뒤쪽), 컷 28 `U20b_MAMA_DM`(마지막 메시지 도착 구간), 컷 36 `U33b_BEA_REPLIES`(답장 날아가는 구간), 컷 38 `U25b_MAMA_EAT`(차임 1 구간) → `edit/ui_test/E1_<n>_screen_draft.mp4`. 길이는 현재 JSON `dur` ±0.5s 안에서.
 - 하지 말 것: 애니매틱 JSON·원본 UI mp4·스틸 수정 금지. 생성 API 금지. 폰 목업 셸(`ui_compose.sh`) 경로는 그대로 둔다(다른 용도).
 - 검증: 5개 mp4 재생, 글자 잘림 없음(헤더·입력창 보임), 24fps·1080×1920, 길이 보고. 처리 보고에 컷별 사용 구간(ss/t)을 적는다. 사용자가 보드에서 고른 뒤 Claude가 JSON에 연결한다.
 
-## 작업 24 보강 (2026-11-13) — 보드 승인 → 클립 연결
-- `tools/animatic_set_clip.py`에 `--from-reviews tools/series_board_reviews.json` 옵션 추가: `episodes.EP01.cuts[n].status == "approved"`인 컷의 `take`를 `video/v08/E1_<n>/EP01R_E1_<n>_kling3_take<NN>.mp4`로 바꿔 `clip`에 넣는다. take가 없으면 `video/v08/board_default_takes.json`의 default. `needs_fix`·`pending`은 건드리지 않고 목록만 출력. 쓰기 전 `--dry`로 변경 표를 보여 주고, 실제 쓰기는 백업 후. 보드 담당 칸은 숨김 처리됐으니(사용자 11-13) assignee는 무시한다.
-
 ## 작업 32 후속 (2026-11-13)
+- 상태: DONE (Cursor 로컬, 2026-11-16).
 - `tools/ep02_conti_flags.json`: 17은 현 그림 사용 가능(리아 고개 듦 + 준호 시선 회피가 새 지문과 맞음) → 키 삭제. 24·30은 `status: "recommend"`, note "상자 동작 추가 권장(준호가 USB 상자를 등 뒤로 / 다시 무릎 위로)"로 추가. 배지 문구는 stale=「구 각본 — 재생성 대기」, recommend=「동작 추가 권장」. 근거: `EP02_STORYBOARD_v01.md` 칸 14~17·24·30 메모(11-13).
+
+## 작업 24 보강 (2026-11-13) — 보드 승인 → 클립 연결
+- 상태: DONE (Cursor 로컬, 2026-11-16). 본체 `animatic_set_clip.py`도 이번에 신설.
 
 
 ## 처리 보고
+
+### 작업 24 보강 — `--from-reviews` (2026-11-16)
+- 새 파일: `tools/animatic_set_clip.py` (`--list` / `--set` / `--clear` / `--from-reviews` / `--dry`).
+- 실행: `python3 tools/animatic_set_clip.py 01_EPISODES/EP01R/edit/v06/animatic_E1_v062.json --from-reviews tools/series_board_reviews.json`
+- 결과: approved 중 실제 변경 1건 — 컷9 `take01` → `take02`. 나머지 approved Kling 컷은 이미 동일 경로. UI approved(6·16·25·28·36·38)는 테이크 없음 → 목록만. needs_fix/pending 미변경.
+- 백업: `animatic_E1_v062.json.bak_20261116-095210.json`
+
+### 작업 32 후속 — flags 17 해제 · 24·30 recommend (2026-11-16)
+- 수정: `tools/ep02_conti_flags.json`(17 삭제, 24·30 recommend), `tools/series_board.html`(recommend 배지), `tools/series_cut_assets_ep02.py`, `tools/build_series_board.py`(EP02 next).
+- 검증: map flags = 14·15·16 stale / 24·30 recommend / 17 없음. 보드 재생성. **발행 필요**.
+
+### 작업 33 — UI 화면 풀프레임 생성기 + 초안 5컷 (2026-11-16)
+- 새 파일: `tools/ui_screen_cut.py` (Claude 컷2·16 필터 그대로: blur 배경 + scale=-2:1920 전경 + tpad hold, `--lead` zoompan 1.02).
+- 초안(0cr, JSON·원본 UI·스틸 미수정):
+
+| 컷 | 소스 | ss | t | hold | out dur | JSON dur |
+|---|---|---|---|---|---|---|
+| 6 | `EP01R_U05_READ0.mp4` | 0.3 | 3.0 | 0.5 | 3.46 | 3.5 |
+| 25 | `EP01R_U18b_DMLIST.mp4` | 0.5 | 2.5 | 0.5 | 2.96 | 3.0 |
+| 28 | `EP01R_U20b_MAMA_DM.mp4` | 0.5 | 4.5 | 0.5 | 4.96 | 5.0 |
+| 36 | `EP01R_U33b_BEA_REPLIES.mp4` | 0.0 | 2.0 | 0.5 | 2.46 | 2.5 |
+| 38 | `EP01R_U25b_MAMA_EAT.mp4` | 0.0 | 2.0 | 0.5 | 2.46 | 2.5 |
+
+- 경로: `01_EPISODES/EP01R/edit/ui_test/E1_<n>_screen_draft.mp4`
+- 검증: 전부 1080×1920 24fps, JSON dur ±0.5s 안. 중간/끝 프레임에서 헤더·입력창 보임(글자 잘림 없음). `ui_compose.sh`·animatic JSON 미수정. 생성 API 없음.
+- 다음: 사용자가 초안 검토 → 채택 시 Claude가 JSON 연결.
 
 작업 7–11. 생성 API는 호출하지 않았다. `gen_from_conti.py` 와 `animatic_set_frame.py` 는 `--dry` 만 실행했다. 애니매틱 JSON은 수정하지 않았다(mtime 1793869535, 25977바이트, 백업 파일 없음).
 

@@ -1,22 +1,26 @@
 {
-  "source": "CURSOR_TASKS 작업 32 — USB 각본 vs 구 영수증 콘티 그림",
-  "note": "그록봇이 EP02_v01_chatgpt_board_02.png 칸 14~17을 재생성하면 해당 키를 이 파일에서 삭제한다.",
+  "source": "CURSOR_TASKS 작업 32 후속 — USB 각본 vs 콘티 그림",
+  "note": "그록봇이 EP02_v01_chatgpt_board_02.png 칸 14~16을 재생성하면 해당 stale 키를 삭제한다. 24·30은 상자 동작 추가 후 recommend 키를 삭제한다. 17은 현 그림 사용 가능(삭제됨).",
   "cuts": {
     "14": {
       "status": "stale",
-      "note": "구 각본(영수증) — 재생성 대기"
+      "note": "구 각본(영수증) — USB로 재생성 대기"
     },
     "15": {
       "status": "stale",
-      "note": "구 각본(영수증) — 재생성 대기"
+      "note": "구 각본(영수증) — USB로 재생성 대기"
     },
     "16": {
       "status": "stale",
-      "note": "구 각본(영수증) — 재생성 대기"
+      "note": "구 각본(영수증) — USB로 재생성 대기"
     },
-    "17": {
-      "status": "stale",
-      "note": "구 각본(영수증) — 재생성 대기"
+    "24": {
+      "status": "recommend",
+      "note": "상자 동작 추가 권장(준호가 USB 상자를 등 뒤로 / 다시 무릎 위로)"
+    },
+    "30": {
+      "status": "recommend",
+      "note": "상자 동작 추가 권장(준호가 USB 상자를 등 뒤로 / 다시 무릎 위로)"
     }
   }
 }

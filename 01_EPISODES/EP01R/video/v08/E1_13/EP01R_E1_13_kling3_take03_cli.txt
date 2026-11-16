@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-16T01:58:31.675487Z",
+    "display_name": "Kling v3.0",
+    "id": "3ff9aa56-0897-4078-b751-9a1f856aea81",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 6,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "44337262-b6f1-4680-8742-07eef2760918",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/44337262-b6f1-4680-8742-07eef2760918.png"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "SCENE CONTEXT\nEvening kitchen, island-axis camera; the living room and sofa are off-frame to the left and stay off-frame. Exactly as in the start image: the Nepali man (31, deep brown skin, black curly hair, short trimmed beard, white chef's jacket with a plain black bib apron) in a tight close-up, standing behind the kitchen island, face turned toward camera-left where his friend is sitting on the sofa off-frame, eye line level and clearly away from the lens. He has just put a bite of pickle in his mouth and is chewing it; the pickle jar and his hands are below the frame and stay below the frame. He is the only person visible in this shot.\n\nCAMERA\nOne continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting with warm copper pendant lamps, no film grain.\n\nACTION\n0.0–0.4s: chewing slowly, eyes on his friend at camera-left, a relaxed, unbothered face. No speech yet.\n0.4–1.5s: still half chewing, he says \"우리 엄마…\" slowly, then stops as if searching for the next Korean word, a small tilt of the head.\n1.5–2.5s: he finds it and says \"전화만 해요.\" plainly, with a tiny matter-of-fact nod.\n2.5–2.9s: a short pause, one slow chew, eyes stay on him.\n2.9–3.8s: he adds \"새벽… 네 시.\" as if it were nothing special, eyebrows lifting slightly on \"네 시\", then his face settles.\n3.8–6.0s: no more words. He keeps chewing slowly in silence, eyes still on his friend, one slow blink, swallows, a calm little shrug of the eyebrows that says \"that's just how it is\". He waits.\n\nPERFORMANCE\nRelaxed → searching for the words → plainly stating a fact he finds completely normal. Deadpan in the sitcom sense: he is not sad and not joking, he genuinely thinks a 4 a.m. phone call from his mother is ordinary, and that is what makes it funny. Calm, warm, slow. Small readable changes in the eyebrows, eyes and jaw; natural slow chewing and natural head movement are fine. Avoid a grin or laugh, avoid looking into the lens, avoid hand gestures or bringing the pickle into frame for this cut.\n\nAUDIO\nQuiet kitchen ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.\n\nIDENTITY AND CONTINUITY\nPreserve the same face, hair, beard, chef's jacket, black apron and visible scene throughout. The background behind him stays empty of people for the entire clip: no one walks past, no one appears at the edge of the frame. Absolutely no other person enters or is visible at any point. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe Nepali man speaks halting, beginner-level Korean with a clear Nepali accent: slow, word by word, with gaps between the fragments as he searches for words, particles dropped, a low calm voice.\nDelivery: for THIS line, three fragments with real pauses between them. \"우리 엄마…\" slow and trailing off. Pause. \"전화만 해요.\" plain and even, slight emphasis on \"전화\", ending level. Pause with a chew. \"새벽… 네 시.\" slow, a small pause inside it before \"네 시\", the ending dropping flat, as if nothing is wrong. Every syllable clearly spoken and finished by 3.8s; after that he is silent and only chews.\nExact spoken words: \"우리 엄마… 전화만 해요. 새벽… 네 시.\". No additional speech, no other words in any language, no Nepali, no English. Natural visible lip-sync while chewing. Nobody else speaks.",
+      "reference_elements": [],
+      "sound": "on",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_015831_3ff9aa56-0897-4078-b751-9a1f856aea81.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_015831_3ff9aa56-0897-4078-b751-9a1f856aea81_thumbnail.webp"
+  }
+]
+--stderr--

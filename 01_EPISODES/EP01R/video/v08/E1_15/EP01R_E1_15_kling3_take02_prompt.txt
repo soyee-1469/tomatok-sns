@@ -1,0 +1,23 @@
+SCENE CONTEXT
+Evening living room, island-axis camera: the living room sofa, where the man they are reacting to is SITTING, is off-frame to the LEFT and stays off-frame: the man sits about three meters to the LEFT of the camera, at the far left beyond the edge of the frame, so looking at him means looking well PAST the left edge of the frame, never at the camera; the white marble kitchen island with an oak body, copper shelves and copper pans are on camera-right. Exactly as in the start image: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, dark-indigo jeans, small gold hoops, no glasses) sits on the end bar stool nearest the living room, smiling down at her phone held over the counter; the Nepali man (31, deep brown skin, black curly hair, short trimmed beard, white chef's jacket with a plain black bib apron, no towel) stands behind the counter, head down, both hands on a glass pickle jar. Only these two people are in the shot.
+
+CAMERA
+One continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting with warm copper pendant lamps and string lights, no film grain.
+
+ACTION
+0.0–0.5s: both hold exactly the start pose; the man on the sofa has just said something earnest off-frame. No one speaks.
+0.5–1.3s: the Nepali man lifts his head for the first time and slowly turns it to HIS RIGHT, toward the far left edge of the frame and beyond it, where the sofa is; his eyes aim well past the left edge of the frame, never at the camera lens; completely deadpan, his hands staying on the jar.
+0.9–1.7s: the woman's eyes lift from her phone and her head turns over her LEFT shoulder, back toward the far left edge of the frame and beyond it where the sofa is; her eyes aim well past the left edge, never at the camera lens; the smile softening into a faint amused look, as if she finds him cute; her hands and the phone stay on the counter.
+1.7–3.0s: both hold the look on the man off-frame in silence, a small shared beat: the woman's eyebrows lift slightly, the Nepali man blinks once, nothing else.
+
+PERFORMANCE
+Two people reacting to one earnest, slightly absurd remark. The Nepali man: flat, deadpan, unimpressed, no smile. The woman: fond and amused, the calm one in the room. Small, readable changes in the eyes, eyebrows and head; natural movement is fine. Avoid laughing, avoid wide grins, avoid hand gestures, never let either person look into the lens or toward the camera: both eye lines go off-frame to the LEFT, clearly to the left of the camera.
+
+AUDIO
+Quiet living-room ambience only (soft refrigerator hum). No speech, no music, no notification sounds, no vibration.
+
+IDENTITY AND CONTINUITY
+Preserve both faces, hair, clothes and the visible scene throughout. The woman stays seated on the same end stool; the Nepali man stays behind the counter in the same spot; the pickle jar, the bowl of lemons and the vase of pink flowers stay on the counter. Nobody enters, nobody walks past, no one appears at any edge of the frame. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+None. Nobody speaks; no words in any language; mouths stay closed except for natural breathing.
