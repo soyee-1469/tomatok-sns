@@ -1208,7 +1208,20 @@
         "selected": null,
         "selected_exists": false,
         "default_take": null,
-        "takes": [],
+        "takes": [
+          {
+            "take": 1,
+            "path": "01_EPISODES/EP01R/video/v08/E1_17/EP01R_E1_17_kling3_take01.mp4",
+            "name": "EP01R_E1_17_kling3_take01.mp4",
+            "exists": true
+          },
+          {
+            "take": 2,
+            "path": "01_EPISODES/EP01R/video/v08/E1_17/EP01R_E1_17_kling3_take02.mp4",
+            "name": "EP01R_E1_17_kling3_take02.mp4",
+            "exists": true
+          }
+        ],
         "note": ""
       },
       "conti": {

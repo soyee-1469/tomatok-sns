@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-16T02:04:45.98199Z",
+  "display_name": "Kling v3.0",
+  "id": "0a93f00c-2a92-4e68-b38d-784e7cfe6d1b",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+   "aspect_ratio": "9:16",
+   "cfg_scale": 0.5,
+   "duration": 3,
+   "enhance_prompt": false,
+   "height": 1280,
+   "kling_element_ids": [],
+   "kling_elements": [],
+   "medias": [
+    {
+     "data": {
+      "id": "0cc3ba7e-4271-42fa-a033-51655e00792b",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/0cc3ba7e-4271-42fa-a033-51655e00792b_resize.jpg"
+     },
+     "role": "start_image"
+    }
+   ],
+   "mode": "std",
+   "multi_prompt": [],
+   "multi_shot_mode": "custom",
+   "multi_shots": false,
+   "prompt": "",
+   "reference_elements": [],
+   "sound": "on",
+   "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_020445_0a93f00c-2a92-4e68-b38d-784e7cfe6d1b.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_020445_0a93f00c-2a92-4e68-b38d-784e7cfe6d1b_thumbnail.webp"
+ }
+]

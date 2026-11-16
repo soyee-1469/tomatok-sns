@@ -31,13 +31,13 @@ KEEP this exact staging, camera distance and visible room; change only [the requ
 
 ```text
 SCENE CONTEXT
-[Only the visible scene, camera axis and necessary off-frame gaze direction]. Exactly as in the start image: [character, pose and visible prop state].
+[Only what is actually visible in the start still, plus the camera axis]. [Off-frame element] is off-frame to the [left|right] and stays off-frame. Exactly as in the start image: [character, pose and visible prop state]. [He|She] is the only person visible in this shot.
 
 CAMERA
 One continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, natural warm colors.
 
 ACTION
-0.0–[speech preparation end]s: [reason for pause, gaze and breathing; no speech yet].
+0.0–0.3s: [one short beat: gaze or breath; no speech yet].
 [Speech start]–[speech end]s: [character] says the line with [emotion and purpose], [one observable small action].
 [Speech end]–[clip end]s: [listening or reaction].
 
@@ -48,12 +48,27 @@ AUDIO
 [Approved quiet scene ambience]. No music or notification effects.
 
 IDENTITY AND CONTINUITY
-Preserve the same face, hair, glasses, clothes and visible scene throughout. No unplanned entrants, subtitles, on-screen text or watermark.
+Preserve the same face, hair, glasses, clothes and visible scene throughout. [Held prop] stays [where it is in the start image] for the whole clip. The background stays empty of people for the entire clip: no one walks past, no one appears at the edge of the frame. Nothing new appears in the frame: no lamp, no cushion, no new object. Absolutely no other person enters or is visible at any point. No subtitles, no on-screen text, no watermark.
 
 DIALOGUE
 [Character], [language and approved accent], [baseline voice quality].
 Delivery: [pace, emphasis, pause, and rising/falling/level ending for THIS line].
-Exact spoken words: “[approved dialogue]”. No additional speech. Natural visible lip-sync.
+Exact spoken words: “[approved dialogue]”. No additional speech. Natural visible lip-sync. Every syllable must be finished by [clip end − 0.6]s.
 ```
 
 길이는 실제 발화·쉼·반응을 반영한다. 카메라 고정을 얼굴·몸 정지나 동일 끝 이미지 잠금으로 대체하지 않는다. 과거 설정 std/720p/cfg 0.5/enhance off/sound on은 지원과 비용 확인 후 적용한다. 대사 톤 수정 때 공통 연기 제한을 추가하지 않는다. 이동 컷은 이 템플릿을 그대로 쓰지 말고 도착 위치와 시작·끝 이미지를 별도 설계한다.
+
+
+## 2026-11-16 검증된 수정 (컷 1·8·11·12·14, 사용자 채택본 기준) — 모든 세션 공통
+
+1. **SCENE CONTEXT에는 시작 스틸에 실제로 보이는 것만.** 보이지 않는 인물·광원·소품을 서술하면 모델이 만들어 넣는다. 컷 14 "친구가 아일랜드에 서 있다" → 배경에 사람이 걸어 들어옴(take05). 컷 11 "warm pendant light from above" → 전구가 생김(take03). 방향만 필요하면 `off-frame to the right and stays off-frame`.
+2. **3초 컷의 발화 전 비트는 한 단계·0.3초.** 두 단계(0.0–0.4 / 0.4–0.8)로 쓰면 발화가 2.2초까지 밀려 잘린다(컷 12 take03). 끝낼 시각을 명시: `The whole line must finish by 2.4s`.
+3. **대사 길이로 컷 길이를 정한다.** 17음절 + 중간 쉼 = 5초(컷 8). 3초에 밀어 넣지 않는다. 비용 3s 6cr / 4s 8cr / 5s 10cr (std).
+4. **준호 PERFORMANCE 금지어 추가:** sulky, childish, 특정 단어 강세, brow furrowed → 짜증으로 들린다(컷 8 take06). 반대로 half-smile·amused → 너무 신남(take07). 실망은 `quiet, soft, low, resigned, deflated, a worried man keeping his voice level`로.
+5. **들뜬 당황(컷 14 채택본):** `flustered in a happy way, a nervous little smile, eyes bright and darting, excited and a little scared at the same time` — 심각·공포 어휘 금지.
+6. **손에 든 폰·소품은 CONTINUITY에 높이 고정 문장.** 없으면 후반에 프레임 아래로 내려간다.
+7. **배경 결함은 정지 패치로 고치지 않는다.** 원본 배경이 3초에 8px 흘러서 패치가 어색(컷 14 take05_clean 불채택). 재생성.
+8. **와이드+아주 느린 푸시인은 통과**(컷 1 take01). `very slow, smooth, barely noticeable push-in … ending only slightly tighter`.
+9. **네팔어 중얼거림은 Kling이 발음함**(컷 11 take04 채택). DIALOGUE에 데바나가리 + 로마자 병기, `only Nepali, not Korean, not Hindi`.
+10. **같은 계정에서 세션 두 개가 동시에 생성하지 않는다.** 생성 전 `higgsfield generate list --json`으로 진행 중 작업을 확인하고, 다른 세션이 돌고 있으면 멈추고 사용자에게 알린다. `tools/series_board_reviews.json`·애니매틱 JSON은 한 세션만 쓴다.
+11. **한 글자·숫자 답("2")은 유료 생성 전에 뜻을 확인한다.** 오독으로 6cr 낭비(컷 14 take04).
