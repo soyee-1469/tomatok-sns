@@ -192,6 +192,15 @@ Claude가 초안을 써 두었다(미실행, 수정 허용: 이 파일과 `tools
 - 수정: `tools/series_board.html`의 setReview/저장 경로를 **변경한 컷 하나만** `{episodes:{EPxx:{cuts:{<n>:{...}}}}}`로 PUT하도록. 저장 직전에 `/api/reviews`를 GET해 최신 store를 받고, 해당 컷의 memo는 서버 값에 사용자 입력을 덧붙이는 방식(사용자가 지운 경우만 제외)으로 병합. 서버 `merge_reviews`는 지금도 컷 단위 병합이라 그대로 두되, `updatedAt`이 서버 쪽이 더 최신이면 memo를 합치고 status는 사용자 값을 우선.
 - 검증: 두 탭을 열고 한쪽에서 메모 저장 → 다른 탭에서 다른 컷 승인 → 둘 다 남아 있어야 함. 생성 API 금지. JSON 백업 후 작업.
 
+## 작업 37 — 보드 「클로드에 반영 요청」 버튼 + 반영 큐 (2026-11-16, 사용자: "수정하고 저장 버튼을 누를 수 있게 하면 그 뒤에 니가 반영하면 되지 않을까")
+
+- 상태: TODO. 우선순위: 36 다음.
+- 목적: 사용자가 보드에서 승인/수정요청/메모/테이크 선택을 여러 개 한 뒤 **버튼 하나**로 "반영 요청"을 보내면, Claude가 그 묶음만 읽어 애니매틱 JSON에 반영하고 조립한다.
+- UI: 컷 보드 상단에 「클로드에 반영 요청」 버튼. 누르면 `PUT /api/submit` 로 `{episode, submittedAt, cuts:{n:{status,take,image,memo}}}`(마지막 제출 이후 바뀐 컷만) 전송. 전송 후 버튼 옆에 "제출됨 HH:MM · N컷" 표시.
+- 서버(`tools/serve_series_board.py`): `/api/submit` 수신 → `tools/board_submits/EP01_<timestamp>.json` 저장 + `tools/board_submit_latest.json` 갱신. 기존 `/api/reviews` 저장 로직은 유지.
+- Claude 쪽 소비: `tools/board_requests.py`가 `board_submit_latest.json`을 우선 읽어 미처리 제출을 표시하고, 처리 후 `processedAt`를 기록(Claude가 함). 승인된 take는 기존 `tools/animatic_set_clip.py --from-reviews`로 JSON 연결 가능하게 호환 유지.
+- 검증: 두 컷 승인 + 한 컷 메모 → 버튼 → 제출 파일에 그 3컷만 있어야 함. 생성 API 금지.
+
 ## 처리 보고` 절에 작업 번호·바꾼 파일·검증 방법을 적는다. 5분 주기로 이 파일을 다시 읽고 아직 보고되지 않은 작업만 한다.
 
 ## 작업 7 — 콘티 그리드 분할기 `tools/split_storyboard.py` (새 파일)
