@@ -172,7 +172,7 @@ Claude가 초안을 써 두었다(미실행, 수정 허용: 이 파일과 `tools
 
 ## 작업 34 — 보드 영상 칸에 UI mp4 표시 (2026-11-16, 사용자: "컷2 영상없는데")
 
-- 상태: TODO. 우선순위: 낮음, 다른 TODO 없을 때.
+- 상태: DONE (Cursor, 2026-11-16).
 - 배경: 컷 2·6·16·25·28·36·38은 UI 컷이라 `image.is_ui_mp4=true`인 mp4가 이미지 칸에 들어가고 영상 칸은 비어 보인다. 사용자가 "영상이 없다"로 오해.
 - 수정: `tools/series_board.html` 1화 컷 보드에서 `cut.image.is_ui_mp4`이면 영상 칸에 그 mp4를 「UI 컷(완성)」 배지와 함께 재생 가능하게 표시. 테이크 선택 UI는 띄우지 않는다. `series_cut_assets.py`·JSON은 건드리지 않는다.
 - 검증: 컷 2 영상 칸에 U01b_SCREEN_TAIL.mp4 재생, Kling 컷(12·14)은 기존 그대로. 생성 API 호출 금지.
@@ -307,6 +307,13 @@ Claude가 초안을 써 두었다(미실행, 수정 허용: 이 파일과 `tools
 
 
 ## 처리 보고
+
+### 작업 34 — 보드 영상 칸에 UI mp4 (2026-11-16)
+- 수정: `tools/series_board.html`만. `series_cut_assets.py`·JSON은 그대로. 생성 API 호출 없음.
+- 1화에서 `image.is_ui_mp4`이면 영상 칸이 `image.board_src`를 `controls`로 재생하고 「UI 컷(완성)」 배지를 단다. 테이크 선택은 없다. `board_src`가 없으면 「UI mp4 경로 없음」. `updateCutVideo`는 이 컷을 덮어쓰지 않는다.
+- Kling 컷은 기존 테이크 선택·기본 src 그대로. 2화는 같은 플래그여도 이 분기를 타지 않는다.
+- 검증: 보드 스크립트 `node --check` 통과. 픽스처 페이지를 헤드리스 크롬으로 열었다. 컷 2 영상 칸 src=`series_cuts/vid/ui_U01b_SCREEN_TAIL.mp4`, `play()` 후 paused=false, currentTime=0.35, readyState=4, 배지 있음, 테이크 select 없음. 컷 12 기본 take04, select를 take01로 바꾸면 그 칸 src만 바뀌고 컷 2는 유지. 컷 14 기본 take06, UI 배지 없음. 컷 6은 `board_src` 없이 「UI mp4 경로 없음」+배지. EP02 컷은 「영상 없음」.
+- 이 클론에는 UI mp4 원본이 없다. 화면 반영은 로컬에서 `python3 tools/build_series_board.py` 후 `board_web/series.html#EP01/images`. `board_web`는 커밋하지 않음.
 
 ### 작업 24 보강 — `--from-reviews` (2026-11-16)
 - 새 파일: `tools/animatic_set_clip.py` (`--list` / `--set` / `--clear` / `--from-reviews` / `--dry`).

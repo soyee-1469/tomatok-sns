@@ -292,7 +292,12 @@ function applyCaptionMode(){
   });
 }
 
+function isEp01UiCut(epId, cut){
+  return epId==='EP01' && !!cut.image?.is_ui_mp4;
+}
+
 function updateCutVideo(epId, cutEl, cut){
+  if(isEp01UiCut(epId, cut)) return;
   const takeNum=selectedTake(epId, cut);
   const takes=cut.video?.takes||[];
   const takeObj=takes.find(t=>t.take===takeNum) || takes.find(t=>t.path===cut.video?.selected) || null;
@@ -349,12 +354,13 @@ function updateReviewUI(epId, cutEl, cut){
 }
 
 function cutCardHtml(epId, c){
-  const takes=c.video?.takes||[];
+  const uiVideo=isEp01UiCut(epId, c);
+  const takes=uiVideo ? [] : (c.video?.takes||[]);
   const key=String(c.n);
-  const selected=selectedTake(epId, c);
-  const takeObj=takes.find(t=>t.take===selected) || takes.find(t=>t.path===c.video?.selected) || null;
-  const videoSrc=takeObj?.board_src || c.video?.board_src || '';
-  const videoLabel=takeObj ? `take${String(takeObj.take).padStart(2,'0')}` : (c.video?.selected ? PathName(c.video.selected) : '');
+  const selected=uiVideo ? null : selectedTake(epId, c);
+  const takeObj=uiVideo ? null : (takes.find(t=>t.take===selected) || takes.find(t=>t.path===c.video?.selected) || null);
+  const videoSrc=uiVideo ? (c.image?.board_src||'') : (takeObj?.board_src || c.video?.board_src || '');
+  const videoLabel=uiVideo ? '' : (takeObj ? `take${String(takeObj.take).padStart(2,'0')}` : (c.video?.selected ? PathName(c.video.selected) : ''));
   const contiStatus=c.conti?.status||'unlinked';
   const contiBadge=contiStatus==='linked'?'연결':contiStatus==='reference'?'참고만':contiStatus==='check'?'확인 필요':'없음';
   const contiTag=contiStatus==='unlinked'?'tag-miss':contiStatus==='reference'?'tag-ref':contiStatus==='check'?'tag-check':contiStatus==='linked'?'tag-ok':'';
@@ -371,9 +377,11 @@ function cutCardHtml(epId, c){
     ? `<a href="${escape(c.conti.preview)}" target="_blank" rel="noopener"><img src="${escape(c.conti.preview)}" alt="컷 ${escape(c.n)} 콘티" loading="lazy"></a>`
     : `<div class="missing">${escape(contiBadge)}<br><small>${escape(c.conti?.reason||'')}</small></div>`;
   const vidInner=videoSrc
-    ? `<video data-vid="${escape(epId)}:${escape(c.n)}" src="${escape(videoSrc)}" controls playsinline preload="metadata"></video>${cap}`
-    : `<div class="missing">${c.video?.selected?'영상 파일 없음':'영상 없음'}</div>`;
-  const takeSelect=takes.length?`<label>테이크 <select data-cut="${escape(key)}" data-ep="${escape(epId)}">${takes.map(t=>`<option value="${t.take}" ${t.take===selected?'selected':''}>take${String(t.take).padStart(2,'0')}${c.video?.default_take===t.take?' · 선택 클립':''}</option>`).join('')}</select></label><span class="cut-meta" data-role="take-label">${escape(videoLabel)}</span>`:'';
+    ? `<video data-vid="${escape(epId)}:${uiVideo?'uicut:':''}${escape(c.n)}" src="${escape(videoSrc)}" controls playsinline preload="metadata"></video>${uiVideo?'':cap}`
+    : `<div class="missing">${uiVideo?'UI mp4 경로 없음':(c.video?.selected?'영상 파일 없음':'영상 없음')}</div>`;
+  const takeSelect=uiVideo
+    ? `<span class="badge tag-ok" data-role="ui-cut-badge">UI 컷(완성)</span>`
+    : (takes.length?`<label>테이크 <select data-cut="${escape(key)}" data-ep="${escape(epId)}">${takes.map(t=>`<option value="${t.take}" ${t.take===selected?'selected':''}>take${String(t.take).padStart(2,'0')}${c.video?.default_take===t.take?' · 선택 클립':''}</option>`).join('')}</select></label><span class="cut-meta" data-role="take-label">${escape(videoLabel)}</span>`:'');
   const r=reviewOf(epId, c.n);
   const match=cutMatchesFilter(c)?'1':'0';
   const detailsKey=`${epId}:${c.n}`;
