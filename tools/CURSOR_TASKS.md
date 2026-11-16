@@ -323,6 +323,12 @@ Claude가 초안을 써 두었다(미실행, 수정 허용: 이 파일과 `tools
 
 ## 처리 보고
 
+### 작업 36 — 보드 저장 컷 단위 병합 (2026-11-16)
+- 수정: `tools/series_board.html`만. 저장 직전 `GET /api/reviews`로 최신 store를 받고, 바뀐 컷만 `{episodes:{EPxx:{cuts:{n:{...}}}}}`로 PUT한다. 서버 `merge_reviews`는 수정하지 않았다(이 클론에 `serve_series_board.py` 없음).
+- 그 컷의 `updatedAt`이 화면 기준보다 새로우면 메모는 서버 값 뒤에 사용자가 덧붙인 부분만 잇는다. 사용자가 메모를 비우면 빈 값으로 둔다. status·take·image·assignee는 사용자가 바꾼 것만 사용자 값이고, 그대로 둔 필드는 서버 값을 유지한다.
+- `tools/series_board_reviews.json`은 수정하지 않았다. 작업 전 사본은 `/tmp/series_board_reviews.json.bak_task36`.
+- 검증: 컷 단위로 합치는 임시 서버와 헤드리스 크롬 두 탭. 탭 A가 컷 3 메모를 저장한 뒤, 옛 화면인 탭 B가 컷 10을 승인해도 컷 3 메모·take와 컷 17 메모가 남고 컷 10은 승인된다. 같은 컷에서 서버 메모가 더 새로우면 `기존 추가` / `클로드 처리` / 사용자 `확인`이 한 메모가 되고, 사용자가 바꾼 status는 승인, 안 바꾼 take는 서버 값 9. 메모를 비우면 빈 문자열이고 안 바꾼 status는 서버 승인이 유지된다. PUT 6건 모두 컷 하나. 생성 API 없음.
+
 ### 작업 34 — 영상 칸 UI mp4 (2026-11-16)
 - 수정: `tools/series_board.html`만. `is_ui_mp4`면 영상 칸에 `image.board_src` 재생 + 「UI 컷(완성)」 배지, 테이크 select 없음. `영상 있음/없음` 필터도 UI mp4를 재생 가능으로 친다. `updateCutVideo`가 UI 칸을 비우지 않게 가드.
 - `series_cut_assets.py`·맵 JSON 미수정. 보드 재생성. **발행 필요**.

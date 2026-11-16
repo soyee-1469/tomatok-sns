@@ -95,6 +95,8 @@ const state={
   take:{},          // epId -> {cutId: takeNum} local overrides before hydrate
   image:{},         // epId -> {cutId: imagePath} 이미지 선택(생성본 드롭다운)
   reviews:{},       // full store.episodes
+  baseline:{},      // 마지막으로 서버에서 받은 컷 기록
+  dirtyCuts:{},     // epId -> {cutId: true} 이번 화면에서 저장할 컷
   openDetails:new Set(),
   saveError:null,
   saveOkAt:null,
@@ -107,13 +109,104 @@ function reviewOf(epId, cutId){
   return cuts[String(cutId)]||{take:null,image:null,status:'pending',memo:'',assignee:'unassigned'};
 }
 
+function cloneJson(v){return JSON.parse(JSON.stringify(v));}
+
+function timeMs(s){
+  const t=Date.parse(s||'');
+  return Number.isFinite(t)?t:0;
+}
+
+function userClearedMemo(baseMemo, userMemo){
+  return String(baseMemo??'').trim()!=='' && String(userMemo??'').trim()==='';
+}
+
+function memoAddition(baseMemo, userMemo){
+  const base=baseMemo??'';
+  const user=userMemo??'';
+  if(user===base) return '';
+  if(base && user.startsWith(base)) return user.slice(base.length);
+  return user;
+}
+
+function appendMemo(serverMemo, addition){
+  const add=addition??'';
+  if(!String(add).trim()) return serverMemo??'';
+  const server=serverMemo??'';
+  if(!String(server).trim()) return add;
+  if(server.endsWith(add)) return server;
+  if(/^\s/.test(add)) return server+add;
+  return server.replace(/\s*$/,'')+'\n'+add.replace(/^\s+/,'');
+}
+
+function mergeCutForSave(serverCut, localCut, baseCut){
+  const server=serverCut||{};
+  const local=localCut||{};
+  const base=baseCut||{};
+  const serverNewer=timeMs(server.updatedAt)>timeMs(base.updatedAt);
+  const baseMemo=base.memo??'';
+  const userMemo=local.memo??'';
+  const serverMemo=server.memo??'';
+  let memo;
+  if(userClearedMemo(baseMemo, userMemo)) memo=userMemo;
+  else if(!serverNewer) memo=userMemo;
+  else if(userMemo===baseMemo) memo=serverMemo;
+  else if(baseMemo && userMemo.startsWith(baseMemo)) memo=appendMemo(serverMemo, userMemo.slice(baseMemo.length));
+  else if((serverMemo||'')===(baseMemo||'')) memo=userMemo;
+  else memo=appendMemo(serverMemo, userMemo);
+  if(!serverNewer) return {...local, memo, updatedAt:new Date().toISOString()};
+  const out={...server};
+  ['take','image','assignee'].forEach(f=>{
+    if(JSON.stringify(local[f]??null)!==JSON.stringify(base[f]??null)) out[f]=local[f];
+  });
+  if(JSON.stringify(local.status??null)!==JSON.stringify(base.status??null)) out.status=local.status;
+  else if(out.status==null) out.status=local.status||'pending';
+  out.memo=memo;
+  out.updatedAt=new Date().toISOString();
+  return out;
+}
+
+function markDirty(epId, cutId){
+  const key=String(cutId);
+  state.dirtyCuts[epId]=state.dirtyCuts[epId]||{};
+  state.dirtyCuts[epId][key]=true;
+  state.dirty=true;
+}
+
+function hasDirty(){
+  return Object.keys(state.dirtyCuts).some(epId=>Object.values(state.dirtyCuts[epId]||{}).some(Boolean));
+}
+
+function snapshotDirty(){
+  const jobs=[];
+  Object.entries(state.dirtyCuts).forEach(([epId, cuts])=>{
+    Object.keys(cuts||{}).forEach(cutId=>{
+      if(!cuts[cutId]) return;
+      const local=state.reviews[epId]?.cuts?.[cutId];
+      if(!local) return;
+      jobs.push({epId, cutId, local:cloneJson(local)});
+    });
+  });
+  return jobs;
+}
+
+function rememberBaseline(episodes){
+  const next={};
+  Object.entries(episodes||{}).forEach(([epId, ep])=>{
+    next[epId]={};
+    Object.entries((ep&&ep.cuts)||{}).forEach(([cutId, rec])=>{
+      next[epId][cutId]=cloneJson(rec);
+    });
+  });
+  state.baseline=next;
+}
+
 function setReview(epId, cutId, patch){
   const ep=state.reviews[epId]||(state.reviews[epId]={cuts:{}});
   if(!ep.cuts) ep.cuts={};
   const key=String(cutId);
-  const prev=ep.cuts[key]||{take:null,status:'pending',memo:'',assignee:'unassigned'};
+  const prev=ep.cuts[key]||{take:null,image:null,status:'pending',memo:'',assignee:'unassigned'};
   ep.cuts[key]={...prev,...patch,updatedAt:new Date().toISOString()};
-  state.dirty=true;
+  markDirty(epId, key);
 }
 
 function selectedImage(epId, cut){
@@ -225,6 +318,7 @@ async function loadReviews(){
     if(!res.ok) throw new Error('HTTP '+res.status);
     const data=await res.json();
     state.reviews=data.episodes||{};
+    rememberBaseline(state.reviews);
     state.loaded=true;
     state.saveError=null;
     setSaveUI();
@@ -235,32 +329,122 @@ async function loadReviews(){
 }
 
 let saveTimer=null;
+let saveQueue=Promise.resolve();
+function enqueuePersist(){
+  saveQueue=saveQueue.then(()=>persistReviews()).catch(()=>{});
+}
 function queueSave(){
   state.dirty=true;
   setSaveUI();
   clearTimeout(saveTimer);
-  saveTimer=setTimeout(persistReviews,250);
+  saveTimer=setTimeout(enqueuePersist,250);
+}
+
+function refreshCutReview(epId, cutId){
+  const ep=episodes.find(e=>e.id===epId);
+  const cut=(ep?.cuts?.cuts||[]).find(c=>String(c.n)===String(cutId));
+  const el=app.querySelector(`.cut[data-ep="${CSS.escape(epId)}"][data-n="${CSS.escape(String(cutId))}"]`);
+  if(ep && cut && el) updateReviewUI(epId, el, cut);
+}
+
+function writeMemoField(epId, cutId, memo){
+  const el=app.querySelector(`.review[data-ep="${CSS.escape(epId)}"][data-cut="${CSS.escape(String(cutId))}"] textarea[data-review=memo]`);
+  if(!el || el.value===(memo||'')) return;
+  const focused=document.activeElement===el;
+  const atEnd=focused && el.selectionStart===el.value.length && el.selectionEnd===el.value.length;
+  el.value=memo||'';
+  if(focused && atEnd){
+    const n=el.value.length;
+    try{ el.setSelectionRange(n, n); }catch(e){}
+  }
+}
+
+function commitSavedCut(job, serverCut){
+  const epId=job.epId;
+  const cutId=job.cutId;
+  const saved=cloneJson(serverCut||{});
+  state.reviews[epId]=state.reviews[epId]||{cuts:{}};
+  if(!state.reviews[epId].cuts) state.reviews[epId].cuts={};
+  state.baseline[epId]=state.baseline[epId]||{};
+  const current=state.reviews[epId].cuts[cutId];
+  const changedDuring=JSON.stringify(current)!==JSON.stringify(job.local);
+  state.baseline[epId][cutId]=cloneJson(saved);
+  if(!changedDuring){
+    state.reviews[epId].cuts[cutId]=cloneJson(saved);
+    if(state.dirtyCuts[epId]) delete state.dirtyCuts[epId][cutId];
+    writeMemoField(epId, cutId, saved.memo||'');
+    refreshCutReview(epId, cutId);
+    return;
+  }
+  const next={...current};
+  if((current.memo??'')!==(job.local.memo??'')){
+    const cleared=userClearedMemo(job.local.memo??'', current.memo??'');
+    const extra=memoAddition(job.local.memo??'', current.memo??'');
+    next.memo=cleared ? (current.memo??'') : appendMemo(saved.memo??'', extra);
+  }
+  state.reviews[epId].cuts[cutId]=next;
+  writeMemoField(epId, cutId, next.memo||'');
+  refreshCutReview(epId, cutId);
+}
+
+function adoptUndirty(latest){
+  Object.entries(latest||{}).forEach(([epId, ep])=>{
+    state.reviews[epId]=state.reviews[epId]||{cuts:{}};
+    if(!state.reviews[epId].cuts) state.reviews[epId].cuts={};
+    state.baseline[epId]=state.baseline[epId]||{};
+    Object.entries((ep&&ep.cuts)||{}).forEach(([cutId, rec])=>{
+      if(state.dirtyCuts[epId]?.[cutId]) return;
+      state.reviews[epId].cuts[cutId]=cloneJson(rec);
+      state.baseline[epId][cutId]=cloneJson(rec);
+      refreshCutReview(epId, cutId);
+    });
+  });
 }
 
 async function persistReviews(){
-  const snapshot=JSON.parse(JSON.stringify({episodes:state.reviews}));
+  const jobs=snapshotDirty();
+  if(!jobs.length){
+    state.dirty=false;
+    setSaveUI();
+    return;
+  }
   state.dirty=true;
   setSaveUI();
   try{
-    const res=await fetch('/api/reviews',{
-      method:'PUT',
-      headers:{'Content-Type':'application/json; charset=utf-8'},
-      body:JSON.stringify(snapshot)
-    });
-    const data=await res.json().catch(()=>({}));
-    if(!res.ok||data.ok===false) throw new Error(data.error||('HTTP '+res.status));
-    if(data.store?.episodes) state.reviews=data.store.episodes;
-    state.dirty=false;
-    state.saveError=null;
-    state.saveOkAt=new Date().toLocaleString('ko-KR');
+    const res=await fetch('/api/reviews',{cache:'no-store'});
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    const data=await res.json();
+    let latest=data.episodes||{};
+    adoptUndirty(latest);
+    for(const job of jobs){
+      if(!state.dirtyCuts[job.epId]?.[job.cutId]) continue;
+      const serverCut=(latest[job.epId]?.cuts||{})[job.cutId]||null;
+      const baseCut=(state.baseline[job.epId]||{})[job.cutId]||null;
+      const live=state.reviews[job.epId]?.cuts?.[job.cutId]||job.local;
+      const source=JSON.stringify(live)===JSON.stringify(job.local)?job.local:cloneJson(live);
+      const merged=mergeCutForSave(serverCut, source, baseCut);
+      const body={episodes:{[job.epId]:{cuts:{[job.cutId]:merged}}}};
+      const keys=Object.keys(body.episodes[job.epId].cuts);
+      if(keys.length!==1) throw new Error('한 컷만 저장해야 합니다');
+      const put=await fetch('/api/reviews',{
+        method:'PUT',
+        headers:{'Content-Type':'application/json; charset=utf-8'},
+        body:JSON.stringify(body)
+      });
+      const putData=await put.json().catch(()=>({}));
+      if(!put.ok||putData.ok===false) throw new Error(putData.error||('HTTP '+put.status));
+      if(putData.store?.episodes) latest=putData.store.episodes;
+      const stored=(latest[job.epId]?.cuts||{})[job.cutId]||merged;
+      commitSavedCut({epId:job.epId, cutId:job.cutId, local:source}, stored);
+    }
+    if(hasDirty()) queueSave();
+    else {
+      state.dirty=false;
+      state.saveError=null;
+      state.saveOkAt=new Date().toLocaleString('ko-KR');
+    }
     setSaveUI();
   }catch(err){
-    // 기존 화면 기록(state.reviews)은 그대로 둔다
     state.saveError=String(err.message||err);
     setSaveUI();
   }
@@ -340,7 +524,7 @@ function updateReviewUI(epId, cutEl, cut){
   const badge=cutEl.querySelector('[data-review=badge]');
   if(statusSel) statusSel.value=r.status||'pending';
   if(assigneeSel) assigneeSel.value=r.assignee||'unassigned';
-  if(memo && document.activeElement!==memo) memo.value=r.memo||'';
+  if(memo && document.activeElement!==memo && memo.value!==(r.memo||'')) memo.value=r.memo||'';
   if(badge){
     const st=r.status||'pending';
     badge.className='badge '+(st==='approved'?'tag-ok':st==='needs_fix'?'tag-fix':'tag-pending');
@@ -626,7 +810,10 @@ app.addEventListener('toggle',e=>{
   else state.openDetails.delete(d.dataset.details);
 }, true);
 
-saveBtn.addEventListener('click',()=>persistReviews());
+saveBtn.addEventListener('click',()=>{
+  clearTimeout(saveTimer);
+  enqueuePersist();
+});
 
 window.addEventListener('hashchange',()=>{
   state.filter='all';
