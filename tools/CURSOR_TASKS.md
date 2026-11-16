@@ -179,7 +179,7 @@ Claude가 초안을 써 두었다(미실행, 수정 허용: 이 파일과 `tools
 
 ## 작업 35 — UI 화면 9:16 네이티브 렌더(양옆 여백 없음) (2026-11-16, 사용자: "채팅 화면 양옆에 여백 없어도 되지 않나")
 
-- 상태: TODO. 우선순위: 34보다 먼저.
+- 상태: 보류 (2026-11-16). `ui/v06/render_ui_v06.py`·`render_ui_v062.py`와 원본 UI mp4가 이 저장소에 없어 7개 `_916.mp4`는 만들지 않음. 렌더러가 들어오면 다시 연다.
 - 배경: UI 원본(`01_EPISODES/EP01R/ui/v06/EP01R_<ID>.mp4`)이 830×1800이라 1080×1920에 넣으면 양옆 여백(블러)이 남는다. 크롭하면 헤더·입력창이 잘린다(검증됨). 해결은 렌더러에서 **1080×1920 비율로 처음부터 그리는 것**: 채팅 본문 폭을 늘리고 헤더·입력창을 위아래 끝에 고정.
 - 대상 컷(1화): 2(U01b, 현재 미사용)·6(U05_READ0)·16(U11b)·25(U18b_DMLIST)·28(U20b_MAMA_DM)·36(U33b_BEA_REPLIES)·38(U25b_MAMA_EAT). 내용·타이밍·사용 구간(ss/t)은 작업 33 표와 동일.
 - 출력: `01_EPISODES/EP01R/ui/v06/EP01R_<ID>_916.mp4` (1080×1920, 24fps). 기존 원본·초안은 그대로 둔다. JSON은 건드리지 않는다(Claude가 연결).
@@ -187,14 +187,14 @@ Claude가 초안을 써 두었다(미실행, 수정 허용: 이 파일과 `tools
 
 ## 작업 36 — 보드 저장을 컷 단위 병합으로 (2026-11-16, 사용자: "보드에서 수정요청하고 메모를 해도 반영이 안 되는")
 
-- 상태: TODO. 우선순위: 35보다 먼저(데이터 유실 중).
+- 상태: DONE (Cursor, 2026-11-16).
 - 증상: 보드 화면이 열린 상태에서 다른 쪽(Claude 스크립트)이 `tools/series_board_reviews.json`을 갱신하면, 사용자가 다음에 승인/메모를 누를 때 화면의 **옛 복사본 전체**가 PUT되어 그 사이의 변경(처리 메모·상태·take)이 덮어써진다. 오늘 컷 3·10·17에서 발생.
 - 수정: `tools/series_board.html`의 setReview/저장 경로를 **변경한 컷 하나만** `{episodes:{EPxx:{cuts:{<n>:{...}}}}}`로 PUT하도록. 저장 직전에 `/api/reviews`를 GET해 최신 store를 받고, 해당 컷의 memo는 서버 값에 사용자 입력을 덧붙이는 방식(사용자가 지운 경우만 제외)으로 병합. 서버 `merge_reviews`는 지금도 컷 단위 병합이라 그대로 두되, `updatedAt`이 서버 쪽이 더 최신이면 memo를 합치고 status는 사용자 값을 우선.
 - 검증: 두 탭을 열고 한쪽에서 메모 저장 → 다른 탭에서 다른 컷 승인 → 둘 다 남아 있어야 함. 생성 API 금지. JSON 백업 후 작업.
 
 ## 작업 37 — 보드 「클로드에 반영 요청」 버튼 + 반영 큐 (2026-11-16, 사용자: "수정하고 저장 버튼을 누를 수 있게 하면 그 뒤에 니가 반영하면 되지 않을까")
 
-- 상태: TODO. 우선순위: 36 다음.
+- 상태: DONE (Cursor, 2026-11-16).
 - 목적: 사용자가 보드에서 승인/수정요청/메모/테이크 선택을 여러 개 한 뒤 **버튼 하나**로 "반영 요청"을 보내면, Claude가 그 묶음만 읽어 애니매틱 JSON에 반영하고 조립한다.
 - UI: 컷 보드 상단에 「클로드에 반영 요청」 버튼. 누르면 `PUT /api/submit` 로 `{episode, submittedAt, cuts:{n:{status,take,image,memo}}}`(마지막 제출 이후 바뀐 컷만) 전송. 전송 후 버튼 옆에 "제출됨 HH:MM · N컷" 표시.
 - 서버(`tools/serve_series_board.py`): `/api/submit` 수신 → `tools/board_submits/EP01_<timestamp>.json` 저장 + `tools/board_submit_latest.json` 갱신. 기존 `/api/reviews` 저장 로직은 유지.
@@ -331,6 +331,21 @@ Claude가 초안을 써 두었다(미실행, 수정 허용: 이 파일과 `tools
 
 
 ## 처리 보고
+
+### 작업 37 — 클로드에 반영 요청 (2026-11-16)
+- 수정: `tools/series_board.html` 컷 보드 상단 「클로드에 반영 요청」. 마지막 제출 이후(첫 방문은 그때의 기록) 바뀐 컷만 `PUT /api/submit`.
+- 서버: `tools/serve_series_board.py` 가 `tools/board_submits/EP01_<시각>.json` 과 `tools/board_submit_latest.json` 에 저장. `processedAt` 은 쓰지 않음.
+- 소비: `tools/board_requests.py` 가 최신 파일을 먼저 읽고 미처리 컷을 표시. 승인 take 는 `tools/series_board_reviews.json` 그대로라 `animatic_set_clip.py --from-reviews` 와 호환.
+- 검증: 임시 서버·헤드리스 크롬. 컷 3·10 승인 + 컷 17 메모 후 제출 파일에 그 3컷만. 다시 누르면 「바뀐 컷이 없습니다」. `board_requests.py` 가 미처리 3컷을 출력. 생성 API 없음. 실사용 검토 JSON은 수정하지 않음.
+
+### 작업 36 — 보드 저장을 바꾼 컷만 병합 (2026-11-16)
+- 수정: `tools/series_board.html` 저장 직전 `GET /api/reviews`. 바꾼 컷만 `{episodes:{EPxx:{cuts:{n}}}}` 로 PUT. 서버 `updatedAt` 이 더 최신이면 메모는 잇고, 사용자가 지운 경우만 비운다. 사용자가 바꾼 status 를 우선.
+- 서버: `tools/serve_series_board.py` 의 `merge_reviews` 는 컷 단위 병합. 서버 시각이 더 최신이면 메모를 합치고 status 는 요청 값, take·image 는 서버 값 유지. 잘못된 JSON 은 400, 기존 파일 유지.
+- 검증: 두 탭. 한쪽 컷 17 메모, 다른 쪽 컷 3 승인 → 둘 다 남고 손대지 않은 컷 10의 `updatedAt` 불변. 서버 메모가 `기존\n사용자\n처리` 로 늘어난 뒤 사용자가 `추가요청` 을 붙이면 `기존\n사용자\n처리\n추가요청`. 사용자가 메모를 비우면 빈 값. 생성 API 없음. 실사용 `series_board_reviews.json` 은 수정하지 않음(테스트는 /tmp 복사본).
+
+### 작업 35 — UI 9:16 네이티브 렌더 (2026-11-16)
+- 하지 않음. `01_EPISODES/EP01R/ui/v06/render_ui_v06.py`, `render_ui_v062.py`, `EP01R_*_916.mp4` 의 원본(`ui/v06/EP01R_<ID>.mp4`)이 저장소와 git 이력에 없다. 화면 내용·헤더 에셋 없이 7개를 그리면 각본과 다른 화면이 된다.
+- 확인: `01_EPISODES/EP01R/ui/` 는 README 뿐. mp4 0개. ffmpeg·생성 API는 호출하지 않음. JSON 미수정.
 
 ### 작업 34 — 영상 칸 UI mp4 (2026-11-16)
 - 수정: `tools/series_board.html`만. `is_ui_mp4`면 영상 칸에 `image.board_src` 재생 + 「UI 컷(완성)」 배지, 테이크 select 없음. `영상 있음/없음` 필터도 UI mp4를 재생 가능으로 친다. `updateCutVideo`가 UI 칸을 비우지 않게 가드.
