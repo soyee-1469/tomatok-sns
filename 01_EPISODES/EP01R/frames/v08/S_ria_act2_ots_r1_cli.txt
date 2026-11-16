@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-16T02:15:11.857704Z",
+    "display_name": "Nano Banana Pro",
+    "id": "3826ef4d-96ed-43aa-8065-23da7099bdbb",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_021511_3826ef4d-96ed-43aa-8065-23da7099bdbb_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "0b0c8839-49af-4e7b-9331-db8e742cf51d",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/0b0c8839-49af-4e7b-9331-db8e742cf51d.png"
+        },
+        {
+          "id": "c5ee7a21-0a87-424d-bb83-049549e5b0c4",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/c5ee7a21-0a87-424d-bb83-049549e5b0c4.png"
+        },
+        {
+          "id": "d1278855-c6f9-464e-8ae1-3435a2f67060",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/d1278855-c6f9-464e-8ae1-3435a2f67060_resize.jpg"
+        }
+      ],
+      "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, natural skin, no beauty filter, no text, no watermark.\nKeep the exact face, hair and earrings of the woman from the first reference image and her clothes from the second reference (white poplin shirt, cuffed sleeves, dark indigo jeans). Use the third reference only for the kitchen island set, lighting and camera position; the woman sits on the END black stool nearest the living room exactly where she is in that reference.\nMedium close-up (85mm), chest-up, camera at her eye level on the island axis: copper pans and shelves softly out of focus behind her on camera-right, warm copper pendant light from above. She holds her phone in both hands resting on the marble counter near the bottom of the frame. Her head is tilted up and to camera-LEFT, looking up at the man standing right beside her; only his navy shirt shoulder and upper arm are visible, soft and out of focus, at the left edge of the frame, no face. Her expression: amused and teasing, one eyebrow up, lips parted as she starts a word. Candid mid-action, like a frame grabbed from video. Nobody looks at the camera.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_021511_3826ef4d-96ed-43aa-8065-23da7099bdbb.png",
+    "status": "completed"
+  }
+]
+--stderr--
