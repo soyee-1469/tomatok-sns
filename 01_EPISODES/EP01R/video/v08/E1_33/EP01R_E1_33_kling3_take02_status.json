@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-16T04:14:43.087639Z",
+  "display_name": "Kling v3.0",
+  "id": "91a6801d-1c61-43d3-b4c1-8661f02e3f41",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+   "aspect_ratio": "9:16",
+   "cfg_scale": 0.5,
+   "duration": 3,
+   "enhance_prompt": false,
+   "height": 1280,
+   "kling_element_ids": [],
+   "kling_elements": [],
+   "medias": [
+    {
+     "data": {
+      "id": "5a877105-88e7-4464-8e3c-e59dc5733b32",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/5a877105-88e7-4464-8e3c-e59dc5733b32_resize.jpg"
+     },
+     "role": "start_image"
+    }
+   ],
+   "mode": "std",
+   "multi_prompt": [],
+   "multi_shot_mode": "custom",
+   "multi_shots": false,
+   "prompt": "SCENE CONTEXT\nEvening kitchen island, island-front side, camera slightly below her eye level. Exactly as in the start image: tight close-up of the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt, small gold hoops, no glasses), her face filling most of the frame, blurred copper pans and shelves behind her on camera-right, her hands and phone below the frame. Her head is tilted up to camera-left, looking up at the man standing beside her, off-frame. She is the only face in this shot; nobody else enters.\n\nCAMERA\nOne continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting, no film grain.\n\nACTION\n0.0–0.3s: she is looking up at him, amused; a quick glance down toward her off-frame phone and back up. No speech yet.\n0.3–2.2s: she starts speaking right away and says the whole line to him, the English word \"Mom?\" first with a little laugh in the eyes, then the Korean sentence warm and matter-of-fact, eyes on his face. Every word must be spoken and finished by 2.2s.\n2.2–3.0s: she holds the amused warm look on him, a small shrug.\n\nPERFORMANCE\nAmused → warm → matter-of-fact. She finds it sweet that her mother is nervous too. Bright, playful, natural head movement is fine. Avoid looking into the lens.\n\nAUDIO\nQuiet kitchen ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.\n\nIDENTITY AND CONTINUITY\nPreserve the same face, hair, earrings, clothes and visible scene throughout. The background stays empty of other people for the entire clip: no one walks past, no one appears at the edge of the frame. Nothing new appears in the frame: no new lamp, no new object, no notes, no paper. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe woman speaks fluent Korean with a light Filipino-English accent and a bright, playful rising rhythm; her voice is warm and clear, a little sing-song, never flat; the single English word is pronounced natively in American English.\nDelivery: for THIS line, \"Mom?\" as a short bright American-English word, then the Korean sentence light and warm, slight stress on \"제일\", the ending settling down gently.\nExact spoken words: \"Mom? 엄마가 제일 무서워해.\". Say exactly these words and nothing else, nothing shortened. No additional speech, no other words in any language. Natural visible lip-sync. Nobody else speaks.",
+   "reference_elements": [],
+   "sound": "on",
+   "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_041443_91a6801d-1c61-43d3-b4c1-8661f02e3f41.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_041443_91a6801d-1c61-43d3-b4c1-8661f02e3f41_thumbnail.webp"
+ }
+]

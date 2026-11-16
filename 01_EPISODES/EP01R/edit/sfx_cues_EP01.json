@@ -1,0 +1,37 @@
+[
+ {
+  "cut": "38",
+  "offset": 0.3,
+  "file": "SFX_CHIME_SINGLE_mirelo_take01.mp3",
+  "vol": 0.7,
+  "fade": 0.3,
+  "why": "준호 폰 알림 — UI 38 시작 (순서 교체 후)"
+ },
+ {
+  "cut": "17",
+  "offset": 0.5,
+  "file": "SFX_CHIME_SINGLE_mirelo_take01.mp3",
+  "vol": 0.55,
+  "fade": 0.25,
+  "pan": 0.7,
+  "why": "리아 폰 메시지 연속 1 (우측에서, 사용자 보드)"
+ },
+ {
+  "cut": "17",
+  "offset": 1.4,
+  "file": "SFX_CHIME_SINGLE_mirelo_take01.mp3",
+  "vol": 0.55,
+  "fade": 0.25,
+  "pan": 0.7,
+  "why": "리아 폰 메시지 연속 2 (우측에서, 사용자 보드)"
+ },
+ {
+  "cut": "17",
+  "offset": 2.2,
+  "file": "SFX_CHIME_SINGLE_mirelo_take01.mp3",
+  "vol": 0.55,
+  "fade": 0.25,
+  "pan": 0.7,
+  "why": "리아 폰 메시지 연속 3 (우측에서, 사용자 보드)"
+ }
+]

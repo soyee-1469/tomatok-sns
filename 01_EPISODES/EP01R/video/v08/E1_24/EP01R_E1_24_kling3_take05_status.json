@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-16T04:29:51.469511Z",
+  "display_name": "Kling v3.0",
+  "id": "20d6e328-b48e-4783-9aed-193bd1a76eb3",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+   "aspect_ratio": "9:16",
+   "cfg_scale": 0.5,
+   "duration": 3,
+   "enhance_prompt": false,
+   "height": 1280,
+   "kling_element_ids": [],
+   "kling_elements": [],
+   "medias": [
+    {
+     "data": {
+      "id": "a6ffad15-524c-430b-8123-7d0732765f1b",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/a6ffad15-524c-430b-8123-7d0732765f1b_resize.jpg"
+     },
+     "role": "start_image"
+    }
+   ],
+   "mode": "std",
+   "multi_prompt": [],
+   "multi_shot_mode": "custom",
+   "multi_shots": false,
+   "prompt": "SCENE CONTEXT\nEvening kitchen island, island-front side, camera slightly below her eye level. Exactly as in the start image: tight close-up of the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt, small gold hoops, no glasses), her face filling most of the frame, blurred copper pans and shelves behind her on camera-right, her hands and phone below the frame. Her head is tilted up to camera-left, looking up at someone beside her, off-frame. She is the only face in this shot; nobody else enters.\n\nCAMERA\nOne continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting, no film grain.\n\nACTION\n0.0–0.3s: she is already looking up at him, amused, one eyebrow up. No speech yet.\n0.3–1.8s: she starts speaking right away and says the short line to him, teasing and delighted, a small shrug of one shoulder, eyes bright on his face. Every word must be spoken and finished by 1.8s.\n1.8–3.0s: she grins at him, head tipping a little, then a soft short laugh.\n\nPERFORMANCE\nAmused → teasing → a little laugh. Bright, warm, playful; natural head movement is fine. Avoid looking into the lens.\n\nAUDIO\nQuiet kitchen ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.\n\nIDENTITY AND CONTINUITY\nPreserve the same face, hair, earrings, clothes and visible scene throughout. The background stays empty of other people for the entire clip: no one walks past, no one appears at the edge of the frame. Nothing new appears in the frame: no new lamp, no new object, no notes, no paper. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe woman speaks fluent Korean with a light Filipino-English accent and a bright, playful rising rhythm; her voice is warm and clear, a little sing-song, never flat.\nDelivery: for THIS line, light and teasing, slight stress on \"많아\", the ending lifting playfully.\nExact spoken words: \"다들 궁금한 게 많아.\". Say exactly these words and nothing else, nothing shortened. No additional speech, no other words in any language. Natural visible lip-sync. Nobody else speaks.",
+   "reference_elements": [],
+   "sound": "on",
+   "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_042951_20d6e328-b48e-4783-9aed-193bd1a76eb3.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_042951_20d6e328-b48e-4783-9aed-193bd1a76eb3_thumbnail.webp"
+ }
+]

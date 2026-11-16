@@ -1,0 +1,24 @@
+SCENE CONTEXT
+Evening living room, sofa-axis camera; the kitchen island is off-frame to the right and stays off-frame. Exactly as in the start image: the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt over a white T-shirt, ID badge on a navy lanyard) in tight close-up on the sofa, phone held low in both hands, soft phone-screen glow on his face. He is the only person visible in this shot; nobody else enters.
+
+CAMERA
+One continuous shot. Tripod camera with a very slow, smooth, barely noticeable push-in toward his face over the whole clip, ending only slightly tighter than the start frame; no cuts, no pan, no reframing, no horizontal flip. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting with warm lamps, no film grain.
+
+ACTION
+0.0–0.3s: eyes on the phone, still thinking. No speech yet.
+0.3–2.2s: he tries the third option as a question, then glances up toward camera-right and asks softly which is best. Every word must be spoken and finished by 2.2s.
+2.2–3.0s: he holds the asking look toward camera-right, eyebrows up, hopeful.
+
+PERFORMANCE
+Overthinking → asking for help. Jittery, earnest, a little lost. He is a very kind, funny man who loves her deeply, a little goofy, with quick expressive reactions and good comic timing; he is never annoyed with anyone. Small, readable changes in the eyebrows, eyes and mouth; natural head movement is fine. Avoid a wide grin, avoid looking into the lens, avoid hand gestures for this cut.
+
+AUDIO
+Quiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.
+
+IDENTITY AND CONTINUITY
+Preserve the same face, hair, glasses, clothes and visible scene throughout. The phone stays held in both hands at the same height as in the start image, the top of the phone always visible at the bottom edge. The background stays empty of other people for the entire clip. Nothing new appears in the frame: no new lamp, no cushion, no new object, no notes, no paper. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The man speaks ONLY Korean, natural native Korean, low and quiet, never raising his voice; even when excited his volume stays the same and only the pace and breath change.
+Delivery: for THIS line, first part a little question to himself, second part softer and hopeful toward camera-right, the ending "좋을까?" lifting.
+Exact spoken words, in Korean: "남편이 될 사람? 어떤 게 좋을까?". Say exactly these Korean words and nothing else; never English, never letters like A, B, C. No additional speech. Natural visible lip-sync. Nobody else speaks.

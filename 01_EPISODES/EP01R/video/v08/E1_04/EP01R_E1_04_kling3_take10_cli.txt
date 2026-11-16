@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-16T07:38:50.65196Z",
+    "display_name": "Kling v3.0",
+    "id": "03ebb325-ed7c-4655-95cb-c143808bb043",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 4,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "ac9df8da-8850-4c67-a5b3-8f7252467117",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/ac9df8da-8850-4c67-a5b3-8f7252467117_resize.jpg"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "SCENE CONTEXT\nEvening living room, sofa-axis camera; the kitchen island is off-frame to the right and stays off-frame. Exactly as in the start image: the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt over a white T-shirt, ID badge on a navy lanyard) in tight close-up on the sofa, phone held low in both hands, soft phone-screen glow on his face. He is the only person visible in this shot; nobody else enters.\n\nCAMERA\nOne continuous shot. Tripod camera with a very slow, smooth, barely noticeable push-in toward his face over the whole clip, ending only slightly tighter than the start frame; no cuts, no pan, no reframing, no horizontal flip. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting with warm lamps, no film grain.\n\nACTION\n0.0–0.3s: eyes on the phone, lips pursed in thought, typing-face. No speech yet.\n0.3–3.2s: he tries the options out loud to himself as little questions while looking at the screen, a tiny tilt of the head on each, the last one slower and more doubtful. Every word must be spoken and finished by 3.2s.\n3.2–4.0s: he keeps looking at the screen, unconvinced, mouth twisting a little, then glances up toward camera-right.\n\nPERFORMANCE\nOverthinking, jittery, earnest; trying options out loud to himself. He is a very kind, funny man who loves her deeply, a little goofy, with quick expressive reactions and good comic timing; he is never annoyed with anyone. Small, readable changes in the eyebrows, eyes and mouth; natural head movement is fine. Avoid a wide grin, avoid looking into the lens, avoid hand gestures for this cut.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.\n\nIDENTITY AND CONTINUITY\nPreserve the same face, hair, glasses, clothes and visible scene throughout. The phone stays held in both hands at the same height as in the start image, the top of the phone always visible at the bottom edge. The background stays empty of other people for the entire clip. Nothing new appears in the frame: no new lamp, no cushion, no new object, no notes, no paper. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe man speaks ONLY Korean, natural native Korean, low and quiet, never raising his voice; even when excited his volume stays the same and only the pace and breath change.\nDelivery: for THIS line, three options each as a little question, light and quick, a small pause before \"아니면\", every syllable pronounced.\nExact spoken words, in Korean, in this order: \"남자친구? 예비신랑? 아니면 남편이 될 사람?\". Say exactly these Korean words and nothing else; never English, never letters like A, B, C. No additional speech. Natural visible lip-sync. Nobody else speaks.",
+      "reference_elements": [],
+      "sound": "on",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_073850_03ebb325-ed7c-4655-95cb-c143808bb043.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_073850_03ebb325-ed7c-4655-95cb-c143808bb043_thumbnail.webp"
+  }
+]
+--stderr--

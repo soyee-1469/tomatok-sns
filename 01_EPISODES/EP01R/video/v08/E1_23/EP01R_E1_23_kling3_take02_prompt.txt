@@ -1,0 +1,24 @@
+SCENE CONTEXT
+Evening kitchen island, camera about 45 degrees off the island-front axis; the counter and the seated woman are to camera-right and mostly off-frame, the living-room cabinet with a vintage radio and globe and framed prints is softly out of focus behind him. Exactly as in the start image: the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt over a white T-shirt, ID badge on a navy lanyard) standing beside the island in a three-quarter medium close-up, looking down at the phone the woman is holding; only the top of her dark wavy hair, her white shirt shoulder and the phone are visible in the lower-right corner, out of focus. He is reading her phone. He is the only face visible in this shot.
+
+CAMERA
+One continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting, no film grain.
+
+ACTION
+0.0–0.3s: eyes on her phone, reading, eyebrows drawing together a little in puzzlement. No speech yet.
+0.3–4.0s: he starts speaking right away and says the whole line at a normal conversational pace, half to himself, eyes still on the phone, a small puzzled tilt of the head in the middle of the sentence, then his eyes lift to her face just below camera-right on the last words. Every word of the line must be spoken and finished by 4.0s.
+4.0–5.0s: he holds the gently puzzled look on her, blinks once, mouth closing.
+
+PERFORMANCE
+Reading → gently puzzled → waiting for her answer. A kind, slightly goofy man who does not get why everyone is being so careful. Low, soft, level; the puzzlement shows in the eyebrows and the head tilt, not in volume. He is never annoyed with anyone; any frustration is aimed at himself or the situation. Small, readable changes in the eyebrows, eyes and mouth; natural head movement is fine. Avoid a wide grin, avoid looking into the lens, avoid hand gestures for this cut.
+
+AUDIO
+Quiet kitchen ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.
+
+IDENTITY AND CONTINUITY
+Preserve the same face, hair, glasses, clothes and visible scene throughout. The woman's hair, shoulder and phone stay in the lower-right corner exactly as in the start image; she does not turn her face to the camera. The pendant lamp at the top right stays exactly as it is. The background stays empty of other people for the entire clip: no one walks past, no one appears at the edge of the frame. Nothing new appears in the frame: no new lamp, no new object, no notes, no paper. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The man speaks natural native Korean, low, calm and quiet, polite and unhurried, never raising his voice; even when puzzled his volume stays the same.
+Delivery: for THIS line, normal conversational pace, clear and even, every syllable pronounced, a short pause after "말하시지", the second half "번역돼서 다 읽을 수 있는데" a touch softer, trailing off on a gentle level tone, gently puzzled, not complaining.
+Exact spoken words: "편하게 말하시지… 번역돼서 다 읽을 수 있는데". Say the complete sentence, all of it, nothing shortened. No additional speech, no other words in any language. Natural visible lip-sync. Nobody else speaks.

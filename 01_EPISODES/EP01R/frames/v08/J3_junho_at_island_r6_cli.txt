@@ -1,0 +1,55 @@
+[
+  {
+    "created_at": "2026-11-16T09:15:36.999517Z",
+    "display_name": "Nano Banana Pro",
+    "id": "6615e125-0665-48b8-acfe-1866be3ecdc3",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_091536_6615e125-0665-48b8-acfe-1866be3ecdc3_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "a89de0ba-7a06-4bd0-bd5a-562f9113dcc7",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/a89de0ba-7a06-4bd0-bd5a-562f9113dcc7.png"
+        },
+        {
+          "id": "04a308cc-9a8c-434c-8508-2b7aa5c9110f",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/04a308cc-9a8c-434c-8508-2b7aa5c9110f.png"
+        },
+        {
+          "id": "262a920b-a554-49d6-bb59-e7c4afc6c4dc",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/262a920b-a554-49d6-bb59-e7c4afc6c4dc.png"
+        },
+        {
+          "id": "eadf8da5-a875-49be-aff8-beff2a6dbbf6",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/eadf8da5-a875-49be-aff8-beff2a6dbbf6.png"
+        },
+        {
+          "id": "bfe98e9e-3b5a-4ca9-8fe1-fc7d17595679",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/bfe98e9e-3b5a-4ca9-8fe1-fc7d17595679_resize.jpg"
+        },
+        {
+          "id": "1062c0f7-613d-49ba-ba0f-8db207f2b9f2",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/1062c0f7-613d-49ba-ba0f-8db207f2b9f2_resize.jpg"
+        }
+      ],
+      "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, natural skin, no beauty filter, no text, no watermark. Keep the same two-person staging as the fourth reference image exactly: the Korean man with round gold wire glasses (reference 1 is his EXACT face and reference 3 his clothes: navy overshirt open over a white T-shirt, ID badge on a navy lanyard, grey trousers) stands bent forward beside the kitchen island on camera-left, leaning in to look at the phone; the Filipino-American woman (reference 2 is her EXACT face and reference 4 her clothes: white poplin shirt with cuffed sleeves, dark indigo jeans, small gold hoops, long dark wavy hair with curtain bangs) sits on the innermost bar stool on camera-right holding her phone up, laughing with one hand near her mouth; both look at her phone screen. Same camera distance and angle as the fifth reference (the previous two-shot), knee-up two-shot. IDENTITY IS THE PRIORITY: both faces must match references 1 and 2 exactly (same eyes, nose, jaw, skin tone, hair); keep the faces large and sharp.\nCHANGE ONLY THE BACKGROUND: behind them is the living-room-side wall of the island: a light oak sideboard with a vintage radio and a globe, and a wall of framed pictures (bus, pagoda, map) above it, warm string lights near the ceiling. There is NO window anywhere in this frame: no arched window, no dark glass, no night sky. The kitchen copper shelves and pans are to the far right edge only. The island top is plain marble with NO sink and no faucet. Warm evening light from the copper pendants above, pendants off-frame or only at the very top edge. Use reference 6 for the set colors and furniture. Faces sharp and well lit, identities exactly matching references 1 and 2. Candid mid-action, like a frame grabbed from video. Nobody looks at the camera.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_091536_6615e125-0665-48b8-acfe-1866be3ecdc3.png",
+    "status": "completed"
+  }
+]
+--stderr--

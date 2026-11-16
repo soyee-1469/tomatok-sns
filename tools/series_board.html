@@ -59,7 +59,7 @@ body.hide-caps .frame .cap{display:none}
 .review textarea{width:100%;min-height:64px;resize:vertical;border:1px solid var(--line);border-radius:8px;padding:8px}
 .tag-ref{background:#efe7d4}.tag-miss{background:#f0e0e0}.tag-check{background:#e8e0f0}.tag-stale{background:#f3e2d2;color:var(--warn)}
 .tag-recommend{background:#e4ebf3;color:#3a5570}
-.tag-ok{background:#dfece4}.tag-fix{background:#f3e2d2}.tag-pending{background:#edece4}
+.tag-ok{background:#dfece4}.tag-ui{background:#dfe6f0;color:#35506e}.tag-fix{background:#f3e2d2}.tag-pending{background:#edece4}
 .basis{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.4}
 .script-meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 14px}
 .save-bar{position:sticky;bottom:0;z-index:12;background:rgba(246,244,239,.95);border-top:1px solid var(--line);padding:10px 28px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
@@ -266,9 +266,14 @@ async function persistReviews(){
   }
 }
 
+function cutHasPlayableVideo(c){
+  if(c.video && c.video.selected_exists) return true;
+  if(c.image?.is_ui_mp4 && c.image?.board_src) return true;
+  return false;
+}
 function cutMatchesFilter(c){
-  if(state.filter==='video') return c.video && c.video.selected_exists;
-  if(state.filter==='novideo') return !(c.video && c.video.selected_exists);
+  if(state.filter==='video') return cutHasPlayableVideo(c);
+  if(state.filter==='novideo') return !cutHasPlayableVideo(c);
   if(state.filter==='noconti') return c.conti && (c.conti.status==='unlinked' || c.conti.status==='check');
   if(state.filter==='linked') return c.conti && c.conti.status==='linked';
   return true;
@@ -293,16 +298,29 @@ function applyCaptionMode(){
 }
 
 function updateCutVideo(epId, cutEl, cut){
+  const frame=cutEl.querySelector('[data-role=video-frame]');
+  if(!frame) return;
+  // UI mp4는 테이크 없음 — 영상 칸에 board_src 유지
+  if(cut.image?.is_ui_mp4){
+    const uiSrc=cut.image?.board_src||'';
+    if(!uiSrc){
+      frame.innerHTML=`<div class="missing">UI mp4 경로 없음</div>`;
+      return;
+    }
+    let video=frame.querySelector('video[data-vid]');
+    if(!video || video.getAttribute('src')!==uiSrc){
+      frame.innerHTML=`<video data-vid="${escape(epId)}:ui-vid:${escape(cut.n)}" src="${escape(uiSrc)}" controls playsinline preload="metadata"></video>`;
+    }
+    return;
+  }
   const takeNum=selectedTake(epId, cut);
   const takes=cut.video?.takes||[];
   const takeObj=takes.find(t=>t.take===takeNum) || takes.find(t=>t.path===cut.video?.selected) || null;
   const videoSrc=takeObj?.board_src || cut.video?.board_src || '';
-  const frame=cutEl.querySelector('[data-role=video-frame]');
   const label=cutEl.querySelector('[data-role=take-label]');
   const select=cutEl.querySelector('select[data-cut]');
   if(select && String(select.value)!==String(takeNum) && takeNum!=null) select.value=String(takeNum);
   if(label) label.textContent=takeObj?`take${String(takeObj.take).padStart(2,'0')}`:(cut.video?.selected?PathName(cut.video.selected):'');
-  if(!frame) return;
   let video=frame.querySelector('video[data-vid]');
   if(!videoSrc){
     frame.innerHTML=`<div class="missing">${cut.video?.selected?'영상 파일 없음':'영상 없음'}</div>`;
@@ -370,10 +388,17 @@ function cutCardHtml(epId, c){
   const contiInner=c.conti?.preview
     ? `<a href="${escape(c.conti.preview)}" target="_blank" rel="noopener"><img src="${escape(c.conti.preview)}" alt="컷 ${escape(c.n)} 콘티" loading="lazy"></a>`
     : `<div class="missing">${escape(contiBadge)}<br><small>${escape(c.conti?.reason||'')}</small></div>`;
-  const vidInner=videoSrc
-    ? `<video data-vid="${escape(epId)}:${escape(c.n)}" src="${escape(videoSrc)}" controls playsinline preload="metadata"></video>${cap}`
-    : `<div class="missing">${c.video?.selected?'영상 파일 없음':'영상 없음'}</div>`;
-  const takeSelect=takes.length?`<label>테이크 <select data-cut="${escape(key)}" data-ep="${escape(epId)}">${takes.map(t=>`<option value="${t.take}" ${t.take===selected?'selected':''}>take${String(t.take).padStart(2,'0')}${c.video?.default_take===t.take?' · 선택 클립':''}</option>`).join('')}</select></label><span class="cut-meta" data-role="take-label">${escape(videoLabel)}</span>`:'';
+  const isUiMp4=!!(c.image?.is_ui_mp4 && c.image?.board_src);
+  let vidInner, takeSelect;
+  if(isUiMp4){
+    vidInner=`<video data-vid="${escape(epId)}:ui-vid:${escape(c.n)}" src="${escape(c.image.board_src)}" controls playsinline preload="metadata"></video>`;
+    takeSelect=`<span class="badge tag-ui">UI 컷(완성)</span>`;
+  }else{
+    vidInner=videoSrc
+      ? `<video data-vid="${escape(epId)}:${escape(c.n)}" src="${escape(videoSrc)}" controls playsinline preload="metadata"></video>${cap}`
+      : `<div class="missing">${c.video?.selected?'영상 파일 없음':'영상 없음'}</div>`;
+    takeSelect=takes.length?`<label>테이크 <select data-cut="${escape(key)}" data-ep="${escape(epId)}">${takes.map(t=>`<option value="${t.take}" ${t.take===selected?'selected':''}>take${String(t.take).padStart(2,'0')}${c.video?.default_take===t.take?' · 선택 클립':''}</option>`).join('')}</select></label><span class="cut-meta" data-role="take-label">${escape(videoLabel)}</span>`:'';
+  }
   const r=reviewOf(epId, c.n);
   const match=cutMatchesFilter(c)?'1':'0';
   const detailsKey=`${epId}:${c.n}`;
@@ -427,7 +452,8 @@ function cutBoard(ep){
       `<button type="button" data-filter="${k}" aria-pressed="${state.filter===k}">${l}</button>`).join('')}
     <button type="button" data-cap="1" aria-pressed="${state.captions}">자막 ${state.captions?'켜짐':'꺼짐'}</button>
   </div>`;
-  const cards=cuts.map(c=>cutCardHtml(ep.id,c)).join('') || '<div class="empty"><h2>활성 컷 없음</h2></div>';
+  const all=(map.cuts||[]);
+  const cards=all.map(c=>c.active?cutCardHtml(ep.id,c):`<div class="cut-card dropped" data-cut="${escape(String(c.n))}" style="opacity:.55;padding:8px 12px;border:1px dashed #bbb;border-radius:10px;margin:6px 0"><b>컷 ${escape(String(c.n))}</b> <span class="badge tag-miss">제외</span> <span class="sub">${escape(c.skip_reason||'')} ${c.line?' · '+escape(c.line):''}</span></div>`).join('') || '<div class="empty"><h2>활성 컷 없음</h2></div>';
   const epNote=ep.id==='EP02'
     ? '2화 콘티는 현행 시트 칸(C=컷). 기준 이미지는 <code>ep02_image_links.json</code> 근거만 연결. 칸 14~16 스케치=구 영수증(재생성 대기), 17=현 그림 사용, 24·30=상자 동작 추가 권장.'
     : '1화 콘티는 <code>SCRIPT_CONTI_AUDIT</code> 근거만 반영했습니다(구 C번호 자동매칭 없음).';
@@ -454,7 +480,11 @@ function scriptMetaHtml(ep){
 }
 
 function productionHtml(ep){
-  return `<h2>장면별 제작 흐름</h2>
+  const finals=(ep.finals||[]).map((f,i)=>`<div class="final-item"><h3>${escape(f.label)}</h3><video src="${escape(f.src)}" controls playsinline preload="metadata" style="width:100%;max-width:420px;aspect-ratio:9/16;background:#000;border-radius:12px"></video><p class="sub"><code>${escape(f.path)}</code></p></div>`).join('');
+  const tl=(ep.timeline||[]);
+  const tlBlock=tl.length?`<h2>조립 타임라인 (최신 후보본 기준, 총 ${escape(String(ep.timeline_total||''))}s + 아웃트로)</h2><p class="sub">영상에서 본 위치를 말할 때 <b>순서 번호</b>나 <b>시각</b>으로 말씀하시면 됩니다. 컷 번호는 각본 번호입니다.</p><table class="tl" style="width:100%;border-collapse:collapse;font-size:13px"><thead><tr><th>순서</th><th>시각</th><th>컷</th><th>길이</th><th>화자·대사</th><th>파일</th></tr></thead><tbody>${tl.map(r=>`<tr style="border-top:1px solid #e5e5e5"><td>${r.idx}</td><td>${escape(r.mmss)}</td><td>${escape(r.n)}</td><td>${r.dur}s</td><td>${escape((r.who?r.who+' · ':'')+r.line)}</td><td><code style="font-size:11px">${escape(r.file)}</code>${r.kind==='still'?' <span class="badge tag-miss">스틸</span>':''}</td></tr>`).join('')}</tbody></table><hr style="margin:24px 0;border:0;border-top:1px solid #ddd">`:'';
+  const finalBlock=finals?`<h2>완성 후보본</h2><p class="sub">아직 99_FINAL에 등록되지 않은 검토용 조립본입니다. 전체를 보고 고칠 컷 번호를 알려주면 다시 조립합니다.</p>${finals}<hr style="margin:24px 0;border:0;border-top:1px solid #ddd">`:'';
+  return `${finalBlock}${tlBlock}<h2>장면별 제작 흐름</h2>
     <p class="sub">각본 전체가 끝나야 제작하는 구조가 아닙니다. 장면(컷)마다 아래 순서로 진행합니다.</p>
     <ol class="rules">
       <li><b>각본</b> — 해당 장면 대사·지문 확인</li>

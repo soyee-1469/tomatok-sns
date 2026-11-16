@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-16T05:52:51.323606Z",
+  "display_name": "Nano Banana Pro",
+  "id": "a987cbe4-b813-4271-a494-a8260504690e",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_055251_a987cbe4-b813-4271-a494-a8260504690e_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "b338de4e-241f-431e-a5a3-6bed91b5ba5e",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/b338de4e-241f-431e-a5a3-6bed91b5ba5e.png"
+    },
+    {
+     "id": "9bc339ff-688e-490c-8873-a76de47f1a7a",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/9bc339ff-688e-490c-8873-a76de47f1a7a.png"
+    },
+    {
+     "id": "ea4a47b8-610b-48fe-9c68-fb5b8dd67d4f",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/ea4a47b8-610b-48fe-9c68-fb5b8dd67d4f_resize.jpg"
+    }
+   ],
+   "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, natural skin, no beauty filter, no text, no watermark. ONE person only: nobody else and no part of anyone else is in the frame. Keep the exact face, hair and round gold wire glasses of the man from the first reference image and his clothes from the second reference (navy overshirt open over a white T-shirt, ID badge on a navy lanyard). Use the third reference only for the kitchen island set, lighting and camera side (island-front side): he stands at the living-room end of the island, blurred living-room cabinet with the radio and globe and framed prints behind him. NO window in frame; pendant lamps off-frame, their warm light from above. Tight close-up (85mm): the face fills the frame from the top of the head to the collar, camera slightly below eye level. He has just pulled his own phone out and holds it up in one hand at the bottom edge of the frame, screen glow on his face, looking DOWN at it, eyebrows slightly raised, mouth just open, a flicker of surprise. Candid mid-action, like a frame grabbed from video. Nobody looks at the camera.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_055251_a987cbe4-b813-4271-a494-a8260504690e.png",
+  "status": "completed"
+ }
+]

@@ -1,0 +1,57 @@
+[
+ {
+  "created_at": "2026-11-16T09:19:34.328902Z",
+  "display_name": "Seedance 2.0",
+  "id": "2fcd0173-fb8f-4f3e-9596-020d28a5bf7b",
+  "job_type": "seedance_2_0",
+  "min_result_url": null,
+  "params": {
+   "aspect_ratio": "9:16",
+   "bitrate_mode": "standard",
+   "duration": 5,
+   "generate_audio": true,
+   "genre": "comedy",
+   "height": 1280,
+   "medias": [
+    {
+     "data": {
+      "id": "dd015e6d-d470-4bc3-ba23-613203f357eb",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/dd015e6d-d470-4bc3-ba23-613203f357eb_resize.jpg"
+     },
+     "role": "start_image"
+    },
+    {
+     "data": {
+      "id": "9d846941-6e98-4671-ba1b-1a9e02a2832f",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/9d846941-6e98-4671-ba1b-1a9e02a2832f.png"
+     },
+     "role": "image"
+    },
+    {
+     "data": {
+      "id": "b221c833-c72c-4b97-a173-ed45d079b07b",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/b221c833-c72c-4b97-a173-ed45d079b07b.png"
+     },
+     "role": "image"
+    }
+   ],
+   "mode": "std",
+   "model": "seedance_2_0",
+   "multi_prompt": [],
+   "multi_shot_mode": "custom",
+   "multi_shots": false,
+   "prompt": "Korean sitcom, single continuous locked-off shot, no cuts, no camera movement, no horizontal flip. Exactly as in the start image: evening apartment, the Korean man with round gold wire glasses (navy overshirt over a white T-shirt, ID badge on a lanyard) stands bent forward beside the kitchen island on the left, leaning in to look at the phone; the Filipino-American woman (white shirt, dark jeans, long dark wavy hair) sits on the bar stool on the right holding her phone up, laughing with one hand near her mouth. The faces of the two people must match the two reference images exactly and stay the same throughout.\nAction: 0–0.5s both look at her phone; she keeps giggling quietly. 0.5–3.5s the man, still looking at the screen, says in natural native Korean, low, calm and gently puzzled: \"그냥 편하게 말하셔도 되는데…\" (exact words, Korean only, nothing else, natural lip-sync). 3.5–5s she glances up at him with an amused grin, he keeps staring at the screen, mouth slightly open.\nAudio: only his line and a quiet living-room ambience. No music, no laugh track, no other voices.\nKeep both faces, hair, glasses and clothes exactly as in the start image and references. No new people, no text, no subtitles, no watermark.",
+   "prompt_language": "en",
+   "reference_elements": [],
+   "resolution": "720p",
+   "speedramp": "auto",
+   "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_091934_2fcd0173-fb8f-4f3e-9596-020d28a5bf7b.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_091934_2fcd0173-fb8f-4f3e-9596-020d28a5bf7b_thumbnail.webp"
+ }
+]

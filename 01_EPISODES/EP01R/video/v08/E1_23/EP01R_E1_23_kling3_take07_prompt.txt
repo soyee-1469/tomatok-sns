@@ -1,0 +1,24 @@
+SCENE CONTEXT
+Evening kitchen island, island-front side, camera slightly below his eye level. Exactly as in the start image: tight close-up of the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt over a white T-shirt, ID badge on a navy lanyard), his face filling the frame from the top of the head to the collar, blurred warm oak cabinet with the radio and globe behind him, warm golden evening light on his face, his hands below the frame. He is looking down and to camera-right, off-frame. He is the only person in this shot; nobody else is visible and nobody enters.
+
+CAMERA
+One continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting, no film grain.
+
+ACTION
+0.0–0.3s: eyes down toward the off-frame phone, reading, eyebrows drawing together a little. No speech yet.
+0.3–2.2s: he starts speaking right away and says the short line, half to himself, a small puzzled tilt of the head, then his eyes lift a little toward camera-right on the last word. Every word must be spoken and finished by 2.2s.
+2.2–3.0s: he holds the gently puzzled look toward camera-right, blinks once.
+
+PERFORMANCE
+Reading → gently puzzled. Low, soft, level. He is a very kind, funny man who loves her deeply, a little goofy, with quick expressive reactions; he is never annoyed with anyone. Small, readable changes in the eyebrows, eyes and mouth; natural head movement is fine. Avoid a wide grin, avoid looking into the lens, avoid hand gestures for this cut.
+
+AUDIO
+Quiet kitchen ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.
+
+IDENTITY AND CONTINUITY
+Preserve the same face, hair, glasses, clothes and visible scene throughout. The background stays empty of other people for the entire clip: no one walks past, no one appears at the edge of the frame. Nothing new appears in the frame: no new lamp, no new object, no notes, no paper. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The man speaks ONLY Korean, natural native Korean, low, calm and quiet, polite and unhurried, never raising his voice; even when surprised his volume stays the same.
+Delivery: for THIS line, clear and even, every syllable pronounced, the ending trailing off on a gentle level tone, gently puzzled, not complaining.
+Exact spoken words, in Korean: "그냥 편하게 말하셔도 되는데…". Say exactly these words and nothing else, nothing shortened. No additional speech, no other words in any language. Natural visible lip-sync. Nobody else speaks.

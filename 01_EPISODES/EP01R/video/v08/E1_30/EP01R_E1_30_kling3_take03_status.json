@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-16T02:28:10.793427Z",
+  "display_name": "Kling v3.0",
+  "id": "2eab7bd8-341e-4063-8ad8-185b70206491",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+   "aspect_ratio": "9:16",
+   "cfg_scale": 0.5,
+   "duration": 6,
+   "enhance_prompt": false,
+   "height": 1280,
+   "kling_element_ids": [],
+   "kling_elements": [],
+   "medias": [
+    {
+     "data": {
+      "id": "320d11b5-fedc-46cc-8198-3d8800c5fbf2",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/320d11b5-fedc-46cc-8198-3d8800c5fbf2_resize.jpg"
+     },
+     "role": "start_image"
+    }
+   ],
+   "mode": "std",
+   "multi_prompt": [],
+   "multi_shot_mode": "custom",
+   "multi_shots": false,
+   "prompt": "SCENE CONTEXT\nEvening kitchen island, camera about 45 degrees off the island-front axis; the kitchen counter and the seated woman are to camera-right and mostly off-frame, the living-room cabinet with a vintage radio and globe and framed prints is softly out of focus behind him. Exactly as in the start image: the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt over a white T-shirt, ID badge on a navy lanyard) standing beside the island in a three-quarter medium close-up, looking down at the phone the woman is holding; only the top of her dark wavy hair, her white shirt shoulder and the phone are visible in the lower-right corner, out of focus. He has just read on her phone that her whole family is sending her their questions for him to check first. He is the only face visible in this shot.\n\nCAMERA\nOne continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting, no film grain.\n\nACTION\n0.0–0.3s: his eyes come up from the phone to her face just below camera-right, eyebrows lifting. No speech yet.\n0.3–5.2s: he starts speaking right away and says the whole line at a normal conversational pace, clearly, as if checking he understood it right, a tiny head shake of disbelief in the middle of the sentence, eyes staying on her, softening as he goes. Every word of the line must be spoken and finished by 5.2s.\n5.2–6.0s: he holds her gaze, a small swallow, the corners of his mouth lifting into the beginning of a touched, helpless half-smile.\n\nPERFORMANCE\nReading → disbelief → quietly moved. A worried man who has just found out twenty-one people are being careful for his sake. Low, soft, level; the wonder shows in the eyes, not in volume. He is a very kind, funny man who loves her deeply, a little goofy, with quick expressive reactions; he is never annoyed with her. Small, readable changes in the eyebrows, eyes and mouth; natural head movement is fine. Avoid a wide grin, avoid looking into the lens, avoid hand gestures for this cut.\n\nAUDIO\nQuiet kitchen ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.\n\nIDENTITY AND CONTINUITY\nPreserve the same face, hair, glasses, clothes and visible scene throughout. The woman's hair, shoulder and phone stay in the lower-right corner exactly as in the start image; she does not turn her face to the camera. The pendant lamp at the top right stays exactly as it is. The background stays empty of other people for the entire clip: no one walks past, no one appears at the edge of the frame. Nothing new appears in the frame: no new lamp, no new object. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe man speaks natural native Korean, low, calm and quiet, polite and unhurried, never raising his voice; even when amazed his volume stays the same.\nDelivery: for THIS line, normal conversational pace, clear and even, every syllable pronounced, a tiny pause after \"스물한 명이\", the question ending lifting gently and softly on \"중이라고?\", not sharp, not accusing.\nExact spoken words: \"스물한 명이 지금 나한테 물어볼 걸 너한테 검사받는 중이라고?\". Say the complete sentence, all of it, nothing shortened. No additional speech, no other words in any language. Natural visible lip-sync. Nobody else speaks.",
+   "reference_elements": [],
+   "sound": "on",
+   "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_022810_2eab7bd8-341e-4063-8ad8-185b70206491.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_022810_2eab7bd8-341e-4063-8ad8-185b70206491_thumbnail.webp"
+ }
+]

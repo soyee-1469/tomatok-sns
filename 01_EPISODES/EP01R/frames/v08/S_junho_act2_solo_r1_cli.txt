@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-16T02:50:46.484636Z",
+    "display_name": "Nano Banana Pro",
+    "id": "70cecfd7-d067-4482-8812-ab5c165b8b57",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_025046_70cecfd7-d067-4482-8812-ab5c165b8b57_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "e22c27be-d3d6-4a6c-ae3b-b460a69e9097",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/e22c27be-d3d6-4a6c-ae3b-b460a69e9097.png"
+        },
+        {
+          "id": "fc2fc26e-c764-4b6e-9cc0-2127dee891f1",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/fc2fc26e-c764-4b6e-9cc0-2127dee891f1.png"
+        },
+        {
+          "id": "be5137a1-e15b-4743-8b2d-34dd2cd64276",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/be5137a1-e15b-4743-8b2d-34dd2cd64276_resize.jpg"
+        }
+      ],
+      "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, natural skin, no beauty filter, no text, no watermark.\nKeep the exact face, hair and round gold wire glasses of the man from the first reference image and his clothes from the second reference (navy overshirt open over a white T-shirt, ID badge on a navy lanyard, grey trousers). Use the third reference only for the kitchen island set, lighting and camera side: the camera stays on the front side of the island as in that reference, and the man stands at the living-room end of the island exactly where he is there.\nMedium close-up (85mm), chest-up, camera at his eye level, turned about 45 degrees from the island-front axis so his face is in three-quarter view. Behind him, softly out of focus: the light oak cabinet with the vintage radio and globe, and the wall with framed prints. No lamp or pendant in frame; warm light from the copper pendants above the island, off-frame. ONE person only: nobody else and no part of anyone else is in the frame, no hair, no shoulder, no hand. He looks DOWN and to camera-RIGHT, toward something just below the frame edge off-frame (a phone someone beside him is holding), eyebrows slightly raised, mouth just open, bewildered and a little lost. Candid mid-action, like a frame grabbed from video. Nobody looks at the camera.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_025046_70cecfd7-d067-4482-8812-ab5c165b8b57.png",
+    "status": "completed"
+  }
+]
+--stderr--

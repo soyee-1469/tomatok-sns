@@ -1,0 +1,59 @@
+[
+ {
+  "created_at": "2026-11-16T03:06:58.831248Z",
+  "display_name": "Nano Banana Pro",
+  "id": "24048117-b42b-4fda-8675-92246a88ec82",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_030658_24048117-b42b-4fda-8675-92246a88ec82_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "f2a464aa-009e-4360-aff2-a9fcdbb4c8c0",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/f2a464aa-009e-4360-aff2-a9fcdbb4c8c0.png"
+    },
+    {
+     "id": "057ef687-7153-483b-b0fc-fdbcc84d57e4",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/057ef687-7153-483b-b0fc-fdbcc84d57e4.png"
+    },
+    {
+     "id": "06ce4cdf-fbda-413d-befc-b5f922c3fcfe",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/06ce4cdf-fbda-413d-befc-b5f922c3fcfe.png"
+    },
+    {
+     "id": "b90c33d9-c358-4f70-b9d5-8a81b6aa77bf",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/b90c33d9-c358-4f70-b9d5-8a81b6aa77bf.png"
+    },
+    {
+     "id": "ccc0706e-6c0f-4d91-bf4a-92606fe6324f",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/ccc0706e-6c0f-4d91-bf4a-92606fe6324f.png"
+    },
+    {
+     "id": "c6474eed-4de5-4055-a91e-acaba814a890",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/c6474eed-4de5-4055-a91e-acaba814a890_resize.jpg"
+    },
+    {
+     "id": "295bca9f-79c5-4989-b50c-4beac7a4d098",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/295bca9f-79c5-4989-b50c-4beac7a4d098_resize.jpg"
+    }
+   ],
+   "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, natural skin, no beauty filter, no text, no watermark. IDENTITIES: reference 1 is the exact face of the woman (27, Filipino-American, long dark wavy hair with curtain bangs, small gold hoops), reference 2 the exact face of the Korean man with round gold wire glasses (29), reference 3 the exact face of the Nepali man with black curly hair and short beard (31); keep these faces exactly. References 4-6 are their clothes: woman white poplin shirt + dark indigo jeans; glasses man navy overshirt over white T-shirt + ID badge on navy lanyard + grey trousers; Nepali man white chef jacket + plain black bib apron. Reference 7 is the kitchen island set: use it for furniture, lighting and camera side only. WALL ORDER behind the island, as in the master: framed-pictures wall and hanging plant on camera-left, then copper shelves with jars, copper pans, hood and fridge on camera-right. NO window anywhere in this frame; the arched window belongs to the living room, off-frame. Warm copper pendant light from above, pendants off-frame. Candid mid-action, like a frame grabbed from video. Nobody looks at the camera.\nWAIST-UP TWO-SHOT (50mm) from the island-front side: the woman seated on the end bar stool at camera-left holding her phone low in both hands, the Nepali man standing behind the counter at camera-right with a glass pickle jar in front of him. BOTH have just lifted their heads and are looking toward camera-LEFT, past the frame edge, toward the sofa off-frame, with the same quiet surprised attention: the woman's eyes just off her phone, lips slightly parted; the Nepali man's head up for the first time, eyebrows raised a little. Faces large and sharp, each face at least a quarter of the frame width. Only these two people.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_030658_24048117-b42b-4fda-8675-92246a88ec82.png",
+  "status": "completed"
+ }
+]

@@ -1,0 +1,25 @@
+SCENE CONTEXT
+Evening kitchen island, island-front side, camera slightly below his eye level. Exactly as in the start image: tight close-up of the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt over a white T-shirt, ID badge on a navy lanyard), his face filling the frame from the top of the head to the collar, blurred living-room cabinet and framed prints behind him, his hands below the frame. He is looking down and to camera-right at a phone screen someone is showing him, just below the frame edge, off-frame. He is the only person in this shot; nobody else is visible and nobody enters.
+
+CAMERA
+One continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting, no film grain.
+
+ACTION
+0.0–0.9s: he leans in a little and peers at the off-frame screen, eyes scanning, brow slightly knitted, reading. No speech yet.
+0.9–1.3s: a sudden small startle: eyebrows shoot up, eyes widen, head pulls back a few centimeters. No speech yet.
+1.3–2.4s: still wide-eyed, eyes on the screen, he says the short Korean line, half a laugh of disbelief in it. Every word must be spoken and finished by 2.4s.
+2.4–3.0s: he keeps staring at the screen, mouth open, a small incredulous shake of the head.
+
+PERFORMANCE
+Reading → startled → disbelieving half-laugh. Quick, readable, a little goofy; excited and confused at the same time, not angry. He is a very kind, funny man who loves her deeply, a little goofy, with quick expressive reactions and good comic timing; he is never annoyed with anyone. Small, readable changes in the eyebrows, eyes and mouth; natural head movement is fine. Avoid a wide grin, avoid looking into the lens, avoid hand gestures for this cut.
+
+AUDIO
+Quiet kitchen ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.
+
+IDENTITY AND CONTINUITY
+Preserve the same face, hair, glasses, clothes and visible scene throughout. The background stays empty of other people for the entire clip: no one walks past, no one appears at the edge of the frame. Nothing new appears in the frame: no new lamp, no cushion, no new object, no notes, no paper. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The man speaks ONLY Korean, natural native Korean, low and quiet, never raising his voice.
+Delivery: for THIS line, a short startled question, every syllable pronounced, the ending "뭐야?" lifting in disbelief.
+Exact spoken words, in Korean: "이게 다 뭐야?". Say exactly these Korean words and nothing else; never English. No additional speech. Natural visible lip-sync. Nobody else speaks.

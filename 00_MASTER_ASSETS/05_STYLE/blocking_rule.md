@@ -235,3 +235,21 @@ Kling은 시작 스틸에 있는 것만 이어 그린다. 상반신 스틸에서
 - 마지막 비트는 항상 "no new movement; …" 로 끝낸다. ACTION 머리말: "(only the movements listed below happen; nothing else moves)".
 - 프레임 밖 인물·공간을 언급하지 않는다("the man on the sofa off-frame" 금지) → Kling이 보여주려고 와이드 컷 삽입(1막 묶음 38cr 손실).
 - 클로즈업 컷은 SCENE CONTEXT에 방 전체를 쓰지 않고 시작 스틸에 보이는 것만 + end_image = 시작 스틸(--lockend). A/B 5번으로 확정.
+
+## 20. 블로킹 맵(평면도) — 2026-11-16 사용자: "쇼츠 보니까 공간 설정·인물 배치·시선·카메라 방향을 미리 잡더라"
+세트마다 위에서 본 평면도 1장을 두고, 콘티·스틸·Kling 프롬프트는 전부 이 맵에서 읽는다. 파일: `05_STYLE/blocking_maps/EP01_sofa_act1_topdown.png`, `EP01_island_act2_topdown.png`.
+맵에 반드시 들어가는 것: 벽 순서(창문 위치), 가구, 인물 기본 자리, 시선 화살표(누가 누구를·위/아래), 카메라 위치와 축(A/B/C), 180° 선.
+- 180° 선 아래(정면 쪽)에서만 찍는다 → 화면 좌우 고정(2막: 준호 왼쪽·리아 오른쪽·수만 오른쪽 뒤).
+- 시선 화살표 = 스틸의 gaze 문장, Kling의 "toward camera-left/right" 문장과 1:1.
+- 한 프레임 한 사람(타이트 CU)으로 대사 컷을 찍고, 와이드는 자리 설명 1초 이내.
+- 새 세트·새 막은 맵부터 그리고(0cr) 사용자 확인 뒤 스틸로 간다.
+
+## 21. 리아 아일랜드 기본 자리 = 제일 안쪽 스툴, 아일랜드 상판에 싱크대 없음 (2026-11-16 사용자: "컷3 리아 위치 선정 잘못. 의자 제일 안쪽에 앉아 있어야 하고 식탁 위에 싱크대 없어야")
+- 리아는 아일랜드 스툴 중 **주방 벽 쪽 제일 안쪽**에 앉는다. 거실 쪽 끝 스툴이 아니다. (11-16까지 뽑은 리아 아일랜드 스틸 S_ria_island_act2_cu_r1·S2R·S15·S43_ria는 모두 끝 스툴 → 교체 대상)
+- 아일랜드 상판은 **대리석 평면만**. 싱크대·수전 없음. 싱크대는 주방 벽 쪽에만.
+- 스틸 프롬프트 고정 문장: `She sits on the INNERMOST bar stool, the one closest to the kitchen wall, not the end stool near the living room. The island top is plain marble: NO sink, no faucet on the island.`
+
+## 22. 인물별 "기준 스틸 한 장" 원칙 (2026-11-16 사용자: "컷3이랑 컷31 조명이 일관성이 없어 보여")
+- 같은 세트·같은 막에서 한 인물의 대사 컷은 **기준 스틸 한 장**에서만 파생한다(시선 방향·표정만 변형, `KEEP this exact staging…` 덧붙임). 스틸을 컷마다 새로 생성하면 램프 위치·프레이밍·피부 색온도가 달라져 조명이 튄다(컷 3 vs 31).
+- 기준 스틸 조건: 펜던트·램프 기구는 프레임 밖, 광원 문장 고정(`warm light from the copper pendants above, off-frame`), 얼굴 밝기 90~100(0~255 기준) 범위.
+- 리아 1화 기준 스틸: 내일 안쪽 스툴 재촬영 때 1장 확정 → 3·5·9·22·24·27·31·33·35·40·42 전부 그 파생본으로.

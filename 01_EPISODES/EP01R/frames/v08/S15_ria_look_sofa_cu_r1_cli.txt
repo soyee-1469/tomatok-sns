@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-16T04:03:01.503506Z",
+    "display_name": "Nano Banana Pro",
+    "id": "fa55dc10-cfac-42bc-8fd7-377410cdae7b",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_040301_fa55dc10-cfac-42bc-8fd7-377410cdae7b_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "e988e99b-2399-4e30-b59e-bd2b18218a22",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/e988e99b-2399-4e30-b59e-bd2b18218a22.png"
+        },
+        {
+          "id": "3866acd8-1177-4571-a5e6-91d4bf6603a2",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/3866acd8-1177-4571-a5e6-91d4bf6603a2.png"
+        },
+        {
+          "id": "d99a0ff0-ef6d-4387-96c6-6c72d1e6e82d",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/d99a0ff0-ef6d-4387-96c6-6c72d1e6e82d_resize.jpg"
+        }
+      ],
+      "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, natural skin, no beauty filter, no text, no watermark. ONE person only: nobody else and no part of anyone else is in the frame. Use the third reference only for the kitchen island set, lighting and camera side (island-front side); NO window in frame, the arched window belongs to the living room off-frame; pendant lamps off-frame, their warm light from above. Tight close-up (85mm): the face fills the frame from the top of the head to the collar, camera slightly below eye level, background very blurred. Candid mid-action, like a frame grabbed from video. Nobody looks at the camera. Keep the exact face, hair and small gold hoop earrings of the woman from the first reference image and her clothes from the second reference (white poplin shirt, cuffed sleeves). She sits on the end bar stool at the island, blurred copper pans and shelves behind her on camera-right. She has just lifted her eyes off her phone and turned her head to camera-LEFT toward the sofa off-frame, quiet surprised attention, lips slightly parted, eyebrows a little raised, no smile yet.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_040301_fa55dc10-cfac-42bc-8fd7-377410cdae7b.png",
+    "status": "completed"
+  }
+]
+--stderr--

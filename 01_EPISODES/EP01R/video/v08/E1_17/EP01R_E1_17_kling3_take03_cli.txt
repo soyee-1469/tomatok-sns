@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-16T07:24:26.659449Z",
+    "display_name": "Kling v3.0",
+    "id": "fc45d972-fb58-4fdf-9761-39177b346f1f",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 3,
+      "enhance_prompt": false,
+      "height": 1920,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "7f017b82-093d-4e8e-b7f4-6ddb0c5dcaeb",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/7f017b82-093d-4e8e-b7f4-6ddb0c5dcaeb_resize.jpg"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "pro",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "SCENE CONTEXT\nEvening living room, sofa-axis camera. Exactly as in the start image: wide shot of the caramel corduroy sofa, the man with glasses (29, Korean, round gold wire glasses, navy overshirt over a white T-shirt, ID badge on a lanyard, grey trousers) sitting in the middle of the sofa with his arms crossed, his phone face-down on the round coffee table, the arched window with prayer flags and string lights behind, the staircase railing at the far left edge exactly as in the start image. The kitchen island is off-frame to the right and stays off-frame. He is the only person in the room; nobody enters.\n\nCAMERA\nOne continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain.\n\nACTION\n0.0–0.5s: he sits with arms crossed, staring toward the island off-frame right. No speech.\n0.5–1.3s: a phone chimes somewhere off-frame right (her phone): his head turns a little more to the right, eyebrows up, chin lifting, leaning slightly to peek. No speech.\n1.3–2.2s: he glances down at his own face-down phone on the table, a small sigh through the nose, lips pushed out in a pout. No speech.\n2.2–3.0s: eyes back toward the island off-frame right, a slow blink, the envious look staying. No speech.\n\nPERFORMANCE\nSulky envy, small and readable: her phone keeps ringing, his is silent. A kind, slightly goofy man pouting. Arms stay crossed, he does not pick up the phone, no speech, no looking at the lens.\n\nAUDIO\nQuiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no voice.\n\nIDENTITY AND CONTINUITY\nPreserve the same face, hair, glasses, clothes, sofa, coffee table, lamps and room throughout. The staircase railing at the left edge stays exactly as in the start image and does not grow or extend; no new stairs, no new objects, no new people. The phone stays face-down on the table. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nNo speech, no voice, no words in any language.",
+      "reference_elements": [],
+      "sound": "on",
+      "width": 1080
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_072426_fc45d972-fb58-4fdf-9761-39177b346f1f.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_072426_fc45d972-fb58-4fdf-9761-39177b346f1f_thumbnail.webp"
+  }
+]
+--stderr--

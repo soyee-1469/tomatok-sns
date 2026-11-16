@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-16T04:37:16.303166Z",
+  "display_name": "Kling v3.0",
+  "id": "4a5db631-95eb-4747-8e45-6a8caece76a8",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+   "aspect_ratio": "9:16",
+   "cfg_scale": 0.5,
+   "duration": 3,
+   "enhance_prompt": false,
+   "height": 1280,
+   "kling_element_ids": [],
+   "kling_elements": [],
+   "medias": [
+    {
+     "data": {
+      "id": "6335ed76-7ee3-4926-a13d-c7ff4743d22f",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/6335ed76-7ee3-4926-a13d-c7ff4743d22f_resize.jpg"
+     },
+     "role": "start_image"
+    }
+   ],
+   "mode": "std",
+   "multi_prompt": [],
+   "multi_shot_mode": "custom",
+   "multi_shots": false,
+   "prompt": "SCENE CONTEXT\nEvening kitchen island, island-front side, camera slightly below his eye level. Exactly as in the start image: tight close-up of the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt over a white T-shirt, ID badge on a navy lanyard), his face filling the frame, blurred living-room cabinet and framed prints behind him, the top edge of his raised phone at the bottom of the frame. He is looking to camera-right toward the person beside him, off-frame. He is the only person in this shot; nobody else enters.\n\nCAMERA\nOne continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting with warm lamps, no film grain.\n\nACTION\n0.0–0.3s: his face is already breaking into a slow, dumb grin, eyes wide. No speech yet.\n0.3–2.0s: he starts speaking right away and says the line toward camera-right, delighted, the grin growing, a small bounce of the shoulders. Every word must be spoken and finished by 2.0s.\n2.0–3.0s: he beams at her, mouth open in a happy laugh with no sound.\n\nPERFORMANCE\nPure delight, goofy, boyish. He is a very kind, funny man who loves her deeply, a little goofy, with quick expressive reactions and good comic timing; he is never annoyed with anyone. Small, readable changes in the eyebrows, eyes and mouth; natural head movement is fine. Avoid a wide grin, avoid looking into the lens, avoid hand gestures for this cut.\n\nAUDIO\nQuiet kitchen ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.\n\nIDENTITY AND CONTINUITY\nPreserve the same face, hair, glasses, clothes and visible scene throughout. The top edge of the phone stays at the bottom of the frame. The background stays empty of other people for the entire clip: no one walks past, no one appears at the edge of the frame. Nothing new appears in the frame: no new lamp, no cushion, no new object, no notes, no paper. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe man speaks natural native Korean, low, calm and quiet, polite and unhurried, never raising his voice; even when excited his volume stays the same and only the pace changes.\nDelivery: for THIS line, bright and quick, \"리아!\" a soft call, the second sentence rising with joy.\nExact spoken words: \"리아! 어머니가 밥 먹었냬!\". Say exactly these words and nothing else, nothing shortened. No additional speech, no other words in any language. Natural visible lip-sync. Nobody else speaks.",
+   "reference_elements": [],
+   "sound": "on",
+   "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_043716_4a5db631-95eb-4747-8e45-6a8caece76a8.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_043716_4a5db631-95eb-4747-8e45-6a8caece76a8_thumbnail.webp"
+ }
+]

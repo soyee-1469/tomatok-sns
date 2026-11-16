@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-16T08:09:35.66293Z",
+  "display_name": "Kling v3.0",
+  "id": "da9ac958-7caf-4ae1-97fa-4f49132a8fd2",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+   "aspect_ratio": "9:16",
+   "cfg_scale": 0.5,
+   "duration": 3,
+   "enhance_prompt": false,
+   "height": 1280,
+   "kling_element_ids": [],
+   "kling_elements": [],
+   "medias": [
+    {
+     "data": {
+      "id": "a1b4d992-c8b4-4605-b4f9-c7d5ccbb5c6e",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/a1b4d992-c8b4-4605-b4f9-c7d5ccbb5c6e_resize.jpg"
+     },
+     "role": "start_image"
+    }
+   ],
+   "mode": "std",
+   "multi_prompt": [],
+   "multi_shot_mode": "custom",
+   "multi_shots": false,
+   "prompt": "SCENE CONTEXT\nEvening kitchen island, island-front side. Exactly as in the start image: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt, small gold hoops, no glasses) seated at the island looking at her phone, one hand near her mouth, blurred copper pans and shelves behind her. The living room and sofa are off-frame to the left and stay off-frame. She is the only person in this shot; nobody enters.\n\nCAMERA\nOne continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting with warm lamps and string lights, no film grain.\n\nACTION\n0.0–0.6s: she reads her phone and presses her lips together, trying not to laugh; her eyes crinkle. No speech.\n0.6–2.0s: the laugh escapes: shoulders shake twice, she bites her lip, the hand near her mouth presses closer, eyes crinkling. No speech, no loud laughing sound.\n2.0–3.0s: still smiling wide, she lifts her head and looks straight toward camera-left at him for a good beat, amused, eyes bright, then back to the phone with the grin. No speech.\n\nPERFORMANCE\nSuppressed laughter, warm and mischievous. Natural head and shoulder movement is fine. Avoid looking into the lens, no speech, no audible laugh.\n\nAUDIO\nQuiet kitchen ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no voice, no laughing sound.\n\nIDENTITY AND CONTINUITY\nPreserve the same face, hair, earrings, shirt and visible scene throughout. The hand and phone stay where they are in the start image. The background stays empty of other people. Nothing new appears in the frame. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nNo speech, no voice, no words in any language.",
+   "reference_elements": [],
+   "sound": "on",
+   "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_080935_da9ac958-7caf-4ae1-97fa-4f49132a8fd2.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_080935_da9ac958-7caf-4ae1-97fa-4f49132a8fd2_thumbnail.webp"
+ }
+]

@@ -10,7 +10,7 @@
     "Local"
   ],
   "updatedBy": "Cursor",
-  "updatedAt": "2026-11-16T02:07:25.674947+00:00",
+  "updatedAt": "2026-11-16T09:14:33.207878+00:00",
   "assets": {
     "page": "board_web/series.html",
     "reviews": "tools/series_board_reviews.json",
@@ -26,10 +26,10 @@
   "scriptContiAudit": true,
   "contiStats": {
     "EP01": {
-      "linked": 6,
+      "linked": 5,
       "reference": 8,
       "check": 1,
-      "unlinked": 27
+      "unlinked": 23
     },
     "EP02": {
       "linked": 42,

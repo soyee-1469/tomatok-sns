@@ -1,0 +1,25 @@
+SCENE CONTEXT
+Evening kitchen island, island-front side, camera slightly below his eye level. Exactly as in the start image: tight close-up of the Nepali man (31, deep brown skin, black curly hair, short trimmed beard, white chef's jacket, plain black bib apron) behind the counter, his face filling the frame, blurred copper pans behind him, a bitten pickle spear in one hand at the bottom edge of the frame. He looks to camera-left across the counter toward the people off-frame, both eyes aligned on the same point, never crossed. He is the only person in this shot; nobody else enters.
+
+CAMERA
+One continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting with warm lamps, no film grain.
+
+ACTION
+0.0–0.3s: chewing, eyes to camera-left, unhurried. No speech yet.
+0.3–2.8s: he says the first sentence in broken Korean, chewing between words, a small shrug.
+2.8–4.4s: a short pause, one chew, then the last two words flat and matter-of-fact. Every word must be spoken and finished by 4.4s.
+4.4–7.0s: NO speech at all for the rest of the clip. He just chews slowly with his mouth closed and keeps looking at them, deadpan, one slow blink. The long silence is the joke.
+
+PERFORMANCE
+Calm, matter-of-fact, slightly amused; a cook stating an obvious fact. Small, readable changes only; natural head movement is fine. Avoid looking into the lens.
+
+AUDIO
+Quiet kitchen ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.
+
+IDENTITY AND CONTINUITY
+Preserve the same face, hair, beard, clothes and visible scene throughout. The pickle stays in his hand at the bottom edge. The background stays empty of other people for the entire clip: no one walks past, no one appears at the edge of the frame. Nothing new appears in the frame: no new lamp, no cushion, no new object, no notes, no paper. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The Nepali man speaks Korean as a second language: clearly accented, slow, halting, particles dropped, low and calm.
+Delivery: for THIS line, broken, halting Korean with a Nepali accent, slow, particles dropped, a long pause after "전화만 해요", "새벽… 네 시" flat and falling, deadpan.
+Exact spoken words, in Korean, complete and in this order: "우리 엄마… 전화만 해요. 새벽… 네 시.". Say all four parts: 우리 엄마 / 전화만 해요 / 새벽 / 네 시. Nothing shortened, nothing repeated. No additional speech, no other words in any language. Natural visible lip-sync. Nobody else speaks.

@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-16T04:37:17.544151Z",
+    "display_name": "Kling v3.0",
+    "id": "a5059739-16fb-4770-aae3-2aaccbd829d3",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 3,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "3768eb2b-a147-4b2b-9627-ecb7a9f7fb78",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/3768eb2b-a147-4b2b-9627-ecb7a9f7fb78_resize.jpg"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "SCENE CONTEXT\nEvening kitchen island, island-axis camera: copper pans and shelves softly out of focus behind her on camera-right, the living room and sofa are off-frame to the left and stay off-frame. Exactly as in the start image: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, small gold hoops, no glasses) seated on the end bar stool, phone held in both hands resting on the marble counter, looking toward camera-left. She is the only person visible in this shot.\n\nCAMERA\nOne continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting with warm lamps, no film grain.\n\nACTION\n0.0–0.3s: she is looking at her phone, grinning; her eyes lift toward camera-left. No speech yet.\n0.3–2.0s: she starts speaking right away and says the line toward camera-left, delighted, a small shrug. Every word must be spoken and finished by 2.0s.\n2.0–3.0s: she laughs lightly, a short soft giggle, and looks back down at the phone.\n\nPERFORMANCE\nDelighted → teasing → giggle. Bright, warm, playful; natural head and shoulder movement is fine. Avoid looking into the lens.\n\nAUDIO\nQuiet kitchen ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.\n\nIDENTITY AND CONTINUITY\nPreserve the same face, hair, earrings, clothes and visible scene throughout. The phone stays in both hands on the counter. The background stays empty of other people for the entire clip: no one walks past, no one appears at the edge of the frame. Nothing new appears in the frame: no new lamp, no cushion, no new object, no notes, no paper. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe woman speaks fluent Korean with a light Filipino-English accent and a bright, playful rising rhythm; her voice is warm and clear, a little sing-song, never flat.\nDelivery: for THIS line, light and delighted, slight stress on \"먼저\", the ending playful.\nExact spoken words: \"다들 나한테 먼저 물어보고 있어.\". Say exactly these words and nothing else, nothing shortened. No additional speech, no other words in any language. Natural visible lip-sync. Nobody else speaks.",
+      "reference_elements": [],
+      "sound": "on",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_043717_a5059739-16fb-4770-aae3-2aaccbd829d3.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_043717_a5059739-16fb-4770-aae3-2aaccbd829d3_thumbnail.webp"
+  }
+]
+--stderr--

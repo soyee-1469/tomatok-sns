@@ -1,0 +1,22 @@
+SCENE CONTEXT
+Evening kitchen island, island-front side, camera slightly below his eye level. Exactly as in the start image: tight close-up of the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt over a white T-shirt, ID badge on a navy lanyard), his face filling the frame, blurred living-room cabinet and framed prints behind him, his own phone held up in one hand at the bottom edge of the frame, screen glow on his face. He is the only person in this shot; nobody else enters.
+
+CAMERA
+One continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting, no film grain.
+
+ACTION
+0.0–0.5s: he is looking down at his phone, a flicker of surprise; his phone has just buzzed. No speech.
+0.5–1.8s: eyebrows rise, eyes widen as he reads the new message, lips parting, a small intake of breath. No speech.
+1.8–3.0s: a slow, dumb smile starts, eyes still on the screen, head tilting a little. No speech.
+
+PERFORMANCE
+Surprised → reading → the first flicker of delight. Quick, readable, a little goofy. He is a very kind, funny man with quick expressive reactions. Avoid looking into the lens, avoid hand gestures beyond holding the phone.
+
+AUDIO
+Quiet kitchen ambience only (soft refrigerator hum). No music, no notification sounds, no vibration, no voice.
+
+IDENTITY AND CONTINUITY
+Preserve the same face, hair, glasses, clothes and visible scene throughout. The phone stays in his hand at the bottom edge exactly as in the start image. The background stays empty of other people. Nothing new appears in the frame. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+No speech, no voice, no words in any language.

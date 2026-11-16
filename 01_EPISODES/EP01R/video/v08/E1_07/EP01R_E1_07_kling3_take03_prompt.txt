@@ -1,0 +1,24 @@
+SCENE CONTEXT
+Evening living room, sofa-axis camera; the kitchen island is off-frame to the right and stays off-frame. Exactly as in the start image: the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt over a white T-shirt, ID badge on a navy lanyard) in tight close-up on the sofa, phone held low in both hands, soft phone-screen glow on his face. He is the only person visible in this shot; nobody else enters.
+
+CAMERA
+One continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting with warm lamps, no film grain.
+
+ACTION
+0.0–0.3s: eyes on the phone; the read count has just changed. Eyebrows shoot up, mouth opens. No speech yet.
+0.3–1.3s: he says the short Korean line clearly, breathy and excited, a small bounce in the shoulders, eyes bright on the screen. Every word must be spoken and finished by 1.3s.
+1.3–3.0s: no speech. He stares at the screen, waiting for a reply; the excitement slowly fades: eyebrows settle, the smile shrinks, a slow blink, still waiting.
+
+PERFORMANCE
+Thrilled → waiting → the hope quietly fading. The long silent stare is the point: the joke is that nothing comes. He is a very kind, funny man who loves her deeply, a little goofy, with quick expressive reactions and good comic timing; he is never annoyed with anyone. Small, readable changes in the eyebrows, eyes and mouth; natural head movement is fine. Avoid a wide grin, avoid looking into the lens, avoid hand gestures for this cut.
+
+AUDIO
+Quiet living-room ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.
+
+IDENTITY AND CONTINUITY
+Preserve the same face, hair, glasses, clothes and visible scene throughout. The phone stays held in both hands at the same height as in the start image, the top of the phone always visible at the bottom edge. The background stays empty of other people for the entire clip. Nothing new appears in the frame: no new lamp, no cushion, no new object, no notes, no paper. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The man speaks ONLY Korean, natural native Korean, low and quiet, never raising his voice; even when excited his volume stays the same and only the pace and breath change.
+Delivery: for THIS line, a short excited exclamation, breathy, the ending "다!" lifting; then total silence for the rest of the clip.
+Exact spoken words, in Korean, four syllables: "다 읽으셨다!". Say exactly these Korean words and nothing else; never English, never letters like A, B, C. No additional speech. Natural visible lip-sync. Nobody else speaks.

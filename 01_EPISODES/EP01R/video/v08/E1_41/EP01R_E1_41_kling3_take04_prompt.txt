@@ -1,0 +1,24 @@
+SCENE CONTEXT
+Evening kitchen island, island-front side, camera slightly below his eye level. Exactly as in the start image: tight close-up of the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt over a white T-shirt, ID badge on a navy lanyard), his face filling the frame from the top of the head to the collar, blurred living-room cabinet behind him, his phone held out low in both hands at the bottom edge of the frame. He is the only person in this shot; nobody else is visible and nobody enters.
+
+CAMERA
+One continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting, no film grain.
+
+ACTION
+0.0–0.3s: eyes on her off-frame to camera-right, the phone held out, a small hopeful breath. No speech yet.
+0.3–2.4s: he starts speaking right away and asks the short line, earnest and hopeful like a student asking if his answer is right, a tiny nod. Every word must be spoken and finished by 2.4s.
+2.4–3.0s: he holds the hopeful look on her, waiting, a small swallow.
+
+PERFORMANCE
+Hopeful → asking → waiting for approval. A kind, slightly goofy man sincerely submitting his two-word reply for inspection. Low, soft, level; the surprise shows in the eyes and eyebrows, not in volume. He is never annoyed with anyone. Natural head movement is fine. Avoid a wide grin, avoid looking into the lens.
+
+AUDIO
+Quiet kitchen ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.
+
+IDENTITY AND CONTINUITY
+Preserve the same face, hair, glasses, clothes and visible scene throughout. The phone stays in both hands at the bottom edge exactly as in the start image. The background stays empty of other people for the entire clip. Nothing new appears in the frame: no new lamp, no new object, no notes, no paper. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The man speaks ONLY Korean, natural native Korean, low, calm and quiet, polite and unhurried, never raising his voice.
+Delivery: for THIS line, a short hopeful question, clear and even, every syllable pronounced, the ending "보낼까?" lifting softly.
+Exact spoken words, in Korean: "나 밥 먹었다고 보낼까?". Say exactly these Korean words and nothing else; never English. No additional speech. Natural visible lip-sync. Nobody else speaks.

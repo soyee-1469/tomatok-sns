@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-11-16T02:56:59.44878Z",
+    "display_name": "Nano Banana Pro",
+    "id": "71d7d2f1-8b58-461e-b827-1bd6b6f7125e",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_025659_71d7d2f1-8b58-461e-b827-1bd6b6f7125e_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "0ffc6133-10c7-4875-8d88-d8c4d188e0d6",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/0ffc6133-10c7-4875-8d88-d8c4d188e0d6.png"
+        },
+        {
+          "id": "8c3d6a8c-f306-4037-9c4d-65e06cdd56ea",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/8c3d6a8c-f306-4037-9c4d-65e06cdd56ea_resize.jpg"
+        },
+        {
+          "id": "acc7e6ac-2416-4035-a0e4-f43cb9ca693d",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/acc7e6ac-2416-4035-a0e4-f43cb9ca693d_resize.jpg"
+        }
+      ],
+      "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, natural skin, no beauty filter, no text, no watermark.\nKeep the exact face, hair and short trimmed beard of the Nepali man from the first reference image and his clothes from the second reference (white chef's jacket, plain black bib apron). Use the third reference only for the kitchen set and lighting: he stands behind the kitchen island counter exactly where he is in that reference, copper pans and shelves behind him.\nTight close-up (85mm): his face fills the frame from the top of the head to the collar, camera slightly below eye level, warm light from the copper pendant above, off-frame. ONE person only, nobody else in frame. He looks to camera-LEFT across the counter toward the two people off-frame, head just starting to shake slowly side to side, lips pressed together in a small resigned, amused smile, eyes half-lidded, \"these two\" expression. Background copper pans very blurred. Candid mid-action, like a frame grabbed from video. Nobody looks at the camera.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_025659_71d7d2f1-8b58-461e-b827-1bd6b6f7125e.png",
+    "status": "completed"
+  }
+]
+--stderr--

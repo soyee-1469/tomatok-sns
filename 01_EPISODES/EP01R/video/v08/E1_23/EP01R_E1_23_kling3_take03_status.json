@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-16T02:52:11.035301Z",
+  "display_name": "Kling v3.0",
+  "id": "3876ab3d-8bae-415c-bca9-7836301ca0e5",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+   "aspect_ratio": "9:16",
+   "cfg_scale": 0.5,
+   "duration": 5,
+   "enhance_prompt": false,
+   "height": 1280,
+   "kling_element_ids": [],
+   "kling_elements": [],
+   "medias": [
+    {
+     "data": {
+      "id": "d7a16a69-b4bd-4e8a-8394-ed22747bc4b4",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/d7a16a69-b4bd-4e8a-8394-ed22747bc4b4_resize.jpg"
+     },
+     "role": "start_image"
+    }
+   ],
+   "mode": "std",
+   "multi_prompt": [],
+   "multi_shot_mode": "custom",
+   "multi_shots": false,
+   "prompt": "SCENE CONTEXT\nEvening kitchen island, camera about 45 degrees off the island-front axis; the counter is to camera-right, off-frame and stays off-frame, the living-room cabinet with a vintage radio and globe and framed prints is softly out of focus behind him. Exactly as in the start image: the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt over a white T-shirt, ID badge on a navy lanyard) standing beside the island in a three-quarter medium close-up, looking down and to camera-right at a phone screen just below the frame edge, off-frame. He is the only person in this shot; nobody else is visible and nobody enters.\n\nCAMERA\nOne continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting, no film grain.\n\nACTION\n0.0–0.3s: eyes down toward the off-frame phone, reading, eyebrows drawing together a little in puzzlement. No speech yet.\n0.3–4.0s: he starts speaking right away and says the whole line at a normal conversational pace, half to himself, eyes still down on the off-frame phone, a small puzzled tilt of the head in the middle of the sentence, then his eyes lift a little toward camera-right, toward the person beside him off-frame, on the last words. Every word of the line must be spoken and finished by 4.0s.\n4.0–5.0s: he holds the gently puzzled look toward camera-right, blinks once, mouth closing.\n\nPERFORMANCE\nReading → gently puzzled → waiting for her answer. A kind, slightly goofy man who does not get why everyone is being so careful. Low, soft, level; the puzzlement shows in the eyebrows and the head tilt, not in volume. He is never annoyed with anyone; any frustration is aimed at himself or the situation. Small, readable changes in the eyebrows, eyes and mouth; natural head movement is fine. Avoid a wide grin, avoid looking into the lens, avoid hand gestures for this cut.\n\nAUDIO\nQuiet kitchen ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.\n\nIDENTITY AND CONTINUITY\nPreserve the same face, hair, glasses, clothes and visible scene throughout. The background stays empty of other people for the entire clip: no one walks past, no one appears at the edge of the frame. Nothing new appears in the frame: no new lamp, no new object, no notes, no paper. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe man speaks natural native Korean, low, calm and quiet, polite and unhurried, never raising his voice; even when puzzled his volume stays the same.\nDelivery: for THIS line, normal conversational pace, clear and even, every syllable pronounced, a short pause after \"말하시지\", the second half \"번역돼서 다 읽을 수 있는데\" a touch softer, trailing off on a gentle level tone, gently puzzled, not complaining.\nExact spoken words: \"편하게 말하시지… 번역돼서 다 읽을 수 있는데\". Say the complete sentence, all of it, nothing shortened. No additional speech, no other words in any language. Natural visible lip-sync. Nobody else speaks.",
+   "reference_elements": [],
+   "sound": "on",
+   "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_025211_3876ab3d-8bae-415c-bca9-7836301ca0e5.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_025211_3876ab3d-8bae-415c-bca9-7836301ca0e5_thumbnail.webp"
+ }
+]

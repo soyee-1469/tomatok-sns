@@ -72,3 +72,6 @@ Exact spoken words: “[approved dialogue]”. No additional speech. Natural vis
 9. **네팔어 중얼거림은 Kling이 발음함**(컷 11 take04 채택). DIALOGUE에 데바나가리 + 로마자 병기, `only Nepali, not Korean, not Hindi`.
 10. **같은 계정에서 세션 두 개가 동시에 생성하지 않는다.** 생성 전 `higgsfield generate list --json`으로 진행 중 작업을 확인하고, 다른 세션이 돌고 있으면 멈추고 사용자에게 알린다. `tools/series_board_reviews.json`·애니매틱 JSON은 한 세션만 쓴다.
 11. **한 글자·숫자 답("2")은 유료 생성 전에 뜻을 확인한다.** 오독으로 6cr 낭비(컷 14 take04).
+12. **SCENE CONTEXT에 대사의 뜻을 영어 문장으로 쓰지 않는다.** "he has just read that her family is sending questions for him to check first"처럼 쓰면 모델이 한국어 대사 대신 **그 영어 문장을 말한다**(컷 30 take03). 상황은 짧은 구절로만, 말은 DIALOGUE에만.
+13. **20음절 넘는 대사는 6초 + 보통 속도.** "slowly / counting it out" 지시와 말줄임표는 발화를 늦추고 줄인다(컷 30 take02: 5초에 절반만).
+14. **2막 미디엄 3/4 스틸(OTS·단독 모두)에서 Kling 3.0 대사가 깨진다.** 11-16 7테이크 전부 축약·다른 문장·영어·글자 생성(컷 23·24·30). 같은 날 J4식 타이트 CU는 11/11 성공. 대사 컷 시작 스틸은 **얼굴이 프레임을 채우는 타이트 CU**(머리~옷깃, 렌즈 옆 시선)로. 미디엄은 무대사·반응 컷에만.

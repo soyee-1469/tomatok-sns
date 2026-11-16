@@ -15,7 +15,7 @@ OUT = ROOT / 'board_web'
 WORLD = ROOT / '00_MASTER_ASSETS/WORLD_PLANNING'
 SB = ROOT / '01_EPISODES/EP01R/frames/v08/STORYBOARD'
 EPISODES = [
-    dict(id='EP01', title='읽음 22', stage='기존 제작본 재검토', next='각본·콘티와 기존 영상의 최종 일치 확인', script='EP01_SCRIPT_FINAL_v07.md', boards='EP01_island_[0-9]*.png'),
+    dict(id='EP01', title='읽음 22', stage='완성 후보본 v121 검토', next='v094 전체 시청 판정 · 보류 컷 4·8·10·26 재시도 · 99_FINAL 파일명 확정', script='EP01_SCRIPT_FINAL_v07.md', boards='EP01_island_[0-9]*.png', finals=[('완성 후보 v121 (45 색 보정)','01_EPISODES/EP01R/export/EP01R_FINAL_20261116_v121.mp4'),('컷만 v121 (효과 없음)','01_EPISODES/EP01R/edit/EP01R_PICTURE_LOCK_v121.mp4'),('이전 후보 v120','01_EPISODES/EP01R/export/EP01R_FINAL_20261116_v120.mp4')]),
     dict(id='EP02', title='싸움은 모국어로', stage='컷별 비교 보드', next='시트2 칸14~16 콘티 재생성(그록봇) · 24·30 상자 동작 권장 · 기준 이미지 일부 연결', script='EP02_SCRIPT_v08.md', boards='EP02_v01_[0-9]*.png', boards_dir='01_EPISODES/EP02_싸움은모국어로/STORYBOARD'),
     dict(id='EP03', title='오늘 못 와?', stage='각본·단톡 UI 초안', next='단톡 UI 검수 · 콘티 준비', script='EP03_SCRIPT_v03.md', boards=None, ui='ep03_chat/index.html'),
     dict(id='EP04', title='조금만 주세요', stage='각본 초안', next='할머니·수만 음식 교류 각본 검토 · 번역 장면과 콘티 준비', script='EP04_SCRIPT_v02.md', boards=None),
@@ -45,6 +45,38 @@ def build():
     if ep03_ui.exists():
         subprocess.run([sys.executable, str(ep03_ui)], check=True)
 
+    def wire_finals(ep: dict) -> None:
+        """완성 후보본 등 최종 영상 파일을 board_web에 링크해 재생 가능하게 (2026-11-16)."""
+        vid_dir = OUT / 'series_cuts' / 'vid'; vid_dir.mkdir(parents=True, exist_ok=True)
+        out = []
+        for label, rel in ep.get('finals', []) or []:
+            src = ROOT / rel
+            if not src.exists():
+                continue
+            link = vid_dir / ('final_' + src.name)
+            if link.exists() or link.is_symlink():
+                link.unlink()
+            try:
+                link.symlink_to(src); out.append({'label': label, 'src': 'series_cuts/vid/' + link.name, 'path': rel})
+            except OSError:
+                pass
+        ep['finals'] = out
+
+    def build_timeline(ep: dict) -> None:
+        """최신 조립본의 실제 순서·시각 표 (애니매틱 JSON 기준, skip 제외). 2026-11-16 사용자: 보드와 합친 영상이 달라서 말하기 어렵다."""
+        if ep.get('id') != 'EP01':
+            return
+        src = ROOT / '01_EPISODES/EP01R/edit/v06/animatic_E1_v062.json'
+        if not src.exists():
+            return
+        rows = [c for c in json.loads(src.read_text(encoding='utf-8')) if not c.get('skip')]
+        t = 0.0; out = []
+        for i, c in enumerate(rows, start=1):
+            d = float(c.get('dur') or 0); clip = c.get('clip') or c.get('src') or ''
+            out.append({'idx': i, 'n': str(c.get('n')), 'start': t, 'mmss': f"{int(t//60)}:{int(t%60):02d}", 'dur': round(d, 2), 'who': c.get('who') or '', 'line': (c.get('line') or '')[:40], 'file': Path(clip).name, 'kind': 'video' if clip.endswith('.mp4') else 'still'})
+            t += d
+        ep['timeline'] = out; ep['timeline_total'] = round(t, 1)
+
     def wire_cut_videos(cut_map: dict) -> None:
         """board_web에서 재생 가능한 영상 심볼릭 링크(복사 없음)."""
         vid_dir = OUT / 'series_cuts' / 'vid'
@@ -65,6 +97,12 @@ def build():
             sel = cut.get('video', {}).get('selected')
             if sel:
                 name = Path(sel).name
+                # 선택 클립이 takes 목록 밖(예: _trim 편집본)이어도 재생되게 링크 (2026-11-16)
+                if not ((vid_dir / name).exists() or (vid_dir / name).is_symlink()) and (ROOT / sel).exists():
+                    try:
+                        (vid_dir / name).symlink_to(ROOT / sel)
+                    except OSError:
+                        pass
                 if (vid_dir / name).exists() or (vid_dir / name).is_symlink():
                     cut['video']['board_src'] = 'series_cuts/vid/' + name
                 else:
@@ -111,6 +149,8 @@ def build():
         item['script_version'] = script_version(ep['script'])
         item['script_mtime'] = iso_from_mtime(src)
         item['built_at'] = built_at
+        wire_finals(item)
+        build_timeline(item)
         item['images'] = []
         board_dir = ROOT / ep['boards_dir'] if ep.get('boards_dir') else SB
         for image in sorted(board_dir.glob(ep['boards'])) if ep['boards'] else []:

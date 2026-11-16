@@ -1,0 +1,59 @@
+[
+ {
+  "created_at": "2026-11-16T03:05:23.017152Z",
+  "display_name": "Nano Banana Pro",
+  "id": "8fda65fc-71e6-4e4a-b335-518fe9ae3c08",
+  "job_type": "nano_banana_pro",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_030523_8fda65fc-71e6-4e4a-b335-518fe9ae3c08_min.webp",
+  "params": {
+   "application": null,
+   "aspect_ratio": "9:16",
+   "batch_size": 1,
+   "height": 2752,
+   "input_image": null,
+   "input_images": [
+    {
+     "id": "edfebdce-f614-4a1e-abaa-d31c2ca14829",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/edfebdce-f614-4a1e-abaa-d31c2ca14829.png"
+    },
+    {
+     "id": "8cb4a478-289b-40da-95e3-9c705192ef06",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/8cb4a478-289b-40da-95e3-9c705192ef06.png"
+    },
+    {
+     "id": "b0d90bfc-5bc6-443c-93b1-e0bec00ac9be",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/b0d90bfc-5bc6-443c-93b1-e0bec00ac9be.png"
+    },
+    {
+     "id": "53924464-581d-4ecf-a031-57f8eb8817c7",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/53924464-581d-4ecf-a031-57f8eb8817c7.png"
+    },
+    {
+     "id": "86232079-b712-4844-bbbd-db8b776cdd3a",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/86232079-b712-4844-bbbd-db8b776cdd3a.png"
+    },
+    {
+     "id": "35d742db-10f2-445c-9315-2c856a5232c0",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/35d742db-10f2-445c-9315-2c856a5232c0_resize.jpg"
+    },
+    {
+     "id": "ee587794-57b1-4594-a3a1-4e9e41e45872",
+     "type": "media_input",
+     "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/ee587794-57b1-4594-a3a1-4e9e41e45872_resize.jpg"
+    }
+   ],
+   "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, natural skin, no beauty filter, no text, no watermark. IDENTITIES: reference 1 is the exact face of the woman (27, Filipino-American, long dark wavy hair with curtain bangs, small gold hoops), reference 2 the exact face of the Korean man with round gold wire glasses (29), reference 3 the exact face of the Nepali man with black curly hair and short beard (31); keep these faces exactly. References 4-6 are their clothes: woman white poplin shirt + dark indigo jeans; glasses man navy overshirt over white T-shirt + ID badge on navy lanyard + grey trousers; Nepali man white chef jacket + plain black bib apron. Reference 7 is the kitchen island set: use it for furniture, lighting and camera side only. WALL ORDER behind the island, as in the master: framed-pictures wall and hanging plant on camera-left, then copper shelves with jars, copper pans, hood and fridge on camera-right. NO window anywhere in this frame; the arched window belongs to the living room, off-frame. Warm copper pendant light from above, pendants off-frame. Candid mid-action, like a frame grabbed from video. Nobody looks at the camera.\nKNEE-UP THREE-SHOT (40mm) from the island-front side: the glasses man standing at the living-room end of the island on camera-LEFT with his hands clasped in front of him, waiting; the woman seated on the end bar stool in the middle, now holding HIS phone in both hands and reading it with a small smile; the Nepali man behind the counter on camera-RIGHT with an EMPTY glass pickle jar and its lid on the counter in front of him, looking at the two of them and shaking his head slowly, a resigned amused smile. Faces as large and sharp as the framing allows. Only these three people.",
+   "resolution": "2k",
+   "surface": null,
+   "width": 1536
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_030523_8fda65fc-71e6-4e4a-b335-518fe9ae3c08.png",
+  "status": "completed"
+ }
+]

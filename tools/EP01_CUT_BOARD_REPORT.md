@@ -2,17 +2,17 @@
 
 - 기준: `01_EPISODES/EP01R/edit/v06/animatic_E1_v062.json`
 - 콘티 수동 매핑: `tools/ep01_conti_links.json` (SCRIPT_CONTI_AUDIT)
-- 전체 행 45 / 활성 42 / skip [20, 21, 29]
-- 이미지 있음 42 · 영상(선택 클립 존재) 14
-- 콘티 linked 6 [2, 11, 13, 14, 15, 19] · reference 8 [8, 9, 10, 12, 22, 23, 42, 45] · check 1 [30] · unlinked 27
+- 전체 행 47 / 활성 37 / skip ['4b', 18, 19, 20, 21, 26, 34, 43, '43b', 44]
+- 이미지 있음 37 · 영상(선택 클립 존재) 30
+- 콘티 linked 5 [2, 11, 13, 14, 15] · reference 8 [8, 9, 10, 12, 22, 23, 42, 45] · check 1 [30] · unlinked 23
 - 이미지 없음 컷: 없음
 - 선택 클립 경로 있으나 파일 없음: 없음
 
 ## 컷3 검증
 
 - 이미지: `01_EPISODES/EP01R/frames/v08/S_ria_island_act2_cu.png` exists=True
-- 선택 클립: `01_EPISODES/EP01R/video/v08/E1_03/EP01R_E1_03_kling3_take01.mp4` exists=True
-- default_take: 1 (take01이어야 함)
+- 선택 클립: `01_EPISODES/EP01R/video/v08/E1_03/EP01R_E1_03_kling3_take07_trim_voC.mp4` exists=True
+- default_take: None (take01이어야 함)
 - takes: [1, 4, 5, 6, 7]
 - 콘티: unlinked / 그림 콘티 없음(prompts_E1 텍스트만)
 - 컷2 콘티: linked path=`01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_cut02_board.png` basis=SCRIPT_CONTI_AUDIT 2.4 — 준호·소파·타이핑/삭제·시선 폰 일치

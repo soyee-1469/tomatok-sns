@@ -1,0 +1,24 @@
+SCENE CONTEXT
+Evening kitchen island, island-axis camera: copper pans and shelves softly out of focus behind her on camera-right, the living room and sofa are off-frame to the left and stay off-frame. Exactly as in the start image: the woman (27, Filipino-American, warm golden-tan skin, long dark wavy hair with curtain bangs, white poplin shirt with cuffed sleeves, small gold hoops, no glasses) seated on the end bar stool, phone held in both hands resting on the marble counter, looking toward camera-left. She is the only person visible in this shot.
+
+CAMERA
+One continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting with warm lamps, no film grain.
+
+ACTION
+0.0–0.3s: eyes on the phone, thumbs already moving. No speech yet.
+0.3–2.0s: she starts speaking right away and says the line to camera-left without looking up, cheerful and busy, thumbs tapping. Every word must be spoken and finished by 2.0s.
+2.0–3.0s: she keeps typing, a happy little laugh, eyes on the screen.
+
+PERFORMANCE
+Busy, cheerful, enjoying it. Bright, warm, playful; natural head and shoulder movement is fine. Avoid looking into the lens.
+
+AUDIO
+Quiet kitchen ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.
+
+IDENTITY AND CONTINUITY
+Preserve the same face, hair, earrings, clothes and visible scene throughout. The phone stays in both hands on the counter. The background stays empty of other people for the entire clip: no one walks past, no one appears at the edge of the frame. Nothing new appears in the frame: no new lamp, no cushion, no new object, no notes, no paper. No subtitles, no on-screen text, no watermark.
+
+DIALOGUE
+The woman speaks fluent Korean with a light Filipino-English accent and a bright, playful rising rhythm; her voice is warm and clear, a little sing-song, never flat.
+Delivery: for THIS line, quick and cheerful, "오빠" soft, "너무 바빠" with a laugh in it.
+Exact spoken words: "오빠, 나 답장해야 돼. 너무 바빠.". Say exactly these words and nothing else, nothing shortened. No additional speech, no other words in any language. Natural visible lip-sync. Nobody else speaks.

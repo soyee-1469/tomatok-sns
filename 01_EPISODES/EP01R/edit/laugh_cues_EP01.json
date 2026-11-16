@@ -1,0 +1,42 @@
+[
+ {
+  "cut": "4",
+  "offset": 3.3,
+  "file": "LAUGH_LIGHT_CHUCKLE_mirelo_take01.mp3",
+  "vol": 0.3,
+  "fade": 0.8,
+  "why": "남자친구? 예비신랑? 남편이 될 사람? — 첫 비트"
+ },
+ {
+  "cut": "13",
+  "offset": 6.1,
+  "file": "LAUGH_MEDIUM_mirelo_take01.mp3",
+  "vol": 0.45,
+  "fade": 1.0,
+  "why": "새벽… 네 시 뒤 정적에 웃음"
+ },
+ {
+  "cut": "14",
+  "offset": 2.7,
+  "file": "LAUGH_BIG_mirelo_take01.mp3",
+  "vol": 1.0,
+  "fade": 1.2,
+  "why": "전화가 오면 어쩌지 — 1막 최대 펀치"
+ },
+ {
+  "cut": "30",
+  "offset": 2.1,
+  "file": "LAUGH_MEDIUM_mirelo_take01.mp3",
+  "vol": 0.4,
+  "fade": 1.0,
+  "why": "너한테 먼저 검사받는 거야?"
+ },
+ {
+  "cut": "42",
+  "offset": 2.1,
+  "file": "LAUGH_BIG_mirelo_take01.mp3",
+  "vol": 0.9,
+  "fade": 1.2,
+  "why": "오빠도 검사받게? — 엔딩 펀치"
+ }
+]

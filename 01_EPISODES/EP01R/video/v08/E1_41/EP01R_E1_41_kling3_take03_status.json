@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-16T05:35:59.800301Z",
+  "display_name": "Kling v3.0",
+  "id": "b0ef7ab7-d444-4903-b6de-8e3ae36e2ca0",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+   "aspect_ratio": "9:16",
+   "cfg_scale": 0.5,
+   "duration": 3,
+   "enhance_prompt": false,
+   "height": 1280,
+   "kling_element_ids": [],
+   "kling_elements": [],
+   "medias": [
+    {
+     "data": {
+      "id": "0bbc2060-463a-4902-89a7-059895f39cb2",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/0bbc2060-463a-4902-89a7-059895f39cb2_resize.jpg"
+     },
+     "role": "start_image"
+    }
+   ],
+   "mode": "std",
+   "multi_prompt": [],
+   "multi_shot_mode": "custom",
+   "multi_shots": false,
+   "prompt": "SCENE CONTEXT\nEvening kitchen island, island-front side, camera slightly below his eye level. Exactly as in the start image: tight close-up of the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt over a white T-shirt, ID badge on a navy lanyard), his face filling the frame from the top of the head to the collar, blurred living-room cabinet behind him, his phone held out low in both hands at the bottom edge of the frame. He is the only person in this shot; nobody else is visible and nobody enters.\n\nCAMERA\nOne continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting, no film grain.\n\nACTION\n0.0–0.3s: eyes on her off-frame to camera-right, the phone held out, eyebrows already up, a little bounce of excitement in the shoulders. No speech yet.\n0.3–2.4s: he starts speaking right away and says the whole line, giddy and hopeful like a kid showing his homework, a nervous happy little smile, a tiny nod on the second sentence. Every word must be spoken and finished by 2.4s.\n2.4–3.0s: he holds the giddy hopeful look on her, waiting, eyes bright, the smile not quite contained.\n\nPERFORMANCE\nGiddy → asking → waiting for approval. Flustered in a happy way, excited and a little scared at the same time; a kind, slightly goofy man sincerely submitting his two-word reply for inspection. Low, soft, level; the surprise shows in the eyes and eyebrows, not in volume. He is never annoyed with anyone. Natural head movement is fine. Avoid a wide grin, avoid looking into the lens.\n\nAUDIO\nQuiet kitchen ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.\n\nIDENTITY AND CONTINUITY\nPreserve the same face, hair, glasses, clothes and visible scene throughout. The phone stays in both hands at the bottom edge exactly as in the start image. The background stays empty of other people for the entire clip. Nothing new appears in the frame: no new lamp, no new object, no notes, no paper. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe man speaks ONLY Korean, natural native Korean, low, calm and quiet, polite and unhurried, never raising his voice.\nDelivery: for THIS line, a touch brighter and quicker than his usual calm, breathy with excitement, every syllable pronounced, a tiny pause after \"먹었어\", the question \"보내도 돼?\" lifting softly and hopefully at the end.\nExact spoken words: \"나 밥 먹었어. 먹었다고 보내도 돼?\". Say exactly these words and nothing else. No additional speech, no other words in any language. Natural visible lip-sync. Nobody else speaks.",
+   "reference_elements": [],
+   "sound": "on",
+   "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_053559_b0ef7ab7-d444-4903-b6de-8e3ae36e2ca0.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_053559_b0ef7ab7-d444-4903-b6de-8e3ae36e2ca0_thumbnail.webp"
+ }
+]

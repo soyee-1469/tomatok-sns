@@ -1,0 +1,60 @@
+[
+  {
+    "created_at": "2026-11-16T03:02:45.844463Z",
+    "display_name": "Nano Banana Pro",
+    "id": "53a8be54-eff9-4247-9809-b82bc9d91d82",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_030245_53a8be54-eff9-4247-9809-b82bc9d91d82_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "7f4e7d5b-cd21-44c5-abe6-9dead1172eba",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/7f4e7d5b-cd21-44c5-abe6-9dead1172eba.png"
+        },
+        {
+          "id": "74c395c7-ea0f-4417-bf40-6818922709e4",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/74c395c7-ea0f-4417-bf40-6818922709e4.png"
+        },
+        {
+          "id": "94ac4a8c-f60a-4e4a-8f7f-e045e1cebcd1",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/94ac4a8c-f60a-4e4a-8f7f-e045e1cebcd1.png"
+        },
+        {
+          "id": "cf31b920-1002-4a6f-87bb-5ba33f15a83d",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/cf31b920-1002-4a6f-87bb-5ba33f15a83d.png"
+        },
+        {
+          "id": "c1fe075f-ffa9-4ead-9755-eeb48ceab1f4",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/c1fe075f-ffa9-4ead-9755-eeb48ceab1f4.png"
+        },
+        {
+          "id": "84a57bcf-b287-45ff-8fee-cf511effda56",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/84a57bcf-b287-45ff-8fee-cf511effda56_resize.jpg"
+        },
+        {
+          "id": "955e4b51-f1be-4ddc-8063-69c63dff3df2",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/955e4b51-f1be-4ddc-8063-69c63dff3df2_resize.jpg"
+        }
+      ],
+      "prompt": "Photo-real still for a Korean sitcom, 9:16 vertical, natural skin, no beauty filter, no text, no watermark. IDENTITIES: reference 1 is the exact face of the woman (27, Filipino-American, long dark wavy hair with curtain bangs, small gold hoops), reference 2 the exact face of the Korean man with round gold wire glasses (29), reference 3 the exact face of the Nepali man with black curly hair and short beard (31); keep these faces exactly. References 4-6 are their clothes: woman white poplin shirt + dark indigo jeans; glasses man navy overshirt over white T-shirt + ID badge on navy lanyard + grey trousers; Nepali man white chef jacket + plain black bib apron. Reference 7 is the kitchen island set: use it for furniture, lighting and camera side only. WALL ORDER behind the island, as in the master: framed-pictures wall and hanging plant on camera-left, then copper shelves with jars, copper pans, hood and fridge on camera-right. NO window anywhere in this frame; the arched window belongs to the living room, off-frame. Warm copper pendant light from above, pendants off-frame. Candid mid-action, like a frame grabbed from video. Nobody looks at the camera.\nWAIST-UP TWO-SHOT (50mm) from the island-front side: the glasses man standing at the living-room end of the island on camera-LEFT, the woman seated on the end bar stool on camera-RIGHT, turned toward him. He has just read something on his phone and his face is breaking into a slow, dumb, delighted grin, eyes wide, mouth open, lifting the phone up high in one hand toward her; she looks up at him and his phone, amused, eyebrows up. Faces large and sharp, each face at least a quarter of the frame width. Only these two people; the Nepali man is off-frame.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_030245_53a8be54-eff9-4247-9809-b82bc9d91d82.png",
+    "status": "completed"
+  }
+]
+--stderr--

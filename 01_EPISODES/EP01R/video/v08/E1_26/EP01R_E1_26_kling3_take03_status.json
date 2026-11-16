@@ -1,0 +1,39 @@
+[
+ {
+  "created_at": "2026-11-16T04:39:45.661483Z",
+  "display_name": "Kling v3.0",
+  "id": "ff03d735-3db4-44ca-8610-b4da71ea9a1b",
+  "job_type": "kling3_0",
+  "min_result_url": null,
+  "params": {
+   "aspect_ratio": "9:16",
+   "cfg_scale": 0.5,
+   "duration": 3,
+   "enhance_prompt": false,
+   "height": 1280,
+   "kling_element_ids": [],
+   "kling_elements": [],
+   "medias": [
+    {
+     "data": {
+      "id": "fdf9b122-2f9e-4575-8190-5a5e171043a7",
+      "type": "media_input",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/fdf9b122-2f9e-4575-8190-5a5e171043a7_resize.jpg"
+     },
+     "role": "start_image"
+    }
+   ],
+   "mode": "std",
+   "multi_prompt": [],
+   "multi_shot_mode": "custom",
+   "multi_shots": false,
+   "prompt": "SCENE CONTEXT\nEvening kitchen island, island-front side, camera slightly below his eye level. Exactly as in the start image: tight close-up of the man with glasses (29, Korean, round gold wire glasses, jet-black two-block hair, navy overshirt over a white T-shirt, ID badge on a navy lanyard), his face filling the frame from the top of the head to the collar, blurred living-room cabinet and framed prints behind him, his hands below the frame. He is looking down and to camera-right toward the phone the woman beside him is holding, off-frame. He is the only person in this shot; nobody else is visible and nobody enters.\n\nCAMERA\nOne continuous shot. Locked tripod camera, no cuts, no zoom, no pan, no reframing, no horizontal flip. Preserve the starting camera composition while allowing natural character movement. Modern Korean sitcom look, clean natural warm colors, evening indoor lighting, no film grain.\n\nACTION\n0.0–0.3s: eyes down on the off-frame phone; a tiny double-take, eyebrows shooting up, eyes widening with a little thrill. No speech yet.\n0.3–1.5s: he says the short line toward camera-right, flustered in a happy way, half a laugh in it, mouth staying open after the word. Every word must be spoken and finished by 1.5s.\n1.5–3.0s: he looks between the off-frame phone and her, a nervous little smile, a small incredulous shake of the head.\n\nPERFORMANCE\nReading → giddy, flustered bewilderment: excited and a little scared at the same time, eyes bright, a nervous little smile. Not grim, not dread: the mood is lifted and buzzing. He is a very kind, funny man who loves her deeply, a little goofy, with quick expressive reactions; he is never annoyed with anyone, any frustration is aimed at himself or the situation. Small, readable changes in the eyebrows, eyes and mouth; natural head movement is fine. Avoid a wide grin, avoid looking into the lens, avoid hand gestures for this cut.\n\nAUDIO\nQuiet kitchen ambience only (soft refrigerator hum). No music, no notification sounds, no vibration.\n\nIDENTITY AND CONTINUITY\nPreserve the same face, hair, glasses, clothes and visible scene throughout. The background stays empty of other people for the entire clip: no one walks past, no one appears at the edge of the frame. Nothing new appears in the frame: no new lamp, no new object, no notes, no paper. No subtitles, no on-screen text, no watermark.\n\nDIALOGUE\nThe man speaks natural native Korean, low, calm and quiet, polite and unhurried, never raising his voice; even when surprised his volume stays the same.\nDelivery: for THIS line, breathy and a little excited, every syllable pronounced, the ending lifting in happy disbelief, not sharp.\nExact spoken words: \"이게 뭐야.\". Say exactly these words and nothing else, nothing shortened. No additional speech, no other words in any language. Natural visible lip-sync. Nobody else speaks.",
+   "reference_elements": [],
+   "sound": "on",
+   "width": 720
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_043945_ff03d735-3db4-44ca-8610-b4da71ea9a1b.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3IzDaQzoVB6B97s3BJzQ6VDa1Ct/hf_20261116_043945_ff03d735-3db4-44ca-8610-b4da71ea9a1b_thumbnail.webp"
+ }
+]
