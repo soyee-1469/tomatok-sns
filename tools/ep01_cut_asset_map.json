@@ -3,11 +3,10 @@
   "animatic": "01_EPISODES/EP01R/edit/v06/animatic_E1_v062.json",
   "conti_links": "tools/ep01_conti_links.json",
   "total_rows": 47,
-  "active_cuts": 37,
+  "active_cuts": 38,
   "skip_ns": [
     "4b",
     18,
-    19,
     20,
     21,
     26,
@@ -17,9 +16,9 @@
     44
   ],
   "stats": {
-    "with_image": 37,
-    "with_video": 30,
-    "conti_linked": 5,
+    "with_image": 38,
+    "with_video": 31,
+    "conti_linked": 6,
     "conti_reference": 8,
     "conti_check": 1,
     "conti_unlinked": 23,
@@ -30,7 +29,8 @@
       11,
       13,
       14,
-      15
+      15,
+      19
     ],
     "reference_ns": [
       8,
@@ -48,72 +48,80 @@
   },
   "cuts": [
     {
-      "n": 1,
+      "n": 2,
       "skip": false,
       "active": true,
       "skip_reason": "",
       "who": "",
       "line": "",
       "spoken_line": false,
-      "direction": "밤 열 시. 준호 혼자 소파 가운데, 폰을 두 손으로. 22명 방이 조용하다 (소파 와이드, 느린 줌)",
-      "emotion": "평온",
-      "kind": "still",
-      "frame": "W1c_opening_junho_only",
+      "direction": "뭘 쓸지 몰라 머리 긁적이는 준호 CU, 느린 줌인 (사용자 2026-11-16, UI 제거: 초대 전이라 타이핑 없음)",
+      "emotion": "긴장, 공들임, 촐싹",
+      "kind": "video",
+      "frame": "J4_junho_cu_r1",
       "image": {
-        "path": "01_EPISODES/EP01R/frames/v08/W1c_opening_junho_only.png",
+        "path": "01_EPISODES/EP01R/frames/v08/J4_junho_cu_r1.png",
         "exists": true,
-        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__W1c_opening_junho_only.png.jpg",
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J4_junho_cu_r1.png.jpg",
         "is_ui_mp4": false,
         "variants": [
           {
-            "path": "01_EPISODES/EP01R/frames/v08/W1c_opening_junho_only.png",
-            "name": "W1c_opening_junho_only.png",
+            "path": "01_EPISODES/EP01R/frames/v08/J4_junho_cu_r1.png",
+            "name": "J4_junho_cu_r1.png",
             "label": "현재",
             "exists": true,
-            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__W1c_opening_junho_only.png.jpg"
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J4_junho_cu_r1.png.jpg"
           },
           {
-            "path": "01_EPISODES/EP01R/frames/v08/C01_opening_full_wide.png",
-            "name": "C01_opening_full_wide.png",
-            "label": "이전",
+            "path": "01_EPISODES/EP01R/frames/v08/J4_junho_cu_r2.png",
+            "name": "J4_junho_cu_r2.png",
+            "label": "계열",
             "exists": true,
-            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__C01_opening_full_wide.png.jpg"
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J4_junho_cu_r2.png.jpg"
           },
           {
-            "path": "01_EPISODES/EP01R/frames/v08/EP01R_W1_wide_e1_r4.png",
-            "name": "EP01R_W1_wide_e1_r4.png",
+            "path": "01_EPISODES/EP01R/frames/v08/R02_junho_sofa_deleting_center.png",
+            "name": "R02_junho_sofa_deleting_center.png",
             "label": "이전",
             "exists": true,
-            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__EP01R_W1_wide_e1_r4.png.jpg"
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__R02_junho_sofa_deleting_center.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/J1b_junho_deleting_r2_r1.png",
+            "name": "J1b_junho_deleting_r2_r1.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J1b_junho_deleting_r2_r1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/R02c_junho_cu_typing_crop.png",
+            "name": "R02c_junho_cu_typing_crop.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__R02c_junho_cu_typing_crop.png.jpg"
           }
         ]
       },
       "video": {
-        "selected": "01_EPISODES/EP01R/video/v08/E1_01/EP01R_E1_01_kling3_take02_voC.mp4",
+        "selected": "01_EPISODES/EP01R/video/v08/E1_02/EP01R_E1_02_kling3_take01_voC.mp4",
         "selected_exists": true,
         "default_take": null,
         "takes": [
           {
             "take": 1,
-            "path": "01_EPISODES/EP01R/video/v08/E1_01/EP01R_E1_01_kling3_take01.mp4",
-            "name": "EP01R_E1_01_kling3_take01.mp4",
-            "exists": true
-          },
-          {
-            "take": 2,
-            "path": "01_EPISODES/EP01R/video/v08/E1_01/EP01R_E1_01_kling3_take02.mp4",
-            "name": "EP01R_E1_01_kling3_take02.mp4",
+            "path": "01_EPISODES/EP01R/video/v08/E1_02/EP01R_E1_02_kling3_take01.mp4",
+            "name": "EP01R_E1_02_kling3_take01.mp4",
             "exists": true
           }
         ],
         "note": ""
       },
       "conti": {
-        "path": null,
-        "status": "unlinked",
-        "reason": "그림 콘티 없음(prompts_E1 텍스트만)",
-        "basis": null,
-        "preview": null
+        "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_cut02_board.png",
+        "status": "linked",
+        "reason": null,
+        "basis": "SCRIPT_CONTI_AUDIT 2.4 — 준호·소파·타이핑/삭제·시선 폰 일치",
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__STORYBOARD__EP01_cut02_board.png.jpg"
       }
     },
     {
@@ -225,80 +233,165 @@
       }
     },
     {
-      "n": 2,
+      "n": 1,
       "skip": false,
       "active": true,
       "skip_reason": "",
       "who": "",
       "line": "",
       "spoken_line": false,
-      "direction": "뭘 쓸지 몰라 머리 긁적이는 준호 CU, 느린 줌인 (사용자 2026-11-16, UI 제거: 초대 전이라 타이핑 없음)",
-      "emotion": "긴장, 공들임, 촐싹",
-      "kind": "video",
-      "frame": "J4_junho_cu_r1",
+      "direction": "밤 열 시. 준호 혼자 소파 가운데, 폰을 두 손으로. 22명 방이 조용하다 (소파 와이드, 느린 줌)",
+      "emotion": "평온",
+      "kind": "still",
+      "frame": "W1c_opening_junho_only",
       "image": {
-        "path": "01_EPISODES/EP01R/frames/v08/J4_junho_cu_r1.png",
+        "path": "01_EPISODES/EP01R/frames/v08/W1c_opening_junho_only.png",
         "exists": true,
-        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J4_junho_cu_r1.png.jpg",
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__W1c_opening_junho_only.png.jpg",
         "is_ui_mp4": false,
         "variants": [
           {
-            "path": "01_EPISODES/EP01R/frames/v08/J4_junho_cu_r1.png",
-            "name": "J4_junho_cu_r1.png",
+            "path": "01_EPISODES/EP01R/frames/v08/W1c_opening_junho_only.png",
+            "name": "W1c_opening_junho_only.png",
             "label": "현재",
             "exists": true,
-            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J4_junho_cu_r1.png.jpg"
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__W1c_opening_junho_only.png.jpg"
           },
           {
-            "path": "01_EPISODES/EP01R/frames/v08/J4_junho_cu_r2.png",
-            "name": "J4_junho_cu_r2.png",
-            "label": "계열",
-            "exists": true,
-            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J4_junho_cu_r2.png.jpg"
-          },
-          {
-            "path": "01_EPISODES/EP01R/frames/v08/R02_junho_sofa_deleting_center.png",
-            "name": "R02_junho_sofa_deleting_center.png",
+            "path": "01_EPISODES/EP01R/frames/v08/C01_opening_full_wide.png",
+            "name": "C01_opening_full_wide.png",
             "label": "이전",
             "exists": true,
-            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__R02_junho_sofa_deleting_center.png.jpg"
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__C01_opening_full_wide.png.jpg"
           },
           {
-            "path": "01_EPISODES/EP01R/frames/v08/J1b_junho_deleting_r2_r1.png",
-            "name": "J1b_junho_deleting_r2_r1.png",
+            "path": "01_EPISODES/EP01R/frames/v08/EP01R_W1_wide_e1_r4.png",
+            "name": "EP01R_W1_wide_e1_r4.png",
             "label": "이전",
             "exists": true,
-            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__J1b_junho_deleting_r2_r1.png.jpg"
-          },
-          {
-            "path": "01_EPISODES/EP01R/frames/v08/R02c_junho_cu_typing_crop.png",
-            "name": "R02c_junho_cu_typing_crop.png",
-            "label": "이전",
-            "exists": true,
-            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__R02c_junho_cu_typing_crop.png.jpg"
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__EP01R_W1_wide_e1_r4.png.jpg"
           }
         ]
       },
       "video": {
-        "selected": "01_EPISODES/EP01R/video/v08/E1_02/EP01R_E1_02_kling3_take01_voC.mp4",
+        "selected": "01_EPISODES/EP01R/video/v08/E1_01/EP01R_E1_01_kling3_take02_voC.mp4",
         "selected_exists": true,
         "default_take": null,
         "takes": [
           {
             "take": 1,
-            "path": "01_EPISODES/EP01R/video/v08/E1_02/EP01R_E1_02_kling3_take01.mp4",
-            "name": "EP01R_E1_02_kling3_take01.mp4",
+            "path": "01_EPISODES/EP01R/video/v08/E1_01/EP01R_E1_01_kling3_take01.mp4",
+            "name": "EP01R_E1_01_kling3_take01.mp4",
+            "exists": true
+          },
+          {
+            "take": 2,
+            "path": "01_EPISODES/EP01R/video/v08/E1_01/EP01R_E1_01_kling3_take02.mp4",
+            "name": "EP01R_E1_01_kling3_take02.mp4",
             "exists": true
           }
         ],
         "note": ""
       },
       "conti": {
-        "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_cut02_board.png",
-        "status": "linked",
-        "reason": null,
-        "basis": "SCRIPT_CONTI_AUDIT 2.4 — 준호·소파·타이핑/삭제·시선 폰 일치",
-        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__STORYBOARD__EP01_cut02_board.png.jpg"
+        "path": null,
+        "status": "unlinked",
+        "reason": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "basis": null,
+        "preview": null
+      }
+    },
+    {
+      "n": 5,
+      "skip": false,
+      "active": true,
+      "skip_reason": "",
+      "who": "리아",
+      "line": "내가 잘 말해뒀어. 편하게 얘기해도 돼.",
+      "spoken_line": true,
+      "direction": "'내가 잘 말해뒀어.' 뒤 준호(소파 쪽) 바라보며 '편하게 얘기해도 돼.'",
+      "emotion": "무심, 다정",
+      "kind": "still",
+      "frame": "S_ria_island_act1_cu",
+      "image": {
+        "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act1_cu.png",
+        "exists": true,
+        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act1_cu.png.jpg",
+        "is_ui_mp4": false,
+        "variants": [
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act1_cu.png",
+            "name": "S_ria_island_act1_cu.png",
+            "label": "현재",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act1_cu.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act1.png",
+            "name": "S_ria_island_act1.png",
+            "label": "계열",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act1.png.jpg"
+          },
+          {
+            "path": "01_EPISODES/EP01R/frames/v08/G13_island_master_act1.png",
+            "name": "G13_island_master_act1.png",
+            "label": "이전",
+            "exists": true,
+            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__G13_island_master_act1.png.jpg"
+          }
+        ]
+      },
+      "video": {
+        "selected": "01_EPISODES/EP01R/video/v08/E1_05/EP01R_E1_05_kling3_take07_voC.mp4",
+        "selected_exists": true,
+        "default_take": null,
+        "takes": [
+          {
+            "take": 1,
+            "path": "01_EPISODES/EP01R/video/v08/E1_05/EP01R_E1_05_kling3_take01.mp4",
+            "name": "EP01R_E1_05_kling3_take01.mp4",
+            "exists": true
+          },
+          {
+            "take": 3,
+            "path": "01_EPISODES/EP01R/video/v08/E1_05/EP01R_E1_05_kling3_take03.mp4",
+            "name": "EP01R_E1_05_kling3_take03.mp4",
+            "exists": true
+          },
+          {
+            "take": 4,
+            "path": "01_EPISODES/EP01R/video/v08/E1_05/EP01R_E1_05_kling3_take04.mp4",
+            "name": "EP01R_E1_05_kling3_take04.mp4",
+            "exists": true
+          },
+          {
+            "take": 5,
+            "path": "01_EPISODES/EP01R/video/v08/E1_05/EP01R_E1_05_kling3_take05.mp4",
+            "name": "EP01R_E1_05_kling3_take05.mp4",
+            "exists": true
+          },
+          {
+            "take": 6,
+            "path": "01_EPISODES/EP01R/video/v08/E1_05/EP01R_E1_05_kling3_take06.mp4",
+            "name": "EP01R_E1_05_kling3_take06.mp4",
+            "exists": true
+          },
+          {
+            "take": 7,
+            "path": "01_EPISODES/EP01R/video/v08/E1_05/EP01R_E1_05_kling3_take07.mp4",
+            "name": "EP01R_E1_05_kling3_take07.mp4",
+            "exists": true
+          }
+        ],
+        "note": "11-06 take01 (사용자 선택 2026-11-09)"
+      },
+      "conti": {
+        "path": null,
+        "status": "unlinked",
+        "reason": "그림 콘티 없음(prompts_E1 텍스트만)",
+        "basis": null,
+        "preview": null
       }
     },
     {
@@ -470,99 +563,6 @@
         "path": null,
         "status": "skipped",
         "reason": "skip 행",
-        "basis": null,
-        "preview": null
-      }
-    },
-    {
-      "n": 5,
-      "skip": false,
-      "active": true,
-      "skip_reason": "",
-      "who": "리아",
-      "line": "내가 잘 말해뒀어. 편하게 얘기해도 돼.",
-      "spoken_line": true,
-      "direction": "'내가 잘 말해뒀어.' 뒤 준호(소파 쪽) 바라보며 '편하게 얘기해도 돼.'",
-      "emotion": "무심, 다정",
-      "kind": "still",
-      "frame": "S_ria_island_act1_cu",
-      "image": {
-        "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act1_cu.png",
-        "exists": true,
-        "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act1_cu.png.jpg",
-        "is_ui_mp4": false,
-        "variants": [
-          {
-            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act1_cu.png",
-            "name": "S_ria_island_act1_cu.png",
-            "label": "현재",
-            "exists": true,
-            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act1_cu.png.jpg"
-          },
-          {
-            "path": "01_EPISODES/EP01R/frames/v08/S_ria_island_act1.png",
-            "name": "S_ria_island_act1.png",
-            "label": "계열",
-            "exists": true,
-            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__S_ria_island_act1.png.jpg"
-          },
-          {
-            "path": "01_EPISODES/EP01R/frames/v08/G13_island_master_act1.png",
-            "name": "G13_island_master_act1.png",
-            "label": "이전",
-            "exists": true,
-            "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__G13_island_master_act1.png.jpg"
-          }
-        ]
-      },
-      "video": {
-        "selected": "01_EPISODES/EP01R/video/v08/E1_05/EP01R_E1_05_kling3_take07_voC.mp4",
-        "selected_exists": true,
-        "default_take": null,
-        "takes": [
-          {
-            "take": 1,
-            "path": "01_EPISODES/EP01R/video/v08/E1_05/EP01R_E1_05_kling3_take01.mp4",
-            "name": "EP01R_E1_05_kling3_take01.mp4",
-            "exists": true
-          },
-          {
-            "take": 3,
-            "path": "01_EPISODES/EP01R/video/v08/E1_05/EP01R_E1_05_kling3_take03.mp4",
-            "name": "EP01R_E1_05_kling3_take03.mp4",
-            "exists": true
-          },
-          {
-            "take": 4,
-            "path": "01_EPISODES/EP01R/video/v08/E1_05/EP01R_E1_05_kling3_take04.mp4",
-            "name": "EP01R_E1_05_kling3_take04.mp4",
-            "exists": true
-          },
-          {
-            "take": 5,
-            "path": "01_EPISODES/EP01R/video/v08/E1_05/EP01R_E1_05_kling3_take05.mp4",
-            "name": "EP01R_E1_05_kling3_take05.mp4",
-            "exists": true
-          },
-          {
-            "take": 6,
-            "path": "01_EPISODES/EP01R/video/v08/E1_05/EP01R_E1_05_kling3_take06.mp4",
-            "name": "EP01R_E1_05_kling3_take06.mp4",
-            "exists": true
-          },
-          {
-            "take": 7,
-            "path": "01_EPISODES/EP01R/video/v08/E1_05/EP01R_E1_05_kling3_take07.mp4",
-            "name": "EP01R_E1_05_kling3_take07.mp4",
-            "exists": true
-          }
-        ],
-        "note": "11-06 take01 (사용자 선택 2026-11-09)"
-      },
-      "conti": {
-        "path": null,
-        "status": "unlinked",
-        "reason": "그림 콘티 없음(prompts_E1 텍스트만)",
         "basis": null,
         "preview": null
       }
@@ -1537,15 +1537,15 @@
     },
     {
       "n": 19,
-      "skip": true,
-      "active": false,
+      "skip": false,
+      "active": true,
       "skip_reason": "사용자 2026-11-16 \"컷18 19 21 삭제\"",
       "who": "준호",
       "line": "어? 뭐야 뭐야, 뭔데? 나도 보여줘.",
       "spoken_line": true,
       "direction": "벌떡 일어나 리아 쪽으로 간다",
       "emotion": "호기심, 촐싹",
-      "kind": "still",
+      "kind": "clip",
       "frame": "J2c_halfstand_curious",
       "image": {
         "path": "01_EPISODES/EP01R/frames/v08/J2c_halfstand_curious.png",
@@ -1570,7 +1570,7 @@
         ]
       },
       "video": {
-        "selected": "01_EPISODES/EP01R/video/v08/E1_19/EP01R_E1_19_kling3_take02_voC.mp4",
+        "selected": "01_EPISODES/EP01R/video/v08/E1_19/EP01R_E1_19_kling3_take04_voC.mp4",
         "selected_exists": true,
         "default_take": null,
         "takes": [
@@ -1604,7 +1604,7 @@
       "conti": {
         "path": "01_EPISODES/EP01R/frames/v08/STORYBOARD/EP01_island_01_C07a.png",
         "status": "linked",
-        "reason": "skip 행",
+        "reason": null,
         "basis": "준호 소파 반쯤 일어남·폰·시선 아일랜드 일치(src_old J2)",
         "preview": "series_cuts/img/01_EPISODES__EP01R__frames__v08__STORYBOARD__EP01_island_01_C07a.png.jpg"
       }
@@ -1866,6 +1866,12 @@
             "take": 1,
             "path": "01_EPISODES/EP01R/video/v08/E1_23/EP01R_E1_23_kling3_take01.mp4",
             "name": "EP01R_E1_23_kling3_take01.mp4",
+            "exists": true
+          },
+          {
+            "take": 1,
+            "path": "01_EPISODES/EP01R/video/v08/E1_23/EP01R_E1_23_seedance2_take01.mp4",
+            "name": "EP01R_E1_23_seedance2_take01.mp4",
             "exists": true
           },
           {
@@ -3337,7 +3343,7 @@
         ]
       },
       "video": {
-        "selected": "01_EPISODES/EP01R/video/v08/E1_45/EP01R_E1_45_kling3_take02_voC.mp4",
+        "selected": "01_EPISODES/EP01R/video/v08/E1_45/EP01R_E1_45_kling3_take02_cm.mp4",
         "selected_exists": true,
         "default_take": null,
         "takes": [

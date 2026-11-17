@@ -15,7 +15,7 @@ OUT = ROOT / 'board_web'
 WORLD = ROOT / '00_MASTER_ASSETS/WORLD_PLANNING'
 SB = ROOT / '01_EPISODES/EP01R/frames/v08/STORYBOARD'
 EPISODES = [
-    dict(id='EP01', title='읽음 22', stage='완성 후보본 v121 검토', next='v094 전체 시청 판정 · 보류 컷 4·8·10·26 재시도 · 99_FINAL 파일명 확정', script='EP01_SCRIPT_FINAL_v07.md', boards='EP01_island_[0-9]*.png', finals=[('완성 후보 v121 (45 색 보정)','01_EPISODES/EP01R/export/EP01R_FINAL_20261116_v121.mp4'),('컷만 v121 (효과 없음)','01_EPISODES/EP01R/edit/EP01R_PICTURE_LOCK_v121.mp4'),('이전 후보 v120','01_EPISODES/EP01R/export/EP01R_FINAL_20261116_v120.mp4')]),
+    dict(id='EP01', title='읽음 22', stage='완성 후보본 v124 검토', next='v124 전체 시청 판정 · 컷 1 테이크 확인 · 17 알림음 교체 · 3/8/13/18/26/45 보드 요청 처리 · 99_FINAL 파일명 확정', script='EP01_SCRIPT_FINAL_v07.md', boards='EP01_island_[0-9]*.png', finals=[('완성 후보 v124 (순서 2>3>1>5>4, 19 take04)','01_EPISODES/EP01R/export/EP01R_FINAL_20261117_v124.mp4'),('컷만 v124 (효과 없음)','01_EPISODES/EP01R/edit/EP01R_PICTURE_LOCK_v124.mp4'),('이전 후보 v122 (옛 순서)','01_EPISODES/EP01R/export/EP01R_FINAL_20261117_v122.mp4'),('이전 후보 v120 (11-16)','01_EPISODES/EP01R/export/EP01R_FINAL_20261116_v120.mp4')]),
     dict(id='EP02', title='싸움은 모국어로', stage='컷별 비교 보드', next='시트2 칸14~16 콘티 재생성(그록봇) · 24·30 상자 동작 권장 · 기준 이미지 일부 연결', script='EP02_SCRIPT_v08.md', boards='EP02_v01_[0-9]*.png', boards_dir='01_EPISODES/EP02_싸움은모국어로/STORYBOARD'),
     dict(id='EP03', title='오늘 못 와?', stage='각본·단톡 UI 초안', next='단톡 UI 검수 · 콘티 준비', script='EP03_SCRIPT_v03.md', boards=None, ui='ep03_chat/index.html'),
     dict(id='EP04', title='조금만 주세요', stage='각본 초안', next='할머니·수만 음식 교류 각본 검토 · 번역 장면과 콘티 준비', script='EP04_SCRIPT_v02.md', boards=None),
